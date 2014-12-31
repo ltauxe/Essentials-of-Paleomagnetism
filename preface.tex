@@ -1,0 +1,129 @@
+\subsection*{Preface}
+\addcontentsline{toc}{subsection}{Preface}
+
+{\bf 1  Purpose of the book}
+
+The geomagnetic field acts both as an umbrella, shielding us from cosmic radiation and as a window, offering one of the few glimpses of the inner workings of the Earth.  Ancient records of the geomagnetic field can inform us about geodynamics of the early Earth and changes in boundary conditions through time.    Thanks to its essentially dipolar nature, the geomagnetic field  has acted as a guide, pointing to the axis of rotation thereby providing latitudinal information for both explorers and geologists. 
+
+  Human measurements of the geomagnetic field date to about  a millenium and are quite sparse prior to about 400 years ago. Knowledge of what the field has done in the past relies on accidental records carried by geological and archaeological materials.  Teasing out meaningful information from such materials requires  an understanding of  the fields of rock magnetism and paleomagnetism, the subjects of this book. 
+Rock and paleomagnetic data are useful in many applications in Earth Science in addition to the study of the ancient geomagnetic field.
+   This book attempts to
+draw together essential rock magnetic theory and useful paleomagnetic techniques   in a
+consistent and up-to-date manner.  It was written for several categories of
+readers:
+
+\begin{enumerate}
+\item Earth scientists who use paleomagnetic data in their research,
+
+\item  students taking a class with paleomagnetic content,
+
+\item  other professionals with an interest in evaluating or using paleomagnetic data, and
+
+\item anyone with at least college level chemistry, physics and a cursory knowledge of Earth science with an interest in magnetism in the Earth. 
+\end{enumerate}
+
+There are a number of excellent references on paleomagnetism and on the related
+specialties (rock magnetism and geomagnetism).    The ever popular but now out of print text  by Butler (1992) has largely been incorporated into the present text.  
+ For in-depth coverage of
+rock magnetism, we recommend Dunlop and \"Ozdemir (1997).  Similarly for
+geomagnetism, please see Backus et al. [1996].  A rigorous analysis of 
+the statistics of spherical data is given by Fisher et al. (1987).  The details
+of paleomagnetic poles are covered in van der Voo (1993) and
+magnetostratigraphy is covered in depth by Opdyke and Channell (1996).  The Treatise in Geophysics, vol. 5  (edited by Kono, 2007) \nocite{kono07b} and The Encyclopedia of Geomagnetism and Paleomagnetism (edited by Gubbins and Herrero-Bervera, 2007) \nocite{gubbins07} have  up to date reviews of many topics covered in this book.  
+The present book is intended to augment or distill information from the broad field of
+paleomagnetism, complementing the existing body of literature.
+\nocite{mcelhinny00,dunlop97,backus96,fisher87,voo93,opdyke96} 
+
+An important part of the  problems in this book  is to teach students to  write simple computer programs themselves and use programs that are supplied 
+as a companion set of software ({\bf PmagPy}).   The programming language chosen for this is Python because
+it is free, cross platform, open source and well supported.   There are excellent online tutorials for Python and many open source modules which make software development cheaper and easier than any other programming environment.  The appendix provides a brief introduction to programming and using Python.  The reader is well advised to peruse the  \href{http://earthref.org/PmagPy/cookbook/}{PmagPy Cookbook} for further help in gaining necessary skills with a computer.    Also, students should have access to a relatively new computer (Windows, Mac OS 10.4 or higher are supported, but other computers may also work.)  Software installation is described at:  magician.ucsd.edu/Software/PmagPy.
+
+
+
+
+
+\noindent
+{\bf 2 What is in the book}
+
+
+
+This book is a collaborative effort with contributions from R.F. Butler (Chapters 1, 3, 4, 6, 7, 9, 11 and the Appendix),  S.K Banerjee (Chapter 8) and R. van der Voo (Chapter 16).  The MagIC database team designed and deployed the MagIC database which we have made liberal use of in providing  data for problem sets and in the writing of  the \href{http://earthref.org/PmagPy/cookbook/}{PmagPy Cookbook},  so there were significant contributions to this book project from C.G.  Constable,  A.A.P. Koppers and Rupert Minnett.  
+
+ At the beginning of most chapters, there are recommended readings which will help fill in background knowledge.  There are also suggested readings at the end of most chapters that will allow students to pursue the subject matter in more depth.  
+
+The chapters themselves contain the essential theory required to understand paleomagnetic research as well as illustrative applications.  Each chapter is followed by a set of  practical problems that challenge the student's understanding of the material.  Many problems use real  data and encourage students to analyze the data themselves.  [Solutions to the problems may be obtained from LT  by instructors of classes using this book as a text.]    The appendix contains detailed derivations, assorted techniques, useful tables and a comprehensive explanation of the {\bf PmagPy} set of programs.   
+
+
+
+
+
+Chapter 1 begins with a review of the physics of magnetic fields.
+ Maxwell's equations are introduced where
+appropriate and the magnetic units are derived from first principles. 
+The conversion of units between cgs and SI conventions is also discussed and
+summarized in a handy table.
+
+
+Chapter 2  reviews essential aspects of  the Earth's magnetic field, 
+discussing the geomagnetic potential,
+geomagnetic elements, and the geomagnetic reference fields. The various
+magnetic poles of the Earth are also introduced.   
+
+Chaptes 3-8 deal with rock and mineral magnetism. The most important aspect of rock
+magnetism to the working paleomagnetist is how rocks can become magnetized and
+how they can stay that way.  In order to understand this, Chapter 3
+presents a discussion of the origin of magnetism in crystals,
+including induced and remanent magnetism.  Chapter 4 continues with an explanation of  anisotropy energy, magnetic domains and superparamagnetism.  Magnetic hysteresis is covered in Chapter 5.
+Chapter 6 deals with specific magnetic minerals and their properties, leading up to the origin of magnetic remanence in rocks, the topic  of Chapter 7.    Finally Chapter 8 deals with applied rock magnetism and environmental magnetism.  
+
+Chapters 9-13  delve into the nuts and bolts of  paleomagnetic data acquisition and analysis.  Chapter 9 suggests ways of sampling rocks in the field and methods for treating them in the laboratory to obtain a paleomagnetic direction.  Various techniques for obtaining paleointensities are described in Chapter 10.  Once the data are in hand, Chapters 11 and 12 deal with statistical methods for analyzing magnetic vectors.  Paleomagnetic tensors are introduced in Chapter 13, which explains measurement and treatment of  anisotropy  data.    
+
+Chapters 14-16 illustrate diverse applications of paleomagnetic data.   Chapter 14 shows how  they are used to study the geomagnetic field.  Chapter 15 describes the development of the geomagnetic polarity time scale and various applications of magnetostratigraphy.  Chapter 16 focuses on apparent polar wander and tectonic applications.   
+
+The appendix contains more detailed information,  included for supplemental background or useful techniques.  It is divided into several sections:  Appendix~\ref{app:definitions} summarizes various definitions and detailed derivations including various mathematical tricks such as vector and tensor operations.  Appendix~\ref{app:eqarea} describes some plots commonly employed by paleomagnetists.   Appendix~\ref{app:dirstics} collects together methods and tables useful in directional  statistics.    Appendix~\ref{app:anis} describes techniques specific to the measurement and analysis of anisotropy data.   The   \href{http://earthref.org/PmagPy/cookbook/}{PmagPy Cookbook}  provides an introduction to the Magnetics Information Consortium (MagIC) database, the current repository for rock and paleomagnetic data and  summarizes essential computer skills including basic Unix commands,  an introduction to Python programming and extensive examples of  programs in the  {\bf PmagPy}  software package  used in the problems at the end of each chapter.  
+
+\noindent
+{\bf 3 How to use the book}
+
+ Each chapter builds on
+the principles outlined in the previous chapters, so the reader is encouraged
+to work through the book sequentially.    There are recommended readings before and after every chapter selected to provide backgound information and supplemental reading for the motivated reader respectively.  These are meant to be optional.  
+
+The reader is encouraged to study  Chapter 6 in the  \href{http://earthref.org/PmagPy/cookbook/}{PmagPy Cookbook} before beginning to work on the problems at the end of each chapter.  The utility of the book
+will be greatly enhanced by successfully installing and using the programs
+referred to in the problems.     By conscientiously trying them out  as they are mentioned, the  reader
+will not only gain familiarity with  {\bf PmagPy} software package, but also
+with the concepts discussed in the chapters. 
+
+We  have attempted to maintain a consistent notation throughout the book.
+Vectors  and tensors are in bold face; other parameters, including
+vector components, are in italics.  The most important 
+physical and paleomagnetic parameters, acronyms and statistics are listed in Appendix~\ref{app:definitions}.  
+
+\noindent
+{\bf 4 Acknowledgements}
+  
+LT is the primary author of this book who bears sole responsibility for all mistakes.  There are significant contributions by RFB, SKB and RvdV.     We are indebted to many people for assistance
+great and small.  This book began life as a set of lecture notes based loosely on the earlier book by Tauxe (1998).  Many pairs of
+eyes hunted down errors  in the text
+and  the programs each time the course was given.  The course was also occasionally co-taught with Cathy Constable and Jeff Gee who contributed significantly to  the development of the manuscript and the proof-reading there-of.   Thanks go to the many ``live'' and ``online'' students who patiently worked through various drafts.  Special thanks go to Kenneth Yuan,  Liu Cy , Maxwell Brown and Michael Wack who provided many detailed comments and helpful suggestions.   Reviews by Ken Kodama, Brad Clement, Scott Bogue and Cor Langereis improved the book substantially.   Also, careful proof-reading by Newlon Tauxe of the first few chapters is greatly appreciated.
+
+
+I owe a debt of gratitude to the many sources of public domain software that
+ended up in the package {\bf PmagPy}, including contributions by  Peter Selkin,  Ron Shaar and Ritayan Mitra as well as the many dedicated contributors to the Numpy, Matplotlib, and Basemap Python modules used extensively by {\bf PmagPy.}  Also, many illustrations were prepared with the excellent programs {\bf Magmap, Contour} and {\bf Plotxy} by Robert L. Parker, to whom I remain deeply grateful.  
+I  gratefully acknowledge   the authors of many earlier  books, too many to name but included in the Bibliography,  which both educated and inspired me.
+
+
+Finally, I am   grateful to my husband, Hubert Staudigel,  and my children, Philip and Daniel Staudigel who have long tolerated my obsession with paleomagnetism with grace and good humor and frequently good advice. 
+
+
+
+\vskip 18pt
+{\obeylines
+Lisa Tauxe
+Scripps Institution of Oceanography
+La Jolla, CA 92093-0220
+U.S.A.
+}
+
+

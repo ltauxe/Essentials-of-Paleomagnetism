@@ -1,0 +1,40 @@
+To convert the book into html:
+
+-Open terminal -Change to the directory with WebBook2.tex -Type command
+' htlatex WebBook2 "html, 1, sections+" ' (This is the equivalent of
+running LaTeX, BibTex, LaTex, LaTex, tex4ht, t4ht).  For the options,
+you will always want 'html'.  1-4 will determine how many html documents
+you generate -- if you choose 1, you will get one big html document;
+with 2 you will get a html document for each chapter; with 3 a document
+for each section; with 4 a document for each subsection.
+
+-To generate a list of the customlinks, use the command "cat
+WebBook2.log | grep Customlinks > index_of_links.txt"  You can name the
+.txt file whatever you want, and it will be created.
+
+Tricks for LaTeX to html:
+
+-Customlinks.  Download Customlinks package, and include customlinks.tex document in the directory you will be working with.  Include this in the LaTeX document:
+ \begin{document}
+ \input{customlinks.tex} % comment these out for book version
+ \newcommand{\be}{\begin{equation}}% comment these out for book version
+ \newcommand{\ee}{\end{equation}}% comment these out for book version
+
+-To create a customlink, put this command into the .tex document
+"/customlink{name_of_link}.  This will create a named anchor in the html
+that looks like this: WebBook2.html#name_of_link.  This can be
+referenced in other websites.
+
+-To include a link, include \usepackage{hyperref} in the preamble.  
+
+-To put a link into the text, use the command
+"/url{http://www.website.com}".  The link must begin with http://.  This
+will show up in the html as: http://www.website.com, and it will be a
+clickable link.
+
+-To put clickable text other than the link into the text, use the
+command "/href{http://www.website.com}{Interesting Website}.  This
+will show up in the html as: Interesting Website, and it will also be
+clickable and will direct you to http://www.website.com.
+
+Additional documentation is available at this website: http://folk.uio.no/simek/document/html/document.html#documentse6.html

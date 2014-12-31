@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: WebBook3.aux
+A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: Chapters/chapter1.aux
+A level-1 auxiliary file: Chapters/chapter2.aux
+A level-1 auxiliary file: Chapters/chapter3.aux
+A level-1 auxiliary file: Chapters/chapter4.aux
+A level-1 auxiliary file: Chapters/chapter5.aux
+A level-1 auxiliary file: Chapters/chapter6.aux
+A level-1 auxiliary file: Chapters/chapter7.aux
+A level-1 auxiliary file: Chapters/chapter8.aux
+A level-1 auxiliary file: Chapters/chapter9.aux
+A level-1 auxiliary file: Chapters/chapter10.aux
+A level-1 auxiliary file: Chapters/chapter11.aux
+A level-1 auxiliary file: Chapters/chapter12.aux
+A level-1 auxiliary file: Chapters/chapter13.aux
+A level-1 auxiliary file: Chapters/chapter14.aux
+A level-1 auxiliary file: Chapters/chapter15.aux
+A level-1 auxiliary file: Chapters/chapter16.aux
+A level-1 auxiliary file: Chapters/appendix.aux
+The style file: apalike2.bst
+Reallocated field_info (elt_size=4) to 13250 items from 5000.
+Database file #1: UCPbook.bib
+Warning--empty journal in hunt95
+You've used 375 entries,
+            2227 wiz_defined-function locations,
+            2400 strings with 59294 characters,
+and the built_in function-call counts, 157859 in all, are:
+= -- 15609
+> -- 5835
+< -- 267
++ -- 2050
+- -- 1909
+* -- 13657
+:= -- 27062
+add.period$ -- 1144
+call.type$ -- 375
+change.case$ -- 2434
+chr.to.int$ -- 366
+cite$ -- 376
+duplicate$ -- 5527
+empty$ -- 11659
+format.name$ -- 2530
+if$ -- 31347
+int.to.chr$ -- 10
+int.to.str$ -- 0
+missing$ -- 406
+newline$ -- 1878
+num.names$ -- 1161
+pop$ -- 2045
+preamble$ -- 1
+purify$ -- 2809
+quote$ -- 0
+skip$ -- 4194
+stack$ -- 0
+substring$ -- 14278
+swap$ -- 594
+text.length$ -- 33
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2184
+warning$ -- 1
+while$ -- 1216
+width$ -- 0
+write$ -- 4902
+(There was 1 warning)

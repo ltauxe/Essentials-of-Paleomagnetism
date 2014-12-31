@@ -1,0 +1,107 @@
+
+
+%used to read \input mydefs, change back as needed
+\input mydefs 
+\documentclass[11pt]{book}
+\usepackage{stylemydefs}
+%\input epsf
+\usepackage{natbib}
+\usepackage{appendix}
+\usepackage{bm}
+\usepackage{amssymb}
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\captionfonts #1: #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+\newcommand{\captionfonts}{\small}
+\usepackage{rotating}
+\usepackage{longtable}
+
+% for book only:
+%\usepackage[left=1.4in,right=1.4in,bottom=1.4in,top=1.4in]{geometry}
+
+%\usepackage{makeidx}
+%\makeindex
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyfoot[C]{\thepage}
+%\fancyhead[LO]{\bfseries\rightmark} 
+%\fancyhead[RE]{\bfseries\leftmark} 
+% 
+
+
+% comment these out for book version
+\usepackage{hyperref} % comment these out for book version
+
+ \begin{document}
+%\input{customlinks.tex} % comment these out for book version
+  \newcommand{\be}{\begin{equation}}% comment these out for book version
+\newcommand{\ee}{\end{equation}}% comment these out for book version
+
+ 
+ 
+ \title{Essentials of  Paleomagnetism: Third Web Edition}
+ \author{Lisa Tauxe\\Scripps Institution of Oceanography\\La Jolla, CA 92093-0220\\ \\
+  with contributions from: \\ Subir K. Banerjee, Robert F. Butler and Rob van der Voo}
+  \today
+ \maketitle
+ 
+{\bf The material on this website is freely available for educational purposes. }
+
+Requests for re-use of digital images: contact the \href{http://http://www.ucpress.edu}{UC Press.}
+
+Proper citation of the material found in these pages is: 
+
+Tauxe, L, Banerjee, S.K., Butler, R.F. and van der Voo R, Essentials of Paleomagnetism, 3rd Web Edition, 2014. 
+
+The printed version of this book appeared January, 2010. Order a \href{http://www.ucpress.edu/books/pages/11183.php}{printed version}. (cheaper than printing it yourself!)
+
+{\bf Solutions to the problems at the end of each chapter can be requested if you are an instructor using Essentials of Paleomagnetism as a textbook.}
+
+To request approval or solution to problem set, contact ltauxe@ucsd.edu 
+
+\href{http://magician.ucsd.edu/~ltauxe/}{Lisa Tauxe}, \href{http://scripps.ucsd.edu}{Scripps Institution of Oceanography}, La Jolla, CA 92093-0220
+
+This book is intended to work with the companion software package described in \href{http://earthref.org/PmagPy/cookbook/}{PmagPy Cookbook}.   
+
+This work was partially supported by NSF.
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+\include {preface}
+\setcounter{tocdepth}{3}
+\tableofcontents
+%\listoffigures
+\clearpage
+\pagenumbering{arabic}
+%\fancyfoot[C]{\thepage}
+\setcounter{page}{1}
+\include{Chapters/chapter1}
+\include{Chapters/chapter2}
+\include{Chapters/chapter3}
+\include{Chapters/chapter4}
+\include{Chapters/chapter5} 
+\include{Chapters/chapter6}
+\include{Chapters/chapter7}
+\include{Chapters/chapter8}  
+\include{Chapters/chapter9}
+\include{Chapters/chapter10}
+\include{Chapters/chapter11}
+\include{Chapters/chapter12}
+\include{Chapters/chapter13} 
+\include{Chapters/chapter14}
+\include{Chapters/chapter15} 
+\include{Chapters/chapter16}
+\include{Chapters/appendix}
+\bibliography{UCPbook}
+\bibliographystyle{apalike2}
+\end{document}  

@@ -1,0 +1,18 @@
+sed -f unsedlist chapter1.tex >tmp; mv tmp  chapter1.tex
+sed -f unsedlist chapter10.tex >tmp; mv tmp  chapter10.tex
+sed -f unsedlist chapter11.tex >tmp; mv tmp  chapter11.tex
+sed -f unsedlist chapter12.tex >tmp; mv tmp  chapter12.tex
+sed -f unsedlist chapter13.tex >tmp; mv tmp  chapter13.tex
+sed -f unsedlist chapter14.tex >tmp; mv tmp  chapter14.tex
+sed -f unsedlist chapter15.tex >tmp; mv tmp  chapter15.tex
+sed -f unsedlist chapter16.tex >tmp; mv tmp  chapter16.tex
+sed -f unsedlist chapter2.tex >tmp; mv tmp  chapter2.tex
+sed -f unsedlist chapter3.tex >tmp; mv tmp  chapter3.tex
+sed -f unsedlist chapter4.tex >tmp; mv tmp  chapter4.tex
+sed -f unsedlist chapter5.tex >tmp; mv tmp  chapter5.tex
+sed -f unsedlist chapter6.tex >tmp; mv tmp  chapter6.tex
+sed -f unsedlist chapter7.tex >tmp; mv tmp  chapter7.tex
+sed -f unsedlist chapter8.tex >tmp; mv tmp  chapter8.tex
+sed -f unsedlist chapter9.tex >tmp; mv tmp  chapter9.tex
+sed -f unsedlist chapter9.tex >tmp; mv tmp  chapter9.tex
+cp appendix.bak appendx.tex

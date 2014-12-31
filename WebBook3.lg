@@ -1,0 +1,976 @@
+htfcss: cmtt font-family: monospace;
+htfcss: cmti  font-style: italic;
+htfcss: cmtt font-family: monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+File: WebBook3.html
+File: WebBook3.css
+File: WebBook3.tmp
+File: WebBook3li1.html
+File: WebBook3ch1.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch2.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch3.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+Font_Class(1,"1"): <img  src="" alt="" class="%s-%dx-x-%x" />
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch4.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch5.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch6.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch7.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch8.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch9.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch10.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch11.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch12.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch13.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch14.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch15.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ch16.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ap1.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ap2.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ap3.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3ap4.html
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3.tmp
+File: WebBook3li2.html
+Css: p.noindent { text-indent: 0em }
+Css: td p.noindent { text-indent: 0em; margin-top:0em; }
+Css: p.nopar { text-indent: 0em; }
+Css: p.indent{ text-indent: 1.5em }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 1px; margin:0px; }
+Css: .tabbing-right {text-align:right;}
+Css: span.TEX {letter-spacing: -0.125em; }
+Css: span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+Css: a span.TEX span.E {text-decoration: none; }
+Css: span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+Css: span.LATEX span.TEX{ position:relative; left: -0.4em; }
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Font_Size: 11
+Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+Css: h1.partHead{text-align: center}
+Css:  .chapterToc, .likechapterToc {margin-left:0em;}
+Css:  .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {margin-left:2em;}
+Css:  .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {margin-left:4em;}
+Css: .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:6em;}
+Css:  .likesectionToc , .sectionToc {margin-left:0em;}
+Css:  .likesectionToc ~ .likesubsectionToc, .likesectionToc ~ .subsectionToc, .sectionToc ~ .likesubsectionToc, .sectionToc ~ .subsectionToc {margin-left:2em;}
+Css: .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:4em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:0em;}
+Css:  .likesubsectionToc ~ .subsubsectionToc, .subsectionToc ~ .subsubsectionToc, {margin-left:2em;}
+Css: .figure img.graphics {margin-left:10%;}
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: div.longtable{text-align:center;}
+--- needs --- WebBook3.idv[2] ==> WebBook30x.png ---
+--- needs --- WebBook3.idv[4] ==> WebBook31x.png ---
+--- needs --- WebBook3.idv[6] ==> WebBook32x.png ---
+--- needs --- WebBook3.idv[8] ==> WebBook33x.png ---
+--- needs --- WebBook3.idv[10] ==> WebBook34x.png ---
+--- needs --- WebBook3.idv[12] ==> WebBook35x.png ---
+--- needs --- WebBook3.idv[14] ==> WebBook36x.png ---
+--- needs --- WebBook3.idv[16] ==> WebBook37x.png ---
+--- needs --- WebBook3.idv[18] ==> WebBook38x.png ---
+--- needs --- WebBook3.idv[20] ==> WebBook39x.png ---
+--- needs --- WebBook3.idv[22] ==> WebBook310x.png ---
+--- needs --- WebBook3.idv[24] ==> WebBook311x.png ---
+--- needs --- WebBook3.idv[26] ==> WebBook312x.png ---
+--- needs --- WebBook3.idv[27] ==> WebBook313x.png ---
+--- needs --- WebBook3.idv[29] ==> WebBook314x.png ---
+--- needs --- WebBook3.idv[31] ==> WebBook315x.png ---
+--- needs --- WebBook3.idv[33] ==> WebBook316x.png ---
+--- needs --- WebBook3.idv[35] ==> WebBook317x.png ---
+--- needs --- WebBook3.idv[37] ==> WebBook318x.png ---
+--- needs --- WebBook3.idv[38] ==> WebBook319x.png ---
+--- needs --- WebBook3.idv[40] ==> WebBook320x.png ---
+--- needs --- WebBook3.idv[42] ==> WebBook321x.png ---
+--- needs --- WebBook3.idv[44] ==> WebBook322x.png ---
+--- needs --- WebBook3.idv[46] ==> WebBook323x.png ---
+--- needs --- WebBook3.idv[47] ==> WebBook324x.png ---
+--- needs --- WebBook3.idv[49] ==> WebBook325x.png ---
+--- needs --- WebBook3.idv[51] ==> WebBook326x.png ---
+--- needs --- WebBook3.idv[53] ==> WebBook327x.png ---
+--- needs --- WebBook3.idv[55] ==> WebBook328x.png ---
+--- needs --- WebBook3.idv[57] ==> WebBook329x.png ---
+--- needs --- WebBook3.idv[59] ==> WebBook330x.png ---
+--- needs --- WebBook3.idv[61] ==> WebBook331x.png ---
+--- needs --- WebBook3.idv[63] ==> WebBook332x.png ---
+--- needs --- WebBook3.idv[65] ==> WebBook333x.png ---
+--- needs --- WebBook3.idv[67] ==> WebBook334x.png ---
+--- needs --- WebBook3.idv[69] ==> WebBook335x.png ---
+--- needs --- WebBook3.idv[71] ==> WebBook336x.png ---
+--- needs --- WebBook3.idv[73] ==> WebBook337x.png ---
+--- needs --- WebBook3.idv[74] ==> WebBook338x.png ---
+--- needs --- WebBook3.idv[76] ==> WebBook339x.png ---
+--- needs --- WebBook3.idv[78] ==> WebBook340x.png ---
+--- needs --- WebBook3.idv[80] ==> WebBook341x.png ---
+--- needs --- WebBook3.idv[82] ==> WebBook342x.png ---
+--- needs --- WebBook3.idv[84] ==> WebBook343x.png ---
+--- needs --- WebBook3.idv[86] ==> WebBook344x.png ---
+--- needs --- WebBook3.idv[88] ==> WebBook345x.png ---
+--- needs --- WebBook3.idv[90] ==> WebBook346x.png ---
+--- needs --- WebBook3.idv[92] ==> WebBook347x.png ---
+--- needs --- WebBook3.idv[94] ==> WebBook348x.png ---
+--- needs --- WebBook3.idv[96] ==> WebBook349x.png ---
+--- needs --- WebBook3.idv[98] ==> WebBook350x.png ---
+--- needs --- WebBook3.idv[100] ==> WebBook351x.png ---
+--- needs --- WebBook3.idv[102] ==> WebBook352x.png ---
+--- needs --- WebBook3.idv[104] ==> WebBook353x.png ---
+--- needs --- WebBook3.idv[105] ==> WebBook354x.png ---
+--- needs --- WebBook3.idv[107] ==> WebBook355x.png ---
+--- needs --- WebBook3.idv[108] ==> WebBook356x.png ---
+--- needs --- WebBook3.idv[110] ==> WebBook357x.png ---
+--- needs --- WebBook3.idv[112] ==> WebBook358x.png ---
+--- needs --- WebBook3.idv[114] ==> WebBook359x.png ---
+--- needs --- WebBook3.idv[116] ==> WebBook360x.png ---
+--- needs --- WebBook3.idv[117] ==> WebBook361x.png ---
+--- needs --- WebBook3.idv[119] ==> WebBook362x.png ---
+--- needs --- WebBook3.idv[121] ==> WebBook363x.png ---
+--- needs --- WebBook3.idv[123] ==> WebBook364x.png ---
+--- needs --- WebBook3.idv[124] ==> WebBook365x.png ---
+--- needs --- WebBook3.idv[126] ==> WebBook366x.png ---
+--- needs --- WebBook3.idv[128] ==> WebBook367x.png ---
+--- needs --- WebBook3.idv[130] ==> WebBook368x.png ---
+--- needs --- WebBook3.idv[132] ==> WebBook369x.png ---
+--- needs --- WebBook3.idv[134] ==> WebBook370x.png ---
+--- needs --- WebBook3.idv[136] ==> WebBook371x.png ---
+--- needs --- WebBook3.idv[138] ==> WebBook372x.png ---
+--- needs --- WebBook3.idv[140] ==> WebBook373x.png ---
+--- needs --- WebBook3.idv[141] ==> WebBook374x.png ---
+--- needs --- WebBook3.idv[143] ==> WebBook375x.png ---
+--- needs --- WebBook3.idv[145] ==> WebBook376x.png ---
+--- needs --- WebBook3.idv[147] ==> WebBook377x.png ---
+--- needs --- WebBook3.idv[148] ==> WebBook378x.png ---
+--- needs --- WebBook3.idv[150] ==> WebBook379x.png ---
+--- needs --- WebBook3.idv[152] ==> WebBook380x.png ---
+--- needs --- WebBook3.idv[154] ==> WebBook381x.png ---
+--- needs --- WebBook3.idv[156] ==> WebBook382x.png ---
+--- needs --- WebBook3.idv[157] ==> WebBook383x.png ---
+--- needs --- WebBook3.idv[159] ==> WebBook384x.png ---
+--- needs --- WebBook3.idv[160] ==> WebBook385x.png ---
+--- needs --- WebBook3.idv[162] ==> WebBook386x.png ---
+--- needs --- WebBook3.idv[164] ==> WebBook387x.png ---
+--- needs --- WebBook3.idv[166] ==> WebBook388x.png ---
+--- needs --- WebBook3.idv[168] ==> WebBook389x.png ---
+--- needs --- WebBook3.idv[170] ==> WebBook390x.png ---
+--- needs --- WebBook3.idv[172] ==> WebBook391x.png ---
+--- needs --- WebBook3.idv[174] ==> WebBook392x.png ---
+--- needs --- WebBook3.idv[176] ==> WebBook393x.png ---
+--- needs --- WebBook3.idv[178] ==> WebBook394x.png ---
+--- needs --- WebBook3.idv[180] ==> WebBook395x.png ---
+--- needs --- WebBook3.idv[181] ==> WebBook396x.png ---
+--- needs --- WebBook3.idv[183] ==> WebBook397x.png ---
+--- needs --- WebBook3.idv[185] ==> WebBook398x.png ---
+--- needs --- WebBook3.idv[187] ==> WebBook399x.png ---
+--- needs --- WebBook3.idv[188] ==> WebBook3100x.png ---
+--- needs --- WebBook3.idv[189] ==> WebBook3101x.png ---
+--- needs --- WebBook3.idv[191] ==> WebBook3102x.png ---
+--- needs --- WebBook3.idv[193] ==> WebBook3103x.png ---
+--- needs --- WebBook3.idv[195] ==> WebBook3104x.png ---
+--- needs --- WebBook3.idv[196] ==> WebBook3105x.png ---
+--- needs --- WebBook3.idv[197] ==> WebBook3106x.png ---
+--- needs --- WebBook3.idv[198] ==> WebBook3107x.png ---
+--- needs --- WebBook3.idv[199] ==> WebBook3108x.png ---
+--- needs --- WebBook3.idv[201] ==> WebBook3109x.png ---
+--- needs --- WebBook3.idv[203] ==> WebBook3110x.png ---
+--- needs --- WebBook3.idv[205] ==> WebBook3111x.png ---
+--- needs --- WebBook3.idv[207] ==> WebBook3112x.png ---
+--- needs --- WebBook3.idv[209] ==> WebBook3113x.png ---
+--- needs --- WebBook3.idv[211] ==> WebBook3114x.png ---
+--- needs --- WebBook3.idv[213] ==> WebBook3115x.png ---
+--- needs --- WebBook3.idv[215] ==> WebBook3116x.png ---
+--- needs --- WebBook3.idv[217] ==> WebBook3117x.png ---
+--- needs --- WebBook3.idv[219] ==> WebBook3118x.png ---
+--- needs --- WebBook3.idv[221] ==> WebBook3119x.png ---
+--- needs --- WebBook3.idv[223] ==> WebBook3120x.png ---
+--- needs --- WebBook3.idv[225] ==> WebBook3121x.png ---
+--- needs --- WebBook3.idv[227] ==> WebBook3122x.png ---
+--- needs --- WebBook3.idv[229] ==> WebBook3123x.png ---
+--- needs --- WebBook3.idv[231] ==> WebBook3124x.png ---
+--- needs --- WebBook3.idv[232] ==> WebBook3125x.png ---
+--- needs --- WebBook3.idv[234] ==> WebBook3126x.png ---
+--- needs --- WebBook3.idv[236] ==> WebBook3127x.png ---
+--- needs --- WebBook3.idv[238] ==> WebBook3128x.png ---
+--- needs --- WebBook3.idv[240] ==> WebBook3129x.png ---
+--- needs --- WebBook3.idv[242] ==> WebBook3130x.png ---
+--- needs --- WebBook3.idv[244] ==> WebBook3131x.png ---
+--- needs --- WebBook3.idv[246] ==> WebBook3132x.png ---
+--- needs --- WebBook3.idv[248] ==> WebBook3133x.png ---
+--- needs --- WebBook3.idv[250] ==> WebBook3134x.png ---
+--- needs --- WebBook3.idv[252] ==> WebBook3135x.png ---
+--- needs --- WebBook3.idv[254] ==> WebBook3136x.png ---
+--- needs --- WebBook3.idv[256] ==> WebBook3137x.png ---
+--- needs --- WebBook3.idv[258] ==> WebBook3138x.png ---
+--- needs --- WebBook3.idv[259] ==> WebBook3139x.png ---
+--- needs --- WebBook3.idv[261] ==> WebBook3140x.png ---
+--- needs --- WebBook3.idv[262] ==> WebBook3141x.png ---
+--- needs --- WebBook3.idv[264] ==> WebBook3142x.png ---
+--- needs --- WebBook3.idv[266] ==> WebBook3143x.png ---
+--- needs --- WebBook3.idv[268] ==> WebBook3144x.png ---
+--- needs --- WebBook3.idv[269] ==> WebBook3145x.png ---
+--- needs --- WebBook3.idv[270] ==> WebBook3146x.png ---
+--- needs --- WebBook3.idv[272] ==> WebBook3147x.png ---
+--- needs --- WebBook3.idv[274] ==> WebBook3148x.png ---
+--- needs --- WebBook3.idv[276] ==> WebBook3149x.png ---
+--- needs --- WebBook3.idv[278] ==> WebBook3150x.png ---
+--- needs --- WebBook3.idv[280] ==> WebBook3151x.png ---
+--- needs --- WebBook3.idv[282] ==> WebBook3152x.png ---
+--- needs --- WebBook3.idv[284] ==> WebBook3153x.png ---
+--- needs --- WebBook3.idv[285] ==> WebBook3154x.png ---
+--- needs --- WebBook3.idv[287] ==> WebBook3155x.png ---
+--- needs --- WebBook3.idv[289] ==> WebBook3156x.png ---
+--- needs --- WebBook3.idv[291] ==> WebBook3157x.png ---
+--- needs --- WebBook3.idv[293] ==> WebBook3158x.png ---
+--- needs --- WebBook3.idv[295] ==> WebBook3159x.png ---
+--- needs --- WebBook3.idv[297] ==> WebBook3160x.png ---
+--- needs --- WebBook3.idv[299] ==> WebBook3161x.png ---
+--- needs --- WebBook3.idv[301] ==> WebBook3162x.png ---
+--- needs --- WebBook3.idv[303] ==> WebBook3163x.png ---
+--- needs --- WebBook3.idv[305] ==> WebBook3164x.png ---
+--- needs --- WebBook3.idv[307] ==> WebBook3165x.png ---
+--- needs --- WebBook3.idv[309] ==> WebBook3166x.png ---
+--- needs --- WebBook3.idv[311] ==> WebBook3167x.png ---
+--- needs --- WebBook3.idv[313] ==> WebBook3168x.png ---
+--- needs --- WebBook3.idv[315] ==> WebBook3169x.png ---
+--- needs --- WebBook3.idv[317] ==> WebBook3170x.png ---
+--- needs --- WebBook3.idv[319] ==> WebBook3171x.png ---
+--- needs --- WebBook3.idv[321] ==> WebBook3172x.png ---
+--- needs --- WebBook3.idv[323] ==> WebBook3173x.png ---
+--- needs --- WebBook3.idv[325] ==> WebBook3174x.png ---
+--- needs --- WebBook3.idv[327] ==> WebBook3175x.png ---
+--- needs --- WebBook3.idv[329] ==> WebBook3176x.png ---
+--- needs --- WebBook3.idv[331] ==> WebBook3177x.png ---
+--- needs --- WebBook3.idv[333] ==> WebBook3178x.png ---
+--- needs --- WebBook3.idv[335] ==> WebBook3179x.png ---
+--- needs --- WebBook3.idv[337] ==> WebBook3180x.png ---
+--- needs --- WebBook3.idv[339] ==> WebBook3181x.png ---
+--- needs --- WebBook3.idv[341] ==> WebBook3182x.png ---
+--- needs --- WebBook3.idv[343] ==> WebBook3183x.png ---
+--- needs --- WebBook3.idv[344] ==> WebBook3184x.png ---
+--- needs --- WebBook3.idv[345] ==> WebBook3185x.png ---
+--- needs --- WebBook3.idv[347] ==> WebBook3186x.png ---
+--- needs --- WebBook3.idv[348] ==> WebBook3187x.png ---
+--- needs --- WebBook3.idv[350] ==> WebBook3188x.png ---
+--- needs --- WebBook3.idv[352] ==> WebBook3189x.png ---
+--- needs --- WebBook3.idv[354] ==> WebBook3190x.png ---
+--- needs --- WebBook3.idv[356] ==> WebBook3191x.png ---
+--- needs --- WebBook3.idv[358] ==> WebBook3192x.png ---
+--- needs --- WebBook3.idv[360] ==> WebBook3193x.png ---
+--- needs --- WebBook3.idv[362] ==> WebBook3194x.png ---
+--- needs --- WebBook3.idv[364] ==> WebBook3195x.png ---
+--- needs --- WebBook3.idv[366] ==> WebBook3196x.png ---
+--- needs --- WebBook3.idv[368] ==> WebBook3197x.png ---
+--- needs --- WebBook3.idv[370] ==> WebBook3198x.png ---
+--- needs --- WebBook3.idv[372] ==> WebBook3199x.png ---
+--- needs --- WebBook3.idv[374] ==> WebBook3200x.png ---
+--- needs --- WebBook3.idv[376] ==> WebBook3201x.png ---
+--- needs --- WebBook3.idv[378] ==> WebBook3202x.png ---
+--- needs --- WebBook3.idv[379] ==> WebBook3203x.png ---
+--- needs --- WebBook3.idv[381] ==> WebBook3204x.png ---
+--- needs --- WebBook3.idv[383] ==> WebBook3205x.png ---
+--- needs --- WebBook3.idv[385] ==> WebBook3206x.png ---
+--- needs --- WebBook3.idv[387] ==> WebBook3207x.png ---
+--- needs --- WebBook3.idv[389] ==> WebBook3208x.png ---
+--- needs --- WebBook3.idv[391] ==> WebBook3209x.png ---
+--- needs --- WebBook3.idv[392] ==> WebBook3210x.png ---
+--- needs --- WebBook3.idv[394] ==> WebBook3211x.png ---
+--- needs --- WebBook3.idv[396] ==> WebBook3212x.png ---
+--- needs --- WebBook3.idv[398] ==> WebBook3213x.png ---
+--- needs --- WebBook3.idv[400] ==> WebBook3214x.png ---
+--- needs --- WebBook3.idv[402] ==> WebBook3215x.png ---
+--- needs --- WebBook3.idv[404] ==> WebBook3216x.png ---
+--- needs --- WebBook3.idv[406] ==> WebBook3217x.png ---
+--- needs --- WebBook3.idv[408] ==> WebBook3218x.png ---
+--- needs --- WebBook3.idv[410] ==> WebBook3219x.png ---
+--- needs --- WebBook3.idv[412] ==> WebBook3220x.png ---
+--- needs --- WebBook3.idv[414] ==> WebBook3221x.png ---
+--- needs --- WebBook3.idv[416] ==> WebBook3222x.png ---
+--- needs --- WebBook3.idv[418] ==> WebBook3223x.png ---
+--- needs --- WebBook3.idv[420] ==> WebBook3224x.png ---
+--- needs --- WebBook3.idv[422] ==> WebBook3225x.png ---
+--- needs --- WebBook3.idv[424] ==> WebBook3226x.png ---
+--- needs --- WebBook3.idv[426] ==> WebBook3227x.png ---
+--- needs --- WebBook3.idv[428] ==> WebBook3228x.png ---
+--- needs --- WebBook3.idv[430] ==> WebBook3229x.png ---
+--- needs --- WebBook3.idv[432] ==> WebBook3230x.png ---
+--- needs --- WebBook3.idv[434] ==> WebBook3231x.png ---
+--- needs --- WebBook3.idv[436] ==> WebBook3232x.png ---
+--- needs --- WebBook3.idv[438] ==> WebBook3233x.png ---
+--- needs --- WebBook3.idv[440] ==> WebBook3234x.png ---
+--- needs --- WebBook3.idv[442] ==> WebBook3235x.png ---
+--- needs --- WebBook3.idv[444] ==> WebBook3236x.png ---
+--- needs --- WebBook3.idv[446] ==> WebBook3237x.png ---
+--- needs --- WebBook3.idv[448] ==> WebBook3238x.png ---
+--- needs --- WebBook3.idv[450] ==> WebBook3239x.png ---
+--- needs --- WebBook3.idv[452] ==> WebBook3240x.png ---
+--- needs --- WebBook3.idv[454] ==> WebBook3241x.png ---
+--- needs --- WebBook3.idv[456] ==> WebBook3242x.png ---
+--- needs --- WebBook3.idv[458] ==> WebBook3243x.png ---
+--- needs --- WebBook3.idv[460] ==> WebBook3244x.png ---
+--- needs --- WebBook3.idv[462] ==> WebBook3245x.png ---
+--- needs --- WebBook3.idv[463] ==> WebBook3246x.png ---
+--- needs --- WebBook3.idv[465] ==> WebBook3247x.png ---
+--- needs --- WebBook3.idv[467] ==> WebBook3248x.png ---
+--- needs --- WebBook3.idv[469] ==> WebBook3249x.png ---
+--- needs --- WebBook3.idv[471] ==> WebBook3250x.png ---
+--- needs --- WebBook3.idv[473] ==> WebBook3251x.png ---
+--- needs --- WebBook3.idv[475] ==> WebBook3252x.png ---
+--- needs --- WebBook3.idv[477] ==> WebBook3253x.png ---
+--- needs --- WebBook3.idv[479] ==> WebBook3254x.png ---
+--- needs --- WebBook3.idv[480] ==> WebBook3255x.png ---
+--- needs --- WebBook3.idv[482] ==> WebBook3256x.png ---
+--- needs --- WebBook3.idv[484] ==> WebBook3257x.png ---
+--- needs --- WebBook3.idv[485] ==> WebBook3258x.png ---
+--- needs --- WebBook3.idv[487] ==> WebBook3259x.png ---
+--- needs --- WebBook3.idv[489] ==> WebBook3260x.png ---
+--- needs --- WebBook3.idv[491] ==> WebBook3261x.png ---
+--- needs --- WebBook3.idv[492] ==> WebBook3262x.png ---
+--- needs --- WebBook3.idv[494] ==> WebBook3263x.png ---
+--- needs --- WebBook3.idv[496] ==> WebBook3264x.png ---
+--- needs --- WebBook3.idv[498] ==> WebBook3265x.png ---
+--- needs --- WebBook3.idv[500] ==> WebBook3266x.png ---
+--- needs --- WebBook3.idv[501] ==> WebBook3267x.png ---
+--- needs --- WebBook3.idv[503] ==> WebBook3268x.png ---
+--- needs --- WebBook3.idv[504] ==> WebBook3269x.png ---
+--- needs --- WebBook3.idv[506] ==> WebBook3270x.png ---
+--- needs --- WebBook3.idv[508] ==> WebBook3271x.png ---
+--- needs --- WebBook3.idv[510] ==> WebBook3272x.png ---
+--- needs --- WebBook3.idv[512] ==> WebBook3273x.png ---
+--- needs --- WebBook3.idv[514] ==> WebBook3274x.png ---
+--- needs --- WebBook3.idv[516] ==> WebBook3275x.png ---
+--- needs --- WebBook3.idv[518] ==> WebBook3276x.png ---
+--- needs --- WebBook3.idv[520] ==> WebBook3277x.png ---
+--- needs --- WebBook3.idv[522] ==> WebBook3278x.png ---
+--- needs --- WebBook3.idv[524] ==> WebBook3279x.png ---
+--- needs --- WebBook3.idv[526] ==> WebBook3280x.png ---
+--- needs --- WebBook3.idv[528] ==> WebBook3281x.png ---
+--- needs --- WebBook3.idv[530] ==> WebBook3282x.png ---
+--- needs --- WebBook3.idv[532] ==> WebBook3283x.png ---
+--- needs --- WebBook3.idv[534] ==> WebBook3284x.png ---
+--- needs --- WebBook3.idv[535] ==> WebBook3285x.png ---
+--- needs --- WebBook3.idv[537] ==> WebBook3286x.png ---
+--- needs --- WebBook3.idv[538] ==> WebBook3287x.png ---
+--- needs --- WebBook3.idv[540] ==> WebBook3288x.png ---
+--- needs --- WebBook3.idv[542] ==> WebBook3289x.png ---
+--- needs --- WebBook3.idv[544] ==> WebBook3290x.png ---
+--- needs --- WebBook3.idv[546] ==> WebBook3291x.png ---
+--- needs --- WebBook3.idv[547] ==> WebBook3292x.png ---
+--- needs --- WebBook3.idv[549] ==> WebBook3293x.png ---
+--- needs --- WebBook3.idv[550] ==> WebBook3294x.png ---
+--- needs --- WebBook3.idv[552] ==> WebBook3295x.png ---
+--- needs --- WebBook3.idv[554] ==> WebBook3296x.png ---
+--- needs --- WebBook3.idv[556] ==> WebBook3297x.png ---
+--- needs --- WebBook3.idv[558] ==> WebBook3298x.png ---
+--- needs --- WebBook3.idv[560] ==> WebBook3299x.png ---
+--- needs --- WebBook3.idv[562] ==> WebBook3300x.png ---
+--- needs --- WebBook3.idv[563] ==> WebBook3301x.png ---
+--- needs --- WebBook3.idv[565] ==> WebBook3302x.png ---
+--- needs --- WebBook3.idv[567] ==> WebBook3303x.png ---
+--- needs --- WebBook3.idv[569] ==> WebBook3304x.png ---
+--- needs --- WebBook3.idv[571] ==> WebBook3305x.png ---
+--- needs --- WebBook3.idv[573] ==> WebBook3306x.png ---
+--- needs --- WebBook3.idv[575] ==> WebBook3307x.png ---
+--- needs --- WebBook3.idv[577] ==> WebBook3308x.png ---
+--- needs --- WebBook3.idv[579] ==> WebBook3309x.png ---
+--- needs --- WebBook3.idv[581] ==> WebBook3310x.png ---
+--- needs --- WebBook3.idv[583] ==> WebBook3311x.png ---
+--- needs --- WebBook3.idv[585] ==> WebBook3312x.png ---
+--- needs --- WebBook3.idv[587] ==> WebBook3313x.png ---
+--- needs --- WebBook3.idv[589] ==> WebBook3314x.png ---
+--- needs --- WebBook3.idv[591] ==> WebBook3315x.png ---
+--- needs --- WebBook3.idv[593] ==> WebBook3316x.png ---
+--- needs --- WebBook3.idv[595] ==> WebBook3317x.png ---
+--- needs --- WebBook3.idv[597] ==> WebBook3318x.png ---
+--- needs --- WebBook3.idv[599] ==> WebBook3319x.png ---
+--- needs --- WebBook3.idv[601] ==> WebBook3320x.png ---
+--- needs --- WebBook3.idv[603] ==> WebBook3321x.png ---
+--- needs --- WebBook3.idv[605] ==> WebBook3322x.png ---
+--- needs --- WebBook3.idv[607] ==> WebBook3323x.png ---
+--- needs --- WebBook3.idv[609] ==> WebBook3324x.png ---
+--- needs --- WebBook3.idv[611] ==> WebBook3325x.png ---
+--- needs --- WebBook3.idv[613] ==> WebBook3326x.png ---
+--- needs --- WebBook3.idv[615] ==> WebBook3327x.png ---
+--- needs --- WebBook3.idv[617] ==> WebBook3328x.png ---
+--- needs --- WebBook3.idv[619] ==> WebBook3329x.png ---
+--- needs --- WebBook3.idv[621] ==> WebBook3330x.png ---
+--- needs --- WebBook3.idv[623] ==> WebBook3331x.png ---
+--- needs --- WebBook3.idv[625] ==> WebBook3332x.png ---
+--- needs --- WebBook3.idv[627] ==> WebBook3333x.png ---
+--- needs --- WebBook3.idv[629] ==> WebBook3334x.png ---
+--- needs --- WebBook3.idv[631] ==> WebBook3335x.png ---
+--- needs --- WebBook3.idv[633] ==> WebBook3336x.png ---
+--- needs --- WebBook3.idv[635] ==> WebBook3337x.png ---
+--- needs --- WebBook3.idv[637] ==> WebBook3338x.png ---
+--- needs --- WebBook3.idv[639] ==> WebBook3339x.png ---
+--- needs --- WebBook3.idv[641] ==> WebBook3340x.png ---
+--- needs --- WebBook3.idv[643] ==> WebBook3341x.png ---
+--- needs --- WebBook3.idv[645] ==> WebBook3342x.png ---
+--- needs --- WebBook3.idv[647] ==> WebBook3343x.png ---
+--- needs --- WebBook3.idv[649] ==> WebBook3344x.png ---
+--- needs --- WebBook3.idv[650] ==> WebBook3345x.png ---
+--- needs --- WebBook3.idv[652] ==> WebBook3346x.png ---
+--- needs --- WebBook3.idv[654] ==> WebBook3347x.png ---
+--- needs --- WebBook3.idv[656] ==> WebBook3348x.png ---
+--- needs --- WebBook3.idv[658] ==> WebBook3349x.png ---
+--- needs --- WebBook3.idv[660] ==> WebBook3350x.png ---
+--- needs --- WebBook3.idv[662] ==> WebBook3351x.png ---
+--- needs --- WebBook3.idv[664] ==> WebBook3352x.png ---
+--- needs --- WebBook3.idv[666] ==> WebBook3353x.png ---
+--- needs --- WebBook3.idv[668] ==> WebBook3354x.png ---
+--- needs --- WebBook3.idv[670] ==> WebBook3355x.png ---
+--- needs --- WebBook3.idv[672] ==> WebBook3356x.png ---
+--- needs --- WebBook3.idv[674] ==> WebBook3357x.png ---
+--- needs --- WebBook3.idv[676] ==> WebBook3358x.png ---
+--- needs --- WebBook3.idv[677] ==> WebBook3359x.png ---
+--- needs --- WebBook3.idv[679] ==> WebBook3360x.png ---
+--- needs --- WebBook3.idv[681] ==> WebBook3361x.png ---
+--- needs --- WebBook3.idv[683] ==> WebBook3362x.png ---
+--- needs --- WebBook3.idv[685] ==> WebBook3363x.png ---
+--- needs --- WebBook3.idv[687] ==> WebBook3364x.png ---
+--- needs --- WebBook3.idv[689] ==> WebBook3365x.png ---
+--- needs --- WebBook3.idv[691] ==> WebBook3366x.png ---
+--- needs --- WebBook3.idv[693] ==> WebBook3367x.png ---
+--- needs --- WebBook3.idv[695] ==> WebBook3368x.png ---
+--- needs --- WebBook3.idv[697] ==> WebBook3369x.png ---
+--- needs --- WebBook3.idv[699] ==> WebBook3370x.png ---
+--- needs --- WebBook3.idv[701] ==> WebBook3371x.png ---
+--- needs --- WebBook3.idv[703] ==> WebBook3372x.png ---
+--- needs --- WebBook3.idv[705] ==> WebBook3373x.png ---
+--- needs --- WebBook3.idv[707] ==> WebBook3374x.png ---
+--- needs --- WebBook3.idv[709] ==> WebBook3375x.png ---
+--- needs --- WebBook3.idv[711] ==> WebBook3376x.png ---
+--- needs --- WebBook3.idv[713] ==> WebBook3377x.png ---
+--- needs --- WebBook3.idv[715] ==> WebBook3378x.png ---
+--- needs --- WebBook3.idv[717] ==> WebBook3379x.png ---
+--- needs --- WebBook3.idv[719] ==> WebBook3380x.png ---
+--- needs --- WebBook3.idv[721] ==> WebBook3381x.png ---
+--- needs --- WebBook3.idv[723] ==> WebBook3382x.png ---
+--- needs --- WebBook3.idv[725] ==> WebBook3383x.png ---
+--- needs --- WebBook3.idv[727] ==> WebBook3384x.png ---
+--- needs --- WebBook3.idv[729] ==> WebBook3385x.png ---
+--- needs --- WebBook3.idv[731] ==> WebBook3386x.png ---
+--- needs --- WebBook3.idv[733] ==> WebBook3387x.png ---
+--- needs --- WebBook3.idv[735] ==> WebBook3388x.png ---
+--- needs --- WebBook3.idv[737] ==> WebBook3389x.png ---
+--- needs --- WebBook3.idv[739] ==> WebBook3390x.png ---
+--- needs --- WebBook3.idv[741] ==> WebBook3391x.png ---
+--- needs --- WebBook3.idv[743] ==> WebBook3392x.png ---
+--- needs --- WebBook3.idv[745] ==> WebBook3393x.png ---
+--- needs --- WebBook3.idv[747] ==> WebBook3394x.png ---
+--- needs --- WebBook3.idv[749] ==> WebBook3395x.png ---
+--- needs --- WebBook3.idv[751] ==> WebBook3396x.png ---
+--- needs --- WebBook3.idv[753] ==> WebBook3397x.png ---
+--- needs --- WebBook3.idv[755] ==> WebBook3398x.png ---
+--- needs --- WebBook3.idv[757] ==> WebBook3399x.png ---
+--- needs --- WebBook3.idv[759] ==> WebBook3400x.png ---
+--- needs --- WebBook3.idv[761] ==> WebBook3401x.png ---
+--- needs --- WebBook3.idv[763] ==> WebBook3402x.png ---
+--- needs --- WebBook3.idv[765] ==> WebBook3403x.png ---
+--- needs --- WebBook3.idv[767] ==> WebBook3404x.png ---
+--- needs --- WebBook3.idv[769] ==> WebBook3405x.png ---
+--- needs --- WebBook3.idv[771] ==> WebBook3406x.png ---
+--- needs --- WebBook3.idv[773] ==> WebBook3407x.png ---
+--- needs --- WebBook3.idv[775] ==> WebBook3408x.png ---
+--- needs --- WebBook3.idv[777] ==> WebBook3409x.png ---
+Css: td#TBL-13-1-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-13-2-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-13-7-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-13-11-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-13-15-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-13-16-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-13-22-16{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+--- needs --- WebBook3.idv[779] ==> WebBook3410x.png ---
+--- needs --- WebBook3.idv[781] ==> WebBook3411x.png ---
+--- needs --- WebBook3.idv[783] ==> WebBook3412x.png ---
+--- needs --- WebBook3.idv[785] ==> WebBook3413x.png ---
+--- needs --- WebBook3.idv[787] ==> WebBook3414x.png ---
+--- needs --- WebBook3.idv[789] ==> WebBook3415x.png ---
+--- needs --- WebBook3.idv[791] ==> WebBook3416x.png ---
+--- needs --- WebBook3.idv[793] ==> WebBook3417x.png ---
+--- needs --- WebBook3.idv[795] ==> WebBook3418x.png ---
+--- needs --- WebBook3.idv[796] ==> WebBook3419x.png ---
+--- needs --- WebBook3.idv[798] ==> WebBook3420x.png ---
+--- needs --- WebBook3.idv[800] ==> WebBook3421x.png ---
+--- needs --- WebBook3.idv[802] ==> WebBook3422x.png ---
+--- needs --- WebBook3.idv[804] ==> WebBook3423x.png ---
+--- needs --- WebBook3.idv[805] ==> WebBook3424x.png ---
+--- needs --- WebBook3.idv[807] ==> WebBook3425x.png ---
+--- needs --- WebBook3.idv[809] ==> WebBook3426x.png ---
+--- needs --- WebBook3.idv[811] ==> WebBook3427x.png ---
+--- needs --- WebBook3.idv[813] ==> WebBook3428x.png ---
+--- needs --- WebBook3.idv[815] ==> WebBook3429x.png ---
+--- needs --- WebBook3.idv[817] ==> WebBook3430x.png ---
+--- needs --- WebBook3.idv[818] ==> WebBook3431x.png ---
+--- needs --- WebBook3.idv[819] ==> WebBook3432x.png ---
+--- needs --- WebBook3.idv[821] ==> WebBook3433x.png ---
+--- needs --- WebBook3.idv[823] ==> WebBook3434x.png ---
+--- needs --- WebBook3.idv[824] ==> WebBook3435x.png ---
+--- needs --- WebBook3.idv[825] ==> WebBook3436x.png ---
+--- needs --- WebBook3.idv[827] ==> WebBook3437x.png ---
+--- needs --- WebBook3.idv[829] ==> WebBook3438x.png ---
+--- needs --- WebBook3.idv[830] ==> WebBook3439x.png ---
+--- needs --- WebBook3.idv[832] ==> WebBook3440x.png ---
+--- needs --- WebBook3.idv[833] ==> WebBook3441x.png ---
+--- needs --- WebBook3.idv[835] ==> WebBook3442x.png ---
+--- needs --- WebBook3.idv[837] ==> WebBook3443x.png ---
+--- needs --- WebBook3.idv[838] ==> WebBook3444x.png ---
+--- needs --- WebBook3.idv[840] ==> WebBook3445x.png ---
+--- needs --- WebBook3.idv[842] ==> WebBook3446x.png ---
+--- needs --- WebBook3.idv[844] ==> WebBook3447x.png ---
+--- needs --- WebBook3.idv[845] ==> WebBook3448x.png ---
+--- needs --- WebBook3.idv[847] ==> WebBook3449x.png ---
+--- needs --- WebBook3.idv[849] ==> WebBook3450x.png ---
+--- needs --- WebBook3.idv[851] ==> WebBook3451x.png ---
+--- needs --- WebBook3.idv[853] ==> WebBook3452x.png ---
+--- needs --- WebBook3.idv[855] ==> WebBook3453x.png ---
+--- needs --- WebBook3.idv[857] ==> WebBook3454x.png ---
+--- needs --- WebBook3.idv[858] ==> WebBook3455x.png ---
+--- needs --- WebBook3.idv[859] ==> WebBook3456x.png ---
+--- needs --- WebBook3.idv[861] ==> WebBook3457x.png ---
+--- needs --- WebBook3.idv[862] ==> WebBook3458x.png ---
+--- needs --- WebBook3.idv[863] ==> WebBook3459x.png ---
+--- needs --- WebBook3.idv[865] ==> WebBook3460x.png ---
+--- needs --- WebBook3.idv[866] ==> WebBook3461x.png ---
+--- needs --- WebBook3.idv[868] ==> WebBook3462x.png ---
+--- needs --- WebBook3.idv[869] ==> WebBook3463x.png ---
+--- needs --- WebBook3.idv[871] ==> WebBook3464x.png ---
+--- needs --- WebBook3.idv[872] ==> WebBook3465x.png ---
+--- needs --- WebBook3.idv[873] ==> WebBook3466x.png ---
+--- needs --- WebBook3.idv[875] ==> WebBook3467x.png ---
+--- needs --- WebBook3.idv[876] ==> WebBook3468x.png ---
+--- needs --- WebBook3.idv[878] ==> WebBook3469x.png ---
+--- needs --- WebBook3.idv[879] ==> WebBook3470x.png ---
+--- needs --- WebBook3.idv[881] ==> WebBook3471x.png ---
+--- needs --- WebBook3.idv[882] ==> WebBook3472x.png ---
+--- needs --- WebBook3.idv[883] ==> WebBook3473x.png ---
+--- needs --- WebBook3.idv[885] ==> WebBook3474x.png ---
+--- needs --- WebBook3.idv[887] ==> WebBook3475x.png ---
+--- needs --- WebBook3.idv[889] ==> WebBook3476x.png ---
+--- needs --- WebBook3.idv[890] ==> WebBook3477x.png ---
+--- needs --- WebBook3.idv[892] ==> WebBook3478x.png ---
+--- needs --- WebBook3.idv[893] ==> WebBook3479x.png ---
+--- needs --- WebBook3.idv[895] ==> WebBook3480x.png ---
+--- needs --- WebBook3.idv[896] ==> WebBook3481x.png ---
+--- needs --- WebBook3.idv[898] ==> WebBook3482x.png ---
+--- needs --- WebBook3.idv[899] ==> WebBook3483x.png ---
+--- needs --- WebBook3.idv[901] ==> WebBook3484x.png ---
+--- needs --- WebBook3.idv[903] ==> WebBook3485x.png ---
+--- needs --- WebBook3.idv[905] ==> WebBook3486x.png ---
+--- needs --- WebBook3.idv[906] ==> WebBook3487x.png ---
+--- needs --- WebBook3.idv[908] ==> WebBook3488x.png ---
+--- needs --- WebBook3.idv[910] ==> WebBook3489x.png ---
+--- needs --- WebBook3.idv[912] ==> WebBook3490x.png ---
+--- needs --- WebBook3.idv[914] ==> WebBook3491x.png ---
+--- needs --- WebBook3.idv[916] ==> WebBook3492x.png ---
+--- needs --- WebBook3.idv[918] ==> WebBook3493x.png ---
+--- needs --- WebBook3.idv[920] ==> WebBook3494x.png ---
+--- needs --- WebBook3.idv[922] ==> WebBook3495x.png ---
+--- needs --- WebBook3.idv[924] ==> WebBook3496x.png ---
+--- needs --- WebBook3.idv[926] ==> WebBook3497x.png ---
+--- needs --- WebBook3.idv[928] ==> WebBook3498x.png ---
+--- needs --- WebBook3.idv[929] ==> WebBook3499x.png ---
+--- needs --- WebBook3.idv[931] ==> WebBook3500x.png ---
+--- needs --- WebBook3.idv[932] ==> WebBook3501x.png ---
+--- needs --- WebBook3.idv[934] ==> WebBook3502x.png ---
+--- needs --- WebBook3.idv[935] ==> WebBook3503x.png ---
+--- needs --- WebBook3.idv[937] ==> WebBook3504x.png ---
+--- needs --- WebBook3.idv[939] ==> WebBook3505x.png ---
+--- needs --- WebBook3.idv[941] ==> WebBook3506x.png ---
+--- needs --- WebBook3.idv[942] ==> WebBook3507x.png ---
+--- needs --- WebBook3.idv[943] ==> WebBook3508x.png ---
+--- needs --- WebBook3.idv[945] ==> WebBook3509x.png ---
+--- needs --- WebBook3.idv[947] ==> WebBook3510x.png ---
+--- needs --- WebBook3.idv[949] ==> WebBook3511x.png ---
+--- needs --- WebBook3.idv[950] ==> WebBook3512x.png ---
+--- needs --- WebBook3.idv[951] ==> WebBook3513x.png ---
+--- needs --- WebBook3.idv[952] ==> WebBook3514x.png ---
+--- needs --- WebBook3.idv[954] ==> WebBook3515x.png ---
+--- needs --- WebBook3.idv[955] ==> WebBook3516x.png ---
+--- needs --- WebBook3.idv[956] ==> WebBook3517x.png ---
+--- needs --- WebBook3.idv[958] ==> WebBook3518x.png ---
+--- needs --- WebBook3.idv[959] ==> WebBook3519x.png ---
+--- needs --- WebBook3.idv[961] ==> WebBook3520x.png ---
+--- needs --- WebBook3.idv[963] ==> WebBook3521x.png ---
+--- needs --- WebBook3.idv[964] ==> WebBook3522x.png ---
+--- needs --- WebBook3.idv[965] ==> WebBook3523x.png ---
+--- needs --- WebBook3.idv[966] ==> WebBook3524x.png ---
+--- needs --- WebBook3.idv[968] ==> WebBook3525x.png ---
+--- needs --- WebBook3.idv[969] ==> WebBook3526x.png ---
+--- needs --- WebBook3.idv[971] ==> WebBook3527x.png ---
+--- needs --- WebBook3.idv[972] ==> WebBook3528x.png ---
+--- needs --- WebBook3.idv[974] ==> WebBook3529x.png ---
+--- needs --- WebBook3.idv[975] ==> WebBook3530x.png ---
+--- needs --- WebBook3.idv[976] ==> WebBook3531x.png ---
+--- needs --- WebBook3.idv[978] ==> WebBook3532x.png ---
+--- needs --- WebBook3.idv[979] ==> WebBook3533x.png ---
+--- needs --- WebBook3.idv[981] ==> WebBook3534x.png ---
+--- needs --- WebBook3.idv[983] ==> WebBook3535x.png ---
+--- needs --- WebBook3.idv[985] ==> WebBook3536x.png ---
+--- needs --- WebBook3.idv[987] ==> WebBook3537x.png ---
+--- needs --- WebBook3.idv[988] ==> WebBook3538x.png ---
+--- needs --- WebBook3.idv[990] ==> WebBook3539x.png ---
+--- needs --- WebBook3.idv[992] ==> WebBook3540x.png ---
+--- needs --- WebBook3.idv[993] ==> WebBook3541x.png ---
+--- needs --- WebBook3.idv[995] ==> WebBook3542x.png ---
+--- needs --- WebBook3.idv[997] ==> WebBook3543x.png ---
+--- needs --- WebBook3.idv[999] ==> WebBook3544x.png ---
+--- needs --- WebBook3.idv[1001] ==> WebBook3545x.png ---
+--- needs --- WebBook3.idv[1003] ==> WebBook3546x.png ---
+--- needs --- WebBook3.idv[1004] ==> WebBook3547x.png ---
+--- needs --- WebBook3.idv[1006] ==> WebBook3548x.png ---
+--- needs --- WebBook3.idv[1008] ==> WebBook3549x.png ---
+--- needs --- WebBook3.idv[1009] ==> WebBook3550x.png ---
+--- needs --- WebBook3.idv[1011] ==> WebBook3551x.png ---
+--- needs --- WebBook3.idv[1013] ==> WebBook3552x.png ---
+--- characters ---
+Font("cmr","5","5","100")
+Font("cmr","10","10","109")
+Font("cmr","17","17","100")
+Font("cmr","12","12","100")
+Font("cmr","8","8","100")
+Font("cmr","6","6","100")
+Font("cmmi","8","8","100")
+Font("cmmi","6","6","100")
+Font("cmsy","8","8","100")
+Font("cmsy","6","6","100")
+Font("cmbx","10","10","109")
+Font("cmmi","10","10","109")
+Font("cmsy","10","10","109")
+--- needs --- WebBook3.idv[1015] ==> cmsy10-4c.png ---
+Font("cmex","10","10","109")
+Font("cmmib","10","10","109")
+Font("msam","10","10","109")
+Font("msbm","10","10","109")
+Font("cmtt","10","10","109")
+Font("cmti","10","10","109")
+Font("cmtt","8","8","75")

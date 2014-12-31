@@ -1,0 +1,18 @@
+sed -f sedlist chapter1.tex >tmp; mv tmp  chapter1.tex
+sed -f sedlist chapter10.tex >tmp; mv tmp  chapter10.tex
+sed -f sedlist chapter11.tex >tmp; mv tmp  chapter11.tex
+sed -f sedlist chapter12.tex >tmp; mv tmp  chapter12.tex
+sed -f sedlist chapter13.tex >tmp; mv tmp  chapter13.tex
+sed -f sedlist chapter14.tex >tmp; mv tmp  chapter14.tex
+sed -f sedlist chapter15.tex >tmp; mv tmp  chapter15.tex
+sed -f sedlist chapter16.tex >tmp; mv tmp  chapter16.tex
+sed -f sedlist chapter2.tex >tmp; mv tmp  chapter2.tex
+sed -f sedlist chapter3.tex >tmp; mv tmp  chapter3.tex
+sed -f sedlist chapter4.tex >tmp; mv tmp  chapter4.tex
+sed -f sedlist chapter5.tex >tmp; mv tmp  chapter5.tex
+sed -f sedlist chapter6.tex >tmp; mv tmp  chapter6.tex
+sed -f sedlist chapter7.tex >tmp; mv tmp  chapter7.tex
+sed -f sedlist chapter8.tex >tmp; mv tmp  chapter8.tex
+sed -f sedlist chapter9.tex >tmp; mv tmp  chapter9.tex
+sed -f sedlist chapter9.tex >tmp; mv tmp  chapter9.tex
+cp appendix_nocust.tex appendix.tex

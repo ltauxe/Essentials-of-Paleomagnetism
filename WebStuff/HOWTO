@@ -1,0 +1,8 @@
+latex WebBook
+bibtex WebBook
+latex WebBook
+latex WebBook
+tex4ht WebBook
+t4ht WebBook
+
+seems it needs to be bibtex Webbook.aux

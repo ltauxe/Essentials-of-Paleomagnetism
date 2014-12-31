@@ -1,0 +1,13 @@
+htlatex WebBook3 "html, 2, sections+"
+mv *.png Essentials-Web-Pages
+mv *.html Essentials-Web-Pages
+#git checkout gh-pages
+#git merge master
+#git push origin gh-pages
+#git checkout master
+
+
+# cd Essentials-Web-Pages
+# git add .
+# git commit
+# git push origin master:gh-pages

@@ -1,0 +1,77 @@
+% NOTES FOR TYPOS:
+% Chapter 6 problems.  Chapter 8 problems.  Photo credit for Figure 14.2 to photo by Stan Sherer  Change in captions for Figs 1.1, 1.2 and 1.3 - reference to Jiles 1998 changed to Jiles 1991.   Appendix D on tilt correction....    Typo on page iii  of preface.  Chapter 1 - slight re-wording on pages 8,  9 and 11.    "blind" remark about  Coe's f in Appendix. ref to fig for y_o  definition. DANG definition;  chapter 14 problems; definition of DRATS.
+
+
+%used to read \input mydefs, change back as needed
+\input ./mydefs 
+\documentclass[11pt]{book}
+%possibly put ,png into tex4ht package
+\usepackage[html,3,sections+,subsections+]{tex4ht}
+\usepackage{hyperref}
+\input epsf
+\usepackage{natbib}
+\usepackage{appendix}
+\usepackage{bm}
+\usepackage{amssymb}
+\usepackage[left=1.4in,right=1.4in,bottom=1.4in,top=1.4in]{geometry}
+\usepackage{longtable}
+%\usepackage{makeidx}
+%\makeindex
+\usepackage{rotating}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancyhead[LO]{\bfseries\rightmark} 
+\fancyhead[RE]{\bfseries\leftmark} 
+% Different font in captions
+\newcommand{\captionfonts}{\small}
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\captionfonts #1: #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+ \begin{document}
+ 
+ \title{Essentials of  Paleomagnetism: Web Edition}
+ \author{Lisa Tauxe\\Scripps Institution of Oceanography\\La Jolla, CA 92093-0220\\ \\
+  with contributions from: \\ Subir K. Banerjee, Robert F. Butler and Rob van der Voo}
+ \maketitle
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+\include {preface}
+\setcounter{tocdepth}{3}
+\tableofcontents
+%\listoffigures
+\clearpage
+\pagenumbering{arabic}
+\fancyfoot[C]{\thepage}
+\setcounter{page}{1}
+\include{Chapters/chapter1}
+\include{Chapters/chapter2}
+%\include{Chapters/chapter3}
+%\include{Chapters/chapter4}
+%\include{Chapters/chapter5} 
+%\include{Chapters/chapter6}
+%\include{Chapters/chapter7}
+%\include{Chapters/chapter8}  
+%\include{Chapters/chapter9}
+%\include{Chapters/chapter10}
+%\include{Chapters/chapter11}
+%\include{Chapters/chapter12}
+%\include{Chapters/chapter13} 
+%\include{Chapters/chapter14}
+%\include{Chapters/chapter15} 
+%\include{Chapters/chapter16}
+%\include{Chapters/appendix}
+\bibliography{UCPbook}
+\bibliographystyle{apalike2}
+\end{document}  

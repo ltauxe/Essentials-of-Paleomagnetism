@@ -1,0 +1,60 @@
+%
+% These are commands that configure tex4ht to produce internal
+% human readable links into the HTML code.
+%
+
+\newcommand{\logcomment}{ --- Customlinks says: }
+
+\newcommand{\chapterlink}{\HCode{<a name='ch\arabic{chapter}'></a>}}
+\newcommand{\sectionlink}{\HCode{<a name='sec\arabic{chapter}-\arabic{section}'></a>}}
+\newcommand{\subsectionlink}{\HCode{<a name='subsec\arabic{chapter}-\arabic{section}-\arabic{subsection}'></a>}}
+\newcommand{\subsubsectionlink}{\HCode{<a name='subsubsec\arabic{chapter}-\arabic{section}-\arabic{subsection}-\arabic{subsubsection}'></a>}}
+
+
+
+\newcommand{\reportchapterlink}{\typeout{\logcomment Link to
+    chapter \thechapter: \FileName\#ch\arabic{chapter}}}
+\newcommand{\reportsectionlink}{\typeout{\logcomment Link to
+    section \thesection:
+    \FileName\#sec\arabic{chapter}-\arabic{section}}}
+
+\newcommand{\reportsubsectionlink}{\typeout{\logcomment Link to
+    subsection \thesubsection:
+    \FileName\#subsec\arabic{chapter}-\arabic{section}-\arabic{subsection}}}
+
+\newcommand{\reportsubsubsectionlink}{\typeout{\logcomment Link to
+    subsubsection \thesubsubsection:
+    \FileName\#subsubsec\arabic{chapter}-\arabic{section}-\arabic{subsection}-\arabic{subsubsection}}}
+
+\newcommand{\reportcustomlink}[1]{\typeout{\logcomment Custom link named '#1': \FileName\##1 }}
+\newcommand{\customlink}[1]{\HCode{<a name='#1'></a>}\reportcustomlink{#1}}
+
+\newcommand{\thispage}{\arabic{page}}
+
+\newcommand{\reportpagelink}{\typeout{\logcomment Page-link at page
+    \thispage: \FileName\#p\thispage}}
+\newcommand{\pagelink}{\HCode{<a name='p\thispage'></a>}\reportpagelink}
+
+\Configure{chapter}{\chapterlink\reportchapterlink}{}{}{}
+\Configure{section}{\sectionlink\reportsectionlink}{}{}{}
+\Configure{subsection}{\subsectionlink\reportsubsectionlink}{}{}{}
+\Configure{subsubsection}{\subsubsectionlink\reportsubsubsectionlink}{}{}{}
+
+
+%
+% End of internal link code.
+%
+
+%
+% To generate a report of links generated:
+%
+%      cat bok.log | grep Customlinks > links.txt
+%
+%
+
+%
+% Note that when inserting ``custom links,'' don't insert blank lines
+% after the \customlink-command. This will generate an extra (empty
+% but visible) paragraph!
+%
+

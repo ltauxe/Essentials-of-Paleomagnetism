@@ -1,0 +1,13 @@
+\contentsline {title}{\uppercase {\textso {Preface}}}{v}
+\contentsline {title}{\hbox to\@tempdima {\hbox to \chapwidth {\hfill \sffamily \fontsize {8}{10}\selectfont \leftskip \z@ \rightskip \z@ plus1fill2}\hfil }\uppercase {\textso {The Geomagnetic Field}}}{1}
+\contentsline {author}{\global \tempauthorcount \authorcount \global \advance \tempauthorcount -1\global \authorcommacount \authorcommacount \global \advance \authorcommacount -1\global \authortempcount 0\global \authortempcount 0}{1}
+\contentsline {section}{\numberline {2.1}Components of magnetic vectors}{1}
+\contentsline {subsection}{\numberline {2.4.1}\textit {D, `I'} Transformation}{2}
+\contentsline {subsection}{\numberline {2.4.3}Virtual dipole moment}{3}
+\contentsline {section}{\numberline {2.5}Problems}{3}
+\contentsline {title}{\hbox to\@tempdima {\hbox to \chapwidth {\hfill \sffamily \fontsize {8}{10}\selectfont \leftskip \z@ \rightskip \z@ plus1fillA}\hfil }\uppercase {\textso {Definitions, derivations and tricks}}}{5}
+\contentsline {author}{\global \tempauthorcount \authorcount \global \advance \tempauthorcount -1\global \authorcommacount \authorcommacount \global \advance \authorcommacount -1\global \authortempcount 0\global \authortempcount 0}{5}
+\contentsline {section}{\numberline {A.1}Definitions}{5}
+\contentsline {title}{\uppercase {\textso {Bibliography}}}{7}
+\contentsline {title}{\uppercase {\textso {Index}}}{9}
+\contentsline {title}{\uppercase {\textso {Other Styles}}}{11}
