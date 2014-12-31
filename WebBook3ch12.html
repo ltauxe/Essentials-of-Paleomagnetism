@@ -1,0 +1,872 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>12 Beyond Fisher statistics</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html,2,sections+ --> 
+<meta name="src" content="WebBook3.tex"> 
+<meta name="date" content="2014-12-31 11:09:00"> 
+<link rel="stylesheet" type="text/css" href="WebBook3.css"> 
+</head><body 
+>
+<!--l. 1--><div class="crosslinks"><p class="noindent">[<a 
+href="WebBook3ch13.html" >next</a>] [<a 
+href="WebBook3ch11.html" >prev</a>] [<a 
+href="WebBook3ch11.html#tailWebBook3ch11.html" >prev-tail</a>] [<a 
+href="#tailWebBook3ch12.html">tail</a>] [<a 
+href="WebBook3.html#WebBook3ch12.html" >up</a>] </p></div>
+<h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;12</span><br /><a 
+href="WebBook3.html#QQ2-14-297" id="x14-14400012">Beyond Fisher statistics</a></h2>
+<!--l. 4--><p class="nopar" >BACKGROUND: read Efron and Tibshirani (1993); Tauxe et al. (1991).
+<!--l. 10--><p class="noindent" >Paleomagnetists have depended since the 1950&#8217;s on the special statistical
+framework developed by Fisher (1953) for the analysis of unit vector data. The
+power and flexibility of a variety of tools based on Fisher statistics enables
+quantification of parameters such as the degree of rotation of a crustal block,
+or whether the geomagnetic field really averages to a geocentric axial
+dipole independent of polarity. These tools, however, require that the
+paleomagnetic data belong to a particular parametric distribution &#8211; the Fisher
+distribution.
+<!--l. 21--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1440011"></a>
+                                                                     
+
+                                                                     
+<!--l. 24--><p class="noindent" ><img 
+src="WebBook3317x.png" alt="PIC" class="graphics" width="312.9803pt" height="157.78514pt" ><!--tex4ht:graphics  
+name="WebBook3317x.png" src="EPSfiles/vgp-di.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.1:  </span><span  
+class="content">a)  VGPs  from  geomagnetic  vectors  evaluated  from  the
+statistical field model of Tauxe and Kent (2004) at 30<sup><span 
+class="cmsy-8">&#x2218;</span></sup>N (site of observation
+shown as square). The geographic pole is shown as a triangle. A set of VGP
+positions at 60<sup><span 
+class="cmsy-8">&#x2218;</span></sup> N are shown as the black ring. b) Directions observed at the
+site of observation [square in a)] converted from black ring of VGPs in a)
+which correspond to the VGP positions at 60<sup><span 
+class="cmsy-8">&#x2218;</span></sup>N. These directions have been
+projected along expected direction at site of observation (triangle). Note that
+a circularly symmetric ring about the geographic pole gives an asymmetric
+distribution of directions with a shallow bias. [Figures from Tauxe and Kent,
+2004.]</span></div><!--tex4ht:label?: x14-1440011 -->
+                                                                     
+
+                                                                     
+<!--l. 27--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 32--><p class="noindent" >In many important situations, the Fisher distribution fails to represent
+paleomagnetic data adequately. To begin with, the geomagnetic field itself can
+produce directions that are far from Fisher distributed. Most statistical
+paleosecular variation models generate spherically symmetric distributions of the
+VGPs (see, e.g., Figure&#x00A0;<a 
+href="#x14-1440011">12.1<!--tex4ht:ref: fig:vgp-di --></a>a). When converted to equivalent directions, they are
+more elongate as the observation site approaches the equator (see Figure&#x00A0;<a 
+href="#x14-1440011">12.1<!--tex4ht:ref: fig:vgp-di --></a>b).
+Because VGPs that are farther from the pole are associated with weaker field
+strengths in collections of paleomagnetic data and in many models of the field,
+the Fisher assumption of unit vector length over-emphasizes the importance of
+the &#8220;outliers&#8221; and leads to mean inclinations that are shallower than the
+true mean (see e.g., Creer, 1983). Another example of the inadequacy
+of the Fisher distribution is the fact that the magnetic field exists in
+two stable polarity states. Because the Fisher distribution allows only
+uni-modal data, bi-polar data must be separated into separate modes or one
+mode must be &#8220;flipped&#8221; to the antipode prior to calculating a mean.
+Remanence vectors composed of several components tend to form streaked
+distributions. Structural complications (e.g., folding) can lead to streaked
+distributions of directional data. And, inclination error arising from flattening of
+directions tends to form &#8220;squashed&#8221; directional distributions that are
+wider in the horizontal plane than in the vertical. These are all commonly
+observed pathologies in directional data sets that lead to non-Fisherian data
+distributions.
+<!--l. 50--><p class="noindent" >Thus, non-Fisherian data are a fact of paleomagnetic life. The Fisher-based tests
+can frequently be inappropriate and could result in flawed interpretations. In
+Chapter 11 we learned the basics of Fisher statistics and how to test data sets
+against a Fisher distribution. In this chapter, we will discuss what to do when
+Fisher statistics fail. We will begin with parametric approaches that
+treat certain types of non-fisherian data. We then turn to the use of
+non-parametric methods such as the bootstrap and jackknife in paleomagnetic
+applications.
+<h3 class="sectionHead"><span class="titlemark">12.1   </span> <a 
+href="WebBook3.html#QQ2-14-299" id="x14-14500012.1">Non-Fisherian parametric approaches</a></h3>
+                                                                     
+
+                                                                     
+<!--l. 60--><p class="nopar" >
+<h4 class="subsectionHead"><span class="titlemark">12.1.1   </span> <a 
+href="WebBook3li1.html#QQ2-14-300" id="x14-14600012.1.1">The Kent distribution</a></h4>
+<!--l. 63--><p class="nopar" >Many paleomagnetic data sets have a more elliptical distribution than the
+symmetrical distribution required for a Fisherian data set. To treat such data, it
+is probably inappropriate to use a Fisher cone of confidence and a distribution
+that allows data with elliptical directional dispersion would be better. The
+elliptical analogue of the Fisher distribution is the Kent distribution (Kent, 1982)
+and is given by:
+<table 
+class="equation"><tr><td>
+<center class="math-display" >
+<img 
+src="WebBook3318x.png" alt="          - 1                 2
+F = c(&#x03BA;,&#x03B2; )  exp(&#x03BA; cos&#x03B1; + &#x03B2;sin &#x03B1; cos2&#x03D5;),
+" class="math-display" ><a 
+ id="x14-146001r1"></a></center></td><td class="equation-label">(12.1)</td></tr></table>
+<!--l. 70--><p class="nopar" >
+<!--l. 72--><p class="nopar" >The mean direction in a Kent distribution is estimated in the same way as for
+the Fisher distribution (see Chapter 11). The difference is that when
+transformed to the mean direction, Kent declinations are not uniformly
+distributed around the mean. If we calculate eigenparameters for the
+orientation matrix of the data (see Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>), then the major
+and minor eigenvectors (<span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">2</span></sub><span 
+class="cmmi-10x-x-109">,</span><span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">3</span></sub>) lie in a plane orthogonal to the mean
+direction along the axis with the most and least scatter respectively. In
+Equation&#x00A0;<a 
+href="#x14-146001r1">12.1<!--tex4ht:ref: eq:kent --></a> <span 
+class="cmmi-10x-x-109">&#x03B1; </span>is the angle between a given direction and the true mean
+direction, and <span 
+class="cmmi-10x-x-109">&#x03D5; </span>is the angle in the <span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">2</span></sub><span 
+class="cmmi-10x-x-109">,</span><span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">3</span></sub> plane with <span 
+class="cmmi-10x-x-109">&#x03D5; </span>= 0 parallel
+to <span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">2</span></sub>. <span 
+class="cmmi-10x-x-109">&#x03BA; </span>is a concentration parameter similar to the Fisher <span 
+class="cmmi-10x-x-109">&#x03BA; </span>and <span 
+class="cmmi-10x-x-109">&#x03B2; </span>is
+the &#8220;ovalness&#8221; parameter. <span 
+class="cmmi-10x-x-109">c</span>(<span 
+class="cmmi-10x-x-109">&#x03BA;,&#x03B2;</span>) is a complicated function of <span 
+class="cmmi-10x-x-109">&#x03BA; </span>and <span 
+class="cmmi-10x-x-109">&#x03B2;</span>.
+When <span 
+class="cmmi-10x-x-109">&#x03B2; </span>is zero, the Kent distribution reduces to a Fisher distribution.
+Details of the calculation of Kent 95% confidence ellipse are given in
+Appendix&#x00A0;<a 
+href="WebBook3ap3.html#x21-241000C.2.4">C.2.4<!--tex4ht:ref: app:kent --></a>.
+                                                                     
+
+                                                                     
+<!--l. 79--><p class="noindent" >If we were to collect data from the equatorial region, we might well obtain a set
+of directions such as those shown in Figure&#x00A0;<a 
+href="#x14-1460022">12.2<!--tex4ht:ref: fig:confidence --></a>a. [Note that the center of the
+diagram is the expected direction &#8211; not down as is more common.] The Fisher
+<span 
+class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
+class="cmr-8">95</span></sub> circle of confidence for this data set is shown in Figure&#x00A0;<a 
+href="#x14-1460022">12.2<!--tex4ht:ref: fig:confidence --></a>a. The
+Kent ellipse (Figure&#x00A0;<a 
+href="#x14-1460022">12.2<!--tex4ht:ref: fig:confidence --></a>b) clearly represents the the distribution of data
+better than the Fisher <span 
+class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
+class="cmr-8">95</span></sub>, being elongate in the same sense as the data
+themselves.
+<!--l. 81--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1460022"></a>
+                                                                     
+
+                                                                     
+<!--l. 84--><p class="noindent" ><img 
+src="WebBook3319x.png" alt="PIC" class="graphics" width="398.33858pt" height="130.92676pt" ><!--tex4ht:graphics  
+name="WebBook3319x.png" src="EPSfiles/confidence.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.2: </span><span  
+class="content">a) An example of data obtained from a hypothetical equatorial
+sampling site plotted with the Fisher circle of confidence. The data have
+been transposed such that the expected direction (0, 0) is at the center of
+the diagram and &#8220;up&#8221; is at the top. b) Same data but with the Kent 95%
+confidence ellipse. c) Data from a) with some directions transposed to the
+antipode; directions plotted with the Bingham 95% confidence ellipse. </span></div><!--tex4ht:label?: x14-1460022 -->
+                                                                     
+
+                                                                     
+<!--l. 87--><p class="noindent" ></div><hr class="endfigure">
+<h4 class="subsectionHead"><span class="titlemark">12.1.2   </span> <a 
+href="WebBook3li1.html#QQ2-14-302" id="x14-14700012.1.2">The Bingham distribution</a></h4>
+<!--l. 93--><p class="nopar" >The Kent distribution has the advantage that it can deal with elliptical data sets
+while the Fisher distribution cannot. However, many paleomagnetic data sets are
+also bi-modal (reversals!) and the Kent and Fisher distributions can only deal
+with data sets with a single polarity. It was precisely for the purpose of treating
+bimodal, elliptical data that the Bingham distribution was developed (Bingham,
+1974). The Bingham distribution is given by:
+<!--l. 99--><p class="noindent" >
+<center class="math-display" >
+<img 
+src="WebBook3320x.png" alt="         1               2         2     2
+F =  4&#x03C0;d(k-,k-) exp (k1cos &#x03D5; + k2sin &#x03D5;)sin &#x03B1;,
+          1  2  " class="math-display" ></center>
+where <span 
+class="cmmi-10x-x-109">&#x03B1; </span>and <span 
+class="cmmi-10x-x-109">&#x03D5; </span>are as in the Kent distribution, <span 
+class="cmmi-10x-x-109">k</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,k</span><sub><span 
+class="cmr-8">2</span></sub> are concentration
+parameters (<span 
+class="cmmi-10x-x-109">k</span><sub><span 
+class="cmr-8">1</span></sub> <span 
+class="cmmi-10x-x-109">&#x003C; k</span><sub><span 
+class="cmr-8">2</span></sub> <span 
+class="cmmi-10x-x-109">&#x003C; </span>0) and <span 
+class="cmmi-10x-x-109">d</span>(<span 
+class="cmmi-10x-x-109">k</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,k</span><sub><span 
+class="cmr-8">2</span></sub>) is a constant of normalization. Values for
+<span 
+class="cmmi-10x-x-109">k</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,k</span><sub><span 
+class="cmr-8">2</span></sub> can be estimated by numerical integration and can be converted into 95%
+confidence ellipses, the details of which are given in Appendix&#x00A0;<a 
+href="WebBook3ap3.html#x21-242000C.2.5">C.2.5<!--tex4ht:ref: app:bing --></a>. In a nut
+shell, the <span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">1</span></sub> eigenvector of the orientation matrix (associated with the
+largest eigenvalue, see Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>) is the principal direction and the
+semi-axes of the 95% confidence ellipse are proportional to the intermediate
+and minimum eigenvalues. The Bingham principal direction therefore is
+not necessarily the same as the Fisher or Kent mean. If we take each
+vector end-point to be a mass, the Bingham principal direction is the
+axis about which the moment of inertia of the masses would be least.
+The Fisher mean is somewhat different, in that it is the vector sum of
+unit vectors. The Bingham mean (principal direction) is less affected by
+outliers than the Fisher mean, lying closer to the center of mass of data
+points.
+                                                                     
+
+                                                                     
+<!--l. 104--><p class="noindent" >The principle drawback of the Bingham distribution is that because the
+orientation matrix uses the entire data set (normal and reverse) the two modes
+are assumed to be antipodal and to share the same distribution parameters.
+The question of whether normal and reverse data sets are antipodal and
+have the same dispersion is in fact one we may wish to ask! One could
+separate the two modes prior to calculation of the Bingham ellipse, but
+then the rationale for using the Bingham distribution is lost. Also, many
+published descriptions of the Bingham calculation (e.g., Onstott et al. 1980,
+Borradaile, 2003) have errors in them. The source code for calculating
+Bingham statistics in widely used paleomagnetic data reduction programs is
+generally not available, and it is unknown whether these programs contain
+bugs.
+<!--l. 111--><p class="nopar" >
+<h4 class="subsectionHead"><span class="titlemark">12.1.3   </span> <a 
+href="WebBook3li1.html#QQ2-14-303" id="x14-14800012.1.3">The Bingham-LeGoff approximation</a></h4>
+<!--l. 113--><p class="nopar" >Estimating the parameters for the Bingham ellipse exactly is computationally
+taxing and all of the available &#8220;canned&#8221; programs use the look up table of
+Mardia and Zemroch (1977; see Appendix&#x00A0;<a 
+href="WebBook3ap3.html#x21-242000C.2.5">C.2.5<!--tex4ht:ref: app:bing --></a>). LeGoff et al. (1992) suggested
+some approximations which may be valid for concentrated distributions. They
+also introduced the concept of weighting results according to some reliability
+criteria. For the general case, however, it seems preferable to use the exact Kent
+(1982) ellipses on uni-modal data sets. These could of course be weighted if such
+weighting is desired.
+<!--l. 123--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1480013"></a>
+                                                                     
+
+                                                                     
+<!--l. 126--><p class="noindent" ><img 
+src="WebBook3321x.png" alt="PIC" class="graphics" width="341.43306pt" height="298.63432pt" ><!--tex4ht:graphics  
+name="WebBook3321x.png" src="EPSfiles/love.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.3: </span><span  
+class="content">A bi-gaussian set of vectors suitable for treatment using the
+method of Love and Constable (2003). </span></div><!--tex4ht:label?: x14-1480013 -->
+                                                                     
+
+                                                                     
+<!--l. 129--><p class="noindent" ></div><hr class="endfigure">
+<h4 class="subsectionHead"><span class="titlemark">12.1.4   </span> <a 
+href="WebBook3li1.html#QQ2-14-305" id="x14-14900012.1.4">The Bi-Gaussian distribution</a></h4>
+<!--l. 134--><p class="nopar" >Until now we have continued the Fisher assumption of unit vectors. As
+already mentioned, neglect of the vector strength can lead to bias. Love
+and Constable (2003) began the hard work of incorporating intensity
+information into the parameter estimation problem. Their method can handle
+bi-modal spherical Gaussian data such as those shown in Figure&#x00A0;<a 
+href="#x14-1480013">12.3<!--tex4ht:ref: fig:love --></a>.
+Estimation of the Love parameters are beyond the scope of this book.
+Moreover, many data sets are not spherically symmetric as already noted
+and the Love and Constable (2003) approach must be generalized to
+elliptical, more &#8220;blade-like&#8221; data sets than the &#8220;cotton balls&#8221; currently
+treatable.
+<!--l. 141--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1490014"></a>
+                                                                     
+
+                                                                     
+<!--l. 144--><p class="noindent" ><img 
+src="WebBook3322x.png" alt="PIC" class="graphics" width="398.33858pt" height="132.12689pt" ><!--tex4ht:graphics  
+name="WebBook3322x.png" src="EPSfiles/hypeq.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.4: </span><span  
+class="content">a) Hypothetical non-Fisherian data set. Normal and reversed
+polarity data that are not symmetrically distributed. Filled (open) circles
+plot  on  the  lower  (upper)  hemisphere.  b)  Equal  area  projection  of  500
+bootstrapped means for pseudo-samples drawn from the data shown in a).
+c) Same as a) but with the bootstrapped confidence ellipses shown. </span></div><!--tex4ht:label?: x14-1490014 -->
+                                                                     
+
+                                                                     
+<!--l. 147--><p class="noindent" ></div><hr class="endfigure">
+<h3 class="sectionHead"><span class="titlemark">12.2   </span> <a 
+href="WebBook3.html#QQ2-14-307" id="x14-15000012.2">The simple (naïve) bootstrap</a></h3>
+<!--l. 153--><p class="nopar" >As we have mentioned, real data may be pathological in several respects
+including bi-modal and elliptically distributed data. None of the methods we
+have described so far have the test for common mean so critical to paleomagnetic
+studies nor can they provide confidence ellipses for an off-center mean direction
+as is likely to occur in records of the geomagnetic field (see Figure&#x00A0;<a 
+href="#x14-1440011">12.1<!--tex4ht:ref: fig:vgp-di --></a>b).
+Finally, data may be overprinted or contain the record of a paleomagnetic
+transition, resulting in &#8220;streaked&#8221; or non-antipodal distributions, conditions that
+make the conventional methods inappropriate. In this section we will discuss
+alternative methods for estimating confidence bounds which are sufficiently
+flexible to accomodate all of these short comings, provided the data set is large
+enough.
+<!--l. 158--><p class="noindent" >In Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>a we show a not unusual &#8220;not great&#8221; paleomagnetic data set. The
+data are elliptical, bi-modal and one has the suspicion that the normal and
+reverse modes may be neither antipodal nor share the same concentration or
+ovalness parameters. Clearly some non-parametric approach would be desirable.
+The approach for characterizing uncertainties for vectors we will take here is
+based on a technique known as the statistical <span 
+class="cmti-10x-x-109">bootstrap</span>. As we shall see, the
+bootstrap has the flexibility to allow us to treat awkward data sets like that
+shown in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>a.
+<!--l. 162--><p class="noindent" >The principles of the bootstrap are given in Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-224000A.3.7">A.3.7<!--tex4ht:ref: app:bootstrap --></a>. In essence, the
+parameter of interest (say, the mean vector) is calculated from many resampled
+data sets, whose data points are selected at random from the original data. The
+bootstrapped estimates &#8220;map out&#8221; the likely distribution of the parameter,
+allowing estimation of confidence regions. Before we extend the bootstrap from
+the scalar treatment in Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-224000A.3.7">A.3.7<!--tex4ht:ref: app:bootstrap --></a> to vectors, it is important to point out
+that with the bootstrap, it is assumed that the underlying distribution is
+represented by the data, demanding that the data sets be rather large. Moreover,
+the bootstrap estimates are only asymptotically valid, meaning that a
+large number of bootstrap calculations are required for the confidence
+intervals to be valid. It&#8217;s a good thing we have fast computers with huge
+hard-drives.
+<!--l. 170--><p class="noindent" >There are a variety of ways we can use the bootstrap to estimate confidence
+                                                                     
+
+                                                                     
+regions for paleomagnetic data. We will start with the most &#8220;Fisher&#8221; like
+approach of taking unit vectors of a single polarity. Then we will accommodate
+dual polarity data sets and develop analogous tests to those so useful for Fisher
+distributions.
+<!--l. 172--><p class="noindent" >To do a simple bootstrap on a data set with only one polarity (say the normal
+data in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>a, we first randomly draw <span 
+class="cmmi-10x-x-109">N </span>data points from the data shown
+in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>a. Each set of <span 
+class="cmmi-10x-x-109">N </span>data points is a <span 
+class="cmti-10x-x-109">pseudo-sample</span>. Note that some
+data points will be drawn more than once while others will not be drawn at all
+in a particular pseudo-sample. We then calculate a Fisher mean of the
+pseudo-sample (one little circle in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>b. This resampling procedure
+can be repeated many times. We show 500 such bootstrapped means in
+Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>b.
+<!--l. 180--><p class="noindent" >Now we can estimate the region of 95% confidence for the bootstrapped means. A
+non-parametric approach would be to draw a contour enclosing 95% of the
+bootstrapped means. In many applications, paleomagnetists desire a more
+compact way of expressing confidence regions (for example, to list them in a
+table) and this necessitates some parametric assumptions about the distribution
+of the means. For this limited purpose, approximate 95% confidence regions can
+be estimated by noting the elliptical distribution of the bootstrapped means and
+by assuming that they are Kent (1982) distributed. Such bootstrap confidence
+ellipses are shown in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>c.
+<!--l. 192--><p class="noindent" >When paleomagnetic data are bimodal, as in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>a, we can proceed in one
+of two ways. We could just calculate the principal eigenvector of the orientation
+matrix (<span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">1</span></sub>) as in Bingham statistics of each bootstrapped pseudo-sample or we
+can separate the data into two modes and calculate Fisher means for each mode
+separately (as in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>b).
+<!--l. 194--><p class="noindent" >To separate the data into normal and reverse subsets, we first calculate the
+principle direction of the whole dataset. This will be more or less parallel to the
+Fisher mean of one of the modes. Any direction more than 90<sup><span 
+class="cmsy-8">&#x2218;</span></sup> away from this
+could be placed in the second mode. After separation, Fisher means of the
+bootstrapped pseudo-samples can be calculated for each mode separately.
+Alternatively, if a more robust estimate of the &#8220;average&#8221; direction is desired, one
+could calculate the principal eigenvector <span 
+class="cmbx-10x-x-109">V</span><sub><span 
+class="cmr-8">1</span></sub> of each mode, which is less sensitive
+to the presence of outliers.
+<!--l. 200--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1500015"></a>
+                                                                     
+
+                                                                     
+<!--l. 203--><p class="noindent" ><img 
+src="WebBook3323x.png" alt="PIC" class="graphics" width="312.9803pt" height="141.16612pt" ><!--tex4ht:graphics  
+name="WebBook3323x.png" src="EPSfiles/twofiles.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.5:  </span><span  
+class="content">Test  for  common  mean  with  two  directional  data  sets.  a)
+Equal-area projections of two simulated Fisherian data sets (triangles and
+circles) each with <span 
+class="cmmi-10x-x-109">&#x03BA; </span>of 20. b) Means and <span 
+class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
+class="cmr-8">95</span></sub>s of data sets shown in a). </span></div><!--tex4ht:label?: x14-1500015 -->
+                                                                     
+
+                                                                     
+<!--l. 208--><p class="noindent" ></div><hr class="endfigure">
+<h3 class="sectionHead"><span class="titlemark">12.3   </span> <a 
+href="WebBook3.html#QQ2-14-309" id="x14-15100012.3">The parametric bootstrap</a></h3>
+<!--l. 214--><p class="nopar" >The bootstrap just described is a &#8220;simple&#8221; or &#8220;naïve&#8221; bootstrap in that no
+distribution is assumed for the data. We did assume, however, that all the
+uncertainty inherent in the data is reflected in the data distribution. If the data
+set is smaller than about <span 
+class="cmmi-10x-x-109">N </span>= 20, this leads to uncertainty ellipses that are too
+small (Tauxe et al., 1991). Many paleomagnetic data sets are smaller than this,
+yet they are demonstrably non-Fisherian. Luckily, if we are able to assume some
+parametric form for data from e.g., a given site, we can use a superior
+technique which is known as the <span 
+class="cmti-10x-x-109">parametric bootstrap</span>. As applied here, we
+assume that each site with <span 
+class="cmmi-10x-x-109">N </span>samples is Fisher distributed (in principle, a
+testable assumption). Then, after random selection of a particular site for
+inclusion in the pseudo-sample, we draw <span 
+class="cmmi-10x-x-109">N </span>new directions from a Fisher
+distribution with the same mean direction, <span 
+class="cmmi-10x-x-109">&#x03BA; </span>and <span 
+class="cmmi-10x-x-109">N</span>. From these simulated
+data sets, we calculate a substitute mean direction, and use that in the
+pseudo-sample. Otherwise, we follow the same procedure as in the simple
+bootstrap.
+<!--l. 236--><p class="noindent" >For large data sets (<span 
+class="cmmi-10x-x-109">N &#x003E; </span>25), the parametric and simple bootstraps yield very
+similar confidence ellipses. For smaller data sets, the parametric ellipses are
+larger, and are probably more realistic.
+<!--l. 241--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1510016"></a>
+                                                                     
+
+                                                                     
+<!--l. 244--><p class="noindent" ><img 
+src="WebBook3324x.png" alt="PIC" class="graphics" width="412.56496pt" height="100.6939pt" ><!--tex4ht:graphics  
+name="WebBook3324x.png" src="EPSfiles/cdf.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.6:  </span><span  
+class="content">Cumulative  distributions  of  Cartesian  components  of  the
+bootstrapped means from 500 pseudo-samples from data shown in Figure
+12.5. a) <span 
+class="cmmi-10x-x-109">X </span>components. b) <span 
+class="cmmi-10x-x-109">Y </span>, and c) <span 
+class="cmmi-10x-x-109">Z</span>. Also shown are the bounds for each
+data set that include 95% of the components. The confidence intervals for
+the different data sets overlap for <span 
+class="cmmi-10x-x-109">X </span>and <span 
+class="cmmi-10x-x-109">Z </span>but not for <span 
+class="cmmi-10x-x-109">Y </span>. </span></div><!--tex4ht:label?: x14-1510016 -->
+                                                                     
+
+                                                                     
+<!--l. 254--><p class="noindent" ></div><hr class="endfigure">
+<h3 class="sectionHead"><span class="titlemark">12.4   </span> <a 
+href="WebBook3.html#QQ2-14-311" id="x14-15200012.4">When are two data sets distinct?</a></h3>
+<!--l. 260--><p class="nopar" >The test for a common mean addresses the question &#8220;can the means of two data
+sets be discriminated from one another?&#8221; Another way of putting it is, &#8220;If a set
+of bootstrap means is examined, are there two distinct groups or is there just
+one?&#8221; We explore these ideas by considering the same Fisherian data sets we
+used in Chapter 11 for the Watson&#8217;s <span 
+class="cmmi-10x-x-109">V</span> <sub><span 
+class="cmmi-8">w</span></sub> test. In Figure&#x00A0;<a 
+href="#x14-1500015">12.5<!--tex4ht:ref: fig:twofiles --></a> we show two data
+sets (triangles and circles), each drawn from distributions with a <span 
+class="cmmi-10x-x-109">&#x03BA; </span>of
+20. The mean direction of each lies outside the confidence region of the
+other and the <span 
+class="cmmi-10x-x-109">V</span> <sub><span 
+class="cmmi-8">w</span></sub> test of Watson (Chapter 11) has a value of 11.7 with
+a critical value of 6.3; hence the data sets fail the test for a common
+mean.
+<!--l. 273--><p class="noindent" >In order to develop a bootstrap test analagous to the <span 
+class="cmmi-10x-x-109">V</span> <sub><span 
+class="cmmi-8">w</span></sub> test for use on
+non-Fisherian data sets, we first convert a set of bootstrapped mean directions to
+Cartesian coordinates. Cumulative distributions of the Cartesian coordinates of
+the bootstrap means are shown in Figure&#x00A0;<a 
+href="#x14-1510016">12.6<!--tex4ht:ref: fig:cdf --></a>a-c along with the bounds
+containing 95% of the means for each data set. The two sets of directions are
+distinct in the <span 
+class="cmmi-10x-x-109">Y </span>component, confirming that the two means can be distinguished
+at the 95% confidence level.
+<!--l. 278--><p class="nopar" >
+<h3 class="sectionHead"><span class="titlemark">12.5   </span> <a 
+href="WebBook3.html#QQ2-14-312" id="x14-15300012.5">Application to the &#8220;reversals test&#8221;</a></h3>
+<!--l. 280--><p class="nopar" >The so-called <span 
+class="cmti-10x-x-109">reversals test </span>in paleomagnetism constitutes a test for a
+common mean for two modes, one of which has been &#8220;flipped&#8221; to its
+antipode. We apply our bootstrap test for common mean to the data
+shown in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>. The cumulative distributions of the Cartesian
+coordinates of the bootstrapped means are shown in Figure&#x00A0;<a 
+href="#x14-1530017">12.7<!--tex4ht:ref: fig:revtest --></a>. The
+confidence intervals for the normal and reverse antipodes overlap, thereby
+suggesting that the two means cannot be distinguished at the 95% level of
+confidence. Thus, the data in Figure&#x00A0;<a 
+href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a> pass the bootstrap reversals
+test.
+<!--l. 292--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1530017"></a>
+                                                                     
+
+                                                                     
+<!--l. 295--><p class="noindent" ><img 
+src="WebBook3325x.png" alt="PIC" class="graphics" width="398.33858pt" height="137.38533pt" ><!--tex4ht:graphics  
+name="WebBook3325x.png" src="EPSfiles/revtest.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.7: </span><span  
+class="content">Cumulative distributions of Cartesian coordinates of means
+of pseudo-samples drawn from the data shown in Figure 12.4a. The reverse
+polarity mode has been flipped to its antipode. The intervals containing
+95% of each set of components are also drawn (vertical lines). Because the
+confidence bounds from the two data sets overlap in all three components,
+the means of the reverse and normal modes cannot be distinguished at the
+95% level of confidence; they pass the bootstrap reversals test.</span></div><!--tex4ht:label?: x14-1530017 -->
+                                                                     
+
+                                                                     
+<!--l. 306--><p class="noindent" ></div><hr class="endfigure">
+<h3 class="sectionHead"><span class="titlemark">12.6   </span> <a 
+href="WebBook3.html#QQ2-14-314" id="x14-15400012.6">Application to the &#8220;fold test&#8221;</a></h3>
+<!--l. 312--><p class="nopar" >A final test is useful in paleomagnetism: the fold test (Chapter 9). If a rock
+has moved from its original position, was it magnetized in the original,
+in the present or in some other position? Moreover, is simple rotation
+about strike an appropriate method to restore the beds to their original
+positions? In the classic fold test envisioned by Graham (1949), (see
+Chapters 9 and 11), the directions of magnetization of a deformed rock
+unit are assumed to be most closely parallel in the orientation in which
+the magnetization was acquired. Therefore, if a rock has retained an
+original magnetization through a subsequent folding or tilting event, the
+magnetic directions may cluster most tightly after they have been rotated
+back to their original positions. This of course is not necessarily true for
+elongate data such as those shown in Figure&#x00A0;<a 
+href="#x14-1460022">12.2<!--tex4ht:ref: fig:confidence --></a>a for which we can imagine
+pathological cases that result in a more tightly clustered set of directions in
+a coordinate system other than the one the data were magnetized in.
+Nonetheless, the clustering assumption is probably reasonable in most
+scenarios.
+<!--l. 335--><p class="noindent" >The fold test appears at first glance to be simple, but it is not. The primary
+problem is that paleomagnetic vectors are never perfectly parallel. The
+scattered nature of the data means that a statistical test is necessary to
+determine whether clustering is &#8220;significantly&#8221; better in one orientation or
+another.
+<!--l. 344--><p class="noindent" >In Chapter 11 we suggested that variances could be compared using an F-test, so
+it was long the practice in paleomagnetism to compare estimated precisions
+before and after tilt adjustment (McElhinny, 1964). The ratio of the two
+estimates of <span 
+class="cmmi-10x-x-109">&#x03BA; </span>were compared with those listed in statistical F-distribution tables.
+Ratios higher than the <span 
+class="cmmi-10x-x-109">F </span>value for a given <span 
+class="cmmi-10x-x-109">N </span>were deemed to constitute a
+significant increase in concentration after adjusting for tilt, thus representing a
+positive fold test. This test can be done on the back of an envelope and is still in
+frequent use.
+<!--l. 357--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x14-1540018"></a>
+                                                                     
+
+                                                                     
+<!--l. 360--><p class="noindent" ><img 
+src="WebBook3326x.png" alt="PIC" class="graphics" width="398.33858pt" height="206.70604pt" ><!--tex4ht:graphics  
+name="WebBook3326x.png" src="EPSfiles/unfolding.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;12.8: </span><span  
+class="content">a) Equal area projection of a set of directions in geographic
+coordinates. The data were drawn from the same distribution of directions
+that gave rise to the VGPs shown in Figure 12.1a. They have been rotated
+about strike on two simulated limbs of the fold, one to the northeast and one
+to the southwest, resulting in a streaked (girdle) distribution. The original
+polarity  of  many  data  points  is  ambiguous.  b)  Data  from  a)  after  back
+tilting by 100% of the original tilt. Polarities are more readily identifiable.
+c) Red dashed lines: trends of the largest eigenvalues (<span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub>s) of the orientation
+matrices from representative pseudo-samples drawn from a) as they evolve
+during  untilting.  The  directions  are  adjusted  for  tilt  incrementally  from
+-10%  to  110%.  The  largest  value  of  (<span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub>  occurs  near  100%  in  all  of  the
+pseudo-samples sets. The cumulative distribution is of 500 maxima of <span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub>
+and the bounds that enclose 95% of them. These data &#8220;pass&#8221; the bootstrap
+fold test.</span></div><!--tex4ht:label?: x14-1540018 -->
+                                                                     
+
+                                                                     
+<!--l. 373--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 375--><p class="noindent" >Although its simplicity is a great strength, there are several problems with the
+classical fold test. First, the geomagnetic field has two preferred states and is not
+perfectly dipolar. Directions observed in paleomagnetic samples are therefore not
+only scattered but are often of two polarities. Second, the magnetic directions
+may be most tightly clustered somewhere other than in &#8220;geographic&#8221; or 100% tilt
+adjusted coordinates (McCabe et al., 1983). Finally, structural &#8220;corrections&#8221; are
+not perfectly known. Not only are the bedding orientations themselves often
+difficult to measure accurately, but detection of complications such as
+plunging folds, and multiple phases of tilting requires extensive field work. It
+is nearly impossible to assess rotation about the vertical axis on the
+basis of field relations alone, as it results in no visible effect on the dip of
+the beds themselves. Because of this uncertainty, we might reasonably
+ask whether if the data are actually most tightly clustered at, say 90%
+tilt adjusted (as opposed to 100%), does this constitute a &#8220;failed&#8221; fold
+test.
+<!--l. 393--><p class="noindent" >We consider first the problem of dual polarity. We plot a hypothetical data set in
+geographic coordinates in Figure&#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>a and in tilt adjusted coordinates in
+Figure&#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>b. The polarity is ambiguous but the classic fold test requires
+calculation of <span 
+class="cmmi-10x-x-109">&#x03BA; </span>which can only be done with data of a single polarity. Obviously,
+fold tests that rely on <span 
+class="cmmi-10x-x-109">&#x03BA; </span>will not be straight forward with data such as
+these.
+<!--l. 399--><p class="noindent" >An alternative approach is based on the orientation matrix (Tauxe and Watson,
+1994). [Please read Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a> if you have not yet done so.] In the
+orientation matrix, polarity does not play a role and the &#8220;tightness&#8221; of grouping
+is reflected in the relative magnitudes of the eigenvalues (<span 
+class="cmmi-10x-x-109">&#x03C4;</span>). As the data become
+more tightly grouped, the variance along the principal axis grows and those along
+the other axes shrink. Thus, examination of the behavior of <span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub> during unfolding
+would reveal the point at which the tightest grouping is achieved, without
+knowledge of polarity.
+<!--l. 413--><p class="noindent" >Suppose we find that the degree of unfolding required to produce the maximum
+in <span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub> is 98%. Is this a positive fold test suggesting a pre-folding remanence or is
+the difference between 98% and 100% significant? For this we call on the by now
+familiar bootstrap. Numerous pseudo-samples can be drawn. We can then
+calculate the eigenparameters of the orientation matrix for a range of percent
+unfolding. Some examples of the behavior of <span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub> during tilt adjustment of
+representative pseudo-samples drawn from the data in Figure&#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>a are shown in
+Figure&#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>c. The green line in Figure&#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>c is a cumulative distribution plot of
+                                                                     
+
+                                                                     
+maxima in <span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub> from 500 pseudo-samples. These are sorted and the 95%
+confidence interval for the degree of unfolding required to produce the
+tightest grouping (the highest <span 
+class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
+class="cmr-8">1</span></sub>) is thus constrained to lie between 97 and
+102%.
+<!--l. 431--><p class="noindent" >The data from Figure &#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>a are shown after 100% tilt adjustment in
+Figure&#x00A0;<a 
+href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>b. The tilt adjusted data are not only better grouped, but now the
+polarities of most samples can be readily determined. An advantage of the
+eigenparameter approach is the fact that the data do not need prior editing to
+split them into normal and reversed polarity groups, which is a particularly
+onerous task for the data considered here.
+<!--l. 441--><p class="noindent" >For small data sets, we could employ a parametric bootstrap, whereby
+pseudo-samples are generated by first randomly selecting a site for inclusion, then
+by drawing a substitute direction from a Fisher distribution having the same <span 
+class="cmmi-10x-x-109">D</span>,
+<span 
+class="cmmi-10x-x-109">I</span>, <span 
+class="cmmi-10x-x-109">N</span>, and <span 
+class="cmmi-10x-x-109">&#x03BA;</span>.
+<!--l. 446--><p class="noindent" >We can incorporate uncertainties in bedding into the bootstrap. If we assume
+that the poles to the bedding planes are Fisher distributed, and we can
+assign some estimated <span 
+class="cmmi-10x-x-109">&#x03BA; </span>value to the distribution of poles based on repeat
+measurements (say, <span 
+class="cmmi-10x-x-109">&#x03BA; </span><span 
+class="cmsy-10x-x-109">&#x2243; </span>30), we can draw poles to the beds from Fisher
+distributions using the assigned mean direction and <span 
+class="cmmi-10x-x-109">&#x03BA;</span>. We would then use these
+simulated poles in the structural corrections on the pseudo-samples. This
+procedure would propagate the uncertainties in structural corrections through
+the fold test, resulting in more realistic confidence bounds on the peak in
+concentration during unfolding.
+<!--l. 448--><p class="noindent" >Finally, it is important to remember that peaks in concentration between 0 and
+100% unfolding can result from a variety of causes. Traditionally, intermediate
+peaks have been interpreted as resulting from remagnetization of the rock units
+during folding (see, e.g., McCabe et al., 1983). Such behavior could also result
+from failure to account for plunging folds, or vertical axis rotation between blocks
+(see Tauxe and Watson, 1994), so some caution should be exercised when
+interpreting fold test results.
+<!--l. 451--><p class="nopar" >SUPPLEMENTAL READINGS: Fisher, et al. (1987), Chapters 2&#8211;5.
+<h3 class="sectionHead"><span class="titlemark">12.7   </span> <a 
+href="WebBook3.html#QQ2-14-316" id="x14-15500012.7">Problems</a></h3>
+                                                                     
+
+                                                                     
+<!--l. 459--><p class="nopar" ><span 
+class="cmbx-10x-x-109">Problem 1</span>
+<!--l. 461--><p class="noindent" >Change directories into Chapter_12 (see the Problems in Chapter 5 for
+downloading instructions.) This problem set will use the <span 
+class="cmbx-10x-x-109">PmagPy </span>programs on
+the command line. You can check the <a 
+href="http://earthref.org/PmagPy/cookbook/" >PmagPy website</a> for examples in how to
+use the <span 
+class="cmbx-10x-x-109">PmagPy </span>programs.
+<!--l. 463--><p class="noindent" >a) Look at <span 
+class="cmti-10x-x-109">ps12-1a.di </span>with the program <span 
+class="cmbx-10x-x-109">eqarea.py</span>. Do the data look Fisher
+distributed to you? Now check whether they are using the program <span 
+class="cmbx-10x-x-109">fishqq.py</span>.
+Are they?
+<!--l. 467--><p class="noindent" >b) Repeat this exercise for <span 
+class="cmti-10x-x-109">ps12-1b.di</span>.
+<!--l. 469--><p class="noindent" >c) Now rotate the data in <span 
+class="cmti-10x-x-109">ps12-1c.di </span>to the mean direction. Do this by first
+determining the mean direction with <span 
+class="cmbx-10x-x-109">gofish.py</span>. Then use the program
+<span 
+class="cmbx-10x-x-109">di</span><span 
+class="cmbx-10x-x-109">_rot.py </span>using the mean from <span 
+class="cmbx-10x-x-109">gofish.py </span>as the new coordinate system.
+Look at your output with <span 
+class="cmbx-10x-x-109">eqarea.py </span>&#8211; the center of the diagram will
+be the mean direction you used in <span 
+class="cmbx-10x-x-109">di</span><span 
+class="cmbx-10x-x-109">_rot.py</span>. Why are these data not
+Fisherian?
+<!--l. 471--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 2</span>
+<!--l. 473--><p class="noindent" >a) The data in <span 
+class="cmti-10x-x-109">ps12-2.dat </span>are <span 
+class="cmmi-10x-x-109">D,I</span>, dip direction and dip where the <span 
+class="cmmi-10x-x-109">D </span>and <span 
+class="cmmi-10x-x-109">I </span>are
+in geographic coordinates. Use the program <span 
+class="cmbx-10x-x-109">foldtest.py </span>to perform a fold test.
+Were the data magnetized before or after folding?
+<!--l. 475--><p class="noindent" >b) Repeat the fold test, but assign an angular uncertainty (CSD of the
+bedding pole distribution &#8211; see Chapter 11) of 10<sup><span 
+class="cmsy-8">&#x2218;</span></sup>. Does this change your
+conclusion?
+<!--l. 478--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 3</span>
+<!--l. 480--><p class="noindent" >The data in <span 
+class="cmti-10x-x-109">ps12-3.dat </span>are declination/inclination data from a paleomagnetic
+study.
+<!--l. 482--><p class="noindent" >a) First examine the data set with <span 
+class="cmbx-10x-x-109">eqarea.py</span>.
+<!--l. 485--><p class="noindent" >b) Separate the data into two files by polarity. Calculate the Fisher means, and
+<span 
+class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
+class="cmr-8">95</span></sub>s with <span 
+class="cmbx-10x-x-109">gofish.py</span>. Check if the data are fisher distributed using <span 
+class="cmbx-10x-x-109">fishqq.py</span>.
+Calculate the Kent ellipses on the normal and reverse data sets using the
+program <span 
+class="cmbx-10x-x-109">gokent.py</span>. Calculate the Bingham ellipse on the whole data set using
+<span 
+class="cmbx-10x-x-109">gobing.py</span>. Now calculate the bootstrap ellipses using <span 
+class="cmbx-10x-x-109">eqarea</span><span 
+class="cmbx-10x-x-109">_ell.py</span>. Make
+plots of all the ellipses <span 
+class="cmbx-10x-x-109">eqarea</span><span 
+class="cmbx-10x-x-109">_ell.py</span>. Which method seems to represent the
+character of the data the best?
+                                                                     
+
+                                                                     
+<!--l. 487--><p class="noindent" >c) Now test whether or not the two modes in the data are antipodal. Use
+<span 
+class="cmbx-10x-x-109">watsonsV.py </span>and <span 
+class="cmbx-10x-x-109">revtest.py </span>to test whether the data pass a reversals test. Do
+the data pass? Watson&#8217;s <span 
+class="cmmi-10x-x-109">V</span> <sub><span 
+class="cmmi-8">w</span></sub> test assumes a Fisher distribution, while <span 
+class="cmbx-10x-x-109">revtest.py</span>
+uses a bootstrap and does not assume a Fisher distribution. Which do you think
+should be used in this case? Bingham statistics assumes that both polarities are
+the same, except for polarity, so you can not do a reversals test. What are the
+advantages and disadvantages of the different methods for doing a reversals
+test?
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+<!--l. 1--><div class="crosslinks"><p class="noindent">[<a 
+href="WebBook3ch13.html" >next</a>] [<a 
+href="WebBook3ch11.html" >prev</a>] [<a 
+href="WebBook3ch11.html#tailWebBook3ch11.html" >prev-tail</a>] [<a 
+href="WebBook3ch12.html" >front</a>] [<a 
+href="WebBook3.html#WebBook3ch12.html" >up</a>] </p></div>
+<!--l. 1--><p class="noindent" ><a 
+ id="tailWebBook3ch12.html"></a>  
+</body></html> 

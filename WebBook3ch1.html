@@ -1,0 +1,1467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>1 The physics of magnetism</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html,2,sections+ --> 
+<meta name="src" content="WebBook3.tex"> 
+<meta name="date" content="2014-12-31 11:09:00"> 
+<link rel="stylesheet" type="text/css" href="WebBook3.css"> 
+</head><body 
+>
+   <!--l. 5--><div class="crosslinks"><p class="noindent">[<a 
+href="WebBook3ch2.html" >next</a>] [<a 
+href="WebBook3li1.html" >prev</a>] [<a 
+href="WebBook3li1.html#tailWebBook3li1.html" >prev-tail</a>] [<a 
+href="#tailWebBook3ch1.html">tail</a>] [<a 
+href="WebBook3.html#WebBook3ch1.html" >up</a>] </p></div>
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;1</span><br /><a 
+href="WebBook3.html#QQ2-3-4" id="x3-30001">The physics of magnetism</a></h2>
+<!--l. 7--><p class="noindent" >BACKGROUND: Read chapters on magnetism from your favorite college physics
+book for review.
+<!--l. 12--><p class="indent" >   Paleomagnetism is the study of the magnetic properties of rocks. It is one of
+the most broadly applicable disciplines in geophysics, having uses in diverse fields
+such as geomagnetism, tectonics, paleoceanography, volcanology, paleontology,
+and sedimentology. Although the potential applications are varied, the
+fundamental techniques are remarkably uniform. Thus, a grounding in the basic
+tools of paleomagnetic data analysis can open doors to many of these
+applications. One of the underpinnings of paleomagnetic endeavors is the
+relationship between the magnetic properties of rocks and the Earth&#8217;s magnetic
+field.
+<!--l. 25--><p class="indent" >   In this chapter we will review the basic physical principles behind magnetism:
+what are magnetic fields, how are they produced and how are they measured?
+Although many find a discussion of scientific units boring, much confusion arose
+when paleomagnetists switched from &#8220;cgs&#8221; to the Système International (SI)
+units and mistakes abound in the literature. Therefore, we will explain both unit
+systems and look at how to convert successfully between them. There is a review
+of essential mathematical tricks in Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-205000A">A<!--tex4ht:ref: app:definitions --></a> to which the reader is referred
+for help.
+   <h3 class="sectionHead"><span class="titlemark">1.1   </span> <a 
+href="WebBook3.html#QQ2-3-5" id="x3-40001.1">What is a magnetic field?</a></h3>
+<!--l. 34--><p class="noindent" >Magnetic fields, like gravitational fields, cannot be seen or touched. We
+can feel the pull of the Earth&#8217;s gravitational field on ourselves and the
+objects around us, but we do not experience magnetic fields in such a
+direct way. We know of the existence of magnetic fields by their effect on
+objects such as magnetized pieces of metal, naturally magnetic rocks such
+as lodestone, or temporary magnets such as copper coils that carry an
+electrical current. If we place a magnetized needle on a cork in a bucket of
+water, it will slowly align itself with the local magnetic field. Turning on
+the current in a copper wire can make a nearby compass needle jump.
+Observations like these led to the development of the concept of magnetic
+fields.
+<!--l. 46--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-40011"></a>
+                                                                     
+
+                                                                     
+<!--l. 47--><p class="noindent" ><img 
+src="WebBook30x.png" alt="PIC" class="graphics" width="284.52756pt" height="175.09921pt" ><!--tex4ht:graphics  
+name="WebBook30x.png" src="EPSFiles/wire.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.1: </span><span  
+class="content">a) Distribution of iron filings on a flat sheet pierced by a wire
+carrying a current <span 
+class="cmmi-10x-x-109">i</span>. [From Jiles, 1991.] b) Relationship of magnetic field to
+current for straight wire. </span></div><!--tex4ht:label?: x3-40011 -->
+                                                                     
+
+                                                                     
+<!--l. 51--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 58--><p class="indent" >   Electric currents make magnetic fields, so we can define what is meant by a
+&#8220;magnetic field&#8221; in terms of the electric current that generates it. Figure&#x00A0;<a 
+href="#x3-40011">1.1<!--tex4ht:ref: fig:filings --></a>a
+is a picture of what happens when we pierce a flat sheet with a wire
+carrying a current <span 
+class="cmmi-10x-x-109">i</span>. When iron filings are sprinkled on the sheet, the filings
+line up with the magnetic field produced by the current in the wire. A
+loop tangential to the field is shown in Figure&#x00A0;<a 
+href="#x3-40011">1.1<!--tex4ht:ref: fig:filings --></a>b, which illustrates the
+<span 
+class="cmti-10x-x-109">right-hand rule </span>(see inset to Figure&#x00A0;<a 
+href="#x3-40011">1.1<!--tex4ht:ref: fig:filings --></a>b). If your right thumb points in the
+direction of (positive) current flow (the direction opposite to the flow of
+the electrons), your fingers will curl in the direction of the magnetic
+field.
+<!--l. 75--><p class="indent" >   The magnetic field <span 
+class="cmbx-10x-x-109">H</span> points at right angles to both the direction of
+current flow and to the radial vector <span 
+class="cmbx-10x-x-109">r </span>in Figure&#x00A0;<a 
+href="#x3-40011">1.1<!--tex4ht:ref: fig:filings --></a>b. The magnitude of <span 
+class="cmbx-10x-x-109">H</span>
+(denoted <span 
+class="cmmi-10x-x-109">H</span>) is proportional to the strength of the current <span 
+class="cmmi-10x-x-109">i</span>. In the simple
+case illustrated in Figure&#x00A0;<a 
+href="#x3-40011">1.1<!--tex4ht:ref: fig:filings --></a>b the magnitude of <span 
+class="cmbx-10x-x-109">H</span> is given by Ampère&#8217;s
+law:
+   <center class="math-display" >
+<img 
+src="WebBook31x.png" alt="      i
+H =  ---,
+     2&#x03C0;r
+" class="math-display" ></center>
+<!--l. 88--><p class="noindent" >where <span 
+class="cmmi-10x-x-109">r </span>is the length of the vector <span 
+class="cmbx-10x-x-109">r</span>. So, now we know the units of <span 
+class="cmmi-10x-x-109">H</span>:
+Am<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>.
+<!--l. 90--><p class="indent" >   Ampère&#8217;s Law in its most general form is one of Maxwell&#8217;s equations of
+electromagnetism: in a steady electrical field, <span 
+class="cmsy-10x-x-109">&#x2207;&#x00D7;</span> <span 
+class="cmbx-10x-x-109">H</span> = <span 
+class="cmbx-10x-x-109">J</span><sub><span 
+class="cmmi-8">f</span></sub>, where <span 
+class="cmbx-10x-x-109">J</span><sub><span 
+class="cmmi-8">f</span></sub> is the
+electric current density (see Section&#x00A0;<a 
+href="WebBook3ap1.html#x19-220000A.3.6">A.3.6<!--tex4ht:ref: app:nabla --></a> in the appendix for review of the <span 
+class="cmsy-10x-x-109">&#x2207;</span>
+operator). In words, the curl (or circulation) of the magnetic field is equal to the
+current density. The origin of the term &#8220;curl&#8221; for the cross product of the
+gradient operator with a vector field is suggested in Figure&#x00A0;<a 
+href="#x3-40011">1.1<!--tex4ht:ref: fig:filings --></a>a in which the iron
+filings seem to curl around the wire.
+   <h3 class="sectionHead"><span class="titlemark">1.2   </span> <a 
+href="WebBook3.html#QQ2-3-7" id="x3-50001.2">Magnetic moment</a></h3>
+                                                                     
+
+                                                                     
+<!--l. 114--><p class="noindent" >An electrical current in a wire produces a magnetic field that &#8220;curls&#8221; around the
+wire. If we bend the wire into a loop with an area <span 
+class="cmmi-10x-x-109">&#x03C0;r</span><sup><span 
+class="cmr-8">2</span></sup> that carries a current <span 
+class="cmmi-10x-x-109">i</span>
+(Figure&#x00A0;<a 
+href="#x3-50022">1.2<!--tex4ht:ref: fig:moment --></a>a), the current loop would create the magnetic field shown by pattern
+of the iron filings. This magnetic field is that same as the field that would be
+produced by a permanent magnet. We can quantify the strength of that
+hypothetical magnet in terms of a <span 
+class="cmti-10x-x-109">magnetic moment</span> <span 
+class="cmbx-10x-x-109">m</span> (Figure&#x00A0;<a 
+href="#x3-50022">1.2<!--tex4ht:ref: fig:moment --></a>b). The
+magnetic moment is created by a current <span 
+class="cmmi-10x-x-109">i </span>and also depends on the area of the
+current loop (the bigger the loop, the bigger the moment). Therefore, the
+magnitude of the moment can by quantified by <span 
+class="cmmi-10x-x-109">m </span>= <span 
+class="cmmi-10x-x-109">i</span><span 
+class="cmmi-10x-x-109">&#x03C0;r</span><sup><span 
+class="cmr-8">2</span></sup>. The moment created
+by a set of loops (as shown in Figure&#x00A0;<a 
+href="#x3-50022">1.2<!--tex4ht:ref: fig:moment --></a>c) would be the sum of the <span 
+class="cmmi-10x-x-109">n </span>individual
+loops, i.e.:
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook32x.png" alt="         2
+m =  ni&#x03C0;r .
+" class="math-display" ><a 
+ id="x3-5001r1"></a></center></td><td class="equation-label">(1.1)</td></tr></table>
+<!--l. 124--><p class="nopar" >
+<!--l. 126--><p class="noindent" >So, now we know the units of <span 
+class="cmbx-10x-x-109">m</span>: Am<sup><span 
+class="cmr-8">2</span></sup>. In nature, magnetic moments are carried
+by magnetic minerals the most common of which are magnetite and hematite
+(see Chapter 6 for details).
+<!--l. 128--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-50022"></a>
+                                                                     
+
+                                                                     
+<!--l. 129--><p class="noindent" ><img 
+src="WebBook33x.png" alt="PIC" class="graphics" width="398.33858pt" height="154.16399pt" ><!--tex4ht:graphics  
+name="WebBook33x.png" src="EPSfiles/moment.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.2: </span><span  
+class="content">a) Iron filings show the magnetic field generated by current
+flowing in a loop. b) A current loop with current <span 
+class="cmmi-10x-x-109">i </span>and area <span 
+class="cmmi-10x-x-109">&#x03C0;r</span><sup><span 
+class="cmr-8">2</span></sup> produces a
+magnetic moment <span 
+class="cmbx-10x-x-109">m</span>. c) The magnetic field of loops arranged as a solenoid
+is the sum of the contribution of the individual loops. [Iron filings pictures
+from Jiles, 1991.] </span></div><!--tex4ht:label?: x3-50022 -->
+                                                                     
+
+                                                                     
+<!--l. 132--><p class="indent" >   </div><hr class="endfigure">
+   <h3 class="sectionHead"><span class="titlemark">1.3   </span> <a 
+href="WebBook3.html#QQ2-3-9" id="x3-60001.3">Magnetic flux</a></h3>
+<!--l. 140--><p class="noindent" >The magnetic field is a vector field because at any point it has both direction
+and magnitude. Consider the field of the bar magnet in Figure&#x00A0;<a 
+href="#x3-60013">1.3<!--tex4ht:ref: fig:barmagnet --></a>a.
+The direction of the field at any point is given by the arrows while the
+strength depends on how close the field lines are to one another. The
+magnetic field lines represent <span 
+class="cmti-10x-x-109">magnetic flux</span>. The density of flux lines is one
+measure of the strength of the magnetic field: the magnetic induction
+<span 
+class="cmbx-10x-x-109">B</span>.
+<!--l. 145--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-60013"></a>
+                                                                     
+
+                                                                     
+<!--l. 146--><p class="noindent" ><img 
+src="WebBook34x.png" alt="PIC" class="graphics" width="398.33858pt" height="146.67767pt" ><!--tex4ht:graphics  
+name="WebBook34x.png" src="EPSfiles/barmagnetfield.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.3: </span><span  
+class="content">a) A magnetic moment <span 
+class="cmbx-10x-x-109">m </span>makes a vector field <span 
+class="cmbx-10x-x-109">B</span>. The lines
+of flux are represented by the arrows. [Adapted from Tipler, 1999.] b) A
+magnetic moment <span 
+class="cmbx-10x-x-109">m </span>makes a vector field <span 
+class="cmbx-10x-x-109">B</span> made visible by the iron filings.
+If this field moves with velocity <span 
+class="cmbx-10x-x-109">v</span>, it generates a voltage <span 
+class="cmmi-10x-x-109">V </span>in an electrical
+conductor of length <span 
+class="cmmi-10x-x-109">l</span>. [Iron filings picture from Jiles, 1991.]</span></div><!--tex4ht:label?: x3-60013 -->
+                                                                     
+
+                                                                     
+<!--l. 149--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 152--><p class="indent" >   Just as the motion of electrically charged particles in a wire (a current) create
+a magnetic field (Ampère&#8217;s Law), the motion of a magnetic field creates electric
+currents in nearby wires. The stronger the magnetic field, the stronger the
+current in the wire. We can therefore measure the strength of the magnetic
+induction (the density of magnetic flux lines) by moving a conductive wire
+through the magnetic field (Figure&#x00A0;<a 
+href="#x3-60013">1.3<!--tex4ht:ref: fig:barmagnet --></a>b).
+<!--l. 158--><p class="indent" >   Magnetic induction can be thought of as something that creates a potential
+difference with voltage <span 
+class="cmmi-10x-x-109">V </span>in a conductor of length <span 
+class="cmmi-10x-x-109">l </span>when the conductor moves
+relative to the magnetic induction <span 
+class="cmmi-10x-x-109">B </span>with velocity <span 
+class="cmbx-10x-x-109">v </span>(see Figure&#x00A0;<a 
+href="#x3-60013">1.3<!--tex4ht:ref: fig:barmagnet --></a>b):
+<span 
+class="cmmi-10x-x-109">V </span>= <span 
+class="cmmi-10x-x-109">vlB</span>. From this we can derive the units of magnetic induction: the tesla
+(T). One tesla is the magnetic induction that generates a potential of
+one volt in a conductor of length one meter when moving at a rate of
+one meter per second. So now we know the units of <span 
+class="cmbx-10x-x-109">B</span>: V <span 
+class="cmsy-10x-x-109">&#x22C5; </span>s <span 
+class="cmsy-10x-x-109">&#x22C5; </span>m<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">2</span></sup> =
+T.
+<!--l. 165--><p class="indent" >   Another way of looking at <span 
+class="cmbx-10x-x-109">B</span> is that if magnetic induction is the density of
+magnetic flux lines, it must be the flux &#x03A6; per unit area. So an increment of flux
+<span 
+class="cmmi-10x-x-109">d</span>&#x03A6; is the field magnitude <span 
+class="cmmi-10x-x-109">B </span>times the increment of area <span 
+class="cmmi-10x-x-109">dA</span>. The area
+here is the length of the wire <span 
+class="cmmi-10x-x-109">l </span>times its displacement <span 
+class="cmmi-10x-x-109">ds </span>in time <span 
+class="cmmi-10x-x-109">dt</span>. The
+instantaneous velocity is <span 
+class="cmmi-10x-x-109">dv </span>= <span 
+class="cmmi-10x-x-109">ds&#x2215;dt </span>so <span 
+class="cmmi-10x-x-109">d</span>&#x03A6; = <span 
+class="cmmi-10x-x-109">BdA </span>and the rate of change of flux
+is:
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook35x.png" alt="d&#x03A6;    ds
+---= (---)Bl =  vBl = V.
+dt    dt
+" class="math-display" ><a 
+ id="x3-6002r2"></a></center></td><td class="equation-label">(1.2)</td></tr></table>
+<!--l. 170--><p class="nopar" >
+<!--l. 172--><p class="indent" >   Equation&#x00A0;<a 
+href="#x3-6002r2">1.2<!--tex4ht:ref: eq:faraday --></a> is known as Faraday&#8217;s law and in its most general form is the
+fourth of Maxwell&#8217;s equations. We see from Equation&#x00A0;<a 
+href="#x3-6002r2">1.2<!--tex4ht:ref: eq:faraday --></a> that the units of
+magnetic flux must be a volt-second which is a unit in its own right: the weber
+(Wb). The weber is defined as the amount of magnetic flux which, when passed
+                                                                     
+
+                                                                     
+through a one-turn coil of a conductor carrying a current of one ampere,
+produces an electric potential of one volt. This definition suggests a means to
+measure the strength of magnetic induction and is the basis of the &#8220;fluxgate&#8221;
+magnetometer.
+   <h3 class="sectionHead"><span class="titlemark">1.4   </span> <a 
+href="WebBook3.html#QQ2-3-11" id="x3-70001.4">Magnetic energy</a></h3>
+<!--l. 190--><p class="noindent" >A magnetic moment <span 
+class="cmbx-10x-x-109">m</span> in the presence of a magnetic field <span 
+class="cmbx-10x-x-109">B</span> has a <span 
+class="cmti-10x-x-109">magnetostatic</span>
+<span 
+class="cmti-10x-x-109">energy </span>(<span 
+class="cmmi-10x-x-109">E</span><sub><span 
+class="cmmi-8">m</span></sub>) associated with it. This energy tends to align compass needles with
+the magnetic field (see Figure&#x00A0;<a 
+href="#x3-70014">1.4<!--tex4ht:ref: fig:compass --></a>). <span 
+class="cmmi-10x-x-109">E</span><sub><span 
+class="cmmi-8">m</span></sub> is given by <span 
+class="cmsy-10x-x-109">-</span><span 
+class="cmbx-10x-x-109">m</span> <span 
+class="cmsy-10x-x-109">&#x22C5;</span> <span 
+class="cmbx-10x-x-109">B</span> or <span 
+class="cmsy-10x-x-109">-</span><span 
+class="cmmi-10x-x-109">mB</span> cos<span 
+class="cmmi-10x-x-109">&#x03B8; </span>where
+<span 
+class="cmmi-10x-x-109">m </span>and <span 
+class="cmmi-10x-x-109">B </span>are the magnitudes of <span 
+class="cmbx-10x-x-109">m</span> and <span 
+class="cmbx-10x-x-109">B</span>, respectively (see Section&#x00A0;<a 
+href="WebBook3ap1.html#x19-214000A.3.4">A.3.4<!--tex4ht:ref: app:vecmult --></a> in the
+appendix for review of vector multiplication). Magnetic energy has units of joules
+and is at a minimum when <span 
+class="cmbx-10x-x-109">m</span> is aligned with <span 
+class="cmbx-10x-x-109">B</span>.
+<!--l. 197--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-70014"></a>
+                                                                     
+
+                                                                     
+<!--l. 198--><p class="noindent" ><img 
+src="WebBook36x.png" alt="PIC" class="graphics" width="341.43306pt" height="120.36613pt" ><!--tex4ht:graphics  
+name="WebBook36x.png" src="EPSfiles/compass.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.4: </span><span  
+class="content">The magnetic moment <span 
+class="cmbx-10x-x-109">m</span> of, for example, a compass needle, will
+tend to align itself with a magnetic field <span 
+class="cmbx-10x-x-109">B</span>. a) Example of when the field is
+produced by a current in a wire. b) The aligning energy is the magnetostatic
+energy which is greatest when the angle <span 
+class="cmmi-10x-x-109">&#x03B8; </span>between the two vectors of the
+magnetic moment <span 
+class="cmbx-10x-x-109">m</span> and the magnetic field <span 
+class="cmbx-10x-x-109">B</span> is at a maximum. </span></div><!--tex4ht:label?: x3-70014 -->
+                                                                     
+
+                                                                     
+<!--l. 201--><p class="indent" >   </div><hr class="endfigure">
+   <h3 class="sectionHead"><span class="titlemark">1.5   </span> <a 
+href="WebBook3.html#QQ2-3-13" id="x3-80001.5">Magnetization and magnetic susceptibility</a></h3>
+<!--l. 209--><p class="noindent" ><span 
+class="cmti-10x-x-109">Magnetization</span> <span 
+class="cmbx-10x-x-109">M</span> is a normalized moment (Am<sup><span 
+class="cmr-8">2</span></sup>). We will use the symbol <span 
+class="cmbx-10x-x-109">M</span> for
+volume normalization (units of Am<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>) or &#x03A9; for mass normalization (units of
+Am<sup><span 
+class="cmr-8">2</span></sup>kg<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>). Volume normalized magnetization therefore has the same units as <span 
+class="cmbx-10x-x-109">H</span>,
+implying that there is a current somewhere, even in permanent magnets. In the
+classical view (pre-quantum mechanics), sub-atomic charges such as protons and
+electrons can be thought of as tracing out tiny circuits and behaving
+as tiny magnetic moments. They respond to external magnetic fields
+and give rise to an induced magnetization. The relationship between the
+magnetization induced in a material <span 
+class="cmbx-10x-x-109">M</span><sub><span 
+class="cmmi-8">I</span></sub> and the external field <span 
+class="cmbx-10x-x-109">H</span> is defined
+as:
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook37x.png" alt="MI  = &#x03C7;bH.
+" class="math-display" ><a 
+ id="x3-8001r3"></a></center></td><td class="equation-label">(1.3)</td></tr></table>
+<!--l. 220--><p class="nopar" >
+<!--l. 222--><p class="noindent" >The parameter <span 
+class="cmmi-10x-x-109">&#x03C7;</span><sub><span 
+class="cmmi-8">b</span></sub> is known as the <span 
+class="cmti-10x-x-109">bulk magnetic susceptibility </span>of the material; it
+can be a complicated function of orientation, temperature, state of stress, time
+scale of observation and applied field, but is often treated as a scalar. Because <span 
+class="cmbx-10x-x-109">M</span>
+and <span 
+class="cmbx-10x-x-109">H</span> have the same units, <span 
+class="cmmi-10x-x-109">&#x03C7;</span><sub><span 
+class="cmmi-8">b</span></sub> is dimensionless. In practice, the magnetic
+response of a substance to an applied field can be normalized by volume (as in
+Equation&#x00A0;<a 
+href="#x3-8001r3">1.3<!--tex4ht:ref: eq:chi --></a>) or by mass or not normalized at all. We will use the symbol <span 
+class="cmmi-10x-x-109">&#x03BA; </span>for
+mass normalized susceptibility and <span 
+class="cmmi-10x-x-109">K </span>for the raw measurements (see Table&#x00A0;<a 
+href="#x3-100041">1.1<!--tex4ht:ref: tab:units --></a>)
+when necessary.
+<!--l. 231--><p class="indent" >   Certain materials can produce magnetic fields in the absence of external
+magnetic fields (i.e., they are permanent magnets). As we shall see in later
+chapters, these so-called &#8220;spontaneous&#8221; magnetic moments are also the
+                                                                     
+
+                                                                     
+result of spins of electrons which, in some crystals, act in a coordinated
+fashion, thereby producing a net magnetic field. The resulting spontaneous
+magnetization can be fixed by various mechanisms and can preserve records of
+ancient magnetic fields. This <span 
+class="cmti-10x-x-109">remanent magnetization </span>forms the basis of the
+field of paleomagnetism and will be discussed at length in subsequent
+chapters.
+<!--l. 246--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">1.6   </span> <a 
+href="WebBook3.html#QQ2-3-14" id="x3-90001.6">Relationship of <span 
+class="cmbx-10x-x-109">B</span> and <span 
+class="cmbx-10x-x-109">H</span></a></h3>
+<!--l. 249--><p class="noindent" ><span 
+class="cmbx-10x-x-109">B</span> and <span 
+class="cmbx-10x-x-109">H</span> are closely related and in paleomagnetic practice, both <span 
+class="cmbx-10x-x-109">B</span> and <span 
+class="cmbx-10x-x-109">H</span> are
+referred to as the &#8220;magnetic field&#8221;. Strictly speaking, <span 
+class="cmbx-10x-x-109">B</span> is the induction and <span 
+class="cmbx-10x-x-109">H</span> is
+the field, but the distinction is often blurred. The relationship between <span 
+class="cmbx-10x-x-109">B</span> and <span 
+class="cmbx-10x-x-109">H</span>
+is given by:
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook38x.png" alt="B = &#x03BC; (H  + M ).
+" class="math-display" ><a 
+ id="x3-9001r4"></a></center></td><td class="equation-label">(1.4)</td></tr></table>
+<!--l. 257--><p class="nopar" >
+<!--l. 259--><p class="noindent" >where <span 
+class="cmmi-10x-x-109">&#x03BC; </span>is a physical constant known as <span 
+class="cmti-10x-x-109">the permeability</span>. In a vacuum, this is the
+permeability of free space, <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub>. In the SI system, <span 
+class="cmmi-10x-x-109">&#x03BC; </span>has dimensions of henries per
+meter and <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub> is
+<!--l. 266--><p class="indent" >   4<span 
+class="cmmi-10x-x-109">&#x03C0; </span><span 
+class="cmsy-10x-x-109">&#x00D7; </span>10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">7</span></sup>H <span 
+class="cmsy-10x-x-109">&#x22C5;</span> m<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>. In most cases of paleomagnetic interest, we are outside the
+magnetized body so <span 
+class="cmbx-10x-x-109">M</span> = 0 and <span 
+class="cmbx-10x-x-109">B</span> = <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmbx-10x-x-109">H</span>.
+<!--l. 269--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">1.7   </span> <a 
+href="WebBook3.html#QQ2-3-15" id="x3-100001.7">A brief tour of magnetic units in the cgs system</a></h3>
+                                                                     
+
+                                                                     
+<!--l. 271--><p class="noindent" >So far, we have derived magnetic units in terms of the Système International
+(SI). In practice, you will notice that people frequently use what are known as
+cgs units, based on centimeters, grams and seconds. You may wonder why any
+fuss would be made over using meters as opposed to centimeters because the
+conversion is trivial. With magnetic units, however, the conversion is far from
+trivial and has been the source of confusion and many errors. So, in the interest
+of clearing things up, we will briefly outline the cgs approach to magnetic
+units.
+<!--l. 275--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-100015"></a>
+                                                                     
+
+                                                                     
+<!--l. 276--><p class="noindent" ><img 
+src="WebBook39x.png" alt="PIC" class="graphics" width="118.44249pt" height="39.14624pt" ><!--tex4ht:graphics  
+name="WebBook39x.png" src="EPSfiles/pp.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.5: </span><span  
+class="content">The force between two magnetic monopoles <span 
+class="cmmi-10x-x-109">p</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,p</span><sub><span 
+class="cmr-8">2</span></sub> is <span 
+class="cmmi-8">p</span><sub><span 
+class="cmr-6">1</span></sub><span 
+class="cmmi-8">p</span><sub><span 
+class="cmr-6">2</span></sub> 
+  <span 
+class="cmmi-8">r</span><sup><span 
+class="cmr-6">2</span></sup>  .       </span></div><!--tex4ht:label?: x3-100015 -->
+                                                                     
+
+                                                                     
+<!--l. 279--><p class="indent" >   </div><hr class="endfigure">
+                                                                     
+
+                                                                     
+<!--l. 282--><p class="indent" >   The derivation of magnetic units in cgs is entirely different from SI. The
+approach we will take here follows that of Cullity (1972). We start with the
+concept of a magnetic pole with strength <span 
+class="cmmi-10x-x-109">p </span>instead of with current loops as we
+did for SI units. We will consider the force between two poles <span 
+class="cmmi-10x-x-109">p</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,p</span><sub><span 
+class="cmr-8">2</span></sub> (see
+Figure&#x00A0;<a 
+href="#x3-100015">1.5<!--tex4ht:ref: fig:pp --></a>) Coulomb&#8217;s law. This states that the force between two charges
+(<span 
+class="cmmi-10x-x-109">q</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,q</span><sub><span 
+class="cmr-8">2</span></sub>) is:
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook310x.png" alt="       q1q2
+F12 = k r2 ,
+" class="math-display" ><a 
+ id="x3-10002r5"></a></center></td><td class="equation-label">(1.5)</td></tr></table>
+<!--l. 295--><p class="nopar" >
+where <span 
+class="cmmi-10x-x-109">r </span>is the distance between the two charges. In cgs units, the proportionality
+constant <span 
+class="cmmi-10x-x-109">k </span>is simply unity, whereas in SI units it is   <span 
+class="cmr-8">1</span> __
+<span 
+class="cmr-8">4</span><span 
+class="cmmi-8">&#x03C0;&#x03F5;</span><sub><span 
+class="cmr-6">0</span></sub>  where <span 
+class="cmmi-10x-x-109">&#x03F5;</span><sub><span 
+class="cmr-8">0</span></sub> =  <span 
+class="cmr-8">10</span><sup><span 
+class="cmr-6">7</span></sup> _
+<span 
+class="cmr-8">4</span><span 
+class="cmmi-8">&#x03C0;</span>c<sup><span 
+class="cmr-6">2</span></sup>  and <span 
+class="cmmi-10x-x-109">c </span>is
+the speed of light in a vacuum (hence <span 
+class="cmmi-10x-x-109">&#x03F5;</span><sub><span 
+class="cmr-8">0</span></sub> = 8<span 
+class="cmmi-10x-x-109">.</span>859 <span 
+class="cmsy-10x-x-109">&#x22C5; </span>10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">12</span></sup> AsV<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>m<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>). [You can see
+why many people really prefer cgs but we are not allowed to publish
+in cgs in most of geophysical journals so we just must grin and bear
+it!]
+<!--l. 299--><p class="indent" >   For magnetic units, we use pole strength <span 
+class="cmmi-10x-x-109">p</span><sub><span 
+class="cmr-8">1</span></sub><span 
+class="cmmi-10x-x-109">,p</span><sub><span 
+class="cmr-8">2</span></sub> in units of <span 
+class="cmti-10x-x-109">electrostatic units</span>
+or esu, so Equation&#x00A0;<a 
+href="#x3-10002r5">1.5<!--tex4ht:ref: eq:coulomb --></a> becomes
+   <center class="math-display" >
+<img 
+src="WebBook311x.png" alt="F  = p1p2.
+      r2
+" class="math-display" ></center>
+<!--l. 306--><p class="noindent" >Force in cgs is in units of dynes (dyn), so
+                                                                     
+
+                                                                     
+   <center class="math-display" >
+<img 
+src="WebBook312x.png" alt="                           2
+F = 1 dyn =  1g cm-=  1-esu--,
+               s2      cm2  " class="math-display" ></center>
+so 1 unit of pole strength is rather awkwardly 1 gm<sup><span 
+class="cmr-8">1</span><span 
+class="cmmi-8">&#x2215;</span><span 
+class="cmr-8">2</span></sup> cm<sup><span 
+class="cmr-8">3</span><span 
+class="cmmi-8">&#x2215;</span><span 
+class="cmr-8">2</span></sup> s<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>. Of
+course there are no isolated magnetic poles in nature, only dipoles, but
+the concept of a unit of pole strength lies at the heart of cgs magnetic
+units.
+<!--l. 312--><p class="indent" >   A magnetic pole, as an isolated electric charge, would create a magnetic
+induction <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmmi-10x-x-109">H </span>in the space around it. One unit of field strength (defined as one
+<span 
+class="cmti-10x-x-109">oersted </span>or Oe) is the unit of field strength that exerts a force of one dyne on a
+unit of pole strength. The related induction (<span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmmi-10x-x-109">H</span>) has units of gauss or
+G.
+<!--l. 318--><p class="indent" >   The relationship between force, pole and magnetic field is written
+as:
+<!--l. 320--><p class="indent" >
+   <center class="math-display" >
+<img 
+src="WebBook313x.png" alt="F =  p&#x03BC;oH.  " class="math-display" ></center> So,
+a pole with one pole strength, placed in a one Oe field is acted on by a
+force of one dyne. This is the same force that it would experience if we
+placed the pole one centimeter away from another pole with one pole
+strength. Hence, the strength of the field produced by this monopole must be
+one oersted at one centimeter distance, and decrease proportional to
+1<span 
+class="cmmi-10x-x-109">&#x2215;r</span><sup><span 
+class="cmr-8">2</span></sup>.
+<!--l. 325--><p class="indent" >   Returning to the lines of force idea developed for magnetic fields earlier, let us
+define the oersted to be the magnetic field which would produce an induction
+with one unit of induction per square centimeter. Imagine a sphere with a radius
+                                                                     
+
+                                                                     
+<span 
+class="cmmi-10x-x-109">r </span>surrounding the magnetic monopole. The surface area of such a sphere is 4<span 
+class="cmmi-10x-x-109">&#x03C0;r</span><sup><span 
+class="cmr-8">2</span></sup>.
+When the sphere is a unit sphere (<span 
+class="cmmi-10x-x-109">r </span>= 1) and the field strength at the surface is 1
+Oe, then there must be a magnetic flux of 4<span 
+class="cmmi-10x-x-109">&#x03C0; </span>units of induction passing through
+it.
+<!--l. 328--><p class="indent" >   You will have noticed the use of the permeability of free space <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub> in the above
+treatment &#8211; a parameter missing in many books and articles using the cgs
+units. The reason for this is that <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub> is unity in cgs units and simply
+converts oersteds (<span 
+class="cmbx-10x-x-109">H</span>) to gauss (<span 
+class="cmbx-10x-x-109">B</span> = <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmbx-10x-x-109">H</span>). Therefore in cgs units, <span 
+class="cmmi-10x-x-109">B</span>
+and <span 
+class="cmmi-10x-x-109">H </span>are used interchangeably. We inserted it in this derivation to
+remind us that there IS a difference and that the difference becomes very
+important when we convert to SI because <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub> is not unity, but 4<span 
+class="cmmi-10x-x-109">&#x03C0; </span>x 10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">7</span></sup>! For
+conversion between commonly used cgs and SI paramters, please refer to
+Table&#x00A0;<a 
+href="#x3-100041">1.1<!--tex4ht:ref: tab:units --></a>.
+<!--l. 332--><p class="indent" >   Proceeding to the notion of magnetic moment, from a cgs point of view, we
+start with a magnet of length <span 
+class="cmmi-10x-x-109">l </span>with two poles of strength <span 
+class="cmmi-10x-x-109">p </span>at each end. Placing
+the magnet in a field <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmbx-10x-x-109">H</span>, we find that it experiences a torque &#x0393; proportional to
+<span 
+class="cmmi-10x-x-109">p,l </span>and <span 
+class="cmbx-10x-x-109">H</span> such that
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook314x.png" alt="&#x0393; = pl &#x00D7; &#x03BC; H.
+         o
+" class="math-display" ><a 
+ id="x3-10003r6"></a></center></td><td class="equation-label">(1.6)</td></tr></table>
+<!--l. 337--><p class="nopar" >
+<!--l. 339--><p class="noindent" >Recalling our earlier discussion of magnetic moment, you will realize that <span 
+class="cmmi-10x-x-109">pl </span>is
+simply the magnetic moment <span 
+class="cmmi-10x-x-109">m</span>. This line of reasoning also makes clear why it is
+called a &#8220;moment&#8221;. The units of torque are energy, which are ergs in cgs, so the
+units of magnetic moment are technically erg per gauss. But because of the
+&#8220;silent&#8221; <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub> in cgs, magnetic moment is most often defined as erg per oersted We
+therefore follow convention and define the &#8220;electromagnetic unit&#8221; (emu) as being
+one erg <span 
+class="cmsy-10x-x-109">&#x22C5; </span>oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>. [Some use emu to refer to the magnetization (volume
+normalized moment, see above), but this is incorrect and a source of a lot of
+                                                                     
+
+                                                                     
+confusion.]
+   <div class="table">
+                                                                     
+
+                                                                     
+<!--l. 347--><p class="indent" >   <a 
+ id="x3-100041"></a><hr class="float"><div class="float" 
+>
+                                                                     
+
+                                                                     
+ <div class="caption" 
+><span class="id">Table&#x00A0;1.1: </span><span  
+class="content">Conversion between SI and cgs units.</span></div><!--tex4ht:label?: x3-100041 -->
+<div class="tabular"> <table id="TBL-2" class="tabular" 
+cellspacing="0" cellpadding="0"  
+><colgroup id="TBL-2-1g"><col 
+id="TBL-2-1"><col 
+id="TBL-2-2"><col 
+id="TBL-2-3"><col 
+id="TBL-2-4"><col 
+id="TBL-2-5"></colgroup><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-1"  
+class="td11">Parameter                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-2"  
+class="td11">SI unit   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-3"  
+class="td11">cgs unit          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-4"  
+class="td11">Conversion                         </td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-1"  
+class="td11">Magnetic moment (<span 
+class="cmbx-10x-x-109">m</span>)  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-2"  
+class="td11">Am<sup><span 
+class="cmr-8">2</span></sup>        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-3"  
+class="td11">emu               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-4"  
+class="td11">1 A m<sup><span 
+class="cmr-8">2</span></sup> = 10<sup><span 
+class="cmr-8">3</span></sup> emu              </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-1"  
+class="td11">Magnetization             </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-1"  
+class="td11">  by volume (<span 
+class="cmbx-10x-x-109">M</span>)        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-2"  
+class="td11">Am<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-3"  
+class="td11">emu cm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">3</span></sup>         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-4"  
+class="td11">1 Am<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> = 10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">3</span></sup> emu cm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">3</span></sup>     </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-1"  
+class="td11">  by mass (&#x03A9;)            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-2"  
+class="td11">Am<sup><span 
+class="cmr-8">2</span></sup>kg<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup></td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-3"  
+class="td11">emu gm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-4"  
+class="td11">1 Am<sup><span 
+class="cmr-8">2</span></sup>kg<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> = 1 emu gm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>     </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-1"  
+class="td11">Magnetic Field (<span 
+class="cmbx-10x-x-109">H</span>)      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-2"  
+class="td11">Am<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-3"  
+class="td11">Oersted (oe)    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-4"  
+class="td11">1 Am<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> = 4<span 
+class="cmmi-10x-x-109">&#x03C0; </span>x 10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">3</span></sup> oe       </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-1"  
+class="td11">Magnetic Induction (<span 
+class="cmbx-10x-x-109">B</span>)</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-2"  
+class="td11">T          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-3"  
+class="td11">Gauss (G)       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-4"  
+class="td11">1 T = 10<sup><span 
+class="cmr-8">4</span></sup> G                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-1"  
+class="td11">Permeability               </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-1"  
+class="td11">of free space (<span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub>)         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-2"  
+class="td11">Hm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-3"  
+class="td11">1                   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-4"  
+class="td11">4<span 
+class="cmmi-10x-x-109">&#x03C0; </span>x 10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">7</span></sup> Hm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> = 1           </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-10-1"  
+class="td11">Susceptibility              </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-1"  
+class="td11">  total (K:<span 
+class="cmbx-10x-x-109">m</span><span 
+class="cmbx-10x-x-109">H</span>)            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-2"  
+class="td11">m<sup><span 
+class="cmr-8">3</span></sup>           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-3"  
+class="td11">emu oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-4"  
+class="td11">1 m<sup><span 
+class="cmr-8">3</span></sup> = <span 
+class="cmr-8">10</span><sup><span 
+class="cmr-6">6</span></sup> 
+ <span 
+class="cmr-8">4</span><span 
+class="cmmi-8">&#x03C0;</span>  emu oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>              </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-1"  
+class="td11">  by volume ( <span 
+class="cmmi-10x-x-109">&#x03C7;</span>: <span 
+class="cmbx-10x-x-109">M</span> <span 
+class="cmbx-10x-x-109">H</span>)   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-2"  
+class="td11">-           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-3"  
+class="td11">emu cm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">3</span></sup> oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup></td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-4"  
+class="td11">1 S.I. =  <span 
+class="cmr-8">1</span> _
+<span 
+class="cmr-8">4</span><span 
+class="cmmi-8">&#x03C0;</span>  emu cm<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">3</span></sup> oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>    </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-1"  
+class="td11">  by mass (<span 
+class="cmmi-10x-x-109">&#x03BA;</span>:<span 
+class="cmbx-10x-x-109">m</span><span 
+class="cmmi-8">m</span> <span 
+class="cmsy-10x-x-109">&#x22C5;</span> <span 
+class="cmr-8">1</span> _
+<span 
+class="cmbx-10x-x-109">H</span>)   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-2"  
+class="td11">m<sup><span 
+class="cmr-8">3</span></sup>kg <sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-3"  
+class="td11">emu g<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-4"  
+class="td11">1 m<sup><span 
+class="cmr-8">3</span></sup>kg<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> = <span 
+class="cmr-8">10</span><sup><span 
+class="cmr-6">3</span></sup> 
+ <span 
+class="cmr-8">4</span><span 
+class="cmmi-8">&#x03C0;</span> emu g<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup> oe<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup></td>
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-14-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-14-1"  
+class="td11">                    </td></tr></table></div>
+<!--l. 377--><p class="noindent" >1 H = kg m<sup><span 
+class="cmr-8">2</span></sup>A<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">2</span></sup>s<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">2</span></sup>,  1 emu = 1 G cm<sup><span 
+class="cmr-8">3</span></sup>, <span 
+class="cmmi-10x-x-109">B </span>= <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmmi-10x-x-109">H </span>(in vacuum),  1 T = kg A<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">1</span></sup>
+s<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">2</span></sup>
+                                                                     
+
+                                                                     
+   </div><hr class="endfloat" />
+   </div>
+   <h3 class="sectionHead"><span class="titlemark">1.8   </span> <a 
+href="WebBook3.html#QQ2-3-18" id="x3-110001.8">The magnetic potential </a></h3>
+<!--l. 390--><p class="noindent" >An isolated electrical charge produces an electrical field that begins at the source
+(the charge) and spread (diverge) outward (see Figure&#x00A0;<a 
+href="#x3-110016">1.6<!--tex4ht:ref: fig:divergence --></a>a). Because there is no
+return flux to an oppositely charged &#8220;sink&#8221;, there is a net flux out of the
+dashed box shown in the figure. The <span 
+class="cmti-10x-x-109">divergence </span>of the electrical field is
+defined as <span 
+class="cmsy-10x-x-109">&#x2207;&#x22C5;</span> <span 
+class="cmbx-10x-x-109">E</span> which quantifies the net flux (see Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-220000A.3.6">A.3.6<!--tex4ht:ref: app:nabla --></a> for
+more). In the case of the field around an electric charge, the divergence is
+non-zero.
+<!--l. 396--><p class="indent" >   Magnetic fields are different from electrical fields in that there is
+no equivalent to an isolated electrical charge; there are only pairs of
+&#8220;opposite charges&#8221; &#8211; magnetic <span 
+class="cmti-10x-x-109">dipoles</span>. Therefore, any line of flux starting at
+one magnetic pole, returns to its sister pole and there is no net flux out
+of the box shown in Figure&#x00A0;<a 
+href="#x3-110016">1.6<!--tex4ht:ref: fig:divergence --></a>b; the magnetic field has no divergence
+(Figure&#x00A0;<a 
+href="#x3-110016">1.6<!--tex4ht:ref: fig:divergence --></a>b). This property of magnetic fields is another of Maxwell&#8217;s equations:
+<span 
+class="cmsy-10x-x-109">&#x2207;&#x22C5;</span> <span 
+class="cmbx-10x-x-109">B</span> = 0.
+<!--l. 404--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-110016"></a>
+                                                                     
+
+                                                                     
+<!--l. 405--><p class="noindent" ><img 
+src="WebBook315x.png" alt="PIC" class="graphics" width="341.43306pt" height="197.81621pt" ><!--tex4ht:graphics  
+name="WebBook315x.png" src="EPSfiles/divergence.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.6: </span><span  
+class="content">a) An electric charge produces a field that diverges out from the
+source. There is a net flux out of the dashed box, quantified by the divergence
+(<span 
+class="cmsy-10x-x-109">&#x2207;&#x22C5;</span> <span 
+class="cmbx-10x-x-109">E</span>), which is is proportional to the magnitude of the sources inside the
+box. b) There are no isolated magnetic charges, only dipoles. Within any
+space (e.g., the dashed box) any flux line that goes out must return. The
+divergence of such a field is zero, i.e., <span 
+class="cmsy-10x-x-109">&#x2207;&#x22C5;</span> <span 
+class="cmbx-10x-x-109">B</span> = 0. </span></div><!--tex4ht:label?: x3-110016 -->
+                                                                     
+
+                                                                     
+<!--l. 408--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 411--><p class="indent" >   In the special case away from electric currents and magnetic sources (so
+<span 
+class="cmmi-10x-x-109">B </span>= <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmmi-10x-x-109">H</span>), the magnetic field can be written as the gradient of a scalar field that
+is known as the <span 
+class="cmti-10x-x-109">magnetic potential</span>, <span 
+class="cmmi-10x-x-109">&#x03C8;</span><sub><span 
+class="cmmi-8">m</span></sub>, <span 
+class="cmti-10x-x-109">i.e.</span>,
+<!--l. 419--><p class="indent" >
+   <center class="math-display" >
+<img 
+src="WebBook316x.png" alt="H  = - &#x2207;&#x03C8;m.
+" class="math-display" ></center>
+<!--l. 425--><p class="indent" >   The presence of a magnetic moment <span 
+class="cmbx-10x-x-109">m</span> creates a magnetic field which is the
+gradient of some scalar field. To gain a better intuitive feel about the relationship
+between scalar fields and their gradient vector fields, see Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-220000A.3.6">A.3.6<!--tex4ht:ref: app:nabla --></a>.
+Because the divergence of the magnetic field is zero, by definition, the divergence
+of the gradient of the scalar field is also zero, or <span 
+class="cmsy-10x-x-109">&#x2207;</span><sup><span 
+class="cmr-8">2</span></sup><span 
+class="cmmi-10x-x-109">&#x03C8;</span><sub><span 
+class="cmmi-8">m</span></sub> = 0. The operator <span 
+class="cmsy-10x-x-109">&#x2207;</span><sup><span 
+class="cmr-8">2</span></sup> is
+called the Laplacian and <span 
+class="cmsy-10x-x-109">&#x2207;</span><sup><span 
+class="cmr-8">2</span></sup><span 
+class="cmmi-10x-x-109">&#x03C8;</span><sub><span 
+class="cmmi-8">m</span></sub> = 0 is <span 
+class="cmti-10x-x-109">Laplace&#8217;s equation</span>. This will be the
+starting point for spherical harmonic analysis of the geomagnetic field discussed
+briefly in Chapter 2.
+<!--l. 433--><p class="indent" >   The curl of the magnetic field (<span 
+class="cmsy-10x-x-109">&#x2207;&#x00D7;</span><span 
+class="cmbx-10x-x-109">H</span>) depends on the current density and is
+not always zero and magnetic fields cannot generally be represented as the
+gradient of a scalar field. Laplace&#8217;s equation is only valid outside the magnetic
+sources and away from currents.
+<!--l. 437--><p class="indent" >   So what is this magnetic potential and how does it relate to the magnetic
+moments that give rise to the magnetic field? Whatever it is, it has to satisfy
+Laplace&#8217;s equation, so we turn to solutions of Laplace&#8217;s equation for help. One
+solution is to define the magnetic potential <span 
+class="cmmi-10x-x-109">&#x03C8;</span><sub><span 
+class="cmmi-8">m</span></sub> as a function of the vector <span 
+class="cmbx-10x-x-109">r </span>with
+radial distance <span 
+class="cmmi-10x-x-109">r </span>and the angle <span 
+class="cmmi-10x-x-109">&#x03B8; </span>from the moment. Given a <span 
+class="cmti-10x-x-109">dipole moment</span> <span 
+class="cmbx-10x-x-109">m</span>, a
+solution to Laplace&#8217;s equation is:
+   <table 
+class="equation"><tr><td>
+                                                                     
+
+                                                                     
+   <center class="math-display" >
+<img 
+src="WebBook317x.png" alt="&#x03C8;m =  m-&#x22C5;r-= m--cos-&#x03B8;.
+      4&#x03C0;r3    4&#x03C0;r2
+" class="math-display" ><a 
+ id="x3-11002r7"></a></center></td><td class="equation-label">(1.7)</td></tr></table>
+<!--l. 446--><p class="nopar" >
+<!--l. 448--><p class="noindent" >You can verify this by making sure that<span 
+class="cmsy-10x-x-109">&#x2207;</span><sup><span 
+class="cmr-8">2</span></sup><span 
+class="cmmi-10x-x-109">&#x03C8;</span><sub><span 
+class="cmmi-8">m</span></sub> = 0.
+<!--l. 450--><p class="indent" >   The radial and tangential components of <span 
+class="cmbx-10x-x-109">H</span> at P (Figure&#x00A0;<a 
+href="#x3-110047">1.7<!--tex4ht:ref: fig:mH --></a>) then would
+be:
+<!--l. 452--><p class="indent" >
+   <center class="math-display" >
+<img 
+src="WebBook318x.png" alt="        &#x2202;&#x03C8;m--  -1-2m-cos&#x03B8;-
+Hr  = -  &#x2202;r =  4&#x03C0;   r3   ,  " class="math-display" ></center>
+and
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook319x.png" alt="        1&#x2202;&#x03C8;m--   m-sin-&#x03B8;-
+H &#x03B8; = - r &#x2202;&#x03B8;  =  4 &#x03C0;r3 ,
+" class="math-display" ><a 
+ id="x3-11003r8"></a></center></td><td class="equation-label">(1.8)</td></tr></table>
+<!--l. 461--><p class="nopar" >
+respectively.
+<!--l. 464--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-110047"></a>
+                                                                     
+
+                                                                     
+<!--l. 465--><p class="noindent" ><img 
+src="WebBook320x.png" alt="PIC" class="graphics" width="170.71652pt" height="194.75247pt" ><!--tex4ht:graphics  
+name="WebBook320x.png" src="EPSfiles/mH.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.7: </span><span  
+class="content">Field <span 
+class="cmbx-10x-x-109">H</span> produced at point P by a magnetic moment <span 
+class="cmbx-10x-x-109">m</span>. <span 
+class="cmbx-10x-x-109">H</span><sub><span 
+class="cmmi-8">r</span></sub>
+and <span 
+class="cmbx-10x-x-109">H</span><sub><span 
+class="cmmi-8">&#x03B8;</span></sub> are the radial and tangential fields respectively.</span></div><!--tex4ht:label?: x3-110047 -->
+                                                                     
+
+                                                                     
+<!--l. 470--><p class="indent" >   </div><hr class="endfigure">
+   <h3 class="sectionHead"><span class="titlemark">1.9   </span> <a 
+href="WebBook3.html#QQ2-3-21" id="x3-120001.9">Origin of the geomagnetic field</a></h3>
+<!--l. 476--><p class="noindent" >Measurement and description of the geomagnetic field and its spatial and
+temporal variations constitute one of the oldest geophysical disciplines. However,
+our ability to describe the field far exceeds our understanding of its origin. All
+plausible theories involve generation of the geomagnetic field within the fluid
+outer core of the Earth by some form of magnetohydrodynamic dynamo.
+Attempts to solve the full mathematical complexities of magnetohydrodynamics
+succeeded only in 1995 (Glatzmaier and Roberts, 1995).
+<!--l. 482--><p class="indent" >   Quantitative treatment of magnetohydrodynamics is (mercifully) beyond the
+scope of this book, but we can provide a qualitative explanation. The first step is
+to gain some appreciation for what is meant by a self-exciting dynamo. Maxwell&#8217;s
+equations tell us that electric and changing magnetic fields are closely linked and
+can affect each other. Moving an electrical conductor through a magnetic field
+will cause electrons to flow, generating an electrical current. This is the
+principle of electric motors. A simple electromechanical disk-dynamo
+model such as that shown in Figure&#x00A0;<a 
+href="#x3-120018">1.8<!--tex4ht:ref: fig:faraday --></a> contains the essential elements of
+a self-exciting dynamo. The model is constructed with a copper disk
+rotating attached to an electrically conducting (e.g., brass) axle. An initial
+magnetic induction field, <span 
+class="cmmi-10x-x-109">B</span>, is perpendicular to the copper disk in an
+upward direction. Electrons in the copper disk experience a push from the
+magnetic field known as the Lorentz force, <span 
+class="cmmi-10x-x-109">F</span><sub><span 
+class="cmmi-8">L</span></sub>, when they pass through the
+field.
+<!--l. 493--><p class="indent" >   <hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-120018"></a>
+                                                                     
+
+                                                                     
+<!--l. 494--><p class="noindent" ><img 
+src="WebBook321x.png" alt="PIC" class="graphics" width="327.20668pt" height="383.15822pt" ><!--tex4ht:graphics  
+name="WebBook321x.png" src="EPSfiles/discdynamo.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.8: </span><span  
+class="content">Self-exciting disk dynamo. An initial field <span 
+class="cmmi-10x-x-109">B </span>is reinforced by
+dynamo action. When the conducting plate is rotated, electric charge moves
+perpendicular to the magnetic field setting up an electric potential between
+the inner conducting rod and the outer rim of the plate. If the conducting
+plate is connected to a coil wound such that a current produces a magnetic
+field in the same direction as the initial field, the magnetic field is enhanced.
+[AfterElsasser, 1958; redrawn from Butler, 1992.]</span></div><!--tex4ht:label?: x3-120018 -->
+                                                                     
+
+                                                                     
+<!--l. 497--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 501--><p class="indent" >   The Lorentz force is given by:
+   <table 
+class="equation"><tr><td>
+   <center class="math-display" >
+<img 
+src="WebBook322x.png" alt="FL = qv &#x00D7; B,
+" class="math-display" ><a 
+ id="x3-12002r9"></a></center></td><td class="equation-label">(1.9)</td></tr></table>
+<!--l. 508--><p class="nopar" >
+<!--l. 510--><p class="noindent" >where <span 
+class="cmmi-10x-x-109">q </span>is the electrical charge of the electrons, and <span 
+class="cmmi-10x-x-109">v </span>is their velocity. The
+Lorentz force on the electrons is directed toward the axle of the disk and
+the resulting electrical current flow is toward the outside of the disk
+(Figure&#x00A0;<a 
+href="#x3-120018">1.8<!--tex4ht:ref: fig:faraday --></a>).
+<!--l. 514--><p class="indent" >   Brush connectors are used to tap the electrical current from the disk, and the
+current passes through a coil under the disk. This coil is cleverly wound so that
+the electrical current produces a magnetic induction field in the same direction as
+the original field. The electrical circuit is a positive feedback system that
+reinforces the original magnetic induction field. The entire disk-dynamo model is
+a self-exciting dynamo. As long as the disk keeps rotating, the electrical current
+will flow, and the magnetic field will be sustained even if the original field
+disappears.
+<!--l. 520--><p class="indent" >   With this simple model we encounter the essential elements of any
+self-exciting dynamo:
+     <ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x3-12004x1">A moving electrical conductor is required and is represented by the
+     rotating copper disk.
+     </li>
+     <li 
+  class="enumerate" id="x3-12006x2">An initial magnetic field is required.
+     </li>
+     <li 
+  class="enumerate" id="x3-12008x3">An interaction between the magnetic field and the conductor must
+     take place to provide reinforcement of the original magnetic field. In
+                                                                     
+
+                                                                     
+     the model, this interaction is the Lorentz force with the coil acting as
+     a positive feedback (self-exciting) circuit.
+     </li>
+     <li 
+  class="enumerate" id="x3-12010x4">Energy must be supplied to overcome electrical resistivity losses. In
+     the model, energy must be supplied to keep the disk rotating.</li></ol>
+<!--l. 532--><p class="indent" >   More complicated setups using two disks whose fields interact with one
+another generate chaotic magnetic behavior that can switch polarities even if the
+mechanical motion remains steady. Certainly no one proposes that systems of
+disks and feedback coils exist in the Earth&#8217;s core. But interaction between the
+magnetic field and the electrically conducting iron-nickel alloy in the outer core
+can produce a positive feedback and allow the Earth&#8217;s core to operate as a
+self-exciting magnetohydrodynamic dynamo. For reasonable electrical
+conductivities, fluid viscosity, and plausible convective fluid motions in
+the Earth&#8217;s outer core, the fluid motions can regenerate the magnetic
+field that is lost through electrical resistivity. There is a balance between
+fluid motions regenerating the magnetic field and loss of magnetic field
+because of electrical resistivity. The dominant portion of the geomagnetic
+field detectable at the surface is essentially dipolar with the axis of the
+dipole nearly parallel to the rotational axis of the Earth. Rotation of
+the Earth must therefore be a controlling factor on the time-averaged
+fluid motions in the outer core. It should also be pointed out that the
+magnetohydrodynamic dynamo can operate in either polarity of the dipole.
+Thus, there is no contradiction between the observation of reversals of
+the geomagnetic dipole and magnetohydrodynamic generation of the
+geomagnetic field. However, understanding the special interactions of fluid
+motions and magnetic field that produce geomagnetic reversals is a major
+challenge.
+<!--l. 549--><p class="indent" >   As wise economists have long observed, there is no free lunch. The
+geomagnetic field is no exception. Because of ohmic dissipation of energy, there is
+a requirement for energy input to drive the magnetohydrodynamic fluid
+motions and thereby sustain the geomagnetic field. Estimates of the power
+(energy per unit time) required to generate the geomagnetic field are
+about 10<sup><span 
+class="cmr-8">13</span></sup> W (roughly the output of 10<sup><span 
+class="cmr-8">4</span></sup> nuclear power plants). This is
+about one fourth of the total geothermal flux, so the energy involved in
+generation of the geomagnetic field is a substantial part of the Earth&#8217;s heat
+budget.
+<!--l. 556--><p class="indent" >   Many sources of this energy have been proposed, and ideas on this topic have
+changed over the years. The energy sources that are currently thought to be most
+reasonable are a combination of cooling of the Earth&#8217;s core with attendant
+                                                                     
+
+                                                                     
+freezing of the outer core and growth of the solid inner core. The inner core is
+pure iron, while the liquid outer core is some 15% nickel (and probably has trace
+amounts of other elements as well). The freezing of the inner core therefore
+generates a bouyancy force as the remaining liquid becomes more enriched in
+the lighter elements. These energy sources are sufficient to power the
+fluid motions of the outer core required to generate the geomagnetic
+field.
+<!--l. 562--><p class="noindent" >SUPPLEMENTAL READINGS: Jiles (1991), Chapter 1; Cullity (1972), Chapter
+1.
+   <h3 class="sectionHead"><span class="titlemark">1.10   </span> <a 
+href="WebBook3.html#QQ2-3-23" id="x3-130001.10">Problems</a></h3>
+<!--l. 571--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 0</span>
+<!--l. 573--><p class="noindent" >Before you do any of the problems in this book, you will need to know your way
+around a computer. Therefore, you are strongly encouraged to consult the
+<a 
+href="http://earthref.org/PmagPy/cookbook" >PmagPy website</a>. Follow the instructions in Chapter 1 (Installing PmagPy),
+Chapter 3 (Survival computer skills), Chapter 6 (Intro to Python Programming)
+and Chapter 7 (Python Notebooks).
+<!--l. 575--><p class="noindent" >After installing the <span 
+class="cmbx-10x-x-109">PmagPy </span>package, find the directory called &#8216;Essentials_Examples&#8217;
+in the Datafiles folder and copy it to someplace on your computer with no
+spaces in the path. Find your command line (for help see the <a 
+href="http://earthref.org/PmagPy/cookbook/#command_line" >PmagPy
+cookbook</a>). Now type on the command line: ipython notebook and navigate to
+the file &#8216;essentials_ps_template.ipynb&#8217; in the &#8216;Notebooks&#8217; directory of
+the datafiles folder. Under the &#8217;File&#8217; menu, select &#8216;Make a Copy&#8217; and
+rename your notebook &#8216;MYNAME_ps_1.ipynb&#8217;, where MYNAME is your
+name (with no spaces), e.g., LimaTango. Save this file in your homework
+folder.
+<!--l. 577--><p class="noindent" >Notebooks are constructed as a series of &#8216;cells&#8217; which can be text or code among
+other things. To view the &#8216;source&#8217; of a text cell, just click on it. To render
+it, click on the &#8216;run&#8217; button (sideways triangle on the toolbar). Text
+can be written in the style of LaTex to make nice looking equations,
+so you might want to familiarize yourself with that syntax. To run the
+                                                                     
+
+                                                                     
+code in a code cell, click on the cell and then the &#8216;run&#8217; button. Anything
+after a pound sign (#) in a code block will be ignored, so this is how
+we comment code. Run the code block with the comment &#8216;# My first
+program. Then make a new code block and have it print your favorite pithy
+phrase.
+<!--l. 580--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 1</span>
+<!--l. 582--><p class="noindent" >In axisymmetric spherical coordinates, <span 
+class="cmsy-10x-x-109">&#x2207; </span>(the gradient operator) is given
+by
+<!--l. 584--><p class="noindent" >
+<center class="math-display" >
+<img 
+src="WebBook323x.png" alt="    -&#x2202;-   &#x2202;--
+&#x2207; = dr +  &#x2202;&#x03B8;.
+" class="math-display" ></center>
+<!--l. 587--><p class="noindent" >We also know that
+<center class="math-display" >
+<img 
+src="WebBook324x.png" alt="H  = - &#x2207;&#x03C8;m,
+" class="math-display" ></center>
+<!--l. 592--><p class="noindent" >and that <span 
+class="cmmi-10x-x-109">&#x03C8;</span><sub><span 
+class="cmmi-8">m</span></sub> is a scalar function of position:
+                                                                     
+
+                                                                     
+<center class="math-display" >
+<img 
+src="WebBook325x.png" alt="     m--&#x22C5;r
+&#x03C8;m =  4&#x03C0;r3.
+" class="math-display" ></center>
+<!--l. 599--><p class="noindent" >Find the radial and tangential components of <span 
+class="cmbx-10x-x-109">H</span> if <span 
+class="cmbx-10x-x-109">m</span> is 80 ZAm<sup><span 
+class="cmr-8">2</span></sup>, [remember
+that &#8220;Z&#8221; stands for Zeta which stands for 10<sup><span 
+class="cmr-8">21</span></sup>], <span 
+class="cmmi-10x-x-109">r </span>is 6 x 10<sup><span 
+class="cmr-8">6</span></sup> m and <span 
+class="cmmi-10x-x-109">&#x03B8; </span>is 45<sup><span 
+class="cmmi-8">o</span></sup>. What
+are these field values in terms of <span 
+class="cmbx-10x-x-109">B</span> (teslas)?
+<!--l. 603--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 2</span>
+<!--l. 607--><p class="noindent" >a) Write an interactive python script to convert induction, moment and magnetic
+field quantities in cgs units to SI units. Use the conversion factors in Table&#x00A0;<a 
+href="#x3-100041">1.1<!--tex4ht:ref: tab:units --></a>.
+Use your program to convert the following:
+<!--l. 609--><p class="noindent" >i) B = 3.5 x10<sup><span 
+class="cmr-8">5</span></sup> G
+<!--l. 611--><p class="noindent" >ii) m = 2.78 x 10<sup><span 
+class="cmsy-8">-</span><span 
+class="cmr-8">20</span></sup> G cm<sup><span 
+class="cmr-8">3</span></sup>
+<!--l. 613--><p class="noindent" >iii) H = 128 oe
+<!--l. 615--><p class="noindent" >b) Modify your script to allow conversion from cgs =<span 
+class="cmmi-10x-x-109">&#x003E; </span>SI or SI =<span 
+class="cmmi-10x-x-109">&#x003E; </span>cgs. Rerun it
+to convert your answers from a) back to cgs.
+<!--l. 617--><p class="noindent" >HINTS: Review Appendix&#x00A0;<span 
+class="cmbx-10x-x-109">??</span>. Use the <span 
+class="cmbx-10x-x-109">raw</span><span 
+class="cmbx-10x-x-109">_input </span>command in Section&#x00A0;<span 
+class="cmbx-10x-x-109">??</span> for
+getting information into a program. You will need to ask what the units of the
+input data will be and what output units are desired as well as what the number
+is. When you read in data using <span 
+class="cmbx-10x-x-109">raw</span><span 
+class="cmbx-10x-x-109">_input</span>, it comes in as a string variable
+and you will have to convert it to a floating point in order to change
+units.
+<!--l. 619--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x3-130019"></a>
+                                                                     
+
+                                                                     
+<!--l. 622--><p class="noindent" ><img 
+src="WebBook326x.png" alt="PIC" class="graphics" width="170.71652pt" height="121.06729pt" ><!--tex4ht:graphics  
+name="WebBook326x.png" src="EPSfiles/dipole.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;1.9: </span><span  
+class="content">A magnetic dipole source (<span 
+class="cmmi-10x-x-109">m</span>) located 3480 km below the point
+of  observation  at  45<sup><span 
+class="cmsy-8">&#x2218;</span></sup> latitude.  The  average  radius  of  the  Earth  is  6370
+km. The field at the point of observation is directed downward (toward the
+center) with a magnitude of 10 <span 
+class="cmmi-10x-x-109">&#x03BC;</span>T. </span></div><!--tex4ht:label?: x3-130019 -->
+                                                                     
+
+                                                                     
+<!--l. 625--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 628--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 3</span>
+<!--l. 630--><p class="noindent" >Figure&#x00A0;<a 
+href="#x3-130019">1.9<!--tex4ht:ref: fig:dipole --></a> shows a meridional cross section through the Earth in the plane of a
+magnetic dipole source <span 
+class="cmmi-10x-x-109">m</span>. At the location directly above the dipole, the field
+from the dipole is directed vertically downward and has intensity 10 <span 
+class="cmmi-10x-x-109">&#x03BC;</span>T. The
+dipole source is placed at 3480 km from the center of the Earth. Assume a mean
+Earth radius of 6370 km. Adapt the geometry of Figure&#x00A0;<a 
+href="#x3-110047">1.7<!--tex4ht:ref: fig:mH --></a> and the
+equations describing the magnetic field of a dipole to the model dipole in
+Figure&#x00A0;<a 
+href="#x3-130019">1.9<!--tex4ht:ref: fig:dipole --></a>.
+<!--l. 638--><p class="noindent" >a) Calculate the magnetic dipole moment of the model dipole. Remember to keep
+track of your units!
+<!--l. 640--><p class="noindent" >b) Compare this field to the total field produced by a centered axial magnetic
+dipole moment (<span 
+class="cmti-10x-x-109">i.e.</span>, one that is pointing straight up and is in the center
+of the circles) equivalent to that of the present geomagnetic field (<span 
+class="cmmi-10x-x-109">m</span>
+<span 
+class="cmsy-10x-x-109">~ </span>80 ZAm<sup><span 
+class="cmr-8">2</span></sup>; Z=10<sup><span 
+class="cmr-8">21</span></sup>). Assume a latitude for the point of observation
+of 60<sup><span 
+class="cmsy-8">&#x2218;</span></sup>. [HINT: the angle <span 
+class="cmmi-10x-x-109">&#x03B8; </span>in Equation&#x00A0;<a 
+href="#x3-11002r7">1.7<!--tex4ht:ref: eq:Vm --></a> is the co-latitude, not the
+latitude.]
+<!--l. 647--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 4</span>
+<!--l. 649--><p class="noindent" >Knowing that <span 
+class="cmmi-10x-x-109">B </span>= <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub><span 
+class="cmmi-10x-x-109">H</span>, work out the fundamental units of <span 
+class="cmmi-10x-x-109">&#x03BC;</span><sub><span 
+class="cmmi-8">o</span></sub> in SI
+units.
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+   <!--l. 2--><div class="crosslinks"><p class="noindent">[<a 
+href="WebBook3ch2.html" >next</a>] [<a 
+href="WebBook3li1.html" >prev</a>] [<a 
+href="WebBook3li1.html#tailWebBook3li1.html" >prev-tail</a>] [<a 
+href="WebBook3ch1.html" >front</a>] [<a 
+href="WebBook3.html#WebBook3ch1.html" >up</a>] </p></div>
+<!--l. 2--><p class="indent" >   <a 
+ id="tailWebBook3ch1.html"></a>   
+</body></html> 

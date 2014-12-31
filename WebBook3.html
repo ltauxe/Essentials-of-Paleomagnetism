@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>Essentials of Paleomagnetism: Third Web Edition</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html,2,sections+ --> 
+<meta name="src" content="WebBook3.tex"> 
+<meta name="date" content="2014-12-31 11:09:00"> 
+<link rel="stylesheet" type="text/css" href="WebBook3.css"> 
+</head><body 
+>
+<!--l. 55--><p class="noindent" >December 31, 2014    <div class="maketitle">
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+<h2 class="titleHead">Essentials of Paleomagnetism: Third Web Edition</h2>
+                       <div class="author" ><span 
+class="cmr-12">Lisa Tauxe</span>
+<br />           <span 
+class="cmr-12">Scripps Institution of Oceanography</span>
+<br />                 <span 
+class="cmr-12">La Jolla, CA 92093-0220</span><br />
+<br />                 <span 
+class="cmr-12">with contributions from:</span>
+<br /><span 
+class="cmr-12">Subir K. Banerjee, Robert F. Butler and Rob van der Voo</span></div><br />
+<div class="date" ><span 
+class="cmr-12">December 31, 2014</span></div>
+                                                                     
+
+                                                                     
+   </div>
+<!--l. 58--><p class="indent" >   <span 
+class="cmbx-10x-x-109">The material on this website is freely available for educational</span>
+<span 
+class="cmbx-10x-x-109">purposes.</span>
+<!--l. 60--><p class="indent" >   Requests for re-use of digital images: contact the <a 
+href="http://http://www.ucpress.edu" >UC Press.</a>
+<!--l. 62--><p class="indent" >   Proper citation of the material found in these pages is:
+<!--l. 64--><p class="indent" >   Tauxe, L, Banerjee, S.K., Butler, R.F. and van der Voo R, Essentials of
+Paleomagnetism, 3rd Web Edition, 2014.
+<!--l. 66--><p class="indent" >   The printed version of this book appeared January, 2010. Order a <a 
+href="http://www.ucpress.edu/books/pages/11183.php" >printed
+version</a>. (cheaper than printing it yourself!)
+<!--l. 68--><p class="indent" >   <span 
+class="cmbx-10x-x-109">Solutions to the problems at the end of each chapter can be</span>
+<span 
+class="cmbx-10x-x-109">requested if you are an instructor using Essentials of Paleomagnetism</span>
+<span 
+class="cmbx-10x-x-109">as a textbook.</span>
+<!--l. 70--><p class="indent" >   To request approval or solution to problem set, contact ltauxe@ucsd.edu
+<!--l. 72--><p class="indent" >   <a 
+href="http://magician.ucsd.edu/~ltauxe/" >Lisa Tauxe</a>, <a 
+href="http://scripps.ucsd.edu" >Scripps Institution of Oceanography</a>, La Jolla, CA 92093-0220
+<!--l. 74--><p class="indent" >   This book is intended to work with the companion software package described
+in <a 
+href="http://earthref.org/PmagPy/cookbook/" >PmagPy Cookbook</a>.
+<!--l. 76--><p class="indent" >   This work was partially supported by NSF.
+                                                                     
+
+                                                                     
+   <div class="tableofcontents">
+   <span class="likechapterToc" ><a 
+href="WebBook3li1.html#x2-2000" id="QQ2-2-3">Contents</a></span>
+<br />   <span class="chapterToc" >1 <a 
+href="WebBook3ch1.html#x3-30001" id="QQ2-3-4">The physics of magnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.1 <a 
+href="WebBook3ch1.html#x3-40001.1" id="QQ2-3-5">What is a magnetic field?</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.2 <a 
+href="WebBook3ch1.html#x3-50001.2" id="QQ2-3-7">Magnetic moment</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.3 <a 
+href="WebBook3ch1.html#x3-60001.3" id="QQ2-3-9">Magnetic flux</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.4 <a 
+href="WebBook3ch1.html#x3-70001.4" id="QQ2-3-11">Magnetic energy</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.5 <a 
+href="WebBook3ch1.html#x3-80001.5" id="QQ2-3-13">Magnetization and magnetic susceptibility</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.6 <a 
+href="WebBook3ch1.html#x3-90001.6" id="QQ2-3-14">Relationship of <span 
+class="cmbx-10x-x-109">B</span> and <span 
+class="cmbx-10x-x-109">H</span></a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.7 <a 
+href="WebBook3ch1.html#x3-100001.7" id="QQ2-3-15">A brief tour of magnetic units in the cgs system</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.8 <a 
+href="WebBook3ch1.html#x3-110001.8" id="QQ2-3-18">The magnetic potential </a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.9 <a 
+href="WebBook3ch1.html#x3-120001.9" id="QQ2-3-21">Origin of the geomagnetic field</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.10 <a 
+href="WebBook3ch1.html#x3-130001.10" id="QQ2-3-23">Problems</a></span>
+<br />   <span class="chapterToc" >2 <a 
+href="WebBook3ch2.html#x4-140002" id="QQ2-4-25">The geomagnetic field</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.1 <a 
+href="WebBook3ch2.html#x4-150002.1" id="QQ2-4-26">Components of magnetic vectors</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.2 <a 
+href="WebBook3ch2.html#x4-160002.2" id="QQ2-4-28">Reference magnetic field</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.3 <a 
+href="WebBook3ch2.html#x4-170002.3" id="QQ2-4-34">Geocentric axial dipole (GAD) and other poles</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.4 <a 
+href="WebBook3ch2.html#x4-180002.4" id="QQ2-4-36">Plotting magnetic directional data</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.5 <a 
+href="WebBook3ch2.html#x4-220002.5" id="QQ2-4-43">Problems</a></span>
+<br />   <span class="chapterToc" >3 <a 
+href="WebBook3ch3.html#x5-230003" id="QQ2-5-44">Induced and remanent magnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.1 <a 
+href="WebBook3ch3.html#x5-240003.1" id="QQ2-5-45">Magnetism at the atomic level</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.2 <a 
+href="WebBook3ch3.html#x5-250003.2" id="QQ2-5-49">Induced magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.3 <a 
+href="WebBook3ch3.html#x5-280003.3" id="QQ2-5-55">Ferromagnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.4 <a 
+href="WebBook3ch3.html#x5-290003.4" id="QQ2-5-60">Problems </a></span>
+<br />   <span class="chapterToc" >4 <a 
+href="WebBook3ch4.html#x6-300004" id="QQ2-6-61">Magnetic anisotropy and domains</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.1 <a 
+href="WebBook3ch4.html#x6-310004.1" id="QQ2-6-63">The magnetic energy of particles</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.2 <a 
+href="WebBook3ch4.html#x6-380004.2" id="QQ2-6-75">Magnetic domains</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.3 <a 
+href="WebBook3ch4.html#x6-390004.3" id="QQ2-6-79">Thermal energy</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.4 <a 
+href="WebBook3ch4.html#x6-400004.4" id="QQ2-6-82">Putting it all together</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.5 <a 
+href="WebBook3ch4.html#x6-410004.5" id="QQ2-6-83">Problems</a></span>
+<br />   <span class="chapterToc" >5 <a 
+href="WebBook3ch5.html#x7-420005" id="QQ2-7-84">Magnetic hysteresis</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.1 <a 
+href="WebBook3ch5.html#x7-430005.1" id="QQ2-7-85">The &#8220;flipping&#8221; field</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.2 <a 
+href="WebBook3ch5.html#x7-440005.2" id="QQ2-7-89">Hysteresis loops</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.3 <a 
+href="WebBook3ch5.html#x7-500005.3" id="QQ2-7-103">Hysteresis of mixtures of SP, SD and MD grains</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.4 <a 
+href="WebBook3ch5.html#x7-510005.4" id="QQ2-7-105">First order reversal curves</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.5 <a 
+href="WebBook3ch5.html#x7-520005.5" id="QQ2-7-108">Problems</a></span>
+<br />   <span class="chapterToc" >6 <a 
+href="WebBook3ch6.html#x8-530006" id="QQ2-8-110">Magnetic mineralogy</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.1 <a 
+href="WebBook3ch6.html#x8-540006.1" id="QQ2-8-111">Iron-oxides</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.2 <a 
+href="WebBook3ch6.html#x8-580006.2" id="QQ2-8-124">Iron-oxyhydroxides and iron-sulfides</a></span>
+                                                                     
+
+                                                                     
+<br />   &#x00A0;<span class="sectionToc" >6.3 <a 
+href="WebBook3ch6.html#x8-590006.3" id="QQ2-8-126">FeTi oxides in igneous rocks</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.4 <a 
+href="WebBook3ch6.html#x8-600006.4" id="QQ2-8-129">Magnetic mineralogy of soils and sediments</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.5 <a 
+href="WebBook3ch6.html#x8-610006.5" id="QQ2-8-132">Problems</a></span>
+<br />   <span class="chapterToc" >7 <a 
+href="WebBook3ch7.html#x9-620007" id="QQ2-9-134">How rocks get and stay magnetized</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.1 <a 
+href="WebBook3ch7.html#x9-630007.1" id="QQ2-9-135">The concept of dynamic equilibrium</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.2 <a 
+href="WebBook3ch7.html#x9-640007.2" id="QQ2-9-138">Essential Néel theory</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.3 <a 
+href="WebBook3ch7.html#x9-650007.3" id="QQ2-9-140">Viscous remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.4 <a 
+href="WebBook3ch7.html#x9-660007.4" id="QQ2-9-144">Thermal remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.5 <a 
+href="WebBook3ch7.html#x9-670007.5" id="QQ2-9-150">Chemical remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.6 <a 
+href="WebBook3ch7.html#x9-680007.6" id="QQ2-9-153">Detrital remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.7 <a 
+href="WebBook3ch7.html#x9-740007.7" id="QQ2-9-165">Isothermal remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.8 <a 
+href="WebBook3ch7.html#x9-750007.8" id="QQ2-9-167">Thermo-viscous remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.9 <a 
+href="WebBook3ch7.html#x9-760007.9" id="QQ2-9-169">Natural remanent magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.10 <a 
+href="WebBook3ch7.html#x9-770007.10" id="QQ2-9-171">Artificial remanences </a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.11 <a 
+href="WebBook3ch7.html#x9-780007.11" id="QQ2-9-172">Problems</a></span>
+<br />   <span class="chapterToc" >8 <a 
+href="WebBook3ch8.html#x10-790008" id="QQ2-10-173">Applied rock (environmental) magnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.1 <a 
+href="WebBook3ch8.html#x10-800008.1" id="QQ2-10-174">Images</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.2 <a 
+href="WebBook3ch8.html#x10-810008.2" id="QQ2-10-177">Critical temperatures</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.3 <a 
+href="WebBook3ch8.html#x10-820008.3" id="QQ2-10-180">Magnetic susceptibility</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.4 <a 
+href="WebBook3ch8.html#x10-870008.4" id="QQ2-10-189">Magnetization</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.5 <a 
+href="WebBook3ch8.html#x10-910008.5" id="QQ2-10-196">Hysteresis parameters</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.6 <a 
+href="WebBook3ch8.html#x10-940008.6" id="QQ2-10-201">Trends in parameters with grain size</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.7 <a 
+href="WebBook3ch8.html#x10-950008.7" id="QQ2-10-204">Ratios</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.8 <a 
+href="WebBook3ch8.html#x10-960008.8" id="QQ2-10-205">Applications of rock magnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.9 <a 
+href="WebBook3ch8.html#x10-1010008.9" id="QQ2-10-218">Concluding remarks</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.10 <a 
+href="WebBook3ch8.html#x10-1020008.10" id="QQ2-10-219">Problems</a></span>
+<br />   <span class="chapterToc" >9 <a 
+href="WebBook3ch9.html#x11-1030009" id="QQ2-11-221"> Getting a paleomagnetic direction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.1 <a 
+href="WebBook3ch9.html#x11-1040009.1" id="QQ2-11-222">Paleomagnetic sampling</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.2 <a 
+href="WebBook3ch9.html#x11-1080009.2" id="QQ2-11-234">Measurement of magnetic remanence</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.3 <a 
+href="WebBook3ch9.html#x11-1090009.3" id="QQ2-11-235">Changing coordinate systems</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.4 <a 
+href="WebBook3ch9.html#x11-1100009.4" id="QQ2-11-239">Demagnetization techniques</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.5 <a 
+href="WebBook3ch9.html#x11-1110009.5" id="QQ2-11-240">Estimating directions from demagnetization data</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.6 <a 
+href="WebBook3ch9.html#x11-1120009.6" id="QQ2-11-241">Vector difference sum</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.7 <a 
+href="WebBook3ch9.html#x11-1130009.7" id="QQ2-11-243">Best-fit lines and planes</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.8 <a 
+href="WebBook3ch9.html#x11-1140009.8" id="QQ2-11-246">Field strategies</a></span>
+<br />   &#x00A0;<span class="sectionToc" >9.9 <a 
+href="WebBook3ch9.html#x11-1150009.9" id="QQ2-11-247">Problems</a></span>
+<br />   <span class="chapterToc" >10 <a 
+href="WebBook3ch10.html#x12-11600010" id="QQ2-12-248">Paleointensity</a></span>
+<br />   &#x00A0;<span class="sectionToc" >10.1 <a 
+href="WebBook3ch10.html#x12-11700010.1" id="QQ2-12-250">Paleointensity with TRMs</a></span>
+<br />   &#x00A0;<span class="sectionToc" >10.2 <a 
+href="WebBook3ch10.html#x12-12800010.2" id="QQ2-12-269">Paleointensity with DRMs</a></span>
+<br />   &#x00A0;<span class="sectionToc" >10.3 <a 
+href="WebBook3ch10.html#x12-12900010.3" id="QQ2-12-271">Problems</a></span>
+                                                                     
+
+                                                                     
+<br />   <span class="chapterToc" >11 <a 
+href="WebBook3ch11.html#x13-13000011" id="QQ2-13-272">Fisher statistics</a></span>
+<br />   &#x00A0;<span class="sectionToc" >11.1 <a 
+href="WebBook3ch11.html#x13-13100011.1" id="QQ2-13-273">The normal distribution</a></span>
+<br />   &#x00A0;<span class="sectionToc" >11.2 <a 
+href="WebBook3ch11.html#x13-13200011.2" id="QQ2-13-275">Statistics of vectors</a></span>
+<br />   &#x00A0;<span class="sectionToc" >11.3 <a 
+href="WebBook3ch11.html#x13-13500011.3" id="QQ2-13-282">Significance Tests</a></span>
+<br />   &#x00A0;<span class="sectionToc" >11.4 <a 
+href="WebBook3ch11.html#x13-14100011.4" id="QQ2-13-291">Inclination only data</a></span>
+<br />   &#x00A0;<span class="sectionToc" >11.5 <a 
+href="WebBook3ch11.html#x13-14200011.5" id="QQ2-13-294">Is a given data set Fisher distributed?</a></span>
+<br />   &#x00A0;<span class="sectionToc" >11.6 <a 
+href="WebBook3ch11.html#x13-14300011.6" id="QQ2-13-296">Problems</a></span>
+<br />   <span class="chapterToc" >12 <a 
+href="WebBook3ch12.html#x14-14400012" id="QQ2-14-297">Beyond Fisher statistics</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.1 <a 
+href="WebBook3ch12.html#x14-14500012.1" id="QQ2-14-299">Non-Fisherian parametric approaches</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.2 <a 
+href="WebBook3ch12.html#x14-15000012.2" id="QQ2-14-307">The simple (naïve) bootstrap</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.3 <a 
+href="WebBook3ch12.html#x14-15100012.3" id="QQ2-14-309">The parametric bootstrap</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.4 <a 
+href="WebBook3ch12.html#x14-15200012.4" id="QQ2-14-311">When are two data sets distinct?</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.5 <a 
+href="WebBook3ch12.html#x14-15300012.5" id="QQ2-14-312">Application to the &#8220;reversals test&#8221;</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.6 <a 
+href="WebBook3ch12.html#x14-15400012.6" id="QQ2-14-314">Application to the &#8220;fold test&#8221;</a></span>
+<br />   &#x00A0;<span class="sectionToc" >12.7 <a 
+href="WebBook3ch12.html#x14-15500012.7" id="QQ2-14-316">Problems</a></span>
+<br />   <span class="chapterToc" >13 <a 
+href="WebBook3ch13.html#x15-15600013" id="QQ2-15-317">Paleomagnetic tensors</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.1 <a 
+href="WebBook3ch13.html#x15-15700013.1" id="QQ2-15-319">Anisotropy of magnetic susceptibility</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.2 <a 
+href="WebBook3ch13.html#x15-15800013.2" id="QQ2-15-321">Hext Statistics</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.3 <a 
+href="WebBook3ch13.html#x15-16100013.3" id="QQ2-15-325">Limitations of Hext statistics</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.4 <a 
+href="WebBook3ch13.html#x15-16200013.4" id="QQ2-15-326">Bootstrap confidence ellipses</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.5 <a 
+href="WebBook3ch13.html#x15-16300013.5" id="QQ2-15-329">Comparing mean eigenvectors with other axes</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.6 <a 
+href="WebBook3ch13.html#x15-16400013.6" id="QQ2-15-333">Shape</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.7 <a 
+href="WebBook3ch13.html#x15-16500013.7" id="QQ2-15-337">Anisotropy of magnetic remanence</a></span>
+<br />   &#x00A0;<span class="sectionToc" >13.8 <a 
+href="WebBook3ch13.html#x15-16800013.8" id="QQ2-15-340">Problems</a></span>
+<br />   <span class="chapterToc" >14 <a 
+href="WebBook3ch14.html#x16-16900014" id="QQ2-16-341">The ancient geomagnetic field</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.1 <a 
+href="WebBook3ch14.html#x16-17000014.1" id="QQ2-16-344">Historical measurements</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.2 <a 
+href="WebBook3ch14.html#x16-17100014.2" id="QQ2-16-348">Archaeo- and paleomagnetic records</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.3 <a 
+href="WebBook3ch14.html#x16-17600014.3" id="QQ2-16-356">Time series of paleomagnetic data</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.4 <a 
+href="WebBook3ch14.html#x16-17900014.4" id="QQ2-16-363">Geomagnetic polarity time scale &#8211; a first look</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.5 <a 
+href="WebBook3ch14.html#x16-18000014.5" id="QQ2-16-365">The time averaged field</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.6 <a 
+href="WebBook3ch14.html#x16-18100014.6" id="QQ2-16-368">Long term changes in paleointensity</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.7 <a 
+href="WebBook3ch14.html#x16-18200014.7" id="QQ2-16-371">Statistical models of paleosecular variation</a></span>
+<br />   &#x00A0;<span class="sectionToc" >14.8 <a 
+href="WebBook3ch14.html#x16-18300014.8" id="QQ2-16-373">Problems</a></span>
+<br />   <span class="chapterToc" >15 <a 
+href="WebBook3ch15.html#x17-18400015" id="QQ2-17-374">The GPTS and magnetostratigraphy</a></span>
+<br />   &#x00A0;<span class="sectionToc" >15.1 <a 
+href="WebBook3ch15.html#x17-18500015.1" id="QQ2-17-375">Early efforts in defining the GPTS</a></span>
+<br />   &#x00A0;<span class="sectionToc" >15.2 <a 
+href="WebBook3ch15.html#x17-18900015.2" id="QQ2-17-387">Current status of the geological time scale</a></span>
+<br />   &#x00A0;<span class="sectionToc" >15.3 <a 
+href="WebBook3ch15.html#x17-19000015.3" id="QQ2-17-389">Applications</a></span>
+<br />   &#x00A0;<span class="sectionToc" >15.4 <a 
+href="WebBook3ch15.html#x17-19400015.4" id="QQ2-17-395">Problems</a></span>
+<br />   <span class="chapterToc" >16 <a 
+href="WebBook3ch16.html#x18-19500016" id="QQ2-18-396">Tectonic applications of paleomagnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.1 <a 
+href="WebBook3ch16.html#x18-19600016.1" id="QQ2-18-398">Essentials of plate tectonic theory</a></span>
+                                                                     
+
+                                                                     
+<br />   &#x00A0;<span class="sectionToc" >16.2 <a 
+href="WebBook3ch16.html#x18-19700016.2" id="QQ2-18-402">Poles and apparent polar wander</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.3 <a 
+href="WebBook3ch16.html#x18-19800016.3" id="QQ2-18-410">The Gondwana APWP</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.4 <a 
+href="WebBook3ch16.html#x18-19900016.4" id="QQ2-18-412">Inclination shallowing and GAD</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.5 <a 
+href="WebBook3ch16.html#x18-20000016.5" id="QQ2-18-418">Paleomagnetism and plate reconstructions</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.6 <a 
+href="WebBook3ch16.html#x18-20100016.6" id="QQ2-18-419">Discordant poles and displaced terranes</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.7 <a 
+href="WebBook3ch16.html#x18-20200016.7" id="QQ2-18-420">Inclination only data and APWPs</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.8 <a 
+href="WebBook3ch16.html#x18-20300016.8" id="QQ2-18-423">Concluding remarks</a></span>
+<br />   &#x00A0;<span class="sectionToc" >16.9 <a 
+href="WebBook3ch16.html#x18-20400016.9" id="QQ2-18-424">Problems</a></span>
+<br />   <span class="chapterToc" > <a 
+href="WebBook3ch16.html#Q1-18-425">Appendices</a></span>
+<br />   <span class="appendixToc" >A <a 
+href="WebBook3ap1.html#x19-205000A" id="QQ2-19-426">Definitions, derivations and tricks</a></span>
+<br />   &#x00A0;<span class="sectionToc" >A.1 <a 
+href="WebBook3ap1.html#x19-206000A.1" id="QQ2-19-427">Definitions</a></span>
+<br />   &#x00A0;<span class="sectionToc" >A.2 <a 
+href="WebBook3ap1.html#x19-207000A.2" id="QQ2-19-431">Derivations</a></span>
+<br />   &#x00A0;<span class="sectionToc" >A.3 <a 
+href="WebBook3ap1.html#x19-210000A.3" id="QQ2-19-434">Useful tricks</a></span>
+<br />   <span class="appendixToc" >B <a 
+href="WebBook3ap2.html#x20-226000B" id="QQ2-20-464">Plots useful in paleomagnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >B.1 <a 
+href="WebBook3ap2.html#x20-227000B.1" id="QQ2-20-465">Equal area projections</a></span>
+<br />   <span class="appendixToc" >C <a 
+href="WebBook3ap3.html#x21-235000C" id="QQ2-21-479">Paleomagnetic statistics and parameter estimation</a></span>
+<br />   &#x00A0;<span class="sectionToc" >C.1 <a 
+href="WebBook3ap3.html#x21-236000C.1" id="QQ2-21-480">Hysteresis Parameters</a></span>
+<br />   &#x00A0;<span class="sectionToc" >C.2 <a 
+href="WebBook3ap3.html#x21-237000C.2" id="QQ2-21-483">Directional statistics</a></span>
+<br />   &#x00A0;<span class="sectionToc" >C.3 <a 
+href="WebBook3ap3.html#x21-243000C.3" id="QQ2-21-491">Paleointensity statistics</a></span>
+<br />   <span class="appendixToc" >D <a 
+href="WebBook3ap4.html#x22-244000D" id="QQ2-22-493">Anisotropy in paleomagnetism</a></span>
+<br />   &#x00A0;<span class="sectionToc" >D.1 <a 
+href="WebBook3ap4.html#x22-245000D.1" id="QQ2-22-494">The 15 measurement protocol</a></span>
+<br />   &#x00A0;<span class="sectionToc" >D.2 <a 
+href="WebBook3ap4.html#x22-246000D.2" id="QQ2-22-496">The spinning protocol</a></span>
+<br />   &#x00A0;<span class="sectionToc" >D.3 <a 
+href="WebBook3ap4.html#x22-247000D.3" id="QQ2-22-499">Correction of inclination error with AARM</a></span>
+<br />   <span class="likechapterToc" ><a 
+href="WebBook3li2.html#x23-248000D.3" id="QQ2-23-500">Bibliography</a></span>
+   </div>
+   <h4 class="likesubsectionHead"><a 
+href="#x1-1000" id="x1-1000">Preface</a></h4>
+<a 
+ id="Q1-1-2"></a>
+<!--l. 4--><p class="noindent" ><span 
+class="cmbx-10x-x-109">1 Purpose of the book</span>
+<!--l. 6--><p class="indent" >   The geomagnetic field acts both as an umbrella, shielding us from
+cosmic radiation and as a window, offering one of the few glimpses of
+the inner workings of the Earth. Ancient records of the geomagnetic
+field can inform us about geodynamics of the early Earth and changes
+in boundary conditions through time. Thanks to its essentially dipolar
+nature, the geomagnetic field has acted as a guide, pointing to the axis of
+rotation thereby providing latitudinal information for both explorers and
+geologists.
+<!--l. 8--><p class="indent" >   Human measurements of the geomagnetic field date to about a millenium and
+are quite sparse prior to about 400 years ago. Knowledge of what the field has
+done in the past relies on accidental records carried by geological and
+                                                                     
+
+                                                                     
+archaeological materials. Teasing out meaningful information from such
+materials requires an understanding of the fields of rock magnetism and
+paleomagnetism, the subjects of this book. Rock and paleomagnetic data are
+useful in many applications in Earth Science in addition to the study
+of the ancient geomagnetic field. This book attempts to draw together
+essential rock magnetic theory and useful paleomagnetic techniques in a
+consistent and up-to-date manner. It was written for several categories of
+readers:
+<!--l. 15--><p class="indent" >
+     <ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x1-1002x1">Earth scientists who use paleomagnetic data in their research,
+     </li>
+     <li 
+  class="enumerate" id="x1-1004x2">students taking a class with paleomagnetic content,
+     </li>
+     <li 
+  class="enumerate" id="x1-1006x3">other   professionals   with   an   interest   in   evaluating   or   using
+     paleomagnetic data, and
+     </li>
+     <li 
+  class="enumerate" id="x1-1008x4">anyone with at least college level chemistry, physics and a cursory
+     knowledge of Earth science with an interest in magnetism in the Earth.</li></ol>
+<!--l. 25--><p class="indent" >   There are a number of excellent references on paleomagnetism and on the
+related specialties (rock magnetism and geomagnetism). The ever popular but
+now out of print text by Butler (1992) has largely been incorporated into the
+present text. For in-depth coverage of rock magnetism, we recommend Dunlop
+and Özdemir (1997). Similarly for geomagnetism, please see Backus et al. [1996].
+A rigorous analysis of the statistics of spherical data is given by Fisher et al.
+(1987). The details of paleomagnetic poles are covered in van der Voo (1993)
+and magnetostratigraphy is covered in depth by Opdyke and Channell
+(1996). The Treatise in Geophysics, vol. 5 (edited by Kono, 2007) and The
+Encyclopedia of Geomagnetism and Paleomagnetism (edited by Gubbins and
+Herrero-Bervera, 2007) have up to date reviews of many topics covered in this
+book. The present book is intended to augment or distill information from
+the broad field of paleomagnetism, complementing the existing body of
+literature.
+<!--l. 37--><p class="indent" >   An important part of the problems in this book is to teach students to write
+simple computer programs themselves and use programs that are supplied as a
+companion set of software (<span 
+class="cmbx-10x-x-109">PmagPy</span>). The programming language chosen for
+this is Python because it is free, cross platform, open source and well
+                                                                     
+
+                                                                     
+supported. There are excellent online tutorials for Python and many open
+source modules which make software development cheaper and easier than
+any other programming environment. The appendix provides a brief
+introduction to programming and using Python. The reader is well advised
+to peruse the <a 
+href="http://earthref.org/PmagPy/cookbook/" >PmagPy Cookbook</a> for further help in gaining necessary
+skills with a computer. Also, students should have access to a relatively
+new computer (Windows, Mac OS 10.4 or higher are supported, but
+other computers may also work.) Software installation is described at:
+magician.ucsd.edu/Software/PmagPy.
+<!--l. 45--><p class="noindent" ><span 
+class="cmbx-10x-x-109">2 What is in the book</span>
+<!--l. 50--><p class="indent" >   This book is a collaborative effort with contributions from R.F. Butler
+(Chapters 1, 3, 4, 6, 7, 9, 11 and the Appendix), S.K Banerjee (Chapter 8) and
+R. van der Voo (Chapter 16). The MagIC database team designed and deployed
+the MagIC database which we have made liberal use of in providing data for
+problem sets and in the writing of the <a 
+href="http://earthref.org/PmagPy/cookbook/" >PmagPy Cookbook</a>, so there were
+significant contributions to this book project from C.G. Constable, A.A.P.
+Koppers and Rupert Minnett.
+<!--l. 52--><p class="indent" >   At the beginning of most chapters, there are recommended readings which
+will help fill in background knowledge. There are also suggested readings at the
+end of most chapters that will allow students to pursue the subject matter in
+more depth.
+<!--l. 54--><p class="indent" >   The chapters themselves contain the essential theory required to understand
+paleomagnetic research as well as illustrative applications. Each chapter is
+followed by a set of practical problems that challenge the student&#8217;s understanding
+of the material. Many problems use real data and encourage students to analyze
+the data themselves. [Solutions to the problems may be obtained from LT by
+instructors of classes using this book as a text.] The appendix contains detailed
+derivations, assorted techniques, useful tables and a comprehensive explanation
+of the <span 
+class="cmbx-10x-x-109">PmagPy </span>set of programs.
+<!--l. 60--><p class="indent" >   Chapter 1 begins with a review of the physics of magnetic fields.
+Maxwell&#8217;s equations are introduced where appropriate and the magnetic
+units are derived from first principles. The conversion of units between
+cgs and SI conventions is also discussed and summarized in a handy
+table.
+<!--l. 67--><p class="indent" >   Chapter 2 reviews essential aspects of the Earth&#8217;s magnetic field,
+discussing the geomagnetic potential, geomagnetic elements, and the
+geomagnetic reference fields. The various magnetic poles of the Earth are also
+introduced.
+<!--l. 72--><p class="indent" >   Chaptes 3-8 deal with rock and mineral magnetism. The most important
+aspect of rock magnetism to the working paleomagnetist is how rocks can become
+                                                                     
+
+                                                                     
+magnetized and how they can stay that way. In order to understand this,
+Chapter 3 presents a discussion of the origin of magnetism in crystals, including
+induced and remanent magnetism. Chapter 4 continues with an explanation of
+anisotropy energy, magnetic domains and superparamagnetism. Magnetic
+hysteresis is covered in Chapter 5. Chapter 6 deals with specific magnetic
+minerals and their properties, leading up to the origin of magnetic remanence in
+rocks, the topic of Chapter 7. Finally Chapter 8 deals with applied rock
+magnetism and environmental magnetism.
+<!--l. 79--><p class="indent" >   Chapters 9-13 delve into the nuts and bolts of paleomagnetic data acquisition
+and analysis. Chapter 9 suggests ways of sampling rocks in the field and methods
+for treating them in the laboratory to obtain a paleomagnetic direction. Various
+techniques for obtaining paleointensities are described in Chapter 10. Once the
+data are in hand, Chapters 11 and 12 deal with statistical methods for
+analyzing magnetic vectors. Paleomagnetic tensors are introduced in
+Chapter 13, which explains measurement and treatment of anisotropy
+data.
+<!--l. 81--><p class="indent" >   Chapters 14-16 illustrate diverse applications of paleomagnetic data. Chapter
+14 shows how they are used to study the geomagnetic field. Chapter 15 describes
+the development of the geomagnetic polarity time scale and various applications
+of magnetostratigraphy. Chapter 16 focuses on apparent polar wander and
+tectonic applications.
+<!--l. 83--><p class="indent" >   The appendix contains more detailed information, included for supplemental
+background or useful techniques. It is divided into several sections: Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-205000A">A<!--tex4ht:ref: app:definitions --></a>
+summarizes various definitions and detailed derivations including various
+mathematical tricks such as vector and tensor operations. Appendix&#x00A0;<a 
+href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>
+describes some plots commonly employed by paleomagnetists. Appendix&#x00A0;<a 
+href="WebBook3ap3.html#x21-237000C.2">C.2<!--tex4ht:ref: app:dirstics --></a>
+collects together methods and tables useful in directional statistics. Appendix&#x00A0;<a 
+href="WebBook3ap4.html#x22-244000D">D<!--tex4ht:ref: app:anis --></a>
+describes techniques specific to the measurement and analysis of anisotropy data.
+The <a 
+href="http://earthref.org/PmagPy/cookbook/" >PmagPy Cookbook</a> provides an introduction to the Magnetics Information
+Consortium (MagIC) database, the current repository for rock and paleomagnetic
+data and summarizes essential computer skills including basic Unix commands,
+an introduction to Python programming and extensive examples of programs in
+the <span 
+class="cmbx-10x-x-109">PmagPy </span>software package used in the problems at the end of each
+chapter.
+<!--l. 85--><p class="noindent" ><span 
+class="cmbx-10x-x-109">3 How to use the book</span>
+<!--l. 88--><p class="indent" >   Each chapter builds on the principles outlined in the previous chapters, so the
+reader is encouraged to work through the book sequentially. There are
+recommended readings before and after every chapter selected to provide
+backgound information and supplemental reading for the motivated reader
+respectively. These are meant to be optional.
+                                                                     
+
+                                                                     
+<!--l. 92--><p class="indent" >   The reader is encouraged to study Chapter 6 in the <a 
+href="http://earthref.org/PmagPy/cookbook/" >PmagPy Cookbook</a>
+before beginning to work on the problems at the end of each chapter. The utility
+of the book will be greatly enhanced by successfully installing and using the
+programs referred to in the problems. By conscientiously trying them out
+as they are mentioned, the reader will not only gain familiarity with
+<span 
+class="cmbx-10x-x-109">PmagPy </span>software package, but also with the concepts discussed in the
+chapters.
+<!--l. 98--><p class="indent" >   We have attempted to maintain a consistent notation throughout the book.
+Vectors and tensors are in bold face; other parameters, including vector
+components, are in italics. The most important physical and paleomagnetic
+parameters, acronyms and statistics are listed in Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-205000A">A<!--tex4ht:ref: app:definitions --></a>.
+<!--l. 103--><p class="noindent" ><span 
+class="cmbx-10x-x-109">4 Acknowledgements</span>
+<!--l. 106--><p class="indent" >   LT is the primary author of this book who bears sole responsibility for all
+mistakes. There are significant contributions by RFB, SKB and RvdV.
+We are indebted to many people for assistance great and small. This
+book began life as a set of lecture notes based loosely on the earlier book
+by Tauxe (1998). Many pairs of eyes hunted down errors in the text
+and the programs each time the course was given. The course was also
+occasionally co-taught with Cathy Constable and Jeff Gee who contributed
+significantly to the development of the manuscript and the proof-reading
+there-of. Thanks go to the many &#8220;live&#8221; and &#8220;online&#8221; students who patiently
+worked through various drafts. Special thanks go to Kenneth Yuan, Liu
+Cy , Maxwell Brown and Michael Wack who provided many detailed
+comments and helpful suggestions. Reviews by Ken Kodama, Brad Clement,
+Scott Bogue and Cor Langereis improved the book substantially. Also,
+careful proof-reading by Newlon Tauxe of the first few chapters is greatly
+appreciated.
+<!--l. 112--><p class="indent" >   I owe a debt of gratitude to the many sources of public domain software that
+ended up in the package <span 
+class="cmbx-10x-x-109">PmagPy</span>, including contributions by Peter Selkin, Ron
+Shaar and Ritayan Mitra as well as the many dedicated contributors to the
+Numpy, Matplotlib, and Basemap Python modules used extensively by
+<span 
+class="cmbx-10x-x-109">PmagPy. </span>Also, many illustrations were prepared with the excellent programs
+<span 
+class="cmbx-10x-x-109">Magmap, Contour </span>and <span 
+class="cmbx-10x-x-109">Plotxy </span>by Robert L. Parker, to whom I remain deeply
+grateful. I gratefully acknowledge the authors of many earlier books, too many to
+name but included in the Bibliography, which both educated and inspired
+me.
+<!--l. 117--><p class="indent" >   Finally, I am grateful to my husband, Hubert Staudigel, and my children,
+Philip and Daniel Staudigel who have long tolerated my obsession with
+paleomagnetism with grace and good humor and frequently good advice.
+                                                                     
+
+                                                                     
+<!--l. 122--><p class="noindent" ><div class="obeylines-v">
+   Lisa Tauxe
+   <br />Scripps Institution of Oceanography
+   <br />La Jolla, CA 92093-0220
+   <br />U.S.A.</div>
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+<!--l. 82--><p class="indent" >
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+
+                                                                     
+<a 
+ id="x1-204001r396"></a>
+                                                                     
+
+                                                                     
+<a 
+ id="x1-225019r396"></a>
+                                                                     
+
+                                                                     
+<a 
+ id="x1-234023r396"></a>
+                                                                     
+
+                                                                     
+<a 
+ id="x1-243028r396"></a>
+                                                                     
+
+                                                                     
+                                                                     
+
+                                                                     
+ 
+</body></html> 
+
+                                                                     
+
+
