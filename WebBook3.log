@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.6.30)  31 DEC 2014 11:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.6.30)  10 JAN 2015 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,15 +851,7 @@ l. 588 Writing WebBook3.idv[25] (WebBook324x.png)
  [44]
 l. 594 Writing WebBook3.idv[26] (WebBook325x.png)
 Missing character: There is no Ð in font cmr8!
-
-
-LaTeX Warning: Reference `app:python' on page 45 undefined on input line 617.
-
-
-LaTeX Warning: Reference `sect:rawinput' on page 45 undefined on input line 617
-.
-
-[45] [46
+ [45] [46
 
 ]
 l. 622 Writing WebBook3.idv[27] (WebBook326x.png)
@@ -873,8 +865,8 @@ File: EPSfiles/dipole.eps Graphic file (type eps)
 ]
 \openout2 = `Chapters/chapter2.aux'.
 
- (./Chapters/chapter2.tex
-[50
+
+(./Chapters/chapter2.tex [50
 
 ] [51
 
@@ -3652,12 +3644,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
 ### simple group (level 1) entered at line 707 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14913 strings out of 493489
- 215430 string characters out of 3141349
- 568854 words of memory out of 3000000
- 17637 multiletter control sequences out of 15000+200000
+ 14981 strings out of 493489
+ 215847 string characters out of 3141349
+ 569027 words of memory out of 3000000
+ 17705 multiletter control sequences out of 15000+200000
  17276 words of font info for 64 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,13n,43p,2418b,4805s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on WebBook3.dvi (1111 pages, 2923616 bytes).
+Output written on WebBook3.dvi (1111 pages, 2923672 bytes).
