@@ -415,8 +415,8 @@ Doell, R. \& Dalrymple, G. (1966).
   Brunhes-Matuyama boundary.
 \newblock {\em Science}, 152, 1060--1061.
 
-\bibitem[Dunlop, 2002a]{dunlop02b}
-Dunlop, D. (2002a).
+\bibitem[Dunlop, 002b]{dunlop02b}
+Dunlop, D. (2002b).
 \newblock Theory and application of the Day plot ($M_{rs}/M_s$ versus
   $H_{cr}/H_c$) 2. Application to data for rocks, sediments, and soils.
 \newblock {\em J. Geophys. Res}, 107, doi:10.1029/2001JB000487.
@@ -439,11 +439,17 @@ Dunlop, D. \& \"Ozdemir, O. (2001).
   partial thermoremanent magnetization.
 \newblock {\em Phys. Earth Planet. Int.}, 126, 43--57.
 
-\bibitem[Dunlop, 2002b]{dunlop02a}
-Dunlop, D.~J. (2002b).
+\bibitem[Dunlop, 002a]{dunlop02a}
+Dunlop, D.~J. (2002a).
 \newblock Theory and application of the Day plot (Mrs/Ms versus Hcr/Hc) 1.
   Theoretical curves and tests using titanomagnetite data.
 \newblock {\em J. Geophys. Res.}, 107, doi:10.1029/2001JB000486.
+
+\bibitem[Dunlop \& Carter-Stiglitz, 2006]{dunlop06}
+Dunlop, D.~J. \& Carter-Stiglitz, B. (2006).
+\newblock Day plots of mixtures of superparamagnetic, single-domain,
+  pseudosingle-domain, and multidomain magnetites.
+\newblock {\em J. Geophy. Res.}, 111.
 
 \bibitem[Dunlop \& Xu, 1994]{dunlop94}
 Dunlop, D.~J. \& Xu, S. (1994).

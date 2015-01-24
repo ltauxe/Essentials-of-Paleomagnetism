@@ -717,11 +717,11 @@ For this problem set, you will need the {\bf PmagPy}  package.  Refer to the \hr
 
 a) Write a python script in an IPython notebook
 that converts
-declination, inclination and intensity to North, East, and Down (see \href{http://earthref.org/PmagPy/cookbook/#Python}{PmagPy} for a brief tutorial on python programming).  
+declination, inclination and intensity to North, East, and Down (see \href{http://earthref.org/PmagPy/cookbook/#Python}{PmagPy} for a brief tutorial on python programming).   Read in the data from the Chapter\_2 example data in the Datafiles/Essentials\_Examples/Chapter 2 folder that is part of the PmagPy software distribution and run them through your function.  For this the {\bf loadtxt} function in the Numpy module will come in handy.   
 
 
-b) Choose 10 random spots on the surface of the earth.  Alternatively, you can use the {\bf pmag.py} function ``get\_unf'' to generate a list for you.  Then 
-use the {\bf igrf} function  in the {\bf IPmag} module of the   {\bf PmagPy}  package to  evaluate  the declination, inclination and intensity at each of these locations in January 2006.  As with all {\bf PmagPy} programs, and functions, you can find out what they do by printing out the doc string:
+b) Choose 10 random spots on the surface of the earth.  Alternatively, you can use the {\bf pmag.py} function {\bf get\_unf} to generate a list for you.  Then 
+use the {\bf igrf} function  in the {\bf ipmag} module of the   {\bf PmagPy}  package to  evaluate  the declination, inclination and intensity at each of these locations in January 2006.  As with all {\bf PmagPy} programs, and functions, you can find out what they do by printing out the doc string:
 
 \begin{verbatim}
 print ipmag.igrf.__doc__
@@ -736,12 +736,12 @@ c) Take the vectors from the output of  Problem 1b and convert them to cartesian
 
 {\bf Problem 2}
 
-a) Plot the IGRF directions from Problem 1  on an equal area projection by hand.    Use the equal area net provided in Appendix~\ref{app:eqarea}.   Remember that the outer rim is  horizontal and the center of the diagram is vertical.  Azimuth goes around the rim with clockwise being positive.    Put a  thumbtack through the equal area (Schmidt) net and place a piece of tracing paper on the thumbtack. Mark the top of the stereonet with a tick mark on the tracing paper. 
+a) Plot the IGRF directions from Problem 1b  on an equal area projection by hand.    Use the equal area net provided in Appendix~\ref{app:eqarea}.   Remember that the outer rim is  horizontal and the center of the diagram is vertical.  Azimuth goes around the rim with clockwise being positive.    Put a  thumbtack through the equal area (Schmidt) net and place a piece of tracing paper on the thumbtack. Mark the top of the stereonet with a tick mark on the tracing paper. 
 
 To plot a direction,   rotate the tick mark of the tracing paper around  counter clockwise until the top of the paper is rotated by the declination of the direction. Then count tick marks toward the center from the outer rim (the horizontal) to the inclination angle, plot the point, and rotate back so that the tick is North again. Put all your points on the diagram.
 
 
-b) Now use the {\bf IPmag} functions {\bf plot\_net } and {\bf plot\_di} (see the example notebook in the IPmag\_tutorial of the {\bf PmagPy} package  at:
+b) Now use the {\bf ipmag} functions {\bf plot\_net } and {\bf plot\_di} (see the example notebook in the IPmag\_tutorial of the {\bf PmagPy} package  at:
 
  \url{http://earthref.org/PmagPy/cookbook/#Notebooks}, 
  
@@ -754,7 +754,7 @@ You went to Wyoming (112$^{\circ}$ W and 36$^{\circ}$ N) to sample some Cretaceo
 
 a) What direction would you expect  from the present (GAD) field? 
 
-b)  What is the virtual geomagnetic pole position corresponding to the direction you actually measured?  [Hint: Use the function pmag.dia\_vgp in the {\bf PmagPy} module. ]
+b)  What is the virtual geomagnetic pole position corresponding to the direction you actually measured?  [Hint: Use the function {\bf pmag.dia\_vgp} in the {\bf PmagPy} module. ]
 
 
  

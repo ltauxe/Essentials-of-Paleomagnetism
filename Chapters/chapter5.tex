@@ -322,7 +322,7 @@ is still rather controversial, but Tauxe et al. (1996) argue that it is $\sim $ 
 %\epsfxsize 14cm
 %\centering \epsffile{EPSfiles/mdloop.eps}
 \centering  \includegraphics[width=14 cm]{EPSfiles/mdloop.eps}
-\caption{a) Typical hysteresis loop from a multi-domain assemblage.   b) Theoretical behavior for the region in the inset to a).  c) Theoretical relationship between $M_r/M_s$ and $H_{cr}/H_c$ for constant $\chi_iH_c/M_s = 0.1$ (see text).    }
+\caption{a) Typical hysteresis loop from a multi-domain assemblage.   b) Theoretical behavior for the region in the inset to a).  c) Theoretical relationship between $M_r/M_s$ and $H_{cr}/H_c$ for constant $\chi_iH_c/M_s = 0.1$.   Heavy red line is the theoretical linear mixing curve of SD/MD end-members.  (see text) }
 \label{fig:md}
 \end{figure}
 
@@ -469,7 +469,42 @@ coercivity of remanence remains unchanged, as it is entirely due to the non-SP f
 \end{figure}
 
 
-Hysteresis ratios of mixtures of SD and MD particles will also plot in the ``PSD'' box.  Dunlop (2002a) derives the theoretical behavior of such mixtures on the Day diagram but the relationships are highly non-linear and are solved by trial and error.    Moreover, there are many embedded (and untestable) assumptions involved in these curves.      
+Hysteresis ratios of mixtures of SD and MD particles will also plot in the ``PSD'' box.  Dunlop (2002a) derived the theoretical behavior of such mixtures on the Day diagram.    The key equations are 1) Equation 9 from Dunlop (2002) which governs the behavior of the ratio $M_r/M_s$ as a function of the volume fraction of single domain material ($f_{SD}$) and multi-domain material ($f_{MD}$): 
+
+$$
+{M_r/M_s} = f_{SD} (M_r/Ms)_{SD} + f_{MD} (M_r/M_s)_{MD}, 
+$$
+
+\noindent   2) Equation 10 from Dunlop (2002a) which governs the behavior of coercivity:
+
+$$
+H_c = [f_{SD} \chi_{SD} (H_c)_{SD} + f_{MD} \chi_{SD} \chi_{MD} (H_c)_{MD}] / (f_{SD} \chi_{SD} + f_{MD} \chi_{MD}), 
+$$
+
+\noindent and 3) Equation 11 from Dunlop (2002a) which governs the behavior of coercivity of remanence in SD/MD mixtures:
+
+$$
+{H_{cr} =}  {  f_{SD}( \chi_r)_{SD} (H_{cr})_{SD} +  f_{MD}( \chi_r)_{MD} (H_{cr})_{MD} } \over { f_{SD} (\chi_r)_{SD} + f_{MD} (\chi_r)_{MD} }
+$$
+
+\noindent where $\chi_{SD}$ and $\chi_{MD}$ are the susceptibilities of the SD and MD fractions respectively and $(\chi_r)_{SD}$  and $(\chi_r)_{MD}$ are the $M_r$ vs $H_{cr}$ slopes of the SD and MD remanences respectively.   What we need to calculate the SD/MD mixing curve are values for the  various parameters  for single domain and multi domain end-members.   These were measured empirically for the MV1H bacterial magnetosomes (see Chapter 6) and  commercial magnetite (041183 of Wright Company) by    Dunlop and Carter-Stiglitz (2006) \nocite{dunlop06}  and shown in Table~\ref{tab:end members}.    Using the linear mixing model of Dunlop (2002a), we  plot the theoretical mixing curve predicted for these empirically constrained  end-members as the heavy red line in Figure~\ref{fig:md}c.    
+
+\begin{table}
+\caption{Empirical values for hysteresis parameters measured for single domain (SD) and multi-domain (MD) end-members of  Dunlop and Carter-Stiglitz (2006).}
+\label{tab:endmembers}
+\begin{tabular}{ llllll   }
+\hline
+SD/MD& $M_r/M_s$ & $\chi$ (A m$^{-1}$T$^{-1}$) & $\chi_r$ (MA m$^{-1}$T$^{-1}$)&$ \mu_o H_c$ (mT) &$ \mu_o H_{cr}$ (mT)\\
+\hline
+SD & 0.5 &  5.2&  4.55&46 & 52.5\\
+MD & 0.02 & 4.14 & 0.88 &5.56 &26.1\\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+% but the relationships are highly non-linear and are solved by trial and error.    Moreover, there are many embedded (and untestable) assumptions involved in these curves.      
 
 If a population of SD particles are so closely packed as to influence one another, there will be an effect of particle interaction.  This will also tend to suppress the $M_r/M_s$ ratio, drawing the hysteresis ratios down into the PSD box.  
 Finally, the PSD box could be populated by pseudo-single domain grains themselves.  Here we will dwell for a moment on  the meaning of the term ``pseudo-single domain'', which  has evolved from the original posed by 
@@ -561,7 +596,7 @@ Transient hysteresis is thought to result  from self demagnetization, for exampl
 In general,  Yu and Tauxe  (2005) showed that the larger the particle, the greater the transient hysteresis, until truly multi-domain behavior essentially closed the loop, precluding the observation of TH (or of a FORC diagram for that matter). 
 
 \vskip .5 in\noindent{SUPPLEMENTAL READING:} Dunlop and \"Ozdemir (1997), chapters 5 and 11;  O'Reilly (1984), pp 69-87;  \nocite{oreilly84}
- Dunlop (2002a,b) \nocite{dunlop02a,dunlop02b}
+ Dunlop (2002a,b) \nocite{dunlop02b,dunlop02a}
 
 \vskip 24pt
 

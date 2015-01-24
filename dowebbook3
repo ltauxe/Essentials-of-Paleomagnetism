@@ -2,10 +2,10 @@ htlatex WebBook3 "html, 2, sections+"
 mv *.png Essentials-Web-Pages
 mv *.html Essentials-Web-Pages
 # git add .
-# git commit
+# git commit -m "comment"
 # git push origin master
 
 # cd Essentials-Web-Pages
 # git add .
-# git commit
-# git push origin master:gh-pages
+# git commit -m "comment"
+# git push 
