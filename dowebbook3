@@ -1,11 +1,11 @@
 htlatex WebBook3 "html, 2, sections+"
 mv *.png Essentials-Web-Pages
 mv *.html Essentials-Web-Pages
-# git add .
-# git commit -m "comment"
-# git push origin master
+ git add .
+ git commit -m "Fixed typo in Chapter 5"
+ git push origin master
 
-# cd Essentials-Web-Pages
-# git add .
-# git commit -m "comment"
-# git push 
+ cd Essentials-Web-Pages
+ git add .
+ git commit -m "Fixed typo in Chapter 5"
+ git push 
