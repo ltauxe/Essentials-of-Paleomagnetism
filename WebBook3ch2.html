@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-01-10 20:29:00"> 
+<meta name="date" content="2015-01-23 20:47:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1515,13 +1515,20 @@ class="cmbx-10x-x-109">Problem 1</span>
 <!--l. 718--><p class="noindent" >a) Write a python script in an IPython notebook that converts declination,
 inclination and intensity to North, East, and Down (see <a 
 href="http://earthref.org/PmagPy/cookbook/#Python" >PmagPy</a> for a brief
-tutorial on python programming).
+tutorial on python programming). Read in the data from the Chapter_2
+example data in the Datafiles/Essentials_Examples/Chapter 2 folder that is
+part of the PmagPy software distribution and run them through your
+function. For this the <span 
+class="cmbx-10x-x-109">loadtxt </span>function in the Numpy module will come in
+handy.
 <!--l. 723--><p class="noindent" >b) Choose 10 random spots on the surface of the earth. Alternatively, you can use
 the <span 
-class="cmbx-10x-x-109">pmag.py </span>function &#8220;get_unf&#8221; to generate a list for you. Then use the <span 
+class="cmbx-10x-x-109">pmag.py </span>function <span 
+class="cmbx-10x-x-109">get</span><span 
+class="cmbx-10x-x-109">_unf </span>to generate a list for you. Then use the <span 
 class="cmbx-10x-x-109">igrf</span>
 function in the <span 
-class="cmbx-10x-x-109">IPmag </span>module of the <span 
+class="cmbx-10x-x-109">ipmag </span>module of the <span 
 class="cmbx-10x-x-109">PmagPy </span>package to evaluate the
 declination, inclination and intensity at each of these locations in January 2006.
 As with all <span 
@@ -1540,10 +1547,10 @@ properly.
 coordinates, using the script you wrote in Problem 1a.
 <!--l. 737--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 739--><p class="noindent" >a) Plot the IGRF directions from Problem 1 on an equal area projection by hand.
-Use the equal area net provided in Appendix&#x00A0;<a 
-href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>. Remember that the outer rim
-is horizontal and the center of the diagram is vertical. Azimuth goes
+<!--l. 739--><p class="noindent" >a) Plot the IGRF directions from Problem 1b on an equal area projection by
+hand. Use the equal area net provided in Appendix&#x00A0;<a 
+href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>. Remember that the
+outer rim is horizontal and the center of the diagram is vertical. Azimuth goes
 around the rim with clockwise being positive. Put a thumbtack through
 the equal area (Schmidt) net and place a piece of tracing paper on the
 thumbtack. Mark the top of the stereonet with a tick mark on the tracing
@@ -1554,7 +1561,7 @@ Then count tick marks toward the center from the outer rim (the horizontal) to
 the inclination angle, plot the point, and rotate back so that the tick is North
 again. Put all your points on the diagram.
 <!--l. 744--><p class="noindent" >b) Now use the <span 
-class="cmbx-10x-x-109">IPmag </span>functions <span 
+class="cmbx-10x-x-109">ipmag </span>functions <span 
 class="cmbx-10x-x-109">plot</span><span 
 class="cmbx-10x-x-109">_net  </span>and <span 
 class="cmbx-10x-x-109">plot</span><span 
@@ -1579,7 +1586,9 @@ class="cmsy-8">&#x2218;</span></sup> and an inclination of
 class="cmsy-8">&#x2218;</span></sup>.
 <!--l. 755--><p class="noindent" >a) What direction would you expect from the present (GAD) field?
 <!--l. 757--><p class="noindent" >b) What is the virtual geomagnetic pole position corresponding to the direction
-you actually measured? [Hint: Use the function pmag.dia_vgp in the <span 
+you actually measured? [Hint: Use the function <span 
+class="cmbx-10x-x-109">pmag.dia</span><span 
+class="cmbx-10x-x-109">_vgp </span>in the <span 
 class="cmbx-10x-x-109">PmagPy</span>
 module. ]
                                                                      
