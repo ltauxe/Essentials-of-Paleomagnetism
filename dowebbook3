@@ -2,10 +2,10 @@ htlatex WebBook3 "html, 2, sections+"
 mv *.png Essentials-Web-Pages
 mv *.html Essentials-Web-Pages
  git add .
- git commit -m "Fixed typo in Chapter 5"
+ git commit -m "Fixed figure caption for Problem 1.3"
  git push origin master
 
  cd Essentials-Web-Pages
  git add .
- git commit -m "Fixed typo in Chapter 5"
+ git commit -m "Fixed figure caption for Problem 1.3"
  git push 
