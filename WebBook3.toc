@@ -112,136 +112,136 @@
 \contentsline {section}{\numberline {9.7}Best-fit lines and planes}{218}{section.9.7}
 \contentsline {section}{\numberline {9.8}Field strategies}{219}{section.9.8}
 \contentsline {section}{\numberline {9.9}Problems}{220}{section.9.9}
-\contentsline {chapter}{\numberline {10}Paleointensity}{227}{chapter.10}
-\contentsline {section}{\numberline {10.1}Paleointensity with TRMs}{229}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Stepwise heating family of experiments}{230}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Reducing the effect of heating}{238}{subsection.10.1.2}
-\contentsline {subsubsection}{Controlled atomospheres}{238}{section*.5}
-\contentsline {subsubsection}{Perpendicular field method}{239}{section*.6}
-\contentsline {subsubsection}{Multi-specimen techniques}{240}{section*.7}
-\contentsline {subsubsection}{Shaw family of experiments}{240}{section*.8}
-\contentsline {subsubsection}{Use of microwaves for thermal excitation}{242}{section*.9}
-\contentsline {subsubsection}{Using materials resistant to alteration}{243}{section*.10}
-\contentsline {subsubsection}{Use of IRM normalization}{244}{section*.11}
-\contentsline {subsection}{\numberline {10.1.3}Quality assurance and data selection}{245}{subsection.10.1.3}
-\contentsline {section}{\numberline {10.2}Paleointensity with DRMs}{245}{section.10.2}
-\contentsline {section}{\numberline {10.3}Problems}{248}{section.10.3}
-\contentsline {chapter}{\numberline {11}Fisher statistics}{251}{chapter.11}
-\contentsline {section}{\numberline {11.1}The normal distribution}{252}{section.11.1}
-\contentsline {section}{\numberline {11.2}Statistics of vectors}{257}{section.11.2}
-\contentsline {subsection}{\numberline {11.2.1}Estimation of Fisher statistics}{259}{subsection.11.2.1}
-\contentsline {subsection}{\numberline {11.2.2}Some illustrations}{263}{subsection.11.2.2}
-\contentsline {section}{\numberline {11.3}Significance Tests}{265}{section.11.3}
-\contentsline {subsection}{\numberline {11.3.1}Watson's test for randomness}{267}{subsection.11.3.1}
-\contentsline {subsection}{\numberline {11.3.2}Comparison of precision }{268}{subsection.11.3.2}
-\contentsline {subsection}{\numberline {11.3.3}Comparing known and estimated directions}{269}{subsection.11.3.3}
-\contentsline {subsection}{\numberline {11.3.4}Comparing two estimated directions}{270}{subsection.11.3.4}
-\contentsline {subsection}{\numberline {11.3.5}Combining directions and great circles}{273}{subsection.11.3.5}
-\contentsline {section}{\numberline {11.4}Inclination only data}{274}{section.11.4}
-\contentsline {section}{\numberline {11.5}Is a given data set Fisher distributed?}{275}{section.11.5}
-\contentsline {section}{\numberline {11.6}Problems}{277}{section.11.6}
-\contentsline {chapter}{\numberline {12}Beyond Fisher statistics}{281}{chapter.12}
-\contentsline {section}{\numberline {12.1}Non-Fisherian parametric approaches}{283}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}The Kent distribution}{283}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}The Bingham distribution}{283}{subsection.12.1.2}
-\contentsline {subsection}{\numberline {12.1.3}The Bingham-LeGoff approximation}{285}{subsection.12.1.3}
-\contentsline {subsection}{\numberline {12.1.4}The Bi-Gaussian distribution}{285}{subsection.12.1.4}
-\contentsline {section}{\numberline {12.2}The simple (na\"ive) bootstrap}{286}{section.12.2}
-\contentsline {section}{\numberline {12.3}The parametric bootstrap}{289}{section.12.3}
-\contentsline {section}{\numberline {12.4}When are two data sets distinct?}{290}{section.12.4}
-\contentsline {section}{\numberline {12.5}Application to the ``reversals test''}{290}{section.12.5}
-\contentsline {section}{\numberline {12.6}Application to the ``fold test''}{291}{section.12.6}
-\contentsline {section}{\numberline {12.7}Problems}{295}{section.12.7}
-\contentsline {chapter}{\numberline {13}Paleomagnetic tensors}{297}{chapter.13}
-\contentsline {section}{\numberline {13.1}Anisotropy of magnetic susceptibility}{297}{section.13.1}
-\contentsline {section}{\numberline {13.2}Hext Statistics}{302}{section.13.2}
-\contentsline {subsection}{\numberline {13.2.1}Hext confidence ellipses}{304}{subsection.13.2.1}
-\contentsline {subsection}{\numberline {13.2.2}Hext $F$ statistics for significance of eigenvalue ratios}{305}{subsection.13.2.2}
-\contentsline {section}{\numberline {13.3}Limitations of Hext statistics}{306}{section.13.3}
-\contentsline {section}{\numberline {13.4}Bootstrap confidence ellipses}{306}{section.13.4}
-\contentsline {section}{\numberline {13.5}Comparing mean eigenvectors with other axes}{309}{section.13.5}
-\contentsline {section}{\numberline {13.6}Shape}{312}{section.13.6}
-\contentsline {section}{\numberline {13.7}Anisotropy of magnetic remanence}{314}{section.13.7}
-\contentsline {subsection}{\numberline {13.7.1}Anisotropy of ARM and TRM}{315}{subsection.13.7.1}
-\contentsline {subsection}{\numberline {13.7.2}Anisotropy of DRM}{317}{subsection.13.7.2}
-\contentsline {section}{\numberline {13.8}Problems}{318}{section.13.8}
-\contentsline {chapter}{\numberline {14}The ancient geomagnetic field}{325}{chapter.14}
-\contentsline {section}{\numberline {14.1}Historical measurements}{329}{section.14.1}
-\contentsline {section}{\numberline {14.2}Archaeo- and paleomagnetic records}{333}{section.14.2}
-\contentsline {subsection}{\numberline {14.2.1}Pioneers in paleomagnetism}{333}{subsection.14.2.1}
-\contentsline {subsection}{\numberline {14.2.2}The last seven millenia}{334}{subsection.14.2.2}
-\contentsline {subsection}{\numberline {14.2.3}Westward drift}{335}{subsection.14.2.3}
-\contentsline {subsection}{\numberline {14.2.4}The more distant past}{336}{subsection.14.2.4}
-\contentsline {section}{\numberline {14.3}Time series of paleomagnetic data}{337}{section.14.3}
-\contentsline {subsection}{\numberline {14.3.1}Excursions}{337}{subsection.14.3.1}
-\contentsline {subsection}{\numberline {14.3.2}Reversals}{342}{subsection.14.3.2}
-\contentsline {section}{\numberline {14.4}Geomagnetic polarity time scale -- a first look}{343}{section.14.4}
-\contentsline {section}{\numberline {14.5}The time averaged field}{344}{section.14.5}
-\contentsline {section}{\numberline {14.6}Long term changes in paleointensity}{348}{section.14.6}
-\contentsline {section}{\numberline {14.7}Statistical models of paleosecular variation}{349}{section.14.7}
-\contentsline {section}{\numberline {14.8}Problems}{355}{section.14.8}
-\contentsline {chapter}{\numberline {15}The GPTS and magnetostratigraphy}{359}{chapter.15}
-\contentsline {section}{\numberline {15.1}Early efforts in defining the GPTS}{360}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}The addition of biostratigraphy}{366}{subsection.15.1.1}
-\contentsline {subsection}{\numberline {15.1.2}Astrochronology}{370}{subsection.15.1.2}
-\contentsline {subsection}{\numberline {15.1.3} A note on terminology}{370}{subsection.15.1.3}
-\contentsline {section}{\numberline {15.2}Current status of the geological time scale}{372}{section.15.2}
-\contentsline {section}{\numberline {15.3}Applications}{372}{section.15.3}
-\contentsline {subsection}{\numberline {15.3.1}Dating geological sequences}{372}{subsection.15.3.1}
-\contentsline {subsection}{\numberline {15.3.2}Measuring rates}{374}{subsection.15.3.2}
-\contentsline {subsection}{\numberline {15.3.3}Tracing of magnetic isochrons}{375}{subsection.15.3.3}
-\contentsline {section}{\numberline {15.4}Problems}{379}{section.15.4}
-\contentsline {chapter}{\numberline {16}Tectonic applications of paleomagnetism}{381}{chapter.16}
-\contentsline {section}{\numberline {16.1}Essentials of plate tectonic theory}{382}{section.16.1}
-\contentsline {section}{\numberline {16.2}Poles and apparent polar wander}{386}{section.16.2}
-\contentsline {section}{\numberline {16.3}The Gondwana APWP}{391}{section.16.3}
-\contentsline {section}{\numberline {16.4}Inclination shallowing and GAD}{394}{section.16.4}
-\contentsline {section}{\numberline {16.5}Paleomagnetism and plate reconstructions}{401}{section.16.5}
-\contentsline {section}{\numberline {16.6}Discordant poles and displaced terranes}{402}{section.16.6}
-\contentsline {section}{\numberline {16.7}Inclination only data and APWPs}{403}{section.16.7}
-\contentsline {section}{\numberline {16.8}Concluding remarks}{407}{section.16.8}
-\contentsline {section}{\numberline {16.9}Problems}{407}{section.16.9}
-\contentsline {chapter}{Appendices}{411}{section*.12}
-\contentsline {chapter}{\numberline {A}Definitions, derivations and tricks}{411}{appendix.A}
-\contentsline {section}{\numberline {A.1}Definitions}{411}{section.A.1}
-\contentsline {section}{\numberline {A.2}Derivations}{415}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Langevin function for a paramagnetic substance}{415}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Superparamagnetism}{417}{subsection.A.2.2}
-\contentsline {section}{\numberline {A.3}Useful tricks}{417}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Spherical trigonometry}{418}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Vector addition}{419}{subsection.A.3.2}
-\contentsline {subsection}{\numberline {A.3.3}Vector subtraction}{419}{subsection.A.3.3}
-\contentsline {subsection}{\numberline {A.3.4}Vector multiplication}{420}{subsection.A.3.4}
-\contentsline {subsection}{\numberline {A.3.5}Tricks with tensors}{420}{subsection.A.3.5}
-\contentsline {subsubsection}{Direction cosines}{421}{section*.13}
-\contentsline {subsubsection}{Changing coordinate systems}{421}{section*.14}
-\contentsline {subsubsection}{Method for rotating points on a globe using finite rotation poles}{424}{section*.15}
-\contentsline {subsubsection}{The orientation tensor and eigenvectors}{430}{section*.16}
-\contentsline {subsection}{\numberline {A.3.6}Upside down triangles, $\nabla $}{431}{subsection.A.3.6}
-\contentsline {subsubsection}{Gradient}{431}{section*.17}
-\contentsline {subsubsection}{Divergence}{433}{section*.18}
-\contentsline {subsubsection}{Curl}{435}{section*.19}
-\contentsline {subsection}{\numberline {A.3.7}The statistical bootstrap}{436}{subsection.A.3.7}
-\contentsline {subsection}{\numberline {A.3.8}Directions using a sun compass}{437}{subsection.A.3.8}
-\contentsline {chapter}{\numberline {B}Plots useful in paleomagnetism}{443}{appendix.B}
-\contentsline {section}{\numberline {B.1}Equal area projections}{443}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Calculation of an equal area projection}{443}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Plotting directions}{446}{subsection.B.1.2}
-\contentsline {subsection}{\numberline {B.1.3}Bedding-tilt corrections}{446}{subsection.B.1.3}
-\contentsline {subsection}{\numberline {B.1.4}Reading ternary diagrams}{449}{subsection.B.1.4}
-\contentsline {subsection}{\numberline {B.1.5}Quantile-Quantile plots}{449}{subsection.B.1.5}
-\contentsline {subsubsection}{Q-Q plots for Fisher distributions}{450}{section*.20}
-\contentsline {subsubsection}{Q-Q plots for normal distributions}{452}{section*.21}
-\contentsline {chapter}{\numberline {C}Paleomagnetic statistics and parameter estimation}{455}{appendix.C}
-\contentsline {section}{\numberline {C.1}Hysteresis Parameters}{455}{section.C.1}
-\contentsline {section}{\numberline {C.2}Directional statistics}{458}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Calculation of Watson's $V_w$}{458}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Combining lines and planes}{459}{subsection.C.2.2}
-\contentsline {subsection}{\numberline {C.2.3}Inclination only calculation}{462}{subsection.C.2.3}
-\contentsline {subsection}{\numberline {C.2.4}Kent 95\% confidence ellipse}{463}{subsection.C.2.4}
-\contentsline {subsection}{\numberline {C.2.5}Bingham 95\% confidence parameters}{464}{subsection.C.2.5}
-\contentsline {section}{\numberline {C.3}Paleointensity statistics}{465}{section.C.3}
-\contentsline {chapter}{\numberline {D}Anisotropy in paleomagnetism}{471}{appendix.D}
-\contentsline {section}{\numberline {D.1}The 15 measurement protocol}{471}{section.D.1}
-\contentsline {section}{\numberline {D.2}The spinning protocol}{474}{section.D.2}
-\contentsline {section}{\numberline {D.3}Correction of inclination error with AARM}{476}{section.D.3}
+\contentsline {chapter}{\numberline {10}Paleointensity}{231}{chapter.10}
+\contentsline {section}{\numberline {10.1}Paleointensity with TRMs}{233}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Stepwise heating family of experiments}{234}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Reducing the effect of heating}{242}{subsection.10.1.2}
+\contentsline {subsubsection}{Controlled atomospheres}{242}{section*.5}
+\contentsline {subsubsection}{Perpendicular field method}{243}{section*.6}
+\contentsline {subsubsection}{Multi-specimen techniques}{244}{section*.7}
+\contentsline {subsubsection}{Shaw family of experiments}{244}{section*.8}
+\contentsline {subsubsection}{Use of microwaves for thermal excitation}{246}{section*.9}
+\contentsline {subsubsection}{Using materials resistant to alteration}{247}{section*.10}
+\contentsline {subsubsection}{Use of IRM normalization}{248}{section*.11}
+\contentsline {subsection}{\numberline {10.1.3}Quality assurance and data selection}{249}{subsection.10.1.3}
+\contentsline {section}{\numberline {10.2}Paleointensity with DRMs}{249}{section.10.2}
+\contentsline {section}{\numberline {10.3}Problems}{252}{section.10.3}
+\contentsline {chapter}{\numberline {11}Fisher statistics}{255}{chapter.11}
+\contentsline {section}{\numberline {11.1}The normal distribution}{256}{section.11.1}
+\contentsline {section}{\numberline {11.2}Statistics of vectors}{261}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Estimation of Fisher statistics}{263}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Some illustrations}{267}{subsection.11.2.2}
+\contentsline {section}{\numberline {11.3}Significance Tests}{269}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Watson's test for randomness}{271}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Comparison of precision }{272}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.3}Comparing known and estimated directions}{273}{subsection.11.3.3}
+\contentsline {subsection}{\numberline {11.3.4}Comparing two estimated directions}{274}{subsection.11.3.4}
+\contentsline {subsection}{\numberline {11.3.5}Combining directions and great circles}{277}{subsection.11.3.5}
+\contentsline {section}{\numberline {11.4}Inclination only data}{278}{section.11.4}
+\contentsline {section}{\numberline {11.5}Is a given data set Fisher distributed?}{279}{section.11.5}
+\contentsline {section}{\numberline {11.6}Problems}{281}{section.11.6}
+\contentsline {chapter}{\numberline {12}Beyond Fisher statistics}{285}{chapter.12}
+\contentsline {section}{\numberline {12.1}Non-Fisherian parametric approaches}{287}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}The Kent distribution}{287}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}The Bingham distribution}{287}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}The Bingham-LeGoff approximation}{289}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}The Bi-Gaussian distribution}{289}{subsection.12.1.4}
+\contentsline {section}{\numberline {12.2}The simple (na\"ive) bootstrap}{290}{section.12.2}
+\contentsline {section}{\numberline {12.3}The parametric bootstrap}{293}{section.12.3}
+\contentsline {section}{\numberline {12.4}When are two data sets distinct?}{294}{section.12.4}
+\contentsline {section}{\numberline {12.5}Application to the ``reversals test''}{294}{section.12.5}
+\contentsline {section}{\numberline {12.6}Application to the ``fold test''}{295}{section.12.6}
+\contentsline {section}{\numberline {12.7}Problems}{299}{section.12.7}
+\contentsline {chapter}{\numberline {13}Paleomagnetic tensors}{301}{chapter.13}
+\contentsline {section}{\numberline {13.1}Anisotropy of magnetic susceptibility}{301}{section.13.1}
+\contentsline {section}{\numberline {13.2}Hext Statistics}{306}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Hext confidence ellipses}{308}{subsection.13.2.1}
+\contentsline {subsection}{\numberline {13.2.2}Hext $F$ statistics for significance of eigenvalue ratios}{309}{subsection.13.2.2}
+\contentsline {section}{\numberline {13.3}Limitations of Hext statistics}{310}{section.13.3}
+\contentsline {section}{\numberline {13.4}Bootstrap confidence ellipses}{310}{section.13.4}
+\contentsline {section}{\numberline {13.5}Comparing mean eigenvectors with other axes}{313}{section.13.5}
+\contentsline {section}{\numberline {13.6}Shape}{316}{section.13.6}
+\contentsline {section}{\numberline {13.7}Anisotropy of magnetic remanence}{318}{section.13.7}
+\contentsline {subsection}{\numberline {13.7.1}Anisotropy of ARM and TRM}{319}{subsection.13.7.1}
+\contentsline {subsection}{\numberline {13.7.2}Anisotropy of DRM}{321}{subsection.13.7.2}
+\contentsline {section}{\numberline {13.8}Problems}{322}{section.13.8}
+\contentsline {chapter}{\numberline {14}The ancient geomagnetic field}{329}{chapter.14}
+\contentsline {section}{\numberline {14.1}Historical measurements}{333}{section.14.1}
+\contentsline {section}{\numberline {14.2}Archaeo- and paleomagnetic records}{337}{section.14.2}
+\contentsline {subsection}{\numberline {14.2.1}Pioneers in paleomagnetism}{337}{subsection.14.2.1}
+\contentsline {subsection}{\numberline {14.2.2}The last seven millenia}{338}{subsection.14.2.2}
+\contentsline {subsection}{\numberline {14.2.3}Westward drift}{339}{subsection.14.2.3}
+\contentsline {subsection}{\numberline {14.2.4}The more distant past}{340}{subsection.14.2.4}
+\contentsline {section}{\numberline {14.3}Time series of paleomagnetic data}{341}{section.14.3}
+\contentsline {subsection}{\numberline {14.3.1}Excursions}{341}{subsection.14.3.1}
+\contentsline {subsection}{\numberline {14.3.2}Reversals}{346}{subsection.14.3.2}
+\contentsline {section}{\numberline {14.4}Geomagnetic polarity time scale -- a first look}{347}{section.14.4}
+\contentsline {section}{\numberline {14.5}The time averaged field}{348}{section.14.5}
+\contentsline {section}{\numberline {14.6}Long term changes in paleointensity}{352}{section.14.6}
+\contentsline {section}{\numberline {14.7}Statistical models of paleosecular variation}{353}{section.14.7}
+\contentsline {section}{\numberline {14.8}Problems}{359}{section.14.8}
+\contentsline {chapter}{\numberline {15}The GPTS and magnetostratigraphy}{363}{chapter.15}
+\contentsline {section}{\numberline {15.1}Early efforts in defining the GPTS}{364}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}The addition of biostratigraphy}{370}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {15.1.2}Astrochronology}{374}{subsection.15.1.2}
+\contentsline {subsection}{\numberline {15.1.3} A note on terminology}{374}{subsection.15.1.3}
+\contentsline {section}{\numberline {15.2}Current status of the geological time scale}{376}{section.15.2}
+\contentsline {section}{\numberline {15.3}Applications}{376}{section.15.3}
+\contentsline {subsection}{\numberline {15.3.1}Dating geological sequences}{376}{subsection.15.3.1}
+\contentsline {subsection}{\numberline {15.3.2}Measuring rates}{378}{subsection.15.3.2}
+\contentsline {subsection}{\numberline {15.3.3}Tracing of magnetic isochrons}{379}{subsection.15.3.3}
+\contentsline {section}{\numberline {15.4}Problems}{383}{section.15.4}
+\contentsline {chapter}{\numberline {16}Tectonic applications of paleomagnetism}{385}{chapter.16}
+\contentsline {section}{\numberline {16.1}Essentials of plate tectonic theory}{386}{section.16.1}
+\contentsline {section}{\numberline {16.2}Poles and apparent polar wander}{390}{section.16.2}
+\contentsline {section}{\numberline {16.3}The Gondwana APWP}{395}{section.16.3}
+\contentsline {section}{\numberline {16.4}Inclination shallowing and GAD}{398}{section.16.4}
+\contentsline {section}{\numberline {16.5}Paleomagnetism and plate reconstructions}{405}{section.16.5}
+\contentsline {section}{\numberline {16.6}Discordant poles and displaced terranes}{406}{section.16.6}
+\contentsline {section}{\numberline {16.7}Inclination only data and APWPs}{407}{section.16.7}
+\contentsline {section}{\numberline {16.8}Concluding remarks}{411}{section.16.8}
+\contentsline {section}{\numberline {16.9}Problems}{411}{section.16.9}
+\contentsline {chapter}{Appendices}{415}{section*.12}
+\contentsline {chapter}{\numberline {A}Definitions, derivations and tricks}{415}{appendix.A}
+\contentsline {section}{\numberline {A.1}Definitions}{415}{section.A.1}
+\contentsline {section}{\numberline {A.2}Derivations}{419}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Langevin function for a paramagnetic substance}{419}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Superparamagnetism}{421}{subsection.A.2.2}
+\contentsline {section}{\numberline {A.3}Useful tricks}{421}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Spherical trigonometry}{422}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Vector addition}{423}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Vector subtraction}{423}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Vector multiplication}{424}{subsection.A.3.4}
+\contentsline {subsection}{\numberline {A.3.5}Tricks with tensors}{424}{subsection.A.3.5}
+\contentsline {subsubsection}{Direction cosines}{425}{section*.13}
+\contentsline {subsubsection}{Changing coordinate systems}{425}{section*.14}
+\contentsline {subsubsection}{Method for rotating points on a globe using finite rotation poles}{428}{section*.15}
+\contentsline {subsubsection}{The orientation tensor and eigenvectors}{434}{section*.16}
+\contentsline {subsection}{\numberline {A.3.6}Upside down triangles, $\nabla $}{435}{subsection.A.3.6}
+\contentsline {subsubsection}{Gradient}{435}{section*.17}
+\contentsline {subsubsection}{Divergence}{437}{section*.18}
+\contentsline {subsubsection}{Curl}{439}{section*.19}
+\contentsline {subsection}{\numberline {A.3.7}The statistical bootstrap}{440}{subsection.A.3.7}
+\contentsline {subsection}{\numberline {A.3.8}Directions using a sun compass}{441}{subsection.A.3.8}
+\contentsline {chapter}{\numberline {B}Plots useful in paleomagnetism}{447}{appendix.B}
+\contentsline {section}{\numberline {B.1}Equal area projections}{447}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Calculation of an equal area projection}{447}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Plotting directions}{450}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}Bedding-tilt corrections}{450}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.4}Reading ternary diagrams}{453}{subsection.B.1.4}
+\contentsline {subsection}{\numberline {B.1.5}Quantile-Quantile plots}{453}{subsection.B.1.5}
+\contentsline {subsubsection}{Q-Q plots for Fisher distributions}{454}{section*.20}
+\contentsline {subsubsection}{Q-Q plots for normal distributions}{456}{section*.21}
+\contentsline {chapter}{\numberline {C}Paleomagnetic statistics and parameter estimation}{459}{appendix.C}
+\contentsline {section}{\numberline {C.1}Hysteresis Parameters}{459}{section.C.1}
+\contentsline {section}{\numberline {C.2}Directional statistics}{462}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Calculation of Watson's $V_w$}{462}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Combining lines and planes}{463}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.3}Inclination only calculation}{466}{subsection.C.2.3}
+\contentsline {subsection}{\numberline {C.2.4}Kent 95\% confidence ellipse}{467}{subsection.C.2.4}
+\contentsline {subsection}{\numberline {C.2.5}Bingham 95\% confidence parameters}{468}{subsection.C.2.5}
+\contentsline {section}{\numberline {C.3}Paleointensity statistics}{469}{section.C.3}
+\contentsline {chapter}{\numberline {D}Anisotropy in paleomagnetism}{475}{appendix.D}
+\contentsline {section}{\numberline {D.1}The 15 measurement protocol}{475}{section.D.1}
+\contentsline {section}{\numberline {D.2}The spinning protocol}{478}{section.D.2}
+\contentsline {section}{\numberline {D.3}Correction of inclination error with AARM}{480}{section.D.3}

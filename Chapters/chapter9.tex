@@ -811,3 +811,121 @@ projection (see Appendix~\ref{app:eqarea}).
 Then using the procedures outlined in Appendix~\ref{app:eqtilt} (or slight modifications thereof), determine
 the ``structurally corrected'' direction of NRM that results from restoring the strata to horizontal.
 
+{\bf Problem 4}
+%Problem 4.3 from Butler 1992.
+
+Now consider a more complex situation in which a paleomagnetic site has been collected from the
+limb of a plunging fold. On the east limb of a plunging anticline, a direction of NRM is found to be
+I = 33$^{\circ}$, D = 309$^{\circ}$. The bedding attitude of the collection site is dip = 29$^{\circ}$, strike = 210$^{\circ}$ (dip direction = 120$^{\circ}$, and the pole to bedding is azimuth = 300$^{\circ}$, inclination = 61$^{\circ}$). The trend and plunge of the
+anticlinal axis are trend = 170$^{\circ}$, plunge = 20$^{\circ}$. Determine the direction of NRM from this site following
+structural correction. To do this, first correct the NRM direction (and the pole to bedding) for the
+plunge of the anticline. Rotate the fold axis to horizontal first. Then complete the structural correction of the NRM direction by restoring
+the bedding (corrected for plunge) to horizontal.   Use the function {\bf pmag.dotilt } in the {\bf PmagPy} package to do your rotations in an IPython notebook.    
+
+
+
+
+
+
+{\bf Problem 5}  
+
+Write a python program  to convert
+$D=8.1, I=45.2$  into geographic and tilt adjusted coordinates. Use the geographic coordinates as input to the tilt correction program.   The
+orientation of the laboratory arrow on the specimen was: azimuth = 347$^{\circ}$;
+plunge = 27$^{\circ}$.  The  strike was 135$^{\circ}$ and the dip was 21$^{\circ}$.
+(NB: the convention is that the dip direction is to the ``right'' of 
+the strike).   For this it would be handy to use the {\bf numpy} module which allows arrays, instead of simple lists.  To make an array $A$ of elements $ a_{ij}$:
+
+$$
+{\pmatrix{
+ a_{11}&a_{12}&a_{13}\cr
+ a_{21}&a_{22}&a_{23}\cr
+ a_{31}&a_{32}&a_{33}\cr
+}},
+$$
+
+
+\noindent the command would be:
+
+\begin{verbatim}
+import numpy as np
+A=np.array([[a11,a12,a13],[a21,a22,a23],[a31,a32,a33]])
+\end{verbatim}
+
+The import command can be put at the beginning of the program as always.    Use your programs to convert direction to cartesian coordinates and back again.  
+
+Compare your answer to the one given by {\bf di\_geo.py} and {\bf di\_tilt.py} that are callable from the command line in an interactive mode.    Rewrite your code until you have it right.    NB: {\bf  di\_tilt.py}  uses dip and dip direction instead of strike and dip.  These are completely interchangeable, but dip and dip direction is unique, while strike and dip requires some convention like ``dip to right of strike'').   
+
+
+\begin{figure}[h!tb]
+\centering  \includegraphics[width= 14 cm]{EPSfiles/NS034.eps}
+\caption{Paleomagnetic site NS034. a) Photo of the ``red'' team.  b) Photo showing sample holes with labels. The picture was taken in an easterly direction (see look direction in notebook page.)   c) Page from the notebook.  }
+\label{fig:ns34}
+\end{figure}
+
+
+{\bf Problem 6}
+
+ An intrepid group called ``the red team'' sampled a lava flow on Bastille day in 2006.  The team, the sampling sites and the notebook page are shown in Figure~\ref{fig:ns34}a,b and c respectively. 
+In this problem we will look at some real data collected from this lava flow.  
+
+
+a) Make a directory in your homework directory for this problem.   Do not include spaces in the directory name!
+Run the {\bf QuickMagIC.py} graphical user interface by typing {\bf QuickMagIC.py} on the command line.  
+Change directories into your new homework directory.  
+
+b) Convert your data files to the MagIC format.   The measurements were made in the SIO paleomagnetic laboratory in the SIO lab format.  Specimens were demagnetized using the AF and thermal methods and the data are in the Chapter\_9 directory, named ns\_a.mag and ns\_t.mag respectively.  
+
+\begin{itemize}
+\item  Click on the button labeled `1. convert magnetometer files....'  and choose the `SIO format' before clicking on `Import file'.   
+\item Click on `add'  and select ns\_a.mag to start.  Check the `AF Demag' box.  If you open the file you will see that the specimen names have the format:  ns034a1.   The terminal number distinguishes this from the sample, ns034a and the terminal letter distinguishes the sample from the site, ns034.  So choose the number of terminal characters....  to be `1'.  The default sample-site naming convention of XXXXY is already correct.  Now fill in the Location name to be `North Shore Volcanics' and click on `OK' at the bottom of the page.  
+\item  Repeat this procedure for the thermal demagnetization data.  Be sure to click on the `Thermal (includes thellier but not trm)' button instead of AF Demag.  
+\item After clicking on `OK', select `Next step'  and click on 	`OK'  to combine both measurement files into a single file.  
+\item Skip the panel `Step 3:' by clicking on `OK'  to complete the conversion step.   
+\end{itemize}
+
+c)  Click on the button labelled `2. Calculate the geographic/tilt-corrected directions'.   Here you could fill out the form using the notebook information in Figure~\ref{fig:ns34}.  But someone has typed in all the data you need for you.  They are in the `Orientation file' named `orient.txt' in the Chapter\_9 directory.  
+\begin{itemize}
+\item Click on the button `Import Orientation File' and select that file.  This should fill in the most of the information for you.   Note that the red team's convention was to mark a sample with a $\sim$ if it broke off before orientation and to put the method code `SO-GT5' in the magic\_method\_codes column.   All  ``sample\_flag''s  are set to 'g'  (good) by default.  
+\item Click on `Save Orientation File' and then `Calculate Sample Orientations'.   
+These samples were oriented with a Pomeroy orientation device, so, select the first option under orientation convention.  
+\item The magnetic declination of the compass was set to 0 (notebook entry says ``MagDec set to zero''.), so we need to correct all the information for magnetic declination.  Select ``Use the IGRF value at the lat/long and date supplied'' option. 
+\item You will need to supply the hours to subtract from local time to get to GMT here because all the sampling times were in local time.  The entry in the notebook page says that GMT is five hours ahead of local time, so enter ``-5'' here.   
+\item  You can enter a number of sampling codes.  Here, select field drilling,  location with GPS, Pomeroy orientation device  options.   
+\item  There is only one bedding plane estimate, so skip the bedding averaging option.
+\end{itemize}
+
+
+d) Look at the demagnetization data. 
+
+\begin{itemize}
+\item Click on the 	`Demag GUI' button.  You should have a panel of plots including a  Zijderveld plot, an equal area projection with all the demagnetization directions, a intensity decay curve, and a blank site level equal area projection.    
+\item You will see a list of data to the left.   You can toggle the orientation from geographic to specimen or stratigraphic (tilt corrected) by choosing the coordinate system.   You can also change the declination for the horizontal axis of the Zijderveld diagram with the Zijderveld plot pull down menu.  The default is to rotate it to the NRM direction.    
+\item  Calculate the best fit direction for this specimen by selecting data from the second demagnetization step to the end in the `bounds' drop down menus at the top left of the panel.   Choose the default to calculate a best-fit line by simply leaving the `specimen man type set to `line'.    You will see the data re-plotted with the best-fit line.   Save the interpretation by clicking on the `save' button.  
+\item Step through all the data until you have interpreted all the specimens.   Notice how each interpretation shows up in the site window.  
+\item  Under the 'File' menu, select `Save MagIC tables'.  Use the default age of 1100 Ma for these rocks.  Then click on `OK'. 
+\item Exit the program by  selecting the `Quit' option under the 'File' menu.  
+\end{itemize}
+
+
+e) Explore the MagIC database tables that you have created. 
+
+\begin{itemize}
+\item  Look at  the chapter on the MagIC database and file formats in the \href{http://earthref.org/PmagPy/cookbook}{PmagPy cookbook}.  
+\item Click on the QuickMagIC button `3. fill Earth-Ref data' and verify the relationship of the specimens to the samples.  Click on `Save and continue'.  
+\item Repeat this for Step 2. 
+\item For Step 3, you must insure that site `s034' belongs to `North Shore Volcanics', which you must add with the `Add a new location' button.  Then click on the cell below locations and select that.    
+\item These were extrusive igneous rocks, so select those options for the site\_class column.
+\item find `Basalt' under the site\_lithology column and `Lava Flow' for site\_type.  
+\item Then click on `Save and continue.  
+\item Step 4 allows you to verify that everything you have done was propagated correctly to the site level.  Click on `Save and continue'.   
+\item For step 5, you must let the program know what type of location these samples were taken from, so select `Outcrop' under that column.  Then select `Save and continue'.   
+\item Step 6 deals with ages.   Fill in stratigraphic correlation for the geochronology method (GM-CC-STRAT), Ga for the age\_unit and 1.1 for the age.  
+\item Click on `Save and continue' to finish.  
+\end{itemize}
+
+You can explore your handiwork by looking at the files created in your homework directory with Excel or some other spreadsheet program.   
+
+
+
+
