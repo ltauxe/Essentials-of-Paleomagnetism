@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-01-25 15:36:00"> 
+<meta name="date" content="2015-02-03 17:34:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1324,6 +1324,260 @@ href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>). Th
 href="WebBook3ap2.html#x20-230000B.1.3">B.1.3<!--tex4ht:ref: app:eqtilt --></a> (or slight
 modifications thereof), determine the &#8220;structurally corrected&#8221; direction of NRM
 that results from restoring the strata to horizontal.
+<!--l. 814--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 4</span>
+<!--l. 817--><p class="noindent" >Now consider a more complex situation in which a paleomagnetic site has been
+collected from the limb of a plunging fold. On the east limb of a plunging
+anticline, a direction of NRM is found to be I = 33<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, D = 309<sup><span 
+class="cmsy-8">&#x2218;</span></sup>. The bedding
+attitude of the collection site is dip = 29<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, strike = 210<sup><span 
+class="cmsy-8">&#x2218;</span></sup> (dip direction =
+120<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, and the pole to bedding is azimuth = 300<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, inclination = 61<sup><span 
+class="cmsy-8">&#x2218;</span></sup>).
+The trend and plunge of the anticlinal axis are trend = 170<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, plunge =
+20<sup><span 
+class="cmsy-8">&#x2218;</span></sup>. Determine the direction of NRM from this site following structural
+correction. To do this, first correct the NRM direction (and the pole to
+bedding) for the plunge of the anticline. Rotate the fold axis to horizontal
+first. Then complete the structural correction of the NRM direction by
+restoring the bedding (corrected for plunge) to horizontal. Use the function
+<span 
+class="cmbx-10x-x-109">pmag.dotilt  </span>in the <span 
+class="cmbx-10x-x-109">PmagPy </span>package to do your rotations in an IPython
+notebook.
+<!--l. 830--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 5</span>
+<!--l. 832--><p class="noindent" >Write a python program to convert <span 
+class="cmmi-10x-x-109">D </span>= 8<span 
+class="cmmi-10x-x-109">.</span>1<span 
+class="cmmi-10x-x-109">,I </span>= 45<span 
+class="cmmi-10x-x-109">.</span>2 into geographic and tilt
+adjusted coordinates. Use the geographic coordinates as input to the tilt
+correction program. The orientation of the laboratory arrow on the specimen
+was: azimuth = 347<sup><span 
+class="cmsy-8">&#x2218;</span></sup>; plunge = 27<sup><span 
+class="cmsy-8">&#x2218;</span></sup>. The strike was 135<sup><span 
+class="cmsy-8">&#x2218;</span></sup> and the dip was 21<sup><span 
+class="cmsy-8">&#x2218;</span></sup>.
+(NB: the convention is that the dip direction is to the &#8220;right&#8221; of the
+strike). For this it would be handy to use the <span 
+class="cmbx-10x-x-109">numpy </span>module which
+allows arrays, instead of simple lists. To make an array <span 
+class="cmmi-10x-x-109">A </span>of elements
+<span 
+class="cmmi-10x-x-109">a</span><sub><span 
+class="cmmi-8">ij</span></sub>:
+                                                                     
+
+                                                                     
+<!--l. 839--><p class="noindent" >
+<center class="math-display" >
+<img 
+src="WebBook3264x.png" alt="(  a   a    a  )
+(   11    12   13)
+   a21  a22  a23  ,
+   a31  a32  a33
+" class="math-display" ></center>
+<!--l. 848--><p class="nopar" >the command would be:
+                                                                     
+
+                                                                     
+<div class="verbatim" id="verbatim-2">
+import&#x00A0;numpy&#x00A0;as&#x00A0;np
+&#x00A0;<br />A=np.array([[a11,a12,a13],[a21,a22,a23],[a31,a32,a33]])
+</div>
+<!--l. 853--><p class="nopar" >
+<!--l. 855--><p class="noindent" >The import command can be put at the beginning of the program as always. Use
+your programs to convert direction to cartesian coordinates and back
+again.
+<!--l. 857--><p class="noindent" >Compare your answer to the one given by <span 
+class="cmbx-10x-x-109">di</span><span 
+class="cmbx-10x-x-109">_geo.py </span>and <span 
+class="cmbx-10x-x-109">di</span><span 
+class="cmbx-10x-x-109">_tilt.py </span>that are
+callable from the command line in an interactive mode. Rewrite your code until
+you have it right. NB: <span 
+class="cmbx-10x-x-109">di</span><span 
+class="cmbx-10x-x-109">_tilt.py </span>uses dip and dip direction instead of strike and
+dip. These are completely interchangeable, but dip and dip direction is
+unique, while strike and dip requires some convention like &#8220;dip to right of
+strike&#8221;).
+<!--l. 860--><p class="noindent" ><hr class="figure"><div class="figure" 
+>
+                                                                     
+
+                                                                     
+<a 
+ id="x11-11500115"></a>
+                                                                     
+
+                                                                     
+<!--l. 861--><p class="noindent" ><img 
+src="WebBook3265x.png" alt="PIC" class="graphics" width="398.33858pt" height="185.12015pt" ><!--tex4ht:graphics  
+name="WebBook3265x.png" src="EPSfiles/NS034.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;9.15: </span><span  
+class="content">Paleomagnetic site NS034. a) Photo of the &#8220;red&#8221; team. b)
+Photo showing sample holes with labels. The picture was taken in an easterly
+direction (see look direction in notebook page.) c) Page from the notebook.
+</span></div><!--tex4ht:label?: x11-11500115 -->
+                                                                     
+
+                                                                     
+<!--l. 864--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 867--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 6</span>
+<!--l. 869--><p class="noindent" >An intrepid group called &#8220;the red team&#8221; sampled a lava flow on Bastille day in
+2006. The team, the sampling sites and the notebook page are shown in
+Figure&#x00A0;<a 
+href="#x11-11500115">9.15<!--tex4ht:ref: fig:ns34 --></a>a,b and c respectively. In this problem we will look at some real data
+collected from this lava flow.
+<!--l. 873--><p class="noindent" >a) Make a directory in your homework directory for this problem. Do not include
+spaces in the directory name! Run the <span 
+class="cmbx-10x-x-109">QuickMagIC.py </span>graphical user interface
+by typing <span 
+class="cmbx-10x-x-109">QuickMagIC.py </span>on the command line. Change directories into your
+new homework directory.
+<!--l. 877--><p class="noindent" >b) Convert your data files to the MagIC format. The measurements were made in
+the SIO paleomagnetic laboratory in the SIO lab format. Specimens were
+demagnetized using the AF and thermal methods and the data are in the
+Chapter_9 directory, named ns_a.mag and ns_t.mag respectively.
+     <ul class="itemize1">
+     <li class="itemize">Click  on  the  button  labeled  &#8216;1.  convert  magnetometer  files....&#8217;  and
+     choose the &#8216;SIO format&#8217; before clicking on &#8216;Import file&#8217;.
+     </li>
+     <li class="itemize">Click on &#8216;add&#8217; and select ns_a.mag to start. Check the &#8216;AF Demag&#8217;
+     box. If you open the file you will see that the specimen names have
+     the format: ns034a1. The terminal number distinguishes this from the
+     sample, ns034a and the terminal letter distinguishes the sample from
+     the site, ns034. So choose the number of terminal characters.... to be
+     &#8216;1&#8217;. The default sample-site naming convention of XXXXY is already
+     correct. Now fill in the Location name to be &#8216;North Shore Volcanics&#8217;
+     and click on &#8216;OK&#8217; at the bottom of the page.
+     </li>
+     <li class="itemize">Repeat this procedure for the thermal demagnetization data. Be sure
+     to click on the &#8216;Thermal (includes thellier but not trm)&#8217; button instead
+     of AF Demag.
+     </li>
+     <li class="itemize">After clicking on &#8216;OK&#8217;, select &#8216;Next step&#8217; and click on &#8216;OK&#8217; to combine
+     both measurement files into a single file.
+     </li>
+                                                                     
+
+                                                                     
+     <li class="itemize">Skip the panel &#8216;Step 3:&#8217; by clicking on &#8216;OK&#8217; to complete the conversion
+     step.</li></ul>
+<!--l. 887--><p class="noindent" >c) Click on the button labelled &#8216;2. Calculate the geographic/tilt-corrected
+directions&#8217;. Here you could fill out the form using the notebook information in
+Figure&#x00A0;<a 
+href="#x11-11500115">9.15<!--tex4ht:ref: fig:ns34 --></a>. But someone has typed in all the data you need for you.
+They are in the &#8216;Orientation file&#8217; named &#8216;orient.txt&#8217; in the Chapter_9
+directory.
+     <ul class="itemize1">
+     <li class="itemize">Click  on  the  button  &#8216;Import  Orientation  File&#8217;  and  select  that  file.
+     This should fill in the most of the information for you. Note that the
+     red team&#8217;s convention was to mark a sample with a <span 
+class="cmsy-10x-x-109">~ </span>if it broke
+     off before orientation and to put the method code &#8216;SO-GT5&#8217; in the
+     magic_method_codes column. All &#8220;sample_flag&#8221;s are set to &#8217;g&#8217; (good)
+     by default.
+     </li>
+     <li class="itemize">Click   on   &#8216;Save   Orientation   File&#8217;   and   then   &#8216;Calculate   Sample
+     Orientations&#8217;. These samples were oriented with a Pomeroy orientation
+     device, so, select the first option under orientation convention.
+     </li>
+     <li class="itemize">The magnetic declination of the compass was set to 0 (notebook entry
+     says &#8220;MagDec set to zero&#8221;.), so we need to correct all the information
+     for magnetic declination. Select &#8220;Use the IGRF value at the lat/long
+     and date supplied&#8221; option.
+     </li>
+     <li class="itemize">You will need to supply the hours to subtract from local time to get
+     to GMT here because all the sampling times were in local time. The
+     entry in the notebook page says that GMT is five hours ahead of local
+     time, so enter &#8220;-5&#8221; here.
+     </li>
+     <li class="itemize">You can enter a number of sampling codes. Here, select field drilling,
+     location with GPS, Pomeroy orientation device options.
+     </li>
+     <li class="itemize">There  is  only  one  bedding  plane  estimate,  so  skip  the  bedding
+     averaging option.</li></ul>
+                                                                     
+
+                                                                     
+<!--l. 899--><p class="noindent" >d) Look at the demagnetization data.
+     <ul class="itemize1">
+     <li class="itemize">Click on the &#8216;Demag GUI&#8217; button. You should have a panel of plots
+     including  a  Zijderveld  plot,  an  equal  area  projection  with  all  the
+     demagnetization directions, a intensity decay curve, and a blank site
+     level equal area projection.
+     </li>
+     <li class="itemize">You will see a list of data to the left. You can toggle the orientation
+     from  geographic  to  specimen  or  stratigraphic  (tilt  corrected)  by
+     choosing the coordinate system. You can also change the declination
+     for the horizontal axis of the Zijderveld diagram with the Zijderveld
+     plot pull down menu. The default is to rotate it to the NRM direction.
+     </li>
+     <li class="itemize">Calculate the best fit direction for this specimen by selecting data
+     from  the  second  demagnetization  step  to  the  end  in  the  &#8216;bounds&#8217;
+     drop down menus at the top left of the panel. Choose the default to
+     calculate a best-fit line by simply leaving the &#8216;specimen man type set
+     to &#8216;line&#8217;. You will see the data re-plotted with the best-fit line. Save
+     the interpretation by clicking on the &#8216;save&#8217; button.
+     </li>
+     <li class="itemize">Step through all the data until you have interpreted all the specimens.
+     Notice how each interpretation shows up in the site window.
+     </li>
+     <li class="itemize">Under the &#8217;File&#8217; menu, select &#8216;Save MagIC tables&#8217;. Use the default age
+     of 1100 Ma for these rocks. Then click on &#8216;OK&#8217;.
+     </li>
+     <li class="itemize">Exit the program by selecting the &#8216;Quit&#8217; option under the &#8217;File&#8217; menu.</li></ul>
+<!--l. 911--><p class="noindent" >e) Explore the MagIC database tables that you have created.
+     <ul class="itemize1">
+     <li class="itemize">Look at the chapter on the MagIC database and file formats in the
+     <a 
+href="http://earthref.org/PmagPy/cookbook" >PmagPy cookbook</a>.
+                                                                     
+
+                                                                     
+     </li>
+     <li class="itemize">Click on the QuickMagIC button &#8216;3. fill Earth-Ref data&#8217; and verify
+     the relationship of the specimens to the samples. Click on &#8216;Save and
+     continue&#8217;.
+     </li>
+     <li class="itemize">Repeat this for Step 2.
+     </li>
+     <li class="itemize">For Step 3, you must insure that site &#8216;s034&#8217; belongs to &#8216;North Shore
+     Volcanics&#8217;, which you must add with the &#8216;Add a new location&#8217; button.
+     Then click on the cell below locations and select that.
+     </li>
+     <li class="itemize">These were extrusive igneous rocks, so select those options for the
+     site_class column.
+     </li>
+     <li class="itemize">find  &#8216;Basalt&#8217;  under  the  site_lithology  column  and  &#8216;Lava  Flow&#8217;  for
+     site_type.
+     </li>
+     <li class="itemize">Then click on &#8216;Save and continue.
+     </li>
+     <li class="itemize">Step  4  allows  you  to  verify  that  everything  you  have  done  was
+     propagated correctly to the site level. Click on &#8216;Save and continue&#8217;.
+     </li>
+     <li class="itemize">For step 5, you must let the program know what type of location these
+     samples were taken from, so select &#8216;Outcrop&#8217; under that column. Then
+     select &#8216;Save and continue&#8217;.
+     </li>
+     <li class="itemize">Step  6  deals  with  ages.  Fill  in  stratigraphic  correlation  for  the
+     geochronology method (GM-CC-STRAT), Ga for the age_unit and 1.1
+     for the age.
+     </li>
+     <li class="itemize">Click on &#8216;Save and continue&#8217; to finish.</li></ul>
+<!--l. 927--><p class="noindent" >You can explore your handiwork by looking at the files created in your homework
+directory with Excel or some other spreadsheet program.
                                                                      
 
                                                                      
