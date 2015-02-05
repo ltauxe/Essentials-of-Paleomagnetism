@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-02-03 17:34:00"> 
+<meta name="date" content="2015-02-04 19:53:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -2235,7 +2235,7 @@ month.
 href="WebBook3.html#QQ2-10-220" id="x10-1020008.10">Problems</a></h3>
 <!--l. 819--><p class="nopar" ><span 
 class="cmbx-10x-x-109">Problem 1</span>
-<!--l. 822--><p class="noindent" >Use the program <span 
+<!--l. 822--><p class="noindent" >a) Use the program <span 
 class="cmbx-10x-x-109">curie.py </span>to calculate the Curie temperature of the data
 contained in the two data files <span 
 class="cmti-10x-x-109">curie</span><span 
@@ -2243,29 +2243,44 @@ class="cmti-10x-x-109">_example.dat </span>and <span
 class="cmti-10x-x-109">curie</span><span 
 class="cmti-10x-x-109">_example2.dat </span>in the
 Chapter_8 directory of the Datafiles folder (see Problems to Chapter 5 for
-downloading instructions). The way <span 
-class="cmbx-10x-x-109">curie.py </span>works is to use a triangular
-sliding window and average over a range of temperature steps. Then it
-calculates the first and second derivatives of the data and uses the maximum
-curvature (maximum in the second derivative) to estimate the Curie
-Temperature. It can be tricky to get the &#8220;right&#8221; temperature, especially if there
-are two inflections and/or the data are noisy. Therefore, the program
-will scan through a range of smoothing intervals. You can truncate the
-interval over which you want to look using the -t option and set the
-smoothing interval desired with the -w option. The program has a default
-smoothing window width of 3<sup><span 
-class="cmsy-8">&#x2218;</span></sup>, which is usually too small to get an accurate
-Curie Temperature. The first data file is not very noisy and the second is
-noisier.
-<!--l. 828--><p class="noindent" >First look at each data file using the defaults. Then choose the optimal
-smoothing interval (the smallest interval necessary to isolate the correct peak in
-the second derivative). Finally, repeat this, but truncate the data set to between
-400<sup><span 
+downloading instructions). This program is designed to run on the command line,
+but can be run within an IPython notebook by using the -sav option. To run a
+command line function from within an Python notebook, just put an exclamation
+point before the command. So, to see how any of the PmagPy programs work
+from within the Python notebook, type !ProgramName -h in a code block. Try
+this with <span 
+class="cmbx-10x-x-109">curie.py</span>.
+<!--l. 828--><p class="noindent" >b) The way <span 
+class="cmbx-10x-x-109">curie.py </span>works is to use a triangular sliding window and average
+over a range of temperature steps. Then it calculates the first and second
+derivatives of the data and uses the maximum curvature (maximum in the second
+derivative) to estimate the Curie Temperature. It can be tricky to get the &#8220;right&#8221;
+temperature, especially if there are two inflections and/or the data are
+noisy. Therefore, the program will scan through a range of smoothing
+intervals. You can truncate the interval over which you want to look
+using the -t option and set the smoothing interval desired with the -w
+option. The program has a default smoothing window width of 3<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, which is
+usually too small to get an accurate Curie Temperature. The first data
+file is not very noisy and the second is noisier. Note that you MUST
+use the -sav option within the Python notebook or the program will
+hang.
+<!--l. 834--><p class="noindent" >First look at each data file using the defaults. To view the images from
+within the notebook you will need to import the Image module from
+Python.display (from Python.display import Image) and then use the
+Image(filename=&#8217;IMAGE_NAME&#8217;) command to display the image. Now choose
+the optimal smoothing interval (the smallest interval necessary to isolate the
+correct peak in the second derivative). Finally, repeat this, but truncate the data
+set to between 400<sup><span 
 class="cmsy-8">&#x2218;</span></sup> to 600<sup><span 
 class="cmsy-8">&#x2218;</span></sup>.
-<!--l. 835--><p class="noindent" ><span 
+                                                                     
+
+                                                                     
+<!--l. 840--><p class="noindent" >What is the Curie Temperature of the two specimens?
+<!--l. 843--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 837--><p class="noindent" >Rock magnetic parameters have been used extensively to study the Chinese
+<!--l. 845--><p class="noindent" >Rock magnetic parameters have been used extensively to study the Chinese
 sequences of loess. Data from one such study (Hunt et al., 1995) is saved in the
 file loess_rockmag.dat in the Chapter_8 directory of the Datafiles folder. The
 data columns are: stratigraphic position in meters below reference horizon, total
@@ -2286,7 +2301,7 @@ constant at about 60 nm<sup><span
 class="cmr-8">3</span></sup>kg<sup><span 
 class="cmsy-8">-</span><span 
 class="cmr-8">1</span></sup>.
-<!--l. 839--><p class="noindent" >Make plots of total susceptibility, ferromagnetic susceptibility (<span 
+<!--l. 847--><p class="noindent" >Make plots of total susceptibility, ferromagnetic susceptibility (<span 
 class="cmmi-10x-x-109">&#x03BA;</span><sub><span 
 class="cmmi-8">f</span></sub> = <span 
 class="cmmi-10x-x-109">&#x03BA;</span><sub><span 
@@ -2294,9 +2309,6 @@ class="cmmi-8">total</span></sub> <span
 class="cmsy-10x-x-109">-</span><span 
 class="cmmi-10x-x-109">&#x03BA;</span><sub><span 
 class="cmmi-8">p</span></sub>),
-                                                                     
-
-                                                                     
 sIRM and the ratio <span 
 class="cmmi-10x-x-109">&#x03BA;</span><sub><span 
 class="cmmi-8">f</span></sub><span 
@@ -2304,7 +2316,7 @@ class="cmmi-10x-x-109">&#x2215;</span>sIRM/ versus stratigraphic position. The r
 horizon was the top of the modern soil, <span 
 class="cmmi-10x-x-109">S</span><sub><span 
 class="cmr-8">0</span></sub>.
-<!--l. 841--><p class="noindent" >Magnetic susceptibility is closely linked to lithology, with peaks associated with
+<!--l. 849--><p class="noindent" >Magnetic susceptibility is closely linked to lithology, with peaks associated with
 soil horizons. The triplet of peaks between about 20 and 27 meters are three
 units in soil <span 
 class="cmmi-10x-x-109">S</span><sub><span 
@@ -2321,7 +2333,7 @@ class="cmr-8">1</span></sub> is
 <span 
 class="cmmi-10x-x-109">L</span><sub><span 
 class="cmr-8">2</span></sub>.
-<!--l. 843--><p class="noindent" >The explanation for the high magnetic susceptibility in the soils has been that
+<!--l. 851--><p class="noindent" >The explanation for the high magnetic susceptibility in the soils has been that
 there is magnetic enhancement caused by growth of superparamagnetic
 magnetite in the soil horizons. Susceptibility, sIRM and their ratio have all been
 used as magnetic proxies of past climate changes (mainly rainfall/year). But,
@@ -2333,7 +2345,7 @@ why?
                                                                      
 
                                                                      
-<!--l. 848--><p class="noindent" ><a 
+<!--l. 856--><p class="noindent" ><a 
  id="x10-1020012"></a><hr class="float"><div class="float" 
 >
                                                                      
@@ -2341,7 +2353,7 @@ why?
                                                                      
 <div class="center" 
 >
-<!--l. 849--><p class="noindent" >
+<!--l. 857--><p class="noindent" >
 <br /> <div class="caption" 
 ><span class="id">Table&#x00A0;8.2: </span><span  
 class="content">Data for beach project.</span></div><!--tex4ht:label?: x10-1020012 -->
@@ -2394,9 +2406,9 @@ class="td11">         </td></tr></table></div></div>
                                                                      
 </div><hr class="endfloat" />
 </div>
-<!--l. 868--><p class="noindent" ><span 
+<!--l. 876--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 3</span>
-<!--l. 870--><p class="noindent" >The sand on Scripps beach accumulates in the summer when gentle waves drop
+<!--l. 878--><p class="noindent" >The sand on Scripps beach accumulates in the summer when gentle waves drop
 their load high up on the beach and erodes in the winter when high energy waves
 strip the sand away, leaving bare rock. Sand accumulation and preservation
 therefore depends critically on density. The sand can be crudely divided into a
@@ -2408,15 +2420,18 @@ ripples or around stones, for example). Average density measurements
 would help sedimentologists predict which beaches are more resistant to
 erosion during winter storms, but accurate density measurements are time
 consuming.
-<!--l. 872--><p class="noindent" >As part of a class project, students investigated whether magnetic susceptibility
+<!--l. 880--><p class="noindent" >As part of a class project, students investigated whether magnetic susceptibility
 could be used as a proxy for density because it is much quicker and easier to
 measure. Students collected five test samples of sand ranging from light (#1) to
 dark (#5). They dried and weighed out sand into 7 cc plastic boxes. The
-specimens were measured on a Bartington susceptibility meter with units of 10<sup><span 
+specimens were measured on a Bartington susceptibility meter with units
+of 10<sup><span 
 class="cmsy-8">-</span><span 
-class="cmr-8">5</span></sup>
-SI, assuming a 10cc specimen. a) Convert the susceptibility in Table&#x00A0;<a 
-href="#x10-1020012">8.2<!--tex4ht:ref: tab:beach --></a> into
+class="cmr-8">5</span></sup> SI, assuming a 10cc specimen. a) Convert the susceptibility in
+Table&#x00A0;<a 
+href="#x10-1020012">8.2<!--tex4ht:ref: tab:beach --></a> (also in <span 
+class="cmti-10x-x-109">beach</span><span 
+class="cmti-10x-x-109">_sand.dat </span>in the Chapter_8 Datafiles folder) into
 mass normalized units in m<sup><span 
 class="cmr-8">3</span></sup>kg<sup><span 
 class="cmsy-8">-</span><span 
