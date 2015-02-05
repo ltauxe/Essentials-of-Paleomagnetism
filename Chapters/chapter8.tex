@@ -819,17 +819,25 @@ There are many other excellent examples of applications of rock magnetic data to
 {\bf Problem 1}
 
 
-Use the program {\bf curie.py} 
+a) Use the program {\bf curie.py} 
 to calculate the Curie temperature of the data
-contained in the two data files  {\it curie\_example.dat} and {\it curie\_example2.dat} in the Chapter\_8 directory of the Datafiles folder (see Problems to Chapter 5 for downloading instructions).    The way {\bf curie.py} works is to use a triangular sliding window and average over a range of temperature steps.   Then it calculates the first and second derivatives of the data and uses the maximum curvature (maximum in the second derivative) to estimate the Curie Temperature.   It can be tricky to get the ``right'' temperature, especially if there are two inflections and/or the data are noisy.  Therefore, the program will scan through a range of smoothing intervals. You can truncate the interval over which you want to look using the -t option and set the smoothing interval desired with the -w option.  
+contained in the two data files  {\it curie\_example.dat} and {\it curie\_example2.dat}  in the Chapter\_8 directory of the Datafiles folder (see Problems to Chapter 5 for downloading instructions).    This program is designed to run on the command line, but can be run within an IPython notebook by using the -sav option.  To run a command line function from within an Python notebook, just put an exclamation point before the command.  So, to see how any of the PmagPy programs work from within the Python notebook, 
+type !ProgramName -h   in a code block.    Try this with {\bf curie.py}. 
+
+
+b) The way {\bf curie.py} works is to use a triangular sliding window and average over a range of temperature steps.   Then it calculates the first and second derivatives of the data and uses the maximum curvature (maximum in the second derivative) to estimate the Curie Temperature.   It can be tricky to get the ``right'' temperature, especially if there are two inflections and/or the data are noisy.  Therefore, the program will scan through a range of smoothing intervals. You can truncate the interval over which you want to look using the -t option and set the smoothing interval desired with the -w option.  
 The program has a default smoothing window width of 3$^{\circ}$, which is usually too small to get an accurate Curie Temperature.  
 The first data file is not very noisy and the second is noisier.   
+  Note that you MUST use the -sav option within the Python notebook or the program will hang.  
 
- First  look at each data file using the defaults.  Then choose the optimal smoothing interval (the smallest
+
+ First  look at each data file using the defaults.  To view the images from within the notebook you will need to import  the Image module from Python.display (from Python.display import Image) and then use the Image(filename='IMAGE\_NAME') command to display the image.  Now choose the optimal smoothing interval (the smallest
 interval necessary
 to isolate the correct peak in the second derivative). Finally, repeat
 this, but  truncate
 the data set to between 400$^{\circ}$ to 600$^{\circ}$.
+
+  What is the Curie Temperature of the two specimens?   
 
 
 {\bf Problem 2}
@@ -870,7 +878,7 @@ Specimen  &   $\chi$ (10$^{-5}$ SI)  &  Mass (gm) \\
  The sand on Scripps beach accumulates in the summer when gentle waves drop their load high up on the beach and erodes in the winter when high energy waves strip the sand away, leaving bare rock.  Sand accumulation and preservation therefore depends critically on density.  The sand can be crudely divided into a light colored fraction, composed of quartz, plagioclase, and feldspar and  a darker fraction, composed of  magnetite, pyroxene, amphibole, and biotite.    Wave action on the beach separates the sand into light and dark stripes with the darker sand being deposited at points when the water velocity slows down (over ripples or around stones, for example).     Average density measurements would help sedimentologists predict which beaches are more resistant to erosion during winter storms, but accurate density measurements are time consuming.   
 
 As part of a class project,  students investigated whether magnetic susceptibility could be used as a proxy for density because it is much quicker and easier to measure.   Students collected  five test samples of sand ranging from light (\#1) to dark (\#5).  They dried and weighed out sand into 7 cc plastic boxes.    The specimens were measured on a Bartington susceptibility meter with units of 10$^{-5}$ SI, assuming a 10cc specimen.   
-a)  Convert the susceptibility in Table~\ref{tab:beach}   into mass normalized units in m$^3$kg$^{-1}$.    Make plots of susceptibility against color (specimen number) and  density.   
+a)  Convert the susceptibility in Table~\ref{tab:beach}  (also in {\it beach\_sand.dat}  in the Chapter\_8 Datafiles folder)  into mass normalized units in m$^3$kg$^{-1}$.    Make plots of susceptibility against color (specimen number) and  density.   
 b) Is there a relationship?  Pose a plausible hypothesis that explains your observations.   How would you test it?   
 
 }
