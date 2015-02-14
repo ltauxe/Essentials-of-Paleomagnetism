@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-02-06 11:33:00"> 
+<meta name="date" content="2015-02-13 17:10:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1918,17 +1918,26 @@ handiwork.) Hint: use the Unix file redirect feature:
 
                                                                      
 <div class="verbatim" id="verbatim-3">
-%&#x00A0;fishrot.py&#x00A0;-n&#x00A0;20&#x00A0;-D&#x00A0;12&#x00A0;&#x00A0;-I&#x00A0;45&#x00A0;-k&#x00A0;25&#x00A0;$&#x003E;$&#x00A0;ps11_prob1a.dat
+%&#x00A0;fishrot.py&#x00A0;-n&#x00A0;20&#x00A0;-D&#x00A0;12&#x00A0;&#x00A0;-I&#x00A0;45&#x00A0;-k&#x00A0;25&#x00A0;&#x003E;&#x00A0;ps11_prob1a.dat
 </div>
 <!--l. 1032--><p class="nopar" >
-<!--l. 1034--><p class="noindent" >As a challenge problem, you can use the function pmag.fshdev directly from the
+<!--l. 1034--><p class="noindent" >Note that you can also do this from within a notebook using the &#8217;!&#8217; option in a
+code block:
+                                                                     
+
+                                                                     
+<div class="verbatim" id="verbatim-4">
+fishrot.py&#x00A0;-n&#x00A0;20&#x00A0;-D&#x00A0;12&#x00A0;&#x00A0;-I&#x00A0;45&#x00A0;-k&#x00A0;25&#x00A0;&#x003E;&#x00A0;ps11_prob1a.dat
+</div>
+<!--l. 1038--><p class="nopar" >
+<!--l. 1040--><p class="noindent" >As a challenge problem, you can use the function pmag.fshdev directly from the
 ipython notebook environment and plot it with the ipmag functions <span 
 class="cmbx-10x-x-109">plot</span><span 
 class="cmbx-10x-x-109">_net</span>
 and and <span 
 class="cmbx-10x-x-109">plot</span><span 
 class="cmbx-10x-x-109">_di</span>.
-<!--l. 1036--><p class="noindent" >b) Write a program to read in <span 
+<!--l. 1042--><p class="noindent" >b) Write a program to read in <span 
 class="cmti-10x-x-109">ps11</span><span 
 class="cmti-10x-x-109">_prob1a.dat </span>from a) and calculate the Fisher
 statistics of: <span class="bar-css"><span 
@@ -1938,7 +1947,7 @@ class="cmmi-10x-x-109">I</span></span><span
 class="cmmi-10x-x-109">,k,&#x03B1;</span><sub><span 
 class="cmr-8">95</span></sub><span 
 class="cmmi-10x-x-109">,R </span>and CSD.
-<!--l. 1038--><p class="noindent" >c) Now generate a second sample from the same distribution (just repeat the
+<!--l. 1044--><p class="noindent" >c) Now generate a second sample from the same distribution (just repeat the
 <span 
 class="cmbx-10x-x-109">fishrot.py </span>command) and put the second set of directions in <span 
 class="cmti-10x-x-109">prob1c.dat</span>. These
@@ -1947,7 +1956,7 @@ share a common mean direction (logically). But do the two data sets pass the
 simple Watson <span 
 class="cmmi-10x-x-109">F </span>test for common mean direction? [This test will fail 5% of the
 time!]
-<!--l. 1041--><p class="noindent" >d) Generate a third sample from a distribution with <span 
+<!--l. 1047--><p class="noindent" >d) Generate a third sample from a distribution with <span 
 class="cmmi-10x-x-109">D </span>= 55<sup><span 
 class="cmsy-8">&#x2218;</span></sup><span 
 class="cmmi-10x-x-109">,I </span>= 60<sup><span 
@@ -1962,7 +1971,7 @@ for common mean with the data in <span
 class="cmti-10x-x-109">prob1a.dat</span>? Check your answer using the
 program <span 
 class="cmbx-10x-x-109">watsonsF.py</span>.
-<!--l. 1043--><p class="noindent" >e) An alternative method for testing for common mean with less restrictive
+<!--l. 1049--><p class="noindent" >e) An alternative method for testing for common mean with less restrictive
 assumptions uses Watson&#8217;s statistic <span 
 class="cmmi-10x-x-109">V</span> <sub><span 
 class="cmmi-8">w</span></sub>. Use the program <span 
@@ -1975,9 +1984,9 @@ class="cmmi-10x-x-109">V</span> <sub><span
 class="cmmi-8">w</span></sub> agree
 with those using the <span 
 class="cmmi-10x-x-109">F </span>test?
-<!--l. 1047--><p class="noindent" ><span 
+<!--l. 1053--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 1049--><p class="noindent" >a) Generate a set of directions, drawn from a Fisher distribution with a true
+<!--l. 1055--><p class="noindent" >a) Generate a set of directions, drawn from a Fisher distribution with a true
 mean inclination of 70<sup><span 
 class="cmsy-8">&#x2218;</span></sup>. Calculate the Gaussian average of the inclination data.
 You can write your own script or use the <span 
@@ -1992,19 +2001,19 @@ think you do not have this, re-read the installation instructions for the
 <span 
 class="cmbx-10x-x-109">PmagPy </span>software package &#8211; there is a set of useful Unix utilities for
 you.]
-<!--l. 1051--><p class="noindent" >b) How does this compare with the average you calculate using your Fisher
+<!--l. 1057--><p class="noindent" >b) How does this compare with the average you calculate using your Fisher
 program (or <span 
 class="cmbx-10x-x-109">gofish.py</span>).
-<!--l. 1053--><p class="noindent" >c) Use the program <span 
+<!--l. 1059--><p class="noindent" >c) Use the program <span 
 class="cmbx-10x-x-109">incfish.py</span>, which does the inclination only calculation of <span class="bar-css"><span 
 class="cmmi-10x-x-109">I</span></span>.
 Is this estimate closer to the Fisher estimate? Or, you can call the <span 
 class="cmbx-10x-x-109">pmag </span>module
 function <span 
 class="cmbx-10x-x-109">doincfish </span>from within an IPython notebook.
-<!--l. 1055--><p class="noindent" ><span 
+<!--l. 1061--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 3</span>
-<!--l. 1057--><p class="noindent" >a ) Unpack the Chapter_11 datafile from the Datafiles archive (in the
+<!--l. 1063--><p class="noindent" >a ) Unpack the Chapter_11 datafile from the Datafiles archive (in the
 Essentials_Examples folder in Datafiles that comes with the <a 
 href="http://earthref.org/PmagPy/cookbook" ><span 
 class="cmbx-10x-x-109">PmagPy</span></a> software
@@ -2015,7 +2024,7 @@ dip from two limbs of the fold. They are of both polarities. Separate
 the data into normal and reverse polarity, flip the reverse data over to
 their antipodes and calculate the Fisher statistics for the combined data
 set.
-<!--l. 1060--><p class="noindent" >b) Use the program <span 
+<!--l. 1066--><p class="noindent" >b) Use the program <span 
 class="cmbx-10x-x-109">di</span><span 
 class="cmbx-10x-x-109">_tilt.py </span>to &#8220;untilt&#8221; the data (call <span 
 class="cmbx-10x-x-109">pmag.dotilt </span>from an
