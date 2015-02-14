@@ -458,7 +458,7 @@ Finally, it is important to remember that peaks in concentration between 0 and 1
 
 {\bf Problem 1 }
 
- Change directories into Chapter\_12 (see the Problems in Chapter 5 for downloading instructions.)    This problem set will use the {\bf PmagPy} programs on the command line.  You can check the \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website} for examples in how to use the {\bf PmagPy} programs. 
+Find the  Chapter\_12 directory (see the Problems in Chapter 5 for downloading instructions.)    This problem set will use the {\bf PmagPy} programs on the command line (or the ! option from within an IPython notebook).  You can check the \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website} for examples in how to use the {\bf PmagPy} programs. 
  
  a)
 Look at {\it ps12-1a.di} with the program {\bf eqarea.py}.  Do the data look Fisher distributed to you?   
@@ -482,7 +482,8 @@ The data in {\it ps12-3.dat} are declination/inclination data from a paleomagnet
 a)  First examine the data set  
 with {\bf eqarea.py}.  
 
-b) Separate the data into two files by polarity.  Calculate the Fisher means, and $\alpha_{95}$s with {\bf gofish.py}.  Check if the data are fisher distributed using {\bf fishqq.py}.   Calculate the Kent ellipses on the normal and reverse data sets using the program {\bf gokent.py}.  Calculate the Bingham ellipse on the whole data set using {\bf gobing.py}.  Now calculate the bootstrap ellipses using {\bf eqarea\_ell.py}.    Make plots of all the ellipses {\bf eqarea\_ell.py}.   Which method seems to represent the character of the data the best?
+b) Separate the data into two files by polarity.   
+Calculate the Fisher means, and $\alpha_{95}$s with {\bf gofish.py}.  Check if the data are fisher distributed using {\bf fishqq.py}.   Calculate the Kent ellipses on the normal and reverse data sets using the program {\bf gokent.py}.  Calculate the Bingham ellipse on the whole data set using {\bf gobing.py}.  Now calculate the bootstrap ellipses using {\bf eqarea\_ell.py}.    Make plots of all the ellipses {\bf eqarea\_ell.py}.   Which method seems to represent the character of the data the best?   This problem can be done on the command line, or through an IPython notebook, using the functions from the {\bf pmag} module {\bf fisher\_mean},  {\bf dobingham}, {\bf  dokent} and using the -sav option with  {\bf eqarea\_ell.py}. 
 
 c) Now test whether or not  the two modes in the data are antipodal.    Use {\bf watsonsV.py} and {\bf revtest.py} to test whether the data pass a reversals test.    Do the data pass?  
 Watson's $V_w$ test assumes a Fisher distribution, while {\bf revtest.py} uses a bootstrap and does not assume a Fisher distribution.   Which do you think should be used in this case?    Bingham statistics assumes that both polarities are the same, except for polarity, so you can not do a reversals test.   What are the advantages and disadvantages of the different methods for doing a reversals test? 

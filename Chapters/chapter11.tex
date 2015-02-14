@@ -1028,8 +1028,14 @@ Check the \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website} for exampl
 a) Use the program {\bf fishrot.py} to generate a Fisher distributed data set of $N=20$ data points, drawn from a true mean direction of $D = 12^{\circ}, I = 45^{\circ}$ and a $\kappa$ of  25.   Save these to a file called {\it prob1a.dat}.    (Use {\bf eqarea.py} to admire your handiwork.)   Hint:  use the Unix file redirect feature:   
 
 \begin{verbatim}
-% fishrot.py -n 20 -D 12  -I 45 -k 25 $>$ ps11_prob1a.dat 
+% fishrot.py -n 20 -D 12  -I 45 -k 25 > ps11_prob1a.dat 
 \end{verbatim}
+
+Note that you can also do this from within a notebook using the '!' option in a code block:
+
+\begin{verbatim}
+fishrot.py -n 20 -D 12  -I 45 -k 25 > ps11_prob1a.dat 
+\end{verbatim} 
 
 As a challenge problem, you can use the function pmag.fshdev directly from the ipython notebook environment and plot it with the ipmag functions {\bf plot\_net} and  and {\bf plot\_di}.  
 

@@ -890,7 +890,7 @@ c)  Click on the button labelled `2. Calculate the geographic/tilt-corrected dir
 \item Click on `Save Orientation File' and then `Calculate Sample Orientations'.   
 These samples were oriented with a Pomeroy orientation device, so, select the first option under orientation convention.  
 \item The magnetic declination of the compass was set to 0 (notebook entry says ``MagDec set to zero''.), so we need to correct all the information for magnetic declination.  Select ``Use the IGRF value at the lat/long and date supplied'' option. 
-\item You will need to supply the hours to subtract from local time to get to GMT here because all the sampling times were in local time.  The entry in the notebook page says that GMT is five hours ahead of local time, so enter ``-5'' here.   
+\item You will need to supply the hours to subtract from local time to get to GMT here because all the sampling times were in local time.  The entry in the notebook page says that GMT is five hours ahead of local time, so enter ``-5'' here. Click on 'OK'. 
 \item  You can enter a number of sampling codes.  Here, select field drilling,  location with GPS, Pomeroy orientation device  options.   
 \item  There is only one bedding plane estimate, so skip the bedding averaging option.
 \end{itemize}
@@ -903,8 +903,8 @@ d) Look at the demagnetization data.
 \item You will see a list of data to the left.   You can toggle the orientation from geographic to specimen or stratigraphic (tilt corrected) by choosing the coordinate system.   You can also change the declination for the horizontal axis of the Zijderveld diagram with the Zijderveld plot pull down menu.  The default is to rotate it to the NRM direction.    
 \item  Calculate the best fit direction for this specimen by selecting data from the second demagnetization step to the end in the `bounds' drop down menus at the top left of the panel.   Choose the default to calculate a best-fit line by simply leaving the `specimen man type set to `line'.    You will see the data re-plotted with the best-fit line.   Save the interpretation by clicking on the `save' button.  
 \item Step through all the data until you have interpreted all the specimens.   Notice how each interpretation shows up in the site window.  
-\item  Under the 'File' menu, select `Save MagIC tables'.  Use the default age of 1100 Ma for these rocks.  Then click on `OK'. 
-\item Exit the program by  selecting the `Quit' option under the 'File' menu.  
+\item  Under the 'File' menu, select `Save MagIC pmag tables'.  Use the default age of 1100 Ma for these rocks.  Then click on `OK'. 
+\item Exit the program by  selecting the `Quit Demag-gui' option under the 'File' menu.  
 \end{itemize}
 
 
@@ -925,6 +925,7 @@ e) Explore the MagIC database tables that you have created.
 \end{itemize}
 
 You can explore your handiwork by looking at the files created in your homework directory with Excel or some other spreadsheet program.   
+
 
 
 
