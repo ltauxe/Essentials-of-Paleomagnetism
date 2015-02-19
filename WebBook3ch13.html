@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-02-13 17:10:00"> 
+<meta name="date" content="2015-02-19 11:23:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -2017,11 +2017,12 @@ class="cmmi-10x-x-109">K</span><sub><span
 class="cmmi-8">i</span></sub> are the susceptibility
 measurements.
 <!--l. 1019--><p class="noindent" >a) Calculate the average bedding pole direction from the strike and dip
-measurements. [Hint: convert each strike and dip to its pole by: pole declination
-= strike -90; pole inclination = 90 - dip. Calculate the average pole with
-<span 
+measurements. [Hint: convert each dip direction and dip to its pole by: pole
+declination = dip direction; pole inclination = 90 - dip. Calculate the
+average pole with <span 
 class="cmbx-10x-x-109">gofish.py </span>(see example in <a 
-href="http://earthref.org/PmagPy/cookbook/#gofish.py" >PmagPy</a> or review Chapter 11 problems).]
+href="http://earthref.org/PmagPy/cookbook/#gofish.py" >PmagPy</a> or review Chapter 11
+problems).]
 <!--l. 1022--><p class="noindent" >b) Import the .k15 formatted files into the MagIC format using the
 <span 
 class="cmbx-10x-x-109">QuickMagIC.py </span>GUI as follows: Create an empty folder that has no spaces in
@@ -2029,18 +2030,23 @@ the Path. Type <span
 class="cmbx-10x-x-109">QuickMagIC.py </span>on your <a 
 href="http://earthref.org/PmagPy/cookbook/#command_line" >command line</a> and select your new
 folder as the Project Directory. Under the Import menu, select &#8216;anisotropy files&#8217;
-and choose the &#8216;k15&#8217; format. Import each data file, keeping the default values for
-any options. After importing the files, choose &#8216;Next step&#8217; after clicking on the
-&#8216;convert magnetometer files&#8217; and combine combine all the files into a single
+and choose the &#8216;k15&#8217; format. Import each data file. There is a single
+character that differentiates between specimen and sample and sample
+from site. After importing the files, Click on &#8216;1. convert magnetometer
+files&#8217; and choose &#8216;Next Step&#8217;. Combine combine all the files into a single
 <span 
 class="cmti-10x-x-109">magic</span><span 
-class="cmti-10x-x-109">_measurements.txt </span>file.
+class="cmti-10x-x-109">_measurements.txt </span>file by clicking on &#8216;OK&#8217;. In Step 3, just click on &#8216;OK&#8217;
+to create a single er_samples.txt file. When you are finished, exit from
+<span 
+class="cmbx-10x-x-109">QuickMagIC </span>and find your command line. Make sure you are in your Project
+Directory.
 <!--l. 1024--><p class="noindent" >c) Plot the AMS data by typing &#8220;aniso_magic.py&#8221; on the command line in your
 Project Directory. Plot the data &#8220;by site&#8221; which in this case is by margin. First
 choose to suppress the bootstrap and plot the Hext ellipses. Then choose a
 parametric bootstrap, plotting the bootstrap eigenvectors. How do the two
 methods compare?
-<!--l. 1027--><p class="noindent" >d) Plot the dike plane by choosing to plot the great cirlce (&#8217;g&#8217; on the command
+<!--l. 1027--><p class="noindent" >d) Plot the dike plane by choosing to plot the great circle (&#8217;g&#8217; on the command
 prompt) and enter the pole you calculated in a).
 <!--l. 1029--><p class="noindent" >e) Which direction was the magma flowing when the dike was created?
 <!--l. 1032--><p class="noindent" ><span 
@@ -2048,26 +2054,28 @@ class="cmbx-10x-x-109">Problem 3</span>
 <!--l. 1034--><p class="noindent" >For this problem, we will download data from the MagIC database that were
 published by Schwehr and Tauxe (2003) as part of a study to detect slumping in
 sedimentary environments.
-<!--l. 1037--><p class="noindent" >a) Download the dataset from the persistent link to this study at:
-<!--l. 1039--><p class="noindent" ><a 
-href="http://earthref.org/cgi-bin/magic.cgi?mdt=m000629dt20061210215452" class="url" ><span 
-class="cmtt-10x-x-109">http://earthref.org/cgi-bin/magic.cgi?mdt=m000629dt20061210215452</span></a>
-<!--l. 1041--><p class="noindent" >Put the file you downloaded into a new Project Directory.
-<!--l. 1043--><p class="noindent" >b) After firing up the <span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>graphical user interface, click on &#8216;unpack
+<!--l. 1037--><p class="noindent" >a) Download the dataset from the persistent link to this study at by clicking on
                                                                      
 
                                                                      
+the &#8216;Data&#8217; icon:
+<!--l. 1039--><p class="noindent" ><a 
+href="http://earthref.org/MAGIC/1984/" class="url" ><span 
+class="cmtt-10x-x-109">http://earthref.org/MAGIC/1984/</span></a>
+<!--l. 1041--><p class="noindent" >Put the file you downloaded into a new Project Directory.
+<!--l. 1043--><p class="noindent" >b) After firing up the <span 
+class="cmbx-10x-x-109">QuickMagIC.py </span>graphical user interface, click on &#8216;unpack
 downloaded txt file&#8217; from the front panel and choose the file you downloaded in
 a).
 <!--l. 1045--><p class="noindent" >c) Plot the data with the <span 
 class="cmbx-10x-x-109">aniso</span><span 
-class="cmbx-10x-x-109">_magic.py </span>(from the command line) and choose
-the &#8220;plot by site, parametric bootstrap and bootstrapped eigenvectors&#8221; options.
-There were three sites collected: one from undisturbed sedimentary layers, one
-with clear evidence of slumping in the outcrop and one from the same horizon,
-but with no obvious slumping at the sampling site (a cryptoslump). Which site
-was which?
+class="cmbx-10x-x-109">_magic.py </span>(from the command line or using the
+-sav option from within the Python notebook). and choose the &#8220;plot by site,
+parametric bootstrap and bootstrapped eigenvectors&#8221; options. There were three
+sites collected: one from undisturbed sedimentary layers, one with clear evidence
+of slumping in the outcrop and one from the same horizon, but with no
+obvious slumping at the sampling site (a cryptoslump). Which site was
+which?
                                                                      
 
                                                                      
