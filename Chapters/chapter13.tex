@@ -1016,15 +1016,15 @@ specimen\_name [optional: az,pl,strike,dip]
 
 \noindent where az, pl, strike, dip are the azimuth and plunge of the laboratory arrow and the structural strike and dip (see Chapter 9) and the $K_i$ are the susceptibility measurements.  
 
-a) Calculate the average bedding pole direction from the strike and dip measurements.  [Hint:  convert each strike and dip to its pole by: pole declination = strike -90; pole inclination = 90 - dip.
+a) Calculate the average bedding pole direction from the strike and dip measurements.  [Hint:  convert each dip direction and dip to its pole by: pole declination = dip direction; pole inclination = 90 - dip.
 Calculate the average pole with {\bf gofish.py} (see example in \href{http://earthref.org/PmagPy/cookbook/#gofish.py}{PmagPy} or review Chapter 11 problems).]  
 
-b)  Import the .k15 formatted files into the MagIC format using the {\bf QuickMagIC.py} GUI as follows:  Create an empty folder that has no spaces in the Path.   Type {\bf QuickMagIC.py} on your \href{http://earthref.org/PmagPy/cookbook/#command_line}{command  line} and select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Import each data file, keeping the default values for any options.  After importing the files, choose `Next step' after clicking on the `convert magnetometer files' and combine combine all the files into a single {\it magic\_measurements.txt} file.     
+b)  Import the .k15 formatted files into the MagIC format using the {\bf QuickMagIC.py} GUI as follows:  Create an empty folder that has no spaces in the Path.   Type {\bf QuickMagIC.py} on your \href{http://earthref.org/PmagPy/cookbook/#command_line}{command  line} and select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Import each data file.  There is a single character that differentiates between specimen and sample and sample from site.  After importing the files, Click on  `1. convert magnetometer files'  and choose `Next Step'.  Combine combine all the files into a single {\it magic\_measurements.txt} file by clicking on `OK'.   In Step 3, just click on `OK' to create a single er\_samples.txt file.   When you are finished, exit from {\bf QuickMagIC} and find your command line.  Make sure you are in your Project Directory.  
 
 c)   Plot the AMS data by typing ``aniso\_magic.py'' on the command line in your Project Directory.  Plot the data ``by site'' which in this case is by margin.  First choose to suppress the bootstrap and plot the Hext ellipses.  Then choose a parametric bootstrap, plotting the bootstrap eigenvectors.     How do the two methods compare?   
 
 
-d) Plot the dike plane by choosing to plot the great cirlce ('g' on the command prompt) and enter the pole you calculated in a).   
+d) Plot the dike plane by choosing to plot the great circle  ('g' on the command prompt) and enter the pole you calculated in a).   
 
 e) Which direction was the magma flowing when the dike was created?  
 
@@ -1034,14 +1034,14 @@ e) Which direction was the magma flowing when the dike was created?
 For this problem, we will download data from the MagIC database that were published by Schwehr and Tauxe (2003) as part of a study to detect slumping in sedimentary environments.   
 \nocite{schwehr03}
 
-a)  Download the  dataset from  the persistent link to this study at:
+a)  Download the  dataset from  the persistent link to this study at by clicking on the `Data' icon:
 
-\url{http://earthref.org/cgi-bin/magic.cgi?mdt=m000629dt20061210215452}
+\url{http://earthref.org/MAGIC/1984/}
 
 Put the file you downloaded into a  new Project Directory.
 
 b)   After firing up the {\bf QuickMagIC.py} graphical user interface, click on `unpack downloaded txt file' from the front panel and choose the file you downloaded in a). 
 
-c) Plot the data with the {\bf aniso\_magic.py} (from the command line) and choose the  ``plot by site, parametric bootstrap and bootstrapped eigenvectors'' options.  There were three sites collected:  one from  undisturbed sedimentary layers,  one with clear evidence of slumping in the outcrop and one from the same horizon, but with no obvious slumping at the sampling site (a cryptoslump).  Which site was which?  
+c) Plot the data with the {\bf aniso\_magic.py} (from the command line or using the -sav option from within the Python notebook).  and choose the  ``plot by site, parametric bootstrap and bootstrapped eigenvectors'' options.  There were three sites collected:  one from  undisturbed sedimentary layers,  one with clear evidence of slumping in the outcrop and one from the same horizon, but with no obvious slumping at the sampling site (a cryptoslump).  Which site was which?  
 }
 %
