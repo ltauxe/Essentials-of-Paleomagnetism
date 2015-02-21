@@ -1019,12 +1019,18 @@ specimen\_name [optional: az,pl,strike,dip]
 a) Calculate the average bedding pole direction from the strike and dip measurements.  [Hint:  convert each dip direction and dip to its pole by: pole declination = dip direction; pole inclination = 90 - dip.
 Calculate the average pole with {\bf gofish.py} (see example in \href{http://earthref.org/PmagPy/cookbook/#gofish.py}{PmagPy} or review Chapter 11 problems).]  
 
-b)  Import the .k15 formatted files into the MagIC format using the {\bf QuickMagIC.py} GUI as follows:  Create an empty folder that has no spaces in the Path.   Type {\bf QuickMagIC.py} on your \href{http://earthref.org/PmagPy/cookbook/#command_line}{command  line} and select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Import each data file.  There is a single character that differentiates between specimen and sample and sample from site.  After importing the files, Click on  `1. convert magnetometer files'  and choose `Next Step'.  Combine combine all the files into a single {\it magic\_measurements.txt} file by clicking on `OK'.   In Step 3, just click on `OK' to create a single er\_samples.txt file.   When you are finished, exit from {\bf QuickMagIC} and find your command line.  Make sure you are in your Project Directory.  
+b)  Import the .k15 formatted files into the MagIC format using the {\bf QuickMagIC.py} GUI as follows:  Create an empty folder that has no spaces in the Path.   Type {\bf QuickMagIC.py} on your \href{http://earthref.org/PmagPy/cookbook/#command_line}{command  line} and select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Import each data file.  There is a single character that differentiates between specimen and sample.  Samples are distinguished from sites with a '-' delimiter.  For the location, just put 'Dike'.     After importing the files, Click on  `1. convert magnetometer files'  and choose `Next Step'.  Combine combine all the files into a single {\it magic\_measurements.txt} file by clicking on `OK'.   In Step 3, just click on `OK' to create a single er\_samples.txt file.   When you are finished, exit from {\bf QuickMagIC} and find your command line.  Make sure you are in your Project Directory.  
 
-c)   Plot the AMS data by typing ``aniso\_magic.py'' on the command line in your Project Directory.  Plot the data ``by site'' which in this case is by margin.  First choose to suppress the bootstrap and plot the Hext ellipses.  Then choose a parametric bootstrap, plotting the bootstrap eigenvectors.     How do the two methods compare?   
+c)   Plot the AMS data by typing ``aniso\_magic.py'' on the command line in your Project Directory.  First you must combine the data from the two different margins into a single file using the program {\bf combine\_magic.py}.  To do this type the following on your command line:
+
+\begin{verbatim}
+% combine_magic.py -F rmag_anisotropy.txt -f east.k15_rmag_anisotropy.txt west.k15_rmag_anisotopy.txt
+\end{verbatim}
+
+Now you can plot the data ``by site'' which in this case is by margin.  Choose the geographic coordinate system and  suppress the bootstrap.  Plot the Hext ellipses.  Then choose a parametric bootstrap, plotting the bootstrap eigenvectors.    If you are doing this from within your notebook, use the -sav option to prevent hanging of the program.    How do the two methods compare?   
 
 
-d) Plot the dike plane by choosing to plot the great circle  ('g' on the command prompt) and enter the pole you calculated in a).   
+d) Plot the dike plane by choosing to plot the great circle  (check the help message to see how to do that)  and enter the pole you calculated in a).   
 
 e) Which direction was the magma flowing when the dike was created?  
 
