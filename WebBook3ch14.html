@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-02-20 22:55:00"> 
+<meta name="date" content="2015-03-12 22:51:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1399,8 +1399,8 @@ class="cmmi-10x-x-109">a </span>= 0<span
 class="cmmi-10x-x-109">.</span>26 <span 
 class="cmsy-10x-x-109">± </span>0<span 
 class="cmmi-10x-x-109">.</span>02 and <span 
-class="cmmi-10x-x-109">b </span>= 1<span 
-class="cmmi-10x-x-109">.</span>8 <span 
+class="cmmi-10x-x-109">b </span>= 11<span 
+class="cmmi-10x-x-109">.</span>9 <span 
 class="cmsy-10x-x-109">± </span>0<span 
 class="cmmi-10x-x-109">.</span>7 provided a good fit to their &#8220;better quality&#8221;
 dual polarity data set representing the last five million years.
@@ -1574,7 +1574,7 @@ handy functions in the <span
 class="cmbx-10x-x-109">PmagPy </span>programs and modules (<span 
 class="cmbx-10x-x-109">pmag </span>and
 <span 
-class="cmbx-10x-x-109">pmagplotlib </span>that you are free to call or copy; .just do not modify them without
+class="cmbx-10x-x-109">pmagplotlib </span>that you are free to call or copy; just do not modify them without
 renaming them or the <span 
 class="cmbx-10x-x-109">PmagPy </span>programs won&#8217;t work right anymore!]
 For example, look at <span 
@@ -1620,41 +1620,50 @@ known.
 <!--l. 784--><p class="noindent" >a) Go to the MagIC database website and download the data for one high
 latitude data set (Lawrence et al., 2009):
 <!--l. 786--><p class="noindent" ><a 
-href="http://earthref.org/cgi-bin/magic.cgi?mdt=m000629dt20080526142444" class="url" ><span 
-class="cmtt-10x-x-109">http://earthref.org/cgi-bin/magic.cgi?mdt=m000629dt20080526142444</span></a>
-<!--l. 788--><p class="noindent" >Unzip the folder into a directory and change directories into it. Use the
-<span 
-class="cmbx-10x-x-109">MagIC.py </span>graphical user interface and make a new Project Directory. Select
-&#8220;File <span 
-class="cmmi-10x-x-109">&#x003E; </span>Unpack downloaded txt file&#8221; to extract the data from the txt file in the
-folder you unzipped. This will release a number of tab delimitted MagIC data
-base formatted files that you can look at using a spreadsheet program. Read the
-documentation at <a 
+href="http://earthref.org/MagIC/doi/10.1029/2008GC002072" class="url" ><span 
+class="cmtt-10x-x-109">http://earthref.org/MagIC/doi/10.1029/2008GC002072</span></a>
+<!--l. 788--><p class="noindent" >Create a Project Directory and put the file in it. Use the <span 
+class="cmbx-10x-x-109">QuickMagIC.py</span>
+graphical user interface and cd into your project directory. Click on &#8220;unpack
+downloaded txt file&#8221; to extract the data from the txt file. This will release a
+number of tab delimited MagIC database formatted files that you can
+look at using a spreadsheet program. Read the documentation at
+<a 
 href="http://earthref.org/PmagPy/cookbook/#MagIC" class="url" ><span 
-class="cmtt-10x-x-109">http://earthref.org/PmagPy/cookbook/#MagIC</span></a> to
-familiarize yourself with the MagIC database file structure.
-<!--l. 790--><p class="noindent" >b) Look at the site means using Utilities <span 
-class="cmmi-10x-x-109">&#x003E; </span>Equal area plots <span 
-class="cmmi-10x-x-109">&#x003E; </span>general equal area
-plots. The file type you want to look at is the &#8220;Sites&#8221; file format and look at the
-whole file. Now look at the VGP distribution using Utilities <span 
-class="cmmi-10x-x-109">&#x003E; </span>VGP
+class="cmtt-10x-x-109">http://earthref.org/PmagPy/cookbook/#MagIC</span></a> to familiarize yourself with
+the MagIC database file structure.
+<!--l. 790--><p class="noindent" >b) You can read in the site mean data from the <span 
+class="cmti-10x-x-109">pmag</span><span 
+class="cmti-10x-x-109">_results.txt </span>file into a
+Pandas Dataframe and look them in equal area projection using the
+<span 
+class="cmbx-10x-x-109">plot</span><span 
+class="cmbx-10x-x-109">_net </span>and <span 
+class="cmbx-10x-x-109">plot</span><span 
+class="cmbx-10x-x-109">_di </span>functions in the ipmag module of <span 
+class="cmbx-10x-x-109">PmagPy </span>from
                                                                      
 
                                                                      
-plots.
-<!--l. 793--><p class="noindent" >c) Extract the VGPs from the site means to a file (you can use the unix
-commands <span 
-class="cmbx-10x-x-109">grep </span>and <span 
-class="cmbx-10x-x-109">awk </span>or some spreadsheet program). Write a program that
-will calculate the <span 
+within an IPython notebook. Be sure to get rid of all the blank directional
+data with the Pandas function dropna. Also, there are study averages, so
+you need the &#8216;individual&#8217; data under the &#8216;data type&#8217; key (data type is
+&#8217;i&#8217;). Now fish out the VGPs from the same data records and plot them
+with the ipmag.plot_vgp function. To do that, you will need to have
+Basemap installed and learn how make a simple map (consult the website
+<a 
+href="https://nbviewer.jupyter.org/github/swanson-hysell/2015_Tauxe-et-al_PmagPy_Notebook/blob/master/PmagPy_notebook.ipynb" class="url" ><span 
+class="cmtt-10x-x-109">https://nbviewer.jupyter.org/github/swanson-hysell/2015_Tauxe-et-al_PmagPy_Notebook/blob/master/PmagPy_notebook.ipynb</span></a>
+for help). As this is a dual polarity data set, first flip the VGPs with negative
+latitudes to the antipode (subtract 180 from the longitude and take the absolute
+value of the latitude).
+<!--l. 793--><p class="noindent" >c) Write a program that will calculate the <span 
 class="cmmi-10x-x-109">S</span><sub><span 
-class="cmmi-8">p</span></sub> VGP scatter statistic that reads in your VGP file. What is
-<span 
+class="cmmi-8">p</span></sub> VGP scatter statistic from
+VGPs. What is <span 
 class="cmmi-10x-x-109">S</span><sub><span 
-class="cmmi-8">p</span></sub> of the entire data set? [Be aware that this is a dual polarity data set, so
-you need to calculate the angle from the spin axis and not the North
-Pole.]
+class="cmmi-8">p</span></sub> of the entire data set? [Use the antipodes of the reverse
+data.]
 <!--l. 795--><p class="noindent" >d) Now modify your program to calculate <span 
 class="cmmi-10x-x-109">S</span><sub><span 
 class="cmmi-8">p</span></sub> as a function of latitude cutoff, i.e.,
@@ -1666,59 +1675,53 @@ class="cmbx-10x-x-109">hawaii</span><span
 class="cmbx-10x-x-109">_results.txt </span>is stored in the Chapter_14 Datafiles
 directory. This is a compilation of all the data from Hawaii used in a recent
 analysis of the time averaged field project by Johnson et al. (2008). Repeat
-problems 2b-d on the Hawaiian data set. Is there a latitude dependence of <span 
+problems 2b-d on the Hawaiian data set. Is there a latitude dependence of
+<span 
 class="cmmi-10x-x-109">S</span><sub><span 
-class="cmmi-8">p</span></sub>? To
-do this, rename the file &#8220;pmag_results.txt&#8221; and select &#8220;results&#8221; as the file
-type.
-<!--l. 800--><p class="noindent" >f) Compare these values of <span 
+class="cmmi-8">p</span></sub>?
+<!--l. 801--><p class="noindent" >f) Compare these values of <span 
 class="cmmi-10x-x-109">S</span><sub><span 
 class="cmmi-8">p</span></sub> to those predicted by Model G.
-<!--l. 804--><p class="noindent" ><span 
+<!--l. 805--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 4</span>
-<!--l. 806--><p class="noindent" >a) Use the program <span 
+<!--l. 807--><p class="noindent" >a) Use the program <span 
 class="cmbx-10x-x-109">tk03.py </span>to generate a set of 100 directions for a latitude of
 20<sup><span 
 class="cmsy-8">&#x2218;</span></sup> (the approximate latitude of Hawaii). Save these in a file called <span 
 class="cmti-10x-x-109">hawaii.tk03</span>
 and plot them using the program <span 
 class="cmbx-10x-x-109">eqarea.py</span>.
-<!--l. 808--><p class="noindent" >b) Find the present IGRF and GAD directions at 20<sup><span 
+<!--l. 809--><p class="noindent" >b) Find the present IGRF and GAD directions at 20<sup><span 
 class="cmsy-8">&#x2218;</span></sup> and -156<sup><span 
 class="cmsy-8">&#x2218;</span></sup> using the
 programs <span 
 class="cmbx-10x-x-109">igrf.py </span>and <span 
 class="cmbx-10x-x-109">dipole</span><span 
-class="cmbx-10x-x-109">_pinc.py</span>. Rotate the directions in <span 
-class="cmti-10x-x-109">hawaii.tk03 </span>to
-the expected GAD direction using the program <span 
-class="cmbx-10x-x-109">di</span><span 
-class="cmbx-10x-x-109">_rot.py</span>. Plot these rotated
-directions using <span 
-class="cmbx-10x-x-109">eqarea.py</span>. Now rotate the directions extracted from
+class="cmbx-10x-x-109">_pinc.py </span>(or you can use the functions
 <span 
+class="cmbx-10x-x-109">ipmag.igrf </span>and <span 
+class="cmbx-10x-x-109">pmag.pinc(lat) </span>from inside an IPython notebook). Rotate
+the directions in <span 
+class="cmti-10x-x-109">hawaii.tk03 </span>to the expected GAD direction using the
+program <span 
+class="cmbx-10x-x-109">di</span><span 
+class="cmbx-10x-x-109">_rot.py</span>. Plot these rotated directions using <span 
+class="cmbx-10x-x-109">eqarea.py</span>. Now
+rotate the directions extracted from <span 
 class="cmti-10x-x-109">hawaii</span><span 
-class="cmti-10x-x-109">_results.txt </span>in Problem 2e in the same way and plot them in equal area
-projection. How do the directions predicted by the PSV field model compare with
-the data set from Hawaii?
-<!--l. 811--><p class="noindent" >c) Use the program <span 
-class="cmbx-10x-x-109">goprinc.py </span>to calculate the eigenparameters of the orientation
-matrix of the Hawaiian directions (see Chapter 9 and Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>).
-Calculate the elongation (<span 
-class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
-class="cmr-8">2</span></sub><span 
-class="cmmi-10x-x-109">&#x2215;&#x03C4;</span><sub><span 
-class="cmr-8">3</span></sub>) and inclination of the principal direction (<span 
-class="cmmi-10x-x-109">V</span> <sub><span 
-class="cmr-8">1</span></sub>).
+class="cmti-10x-x-109">_results.txt </span>in Problem 2e
                                                                      
 
                                                                      
-Is this elongation/inclination pair consistent with the TK03 model? Use the
-program <span 
-class="cmbx-10x-x-109">EI.py </span>on the set of Hawaiian data to calculated bootstrap bounds on
-the elongation/inclination pairs.
+in the same way and plot them in equal area projection. How do the
+directions predicted by the PSV field model compare with the data set from
+Hawaii?
+<!--l. 812--><p class="noindent" >c) Use the program <span 
+class="cmbx-10x-x-109">goprinc.py </span>to calculate the eigenparameters of the
+orientation matrix of the Hawaiian directions (see Chapter 9 and
+Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>). What is wrong with either the GAD model or the data
+set?
                                                                      
 
                                                                      
