@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2015-03-13 19:42:00"> 
+<meta name="date" content="2015-03-14 19:59:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -2044,134 +2044,167 @@ Enjoy.
 href="WebBook3.html#QQ2-18-426" id="x18-20400016.9">Problems</a></h3>
 <!--l. 750--><p class="nopar" ><span 
 class="cmbx-10x-x-109">Problem 1</span>
-<!--l. 752--><p class="noindent" >Calculate the expected direction for the Miocene (make a guess at the numerical
-age from the information supplied in Chapter 15) at a locality in the
+<!--l. 752--><p class="noindent" >a) Calculate the expected direction for about 20 Ma at a locality in the
 Mojave Desert (latitude of 34.5<sup><span 
 class="cmsy-8">&#x2218;</span></sup>N and longitude of 117.5<sup><span 
 class="cmsy-8">&#x2218;</span></sup>W). Use the
 program <span 
 class="cmbx-10x-x-109">apwp.py</span>. Assume that the Mojave was on the North American
 Plate.
-<!--l. 757--><p class="noindent" >Go to the MagIC web site at: earthref.org/MAGIC. Click on the PMAG
-PORTAL and select the Flashmap search. [You may have to download a
-FlashMap application to your computer to use this feature.] Zoom in on
-Southern California and find the Mojave Desert triangle to the east of Los
-Angeles. Your browser should look something like this:
-<!--l. 760--><p class="noindent" ><img 
-src="WebBook3418x.png" alt="PIC" class="graphics" width="341.43306pt" height="248.61926pt" ><!--tex4ht:graphics  
-name="WebBook3418x.png" src="EPSfiles/mojave.eps"  
--->
+<!--l. 757--><p class="noindent" >b) Go to the MagIC search interface at: <a 
+href="earthref.org/MAGIC/search" class="url" ><span 
+class="cmtt-10x-x-109">earthref.org/MAGIC/search</span></a>. Click on
+the search icon and use the &#8216;All coordinates are within&#8217; filter. Find the studies
+from 34.5N 119W to 35.5N 116W. Once you have applied the search criteria, you
+will be returned to the Search interface. Click on the &#8216;Locations&#8217; and
+&#8216;Paleomagnetics&#8217; tabs and save the search (use the &#8216;Save As&#8217; button). This will
+download a file to your desktop. Make a new Project Directory unpack the
+downloaded file with <span 
+class="cmbx-10x-x-109">QuickMagIC.py</span>.
+<!--l. 760--><p class="noindent" >c) Fish out the data that are Neogene in age (<span 
+class="cmmi-10x-x-109">&#x003C;</span>30 Ma) and make an equal area
+plot of all these results, Calculate the average direction, confidence ellipses.
+Be sure to only work on single polarity groups. How does the average
+direction compare with the prediction made in Problem 1a? Explain any
+differences.
+<!--l. 763--><p class="noindent" >d) Calculate the VGPs and an average paleopole for these data.
+<!--l. 767--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Problem 2</span>
+<!--l. 769--><p class="noindent" >Look back at the Problems for Chapter 15, and use the same data set. What
+tectonic plate is Site 522 on? Using the age range inferred from your
+magnetostratigraphic interpretation and knowing the plate and the present day
+location, find the appropriate paleopoles for the top (Oligo/Miocene
+boundary) and bottom (Eocene/Oligocene boundary) of the dataset
+from those of Besse and Courtillot (2002). Best and Courtillot (2002)
+is what is implemented in the program <span 
+class="cmbx-10x-x-109">apwp.py </span>to calculate the the
+expected inclinations for the top and bottom 10 meters of the record,
+respectively. How do these inclinations compare with the ones in Site
                                                                      
 
                                                                      
-<!--l. 765--><p class="noindent" >Find and select (by clicking on the dots) these Miocene paleomagnetic
-records: Western, Central and Eastern Vasquez, Pink Canyon, Hector Fm,
-Mojave Desert Volcanics and Ft Irwin. Submit your search by clicking on
-the &#8220;submit&#8221; button. Under the &#8220;Save&#8221; menu, download these data as a
-MagIC Excel (or text) file. What is the average direction and
-paleomagnetic pole for these Miocene rocks? How does the average
-direction compare with the prediction made in Problem 2? Explain any
-differences.
-<!--l. 772--><p class="noindent" ><span 
-class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 774--><p class="noindent" >Look back at the Problems for Chapter 15, and use the same data set.
-What tectonic plate is Site 522 on? Using the age range inferred from your
-magnetostratigraphic interpretation and knowing the plate and the present
-day location, find the appropriate paleopoles for the top (Oligo/Miocene
-boundary) and bottom (Eocene/Oligocene boundary) of the dataset from
-those of Besse and Courtillot (2002). Use the program <span 
-class="cmbx-10x-x-109">apwp.py </span>to
-calculate the the expected inclinations for the top and bottom of the core,
-respectively. How do these inclinations compare with the ones in Site 522?
-<!--l. 779--><p class="noindent" ><span 
+522?
+<!--l. 774--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 3</span>
-<!--l. 782--><p class="noindent" >Find the appropriate pole of rotation from North America to European
-Coordinates for 90 Ma (use the right sign for the rotation angle!) from
+<!--l. 777--><p class="noindent" >a) Find the appropriate pole of rotation from North America to South African
+coordinates for 90 Ma (use the right sign for the rotation angle!) from
 Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-218000A.3.5">A.3.5<!--tex4ht:ref: app:polerot --></a> and write a program that will transform the North
-American pole to European coordinates using the method outlined in the
-Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-218000A.3.5">A.3.5<!--tex4ht:ref: app:polerot --></a>. The North American pole for 90 Ma in BC02 is
-<span 
+href="WebBook3ap1.html#x19-218000A.3.5">A.3.5<!--tex4ht:ref: app:polerot --></a> .
+<!--l. 779--><p class="noindent" >b) Write a program that will transform the North American pole to South
+African coordinates using the method outlined in the Appendix&#x00A0;<a 
+href="WebBook3ap1.html#x19-218000A.3.5">A.3.5<!--tex4ht:ref: app:polerot --></a>. The
+North American pole for 90 Ma in BC02 is <span 
 class="cmmi-10x-x-109">&#x03BB; </span>= 75<span 
 class="cmmi-10x-x-109">.</span>2<sup><span 
 class="cmsy-8">&#x2218;</span></sup><span 
 class="cmmi-10x-x-109">,&#x03D5; </span>= 201<sup><span 
-class="cmsy-8">&#x2218;</span></sup>.
-<!--l. 784--><p class="noindent" ><span 
+class="cmsy-8">&#x2218;</span></sup>. The African pole
+is <span 
+class="cmmi-10x-x-109">&#x03BB; </span>= 66<span 
+class="cmmi-10x-x-109">.</span>8<sup><span 
+class="cmsy-8">&#x2218;</span></sup><span 
+class="cmmi-10x-x-109">,&#x03D5; </span>= 244<span 
+class="cmmi-10x-x-109">.</span>5<sup><span 
+class="cmsy-8">&#x2218;</span></sup>. How does your answer compare?
+<!--l. 781--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 4</span>
-<!--l. 786--><p class="noindent" >Find the data set <span 
-class="cmti-10x-x-109">prob4.dat </span>in the Chapter_16 directory of the Datafiles
-folder (see Problems for Chapter 5 for instructions in downloading it). It
-was collected from a study in Spain at a latitude of 41.5<sup><span 
-class="cmsy-8">&#x2218;</span></sup> and a longitude
-of 358.5<sup><span 
-class="cmsy-8">&#x2218;</span></sup> from Miocene aged red bed sediments. Look up the European
-pole for 15 Ma using <span 
-class="cmbx-10x-x-109">apwp.py</span>. What is the expected direction at the
-location for that age? Make an equal area projection of the data using
+<!--l. 783--><p class="noindent" >Find the data set <span 
+class="cmti-10x-x-109">prob4.dat </span>in the Chapter_16 directory of the Datafiles folder
+(see Problems for Chapter 5 for instructions in downloading it). It was collected
+from a study in Spain at a latitude of 41.5<sup><span 
+class="cmsy-8">&#x2218;</span></sup> and a longitude of 358.5<sup><span 
+class="cmsy-8">&#x2218;</span></sup> from
+Miocene aged red bed sediments. Look up the European pole for 15 Ma using
 <span 
-class="cmbx-10x-x-109">eqarea.py</span>. What is the average normal and average reverse direction
-using <span 
+class="cmbx-10x-x-109">apwp.py</span>. What is the expected direction at the location for that age? Make an
+equal area projection of the data using <span 
+class="cmbx-10x-x-109">eqarea.py</span>. What is the average normal
+and average reverse direction using <span 
 class="cmbx-10x-x-109">eqarea</span><span 
-class="cmbx-10x-x-109">_ell.py</span>. Are these antipodal using, for example <span 
+class="cmbx-10x-x-109">_ell.py</span>. Are these antipodal using, for
+example <span 
 class="cmbx-10x-x-109">revtest.py</span>?
+<!--l. 786--><p class="noindent" >Use the program <span 
+class="cmbx-10x-x-109">tk03.py </span>to generate a set of directions expected from the
+statistical field model at that location. Plot those directions in equal area
+projection and compare them with the observed directions. (On a Unix type
+computer, a handy way to do this would be to pipe the output of <span 
+class="cmbx-10x-x-109">tk03.py </span>to
+<span 
+class="cmbx-10x-x-109">eqarea.py</span>, otherwise save the output of <span 
+class="cmbx-10x-x-109">tk03.py </span>in a file, then plot it with
+<span 
+class="cmbx-10x-x-109">eqarea.py</span>.
+<!--l. 788--><p class="noindent" >Calculate Bingham ellipses for both data sets using <span 
+class="cmbx-10x-x-109">gobing.py</span>. What is different
+about the two data sets? (You might have to blow up the error ellipses for a
+closer look because N is so large......)
+<!--l. 790--><p class="noindent" >Finally, use the programs <span 
+class="cmbx-10x-x-109">find</span><span 
+class="cmbx-10x-x-109">_EI.py </span>to &#8220;fix&#8221; the data using the E/I method
+explained in the text. In the cumulative distribution plot you have the
+cumulative distribution of the bootstrap best-fit inclinations and the bounds
+(in dashed lines). Is this result consistent with the Besse and Courtillot
+prediction for this location and age (assume ages of 10 and 20 Ma to get
                                                                      
 
                                                                      
-<!--l. 789--><p class="noindent" >Use the program <span 
-class="cmbx-10x-x-109">tk03.py </span>to generate a set of directions expected from the
-statistical field model at that location. Plot those directions in equal area
-projection and compare them with the observed directions. (On a Unix
-type computer, a handy way to do this would be to pipe the output of
-<span 
-class="cmbx-10x-x-109">tk03.py </span>to <span 
-class="cmbx-10x-x-109">eqarea.py</span>, otherwise save the output of <span 
-class="cmbx-10x-x-109">tk03.py </span>in a file,
-then plot it with <span 
-class="cmbx-10x-x-109">eqarea.py</span>.
-<!--l. 791--><p class="noindent" >Calculate Bingham ellipses for both data sets using <span 
-class="cmbx-10x-x-109">gobing.py</span>. What is
-different about the two data sets? (You might have to blow up the error
-ellipses for a closer look because N is so large......)
-<!--l. 793--><p class="noindent" >Finally, use the programs <span 
-class="cmbx-10x-x-109">find</span><span 
-class="cmbx-10x-x-109">_EI.py </span>to &#8220;fix&#8221; the data using the E/I
-method explained in the text. In the cumulative distribution plot you have
-the cumulative distribution of the bootstrap best-fit inclinations and the
-bounds (in dashed lines). Is this result consistent with the Besse and
-Courtillot prediction for this location and age (assume ages of 10 and 20
-Ma to get bounds)?
-<!--l. 796--><p class="noindent" ><span 
+bounds)?
+<!--l. 793--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 5</span>
-<!--l. 798--><p class="noindent" >Go to the GPMDB website at: ngu.no/geodynamics/gpmdb/
-<!--l. 800--><p class="noindent" >Download all the poles from Europe between 85 and 110 Ma that were
-subjected to step wise demagnetization and principle component analysis
-(Chapter 9). Don&#8217;t include results that have been superseded in your
-search.
-<!--l. 802--><p class="noindent" >Put the pole latitudes and longitudes into a file and use the program
+<!--l. 795--><p class="noindent" >a) Go to the MagIC search interface at: <a 
+href="http://earthref.org/MagIC/search" class="url" ><span 
+class="cmtt-10x-x-109">http://earthref.org/MagIC/search</span></a>.
+click on the Search button and select the following: Location Contenent or ocean
+Island Region equals Europe, Any Age (in Years BP) is between 85,000,000 and
+110,000,000, Any External Database Name equals GPMDB, and Any Method
+Code contains LP-DC4. Your web interface should look something like
+this:
+<!--l. 797--><p class="noindent" ><img 
+src="WebBook3418x.png" alt="PIC" class="graphics" width="227.62204pt" height="70.22742pt" ><!--tex4ht:graphics  
+name="WebBook3418x.png" src="EPSfiles/gpmdb_search.eps"  
+-->
+<!--l. 799--><p class="noindent" >Click on the &#8216;Apply 4 filters&#8217; button and you will return to the main search
+interface. After some time, all the records will be available to you. Click on
+the &#8216;Locations&#8217; tab and then the &#8217;Paleomagnetics&#8217; tab. Then click on the
+&#8216;Save As&#8217; button to download your search. Repeat using a method code of
+LP-DC5.
+<!--l. 801--><p class="noindent" >You now have records from the GPMDB (global paleomagnetic data base)
+database. The LP-DC4 and LP-DC5 method codes indicate that all the
+specimens were demagnetized in step wise fashion.
+<!--l. 803--><p class="noindent" >b) Make a new Project Directory with two subdirectories (one for each
+method code) and unpack the two downloaded files (see Problem 1). Read
+them into a Pandas DataFrame. You will notice that our search cast a
+wide net and there are many results outside the desired age bounds. You
+will have to get rid of the ones outside the bounds. Also, there are a
+number of suspicious looking &#8217;result&#x02D9;description&#8217; fields including words like
+&#8217;Superseded&#8217;, &#8217;Overprint&#8217;, &#8217;Remagnetized&#8217;, &#8217;Included in RESULTNOS&#8217;, etc.
+Get rid of these too.
+<!--l. 807--><p class="noindent" >c) Put the pole latitudes and longitudes into a file and use the program
 <span 
 class="cmbx-10x-x-109">pt</span><span 
 class="cmbx-10x-x-109">_rot.py </span>to rotate these to North American coordinates for 100 Ma.
 Look up the poles of rotation in Appendix&#x00A0;<a 
 href="WebBook3ap1.html#x19-218000A.3.5">A.3.5<!--tex4ht:ref: app:polerot --></a> for first rotating Europe
 to fixed African coordinates, then African to North American coordinates
+                                                                     
+
+                                                                     
 (you will have to change the sign of &#x03A9; for the latter). Save your rotated
 poles in a file using the &#8217;-F&#8217; option (creates a MagIC formatted
 pmag_results file) and plot these using the program <span 
 class="cmbx-10x-x-109">vgpmap</span><span 
 class="cmbx-10x-x-109">_magic.py</span>.
-Compare your rotated pole with the synthetic pole of Besse and Courtillot
-(2002). You can find what this is by using the program <span 
+Or, if you are using IPython notebooks (recommended), you can use the
+ipmag.plot&#x02D9;vgp function as in Chapter 14. Compare your rotated pole with
+the synthetic pole of Besse and Courtillot (2002). You can find what this is
+by using the program <span 
 class="cmbx-10x-x-109">apwp.py</span>.
-<!--l. 805--><p class="noindent" >Make a plot of the continental configurations at 100 Ma using the program
-<span 
+<!--l. 810--><p class="noindent" >d) Make a plot of the continental configurations at 100 Ma using the
+program <span 
 class="cmbx-10x-x-109">cont</span><span 
-class="cmbx-10x-x-109">_rot.py</span>. Select the European, North American, African, South
-American, Indian, Australian and Antarctic continents.
-                                                                     
-
-                                                                     
+class="cmbx-10x-x-109">_rot.py</span>. Select the European, North American, African,
+South American, Indian, Australian and Antarctic continents.
                                                                      
 
                                                                      
