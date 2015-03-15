@@ -749,16 +749,18 @@ And so we return to where we started at the beginning of this book with an assum
 
 {\bf Problem 1}
 
-a) Calculate the expected direction for the Miocene (make a guess at  the numerical age from the information supplied in Chapter 15) at a locality in the Mojave Desert (latitude of 34.5$^{\circ}$N and longitude  of 117.5$^{\circ}$W).   Use the program {\bf apwp.py}.    Assume that the Mojave  was on the North American Plate.  
+a) Calculate the expected direction for  about 20 Ma at a locality in the Mojave Desert (latitude of 34.5$^{\circ}$N and longitude  of 117.5$^{\circ}$W).   Use the program {\bf apwp.py}.    Assume that the Mojave  was on the North American Plate.  
 
 
 
 
-b) Go to the MagIC search interface  at: \url{earthref.org/MAGIC/search}.    Click on the search icon and use the `Location Name contains' filter in the Location Filters.   Find the studies from these locations and download the datasets:     Western Vasquez, Eastern Vasquez and Central Vasquez, Mojave Desert Volcanics,  Pink Canyon,  Hector Formation,   and Fort Irwin.  Some of these are combined in the same studies, so you should have four datasets to play with.  
+b) Go to the MagIC search interface  at: \url{earthref.org/MAGIC/search}.    Click on the search icon and use the `All coordinates are within' filter.   Find the studies from 34.5N 119W to 35.5N 116W.    Once you have applied the search criteria, you will be returned to the Search interface.    Click on the `Locations' and `Paleomagnetics' tabs and save the search (use the `Save As' button).  This will download a file to your desktop.  
+Make a new Project Directory  unpack the downloaded file with {\bf QuickMagIC.py}.  
 
+c) Fish out the data that are Neogene in age ($<$30 Ma) and make an equal area  plot of all these results,  Calculate the  average direction, confidence ellipses.   Be sure to only work on single polarity groups. 
+How does the average direction compare with the prediction made in Problem 1a?  Explain any differences.  
 
-Make an equal area  plot of all these results  and calculate the  average direction and paleomagnetic pole for these Miocene rocks.   
-How does the average direction compare with the prediction made in Problem 2?  Explain any differences.  
+d) Calculate the VGPs and an average paleopole for these data.  
 
 
 
@@ -766,13 +768,15 @@ How does the average direction compare with the prediction made in Problem 2?  E
 
 Look back at the Problems for Chapter 15, and use the same data set.  
  What tectonic plate is Site 522 on?  Using the age range inferred from your magnetostratigraphic interpretation and knowing the plate and the present day location,  find the appropriate paleopoles for the top (Oligo/Miocene boundary) and bottom (Eocene/Oligocene boundary) of the dataset from those of  Besse and Courtillot (2002).   \nocite{besse02}
-Use the program {\bf apwp.py}  to calculate the  the expected inclinations for the top and bottom of the core, respectively.  How do these inclinations compare with the ones in Site 522?  
+Best and Courtillot (2002) is what is implemented in  the program {\bf apwp.py}  to calculate the  the expected inclinations for the top and bottom  10 meters of the record, respectively.  How do these inclinations compare with the ones in Site 522?  
 
 
 {\bf Problem 3}
 
 
-Find the appropriate pole of rotation from North America to European Coordinates for 90 Ma (use the right sign for the rotation angle!)  from Appendix~\ref{app:polerot} and write a program that will transform the North American pole to European coordinates using the method outlined in the Appendix~\ref{app:polerot}.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.  
+a) Find the appropriate pole of rotation from North America to South African coordinates for 90 Ma (use the right sign for the rotation angle!)  from Appendix~\ref{app:polerot} .
+
+b) Write a program that will transform the North American pole to South African coordinates using the method outlined in the Appendix~\ref{app:polerot}.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How does your answer compare? 
 
 {\bf Problem 4}
 
@@ -788,14 +792,22 @@ Finally, use the  programs  {\bf find\_EI.py} to ``fix'' the data using the E/I 
 
 {\bf Problem 5}
 
-Go to the GPMDB website at: ngu.no/geodynamics/gpmdb/
+a) Go to the MagIC search interface at: \url{http://earthref.org/MagIC/search}.   click on the Search button and select the following:  Location Contenent or ocean Island Region equals Europe,  Any Age (in Years BP) is between 85,000,000 and 110,000,000,  Any External Database Name equals GPMDB, and Any Method Code contains LP-DC4.  Your web interface should look something like this:
 
-Download all the poles from Europe between 85 and 110 Ma that were subjected to step wise  demagnetization and principle component analysis (Chapter 9).   Don't include results that have been superseded in your search.      
-
-Put the pole latitudes and longitudes into a file and use the program {\bf pt\_rot.py} to rotate these to North American coordinates for 100 Ma.  Look up the poles of rotation in Appendix~\ref{app:polerot} for first rotating Europe to fixed African coordinates, then African to North American coordinates (you will have to change the 
- sign of $\Omega$ for the latter).     Save your rotated poles in a file using the '-F' option (creates a MagIC formatted pmag\_results file)  and plot these using the program {\bf vgpmap\_magic.py}.       Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the program {\bf apwp.py}.   
+ \centering \includegraphics[width=8cm]{EPSfiles/gpmdb_search.eps}
  
- Make a plot of the continental configurations at 100 Ma using the program {\bf cont\_rot.py}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
+ Click on the `Apply 4 filters' button and you will return to the main search interface.  After some time, all the records will be available to you.  Click on the `Locations' tab and then the 'Paleomagnetics' tab.  Then click on the `Save As' button to download your search.  Repeat using a method code of LP-DC5.  
+ 
+ You now have records from the GPMDB (global paleomagnetic data base) database.  The LP-DC4 and LP-DC5 method codes indicate that all the specimens were demagnetized in step wise fashion.    
+ 
+ b) Make a new Project Directory  with two subdirectories (one for each method code) and unpack the two downloaded files (see Problem 1).   Read them into a Pandas DataFrame.  You will notice that our search cast a wide net and there are many results outside the desired age bounds.  You will have to get rid of the ones outside the bounds.  Also, there are a number of suspicious looking 'result_description' fields including words like 'Superseded', 'Overprint', 'Remagnetized', 'Included in RESULTNOS', etc.  Get rid of these too.  
+
+
+
+c) Put the pole latitudes and longitudes into a file and use the program {\bf pt\_rot.py} to rotate these to North American coordinates for 100 Ma.  Look up the poles of rotation in Appendix~\ref{app:polerot} for first rotating Europe to fixed African coordinates, then African to North American coordinates (you will have to change the 
+ sign of $\Omega$ for the latter).     Save your rotated poles in a file using the '-F' option (creates a MagIC formatted pmag\_results file)  and plot these using the program {\bf vgpmap\_magic.py}.    Or, if you are using IPython notebooks (recommended), you can use the ipmag.plot_vgp function as in Chapter 14.    Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the program {\bf apwp.py}.   
+ 
+ d) Make a plot of the continental configurations at 100 Ma using the program {\bf cont\_rot.py}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
 
 
 

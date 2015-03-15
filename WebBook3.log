@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.6.30)  13 MAR 2015 19:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.6.30)  14 MAR 2015 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3325,10 +3325,10 @@ File: EPSfiles/poles_na_dis.eps Graphic file (type eps)
 l. 641 Writing WebBook3.idv[418] (WebBook3417x.png)
 File: EPSfiles/inconly.eps Graphic file (type eps)
  <EPSfiles/inconly.eps> [946] [947] [948] [949]
-[950]
-l. 760 Writing WebBook3.idv[419] (WebBook3418x.png)
-File: EPSfiles/mojave.eps Graphic file (type eps)
- <EPSfiles/mojave.eps> [951] [952]) [953] [954] [955
+[950] [951] [952]
+l. 797 Writing WebBook3.idv[419] (WebBook3418x.png)
+File: EPSfiles/gpmdb_search.eps Graphic file (type eps)
+ <EPSfiles/gpmdb_search.eps> [953]) [954] [955
 
 ]
 \openout2 = `Chapters/appendix.aux'.
@@ -3680,11 +3680,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
 ### bottom level 
 Here is how much of TeX's memory you used:
  15076 strings out of 493489
- 216893 string characters out of 3141349
+ 216917 string characters out of 3141349
  569431 words of memory out of 3000000
  17796 multiletter control sequences out of 15000+200000
  17276 words of font info for 64 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,13n,43p,2418b,4836s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on WebBook3.dvi (1128 pages, 2955640 bytes).
+Output written on WebBook3.dvi (1128 pages, 2957904 bytes).
