@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.6.30)  14 MAR 2015 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  5 APR 2016 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,10 +10,10 @@ documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
 \HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode html, 2, sections+.a.b.c.\i
 nput  WebBook3
 (./WebBook3.tex (./mydefs.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -28,7 +28,7 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/tex4ht.sty
 version 2008-10-27-17:23
 Package: tex4ht 
 --------------------------------------
@@ -39,7 +39,7 @@ Package: tex4ht
 --------------------------------------
 \tmp:toks=\toks14
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/usepackage.4ht
 version 2009-05-21-09:32
 )
 (./stylemydefs.sty) (./natbib.sty
@@ -49,60 +49,60 @@ Package: natbib 2007/10/30 8.1 (PWD)
 LaTeX Info: Redefining \cite on input line 602.
 \c@NAT@ctr=\count88
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/appendix/appendix.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count89
 \c@@ppsavesec=\count90
 \c@@ppsaveapp=\count91
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
-LaTeX Info: Redefining \bm on input line 204.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 94.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count92
 \rotFPtop=\skip45
@@ -110,8 +110,8 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box26
 \rot@mess@toks=\toks17
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip47
 \LTright=\skip48
 \LTpre=\skip49
@@ -128,14 +128,14 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count97
 \LT@p@ftn=\toks18
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -176,52 +176,60 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
 \Hy@linkcounter=\count98
 \Hy@pagecounter=\count99
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count100
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count101
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen107
 \Fld@menulength=\count102
-\Field@Width=\dimen107
-\Fld@charsize=\dimen108
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
 \Field@toks=\toks19
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring ON on input line 5791.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count103
 
 
@@ -231,11 +239,11 @@ Package hyperref Message: Stopped early.
 
 Package hyperref Message: Driver: htex4ht.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/htex4ht.def
-File: htex4ht.def 2012/05/13 v6.82q Hyperref driver for TeX4ht
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/htex4ht.def
+File: htex4ht.def 2012/11/06 v6.83m Hyperref driver for TeX4ht
 Package hyperref Info: tex4ht is already loaded.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
 version 2009-01-07-07:11
 --------------------------------------
 --- Note --- for additional information, use the command line option `info'
@@ -244,19 +252,19 @@ version 2009-01-07-07:11
 ::::::::::::::::::::::::::::::::::::::::::
  TeX4ht info is available in the log file 
 ::::::::::::::::::::::::::::::::::::::::::
-) (/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/tex4ht.sty
 version 2008-10-27-17:23
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: dvips.def on input line 130.
+Package color Info: Driver file: dvips.def on input line 142.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 ))
 --- needs --- tex4ht WebBook3 ---
 \tmp:cnt=\count104
@@ -272,8 +280,8 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 \openout3 = `WebBook3.xref'.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- to remove the <?xml version=...?> processing instruction use the c
 ommand line option `no-VERSION'
@@ -283,7 +291,7 @@ ommand line option `no-VERSION'
 DOCTYPE'
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 )
 --------------------------------------
@@ -303,8 +311,8 @@ version 2009-05-18-23:01
 --- Note --- for ^ of catcode 13, use the command line option `^13'
 --------------------------------------
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- For section filenames that reflect on their titles use the command
  line option `sec-filename'
@@ -354,7 +362,7 @@ TeX4ht package options: html,2,sections+
 on `imgdir:.../'
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 )
 \:tokwrite=\toks20
@@ -369,21 +377,21 @@ version 2009-05-18-23:01
 \openout4 = `WebBook3.4tc'.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/latex.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/latex.4ht
 version 2009-05-21-09:32
 --------------------------------------
 --- Note --- for links into captions, instead of float heads, use the command l
 ine option `refcaption'
 --------------------------------------
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- For mini tocs immediately aftter the header use the command line o
 ption `minitoc<'
@@ -422,7 +430,7 @@ ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{
 style="width:\HColWidth"}}
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 --------------------------------------
 --- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
@@ -443,20 +451,20 @@ he command line option `pic-m+' (not safe!!)
 --- Note --- for pictorial array, use the command line option `pic-array'
 --------------------------------------
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/fontmath.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/book.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/book.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- for tocs without * entries, use command line option `notoc*'
 --------------------------------------
@@ -480,68 +488,68 @@ option `sec-filename'
 index=2)
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/natbib.4ht
-version 2009-05-21-09:32
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/natbib.4ht
+version 2013-01-19-12:33
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/bm.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/bm.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/amssymb.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/amssymb.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/amsfonts.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/amsfonts.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/rotating.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/rotating.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/graphicx.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/graphics.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/graphics.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- if included graphics are of degraded quality, try the command line
  options `graphics-num' or `graphics-'. The `num' should provide the density of
@@ -552,126 +560,121 @@ version 2009-05-18-23:01
 en bounding box is unavailable try `Gin-dim+'; neither is recommended
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/dvips.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/dvips.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/ifthen.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/ifthen.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/longtable.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/longtable.4ht
 version 2009-05-21-09:32
 \LT:box=\box31
 \LT:ebox=\box32
 \tmp:bx=\box33
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- for pictorial longtable, use the command line option `pic-longtabl
 e'
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/hyperref.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/hyperref.4ht
 version 2011-01-30-16:01
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count105
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/nameref.4ht
-version 2010-09-04-21:02
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/nameref.4ht
+version 2013-06-28-15:01
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
 LaTeX Info: Redefining \autoref on input line 100.
 \Hy@SectionHShift=\skip52
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/url.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/url.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 --------------------------------------
 --- Note --- for URL encoding within href use the command line option `url-enc'
 
 --------------------------------------
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/color.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/color.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/dvipsnam.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/dvipsnam.4ht
 version 2009-05-21-09:32
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvipsnam.def)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2015-01-26-15:58
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
 (./WebBook3.aux (./preface.aux) (./Chapters/chapter1.aux)
-(./Chapters/chapter2.aux) (./Chapters/chapter3.aux) (./Chapters/chapter4.aux)
-(./Chapters/chapter5.aux) (./Chapters/chapter6.aux) (./Chapters/chapter7.aux)
-(./Chapters/chapter8.aux) (./Chapters/chapter9.aux) (./Chapters/chapter10.aux)
-(./Chapters/chapter11.aux) (./Chapters/chapter12.aux) (./Chapters/chapter13.aux
-) (./Chapters/chapter14.aux) (./Chapters/chapter15.aux)
-(./Chapters/chapter16.aux) (./Chapters/appendix.aux))
+(./Chapters/chapter2.aux))
 \openout1 = `WebBook3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -701,41 +704,87 @@ LaTeX Info: Redefining \nameref on input line 45.
 ] [3]
 LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1] [1]
 \openout2 = `preface.aux'.
 
 
-(./preface.tex (./WebBook3.4ct [2
-
-] [3] [4]) [5] [6] [7] [8] [9]) [10] [11
+(./preface.tex (./WebBook3.4ct) [2
 
 ]
-[12
+
+Package natbib Warning: Citation `kono07b' undefined on input line 32.
+
+
+Package natbib Warning: Citation `gubbins07' undefined on input line 32.
+
+
+Package natbib Warning: Citation `mcelhinny00' undefined on input line 35.
+
+
+Package natbib Warning: Citation `dunlop97' undefined on input line 35.
+
+
+Package natbib Warning: Citation `backus96' undefined on input line 35.
+
+
+Package natbib Warning: Citation `fisher87' undefined on input line 35.
+
+
+Package natbib Warning: Citation `voo93' undefined on input line 35.
+
+
+Package natbib Warning: Citation `opdyke96' undefined on input line 35.
+
+[3] [4]
+
+LaTeX Warning: Reference `app:definitions' on page v undefined on input line 83
+.
+
+
+LaTeX Warning: Reference `app:eqarea' on page v undefined on input line 83.
+
+
+LaTeX Warning: Reference `app:dirstics' on page v undefined on input line 83.
+
+
+LaTeX Warning: Reference `app:anis' on page v undefined on input line 83.
+
+
+LaTeX Warning: Reference `app:definitions' on page v undefined on input line 10
+1.
+
+[5]) [6] [7
+
+] [8
 
 ]
 --- file WebBook3li1.html ---
- (./WebBook3.4ct [13] [14] [15] [16] [17]) [18] [19] [1
+ (./WebBook3.4ct) [9] [1
 
 ]
 \openout2 = `Chapters/chapter1.aux'.
 
-
-(./Chapters/chapter1.tex [2
+ (./Chapters/chapter1.tex [2
 
 ] [3
 
-] [4
+]
+[4
 
 ]
 Chapter 1.
 --- file WebBook3ch1.html ---
+
+LaTeX Warning: Reference `app:definitions' on page 5 undefined on input line 25
+.
+
 [5] [6
 
 ]
@@ -744,8 +793,14 @@ File: EPSFiles/wire.eps Graphic file (type eps)
  <EPSFiles/wire.eps> [7
 
 ]
+
+Package natbib Warning: Citation `jiles91' undefined on input line 52.
+
 l. 84 Writing WebBook3.idv[2] (WebBook31x.png)
- [8
+
+LaTeX Warning: Reference `app:nabla' on page 8 undefined on input line 97.
+
+[8
 
 ]
 l. 121 Writing WebBook3.idv[3] (WebBook32x.png)
@@ -757,6 +812,9 @@ File: EPSfiles/moment.eps Graphic file (type eps)
  <EPSfiles/moment.eps> [11
 
 ]
+
+Package natbib Warning: Citation `jiles91' undefined on input line 133.
+
 [12
 
 ] [13
@@ -767,16 +825,25 @@ File: EPSfiles/barmagnetfield.eps Graphic file (type eps)
  <EPSfiles/barmagnetfield.eps> [14
 
 ]
-l. 167 Writing WebBook3.idv[6] (WebBook35x.png)
- [15
 
-] [16] [17
+Package natbib Warning: Citation `jiles91' undefined on input line 150.
+
+
+Package natbib Warning: Citation `tipler99' undefined on input line 150.
+
+l. 167 Writing WebBook3.idv[6] (WebBook35x.png)
+[15
+
+]
+
+LaTeX Warning: Reference `app:vecmult' on page 16 undefined on input line 195.
+
+[16] [17
 
 ]
 l. 198 Writing WebBook3.idv[7] (WebBook36x.png)
 File: EPSfiles/compass.eps Graphic file (type eps)
-
-<EPSfiles/compass.eps> [18
+ <EPSfiles/compass.eps> [18
 
 ]
 l. 217 Writing WebBook3.idv[8] (WebBook37x.png)
@@ -789,14 +856,17 @@ l. 254 Writing WebBook3.idv[9] (WebBook38x.png)
 ]
 l. 276 Writing WebBook3.idv[10] (WebBook39x.png)
 File: EPSfiles/pp.eps Graphic file (type eps)
- <EPSfiles/pp.eps> [23
+ <EPSfiles/pp.eps>
+[23
 
 ] [24
 
 ]
+
+Package natbib Warning: Citation `cullity72' undefined on input line 283.
+
 l. 292 Writing WebBook3.idv[11] (WebBook310x.png)
 l. 302 Writing WebBook3.idv[12] (WebBook311x.png)
-
 [25]
 l. 307 Writing WebBook3.idv[13] (WebBook312x.png)
 l. 320 Writing WebBook3.idv[14] (WebBook313x.png)
@@ -806,7 +876,11 @@ l. 334 Writing WebBook3.idv[15] (WebBook314x.png)
 
 ] [30
 
-] [31
+]
+
+LaTeX Warning: Reference `app:nabla' on page 31 undefined on input line 394.
+
+[31
 
 ] [32
 
@@ -817,21 +891,28 @@ File: EPSfiles/divergence.eps Graphic file (type eps)
 
 ]
 l. 419 Writing WebBook3.idv[17] (WebBook316x.png)
+
+
+LaTeX Warning: Reference `app:nabla' on page 34 undefined on input line 427.
+
 l. 443 Writing WebBook3.idv[18] (WebBook317x.png)
- [34
+[34
 
 ]
 l. 452 Writing WebBook3.idv[19] (WebBook318x.png)
 l. 457 Writing WebBook3.idv[20] (WebBook319x.png)
-
-[35] [36
+ [35] [36
 
 ]
 l. 465 Writing WebBook3.idv[21] (WebBook320x.png)
 File: EPSfiles/mH.eps Graphic file (type eps)
  <EPSfiles/mH.eps> [37
 
-] [38
+]
+
+Package natbib Warning: Citation `glatzmaier95' undefined on input line 480.
+
+[38
 
 ] [39
 
@@ -841,2850 +922,81 @@ File: EPSfiles/discdynamo.eps Graphic file (type eps)
  <EPSfiles/discdynamo.eps> [40
 
 ]
-l. 505 Writing WebBook3.idv[23] (WebBook322x.png)
 
+Package natbib Warning: Citation `elsasser58' undefined on input line 498.
+
+
+Package natbib Warning: Citation `butler92' undefined on input line 498.
+
+l. 505 Writing WebBook3.idv[23] (WebBook322x.png)
 [41
 
-] [42] [43]
-l. 584 Writing WebBook3.idv[24] (WebBook323x.png)
-l. 588 Writing WebBook3.idv[25] (WebBook324x.png)
+] [42]
+
+Package natbib Warning: Citation `jiles91' undefined on input line 563.
+
+
+Package natbib Warning: Citation `cullity72' undefined on input line 564.
+
+[43]
+l. 588 Writing WebBook3.idv[24] (WebBook323x.png)
  [44]
-l. 594 Writing WebBook3.idv[26] (WebBook325x.png)
+l. 592 Writing WebBook3.idv[25] (WebBook324x.png)
+l. 598 Writing WebBook3.idv[26] (WebBook325x.png)
+ [45]
 Missing character: There is no Ð in font cmr8!
- [45] [46
+ [46] [47
 
 ]
-l. 622 Writing WebBook3.idv[27] (WebBook326x.png)
+l. 628 Writing WebBook3.idv[27] (WebBook326x.png)
 File: EPSfiles/dipole.eps Graphic file (type eps)
- <EPSfiles/dipole.eps> [47
+ <EPSfiles/dipole.eps> [48
 
-]) [48
+]) [49
 
-] [49
+] [50
 
 ]
 \openout2 = `Chapters/chapter2.aux'.
 
 
-(./Chapters/chapter2.tex [50
-
-] [51
+(./Chapters/chapter2.tex [51
 
 ] [52
 
 ]
 Chapter 2.
 --- file WebBook3ch2.html ---
-[53] [54
+l.2 --- TeX4ht warning --- \Link{tailWebBook3ch2.html}? ---
+
+LaTeX Warning: Reference `fig:coord' on page 53 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:coord' on page 53 undefined on input line 27.
+
+[53
+
+] [54
 
 ]
 l. 32 Writing WebBook3.idv[28] (WebBook327x.png)
 File: EPSfiles/components.eps Graphic file (type eps)
- <EPSfiles/components.eps> [55
-
-]
-l. 51 Writing WebBook3.idv[29] (WebBook328x.png)
-l. 56 Writing WebBook3.idv[30] (WebBook329x.png)
- [56
-
-]
-l. 65 Writing WebBook3.idv[31] (WebBook330x.png)
-l. 89 Writing WebBook3.idv[32] (WebBook331x.png)
- [57] [58]
-l. 121 Writing WebBook3.idv[33] (WebBook332x.png)
-l. 135 Writing WebBook3.idv[34] (WebBook333x.png)
- [59]
-l. 155 Writing WebBook3.idv[35] (WebBook334x.png)
- [60] [61
-
-]
-l. 164 Writing WebBook3.idv[36] (WebBook335x.png)
-File: EPSfiles/schmidt.eps Graphic file (type eps)
-
-<EPSfiles/schmidt.eps> [62
-
-] [63
-
-] [64
-
-]
-l. 182 Writing WebBook3.idv[37] (WebBook336x.png)
-File: EPSfiles/harmonics.eps Graphic file (type eps)
- <EPSfiles/harmonics.eps> [65
-
-]
-l. 191 Writing WebBook3.idv[38] (WebBook337x.png)
-l. 204 Writing WebBook3.idv[39] (WebBook338x.png)
- [66
-
-]
-[67] [68
-
-] [69
-
-] [70
-
-] [71
-
-]
-l. 282 Writing WebBook3.idv[40] (WebBook339x.png)
-File: EPSfiles/power.eps Graphic file (type eps)
- <EPSfiles/power.eps> [72
-
-] [73
-
-] [74
-
-]
-l. 292 Writing WebBook3.idv[41] (WebBook340x.png)
-File: EPSfiles/B.eps Graphic file (type eps)
- <EPSfiles/B.eps>
-[75
-
-] [76
-
-] [77
-
-]
-l. 332 Writing WebBook3.idv[42] (WebBook341x.png)
-File: EPSfiles/poles.eps Graphic file (type eps)
- <EPSfiles/poles.eps> [78
-
-]
-l. 387 Writing WebBook3.idv[43] (WebBook342x.png)
- [79
-
-]
-l. 394 Writing WebBook3.idv[44] (WebBook343x.png)
-l. 406 Writing WebBook3.idv[45] (WebBook344x.png)
- [80]
-l. 422 Writing WebBook3.idv[46] (WebBook345x.png)
- [81] [82
-
-]
-l. 465 Writing WebBook3.idv[47] (WebBook346x.png)
-File: EPSfiles/igrf.eps Graphic file (type eps)
-
-<EPSfiles/igrf.eps> [83
-
-]
-l. 486 Writing WebBook3.idv[48] (WebBook347x.png)
- [84
-
-]
-l. 517 Writing WebBook3.idv[49] (WebBook348x.png)
-l. 525 Writing WebBook3.idv[50] (WebBook349x.png)
- [85] [86] [87
-
-]
-l. 545 Writing WebBook3.idv[51] (WebBook350x.png)
-File: EPSfiles/igrf_dip.eps Graphic file (type eps)
- <EPSfiles/igrf_dip.eps> [88
-
-]
-[89
-
-] [90
-
-]
-l. 554 Writing WebBook3.idv[52] (WebBook351x.png)
-File: EPSfiles/mkvgp.eps Graphic file (type eps)
- <EPSfiles/mkvgp.eps> [91
-
-]
-l. 618 Writing WebBook3.idv[53] (WebBook352x.png)
- [92
-
-]
-l. 626 Writing WebBook3.idv[54] (WebBook353x.png)
-l. 636 Writing WebBook3.idv[55] (WebBook354x.png)
- [93]
-l. 661 Writing WebBook3.idv[56] (WebBook355x.png)
-l. 670 Writing WebBook3.idv[57] (WebBook356x.png)
- [94]
-l. 694 Writing WebBook3.idv[58] (WebBook357x.png)
- [95] [96] [97]) [98]
-[99
-
-]
-\openout2 = `Chapters/chapter3.aux'.
-
- (./Chapters/chapter3.tex [100
-
-] [101
-
-] [102
-
-]
-Chapter 3.
---- file WebBook3ch3.html ---
-[103] [104
-
-]
-l. 39 Writing WebBook3.idv[59] (WebBook358x.png)
-File: EPSfiles/1s.eps Graphic file (type eps)
- <EPSfiles/1s.eps> [105
-
-]
-l. 56 Writing WebBook3.idv[60] (WebBook359x.png)
-l. 65 Writing WebBook3.idv[61] (WebBook360x.png)
- [106
-
-]
-l. 68 Writing WebBook3.idv[62] (WebBook361x.png)
-l. 77 Writing WebBook3.idv[63] (WebBook362x.png)
- [107] [108] [109
-
-]
-l. 90 Writing WebBook3.idv[64] (WebBook363x.png)
-File: EPSfiles/shells.eps Graphic file (type eps)
-
-<EPSfiles/shells.eps> [110
-
-]
-l. 102 Writing WebBook3.idv[65] (WebBook364x.png)
-l. 110 Writing WebBook3.idv[66] (WebBook365x.png)
- [111
-
-] [112
-
-]
-l. 128 Writing WebBook3.idv[67] (WebBook366x.png)
-File: EPSfiles/structure.eps Graphic file (type eps)
- <EPSfiles/structure.eps> [113
-
-] [114
-
-]
-[115] [116
-
-]
-l. 176 Writing WebBook3.idv[68] (WebBook367x.png)
-File: EPSfiles/larmor.eps Graphic file (type eps)
- <EPSfiles/larmor.eps> [117
-
-]
-l. 194 Writing WebBook3.idv[69] (WebBook368x.png)
- [118
-
-] [119] [120
-
-]
-l. 214 Writing WebBook3.idv[70] (WebBook369x.png)
-File: EPSfiles/para.eps Graphic file (type eps)
- <EPSfiles/para.eps>
-[121
-
-] [122
-
-]
-l. 265 Writing WebBook3.idv[71] (WebBook370x.png)
-l. 303 Writing WebBook3.idv[72] (WebBook371x.png)
- [123]
-l. 312 Writing WebBook3.idv[73] (WebBook372x.png)
- [124]
-l. 336 Writing WebBook3.idv[74] (WebBook373x.png)
-l. 350 Writing WebBook3.idv[75] (WebBook374x.png)
- [125] [126] [127
-
-]
-l. 382 Writing WebBook3.idv[76] (WebBook375x.png)
-File: EPSfiles/exchange.eps Graphic file (type eps)
- <EPSfiles/exchange.eps> [128
-
-]
-[129
-
-] [130
-
-]
-l. 429 Writing WebBook3.idv[77] (WebBook376x.png)
-File: EPSfiles/MsT.eps Graphic file (type eps)
- <EPSfiles/MsT.eps> [131
-
-]
-l. 445 Writing WebBook3.idv[78] (WebBook377x.png)
-l. 453 Writing WebBook3.idv[79] (WebBook378x.png)
-l. 462 Writing WebBook3.idv[80] (WebBook379x.png)
- [132
-
-]
-l. 474 Writing WebBook3.idv[81] (WebBook380x.png)
- [133] [134
-
-]
-l. 486 Writing WebBook3.idv[82] (WebBook381x.png)
-File: EPSfiles/curie.eps Graphic file (type eps)
- <EPSfiles/curie.eps>
-[135
-
-]
-l. 496 Writing WebBook3.idv[83] (WebBook382x.png)
-l. 503 Writing WebBook3.idv[84] (WebBook383x.png)
-l. 511 Writing WebBook3.idv[85] (WebBook384x.png)
- [136
-
-]
-l. 531 Writing WebBook3.idv[86] (WebBook385x.png)
- [137] [138] [139
-
-]
-l. 543 Writing WebBook3.idv[87] (WebBook386x.png)
-File: EPSfiles/spins.eps Graphic file (type eps)
- <EPSfiles/spins.eps> [140
-
-] [141
-
-] [142
-
-]
-l. 576 Writing WebBook3.idv[88] (WebBook387x.png)
-File: EPSfiles/spinwave.eps Graphic file (type eps)
-
-<EPSfiles/spinwave.eps> [143
-
-] [144
-
-] [145]) [146] [147
-
-]
-\openout2 = `Chapters/chapter4.aux'.
-
- (./Chapters/chapter4.tex [148
-
-] [149
-
-] [150
-
-]
-Chapter 4.
---- file WebBook3ch4.html ---
-[151] [152] [153
-
-]
-l. 29 Writing WebBook3.idv[89] (WebBook388x.png)
-File: EPSfiles/magnetite.eps Graphic file (type eps)
- <EPSfiles/magnetite.eps> [154
-
-]
-l. 47 Writing WebBook3.idv[90] (WebBook389x.png)
- [155
-
-]
-l. 74 Writing WebBook3.idv[91] (WebBook390x.png)
- [156] [157] [158
-
-]
-l. 94 Writing WebBook3.idv[92] (WebBook391x.png)
-File: EPSfiles/K-T.eps Graphic file (type eps)
-
-<EPSfiles/K-T.eps> [159
-
-]
-l. 109 Writing WebBook3.idv[93] (WebBook392x.png)
- [160
-
-] [161] [162
-
-]
-l. 124 Writing WebBook3.idv[94] (WebBook393x.png)
-File: EPSfiles/verwey.eps Graphic file (type eps)
- <EPSfiles/verwey.eps> [163
-
-]
-l. 152 Writing WebBook3.idv[95] (WebBook394x.png)
- [164
-
-]
-l. 173 Writing WebBook3.idv[96] (WebBook395x.png)
-
-[165]
-l. 178 Writing WebBook3.idv[97] (WebBook396x.png)
- [166] [167
-
-]
-l. 186 Writing WebBook3.idv[98] (WebBook397x.png)
-File: EPSfiles/demagfield.eps Graphic file (type eps)
- <EPSfiles/demagfield.eps> [168
-
-]
-l. 204 Writing WebBook3.idv[99] (WebBook398x.png)
- [169
-
-]
-l. 214 Writing WebBook3.idv[100] (WebBook399x.png)
-l. 219 Writing WebBook3.idv[101] (WebBook3100x.png)
-l. 225 Writing WebBook3.idv[102] (WebBook3101x.png)
- [170]
-l. 229 Writing WebBook3.idv[103] (WebBook3102x.png)
-l. 239 Writing WebBook3.idv[104] (WebBook3103x.png)
- [171]
-l. 243 Writing WebBook3.idv[105] (WebBook3104x.png)
-l. 243 Writing WebBook3.idv[106] (WebBook3105x.png)
-l. 243 Writing WebBook3.idv[107] (WebBook3106x.png)
-l. 249 Writing WebBook3.idv[108] (WebBook3107x.png)
-l. 253 Writing WebBook3.idv[109] (WebBook3108x.png)
- [172]
-l. 274 Writing WebBook3.idv[110] (WebBook3109x.png)
-
-[173] [174
-
-]
-l. 286 Writing WebBook3.idv[111] (WebBook3110x.png)
-File: EPSfiles/micromag.eps Graphic file (type eps)
- <EPSfiles/micromag.eps> [175
-
-]
-l. 303 Writing WebBook3.idv[112] (WebBook3111x.png)
- [176
-
-] [177] [178
-
-]
-l. 321 Writing WebBook3.idv[113] (WebBook3112x.png)
-File: EPSfiles/domains.eps Graphic file (type eps)
-
-<EPSfiles/domains.eps> [179
-
-] [180
-
-] [181
-
-]
-l. 360 Writing WebBook3.idv[114] (WebBook3113x.png)
-File: EPSfiles/wall.eps Graphic file (type eps)
- <EPSfiles/wall.eps> [182
-
-]
-l. 375 Writing WebBook3.idv[115] (WebBook3114x.png)
- [183
-
-]
-[184
-
-]
-l. 393 Writing WebBook3.idv[116] (WebBook3115x.png)
-File: EPSfiles/energies.eps Graphic file (type eps)
- <EPSfiles/energies.eps> [185
-
-] [186
-
-] [187
-
-]
-l. 409 Writing WebBook3.idv[117] (WebBook3116x.png)
-File: EPSfiles/domain-images.eps Graphic file (type eps)
- <EPSfiles/domain-images.eps>
-[188
-
-]
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
- [189
-
-]
-l. 433 Writing WebBook3.idv[118] (WebBook3117x.png)
- [190] [191
-
-]
-l. 443 Writing WebBook3.idv[119] (WebBook3118x.png)
-File: EPSfiles/tauvd.eps Graphic file (type eps)
- <EPSfiles/tauvd.eps> [192
-
-]
-l. 453 Writing WebBook3.idv[120] (WebBook3119x.png)
- [193
-
-]
-l. 471 Writing WebBook3.idv[121] (WebBook3120x.png)
- [194] [195
-
-]
-l. 514 Writing WebBook3.idv[122] (WebBook3121x.png)
-File: EPSfiles/butban.eps Graphic file (type eps)
-
-<EPSfiles/butban.eps> [196
-
-] [197
-
-] [198]) [199] [200
-
-]
-\openout2 = `Chapters/chapter5.aux'.
-
- (./Chapters/chapter5.tex
-[201
-
-] [202
-
-]
-Chapter 5.
---- file WebBook3ch5.html ---
-l. 20 Writing WebBook3.idv[123] (WebBook3122x.png)
-[203
-
-] [204] [205
-
-]
-l. 30 Writing WebBook3.idv[124] (WebBook3123x.png)
-File: EPSfiles/mB.eps Graphic file (type eps)
- <EPSfiles/mB.eps> [206
-
-]
-l. 42 Writing WebBook3.idv[125] (WebBook3124x.png)
-l. 52 Writing WebBook3.idv[126] (WebBook3125x.png)
- [207
-
-] [208] [209
-
-]
-l. 68 Writing WebBook3.idv[127] (WebBook3126x.png)
-File: EPSfiles/flip.eps Graphic file (type eps)
-
-<EPSfiles/flip.eps> [210
-
-]
-l. 84 Writing WebBook3.idv[128] (WebBook3127x.png)
-l. 91 Writing WebBook3.idv[129] (WebBook3128x.png)
- [211
-
-]
-l. 98 Writing WebBook3.idv[130] (WebBook3129x.png)
- [212] [213
-
-]
-l. 115 Writing WebBook3.idv[131] (WebBook3130x.png)
-File: EPSfiles/bf.eps Graphic file (type eps)
- <EPSfiles/bf.eps> [214
-
-] [215
-
-]
-[216] [217
-
-]
-l. 151 Writing WebBook3.idv[132] (WebBook3131x.png)
-File: EPSfiles/outerloop.eps Graphic file (type eps)
- <EPSfiles/outerloop.eps> [218
-
-] [219
-
-] [220
-
-]
-l. 174 Writing WebBook3.idv[133] (WebBook3132x.png)
-File: EPSfiles/sdloops.eps Graphic file (type eps)
- <EPSfiles/sdloops.eps>
-[221
-
-] [222] [223
-
-] [224
-
-]
-l. 199 Writing WebBook3.idv[134] (WebBook3133x.png)
-File: EPSfiles/Bcr.eps Graphic file (type eps)
- <EPSfiles/Bcr.eps> [225
-
-] [226
-
-] [227] [228
-
-]
-l. 264 Writing WebBook3.idv[135] (WebBook3134x.png)
-File: EPSfiles/cubicloops.eps Graphic file (type eps)
-
-<EPSfiles/cubicloops.eps> [229
-
-] [230
-
-] [231
-
-]
-l. 274 Writing WebBook3.idv[136] (WebBook3135x.png)
-File: EPSfiles/loops.eps Graphic file (type eps)
- <EPSfiles/loops.eps> [232
-
-]
-l. 288 Writing WebBook3.idv[137] (WebBook3136x.png)
- [233
-
-]
-[234] [235] [236
-
-]
-l. 324 Writing WebBook3.idv[138] (WebBook3137x.png)
-File: EPSfiles/mdloop.eps Graphic file (type eps)
- <EPSfiles/mdloop.eps> [237
-
-]
-l. 331 Writing WebBook3.idv[139] (WebBook3138x.png)
-l. 335 Writing WebBook3.idv[140] (WebBook3139x.png)
-l. 342 Writing WebBook3.idv[141] (WebBook3140x.png)
- [238
-
-]
-l. 347 Writing WebBook3.idv[142] (WebBook3141x.png)
- [239] [240
-
-]
-l. 359 Writing WebBook3.idv[143] (WebBook3142x.png)
-File: EPSfiles/void.eps Graphic file (type eps)
-
-<EPSfiles/void.eps> [241
-
-]
-l. 379 Writing WebBook3.idv[144] (WebBook3143x.png)
- [242
-
-]
-l. 388 Writing WebBook3.idv[145] (WebBook3144x.png)
-l. 393 Writing WebBook3.idv[146] (WebBook3145x.png)
-l. 404 Writing WebBook3.idv[147] (WebBook3146x.png)
- [243] [244] [245
-
-]
-l. 426 Writing WebBook3.idv[148] (WebBook3147x.png)
-File: EPSfiles/wallenergy.eps Graphic file (type eps)
- <EPSfiles/wallenergy.eps>
-[246
-
-] [247
-
-] [248] [249
-
-]
-l. 466 Writing WebBook3.idv[149] (WebBook3148x.png)
-File: EPSfiles/forcprinc.eps Graphic file (type eps)
- <EPSfiles/forcprinc.eps> [250
-
-]
-l. 474 Writing WebBook3.idv[150] (WebBook3149x.png)
-l. 480 Writing WebBook3.idv[151] (WebBook3150x.png)
-l. 486 Writing WebBook3.idv[152] (WebBook3151x.png)
- [251
-
-]
-
-LaTeX Warning: Reference `tab:end members' on page 252 undefined on input line 
-490.
-
-[252] [253
-
-] [254
-
-] [255
-
-] [256
-
-]
-l. 542 Writing WebBook3.idv[153] (WebBook3152x.png)
-File: EPSfiles/m428.eps Graphic file (type eps)
- <EPSfiles/m428.eps> [257
-
-]
-l. 550 Writing WebBook3.idv[154] (WebBook3153x.png)
- [258
-
-] [259
-
-]
-l. 562 Writing WebBook3.idv[155] (WebBook3154x.png)
-File: EPSfiles/ZFORC.eps Graphic file (type eps)
-
-<EPSfiles/ZFORC.eps> [260
-
-] [261
-
-]
-l. 587 Writing WebBook3.idv[156] (WebBook3155x.png)
- [262]
-l. 615 Writing WebBook3.idv[157] (WebBook3156x.png)
-l. 619 Writing WebBook3.idv[158] (WebBook3157x.png)
- [263] [264] [265
-
-]
-l. 627 Writing WebBook3.idv[159] (WebBook3158x.png)
-File: EPSfiles/gui-3.eps Graphic file (type eps)
- <EPSfiles/gui-3.eps>
-[266
-
-] [267
-
-]) [268] [269
-
-]
-\openout2 = `Chapters/chapter6.aux'.
-
- (./Chapters/chapter6.tex [270
-
-] [271
-
-] [272
-
-]
-Chapter 6.
---- file WebBook3ch6.html ---
-[273] [274] [275
-
-]
-l. 53 Writing WebBook3.idv[160] (WebBook3159x.png)
-File: EPSfiles/solidsolution.eps Graphic file (type eps)
- <EPSfiles/solidsolution.eps> [276
-
-] [277
-
-] [278
-
-]
-l. 70 Writing WebBook3.idv[161] (WebBook3160x.png)
-File: EPSfiles/exsolution.eps Graphic file (type eps)
-
-<EPSfiles/exsolution.eps> [279
-
-] [280
-
-] [281
-
-]
-l. 81 Writing WebBook3.idv[162] (WebBook3161x.png)
-File: EPSfiles/tern.eps Graphic file (type eps)
- <EPSfiles/tern.eps> [282
-
-] [283
-
-]
-[284
-
-]
-l. 137 Writing WebBook3.idv[163] (WebBook3162x.png)
-File: EPSfiles/X.eps Graphic file (type eps)
- <EPSfiles/X.eps> [285
-
-] [286
-
-] [287
-
-]
-l. 170 Writing WebBook3.idv[164] (WebBook3163x.png)
-File: EPSfiles/hematite.eps Graphic file (type eps)
- <EPSfiles/hematite.eps> [288
-
-] [289
-
-]
-[290
-
-]
-l. 214 Writing WebBook3.idv[165] (WebBook3164x.png)
-File: EPSfiles/hemY.eps Graphic file (type eps)
- <EPSfiles/hemY.eps> [291
-
-] [292
-
-] [293
-
-]
-l. 256 Writing WebBook3.idv[166] (WebBook3165x.png)
-File: EPSfiles/Z.eps Graphic file (type eps)
- <EPSfiles/Z.eps> [294
-
-] [295
-
-]
-[296
-
-]
-l. 281 Writing WebBook3.idv[167] (WebBook3166x.png)
-File: EPSfiles/suppress.eps Graphic file (type eps)
- <EPSfiles/suppress.eps> [297
-
-] [298
-
-] [299
-
-]
-l. 319 Writing WebBook3.idv[168] (WebBook3167x.png)
-File: EPSfiles/minerals.eps Graphic file (type eps)
- <EPSfiles/minerals.eps>
-[300
-
-] [301
-
-] [302
-
-]
-l. 385 Writing WebBook3.idv[169] (WebBook3168x.png)
-File: EPSfiles/pyrrhotiteT.eps Graphic file (type eps)
- <EPSfiles/pyrrhotiteT.eps> [303
-
-] [304
-
-] [305
-
-]
-l. 410 Writing WebBook3.idv[170] (WebBook3169x.png)
-File: EPSfiles/igneous.eps Graphic file (type eps)
-
-<EPSfiles/igneous.eps> [306
-
-] [307
-
-] [308
-
-]
-l. 429 Writing WebBook3.idv[171] (WebBook3170x.png)
-File: EPSfiles/bacteria.eps Graphic file (type eps)
- <EPSfiles/bacteria.eps> [309
-
-] [310
-
-]
-[311] [312] [313
-
-]
-l. 561 Writing WebBook3.idv[172] (WebBook3171x.png)
-File: EPSfiles/problem1.eps Graphic file (type eps)
- <EPSfiles/problem1.eps> [314
-
-] [315
-
-] [316
-
-] [317
-
-]
-l. 601 Writing WebBook3.idv[173] (WebBook3172x.png)
-File: EPSfiles/microprobe.eps Graphic file (type eps)
-
-<EPSfiles/microprobe.eps> [318
-
-]) [319
-
-] [320
-
-]
-\openout2 = `Chapters/chapter7.aux'.
-
- (./Chapters/chapter7.tex [321
-
-]
-[322
-
-]
-Chapter 7.
---- file WebBook3ch7.html ---
-[323
-
-] [324] [325
-
-]
-l. 35 Writing WebBook3.idv[174] (WebBook3173x.png)
-File: EPSfiles/equilibrium.eps Graphic file (type eps)
- <EPSfiles/equilibrium.eps> [326
-
-] [327
-
-] [328
-
-]
-l. 62 Writing WebBook3.idv[175] (WebBook3174x.png)
-File: EPSfiles/neel.eps Graphic file (type eps)
-
-<EPSfiles/neel.eps> [329
-
-] [330
-
-]
-l. 93 Writing WebBook3.idv[176] (WebBook3175x.png)
-l. 107 Writing WebBook3.idv[177] (WebBook3176x.png)
-l. 111 Writing WebBook3.idv[178] (WebBook3177x.png)
- [331] [332] [333
-
-]
-l. 123 Writing WebBook3.idv[179] (WebBook3178x.png)
-File: EPSfiles/neel-vrm.eps Graphic file (type eps)
- <EPSfiles/neel-vrm.eps>
-[334
-
-]
-l. 153 Writing WebBook3.idv[180] (WebBook3179x.png)
- [335
-
-] [336] [337
-
-]
-l. 174 Writing WebBook3.idv[181] (WebBook3180x.png)
-File: EPSfiles/vrm1.eps Graphic file (type eps)
- <EPSfiles/vrm1.eps> [338
-
-] [339
-
-]
-l. 185 Writing WebBook3.idv[182] (WebBook3181x.png)
-l. 200 Writing WebBook3.idv[183] (WebBook3182x.png)
- [340] [341] [342
-
-]
-l. 215 Writing WebBook3.idv[184] (WebBook3183x.png)
-File: EPSfiles/neel-trm.eps Graphic file (type eps)
-
-<EPSfiles/neel-trm.eps> [343
-
-] [344
-
-] [345
-
-]
-l. 243 Writing WebBook3.idv[185] (WebBook3184x.png)
-File: EPSfiles/tauT.eps Graphic file (type eps)
- <EPSfiles/tauT.eps> [346
-
-] [347
-
-]
-[348] [349
-
-]
-l. 285 Writing WebBook3.idv[186] (WebBook3185x.png)
-File: EPSfiles/lava.eps Graphic file (type eps)
- <EPSfiles/lava.eps> [350
-
-]
-l. 337 Writing WebBook3.idv[187] (WebBook3186x.png)
- [351
-
-]
-l. 345 Writing WebBook3.idv[188] (WebBook3187x.png)
-l. 351 Writing WebBook3.idv[189] (WebBook3188x.png)
-l. 356 Writing WebBook3.idv[190] (WebBook3189x.png)
- [352]
-l. 368 Writing WebBook3.idv[191] (WebBook3190x.png)
- [353] [354
-
-]
-l. 381 Writing WebBook3.idv[192] (WebBook3191x.png)
-File: EPSfiles/trm.eps Graphic file (type eps)
-
-<EPSfiles/trm.eps> [355
-
-] [356
-
-] [357
-
-]
-l. 397 Writing WebBook3.idv[193] (WebBook3192x.png)
-File: EPSfiles/pTRM.eps Graphic file (type eps)
- <EPSfiles/pTRM.eps> [358
-
-]
-l. 420 Writing WebBook3.idv[194] (WebBook3193x.png)
- [359
-
-] [360]
-[361
-
-]
-l. 452 Writing WebBook3.idv[195] (WebBook3194x.png)
-File: EPSfiles/trm-d.eps Graphic file (type eps)
- <EPSfiles/trm-d.eps> [362
-
-] [363
-
-] [364
-
-]
-l. 485 Writing WebBook3.idv[196] (WebBook3195x.png)
-File: EPSfiles/neel-crm.eps Graphic file (type eps)
- <EPSfiles/neel-crm.eps> [365
-
-]
-[366
-
-] [367
-
-]
-l. 508 Writing WebBook3.idv[197] (WebBook3196x.png)
-File: EPSfiles/crm.eps Graphic file (type eps)
- <EPSfiles/crm.eps> [368
-
-]
-l. 544 Writing WebBook3.idv[198] (WebBook3197x.png)
- [369
-
-] [370] [371
-
-]
-l. 573 Writing WebBook3.idv[199] (WebBook3198x.png)
-File: EPSfiles/lit-redep.eps Graphic file (type eps)
-
-<EPSfiles/lit-redep.eps> [372
-
-]
-l. 598 Writing WebBook3.idv[200] (WebBook3199x.png)
- [373
-
-]
-l. 605 Writing WebBook3.idv[201] (WebBook3200x.png)
-l. 615 Writing WebBook3.idv[202] (WebBook3201x.png)
- [374] [375] [376
-
-]
-l. 636 Writing WebBook3.idv[203] (WebBook3202x.png)
-File: EPSfiles/drmprocesses.eps Graphic file (type eps)
-
-<EPSfiles/drmprocesses.eps> [377
-
-] [378
-
-] [379
-
-]
-l. 663 Writing WebBook3.idv[204] (WebBook3203x.png)
-File: EPSfiles/brownian.eps Graphic file (type eps)
- <EPSfiles/brownian.eps> [380
-
-]
-l. 686 Writing WebBook3.idv[205] (WebBook3204x.png)
-
-[381
-
-]
-l. 696 Writing WebBook3.idv[206] (WebBook3205x.png)
-l. 702 Writing WebBook3.idv[207] (WebBook3206x.png)
- [382] [383] [384
-
-]
-l. 727 Writing WebBook3.idv[208] (WebBook3207x.png)
-File: EPSfiles/flocs.eps Graphic file (type eps)
- <EPSfiles/flocs.eps> [385
-
-] [386
-
-] [387
-
-]
-l. 751 Writing WebBook3.idv[209] (WebBook3208x.png)
-File: EPSfiles/drm-exp.eps Graphic file (type eps)
-
-<EPSfiles/drm-exp.eps> [388
-
-] [389
-
-] [390
-
-]
-l. 766 Writing WebBook3.idv[210] (WebBook3209x.png)
-File: EPSfiles/ifio.eps Graphic file (type eps)
- <EPSfiles/ifio.eps> [391
-
-] [392
-
-]
-[393] [394
-
-]
-l. 820 Writing WebBook3.idv[211] (WebBook3210x.png)
-File: EPSfiles/lightning.eps Graphic file (type eps)
- <EPSfiles/lightning.eps> [395
-
-] [396
-
-] [397
-
-]
-l. 844 Writing WebBook3.idv[212] (WebBook3211x.png)
-File: EPSfiles/irm.eps Graphic file (type eps)
- <EPSfiles/irm.eps>
-[398
-
-]
-l. 879 Writing WebBook3.idv[213] (WebBook3212x.png)
- [399
-
-]
-l. 884 Writing WebBook3.idv[214] (WebBook3213x.png)
-l. 895 Writing WebBook3.idv[215] (WebBook3214x.png)
- [400]
-l. 911 Writing WebBook3.idv[216] (WebBook3215x.png)
- [401] [402
-
-]
-l. 923 Writing WebBook3.idv[217] (WebBook3216x.png)
-File: EPSfiles/pullaiah.eps Graphic file (type eps)
- <EPSfiles/pullaiah.eps> [403
-
-] [404
-
-] [405
-
-]
-l. 958 Writing WebBook3.idv[218] (WebBook3217x.png)
-File: EPSfiles/ARM.eps Graphic file (type eps)
-
-<EPSfiles/ARM.eps> [406
-
-] [407
-
-] [408]) [409] [410
-
-]
-\openout2 = `Chapters/chapter8.aux'.
-
- (./Chapters/chapter8.tex
-[411
-
-] [412
-
-]
-Chapter 8.
---- file WebBook3ch8.html ---
-[413
-
-] [414] [415
-
-]
-l. 29 Writing WebBook3.idv[219] (WebBook3218x.png)
-File: EPSfiles/images.eps Graphic file (type eps)
- <EPSfiles/images.eps> [416
-
-] [417
-
-] [418
-
-]
-
-LaTeX Warning: Reference `sect:crossover' on page 419 undefined on input line 8
-4.
-
-[419
-
-] [420
-
-] [421
-
-]
-l. 123 Writing WebBook3.idv[220] (WebBook3219x.png)
-File: EPSfiles/curiebalance.eps Graphic file (type eps)
- <EPSfiles/curiebalance.eps> [422
-
-] [423
-
-] [424
-
-]
-l. 155 Writing WebBook3.idv[221] (WebBook3220x.png)
-File: EPSfiles/curie1.eps Graphic file (type eps)
-
-<EPSfiles/curie1.eps> [425
-
-] [426
-
-] [427] [428
-
-]
-l. 202 Writing WebBook3.idv[222] (WebBook3221x.png)
-File: EPSfiles/kappa.eps Graphic file (type eps)
- <EPSfiles/kappa.eps> [429
-
-]
-[430
-
-] [431] [432
-
-]
-l. 221 Writing WebBook3.idv[223] (WebBook3222x.png)
-File: EPSfiles/chiT.eps Graphic file (type eps)
- <EPSfiles/chiT.eps> [433
-
-] [434
-
-] [435
-
-]
-l. 239 Writing WebBook3.idv[224] (WebBook3223x.png)
-File: EPSfiles/chifd.eps Graphic file (type eps)
- <EPSfiles/chifd.eps>
-[436
-
-] [437
-
-] [438
-
-]
-l. 261 Writing WebBook3.idv[225] (WebBook3224x.png)
-File: EPSfiles/chimap.eps Graphic file (type eps)
- <EPSfiles/chimap.eps> [439
-
-] [440
-
-] [441
-
-]
-l. 281 Writing WebBook3.idv[226] (WebBook3225x.png)
-File: EPSfiles/crossover.eps Graphic file (type eps)
-
-<EPSfiles/crossover.eps> [442
-
-] [443
-
-] [444
-
-]
-l. 301 Writing WebBook3.idv[227] (WebBook3226x.png)
-File: EPSfiles/unmixing.eps Graphic file (type eps)
- <EPSfiles/unmixing.eps> [445
-
-]
-[446
-
-] [447] [448
-
-]
-l. 353 Writing WebBook3.idv[228] (WebBook3227x.png)
-File: EPSfiles/3dirm.eps Graphic file (type eps)
- <EPSfiles/3dirm.eps> [449
-
-] [450
-
-] [451] [452
-
-]
-l. 422 Writing WebBook3.idv[229] (WebBook3228x.png)
-File: EPSfiles/bblocks.eps Graphic file (type eps)
-
-<EPSfiles/bblocks.eps> [453
-
-] [454
-
-] [455
-
-]
-l. 465 Writing WebBook3.idv[230] (WebBook3229x.png)
-File: EPSfiles/interp.eps Graphic file (type eps)
- <EPSfiles/interp.eps> [456
-
-] [457
-
-]
-[458] [459
-
-]
-l. 524 Writing WebBook3.idv[231] (WebBook3230x.png)
-File: EPSfiles/trends.eps Graphic file (type eps)
- <EPSfiles/trends.eps> [460
-
-] [461
-
-] [462
-
-]
-l. 535 Writing WebBook3.idv[232] (WebBook3231x.png)
-File: EPSfiles/slag.eps Graphic file (type eps)
- <EPSfiles/slag.eps>
-[463
-
-] [464
-
-] [465] [466] [467
-
-]
-l. 605 Writing WebBook3.idv[233] (WebBook3232x.png)
-File: EPSfiles/banerjee.eps Graphic file (type eps)
- <EPSfiles/banerjee.eps> [468
-
-] [469
-
-] [470
-
-]
-l. 623 Writing WebBook3.idv[234] (WebBook3233x.png)
-File: EPSfiles/rosenbaum-1.eps Graphic file (type eps)
-
-<EPSfiles/rosenbaum-1.eps> [471
-
-] [472
-
-] [473
-
-]
-l. 639 Writing WebBook3.idv[235] (WebBook3234x.png)
-File: EPSfiles/rosenbaum-2.eps Graphic file (type eps)
- <EPSfiles/rosenbaum-2.eps>
-[474
-
-] [475
-
-] [476
-
-]
-l. 668 Writing WebBook3.idv[236] (WebBook3235x.png)
-File: EPSfiles/np21.eps Graphic file (type eps)
- <EPSfiles/np21.eps> [477
-
-]
-l. 675 Writing WebBook3.idv[237] (WebBook3236x.png)
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
- [478
-
-] [479] [480
-
-]
-l. 686 Writing WebBook3.idv[238] (WebBook3237x.png)
-File: EPSfiles/jackson-1.eps Graphic file (type eps)
-
-<EPSfiles/jackson-1.eps> [481
-
-]
-l. 702 Writing WebBook3.idv[239] (WebBook3238x.png)
- [482
-
-] [483] [484
-
-]
-l. 732 Writing WebBook3.idv[240] (WebBook3239x.png)
-File: EPSfiles/jackson-2.eps Graphic file (type eps)
- <EPSfiles/jackson-2.eps>
-[485
-
-]
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-l. 752 Writing WebBook3.idv[241] (WebBook3240x.png)
- [486
-
-] [487] [488
-
-]
-l. 775 Writing WebBook3.idv[242] (WebBook3241x.png)
-File: EPSfiles/moskowitz08-1.eps Graphic file (type eps)
- <EPSfiles/moskowitz08-1.eps> [489
-
-] [490
-
-] [491
-
-]
-l. 787 Writing WebBook3.idv[243] (WebBook3242x.png)
-File: EPSfiles/moskowitz08-2.eps Graphic file (type eps)
-
-<EPSfiles/moskowitz08-2.eps> [492
-
-]
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
- [493
-
-] [494] [495] [496
-
-] [497
-
-]) [498
-
-]
-[499
-
-]
-\openout2 = `Chapters/chapter9.aux'.
-
- (./Chapters/chapter9.tex [500
-
-] [501
-
-] [502
-
-]
-Chapter 9.
---- file WebBook3ch9.html ---
-l. 41 Writing WebBook3.idv[244] (WebBook3243x.png)
-[503] [504] [505
-
-]
-l. 68 Writing WebBook3.idv[245] (WebBook3244x.png)
-File: EPSfiles/drill.eps Graphic file (type eps)
- <EPSfiles/drill.eps> [506
-
-] [507
-
-] [508
-
-]
-l. 88 Writing WebBook3.idv[246] (WebBook3245x.png)
-File: EPSfiles/hand.eps Graphic file (type eps)
- <EPSfiles/hand.eps>
-[509
-
-] [510
-
-]
-l. 133 Writing WebBook3.idv[247] (WebBook3246x.png)
-File: EPSfiles/core.eps Graphic file (type eps)
- <EPSfiles/core.eps> [511] [512] [513
-
-]
-l. 152 Writing WebBook3.idv[248] (WebBook3247x.png)
-File: EPSfiles/orientation.eps Graphic file (type eps)
- <EPSfiles/orientation.eps>
-[514
-
-] [515
-
-] [516
-
-]
-l. 182 Writing WebBook3.idv[249] (WebBook3248x.png)
-File: EPSfiles/orient.eps Graphic file (type eps)
- <EPSfiles/orient.eps>
-l. 184 Writing WebBook3.idv[250] (WebBook3249x.png)
-File: EPSfiles/suncomp.eps Graphic file (type eps)
- <EPSfiles/suncomp.eps> [517
-
-] [518
-
-]
-[519] [520
-
-]
-l. 221 Writing WebBook3.idv[251] (WebBook3250x.png)
-File: EPSfiles/backbite.eps Graphic file (type eps)
- <EPSfiles/backbite.eps> [521
-
-] [522
-
-] [523
-
-]
-l. 228 Writing WebBook3.idv[252] (WebBook3251x.png)
-File: EPSfiles/gps.eps Graphic file (type eps)
- <EPSfiles/gps.eps>
-[524
-
-] [525
-
-] [526
-
-]
-l. 249 Writing WebBook3.idv[253] (WebBook3252x.png)
-File: EPSfiles/samples.eps Graphic file (type eps)
- <EPSfiles/samples.eps> [527
-
-] [528
-
-] [529] [530] [531
-
-]
-l. 325 Writing WebBook3.idv[254] (WebBook3253x.png)
-File: EPSfiles/digeo.eps Graphic file (type eps)
-
-<EPSfiles/digeo.eps> [532
-
-] [533
-
-] [534
-
-]
-l. 333 Writing WebBook3.idv[255] (WebBook3254x.png)
-File: EPSfiles/comps.eps Graphic file (type eps)
- <EPSfiles/comps.eps> [535
-
-] [536]
-[537
-
-] [538
-
-]
-l. 357 Writing WebBook3.idv[256] (WebBook3255x.png)
-File: EPSfiles/zijd.eps Graphic file (type eps)
- <EPSfiles/zijd.eps> [539
-
-] [540] [541
-
-] [542
-
-] [543] [544]
-l. 521 Writing WebBook3.idv[257] (WebBook3256x.png)
- [545]
-[546] [547] [548
-
-]
-l. 605 Writing WebBook3.idv[258] (WebBook3257x.png)
-File: EPSfiles/foldtesta.eps Graphic file (type eps)
- <EPSfiles/foldtesta.eps>
-l. 608 Writing WebBook3.idv[259] (WebBook3258x.png)
-File: EPSfiles/foldtestb.eps Graphic file (type eps)
- <EPSfiles/foldtestb.eps> [549
-
-]
-l. 639 Writing WebBook3.idv[260] (WebBook3259x.png)
-
-[550
-
-] [551
-
-]
-l. 647 Writing WebBook3.idv[261] (WebBook3260x.png)
-File: EPSfiles/congloma.eps Graphic file (type eps)
- <EPSfiles/congloma.eps>
-l. 650 Writing WebBook3.idv[262] (WebBook3261x.png)
-File: EPSfiles/conglomb.eps Graphic file (type eps)
- <EPSfiles/conglomb.eps> [552
-
-] [553]
-l. 673 Writing WebBook3.idv[263] (WebBook3262x.png)
-
-[554
-
-] [555
-
-]
-l. 686 Writing WebBook3.idv[264] (WebBook3263x.png)
-File: EPSfiles/baked.eps Graphic file (type eps)
- <EPSfiles/baked.eps> [556
-
-] [557
-
-] [558] [559] [560]
-l. 839 Writing WebBook3.idv[265] (WebBook3264x.png)
- [561] [562]
-[563
-
-]
-l. 861 Writing WebBook3.idv[266] (WebBook3265x.png)
-File: EPSfiles/NS034.eps Graphic file (type eps)
- <EPSfiles/NS034.eps> [564
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 880.
-
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 880.
- [565
-
-] [566]
-[567]) [568] [569
-
-]
-\openout2 = `Chapters/chapter10.aux'.
-
- (./Chapters/chapter10.tex [570
-
-] [571
-
-] [572
-
-]
-Chapter 10.
---- file WebBook3ch10.html ---
-l. 19 Writing WebBook3.idv[267] (WebBook3266x.png)
-l. 23 Writing WebBook3.idv[268] (WebBook3267x.png)
-[573]
-l. 29 Writing WebBook3.idv[269] (WebBook3268x.png)
- [574] [575
-
-]
-l. 40 Writing WebBook3.idv[270] (WebBook3269x.png)
-File: EPSfiles/pintprinc.eps Graphic file (type eps)
- <EPSfiles/pintprinc.eps> [576
-
-] [577
-
-] [578] [579] [580
-
-]
-l. 98 Writing WebBook3.idv[271] (WebBook3270x.png)
-File: EPSfiles/koenigsberger.eps Graphic file (type eps)
-
-<EPSfiles/koenigsberger.eps> [581
-
-]
-l. 105 Writing WebBook3.idv[272] (WebBook3271x.png)
-l. 110 Writing WebBook3.idv[273] (WebBook3272x.png)
- [582
-
-]
-l. 125 Writing WebBook3.idv[274] (WebBook3273x.png)
-l. 129 Writing WebBook3.idv[275] (WebBook3274x.png)
- [583] [584] [585
-
-]
-l. 145 Writing WebBook3.idv[276] (WebBook3275x.png)
-File: EPSfiles/TT.eps Graphic file (type eps)
- <EPSfiles/TT.eps>
-[586
-
-] [587
-
-] [588
-
-]
-l. 171 Writing WebBook3.idv[277] (WebBook3276x.png)
-File: EPSfiles/dunlop01.eps Graphic file (type eps)
- <EPSfiles/dunlop01.eps> [589
-
-] [590
-
-] [591] [592
-
-]
-l. 197 Writing WebBook3.idv[278] (WebBook3277x.png)
-File: EPSfiles/method.eps Graphic file (type eps)
-
-<EPSfiles/method.eps> [593
-
-] [594
-
-] [595
-
-]
-l. 240 Writing WebBook3.idv[279] (WebBook3278x.png)
-File: EPSfiles/zigzag.eps Graphic file (type eps)
- <EPSfiles/zigzag.eps> [596
-
-] [597
-
-]
-[598
-
-]
-l. 257 Writing WebBook3.idv[280] (WebBook3279x.png)
-File: EPSfiles/trm-anis.eps Graphic file (type eps)
- <EPSfiles/trm-anis.eps> [599
-
-] [600
-
-] [601
-
-]
-l. 278 Writing WebBook3.idv[281] (WebBook3280x.png)
-File: EPSfiles/coolingrate.eps Graphic file (type eps)
- <EPSfiles/coolingrate.eps>
-[602
-
-] [603
-
-] [604] [605] [606
-
-]
-l. 337 Writing WebBook3.idv[282] (WebBook3281x.png)
-File: EPSfiles/Shaw-DD.eps Graphic file (type eps)
- <EPSfiles/Shaw-DD.eps> [607
-
-] [608
-
-] [609] [610]
-[611] [612] [613
-
-]
-l. 430 Writing WebBook3.idv[283] (WebBook3282x.png)
-File: EPSfiles/drm1.eps Graphic file (type eps)
- <EPSfiles/drm1.eps> [614
-
-] [615
-
-] [616] [617] [618]) [619]
-[620
-
-]
-\openout2 = `Chapters/chapter11.aux'.
-
- (./Chapters/chapter11.tex [621
-
-] [622
-
-]
-Chapter 11.
---- file WebBook3ch11.html ---
-[623
-
-] [624] [625
-
-]
-l. 40 Writing WebBook3.idv[284] (WebBook3283x.png)
-File: EPSfiles/gauss.eps Graphic file (type eps)
- <EPSfiles/gauss.eps> [626
-
-] [627
-
-]
-l. 56 Writing WebBook3.idv[285] (WebBook3284x.png)
-l. 62 Writing WebBook3.idv[286] (WebBook3285x.png)
- [628
-
-]
-l. 86 Writing WebBook3.idv[287] (WebBook3286x.png)
-l. 102 Writing WebBook3.idv[288] (WebBook3287x.png)
- [629]
-l. 127 Writing WebBook3.idv[289] (WebBook3288x.png)
- [630]
-l. 151 Writing WebBook3.idv[290] (WebBook3289x.png)
-l. 164 Writing WebBook3.idv[291] (WebBook3290x.png)
- [631]
-l. 177 Writing WebBook3.idv[292] (WebBook3291x.png)
-l. 181 Writing WebBook3.idv[293] (WebBook3292x.png)
-
-[632] [633] [634
-
-]
-l. 219 Writing WebBook3.idv[294] (WebBook3293x.png)
-File: EPSfiles/fisher.eps Graphic file (type eps)
- <EPSfiles/fisher.eps> [635
-
-]
-l. 266 Writing WebBook3.idv[295] (WebBook3294x.png)
- [636
-
-] [637] [638
-
-]
-l. 282 Writing WebBook3.idv[296] (WebBook3295x.png)
-File: EPSfiles/P.eps Graphic file (type eps)
-
-<EPSfiles/P.eps> [639
-
-]
-l. 290 Writing WebBook3.idv[297] (WebBook3296x.png)
-l. 298 Writing WebBook3.idv[298] (WebBook3297x.png)
- [640
-
-]
-l. 305 Writing WebBook3.idv[299] (WebBook3298x.png)
-l. 309 Writing WebBook3.idv[300] (WebBook3299x.png)
- [641]
-l. 337 Writing WebBook3.idv[301] (WebBook3300x.png)
-l. 347 Writing WebBook3.idv[302] (WebBook3301x.png)
- [642] [643] [644
-
-]
-l. 361 Writing WebBook3.idv[303] (WebBook3302x.png)
-File: EPSfiles/vecsum.eps Graphic file (type eps)
- <EPSfiles/vecsum.eps>
-[645
-
-]
-l. 373 Writing WebBook3.idv[304] (WebBook3303x.png)
-l. 385 Writing WebBook3.idv[305] (WebBook3304x.png)
- [646
-
-]
-l. 393 Writing WebBook3.idv[306] (WebBook3305x.png)
-l. 402 Writing WebBook3.idv[307] (WebBook3306x.png)
- [647]
-l. 412 Writing WebBook3.idv[308] (WebBook3307x.png)
-l. 420 Writing WebBook3.idv[309] (WebBook3308x.png)
- [648] [649]
-l. 475 Writing WebBook3.idv[310] (WebBook3309x.png)
-l. 492 Writing WebBook3.idv[311] (WebBook3310x.png)
- [650] [651] [652
-
-]
-l. 501 Writing WebBook3.idv[312] (WebBook3311x.png)
-File: EPSfiles/a95-csd.eps Graphic file (type eps)
- <EPSfiles/a95-csd.eps> [653
-
-]
-l. 526 Writing WebBook3.idv[313] (WebBook3312x.png)
-
-[654
-
-] [655] [656]
-l. 619 Writing WebBook3.idv[314] (WebBook3313x.png)
- [657]
-l. 659 Writing WebBook3.idv[315] (WebBook3314x.png)
- [658] [659] [660
-
-]
-l. 692 Writing WebBook3.idv[316] (WebBook3315x.png)
-File: EPSfiles/twosets.eps Graphic file (type eps)
- <EPSfiles/twosets.eps> [661
-
-] [662
-
-]
-[663
-
-]
-l. 713 Writing WebBook3.idv[317] (WebBook3316x.png)
-File: EPSfiles/lnp.eps Graphic file (type eps)
- <EPSfiles/lnp.eps> [664
-
-]
-l. 765 Writing WebBook3.idv[318] (WebBook3317x.png)
- [665
-
-] [666] [667
-
-]
-l. 788 Writing WebBook3.idv[319] (WebBook3318x.png)
-File: EPSfiles/incfish.eps Graphic file (type eps)
- <EPSfiles/incfish.eps>
-[668
-
-] [669
-
-] [670] [671] [672
-
-]
-l. 896 Writing WebBook3.idv[320] (WebBook3319x.png)
-File: EPSfiles/fishrot.eps Graphic file (type eps)
- <EPSfiles/fishrot.eps> [673
-
-] [674
-
-] [675
-
-]
-l. 909 Writing WebBook3.idv[321] (WebBook3320x.png)
-File: EPSfiles/unexp.eps Graphic file (type eps)
-
-<EPSfiles/unexp.eps> [676
-
-] [677
-
-] [678] [679
-
-]
-l. 983 Writing WebBook3.idv[322] (WebBook3321x.png)
-File: EPSfiles/fishqq.eps Graphic file (type eps)
- <EPSfiles/fishqq.eps> [680
-
-]
-[681
-
-] [682] [683]) [684] [685
-
-]
-\openout2 = `Chapters/chapter12.aux'.
-
- (./Chapters/chapter12.tex [686
-
-] [687
-
-] [688
-
-]
-Chapter 12.
---- file WebBook3ch12.html ---
-[689] [690
-
-]
-l. 24 Writing WebBook3.idv[323] (WebBook3322x.png)
-File: EPSfiles/vgp-di.eps Graphic file (type eps)
- <EPSfiles/vgp-di.eps> [691
-
-] [692
-
-]
-l. 67 Writing WebBook3.idv[324] (WebBook3323x.png)
- [693] [694] [695
-
-]
-l. 84 Writing WebBook3.idv[325] (WebBook3324x.png)
-File: EPSfiles/confidence.eps Graphic file (type eps)
-
-<EPSfiles/confidence.eps> [696
-
-]
-l. 99 Writing WebBook3.idv[326] (WebBook3325x.png)
- [697
-
-] [698] [699
-
-]
-l. 126 Writing WebBook3.idv[327] (WebBook3326x.png)
-File: EPSfiles/love.eps Graphic file (type eps)
- <EPSfiles/love.eps> [700
-
-]
-[701
-
-] [702
-
-]
-l. 144 Writing WebBook3.idv[328] (WebBook3327x.png)
-File: EPSfiles/hypeq.eps Graphic file (type eps)
- <EPSfiles/hypeq.eps> [703
-
-] [704
-
-] [705] [706
-
-]
-l. 203 Writing WebBook3.idv[329] (WebBook3328x.png)
-File: EPSfiles/twofiles.eps Graphic file (type eps)
-
-<EPSfiles/twofiles.eps> [707
-
-] [708
-
-] [709
-
-]
-l. 244 Writing WebBook3.idv[330] (WebBook3329x.png)
-File: EPSfiles/cdf.eps Graphic file (type eps)
- <EPSfiles/cdf.eps> [710
-
-] [711
-
-]
-[712
-
-]
-l. 295 Writing WebBook3.idv[331] (WebBook3330x.png)
-File: EPSfiles/revtest.eps Graphic file (type eps)
- <EPSfiles/revtest.eps> [713
-
-] [714
-
-] [715
-
-]
-l. 360 Writing WebBook3.idv[332] (WebBook3331x.png)
-File: EPSfiles/unfolding.eps Graphic file (type eps)
- <EPSfiles/unfolding.eps>
-[716
-
-] [717
-
-] [718] [719]) [720] [721
-
-]
-\openout2 = `Chapters/chapter13.aux'.
-
- (./Chapters/chapter13.tex [722
-
-] [723
-
-]
-[724
-
-]
-Chapter 13.
---- file WebBook3ch13.html ---
-[725] [726
-
-]
-l. 25 Writing WebBook3.idv[333] (WebBook3332x.png)
-File: EPSfiles/measAMS.eps Graphic file (type eps)
- <EPSfiles/measAMS.eps> [727
-
-]
-l. 46 Writing WebBook3.idv[334] (WebBook3333x.png)
- [728
-
-]
-l. 70 Writing WebBook3.idv[335] (WebBook3334x.png)
-l. 79 Writing WebBook3.idv[336] (WebBook3335x.png)
- [729]
-l. 99 Writing WebBook3.idv[337] (WebBook3336x.png)
-l. 106 Writing WebBook3.idv[338] (WebBook3337x.png)
- [730]
-l. 121 Writing WebBook3.idv[339] (WebBook3338x.png)
-l. 128 Writing WebBook3.idv[340] (WebBook3339x.png)
- [731]
-l. 150 Writing WebBook3.idv[341] (WebBook3340x.png)
- [732] [733]
-[734
-
-]
-l. 172 Writing WebBook3.idv[342] (WebBook3341x.png)
-File: EPSfiles/magnitude.eps Graphic file (type eps)
- <EPSfiles/magnitude.eps> [735
-
-]
-l. 183 Writing WebBook3.idv[343] (WebBook3342x.png)
-l. 209 Writing WebBook3.idv[344] (WebBook3343x.png)
- [736
-
-] [737]
-l. 289 Writing WebBook3.idv[345] (WebBook3344x.png)
- [738]
-l. 296 Writing WebBook3.idv[346] (WebBook3345x.png)
-l. 302 Writing WebBook3.idv[347] (WebBook3346x.png)
- [739] [740] [741
-
-]
-l. 313 Writing WebBook3.idv[348] (WebBook3347x.png)
-File: EPSfiles/eij.eps Graphic file (type eps)
-
-<EPSfiles/eij.eps> [742
-
-]
-l. 337 Writing WebBook3.idv[349] (WebBook3348x.png)
-l. 344 Writing WebBook3.idv[350] (WebBook3349x.png)
- [743
-
-]
-l. 349 Writing WebBook3.idv[351] (WebBook3350x.png)
- [744]
-l. 397 Writing WebBook3.idv[352] (WebBook3351x.png)
- [745]
-l. 411 Writing WebBook3.idv[353] (WebBook3352x.png)
-l. 429 Writing WebBook3.idv[354] (WebBook3353x.png)
- [746]
-l. 438 Writing WebBook3.idv[355] (WebBook3354x.png)
- [747] [748] [749
-
-]
-l. 486 Writing WebBook3.idv[356] (WebBook3355x.png)
-File: EPSfiles/evec.eps Graphic file (type eps)
-
-<EPSfiles/evec.eps> [750
-
-] [751
-
-] [752] [753
-
-]
-l. 563 Writing WebBook3.idv[357] (WebBook3356x.png)
-File: EPSfiles/kmin.eps Graphic file (type eps)
- <EPSfiles/kmin.eps> [754
-
-] [755
-
-]
-[756
-
-]
-l. 617 Writing WebBook3.idv[358] (WebBook3357x.png)
-File: EPSfiles/dikeams.eps Graphic file (type eps)
- <EPSfiles/dikeams.eps> [757
-
-] [758
-
-] [759
-
-]
-l. 667 Writing WebBook3.idv[359] (WebBook3358x.png)
-File: EPSfiles/sedams.eps Graphic file (type eps)
- <EPSfiles/sedams.eps> [760
-
-]
-[761
-
-] [762
-
-]
-l. 682 Writing WebBook3.idv[360] (WebBook3359x.png)
-File: EPSfiles/shape.eps Graphic file (type eps)
- <EPSfiles/shape.eps> [763
-
-] [764
-
-] [765] [766
-
-]
-l. 797 Writing WebBook3.idv[361] (WebBook3360x.png)
-File: EPSfiles/diags.eps Graphic file (type eps)
- <EPSfiles/diags.eps>
-[767
-
-] [768
-
-] [769
-
-]
-l. 846 Writing WebBook3.idv[362] (WebBook3361x.png)
-File: EPSfiles/ternaryams.eps Graphic file (type eps)
- <EPSfiles/ternaryams.eps> [770
-
-] [771
-
-] [772
-
-]
-l. 885 Writing WebBook3.idv[363] (WebBook3362x.png)
- [773
-
-] [774
-
-]
-l. 930 Writing WebBook3.idv[364] (WebBook3363x.png)
-
-[775]
-l. 936 Writing WebBook3.idv[365] (WebBook3364x.png)
-l. 944 Writing WebBook3.idv[366] (WebBook3365x.png)
- [776]
-l. 958 Writing WebBook3.idv[367] (WebBook3366x.png)
- [777] [778] [779] [780]) [781] [782] [783
-
-]
-\openout2 = `Chapters/chapter14.aux'.
-
-
-(./Chapters/chapter14.tex [784
-
-] [785
-
-] [786
-
-]
-Chapter 14.
---- file WebBook3ch14.html ---
-[787]
-l. 29 Writing WebBook3.idv[368] (WebBook3367x.png)
-File: EPSfiles/c14.eps Graphic file (type eps)
- <EPSfiles/c14.eps> [788] [789] [790] [791
-
-]
-l. 68 Writing WebBook3.idv[369] (WebBook3368x.png)
-File: EPSfiles/chinesecompass.eps Graphic file (type eps)
- <EPSfiles/chinesecompass.eps>
-[792
-
-] [793
-
-] [794] [795
-
-]
-l. 89 Writing WebBook3.idv[370] (WebBook3369x.png)
-File: EPSfiles/halley.eps Graphic file (type eps)
- <EPSfiles/halley.eps> [796
-
-]
-l. 108 Writing WebBook3.idv[371] (WebBook3370x.png)
- [797
-
-] [798] [799
-
-]
-l. 120 Writing WebBook3.idv[372] (WebBook3371x.png)
-File: EPSfiles/gufm1.eps Graphic file (type eps)
-
-<EPSfiles/gufm1.eps> [800
-
-] [801
-
-] [802
-
-]
-l. 142 Writing WebBook3.idv[373] (WebBook3372x.png)
-File: EPSfiles/psvmod.eps Graphic file (type eps)
- <EPSfiles/psvmod.eps> [803
-
-] [804
-
-]
-[805] [806
-
-]
-l. 195 Writing WebBook3.idv[374] (WebBook3373x.png)
-File: EPSfiles/wilsoncreek.eps Graphic file (type eps)
- <EPSfiles/wilsoncreek.eps> [807
-
-] [808
-
-] [809] [810
-
-]
-l. 256 Writing WebBook3.idv[375] (WebBook3374x.png)
-File: EPSfiles/sint800.eps Graphic file (type eps)
-
-<EPSfiles/sint800.eps> [811
-
-] [812
-
-] [813
-
-]
-l. 283 Writing WebBook3.idv[376] (WebBook3375x.png)
-File: EPSfiles/sedpint.eps Graphic file (type eps)
- <EPSfiles/sedpint.eps> [814
-
-] [815]
-[816
-
-] [817] [818
-
-]
-l. 321 Writing WebBook3.idv[377] (WebBook3376x.png)
-File: EPSfiles/919.eps Graphic file (type eps)
- <EPSfiles/919.eps> [819
-
-] [820
-
-] [821] [822
-
-]
-l. 374 Writing WebBook3.idv[378] (WebBook3377x.png)
-File: EPSfiles/reversals.eps Graphic file (type eps)
-
-<EPSfiles/reversals.eps> [823
-
-] [824
-
-] [825
-
-]
-l. 397 Writing WebBook3.idv[379] (WebBook3378x.png)
-File: EPSfiles/vgpspint.eps Graphic file (type eps)
- <EPSfiles/vgpspint.eps> [826
-
-]
-[827
-
-] [828
-
-]
-l. 437 Writing WebBook3.idv[380] (WebBook3379x.png)
-File: EPSfiles/gpts.eps Graphic file (type eps)
- <EPSfiles/gpts.eps> [829
-
-] [830
-
-] [831
-
-]
-l. 487 Writing WebBook3.idv[381] (WebBook3380x.png)
-File: EPSfiles/hk02.eps Graphic file (type eps)
- <EPSfiles/hk02.eps> [832
-
-]
-[833
-
-] [834] [835
-
-]
-l. 512 Writing WebBook3.idv[382] (WebBook3381x.png)
-File: EPSfiles/tangent.eps Graphic file (type eps)
- <EPSfiles/tangent.eps> [836
-
-] [837
-
-] [838
-
-] [839
-
-]
-l. 546 Writing WebBook3.idv[383] (WebBook3382x.png)
-File: EPSfiles/sbg-lava.eps Graphic file (type eps)
-
-<EPSfiles/sbg-lava.eps> [840
-
-] [841
-
-] [842
-
-]
-l. 609 Writing WebBook3.idv[384] (WebBook3383x.png)
-File: EPSfiles/psvrl.eps Graphic file (type eps)
- <EPSfiles/psvrl.eps> [843
-
-] [844
-
-]
-[845
-
-]
-l. 620 Writing WebBook3.idv[385] (WebBook3384x.png)
-File: EPSfiles/bell.eps Graphic file (type eps)
- <EPSfiles/bell.eps> [846
-
-]
-l. 645 Writing WebBook3.idv[386] (WebBook3385x.png)
- [847
-
-]
-l. 660 Writing WebBook3.idv[387] (WebBook3386x.png)
- [848] [849] [850
-
-]
-l. 694 Writing WebBook3.idv[388] (WebBook3387x.png)
-File: EPSfiles/tk03.eps Graphic file (type eps)
- <EPSfiles/tk03.eps>
-[851
-
-] [852] [853
-
-]
-l. 704 Writing WebBook3.idv[389] (WebBook3388x.png)
- [854
-
-]
-l. 723 Writing WebBook3.idv[390] (WebBook3389x.png)
- [855] [856] [857] [858] [859]) [860] [861
-
-]
-\openout2 = `Chapters/chapter15.aux'.
-
-
-(./Chapters/chapter15.tex [862
-
-] [863
-
-] [864
-
-]
-Chapter 15.
---- file WebBook3ch15.html ---
-[865] [866] [867
-
-]
-l. 32 Writing WebBook3.idv[391] (WebBook3390x.png)
-File: EPSfiles/cox64.eps Graphic file (type eps)
- <EPSfiles/cox64.eps> [868
-
-] [869
-
-] [870
-
-]
-l. 59 Writing WebBook3.idv[392] (WebBook3391x.png)
-File: EPSfiles/mason61.eps Graphic file (type eps)
-
-<EPSfiles/mason61.eps> [871
-
-] [872
-
-] [873
-
-]
-l. 77 Writing WebBook3.idv[393] (WebBook3392x.png)
-File: EPSfiles/pitman66.eps Graphic file (type eps)
- <EPSfiles/pitman66.eps> [874
-
-] [875
-
-]
-[876
-
-]
-l. 108 Writing WebBook3.idv[394] (WebBook3393x.png)
-File: EPSfiles/opdyke66.eps Graphic file (type eps)
- <EPSfiles/opdyke66.eps> [877
-
-] [878
-
-] [879
-
-]
-l. 127 Writing WebBook3.idv[395] (WebBook3394x.png)
-File: EPSfiles/opdyke74.eps Graphic file (type eps)
- <EPSfiles/opdyke74.eps>
-[880
-
-] [881
-
-] [882] [883
-
-]
-l. 177 Writing WebBook3.idv[396] (WebBook3395x.png)
-File: EPSfiles/hilgen91.eps Graphic file (type eps)
- <EPSfiles/hilgen91.eps> [884
-
-] [885
-
-] [886
-
-]
-l. 202 Writing WebBook3.idv[397] (WebBook3396x.png)
-File: EPSfiles/newark.eps Graphic file (type eps)
-
-<EPSfiles/newark.eps> [887
-
-] [888] [889
-
-] [890
-
-]
-l. 212 Writing WebBook3.idv[398] (WebBook3397x.png)
-File: EPSfiles/neogene.eps Graphic file (type eps)
- <EPSfiles/neogene.eps> [891
-
-]
-[892] [893] [894
-
-] [895
-
-] [896] [897] [898
-
-]
-l. 293 Writing WebBook3.idv[399] (WebBook3398x.png)
-File: EPSfiles/spreadingrate.eps Graphic file (type eps)
- <EPSfiles/spreadingrate.eps> [899
-
-]
-[900
-
-] [901] [902] [903
-
-]
-l. 384 Writing WebBook3.idv[400] (WebBook3399x.png)
-File: EPSfiles/isochron.eps Graphic file (type eps)
- <EPSfiles/isochron.eps> [904
-
-] [905
-
-] [906] [907]
-[908]) [909] [910
-
-]
-\openout2 = `Chapters/chapter16.aux'.
-
- (./Chapters/chapter16.tex [911
-
-] [912
-
-]
-Chapter 16.
---- file WebBook3ch16.html ---
-[913
-
-] [914
-
-]
-l. 25 Writing WebBook3.idv[401] (WebBook3400x.png)
-File: EPSfiles/wandering.eps Graphic file (type eps)
- <EPSfiles/wandering.eps> [915
-
-]
-l. 35 Writing WebBook3.idv[402] (WebBook3401x.png)
- [916
-
-] [917] [918
-
-]
-l. 48 Writing WebBook3.idv[403] (WebBook3402x.png)
-File: EPSfiles/plates.eps Graphic file (type eps)
-
-<EPSfiles/plates.eps> [919
-
-] [920
-
-] [921
-
-]
-l. 57 Writing WebBook3.idv[404] (WebBook3403x.png)
-File: EPSfiles/finrot.eps Graphic file (type eps)
- <EPSfiles/finrot.eps> [922
-
-] [923
-
-]
-l. 81 Writing WebBook3.idv[405] (WebBook3404x.png)
-
-[924] [925
-
-]
-l. 91 Writing WebBook3.idv[406] (WebBook3405x.png)
-File: EPSfiles/polarity.eps Graphic file (type eps)
- <EPSfiles/polarity.eps> [926
-
-]
-l. 118 Writing WebBook3.idv[407] (WebBook3406x.png)
-File: EPSfiles/poles-aus.eps Graphic file (type eps)
- <EPSfiles/poles-aus.eps> [927
-
-]
-[928] [929]
-l. 179 Writing WebBook3.idv[408] (WebBook3407x.png)
-File: EPSfiles/mkapwp.eps Graphic file (type eps)
- <EPSfiles/mkapwp.eps> [930]
-l. 225 Writing WebBook3.idv[409] (WebBook3408x.png)
-File: EPSfiles/PEP.eps Graphic file (type eps)
- <EPSfiles/PEP.eps> [931] [932]
-l. 263 Writing WebBook3.idv[410] (WebBook3409x.png)
-File: EPSfiles/APWP.eps Graphic file (type eps)
-
-<EPSfiles/APWP.eps>
-l. 273 Writing WebBook3.idv[411] (WebBook3410x.png)
-File: EPSfiles/triangulation.eps Graphic file (type eps)
- <EPSfiles/triangulation.eps> [933]
-l. 309 Writing WebBook3.idv[412] (WebBook3411x.png)
-File: EPSfiles/gondwana-apwp.eps Graphic file (type eps)
-
-<EPSfiles/gondwana-apwp.eps> [934] [935]
-l. 346 Writing WebBook3.idv[413] (WebBook3412x.png)
-File: EPSfiles/squish.eps Graphic file (type eps)
- <EPSfiles/squish.eps> [936]
-l. 372 Writing WebBook3.idv[414] (WebBook3413x.png)
-File: EPSfiles/EI.eps Graphic file (type eps)
-
-<EPSfiles/EI.eps> [937] [938]
-l. 402 Writing WebBook3.idv[415] (WebBook3414x.png)
-File: EPSfiles/pangea.eps Graphic file (type eps)
- <EPSfiles/pangea.eps> [939] [940] [941]
-l. 520 Writing WebBook3.idv[416] (WebBook3415x.png)
-File: EPSfiles/pangea-poles.eps Graphic file (type eps)
-
-<EPSfiles/pangea-poles.eps> [942] [943] [944
-
-]
-Missing character: There is no Õ in font cmr10!
- [945]
-l. 627 Writing WebBook3.idv[417] (WebBook3416x.png)
-File: EPSfiles/poles_na_dis.eps Graphic file (type eps)
-
-<EPSfiles/poles_na_dis.eps>
-l. 641 Writing WebBook3.idv[418] (WebBook3417x.png)
-File: EPSfiles/inconly.eps Graphic file (type eps)
- <EPSfiles/inconly.eps> [946] [947] [948] [949]
-[950] [951] [952]
-l. 797 Writing WebBook3.idv[419] (WebBook3418x.png)
-File: EPSfiles/gpmdb_search.eps Graphic file (type eps)
- <EPSfiles/gpmdb_search.eps> [953]) [954] [955
-
-]
-\openout2 = `Chapters/appendix.aux'.
-
-
-(./Chapters/appendix.tex [956
-
-]
-Appendix A.
---- file WebBook3ap1.html ---
-[957
-
-] [958]
-
-LaTeX Warning: Reference `sect:interactions' on page 959 undefined on input lin
-e 158.
-
-[959] [960] [961]
-l. 242 Writing WebBook3.idv[420] (WebBook3419x.png)
-l. 254 Writing WebBook3.idv[421] (WebBook3420x.png)
- [962]
-l. 261 Writing WebBook3.idv[422] (WebBook3421x.png)
-l. 272 Writing WebBook3.idv[423] (WebBook3422x.png)
- [963]
-l. 276 Writing WebBook3.idv[424] (WebBook3423x.png)
-l. 288 Writing WebBook3.idv[425] (WebBook3424x.png)
-l. 311 Writing WebBook3.idv[426] (WebBook3425x.png)
- [964]
-l. 328 Writing WebBook3.idv[427] (WebBook3426x.png)
-l. 337 Writing WebBook3.idv[428] (WebBook3427x.png)
- [965]
-l. 344 Writing WebBook3.idv[429] (WebBook3428x.png)
-l. 349 Writing WebBook3.idv[430] (WebBook3429x.png)
-l. 358 Writing WebBook3.idv[431] (WebBook3430x.png)
- [966]
-l. 374 Writing WebBook3.idv[432] (WebBook3431x.png)
- [967]
-l. 401 Writing WebBook3.idv[433] (WebBook3432x.png)
-File: EPSfiles/strig.eps Graphic file (type eps)
- <EPSfiles/strig.eps>
-l. 420 Writing WebBook3.idv[434] (WebBook3433x.png)
-
-[968]
-l. 425 Writing WebBook3.idv[435] (WebBook3434x.png)
-l. 436 Writing WebBook3.idv[436] (WebBook3435x.png)
-File: EPSfiles/vectors.eps Graphic file (type eps)
- <EPSfiles/vectors.eps> [969]
-l. 439 Writing WebBook3.idv[437] (WebBook3436x.png)
-l. 451 Writing WebBook3.idv[438] (WebBook3437x.png)
- [970]
-l. 473 Writing WebBook3.idv[439] (WebBook3438x.png)
-File: EPSfiles/cross.eps Graphic file (type eps)
- <EPSfiles/cross.eps>
-l. 483 Writing WebBook3.idv[440] (WebBook3439x.png)
- [971]
-l. 492 Writing WebBook3.idv[441] (WebBook3440x.png)
-l. 500 Writing WebBook3.idv[442] (WebBook3441x.png)
- [972]
-l. 516 Writing WebBook3.idv[443] (WebBook3442x.png)
-l. 528 Writing WebBook3.idv[444] (WebBook3443x.png)
-File: EPSfiles/dircosines.eps Graphic file (type eps)
-
-<EPSfiles/dircosines.eps> [973]
-l. 541 Writing WebBook3.idv[445] (WebBook3444x.png)
- [974]
-l. 549 Writing WebBook3.idv[446] (WebBook3445x.png)
-l. 558 Writing WebBook3.idv[447] (WebBook3446x.png)
-l. 575 Writing WebBook3.idv[448] (WebBook3447x.png)
-File: EPSfiles/transform.eps Graphic file (type eps)
- <EPSfiles/transform.eps> [975]
-l. 607 Writing WebBook3.idv[449] (WebBook3448x.png)
- [976]
-l. 618 Writing WebBook3.idv[450] (WebBook3449x.png)
-l. 628 Writing WebBook3.idv[451] (WebBook3450x.png)
-
-[977]
-l. 649 Writing WebBook3.idv[452] (WebBook3451x.png)
-l. 656 Writing WebBook3.idv[453] (WebBook3452x.png)
- [978]
-l. 671 Writing WebBook3.idv[454] (WebBook3453x.png)
- [979] [980] [981] [982] [983] [984]
-l. 927 Writing WebBook3.idv[455] (WebBook3454x.png)
- [985
-
-]
-l. 937 Writing WebBook3.idv[456] (WebBook3455x.png)
-l. 946 Writing WebBook3.idv[457] (WebBook3456x.png)
- [986]
-l. 966 Writing WebBook3.idv[458] (WebBook3457x.png)
-l. 976 Writing WebBook3.idv[459] (WebBook3458x.png)
- [987]
-l. 984 Writing WebBook3.idv[460] (WebBook3459x.png)
-l. 986 Writing WebBook3.idv[461] (WebBook3460x.png)
-l. 1013 Writing WebBook3.idv[462] (WebBook3461x.png)
- [988]
-l. 1030 Writing WebBook3.idv[463] (WebBook3462x.png)
-File: EPSfiles/ski.eps Graphic file (type eps)
-
-<EPSfiles/ski.eps>
-l. 1038 Writing WebBook3.idv[464] (WebBook3463x.png)
-l. 1038 Writing WebBook3.idv[465] (WebBook3464x.png)
- [989]
-l. 1041 Writing WebBook3.idv[466] (WebBook3465x.png)
-l. 1049 Writing WebBook3.idv[467] (WebBook3466x.png)
-l. 1056 Writing WebBook3.idv[468] (WebBook3467x.png)
- [990]
-l. 1065 Writing WebBook3.idv[469] (WebBook3468x.png)
-File: EPSfiles/div.eps Graphic file (type eps)
- <EPSfiles/div.eps>
-l. 1076 Writing WebBook3.idv[470] (WebBook3469x.png)
- [991]
-l. 1083 Writing WebBook3.idv[471] (WebBook3470x.png)
-l. 1093 Writing WebBook3.idv[472] (WebBook3471x.png)
-File: EPSfiles/divzero.eps Graphic file (type eps)
- <EPSfiles/divzero.eps>
-l. 1101 Writing WebBook3.idv[473] (WebBook3472x.png)
-File: EPSfiles/curl.eps Graphic file (type eps)
-
-<EPSfiles/curl.eps> [992]
-l. 1112 Writing WebBook3.idv[474] (WebBook3473x.png)
- [993]
-l. 1123 Writing WebBook3.idv[475] (WebBook3474x.png)
-l. 1137 Writing WebBook3.idv[476] (WebBook3475x.png)
- [994]
-l. 1149 Writing WebBook3.idv[477] (WebBook3476x.png)
-l. 1152 Writing WebBook3.idv[478] (WebBook3477x.png)
-l. 1161 Writing WebBook3.idv[479] (WebBook3478x.png)
-l. 1166 Writing WebBook3.idv[480] (WebBook3479x.png)
- [995]
-l. 1198 Writing WebBook3.idv[481] (WebBook3480x.png)
-File: EPSfiles/bootstrap.eps Graphic file (type eps)
- <EPSfiles/bootstrap.eps> [996]
-l. 1225 Writing WebBook3.idv[482] (WebBook3481x.png)
-
-[997]
-l. 1230 Writing WebBook3.idv[483] (WebBook3482x.png)
-File: EPSfiles/sundefs.eps Graphic file (type eps)
- <EPSfiles/sundefs.eps> [998]
-l. 1291 Writing WebBook3.idv[484] (WebBook3483x.png)
- [999]
-l. 1296 Writing WebBook3.idv[485] (WebBook3484x.png)
-l. 1310 Writing WebBook3.idv[486] (WebBook3485x.png)
- [1000]
-l. 1321 Writing WebBook3.idv[487] (WebBook3486x.png)
- [1001]
-l. 1341 Writing WebBook3.idv[488] (WebBook3487x.png)
-l. 1348 Writing WebBook3.idv[489] (WebBook3488x.png)
- [1002]
-Appendix B.
---- file WebBook3ap2.html ---
-l. 1372 Writing WebBook3.idv[490] (WebBook3489x.png)
-File: EPSfiles/mkeq.eps Graphic file (type eps)
-<EPSfiles/mkeq.eps>
-l. 1385 Writing WebBook3.idv[491] (WebBook3490x.png)
- [1003
-
-]
-l. 1388 Writing WebBook3.idv[492] (WebBook3491x.png)
-l. 1394 Writing WebBook3.idv[493] (WebBook3492x.png)
-File: EPSfiles/equal.eps Graphic file (type eps)
- <EPSfiles/equal.eps> [1004] [1005]
-l. 1405 Writing WebBook3.idv[494] (WebBook3493x.png)
-File: EPSfiles/how2eq.eps Graphic file (type eps)
-
-<EPSfiles/how2eq.eps> [1006
-
-]
-l. 1446 Writing WebBook3.idv[495] (WebBook3494x.png)
-File: EPSfiles/tilt.eps Graphic file (type eps)
- <EPSfiles/tilt.eps> [1007] [1008]
-l. 1483 Writing WebBook3.idv[496] (WebBook3495x.png)
-File: EPSfiles/ternary.eps Graphic file (type eps)
-
-<EPSfiles/ternary.eps> [1009
-
-]
-l. 1501 Writing WebBook3.idv[497] (WebBook3496x.png)
-File: EPSfiles/Ais.eps Graphic file (type eps)
- <EPSfiles/Ais.eps> [1010] [1011]
-l. 1536 Writing WebBook3.idv[498] (WebBook3497x.png)
-l. 1542 Writing WebBook3.idv[499] (WebBook3498x.png)
- [1012]
-l. 1556 Writing WebBook3.idv[500] (WebBook3499x.png)
-l. 1561 Writing WebBook3.idv[501] (WebBook3500x.png)
- [1013]
-l. 1570 Writing WebBook3.idv[502] (WebBook3501x.png)
-
-[1014]
-l. 1584 Writing WebBook3.idv[503] (WebBook3502x.png)
-l. 1607 Writing WebBook3.idv[504] (WebBook3503x.png)
- [1015]
-l. 1611 Writing WebBook3.idv[505] (WebBook3504x.png)
- [1016]
-l. 1633 Writing WebBook3.idv[506] (WebBook3505x.png)
-l. 1637 Writing WebBook3.idv[507] (WebBook3506x.png)
-l. 1644 Writing WebBook3.idv[508] (WebBook3507x.png)
- [1017]
-l. 1661 Writing WebBook3.idv[509] (WebBook3508x.png)
- [1018]
-Appendix C.
---- file WebBook3ap3.html ---
-[1019
-
-]
-l. 1715 Writing WebBook3.idv[510] (WebBook3509x.png)
-File: EPSfiles/hparcalc.eps Graphic file (type eps)
- <EPSfiles/hparcalc.eps> [1020] [1021] [1022
-
-]
-l. 1773 Writing WebBook3.idv[511] (WebBook3510x.png)
-l. 1778 Writing WebBook3.idv[512] (WebBook3511x.png)
- [1023]
-l. 1782 Writing WebBook3.idv[513] (WebBook3512x.png)
-l. 1787 Writing WebBook3.idv[514] (WebBook3513x.png)
- [1024]
-l. 1816 Writing WebBook3.idv[515] (WebBook3514x.png)
- [1025]
-l. 1821 Writing WebBook3.idv[516] (WebBook3515x.png)
-
-[1026]
-l. 1915 Writing WebBook3.idv[517] (WebBook3516x.png)
-l. 1917 Writing WebBook3.idv[518] (WebBook3517x.png)
-l. 1919 Writing WebBook3.idv[519] (WebBook3518x.png)
-l. 1929 Writing WebBook3.idv[520] (WebBook3519x.png)
-l. 1932 Writing WebBook3.idv[521] (WebBook3520x.png)
- [1027
-
-]
-l. 1938 Writing WebBook3.idv[522] (WebBook3521x.png)
-l. 1944 Writing WebBook3.idv[523] (WebBook3522x.png)
- [1028]
-l. 1950 Writing WebBook3.idv[524] (WebBook3523x.png)
-l. 1967 Writing WebBook3.idv[525] (WebBook3524x.png)
- [1029]
-l. 1988 Writing WebBook3.idv[526] (WebBook3525x.png)
-l. 1997 Writing WebBook3.idv[527] (WebBook3526x.png)
-l. 1999 Writing WebBook3.idv[528] (WebBook3527x.png)
-l. 2000 Writing WebBook3.idv[529] (WebBook3528x.png)
-l. 2007 Writing WebBook3.idv[530] (WebBook3529x.png)
-l. 2013 Writing WebBook3.idv[531] (WebBook3530x.png)
- [1030]
-l. 2020 Writing WebBook3.idv[532] (WebBook3531x.png)
-l. 2036 Writing WebBook3.idv[533] (WebBook3532x.png)
- [1031]
-l. 2041 Writing WebBook3.idv[534] (WebBook3533x.png)
-l. 2049 Writing WebBook3.idv[535] (WebBook3534x.png)
- [1032]
-l. 2054 Writing WebBook3.idv[536] (WebBook3535x.png)
-l. 2059 Writing WebBook3.idv[537] (WebBook3536x.png)
-l. 2063 Writing WebBook3.idv[538] (WebBook3537x.png)
- [1033]
-l. 2067 Writing WebBook3.idv[539] (WebBook3538x.png)
- [1034]
-l. 2083 Writing WebBook3.idv[540] (WebBook3539x.png)
-File: EPSfiles/IZZI.eps Graphic file (type eps)
-
-<EPSfiles/IZZI.eps>
-Missing character: There is no Ò in font cmr10!
-Missing character: There is no Ó in font cmr10!
- [1035] [1036]
-l. 2107 Writing WebBook3.idv[541] (WebBook3540x.png)
-l. 2119 Writing WebBook3.idv[542] (WebBook3541x.png)
- [1037]
-l. 2135 Writing WebBook3.idv[543] (WebBook3542x.png)
-l. 2143 Writing WebBook3.idv[544] (WebBook3543x.png)
- [1038] [1039]
-l. 2168 Writing WebBook3.idv[545] (WebBook3544x.png)
-l. 2174 Writing WebBook3.idv[546] (WebBook3545x.png)
- [1040]
-l. 2181 Writing WebBook3.idv[547] (WebBook3546x.png)
- [1041] [1042]
-Appendix D.
---- file WebBook3ap4.html ---
-l. 2207 Writing WebBook3.idv[548] (WebBook3547x.png)
-[1043
-
-]
-l. 2230 Writing WebBook3.idv[549] (WebBook3548x.png)
-l. 2245 Writing WebBook3.idv[550] (WebBook3549x.png)
-File: EPSfiles/meas15.eps Graphic file (type eps)
- <EPSfiles/meas15.eps> [1044] [1045]
-l. 2264 Writing WebBook3.idv[551] (WebBook3550x.png)
-File: EPSfiles/AMSspin.eps Graphic file (type eps)
- <EPSfiles/AMSspin.eps> [1046
-
-]
-l. 2279 Writing WebBook3.idv[552] (WebBook3551x.png)
-l. 2288 Writing WebBook3.idv[553] (WebBook3552x.png)
-File: EPSfiles/AMSspinProc.eps Graphic file (type eps)
-
-<EPSfiles/AMSspinProc.eps> [1047]
-l. 2304 Writing WebBook3.idv[554] (WebBook3553x.png)
- [1048]
-l. 2312 Writing WebBook3.idv[555] (WebBook3554x.png)
-l. 2317 Writing WebBook3.idv[556] (WebBook3555x.png)
- [1049]
-l. 2324 Writing WebBook3.idv[557] (WebBook3556x.png)
-) [1050] (./WebBook3.bbl
-[1051
-
-] [1052
-
-]
---- file WebBook3li2.html ---
- [1053]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [1054] [1055] [1056] [1057] [1058] [1059] [1060] [1061]
-[1062] [1063] [1064] [1065] [1066] [1067] [1068] [1069]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [1070] [1071] [1072]
-[1073] [1074] [1075] [1076] [1077] [1078] [1079] [1080] [1081] [1082] [1083]
-[1084] [1085] [1086] [1087] [1088] [1089]
-l. 1566 Writing WebBook3.idv[558] (WebBook3557x.png)
- [1090] [1091] [1092] [1093] [1094]
-[1095] [1096] [1097] [1098] [1099] [1100] [1101] [1102] [1103] [1104])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
- [1105]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
-
-(./WebBook3.aux (./preface.aux) (./Chapters/chapter1.aux)
-(./Chapters/chapter2.aux) (./Chapters/chapter3.aux) (./Chapters/chapter4.aux)
-(./Chapters/chapter5.aux) (./Chapters/chapter6.aux) (./Chapters/chapter7.aux)
-(./Chapters/chapter8.aux) (./Chapters/chapter9.aux) (./Chapters/chapter10.aux)
-(./Chapters/chapter11.aux) (./Chapters/chapter12.aux) (./Chapters/chapter13.aux
-) (./Chapters/chapter14.aux) (./Chapters/chapter15.aux)
-(./Chapters/chapter16.aux) (./Chapters/appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 107.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
- )
-(\end occurred inside a group at level 8)
-
-### simple group (level 8) entered at line 503 ({)
-### simple group (level 7) entered at line 767 ({)
-### simple group (level 6) entered at line 1001 ({)
-### simple group (level 5) entered at line 1001 ({)
-### simple group (level 4) entered at line 574 ({)
-### simple group (level 3) entered at line 627 ({)
-### simple group (level 2) entered at line 7 ({)
-### simple group (level 1) entered at line 707 ({)
-### bottom level 
+ <EPSfiles/components.eps>
+! TeX capacity exceeded, sorry [input stack size=5000].
+\Protect ->\let \prOteCt \pr:tc 
+                                \ifx \prOteCt \pr:tc \let \prOteCt \relax \e...
+l.38 \label{fig:coord}
+                      
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
 Here is how much of TeX's memory you used:
- 15076 strings out of 493489
- 216917 string characters out of 3141349
- 569431 words of memory out of 3000000
- 17796 multiletter control sequences out of 15000+200000
- 17276 words of font info for 64 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 37i,13n,43p,2418b,4836s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on WebBook3.dvi (1128 pages, 2957904 bytes).
+ 9572 strings out of 493090
+ 129437 string characters out of 6134868
+ 2854323 words of memory out of 5000000
+ 12811 multiletter control sequences out of 15000+600000
+ 15547 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 5000i,11n,4990p,1579b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on WebBook3.dvi (67 pages, 134812 bytes).

@@ -570,9 +570,13 @@ Cullity (1972), Chapter 1.  \nocite{cullity72}
 
 {\bf Problem 0}  
 
-Before you do any of the problems in this book, you will need to know your way around a computer.  Therefore, you are strongly encouraged to consult the  \href{http://earthref.org/PmagPy/cookbook}{PmagPy website}. Follow the instructions in Chapter 1 (Installing PmagPy),  Chapter 3 (Survival computer skills), Chapter 6 (Intro to Python Programming) and Chapter 7 (Python Notebooks).     
+Before you do any of the problems in this book, you will need to know your way around a computer.  Therefore, you are strongly encouraged to consult the  \href{http://earthref.org/PmagPy/}{PmagPy Cookbook website}. Follow the instructions in Chapter 1 (Installing Python and PmagPy),  Chapter 4 (Survival computer skills), Chapter 7 (Intro to Python Programming) and Chapter 8 (Jupyter Notebooks).     Using your `survival skills', make a directory called {\it Problems} (or something similar) on your computer in which you will do all the problems for this book.  Make a subdirectory for Chapter01. 
 
-After installing the {\bf PmagPy} package, find the directory called `Essentials\_Examples'  in the Datafiles folder and copy it to someplace on your computer with no spaces in the path.  Find your command line (for help see the  \href{http://earthref.org/PmagPy/cookbook/#command_line}{PmagPy cookbook}).   Now type on the command line:   ipython notebook   and navigate to the file `essentials\_ps\_template.ipynb' in the `Notebooks' directory of the datafiles folder.   Under the 'File' menu, select `Make a Copy' and rename your notebook `MYNAME\_ps\_1.ipynb', where MYNAME is your name (with no spaces), e.g., LimaTango.  Save this file in your homework folder.   
+After installing Python and the  {\bf PmagPy} package, find the directory called `Essentials\_Examples'  in the data\_files folder and copy it to your Problems directory.  Find your command line (for help see the  \href{http://earthref.org/PmagPy/cookbook/#command_line}{PmagPy cookbook}) and navigate to the Problems directory.   Now type on the command line:  
+\begin{verbatim}
+$ jupyter notebook   
+\end{verbatim}
+and open the  file `essentials\_ps\_1\_template.ipynb' in the `Notebooks' directory of the data\_files folder.   Under the 'File' menu, select `Make a Copy' and rename your notebook `MYNAME\_ps\_1.ipynb', where MYNAME is your name (with no spaces), e.g., LimaTango.  Save this file in your Problems folder.   
 
 Notebooks are constructed as a series of `cells' which can be text or code among other things.  To view the `source' of a text cell, just click on it.  To render it, click on the `run' button (sideways triangle on the toolbar).  Text can be written in the style of LaTex to make nice looking equations, so you might want to familiarize yourself with that syntax.  To run the code in a code cell, click on the cell and then the `run' button.   Anything after a pound sign (\#) in a code block will be ignored, so this is how we comment code.  Run the code block with the comment `\# My first program.  Then make a new code block and have it print your favorite pithy phrase. 
 
@@ -598,13 +602,15 @@ $$
 
 Find the radial and tangential components of $\H$ if $\m$ is 80 ZAm$^2$, [remember that ``Z'' stands for Zeta which stands for 10$^{21}$], 
 $r$ is 6 x 10$^6$ m and $\theta$ is 45$^o$.   
-What are these field values in  terms of $\B$ (teslas)?
+What are these field values in  terms of $\B$ (teslas)?    
+
+Write your answers in a markdown cell in a jupyter notebook using latex syntax.  
 
 {\bf Problem 2}
 
 
 
-a) Write an interactive python script to convert induction, moment and magnetic field quantities in cgs units to SI units.   Use the conversion factors in Table~\ref{tab:units}.    Use your program to convert the following: 
+a) In a jupyter notebook, write python functions to convert induction, moment and magnetic field quantities in cgs units to SI units.   Use the conversion factors in Table~\ref{tab:units}.    Use your program to convert the following: 
 
 i) B = 3.5 x10$^{Ð5}$ G
 
@@ -612,9 +618,9 @@ ii) m = 2.78 x 10$^{-20}$ G cm$^3$
 
 iii) H = 128 oe
 
-b) Modify your script to allow conversion from cgs $=>$ SI or SI $=>$ cgs.   Rerun it to convert your answers from a) back to cgs.  
+b) In a new code block, modify your function to allow conversion from cgs $=>$ SI or SI $=>$ cgs.   Rerun it to convert your answers from a) back to cgs.  
 
-HINTS:  Review  the Chapter on Python Programming in the \href{http://earthref.org/PmagPy/cookbook}{PmagPy cookbook}.   Use the {\bf raw\_input} command for getting information into a program. You will need to ask what the units of the input data will be and what output units are desired as well as what the number is.  When you read in data using {\bf raw\_input}, it comes in as a string variable and you will have to convert it to a floating point in order to change units.  
+HINTS:   Call the functions with the values of B, m and H  and have the function return the converted values.  In the modified functions, you can specify whether the conversion is from cgs or SI. 
 
 \begin{figure}[htb]
 %\epsfxsize 6cm
@@ -646,7 +652,7 @@ field ($m$ $\sim$ 80 ZAm$^2$; Z=10$^{21}$).   Assume a latitude for the point of
 
 {\bf Problem 4}
 
-Knowing that $B = \mu_o H$, work out the fundamental units of $\mu_o$ in SI units.  
+Knowing that $B = \mu_o H$, work out the fundamental units of $\mu_o$ in SI units.   Prepare your answer in a markdown cell in your jupyter notebook.  
 
 }
 
