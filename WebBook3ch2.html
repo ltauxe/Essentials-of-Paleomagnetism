@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-04-06 19:36:00"> 
+<meta name="date" content="2016-04-07 15:28:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1506,21 +1506,20 @@ href="#x4-190039">2.9<!--tex4ht:ref: fig:mkvgp --></a>d).
 <h3 class="sectionHead"><span class="titlemark">2.5   </span> <a 
 href="WebBook3.html#QQ2-4-43" id="x4-220002.5">Problems</a></h3>
 <!--l. 708--><p class="noindent" >For this problem set, you will need the <span 
-class="cmbx-10x-x-109">PmagPy </span>package. Refer to the <a 
-href="http://earthref.org/PmagPy/cookbook#http://earthref.org/PmagPy/cookbook/" >Installing
-PmagPy</a> section for help in downloading and installing it.
-<!--l. 713--><p class="noindent" ><span 
+class="cmbx-10x-x-109">PmagPy </span>package. Refer to Problem 0
+in Chapter 1 of this textbook for instructions. Use the template in the
+Notebooks folder of the Essentials_Examples folder described in Chapter
+1.
+<!--l. 712--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 1</span>
-<!--l. 716--><p class="noindent" >a) Write a python script in an IPython notebook that converts declination,
-inclination and intensity to North, East, and Down (see <a 
-href="http://earthref.org/PmagPy/cookbook/#Python" >PmagPy</a> for a brief
-tutorial on python programming). Read in the data from the Chapter_2
-example data in the Datafiles/Essentials_Examples/Chapter 2 folder that is
-part of the PmagPy software distribution and run them through your
+<!--l. 715--><p class="noindent" >a) Write a python script in an Jupyter notebook that converts declination,
+inclination and intensity to North, East, and Down. Read in the data from the
+Chapter_2 example data in the data&#x02D9;files/Essentials_Examples/Chapter_2 folder
+that is part of the PmagPy software distribution and run them through your
 function. For this the <span 
 class="cmbx-10x-x-109">loadtxt </span>function in the Numpy module will come in
 handy.
-<!--l. 721--><p class="noindent" >b) Choose 10 random spots on the surface of the earth. Alternatively, you can use
+<!--l. 720--><p class="noindent" >b) Choose 10 random spots on the surface of the earth. Alternatively, you can use
 the <span 
 class="cmbx-10x-x-109">pmag.py </span>function <span 
 class="cmbx-10x-x-109">get</span><span 
@@ -1539,14 +1538,14 @@ printing out the doc string:
 <div class="verbatim" id="verbatim-2">
 print&#x00A0;ipmag.igrf.__doc__
 </div>
-<!--l. 726--><p class="nopar" >
-<!--l. 728--><p class="noindent" >Calls like these generates help messages which will help you to call the function
+<!--l. 725--><p class="nopar" >
+<!--l. 727--><p class="noindent" >Calls like these generates help messages which will help you to call the function
 properly.
-<!--l. 732--><p class="noindent" >c) Take the vectors from the output of Problem 1b and convert them to cartesian
+<!--l. 731--><p class="noindent" >c) Take the vectors from the output of Problem 1b and convert them to cartesian
 coordinates, using the script you wrote in Problem 1a.
-<!--l. 735--><p class="noindent" ><span 
+<!--l. 734--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 737--><p class="noindent" >a) Plot the IGRF directions from Problem 1b on an equal area projection by
+<!--l. 736--><p class="noindent" >a) Plot the IGRF directions from Problem 1b on an equal area projection by
 hand. Use the equal area net provided in Appendix&#x00A0;<a 
 href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>. Remember that the
 outer rim is horizontal and the center of the diagram is vertical. Azimuth goes
@@ -1554,37 +1553,34 @@ around the rim with clockwise being positive. Put a thumbtack through
 the equal area (Schmidt) net and place a piece of tracing paper on the
 thumbtack. Mark the top of the stereonet with a tick mark on the tracing
 paper.
-<!--l. 739--><p class="noindent" >To plot a direction, rotate the tick mark of the tracing paper around counter
+<!--l. 738--><p class="noindent" >To plot a direction, rotate the tick mark of the tracing paper around counter
 clockwise until the top of the paper is rotated by the declination of the direction.
 Then count tick marks toward the center from the outer rim (the horizontal) to
 the inclination angle, plot the point, and rotate back so that the tick is North
 again. Put all your points on the diagram.
-<!--l. 742--><p class="noindent" >b) Now use the <span 
+<!--l. 741--><p class="noindent" >b) Now use the <span 
 class="cmbx-10x-x-109">ipmag </span>functions <span 
 class="cmbx-10x-x-109">plot</span><span 
 class="cmbx-10x-x-109">_net  </span>and <span 
 class="cmbx-10x-x-109">plot</span><span 
 class="cmbx-10x-x-109">_di </span>(see the example
-notebook in the IPmag_tutorial of the <span 
-class="cmbx-10x-x-109">PmagPy </span>package at:
-<!--l. 744--><p class="noindent" ><a 
-href="http://earthref.org/PmagPy/cookbook/#Notebooks" class="url" ><span 
-class="cmtt-10x-x-109">http://earthref.org/PmagPy/cookbook/#Notebooks</span></a>,
-<!--l. 746--><p class="noindent" >or write your own! Both plots should look the same....
-<!--l. 749--><p class="noindent" ><span 
+notebook in the essentials_ch_0.ipynb in the Notebook folder in the data_files
+directory you copied (see problems for Chapter 1).
+<!--l. 743--><p class="noindent" >or write your own! Both plots should look the same....
+<!--l. 746--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 3</span>
+<!--l. 748--><p class="noindent" >You went to Wyoming (112<sup><span 
+class="cmsy-8">&#x2218;</span></sup> W and 36<sup><span 
+class="cmsy-8">&#x2218;</span></sup> N) to sample some Cretaceous rocks.
                                                                      
 
                                                                      
-<!--l. 751--><p class="noindent" >You went to Wyoming (112<sup><span 
-class="cmsy-8">&#x2218;</span></sup> W and 36<sup><span 
-class="cmsy-8">&#x2218;</span></sup> N) to sample some Cretaceous rocks.
 You measured a direction with a declination of 345<sup><span 
 class="cmsy-8">&#x2218;</span></sup> and an inclination of
 47<sup><span 
 class="cmsy-8">&#x2218;</span></sup>.
-<!--l. 753--><p class="noindent" >a) What direction would you expect from the present (GAD) field?
-<!--l. 755--><p class="noindent" >b) What is the virtual geomagnetic pole position corresponding to the direction
+<!--l. 750--><p class="noindent" >a) What direction would you expect from the present (GAD) field?
+<!--l. 752--><p class="noindent" >b) What is the virtual geomagnetic pole position corresponding to the direction
 you actually measured? [Hint: Use the function <span 
 class="cmbx-10x-x-109">pmag.dia</span><span 
 class="cmbx-10x-x-109">_vgp </span>in the <span 
