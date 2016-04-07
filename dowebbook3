@@ -1,11 +1,11 @@
 htlatex WebBook3 "html, 2, sections+"
-mv *.png Essentials-Web-Pages
-mv *.html Essentials-Web-Pages
- git add .
- git commit -m "Fixed Chapter 13 problem sets"
- git push origin master
-
- cd Essentials-Web-Pages
- git add .
- git commit -m "Fixed Chapter 13 problem sets"
- git push 
+#mv *.png Essentials-Web-Pages
+#mv *.html Essentials-Web-Pages
+# git add .
+# git commit -m "Fixed Chapter 13 problem sets"
+# git push origin master
+#
+# cd Essentials-Web-Pages
+# git add .
+# git commit -m "Fixed Chapter 13 problem sets"
+# git push 

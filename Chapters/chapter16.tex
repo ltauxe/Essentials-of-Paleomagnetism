@@ -800,12 +800,12 @@ a) Go to the MagIC search interface at: \url{http://earthref.org/MagIC/search}. 
  
  You now have records from the GPMDB (global paleomagnetic data base) database.  The LP-DC4 and LP-DC5 method codes indicate that all the specimens were demagnetized in step wise fashion.    
  
- b) Make a new Project Directory  with two subdirectories (one for each method code) and unpack the two downloaded files (see Problem 1).   Read them into a Pandas DataFrame.  You will notice that our search cast a wide net and there are many results outside the desired age bounds.  You will have to get rid of the ones outside the bounds.  Also, there are a number of suspicious looking 'result_description' fields including words like 'Superseded', 'Overprint', 'Remagnetized', 'Included in RESULTNOS', etc.  Get rid of these too.  
+ b) Make a new Project Directory  with two subdirectories (one for each method code) and unpack the two downloaded files (see Problem 1).   Read them into a Pandas DataFrame.  You will notice that our search cast a wide net and there are many results outside the desired age bounds.  You will have to get rid of the ones outside the bounds.  Also, there are a number of suspicious looking 'result\_description' fields including words like 'Superseded', 'Overprint', 'Remagnetized', 'Included in RESULTNOS', etc.  Get rid of these too.  
 
 
 
 c) Put the pole latitudes and longitudes into a file and use the program {\bf pt\_rot.py} to rotate these to North American coordinates for 100 Ma.  Look up the poles of rotation in Appendix~\ref{app:polerot} for first rotating Europe to fixed African coordinates, then African to North American coordinates (you will have to change the 
- sign of $\Omega$ for the latter).     Save your rotated poles in a file using the '-F' option (creates a MagIC formatted pmag\_results file)  and plot these using the program {\bf vgpmap\_magic.py}.    Or, if you are using IPython notebooks (recommended), you can use the ipmag.plot_vgp function as in Chapter 14.    Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the program {\bf apwp.py}.   
+ sign of $\Omega$ for the latter).     Save your rotated poles in a file using the '-F' option (creates a MagIC formatted pmag\_results file)  and plot these using the program {\bf vgpmap\_magic.py}.    Or, if you are using IPython notebooks (recommended), you can use the ipmag.plot\_vgp function as in Chapter 14.    Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the program {\bf apwp.py}.   
  
  d) Make a plot of the continental configurations at 100 Ma using the program {\bf cont\_rot.py}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
 

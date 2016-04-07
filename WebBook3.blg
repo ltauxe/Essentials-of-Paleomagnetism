@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: WebBook3.aux
 A level-1 auxiliary file: preface.aux
@@ -20,13 +20,12 @@ A level-1 auxiliary file: Chapters/chapter15.aux
 A level-1 auxiliary file: Chapters/chapter16.aux
 A level-1 auxiliary file: Chapters/appendix.aux
 The style file: apalike2.bst
-Reallocated field_info (elt_size=4) to 13294 items from 5000.
+Reallocated field_info (elt_size=4) to 13272 items from 5000.
 Database file #1: UCPbook.bib
-Warning--I didn't find a database entry for "mcfadden88b"
 Warning--empty journal in hunt95
 You've used 376 entries,
             2227 wiz_defined-function locations,
-            2406 strings with 59466 characters,
+            2405 strings with 59455 characters,
 and the built_in function-call counts, 158173 in all, are:
 = -- 15640
 > -- 5848
@@ -65,4 +64,4 @@ warning$ -- 1
 while$ -- 1218
 width$ -- 0
 write$ -- 4915
-(There were 2 warnings)
+(There was 1 warning)
