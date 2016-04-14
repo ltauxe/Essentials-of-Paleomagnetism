@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  7 APR 2016 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  13 APR 2016 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1764,28 +1764,19 @@ Package natbib Warning: Citation `dunlop02b' undefined on input line 599.
 Package natbib Warning: Citation `dunlop02a' undefined on input line 599.
 
 [262]
-l. 615 Writing WebBook3.idv[157] (WebBook3156x.png)
-l. 619 Writing WebBook3.idv[158] (WebBook3157x.png)
- [263] [264] [265
-
-]
-l. 627 Writing WebBook3.idv[159] (WebBook3158x.png)
-File: EPSfiles/gui-3.eps Graphic file (type eps)
- <EPSfiles/gui-3.eps> [266
-
-] [267
-
-]) [268] [269
+l. 614 Writing WebBook3.idv[157] (WebBook3156x.png)
+l. 618 Writing WebBook3.idv[158] (WebBook3157x.png)
+ [263] [264] [265]) [266] [267
 
 ]
 \openout2 = `Chapters/chapter6.aux'.
 
+ (./Chapters/chapter6.tex [268
 
-(./Chapters/chapter6.tex [270
+] [269
 
-] [271
-
-] [272
+]
+[270
 
 ]
 Chapter 6.
@@ -1793,12 +1784,12 @@ Chapter 6.
 
 Package natbib Warning: Citation `evans03' undefined on input line 6.
 
-[273] [274] [275
+[271] [272] [273
 
 ]
-l. 53 Writing WebBook3.idv[160] (WebBook3159x.png)
+l. 53 Writing WebBook3.idv[159] (WebBook3158x.png)
 File: EPSfiles/solidsolution.eps Graphic file (type eps)
- <EPSfiles/solidsolution.eps> [276
+ <EPSfiles/solidsolution.eps> [274
 
 ]
 
@@ -1810,14 +1801,14 @@ Package natbib Warning: Citation `nagata61' undefined on input line 58.
 
 Package natbib Warning: Citation `feinberg05' undefined on input line 64.
 
-[277
+[275
 
-] [278
+] [276
 
 ]
-l. 70 Writing WebBook3.idv[161] (WebBook3160x.png)
+l. 70 Writing WebBook3.idv[160] (WebBook3159x.png)
 File: EPSfiles/exsolution.eps Graphic file (type eps)
- <EPSfiles/exsolution.eps> [279
+ <EPSfiles/exsolution.eps> [277
 
 ]
 
@@ -1829,50 +1820,50 @@ Package natbib Warning: Citation `robinson02' undefined on input line 74.
 
 Package natbib Warning: Citation `butler92' undefined on input line 74.
 
-[280
+[278
 
-] [281
+] [279
 
 ]
-l. 81 Writing WebBook3.idv[162] (WebBook3161x.png)
+l. 81 Writing WebBook3.idv[161] (WebBook3160x.png)
 File: EPSfiles/tern.eps Graphic file (type eps)
- <EPSfiles/tern.eps> [282
+ <EPSfiles/tern.eps> [280
 
 ]
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 88.
 
-[283
+[281
 
-] [284
+] [282
 
 ]
-l. 137 Writing WebBook3.idv[163] (WebBook3162x.png)
+l. 137 Writing WebBook3.idv[162] (WebBook3161x.png)
 File: EPSfiles/X.eps Graphic file (type eps)
- <EPSfiles/X.eps> [285
+ <EPSfiles/X.eps> [283
 
 ]
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 140.
 
-[286
+[284
+
+] [285
+
+]
+l. 170 Writing WebBook3.idv[163] (WebBook3162x.png)
+File: EPSfiles/hematite.eps Graphic file (type eps)
+ <EPSfiles/hematite.eps> [286
 
 ] [287
 
-]
-l. 170 Writing WebBook3.idv[164] (WebBook3163x.png)
-File: EPSfiles/hematite.eps Graphic file (type eps)
- <EPSfiles/hematite.eps> [288
-
-] [289
-
-] [290
+] [288
 
 ]
-l. 214 Writing WebBook3.idv[165] (WebBook3164x.png)
+l. 214 Writing WebBook3.idv[164] (WebBook3163x.png)
 File: EPSfiles/hemY.eps Graphic file (type eps)
  <EPSfiles/hemY.eps>
-[291
+[289
 
 ]
 
@@ -1881,27 +1872,27 @@ Package natbib Warning: Citation `nagata61' undefined on input line 218.
 
 Package natbib Warning: Citation `stacey74' undefined on input line 218.
 
-[292
+[290
 
-] [293
+] [291
 
 ]
-l. 256 Writing WebBook3.idv[166] (WebBook3165x.png)
+l. 256 Writing WebBook3.idv[165] (WebBook3164x.png)
 File: EPSfiles/Z.eps Graphic file (type eps)
- <EPSfiles/Z.eps> [294
+ <EPSfiles/Z.eps> [292
 
 ]
 
 Package natbib Warning: Citation `gapeyev88' undefined on input line 259.
 
-[295
+[293
 
-] [296
+] [294
 
 ]
-l. 281 Writing WebBook3.idv[167] (WebBook3166x.png)
+l. 281 Writing WebBook3.idv[166] (WebBook3165x.png)
 File: EPSfiles/suppress.eps Graphic file (type eps)
- <EPSfiles/suppress.eps> [297
+ <EPSfiles/suppress.eps> [295
 
 ]
 
@@ -1910,24 +1901,24 @@ Package natbib Warning: Citation `ozdemir93' undefined on input line 285.
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 311.
 
-[298
+[296
+
+] [297
+
+]
+l. 319 Writing WebBook3.idv[167] (WebBook3166x.png)
+File: EPSfiles/minerals.eps Graphic file (type eps)
+ <EPSfiles/minerals.eps> [298
 
 ] [299
 
-]
-l. 319 Writing WebBook3.idv[168] (WebBook3167x.png)
-File: EPSfiles/minerals.eps Graphic file (type eps)
- <EPSfiles/minerals.eps> [300
-
-] [301
-
-] [302
+] [300
 
 ]
-l. 385 Writing WebBook3.idv[169] (WebBook3168x.png)
+l. 385 Writing WebBook3.idv[168] (WebBook3167x.png)
 File: EPSfiles/pyrrhotiteT.eps Graphic file (type eps)
 
-<EPSfiles/pyrrhotiteT.eps> [303
+<EPSfiles/pyrrhotiteT.eps> [301
 
 ]
 
@@ -1936,27 +1927,27 @@ Package natbib Warning: Citation `dekkers88' undefined on input line 390.
 
 Package natbib Warning: Citation `snowball99' undefined on input line 393.
 
-[304
+[302
 
-] [305
+] [303
 
 ]
-l. 410 Writing WebBook3.idv[170] (WebBook3169x.png)
+l. 410 Writing WebBook3.idv[169] (WebBook3168x.png)
 File: EPSfiles/igneous.eps Graphic file (type eps)
- <EPSfiles/igneous.eps> [306
+ <EPSfiles/igneous.eps> [304
 
 ]
 
 Package natbib Warning: Citation `frost91' undefined on input line 413.
 
-[307
+[305
 
-] [308
+] [306
 
 ]
-l. 429 Writing WebBook3.idv[171] (WebBook3170x.png)
+l. 429 Writing WebBook3.idv[170] (WebBook3169x.png)
 File: EPSfiles/bacteria.eps Graphic file (type eps)
- <EPSfiles/bacteria.eps> [309
+ <EPSfiles/bacteria.eps> [307
 
 ]
 
@@ -2010,45 +2001,45 @@ Package natbib Warning: Citation `dunlop97' undefined on input line 456.
 
 Package natbib Warning: Citation `dekkers89c' undefined on input line 456.
 
-[310
+[308
 
-] [311]
+] [309]
 
 Package natbib Warning: Citation `kopp08' undefined on input line 555.
 
-[312] [313
+[310] [311
 
 ]
-l. 561 Writing WebBook3.idv[172] (WebBook3171x.png)
+l. 561 Writing WebBook3.idv[171] (WebBook3170x.png)
 File: EPSfiles/problem1.eps Graphic file (type eps)
- <EPSfiles/problem1.eps> [314
+ <EPSfiles/problem1.eps> [312
 
-] [315
+] [313
 
 ]
 
 Package natbib Warning: Citation `butler92' undefined on input line 568.
 
-[316
+[314
 
-] [317
+] [315
 
 ]
-l. 601 Writing WebBook3.idv[173] (WebBook3172x.png)
+l. 601 Writing WebBook3.idv[172] (WebBook3171x.png)
 File: EPSfiles/microprobe.eps Graphic file (type eps)
- <EPSfiles/microprobe.eps> [318
+ <EPSfiles/microprobe.eps> [316
 
-]) [319
+]) [317
 
-] [320
+] [318
 
 ]
 \openout2 = `Chapters/chapter7.aux'.
 
 
-(./Chapters/chapter7.tex [321
+(./Chapters/chapter7.tex [319
 
-] [322
+] [320
 
 ]
 Chapter 7.
@@ -2056,24 +2047,24 @@ Chapter 7.
 
 Package natbib Warning: Citation `widom02' undefined on input line 6.
 
-[323
+[321
 
-] [324] [325
+] [322] [323
 
 ]
-l. 35 Writing WebBook3.idv[174] (WebBook3173x.png)
+l. 35 Writing WebBook3.idv[173] (WebBook3172x.png)
 File: EPSfiles/equilibrium.eps Graphic file (type eps)
- <EPSfiles/equilibrium.eps> [326
+ <EPSfiles/equilibrium.eps> [324
 
-] [327
+] [325
 
-] [328
+] [326
 
 ]
-l. 62 Writing WebBook3.idv[175] (WebBook3174x.png)
+l. 62 Writing WebBook3.idv[174] (WebBook3173x.png)
 File: EPSfiles/neel.eps Graphic file (type eps)
 
-<EPSfiles/neel.eps> [329
+<EPSfiles/neel.eps> [327
 
 ]
 
@@ -2082,79 +2073,79 @@ Package natbib Warning: Citation `neel49' undefined on input line 75.
 
 Package natbib Warning: Citation `neel55' undefined on input line 75.
 
-[330
+[328
 
 ]
-l. 93 Writing WebBook3.idv[176] (WebBook3175x.png)
-l. 107 Writing WebBook3.idv[177] (WebBook3176x.png)
-l. 111 Writing WebBook3.idv[178] (WebBook3177x.png)
- [331] [332] [333
+l. 93 Writing WebBook3.idv[175] (WebBook3174x.png)
+l. 107 Writing WebBook3.idv[176] (WebBook3175x.png)
+l. 111 Writing WebBook3.idv[177] (WebBook3176x.png)
+ [329] [330] [331
 
 ]
-l. 123 Writing WebBook3.idv[179] (WebBook3178x.png)
+l. 123 Writing WebBook3.idv[178] (WebBook3177x.png)
 File: EPSfiles/neel-vrm.eps Graphic file (type eps)
- <EPSfiles/neel-vrm.eps> [334
+ <EPSfiles/neel-vrm.eps> [332
 
 ]
-l. 153 Writing WebBook3.idv[180] (WebBook3179x.png)
- [335
+l. 153 Writing WebBook3.idv[179] (WebBook3178x.png)
+ [333
 
-] [336] [337
+] [334] [335
 
 ]
-l. 174 Writing WebBook3.idv[181] (WebBook3180x.png)
+l. 174 Writing WebBook3.idv[180] (WebBook3179x.png)
 File: EPSfiles/vrm1.eps Graphic file (type eps)
 
-<EPSfiles/vrm1.eps> [338
+<EPSfiles/vrm1.eps> [336
 
-] [339
-
-]
-l. 185 Writing WebBook3.idv[182] (WebBook3181x.png)
-l. 200 Writing WebBook3.idv[183] (WebBook3182x.png)
- [340] [341] [342
+] [337
 
 ]
-l. 215 Writing WebBook3.idv[184] (WebBook3183x.png)
+l. 185 Writing WebBook3.idv[181] (WebBook3180x.png)
+l. 200 Writing WebBook3.idv[182] (WebBook3181x.png)
+ [338] [339] [340
+
+]
+l. 215 Writing WebBook3.idv[183] (WebBook3182x.png)
 File: EPSfiles/neel-trm.eps Graphic file (type eps)
  <EPSfiles/neel-trm.eps>
-[343
+[341
 
-] [344
+] [342
+
+] [343
+
+]
+l. 243 Writing WebBook3.idv[184] (WebBook3183x.png)
+File: EPSfiles/tauT.eps Graphic file (type eps)
+ <EPSfiles/tauT.eps> [344
 
 ] [345
 
-]
-l. 243 Writing WebBook3.idv[185] (WebBook3184x.png)
-File: EPSfiles/tauT.eps Graphic file (type eps)
- <EPSfiles/tauT.eps> [346
-
-] [347
-
-] [348] [349
+] [346] [347
 
 ]
-l. 285 Writing WebBook3.idv[186] (WebBook3185x.png)
+l. 285 Writing WebBook3.idv[185] (WebBook3184x.png)
 File: EPSfiles/lava.eps Graphic file (type eps)
 
-<EPSfiles/lava.eps> [350
+<EPSfiles/lava.eps> [348
 
 ]
-l. 337 Writing WebBook3.idv[187] (WebBook3186x.png)
- [351
+l. 337 Writing WebBook3.idv[186] (WebBook3185x.png)
+ [349
 
 ]
-l. 345 Writing WebBook3.idv[188] (WebBook3187x.png)
-l. 351 Writing WebBook3.idv[189] (WebBook3188x.png)
-l. 356 Writing WebBook3.idv[190] (WebBook3189x.png)
- [352]
-l. 368 Writing WebBook3.idv[191] (WebBook3190x.png)
- [353] [354
+l. 345 Writing WebBook3.idv[187] (WebBook3186x.png)
+l. 351 Writing WebBook3.idv[188] (WebBook3187x.png)
+l. 356 Writing WebBook3.idv[189] (WebBook3188x.png)
+ [350]
+l. 368 Writing WebBook3.idv[190] (WebBook3189x.png)
+ [351] [352
 
 ]
-l. 381 Writing WebBook3.idv[192] (WebBook3191x.png)
+l. 381 Writing WebBook3.idv[191] (WebBook3190x.png)
 File: EPSfiles/trm.eps Graphic file (type eps)
- <EPSfiles/trm.eps> [355
+ <EPSfiles/trm.eps> [353
 
 ]
 
@@ -2163,53 +2154,53 @@ Package natbib Warning: Citation `selkin07' undefined on input line 384.
 
 Package natbib Warning: Citation `selkin07' undefined on input line 389.
 
-[356
+[354
 
-] [357
+] [355
 
 ]
-l. 397 Writing WebBook3.idv[193] (WebBook3192x.png)
+l. 397 Writing WebBook3.idv[192] (WebBook3191x.png)
 File: EPSfiles/pTRM.eps Graphic file (type eps)
- <EPSfiles/pTRM.eps> [358
+ <EPSfiles/pTRM.eps> [356
 
 ]
-l. 420 Writing WebBook3.idv[194] (WebBook3193x.png)
- [359
+l. 420 Writing WebBook3.idv[193] (WebBook3192x.png)
+ [357
 
-] [360] [361
+] [358] [359
 
 ]
-l. 452 Writing WebBook3.idv[195] (WebBook3194x.png)
+l. 452 Writing WebBook3.idv[194] (WebBook3193x.png)
 File: EPSfiles/trm-d.eps Graphic file (type eps)
  <EPSfiles/trm-d.eps>
-[362
+[360
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 458.
 
-[363
+[361
+
+] [362
+
+]
+l. 485 Writing WebBook3.idv[195] (WebBook3194x.png)
+File: EPSfiles/neel-crm.eps Graphic file (type eps)
+ <EPSfiles/neel-crm.eps> [363
 
 ] [364
 
-]
-l. 485 Writing WebBook3.idv[196] (WebBook3195x.png)
-File: EPSfiles/neel-crm.eps Graphic file (type eps)
- <EPSfiles/neel-crm.eps> [365
-
-] [366
-
-] [367
+] [365
 
 ]
-l. 508 Writing WebBook3.idv[197] (WebBook3196x.png)
+l. 508 Writing WebBook3.idv[196] (WebBook3195x.png)
 File: EPSfiles/crm.eps Graphic file (type eps)
  <EPSfiles/crm.eps>
-[368
+[366
 
 ]
-l. 544 Writing WebBook3.idv[198] (WebBook3197x.png)
- [369
+l. 544 Writing WebBook3.idv[197] (WebBook3196x.png)
+ [367
 
 ]
 
@@ -2218,12 +2209,12 @@ Package natbib Warning: Citation `stokking90' undefined on input line 564.
 
 Package natbib Warning: Citation `stokking90b' undefined on input line 565.
 
-[370] [371
+[368] [369
 
 ]
-l. 573 Writing WebBook3.idv[199] (WebBook3198x.png)
+l. 573 Writing WebBook3.idv[198] (WebBook3197x.png)
 File: EPSfiles/lit-redep.eps Graphic file (type eps)
- <EPSfiles/lit-redep.eps> [372
+ <EPSfiles/lit-redep.eps> [370
 
 ]
 
@@ -2232,28 +2223,28 @@ Package natbib Warning: Citation `johnson48' undefined on input line 577.
 
 Package natbib Warning: Citation `tauxe93' undefined on input line 577.
 
-l. 598 Writing WebBook3.idv[200] (WebBook3199x.png)
-[373
+l. 598 Writing WebBook3.idv[199] (WebBook3198x.png)
+[371
 
 ]
-l. 605 Writing WebBook3.idv[201] (WebBook3200x.png)
+l. 605 Writing WebBook3.idv[200] (WebBook3199x.png)
 
 
 Package natbib Warning: Citation `nagata61' undefined on input line 612.
 
-l. 615 Writing WebBook3.idv[202] (WebBook3201x.png)
+l. 615 Writing WebBook3.idv[201] (WebBook3200x.png)
 
 Package natbib Warning: Citation `nagata61' undefined on input line 626.
 
 
 Package natbib Warning: Citation `johnson48' undefined on input line 629.
 
-[374] [375] [376
+[372] [373] [374
 
 ]
-l. 636 Writing WebBook3.idv[203] (WebBook3202x.png)
+l. 636 Writing WebBook3.idv[202] (WebBook3201x.png)
 File: EPSfiles/drmprocesses.eps Graphic file (type eps)
- <EPSfiles/drmprocesses.eps> [377
+ <EPSfiles/drmprocesses.eps> [375
 
 ]
 
@@ -2274,41 +2265,41 @@ Package natbib Warning: Citation `shcherbakov83' undefined on input line 652.
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 653.
 
-[378
+[376
 
-] [379
+] [377
 
 ]
-l. 663 Writing WebBook3.idv[204] (WebBook3203x.png)
+l. 663 Writing WebBook3.idv[203] (WebBook3202x.png)
 File: EPSfiles/brownian.eps Graphic file (type eps)
- <EPSfiles/brownian.eps> [380
+ <EPSfiles/brownian.eps> [378
 
 ]
 
 Package natbib Warning: Citation `collinson65' undefined on input line 682.
 
-l. 686 Writing WebBook3.idv[205] (WebBook3204x.png)
+l. 686 Writing WebBook3.idv[204] (WebBook3203x.png)
 
 Package natbib Warning: Citation `coffey96' undefined on input line 692.
 
-[381
+[379
 
 ]
-l. 696 Writing WebBook3.idv[206] (WebBook3205x.png)
-l. 702 Writing WebBook3.idv[207] (WebBook3206x.png)
- [382]
+l. 696 Writing WebBook3.idv[205] (WebBook3204x.png)
+l. 702 Writing WebBook3.idv[206] (WebBook3205x.png)
+ [380]
 
 Package natbib Warning: Citation `deamer90' undefined on input line 715.
 
 
 Package natbib Warning: Citation `roberts95' undefined on input line 719.
 
-[383] [384
+[381] [382
 
 ]
-l. 727 Writing WebBook3.idv[208] (WebBook3207x.png)
+l. 727 Writing WebBook3.idv[207] (WebBook3206x.png)
 File: EPSfiles/flocs.eps Graphic file (type eps)
- <EPSfiles/flocs.eps> [385
+ <EPSfiles/flocs.eps> [383
 
 ]
 
@@ -2323,24 +2314,24 @@ Package natbib Warning: Citation `katari01' undefined on input line 738.
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 742.
 
-[386
+[384
+
+] [385
+
+]
+l. 751 Writing WebBook3.idv[208] (WebBook3207x.png)
+File: EPSfiles/drm-exp.eps Graphic file (type eps)
+ <EPSfiles/drm-exp.eps> [386
 
 ] [387
 
-]
-l. 751 Writing WebBook3.idv[209] (WebBook3208x.png)
-File: EPSfiles/drm-exp.eps Graphic file (type eps)
- <EPSfiles/drm-exp.eps> [388
-
-] [389
-
-] [390
+] [388
 
 ]
-l. 766 Writing WebBook3.idv[210] (WebBook3209x.png)
+l. 766 Writing WebBook3.idv[209] (WebBook3208x.png)
 File: EPSfiles/ifio.eps Graphic file (type eps)
  <EPSfiles/ifio.eps>
-[391
+[389
 
 ]
 
@@ -2361,63 +2352,63 @@ Package natbib Warning: Citation `tauxe84' undefined on input line 805.
 
 Package natbib Warning: Citation `king55' undefined on input line 808.
 
-[392
+[390
 
-] [393] [394
+] [391] [392
 
 ]
-l. 820 Writing WebBook3.idv[211] (WebBook3210x.png)
+l. 820 Writing WebBook3.idv[210] (WebBook3209x.png)
 File: EPSfiles/lightning.eps Graphic file (type eps)
- <EPSfiles/lightning.eps> [395
+ <EPSfiles/lightning.eps> [393
 
 ]
 
 Package natbib Warning: Citation `tauxe03b' undefined on input line 825.
 
-[396
+[394
 
-] [397
+] [395
 
 ]
-l. 844 Writing WebBook3.idv[212] (WebBook3211x.png)
+l. 844 Writing WebBook3.idv[211] (WebBook3210x.png)
 File: EPSfiles/irm.eps Graphic file (type eps)
- <EPSfiles/irm.eps> [398
+ <EPSfiles/irm.eps> [396
 
 ]
 
 Package natbib Warning: Citation `pullaiah75' undefined on input line 875.
 
-l. 879 Writing WebBook3.idv[213] (WebBook3212x.png)
-[399
+l. 879 Writing WebBook3.idv[212] (WebBook3211x.png)
+[397
 
 ]
-l. 884 Writing WebBook3.idv[214] (WebBook3213x.png)
-l. 895 Writing WebBook3.idv[215] (WebBook3214x.png)
+l. 884 Writing WebBook3.idv[213] (WebBook3212x.png)
+l. 895 Writing WebBook3.idv[214] (WebBook3213x.png)
 
 
 Package natbib Warning: Citation `pullaiah75' undefined on input line 905.
 
-[400]
-l. 911 Writing WebBook3.idv[216] (WebBook3215x.png)
- [401] [402
+[398]
+l. 911 Writing WebBook3.idv[215] (WebBook3214x.png)
+ [399] [400
 
 ]
-l. 923 Writing WebBook3.idv[217] (WebBook3216x.png)
+l. 923 Writing WebBook3.idv[216] (WebBook3215x.png)
 File: EPSfiles/pullaiah.eps Graphic file (type eps)
- <EPSfiles/pullaiah.eps> [403
+ <EPSfiles/pullaiah.eps> [401
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 934.
 
-[404
+[402
 
-] [405
+] [403
 
 ]
-l. 958 Writing WebBook3.idv[218] (WebBook3217x.png)
+l. 958 Writing WebBook3.idv[217] (WebBook3216x.png)
 File: EPSfiles/ARM.eps Graphic file (type eps)
- <EPSfiles/ARM.eps> [406
+ <EPSfiles/ARM.eps> [404
 
 ]
 
@@ -2426,20 +2417,20 @@ Package natbib Warning: Citation `stephenson81' undefined on input line 989.
 
 Package natbib Warning: Citation `potter05' undefined on input line 992.
 
-[407
+[405
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 996.
 
-[408]) [409] [410
+[406]) [407] [408
 
 ]
 \openout2 = `Chapters/chapter8.aux'.
 
- (./Chapters/chapter8.tex [411
+ (./Chapters/chapter8.tex [409
 
-] [412
+] [410
 
 ]
 Chapter 8.
@@ -2450,14 +2441,14 @@ Package natbib Warning: Citation `maher99' undefined on input line 5.
 
 Package natbib Warning: Citation `evans03' undefined on input line 6.
 
-[413
+[411
 
-] [414] [415
+] [412] [413
 
 ]
-l. 29 Writing WebBook3.idv[219] (WebBook3218x.png)
+l. 29 Writing WebBook3.idv[218] (WebBook3217x.png)
 File: EPSfiles/images.eps Graphic file (type eps)
- <EPSfiles/images.eps> [416
+ <EPSfiles/images.eps> [414
 
 ]
 
@@ -2466,29 +2457,29 @@ Package natbib Warning: Citation `maher99' undefined on input line 33.
 
 Package natbib Warning: Citation `reynolds85' undefined on input line 34.
 
-[417
+[415
 
-] [418
+] [416
 
 ]
 
-LaTeX Warning: Reference `sect:crossover' on page 419 undefined on input line 8
+LaTeX Warning: Reference `sect:crossover' on page 417 undefined on input line 8
 4.
 
-[419
+[417
 
 ]
 
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 88.
 
-[420
+[418
 
-] [421
+] [419
 
 ]
-l. 123 Writing WebBook3.idv[220] (WebBook3219x.png)
+l. 123 Writing WebBook3.idv[219] (WebBook3218x.png)
 File: EPSfiles/curiebalance.eps Graphic file (type eps)
- <EPSfiles/curiebalance.eps> [422
+ <EPSfiles/curiebalance.eps> [420
 
 ]
 
@@ -2497,46 +2488,46 @@ Package natbib Warning: Citation `gromme69' undefined on input line 133.
 
 Package natbib Warning: Citation `moskowitz81' undefined on input line 144.
 
-[423
+[421
 
-] [424
+] [422
 
 ]
-l. 155 Writing WebBook3.idv[221] (WebBook3220x.png)
+l. 155 Writing WebBook3.idv[220] (WebBook3219x.png)
 File: EPSfiles/curie1.eps Graphic file (type eps)
- <EPSfiles/curie1.eps> [425
+ <EPSfiles/curie1.eps> [423
 
 ]
 
 Package natbib Warning: Citation `tauxe98' undefined on input line 167.
 
-[426
+[424
 
-] [427] [428
+] [425] [426
 
 ]
-l. 202 Writing WebBook3.idv[222] (WebBook3221x.png)
+l. 202 Writing WebBook3.idv[221] (WebBook3220x.png)
 File: EPSfiles/kappa.eps Graphic file (type eps)
- <EPSfiles/kappa.eps> [429
+ <EPSfiles/kappa.eps> [427
 
-] [430
+] [428
 
-] [431] [432
+] [429] [430
 
 ]
-l. 221 Writing WebBook3.idv[223] (WebBook3222x.png)
+l. 221 Writing WebBook3.idv[222] (WebBook3221x.png)
 File: EPSfiles/chiT.eps Graphic file (type eps)
 
-<EPSfiles/chiT.eps> [433
+<EPSfiles/chiT.eps> [431
 
-] [434
+] [432
 
-] [435
+] [433
 
 ]
-l. 239 Writing WebBook3.idv[224] (WebBook3223x.png)
+l. 239 Writing WebBook3.idv[223] (WebBook3222x.png)
 File: EPSfiles/chifd.eps Graphic file (type eps)
- <EPSfiles/chifd.eps> [436
+ <EPSfiles/chifd.eps> [434
 
 ]
 
@@ -2546,14 +2537,14 @@ Package natbib Warning: Citation `carterstiglitz06' undefined on input line 243
 
 Package natbib Warning: Citation `schlinger91' undefined on input line 253.
 
-[437
+[435
 
-] [438
+] [436
 
 ]
-l. 261 Writing WebBook3.idv[225] (WebBook3224x.png)
+l. 261 Writing WebBook3.idv[224] (WebBook3223x.png)
 File: EPSfiles/chimap.eps Graphic file (type eps)
- <EPSfiles/chimap.eps> [439
+ <EPSfiles/chimap.eps> [437
 
 ]
 
@@ -2562,14 +2553,14 @@ Package natbib Warning: Citation `hoffmann99' undefined on input line 264.
 
 Package natbib Warning: Citation `petrovsky00' undefined on input line 270.
 
-[440
+[438
 
-] [441
+] [439
 
 ]
-l. 281 Writing WebBook3.idv[226] (WebBook3225x.png)
+l. 281 Writing WebBook3.idv[225] (WebBook3224x.png)
 File: EPSfiles/crossover.eps Graphic file (type eps)
- <EPSfiles/crossover.eps> [442
+ <EPSfiles/crossover.eps> [440
 
 ]
 
@@ -2578,14 +2569,14 @@ Package natbib Warning: Citation `cisowski81' undefined on input line 293.
 
 Package natbib Warning: Citation `sugiura79' undefined on input line 295.
 
-[443
+[441
 
-] [444
+] [442
 
 ]
-l. 301 Writing WebBook3.idv[227] (WebBook3226x.png)
+l. 301 Writing WebBook3.idv[226] (WebBook3225x.png)
 File: EPSfiles/unmixing.eps Graphic file (type eps)
- <EPSfiles/unmixing.eps> [445
+ <EPSfiles/unmixing.eps> [443
 
 ]
 
@@ -2606,14 +2597,14 @@ Package natbib Warning: Citation `egli03' undefined on input line 322.
 
 Package natbib Warning: Citation `lowrie90' undefined on input line 332.
 
-[446
+[444
 
-] [447] [448
+] [445] [446
 
 ]
-l. 353 Writing WebBook3.idv[228] (WebBook3227x.png)
+l. 353 Writing WebBook3.idv[227] (WebBook3226x.png)
 File: EPSfiles/3dirm.eps Graphic file (type eps)
- <EPSfiles/3dirm.eps> [449
+ <EPSfiles/3dirm.eps> [447
 
 ]
 
@@ -2622,27 +2613,27 @@ Package natbib Warning: Citation `tauxe98' undefined on input line 360.
 
 Package natbib Warning: Citation `lowrie90' undefined on input line 362.
 
-[450
+[448
 
-] [451] [452
+] [449] [450
 
 ]
-l. 422 Writing WebBook3.idv[229] (WebBook3228x.png)
+l. 422 Writing WebBook3.idv[228] (WebBook3227x.png)
 File: EPSfiles/bblocks.eps Graphic file (type eps)
- <EPSfiles/bblocks.eps> [453
+ <EPSfiles/bblocks.eps> [451
 
 ]
 
 Package natbib Warning: Citation `tauxe96b' undefined on input line 432.
 
-[454
+[452
 
-] [455
+] [453
 
 ]
-l. 465 Writing WebBook3.idv[230] (WebBook3229x.png)
+l. 465 Writing WebBook3.idv[229] (WebBook3228x.png)
 File: EPSfiles/interp.eps Graphic file (type eps)
- <EPSfiles/interp.eps> [456
+ <EPSfiles/interp.eps> [454
 
 ]
 
@@ -2654,14 +2645,14 @@ Package natbib Warning: Citation `jackson90' undefined on input line 495.
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 515.
 
-[457
+[455
 
-] [458] [459
+] [456] [457
 
 ]
-l. 524 Writing WebBook3.idv[231] (WebBook3230x.png)
+l. 524 Writing WebBook3.idv[230] (WebBook3229x.png)
 File: EPSfiles/trends.eps Graphic file (type eps)
- <EPSfiles/trends.eps> [460
+ <EPSfiles/trends.eps> [458
 
 ]
 
@@ -2670,14 +2661,14 @@ Package natbib Warning: Citation `heider96' undefined on input line 529.
 
 Package natbib Warning: Citation `dunlop97b' undefined on input line 529.
 
-[461
+[459
 
-] [462
+] [460
 
 ]
-l. 535 Writing WebBook3.idv[232] (WebBook3231x.png)
+l. 535 Writing WebBook3.idv[231] (WebBook3230x.png)
 File: EPSfiles/slag.eps Graphic file (type eps)
- <EPSfiles/slag.eps> [463
+ <EPSfiles/slag.eps> [461
 
 ]
 
@@ -2692,7 +2683,7 @@ Package natbib Warning: Citation `tauxe02' undefined on input line 551.
 
 Package natbib Warning: Citation `neel55' undefined on input line 555.
 
-[464
+[462
 
 ]
 
@@ -2718,12 +2709,12 @@ Package natbib Warning: Citation `maher99' undefined on input line 587.
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 587.
 
 
-[465] [466] [467
+[463] [464] [465
 
 ]
-l. 605 Writing WebBook3.idv[233] (WebBook3232x.png)
+l. 605 Writing WebBook3.idv[232] (WebBook3231x.png)
 File: EPSfiles/banerjee.eps Graphic file (type eps)
- <EPSfiles/banerjee.eps> [468
+ <EPSfiles/banerjee.eps> [466
 
 ]
 
@@ -2735,27 +2726,27 @@ Package natbib Warning: Citation `banerjee81' undefined on input line 613.
 
 Package natbib Warning: Citation `rosenbaum96' undefined on input line 617.
 
-[469
+[467
 
-] [470
+] [468
 
 ]
-l. 623 Writing WebBook3.idv[234] (WebBook3233x.png)
+l. 623 Writing WebBook3.idv[233] (WebBook3232x.png)
 File: EPSfiles/rosenbaum-1.eps Graphic file (type eps)
- <EPSfiles/rosenbaum-1.eps> [471
+ <EPSfiles/rosenbaum-1.eps> [469
 
 ]
 
 Package natbib Warning: Citation `rosenbaum96' undefined on input line 627.
 
-[472
+[470
 
-] [473
+] [471
 
 ]
-l. 639 Writing WebBook3.idv[235] (WebBook3234x.png)
+l. 639 Writing WebBook3.idv[234] (WebBook3233x.png)
 File: EPSfiles/rosenbaum-2.eps Graphic file (type eps)
- <EPSfiles/rosenbaum-2.eps> [474
+ <EPSfiles/rosenbaum-2.eps> [472
 
 ]
 
@@ -2767,38 +2758,38 @@ Package natbib Warning: Citation `king82' undefined on input line 654.
 
 Package natbib Warning: Citation `yamazaki97' undefined on input line 657.
 
-[475
+[473
 
-] [476
+] [474
 
 ]
-l. 668 Writing WebBook3.idv[236] (WebBook3235x.png)
+l. 668 Writing WebBook3.idv[235] (WebBook3234x.png)
 File: EPSfiles/np21.eps Graphic file (type eps)
- <EPSfiles/np21.eps> [477
+ <EPSfiles/np21.eps> [475
 
 ]
 
 Package natbib Warning: Citation `yamazaki97' undefined on input line 672.
 
-l. 675 Writing WebBook3.idv[237] (WebBook3236x.png)
+l. 675 Writing WebBook3.idv[236] (WebBook3235x.png)
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
-[478
+[476
 
-] [479] [480
+] [477] [478
 
 ]
-l. 686 Writing WebBook3.idv[238] (WebBook3237x.png)
+l. 686 Writing WebBook3.idv[237] (WebBook3236x.png)
 File: EPSfiles/jackson-1.eps Graphic file (type eps)
- <EPSfiles/jackson-1.eps> [481
+ <EPSfiles/jackson-1.eps> [479
 
 ]
 
 Package natbib Warning: Citation `jackson06' undefined on input line 689.
 
-l. 702 Writing WebBook3.idv[239] (WebBook3238x.png)
+l. 702 Writing WebBook3.idv[238] (WebBook3237x.png)
 
 Package natbib Warning: Citation `jackson06' undefined on input line 709.
 
@@ -2811,14 +2802,14 @@ Package natbib Warning: Citation `neel49' undefined on input line 719.
 
 Package natbib Warning: Citation `schlinger91' undefined on input line 720.
 
-[482
+[480
 
-] [483] [484
+] [481] [482
 
 ]
-l. 732 Writing WebBook3.idv[240] (WebBook3239x.png)
+l. 732 Writing WebBook3.idv[239] (WebBook3238x.png)
 File: EPSfiles/jackson-2.eps Graphic file (type eps)
- <EPSfiles/jackson-2.eps> [485
+ <EPSfiles/jackson-2.eps> [483
 
 ]
 Missing character: There is no Ô in font cmr10!
@@ -2827,32 +2818,32 @@ Missing character: There is no Õ in font cmr10!
 
 Package natbib Warning: Citation `moskowitz93' undefined on input line 747.
 
-l. 752 Writing WebBook3.idv[241] (WebBook3240x.png)
+l. 752 Writing WebBook3.idv[240] (WebBook3239x.png)
 
 Package natbib Warning: Citation `moskowitz93' undefined on input line 760.
 
-[486
+[484
 
 ]
 
 Package natbib Warning: Citation `moskowitz08' undefined on input line 769.
 
-[487] [488
+[485] [486
 
 ]
-l. 775 Writing WebBook3.idv[242] (WebBook3241x.png)
+l. 775 Writing WebBook3.idv[241] (WebBook3240x.png)
 File: EPSfiles/moskowitz08-1.eps Graphic file (type eps)
- <EPSfiles/moskowitz08-1.eps> [489
+ <EPSfiles/moskowitz08-1.eps> [487
 
-] [490
+] [488
 
-] [491
+] [489
 
 ]
-l. 787 Writing WebBook3.idv[243] (WebBook3242x.png)
+l. 787 Writing WebBook3.idv[242] (WebBook3241x.png)
 File: EPSfiles/moskowitz08-2.eps Graphic file (type eps)
 
-<EPSfiles/moskowitz08-2.eps> [492
+<EPSfiles/moskowitz08-2.eps> [490
 
 ]
 
@@ -2863,158 +2854,158 @@ Missing character: There is no Õ in font cmr10!
 
 Package natbib Warning: Citation `verosub95' undefined on input line 809.
 
-[493
+[491
 
-] [494]
+] [492]
 
 Package natbib Warning: Citation `hunt95' undefined on input line 845.
 
-[495] [496
+[493] [494
+
+] [495
+
+]) [496
 
 ] [497
-
-]) [498
-
-] [499
 
 ]
 \openout2 = `Chapters/chapter9.aux'.
 
- (./Chapters/chapter9.tex [500
+ (./Chapters/chapter9.tex [498
 
-] [501
+] [499
 
-] [502
+] [500
 
 ]
 Chapter 9.
 --- file WebBook3ch9.html ---
-l. 40 Writing WebBook3.idv[244] (WebBook3243x.png)
-[503] [504] [505
+l. 40 Writing WebBook3.idv[243] (WebBook3242x.png)
+[501] [502] [503
 
 ]
-l. 67 Writing WebBook3.idv[245] (WebBook3244x.png)
+l. 67 Writing WebBook3.idv[244] (WebBook3243x.png)
 File: EPSfiles/drill.eps Graphic file (type eps)
- <EPSfiles/drill.eps> [506
+ <EPSfiles/drill.eps> [504
 
-] [507
+] [505
 
-] [508
+] [506
 
 ]
-l. 87 Writing WebBook3.idv[246] (WebBook3245x.png)
+l. 87 Writing WebBook3.idv[245] (WebBook3244x.png)
 File: EPSfiles/hand.eps Graphic file (type eps)
  <EPSfiles/hand.eps>
-[509
+[507
 
 ]
 
 Package natbib Warning: Citation `schnepp08' undefined on input line 121.
 
-[510
+[508
 
 ]
-l. 132 Writing WebBook3.idv[247] (WebBook3246x.png)
+l. 132 Writing WebBook3.idv[246] (WebBook3245x.png)
 File: EPSfiles/core.eps Graphic file (type eps)
- <EPSfiles/core.eps> [511] [512] [513
+ <EPSfiles/core.eps> [509] [510] [511
 
 ]
-l. 151 Writing WebBook3.idv[248] (WebBook3247x.png)
+l. 151 Writing WebBook3.idv[247] (WebBook3246x.png)
 File: EPSfiles/orientation.eps Graphic file (type eps)
- <EPSfiles/orientation.eps> [514
+ <EPSfiles/orientation.eps> [512
 
 ]
-[515
+[513
+
+] [514
+
+]
+l. 181 Writing WebBook3.idv[248] (WebBook3247x.png)
+File: EPSfiles/orient.eps Graphic file (type eps)
+ <EPSfiles/orient.eps>
+l. 183 Writing WebBook3.idv[249] (WebBook3248x.png)
+File: EPSfiles/suncomp.eps Graphic file (type eps)
+ <EPSfiles/suncomp.eps> [515
 
 ] [516
 
-]
-l. 181 Writing WebBook3.idv[249] (WebBook3248x.png)
-File: EPSfiles/orient.eps Graphic file (type eps)
- <EPSfiles/orient.eps>
-l. 183 Writing WebBook3.idv[250] (WebBook3249x.png)
-File: EPSfiles/suncomp.eps Graphic file (type eps)
- <EPSfiles/suncomp.eps> [517
-
-] [518
-
-] [519]
-[520
+] [517]
+[518
 
 ]
-l. 220 Writing WebBook3.idv[251] (WebBook3250x.png)
+l. 220 Writing WebBook3.idv[250] (WebBook3249x.png)
 File: EPSfiles/backbite.eps Graphic file (type eps)
- <EPSfiles/backbite.eps> [521
+ <EPSfiles/backbite.eps> [519
 
-] [522
+] [520
 
-] [523
+] [521
 
 ]
-l. 227 Writing WebBook3.idv[252] (WebBook3251x.png)
+l. 227 Writing WebBook3.idv[251] (WebBook3250x.png)
 File: EPSfiles/gps.eps Graphic file (type eps)
- <EPSfiles/gps.eps> [524
+ <EPSfiles/gps.eps> [522
 
 ]
 
 Package natbib Warning: Citation `lawrence08' undefined on input line 239.
 
-[525
+[523
+
+] [524
+
+]
+l. 248 Writing WebBook3.idv[252] (WebBook3251x.png)
+File: EPSfiles/samples.eps Graphic file (type eps)
+ <EPSfiles/samples.eps> [525
 
 ] [526
 
-]
-l. 248 Writing WebBook3.idv[253] (WebBook3252x.png)
-File: EPSfiles/samples.eps Graphic file (type eps)
- <EPSfiles/samples.eps> [527
-
-] [528
-
-] [529] [530] [531
+] [527] [528] [529
 
 ]
-l. 324 Writing WebBook3.idv[254] (WebBook3253x.png)
+l. 324 Writing WebBook3.idv[253] (WebBook3252x.png)
 File: EPSfiles/digeo.eps Graphic file (type eps)
 
-<EPSfiles/digeo.eps> [532
+<EPSfiles/digeo.eps> [530
 
-] [533
+] [531
 
-] [534
+] [532
 
 ]
-l. 332 Writing WebBook3.idv[255] (WebBook3254x.png)
+l. 332 Writing WebBook3.idv[254] (WebBook3253x.png)
 File: EPSfiles/comps.eps Graphic file (type eps)
- <EPSfiles/comps.eps> [535
+ <EPSfiles/comps.eps> [533
 
-] [536]
-[537
+] [534]
+[535
 
-] [538
+] [536
 
 ]
-l. 356 Writing WebBook3.idv[256] (WebBook3255x.png)
+l. 356 Writing WebBook3.idv[255] (WebBook3254x.png)
 File: EPSfiles/zijd.eps Graphic file (type eps)
- <EPSfiles/zijd.eps> [539
+ <EPSfiles/zijd.eps> [537
 
-] [540]
+] [538]
 
 Package natbib Warning: Citation `tauxe03b' undefined on input line 363.
 
 
 Package natbib Warning: Citation `tauxe04b' undefined on input line 363.
 
-[541
+[539
 
-] [542
+] [540
 
-] [543]
+] [541]
 
 Package natbib Warning: Citation `zijderveld67' undefined on input line 506.
 
-[544]
-l. 520 Writing WebBook3.idv[257] (WebBook3256x.png)
- [545]
+[542]
+l. 520 Writing WebBook3.idv[256] (WebBook3255x.png)
+ [543]
 
 Package natbib Warning: Citation `tauxe04' undefined on input line 549.
 
@@ -3027,19 +3018,19 @@ Package natbib Warning: Citation `dankers81' undefined on input line 558.
 
 Package natbib Warning: Citation `snowball97' undefined on input line 565.
 
-[546]
+[544]
 
 Package natbib Warning: Citation `gee93' undefined on input line 594.
 
-[547] [548
+[545] [546
 
 ]
-l. 604 Writing WebBook3.idv[258] (WebBook3257x.png)
+l. 604 Writing WebBook3.idv[257] (WebBook3256x.png)
 File: EPSfiles/foldtesta.eps Graphic file (type eps)
  <EPSfiles/foldtesta.eps>
-l. 607 Writing WebBook3.idv[259] (WebBook3258x.png)
+l. 607 Writing WebBook3.idv[258] (WebBook3257x.png)
 File: EPSfiles/foldtestb.eps Graphic file (type eps)
- <EPSfiles/foldtestb.eps> [549
+ <EPSfiles/foldtestb.eps> [547
 
 ]
 
@@ -3048,45 +3039,45 @@ Package natbib Warning: Citation `dupont-nivet02' undefined on input line 614.
 
 Package natbib Warning: Citation `kirschvink80' undefined on input line 628.
 
-l. 638 Writing WebBook3.idv[260] (WebBook3259x.png)
-[550
+l. 638 Writing WebBook3.idv[259] (WebBook3258x.png)
+[548
 
-] [551
+] [549
 
 ]
-l. 646 Writing WebBook3.idv[261] (WebBook3260x.png)
+l. 646 Writing WebBook3.idv[260] (WebBook3259x.png)
 File: EPSfiles/congloma.eps Graphic file (type eps)
  <EPSfiles/congloma.eps>
-l. 649 Writing WebBook3.idv[262] (WebBook3261x.png)
+l. 649 Writing WebBook3.idv[261] (WebBook3260x.png)
 File: EPSfiles/conglomb.eps Graphic file (type eps)
- <EPSfiles/conglomb.eps> [552
+ <EPSfiles/conglomb.eps> [550
 
-] [553]
-l. 672 Writing WebBook3.idv[263] (WebBook3262x.png)
+] [551]
+l. 672 Writing WebBook3.idv[262] (WebBook3261x.png)
 
-[554
+[552
 
-] [555
+] [553
 
 ]
-l. 685 Writing WebBook3.idv[264] (WebBook3263x.png)
+l. 685 Writing WebBook3.idv[263] (WebBook3262x.png)
 File: EPSfiles/baked.eps Graphic file (type eps)
- <EPSfiles/baked.eps> [556
+ <EPSfiles/baked.eps> [554
 
-] [557
+] [555
 
 ]
 
 Package natbib Warning: Citation `collinson83' undefined on input line 761.
 
-[558] [559] [560]
-l. 838 Writing WebBook3.idv[265] (WebBook3264x.png)
- [561] [562] [563
+[556] [557] [558]
+l. 838 Writing WebBook3.idv[264] (WebBook3263x.png)
+ [559] [560] [561
 
 ]
-l. 860 Writing WebBook3.idv[266] (WebBook3265x.png)
+l. 860 Writing WebBook3.idv[265] (WebBook3264x.png)
 File: EPSfiles/NS034.eps Graphic file (type eps)
- <EPSfiles/NS034.eps> [564
+ <EPSfiles/NS034.eps> [562
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 879.
@@ -3097,35 +3088,35 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 879.
- [565
+ [563
 
-] [566]
-[567]) [568] [569
+] [564]
+[565]) [566] [567
 
 ]
 \openout2 = `Chapters/chapter10.aux'.
 
- (./Chapters/chapter10.tex [570
+ (./Chapters/chapter10.tex [568
 
-] [571
+] [569
 
-] [572
+] [570
 
 ]
 Chapter 10.
 --- file WebBook3ch10.html ---
-l. 19 Writing WebBook3.idv[267] (WebBook3266x.png)
-l. 23 Writing WebBook3.idv[268] (WebBook3267x.png)
-[573]
-l. 29 Writing WebBook3.idv[269] (WebBook3268x.png)
- [574] [575
+l. 19 Writing WebBook3.idv[266] (WebBook3265x.png)
+l. 23 Writing WebBook3.idv[267] (WebBook3266x.png)
+[571]
+l. 29 Writing WebBook3.idv[268] (WebBook3267x.png)
+ [572] [573
 
 ]
-l. 40 Writing WebBook3.idv[270] (WebBook3269x.png)
+l. 40 Writing WebBook3.idv[269] (WebBook3268x.png)
 File: EPSfiles/pintprinc.eps Graphic file (type eps)
- <EPSfiles/pintprinc.eps> [576
+ <EPSfiles/pintprinc.eps> [574
 
-] [577
+] [575
 
 ]
 
@@ -3134,48 +3125,48 @@ Package natbib Warning: Citation `dunlop97b' undefined on input line 67.
 
 Package natbib Warning: Citation `selkin07' undefined on input line 70.
 
-[578]
+[576]
 
 Package natbib Warning: Citation `thellier59' undefined on input line 84.
 
-[579] [580
+[577] [578
 
 ]
-l. 98 Writing WebBook3.idv[271] (WebBook3270x.png)
+l. 98 Writing WebBook3.idv[270] (WebBook3269x.png)
 File: EPSfiles/koenigsberger.eps Graphic file (type eps)
- <EPSfiles/koenigsberger.eps> [581
+ <EPSfiles/koenigsberger.eps> [579
 
 ]
 
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 101.
 
 
-l. 105 Writing WebBook3.idv[272] (WebBook3271x.png)
-l. 110 Writing WebBook3.idv[273] (WebBook3272x.png)
+l. 105 Writing WebBook3.idv[271] (WebBook3270x.png)
+l. 110 Writing WebBook3.idv[272] (WebBook3271x.png)
 
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 115.
 
 
-[582
+[580
 
 ]
 
 Package natbib Warning: Citation `coe67' undefined on input line 123.
 
-l. 125 Writing WebBook3.idv[274] (WebBook3273x.png)
-l. 129 Writing WebBook3.idv[275] (WebBook3274x.png)
+l. 125 Writing WebBook3.idv[273] (WebBook3272x.png)
+l. 129 Writing WebBook3.idv[274] (WebBook3273x.png)
 
 Package natbib Warning: Citation `aitken88' undefined on input line 135.
 
 
 Package natbib Warning: Citation `nagata63' undefined on input line 139.
 
-[583] [584] [585
+[581] [582] [583
 
 ]
-l. 145 Writing WebBook3.idv[276] (WebBook3275x.png)
+l. 145 Writing WebBook3.idv[275] (WebBook3274x.png)
 File: EPSfiles/TT.eps Graphic file (type eps)
- <EPSfiles/TT.eps> [586
+ <EPSfiles/TT.eps> [584
 
 ]
 
@@ -3187,27 +3178,27 @@ Package natbib Warning: Citation `bolshakov79' undefined on input line 163.
 
 Package natbib Warning: Citation `dunlop94' undefined on input line 166.
 
-[587
+[585
 
-] [588
+] [586
 
 ]
-l. 171 Writing WebBook3.idv[277] (WebBook3276x.png)
+l. 171 Writing WebBook3.idv[276] (WebBook3275x.png)
 File: EPSfiles/dunlop01.eps Graphic file (type eps)
- <EPSfiles/dunlop01.eps> [589
+ <EPSfiles/dunlop01.eps> [587
 
 ]
 
 Package natbib Warning: Citation `dunlop01' undefined on input line 176.
 
-[590
+[588
 
-] [591] [592
+] [589] [590
 
 ]
-l. 197 Writing WebBook3.idv[278] (WebBook3277x.png)
+l. 197 Writing WebBook3.idv[277] (WebBook3276x.png)
 File: EPSfiles/method.eps Graphic file (type eps)
- <EPSfiles/method.eps> [593
+ <EPSfiles/method.eps> [591
 
 ]
 
@@ -3228,14 +3219,14 @@ Package natbib Warning: Citation `riisager01' undefined on input line 220.
 
 Package natbib Warning: Citation `yu04' undefined on input line 231.
 
-[594
+[592
 
-] [595
+] [593
 
 ]
-l. 240 Writing WebBook3.idv[279] (WebBook3278x.png)
+l. 240 Writing WebBook3.idv[278] (WebBook3277x.png)
 File: EPSfiles/zigzag.eps Graphic file (type eps)
- <EPSfiles/zigzag.eps> [596
+ <EPSfiles/zigzag.eps> [594
 
 ]
 
@@ -3244,14 +3235,14 @@ Package natbib Warning: Citation `aitken81' undefined on input line 250.
 
 Package natbib Warning: Citation `selkin00b' undefined on input line 252.
 
-[597
+[595
 
-] [598
+] [596
 
 ]
-l. 257 Writing WebBook3.idv[280] (WebBook3279x.png)
+l. 257 Writing WebBook3.idv[279] (WebBook3278x.png)
 File: EPSfiles/trm-anis.eps Graphic file (type eps)
- <EPSfiles/trm-anis.eps> [599
+ <EPSfiles/trm-anis.eps> [597
 
 ]
 
@@ -3260,14 +3251,14 @@ Package natbib Warning: Citation `halgedahl80' undefined on input line 269.
 
 Package natbib Warning: Citation `genevey03' undefined on input line 272.
 
-[600
+[598
 
-] [601
+] [599
 
 ]
-l. 278 Writing WebBook3.idv[281] (WebBook3280x.png)
+l. 278 Writing WebBook3.idv[280] (WebBook3279x.png)
 File: EPSfiles/coolingrate.eps Graphic file (type eps)
- <EPSfiles/coolingrate.eps> [602
+ <EPSfiles/coolingrate.eps> [600
 
 ]
 
@@ -3279,7 +3270,7 @@ Package natbib Warning: Citation `kono77' undefined on input line 300.
 
 Package natbib Warning: Citation `kono74' undefined on input line 302.
 
-[603
+[601
 
 ]
 
@@ -3291,19 +3282,19 @@ Package natbib Warning: Citation `hoffman05' undefined on input line 313.
 
 Package natbib Warning: Citation `dekkers06' undefined on input line 313.
 
-[604]
+[602]
 
 Package natbib Warning: Citation `shaw74' undefined on input line 325.
 
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 328.
 
-[605] [606
+[603] [604
 
 ]
-l. 337 Writing WebBook3.idv[282] (WebBook3281x.png)
+l. 337 Writing WebBook3.idv[281] (WebBook3280x.png)
 File: EPSfiles/Shaw-DD.eps Graphic file (type eps)
- <EPSfiles/Shaw-DD.eps> [607
+ <EPSfiles/Shaw-DD.eps> [605
 
 ]
 
@@ -3312,7 +3303,7 @@ Package natbib Warning: Citation `yamamoto03' undefined on input line 340.
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 340.
 
-[608
+[606
 
 ]
 
@@ -3324,7 +3315,7 @@ Package natbib Warning: Citation `hill05' undefined on input line 375.
 
 Package natbib Warning: Citation `hill05' undefined on input line 379.
 
-[609]
+[607]
 
 Package natbib Warning: Citation `tarduno06' undefined on input line 394.
 
@@ -3343,12 +3334,12 @@ Package natbib Warning: Citation `tarduno06' undefined on input line 396.
 
 Package natbib Warning: Citation `dunlop97b' undefined on input line 407.
 
-[610] [611] [612] [613
+[608] [609] [610] [611
 
 ]
-l. 430 Writing WebBook3.idv[283] (WebBook3282x.png)
+l. 430 Writing WebBook3.idv[282] (WebBook3281x.png)
 File: EPSfiles/drm1.eps Graphic file (type eps)
- <EPSfiles/drm1.eps> [614
+ <EPSfiles/drm1.eps> [612
 
 ]
 
@@ -3357,9 +3348,9 @@ Package natbib Warning: Citation `tauxe93' undefined on input line 437.
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 469.
 
-[615
+[613
 
-] [616]
+] [614]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 496.
 
@@ -3372,18 +3363,18 @@ Package natbib Warning: Citation `tauxe07' undefined on input line 498.
 
 Package natbib Warning: Citation `shaar11' undefined on input line 507.
 
-[617]
+[615]
 
 Package natbib Warning: Citation `paterson14' undefined on input line 523.
 
-[618]) [619] [620
+[616]) [617] [618
 
 ]
 \openout2 = `Chapters/chapter11.aux'.
 
- (./Chapters/chapter11.tex [621
+ (./Chapters/chapter11.tex [619
 
-] [622
+] [620
 
 ]
 Chapter 11.
@@ -3391,112 +3382,112 @@ Chapter 11.
 
 Package natbib Warning: Citation `taylor82' undefined on input line 4.
 
-[623
+[621
 
-] [624] [625
+] [622] [623
 
 ]
-l. 40 Writing WebBook3.idv[284] (WebBook3283x.png)
+l. 40 Writing WebBook3.idv[283] (WebBook3282x.png)
 File: EPSfiles/gauss.eps Graphic file (type eps)
- <EPSfiles/gauss.eps> [626
+ <EPSfiles/gauss.eps> [624
 
-] [627
-
-]
-l. 56 Writing WebBook3.idv[285] (WebBook3284x.png)
-l. 62 Writing WebBook3.idv[286] (WebBook3285x.png)
- [628
+] [625
 
 ]
-l. 86 Writing WebBook3.idv[287] (WebBook3286x.png)
-l. 102 Writing WebBook3.idv[288] (WebBook3287x.png)
+l. 56 Writing WebBook3.idv[284] (WebBook3283x.png)
+l. 62 Writing WebBook3.idv[285] (WebBook3284x.png)
+ [626
+
+]
+l. 86 Writing WebBook3.idv[286] (WebBook3285x.png)
+l. 102 Writing WebBook3.idv[287] (WebBook3286x.png)
+ [627]
+l. 127 Writing WebBook3.idv[288] (WebBook3287x.png)
+ [628]
+l. 151 Writing WebBook3.idv[289] (WebBook3288x.png)
+l. 164 Writing WebBook3.idv[290] (WebBook3289x.png)
  [629]
-l. 127 Writing WebBook3.idv[289] (WebBook3288x.png)
- [630]
-l. 151 Writing WebBook3.idv[290] (WebBook3289x.png)
-l. 164 Writing WebBook3.idv[291] (WebBook3290x.png)
- [631]
-l. 177 Writing WebBook3.idv[292] (WebBook3291x.png)
-l. 181 Writing WebBook3.idv[293] (WebBook3292x.png)
+l. 177 Writing WebBook3.idv[291] (WebBook3290x.png)
+l. 181 Writing WebBook3.idv[292] (WebBook3291x.png)
 
-[632] [633] [634
+[630] [631] [632
 
 ]
-l. 219 Writing WebBook3.idv[294] (WebBook3293x.png)
+l. 219 Writing WebBook3.idv[293] (WebBook3292x.png)
 File: EPSfiles/fisher.eps Graphic file (type eps)
- <EPSfiles/fisher.eps> [635
+ <EPSfiles/fisher.eps> [633
 
 ]
 
 Package natbib Warning: Citation `fisher53' undefined on input line 232.
 
-l. 266 Writing WebBook3.idv[295] (WebBook3294x.png)
-[636
+l. 266 Writing WebBook3.idv[294] (WebBook3293x.png)
+[634
 
-] [637] [638
+] [635] [636
 
 ]
-l. 282 Writing WebBook3.idv[296] (WebBook3295x.png)
+l. 282 Writing WebBook3.idv[295] (WebBook3294x.png)
 File: EPSfiles/P.eps Graphic file (type eps)
- <EPSfiles/P.eps> [639
+ <EPSfiles/P.eps> [637
 
 ]
-l. 290 Writing WebBook3.idv[297] (WebBook3296x.png)
-l. 298 Writing WebBook3.idv[298] (WebBook3297x.png)
- [640
+l. 290 Writing WebBook3.idv[296] (WebBook3295x.png)
+l. 298 Writing WebBook3.idv[297] (WebBook3296x.png)
+ [638
 
 ]
-l. 305 Writing WebBook3.idv[299] (WebBook3298x.png)
-l. 309 Writing WebBook3.idv[300] (WebBook3299x.png)
- [641]
-l. 337 Writing WebBook3.idv[301] (WebBook3300x.png)
-l. 347 Writing WebBook3.idv[302] (WebBook3301x.png)
- [642] [643] [644
+l. 305 Writing WebBook3.idv[298] (WebBook3297x.png)
+l. 309 Writing WebBook3.idv[299] (WebBook3298x.png)
+ [639]
+l. 337 Writing WebBook3.idv[300] (WebBook3299x.png)
+l. 347 Writing WebBook3.idv[301] (WebBook3300x.png)
+ [640] [641] [642
 
 ]
-l. 361 Writing WebBook3.idv[303] (WebBook3302x.png)
+l. 361 Writing WebBook3.idv[302] (WebBook3301x.png)
 File: EPSfiles/vecsum.eps Graphic file (type eps)
 
-<EPSfiles/vecsum.eps> [645
+<EPSfiles/vecsum.eps> [643
 
 ]
-l. 373 Writing WebBook3.idv[304] (WebBook3303x.png)
-l. 385 Writing WebBook3.idv[305] (WebBook3304x.png)
- [646
+l. 373 Writing WebBook3.idv[303] (WebBook3302x.png)
+l. 385 Writing WebBook3.idv[304] (WebBook3303x.png)
+ [644
 
 ]
-l. 393 Writing WebBook3.idv[306] (WebBook3305x.png)
+l. 393 Writing WebBook3.idv[305] (WebBook3304x.png)
 
 
 Package natbib Warning: Citation `tauxe91' undefined on input line 399.
 
-l. 402 Writing WebBook3.idv[307] (WebBook3306x.png)
-[647]
-l. 412 Writing WebBook3.idv[308] (WebBook3307x.png)
-l. 420 Writing WebBook3.idv[309] (WebBook3308x.png)
- [648] [649]
-l. 475 Writing WebBook3.idv[310] (WebBook3309x.png)
-l. 492 Writing WebBook3.idv[311] (WebBook3310x.png)
- [650] [651] [652
+l. 402 Writing WebBook3.idv[306] (WebBook3305x.png)
+[645]
+l. 412 Writing WebBook3.idv[307] (WebBook3306x.png)
+l. 420 Writing WebBook3.idv[308] (WebBook3307x.png)
+ [646] [647]
+l. 475 Writing WebBook3.idv[309] (WebBook3308x.png)
+l. 492 Writing WebBook3.idv[310] (WebBook3309x.png)
+ [648] [649] [650
 
 ]
-l. 501 Writing WebBook3.idv[312] (WebBook3311x.png)
+l. 501 Writing WebBook3.idv[311] (WebBook3310x.png)
 File: EPSfiles/a95-csd.eps Graphic file (type eps)
- <EPSfiles/a95-csd.eps> [653
+ <EPSfiles/a95-csd.eps> [651
 
 ]
 
 Package natbib Warning: Citation `cox60' undefined on input line 523.
 
-l. 526 Writing WebBook3.idv[313] (WebBook3312x.png)
-[654
+l. 526 Writing WebBook3.idv[312] (WebBook3311x.png)
+[652
 
-] [655]
+] [653]
 
 Package natbib Warning: Citation `watson56' undefined on input line 607.
 
-[656]
-l. 619 Writing WebBook3.idv[314] (WebBook3313x.png)
+[654]
+l. 619 Writing WebBook3.idv[313] (WebBook3312x.png)
 
 
 Package natbib Warning: Citation `mcelhinny64' undefined on input line 650.
@@ -3504,24 +3495,24 @@ Package natbib Warning: Citation `mcelhinny64' undefined on input line 650.
 
 Package natbib Warning: Citation `mcfadden81' undefined on input line 653.
 
-[657]
-l. 659 Writing WebBook3.idv[315] (WebBook3314x.png)
- [658] [659] [660
+[655]
+l. 659 Writing WebBook3.idv[314] (WebBook3313x.png)
+ [656] [657] [658
 
 ]
-l. 692 Writing WebBook3.idv[316] (WebBook3315x.png)
+l. 692 Writing WebBook3.idv[315] (WebBook3314x.png)
 File: EPSfiles/twosets.eps Graphic file (type eps)
- <EPSfiles/twosets.eps> [661
+ <EPSfiles/twosets.eps> [659
 
-] [662
+] [660
 
-] [663
+] [661
 
 ]
-l. 713 Writing WebBook3.idv[317] (WebBook3316x.png)
+l. 713 Writing WebBook3.idv[316] (WebBook3315x.png)
 File: EPSfiles/lnp.eps Graphic file (type eps)
 
-<EPSfiles/lnp.eps> [664
+<EPSfiles/lnp.eps> [662
 
 ]
 
@@ -3530,15 +3521,15 @@ Package natbib Warning: Citation `tauxe03b' undefined on input line 727.
 
 Package natbib Warning: Citation `watson56b' undefined on input line 761.
 
-l. 765 Writing WebBook3.idv[318] (WebBook3317x.png)
-[665
+l. 765 Writing WebBook3.idv[317] (WebBook3316x.png)
+[663
 
-] [666] [667
+] [664] [665
 
 ]
-l. 788 Writing WebBook3.idv[319] (WebBook3318x.png)
+l. 788 Writing WebBook3.idv[318] (WebBook3317x.png)
 File: EPSfiles/incfish.eps Graphic file (type eps)
- <EPSfiles/incfish.eps> [668
+ <EPSfiles/incfish.eps> [666
 
 ]
 
@@ -3547,51 +3538,51 @@ Package natbib Warning: Citation `mcfadden82' undefined on input line 794.
 
 Package natbib Warning: Citation `watson83' undefined on input line 801.
 
-[669
+[667
 
 ]
 
 Package natbib Warning: Citation `mcfadden88' undefined on input line 853.
 
-[670] [671] [672
+[668] [669] [670
 
 ]
-l. 896 Writing WebBook3.idv[320] (WebBook3319x.png)
+l. 896 Writing WebBook3.idv[319] (WebBook3318x.png)
 File: EPSfiles/fishrot.eps Graphic file (type eps)
- <EPSfiles/fishrot.eps> [673
+ <EPSfiles/fishrot.eps> [671
 
-] [674
+] [672
+
+] [673
+
+]
+l. 909 Writing WebBook3.idv[320] (WebBook3319x.png)
+File: EPSfiles/unexp.eps Graphic file (type eps)
+
+<EPSfiles/unexp.eps> [674
 
 ] [675
 
-]
-l. 909 Writing WebBook3.idv[321] (WebBook3320x.png)
-File: EPSfiles/unexp.eps Graphic file (type eps)
-
-<EPSfiles/unexp.eps> [676
-
-] [677
-
-] [678] [679
+] [676] [677
 
 ]
-l. 983 Writing WebBook3.idv[322] (WebBook3321x.png)
+l. 983 Writing WebBook3.idv[321] (WebBook3320x.png)
 File: EPSfiles/fishqq.eps Graphic file (type eps)
- <EPSfiles/fishqq.eps> [680
+ <EPSfiles/fishqq.eps> [678
 
 ]
-[681
+[679
 
-] [682] [683]) [684] [685
+] [680] [681]) [682] [683
 
 ]
 \openout2 = `Chapters/chapter12.aux'.
 
- (./Chapters/chapter12.tex [686
+ (./Chapters/chapter12.tex [684
 
-] [687
+] [685
 
-] [688
+] [686
 
 ]
 Chapter 12.
@@ -3605,12 +3596,12 @@ Package natbib Warning: Citation `efron93' undefined on input line 5.
 
 Package natbib Warning: Citation `fisher53' undefined on input line 13.
 
-[689] [690
+[687] [688
 
 ]
-l. 24 Writing WebBook3.idv[323] (WebBook3322x.png)
+l. 24 Writing WebBook3.idv[322] (WebBook3321x.png)
 File: EPSfiles/vgp-di.eps Graphic file (type eps)
- <EPSfiles/vgp-di.eps> [691
+ <EPSfiles/vgp-di.eps> [689
 
 ]
 
@@ -3619,32 +3610,32 @@ Package natbib Warning: Citation `tauxe04d' undefined on input line 27.
 
 Package natbib Warning: Citation `creer83' undefined on input line 38.
 
-[692
+[690
 
 ]
 
 Package natbib Warning: Citation `kent82' undefined on input line 65.
 
-l. 67 Writing WebBook3.idv[324] (WebBook3323x.png)
-[693] [694] [695
+l. 67 Writing WebBook3.idv[323] (WebBook3322x.png)
+[691] [692] [693
 
 ]
-l. 84 Writing WebBook3.idv[325] (WebBook3324x.png)
+l. 84 Writing WebBook3.idv[324] (WebBook3323x.png)
 File: EPSfiles/confidence.eps Graphic file (type eps)
- <EPSfiles/confidence.eps> [696
+ <EPSfiles/confidence.eps> [694
 
 ]
 
 Package natbib Warning: Citation `bingham74' undefined on input line 97.
 
-l. 99 Writing WebBook3.idv[326] (WebBook3325x.png)
+l. 99 Writing WebBook3.idv[325] (WebBook3324x.png)
 
 Package natbib Warning: Citation `onstott80' undefined on input line 109.
 
 
 Package natbib Warning: Citation `borradaile03' undefined on input line 109.
 
-[697
+[695
 
 ]
 
@@ -3656,12 +3647,12 @@ Package natbib Warning: Citation `legoff92' undefined on input line 118.
 
 Package natbib Warning: Citation `kent82' undefined on input line 119.
 
-[698] [699
+[696] [697
 
 ]
-l. 126 Writing WebBook3.idv[327] (WebBook3326x.png)
+l. 126 Writing WebBook3.idv[326] (WebBook3325x.png)
 File: EPSfiles/love.eps Graphic file (type eps)
- <EPSfiles/love.eps> [700
+ <EPSfiles/love.eps> [698
 
 ]
 
@@ -3670,50 +3661,50 @@ Package natbib Warning: Citation `love03' undefined on input line 129.
 
 Package natbib Warning: Citation `love03' undefined on input line 137.
 
-[701
+[699
 
-] [702
+] [700
 
 ]
-l. 144 Writing WebBook3.idv[328] (WebBook3327x.png)
+l. 144 Writing WebBook3.idv[327] (WebBook3326x.png)
 File: EPSfiles/hypeq.eps Graphic file (type eps)
- <EPSfiles/hypeq.eps> [703
+ <EPSfiles/hypeq.eps> [701
 
-] [704
+] [702
 
 ]
 
 Package natbib Warning: Citation `kent82' undefined on input line 189.
 
-[705] [706
+[703] [704
 
 ]
-l. 203 Writing WebBook3.idv[329] (WebBook3328x.png)
+l. 203 Writing WebBook3.idv[328] (WebBook3327x.png)
 File: EPSfiles/twofiles.eps Graphic file (type eps)
- <EPSfiles/twofiles.eps> [707
+ <EPSfiles/twofiles.eps> [705
 
 ]
 
 Package natbib Warning: Citation `tauxe91' undefined on input line 220.
 
-[708
+[706
+
+] [707
+
+]
+l. 244 Writing WebBook3.idv[329] (WebBook3328x.png)
+File: EPSfiles/cdf.eps Graphic file (type eps)
+ <EPSfiles/cdf.eps> [708
 
 ] [709
 
-]
-l. 244 Writing WebBook3.idv[330] (WebBook3329x.png)
-File: EPSfiles/cdf.eps Graphic file (type eps)
- <EPSfiles/cdf.eps> [710
-
-] [711
-
-] [712
+] [710
 
 ]
-l. 295 Writing WebBook3.idv[331] (WebBook3330x.png)
+l. 295 Writing WebBook3.idv[330] (WebBook3329x.png)
 File: EPSfiles/revtest.eps Graphic file (type eps)
  <EPSfiles/revtest.eps>
-[713
+[711
 
 ]
 
@@ -3722,14 +3713,14 @@ Package natbib Warning: Citation `graham49' undefined on input line 322.
 
 Package natbib Warning: Citation `mcelhinny64' undefined on input line 346.
 
-[714
+[712
 
-] [715
+] [713
 
 ]
-l. 360 Writing WebBook3.idv[332] (WebBook3331x.png)
+l. 360 Writing WebBook3.idv[331] (WebBook3330x.png)
 File: EPSfiles/unfolding.eps Graphic file (type eps)
- <EPSfiles/unfolding.eps> [716
+ <EPSfiles/unfolding.eps> [714
 
 ]
 
@@ -3738,7 +3729,7 @@ Package natbib Warning: Citation `mccabe83' undefined on input line 381.
 
 Package natbib Warning: Citation `tauxe94' undefined on input line 402.
 
-[717
+[715
 
 ]
 
@@ -3750,16 +3741,16 @@ Package natbib Warning: Citation `mccabe83' undefined on input line 448.
 
 Package natbib Warning: Citation `fisher87' undefined on input line 451.
 
-[718] [719]) [720] [721
+[716] [717]) [718] [719
 
 ]
 \openout2 = `Chapters/chapter13.aux'.
 
- (./Chapters/chapter13.tex [722
+ (./Chapters/chapter13.tex [720
 
-] [723
+] [721
 
-] [724
+] [722
 
 ]
 Chapter 13.
@@ -3773,46 +3764,46 @@ Package natbib Warning: Citation `tarling93' undefined on input line 6.
 
 Package natbib Warning: Citation `collinson83' undefined on input line 7.
 
-[725] [726
+[723] [724
 
 ]
-l. 25 Writing WebBook3.idv[333] (WebBook3332x.png)
+l. 25 Writing WebBook3.idv[332] (WebBook3331x.png)
 File: EPSfiles/measAMS.eps Graphic file (type eps)
- <EPSfiles/measAMS.eps> [727
+ <EPSfiles/measAMS.eps> [725
 
 ]
-l. 46 Writing WebBook3.idv[334] (WebBook3333x.png)
- [728
+l. 46 Writing WebBook3.idv[333] (WebBook3332x.png)
+ [726
 
 ]
-l. 70 Writing WebBook3.idv[335] (WebBook3334x.png)
-l. 79 Writing WebBook3.idv[336] (WebBook3335x.png)
+l. 70 Writing WebBook3.idv[334] (WebBook3333x.png)
+l. 79 Writing WebBook3.idv[335] (WebBook3334x.png)
+ [727]
+l. 99 Writing WebBook3.idv[336] (WebBook3335x.png)
+l. 106 Writing WebBook3.idv[337] (WebBook3336x.png)
+ [728]
+l. 121 Writing WebBook3.idv[338] (WebBook3337x.png)
+l. 128 Writing WebBook3.idv[339] (WebBook3338x.png)
  [729]
-l. 99 Writing WebBook3.idv[337] (WebBook3336x.png)
-l. 106 Writing WebBook3.idv[338] (WebBook3337x.png)
- [730]
-l. 121 Writing WebBook3.idv[339] (WebBook3338x.png)
-l. 128 Writing WebBook3.idv[340] (WebBook3339x.png)
- [731]
-l. 150 Writing WebBook3.idv[341] (WebBook3340x.png)
- [732] [733]
-[734
+l. 150 Writing WebBook3.idv[340] (WebBook3339x.png)
+ [730] [731]
+[732
 
 ]
-l. 172 Writing WebBook3.idv[342] (WebBook3341x.png)
+l. 172 Writing WebBook3.idv[341] (WebBook3340x.png)
 File: EPSfiles/magnitude.eps Graphic file (type eps)
- <EPSfiles/magnitude.eps> [735
+ <EPSfiles/magnitude.eps> [733
 
 ]
-l. 183 Writing WebBook3.idv[343] (WebBook3342x.png)
+l. 183 Writing WebBook3.idv[342] (WebBook3341x.png)
 
 
 Package natbib Warning: Citation `nye57' undefined on input line 197.
 
-l. 209 Writing WebBook3.idv[344] (WebBook3343x.png)
-[736
+l. 209 Writing WebBook3.idv[343] (WebBook3342x.png)
+[734
 
-] [737]
+] [735]
 
 Package natbib Warning: Citation `hext63' undefined on input line 272.
 
@@ -3825,51 +3816,51 @@ Package natbib Warning: Citation `constable90' undefined on input line 276.
 
 Package natbib Warning: Citation `hext63' undefined on input line 279.
 
-l. 289 Writing WebBook3.idv[345] (WebBook3344x.png)
-[738]
-l. 296 Writing WebBook3.idv[346] (WebBook3345x.png)
-l. 302 Writing WebBook3.idv[347] (WebBook3346x.png)
- [739] [740] [741
+l. 289 Writing WebBook3.idv[344] (WebBook3343x.png)
+[736]
+l. 296 Writing WebBook3.idv[345] (WebBook3344x.png)
+l. 302 Writing WebBook3.idv[346] (WebBook3345x.png)
+ [737] [738] [739
 
 ]
-l. 313 Writing WebBook3.idv[348] (WebBook3347x.png)
+l. 313 Writing WebBook3.idv[347] (WebBook3346x.png)
 File: EPSfiles/eij.eps Graphic file (type eps)
- <EPSfiles/eij.eps> [742
+ <EPSfiles/eij.eps> [740
 
 ]
 
 Package natbib Warning: Citation `tauxe98' undefined on input line 321.
 
 
-LaTeX Warning: Reference `fig:AMSspin' on page 743 undefined on input line 327.
+LaTeX Warning: Reference `fig:AMSspin' on page 741 undefined on input line 327.
 
 
 
 Package natbib Warning: Citation `gee08' undefined on input line 331.
 
 
-LaTeX Warning: Reference `app:AMSspin' on page 743 undefined on input line 332.
+LaTeX Warning: Reference `app:AMSspin' on page 741 undefined on input line 332.
 
 
-l. 337 Writing WebBook3.idv[349] (WebBook3348x.png)
-l. 344 Writing WebBook3.idv[350] (WebBook3349x.png)
-[743
+l. 337 Writing WebBook3.idv[348] (WebBook3347x.png)
+l. 344 Writing WebBook3.idv[349] (WebBook3348x.png)
+[741
 
 ]
-l. 349 Writing WebBook3.idv[351] (WebBook3350x.png)
+l. 349 Writing WebBook3.idv[350] (WebBook3349x.png)
+ [742]
+l. 397 Writing WebBook3.idv[351] (WebBook3350x.png)
+ [743]
+l. 411 Writing WebBook3.idv[352] (WebBook3351x.png)
+l. 429 Writing WebBook3.idv[353] (WebBook3352x.png)
  [744]
-l. 397 Writing WebBook3.idv[352] (WebBook3351x.png)
- [745]
-l. 411 Writing WebBook3.idv[353] (WebBook3352x.png)
-l. 429 Writing WebBook3.idv[354] (WebBook3353x.png)
- [746]
-l. 438 Writing WebBook3.idv[355] (WebBook3354x.png)
- [747] [748] [749
+l. 438 Writing WebBook3.idv[354] (WebBook3353x.png)
+ [745] [746] [747
 
 ]
-l. 486 Writing WebBook3.idv[356] (WebBook3355x.png)
+l. 486 Writing WebBook3.idv[355] (WebBook3354x.png)
 File: EPSfiles/evec.eps Graphic file (type eps)
- <EPSfiles/evec.eps> [750
+ <EPSfiles/evec.eps> [748
 
 ]
 
@@ -3878,31 +3869,31 @@ Package natbib Warning: Citation `tauxe98b' undefined on input line 497.
 
 Package natbib Warning: Citation `tauxe98b' undefined on input line 502.
 
-[751
+[749
 
 ]
 
 Package natbib Warning: Citation `tauxe98b' undefined on input line 557.
 
-[752] [753
+[750] [751
 
 ]
-l. 563 Writing WebBook3.idv[357] (WebBook3356x.png)
+l. 563 Writing WebBook3.idv[356] (WebBook3355x.png)
 File: EPSfiles/kmin.eps Graphic file (type eps)
- <EPSfiles/kmin.eps> [754
+ <EPSfiles/kmin.eps> [752
 
 ]
 
 Package natbib Warning: Citation `cronin01' undefined on input line 574.
 
-[755
+[753
 
-] [756
+] [754
 
 ]
-l. 617 Writing WebBook3.idv[358] (WebBook3357x.png)
+l. 617 Writing WebBook3.idv[357] (WebBook3356x.png)
 File: EPSfiles/dikeams.eps Graphic file (type eps)
- <EPSfiles/dikeams.eps> [757
+ <EPSfiles/dikeams.eps> [755
 
 ]
 
@@ -3920,26 +3911,26 @@ Package natbib Warning: Citation `hargraves91' undefined on input line 635.
 
 Package natbib Warning: Citation `tarling93' undefined on input line 653.
 
-[758
+[756
+
+] [757
+
+]
+l. 667 Writing WebBook3.idv[358] (WebBook3357x.png)
+File: EPSfiles/sedams.eps Graphic file (type eps)
+ <EPSfiles/sedams.eps> [758
 
 ] [759
 
-]
-l. 667 Writing WebBook3.idv[359] (WebBook3358x.png)
-File: EPSfiles/sedams.eps Graphic file (type eps)
- <EPSfiles/sedams.eps> [760
-
-] [761
-
-] [762
+] [760
 
 ]
-l. 682 Writing WebBook3.idv[360] (WebBook3359x.png)
+l. 682 Writing WebBook3.idv[359] (WebBook3358x.png)
 File: EPSfiles/shape.eps Graphic file (type eps)
  <EPSfiles/shape.eps>
-[763
+[761
 
-] [764
+] [762
 
 ]
 
@@ -3966,33 +3957,33 @@ Package natbib Warning: Citation `jelinek81' undefined on input line 785.
 
 Package natbib Warning: Citation `woodcock77' undefined on input line 789.
 
-[765] [766
+[763] [764
 
 ]
-l. 797 Writing WebBook3.idv[361] (WebBook3360x.png)
+l. 797 Writing WebBook3.idv[360] (WebBook3359x.png)
 File: EPSfiles/diags.eps Graphic file (type eps)
- <EPSfiles/diags.eps> [767
+ <EPSfiles/diags.eps> [765
 
 ]
 
 Package natbib Warning: Citation `tarling93' undefined on input line 827.
 
-[768
+[766
+
+] [767
+
+]
+l. 846 Writing WebBook3.idv[361] (WebBook3360x.png)
+File: EPSfiles/ternaryams.eps Graphic file (type eps)
+ <EPSfiles/ternaryams.eps> [768
 
 ] [769
 
-]
-l. 846 Writing WebBook3.idv[362] (WebBook3361x.png)
-File: EPSfiles/ternaryams.eps Graphic file (type eps)
- <EPSfiles/ternaryams.eps> [770
-
-] [771
-
-] [772
+] [770
 
 ]
-l. 885 Writing WebBook3.idv[363] (WebBook3362x.png)
- [773
+l. 885 Writing WebBook3.idv[362] (WebBook3361x.png)
+ [771
 
 ]
 
@@ -4001,48 +3992,48 @@ Package natbib Warning: Citation `aitken81' undefined on input line 906.
 
 Package natbib Warning: Citation `jackson91' undefined on input line 908.
 
-[774
+[772
 
 ]
 
 Package natbib Warning: Citation `selkin00b' undefined on input line 925.
 
-l. 930 Writing WebBook3.idv[364] (WebBook3363x.png)
-[775]
-l. 936 Writing WebBook3.idv[365] (WebBook3364x.png)
-l. 944 Writing WebBook3.idv[366] (WebBook3365x.png)
- [776]
+l. 930 Writing WebBook3.idv[363] (WebBook3362x.png)
+[773]
+l. 936 Writing WebBook3.idv[364] (WebBook3363x.png)
+l. 944 Writing WebBook3.idv[365] (WebBook3364x.png)
+ [774]
 
 Package natbib Warning: Citation `king55' undefined on input line 952.
 
 
 Package natbib Warning: Citation `jackson91' undefined on input line 955.
 
-l. 958 Writing WebBook3.idv[367] (WebBook3366x.png)
+l. 958 Writing WebBook3.idv[366] (WebBook3365x.png)
 
 Package natbib Warning: Citation `levi76' undefined on input line 969.
 
-[777]
+[775]
 
 Package natbib Warning: Citation `vaughn05' undefined on input line 980.
 
 
 Package natbib Warning: Citation `lebti08' undefined on input line 981.
 
-[778] [779] [780]
+[776] [777] [778]
 
 Package natbib Warning: Citation `schwehr03' undefined on input line 1041.
 
-) [781] [782] [783
+) [779] [780] [781
 
 ]
 \openout2 = `Chapters/chapter14.aux'.
 
- (./Chapters/chapter14.tex [784
+ (./Chapters/chapter14.tex [782
 
-] [785
+] [783
 
-] [786
+] [784
 
 ]
 Chapter 14.
@@ -4053,8 +4044,8 @@ Package natbib Warning: Citation `kono07' undefined on input line 6.
 
 Package natbib Warning: Citation `merrill96' undefined on input line 7.
 
-[787]
-l. 29 Writing WebBook3.idv[368] (WebBook3367x.png)
+[785]
+l. 29 Writing WebBook3.idv[367] (WebBook3366x.png)
 File: EPSfiles/c14.eps Graphic file (type eps)
  <EPSfiles/c14.eps>
 
@@ -4069,7 +4060,7 @@ Package natbib Warning: Citation `masarik99' undefined on input line 33.
 
 Package natbib Warning: Citation `glatzmaier99' undefined on input line 39.
 
-[788]
+[786]
 
 Package natbib Warning: Citation `glatzmaier96' undefined on input line 47.
 
@@ -4079,12 +4070,12 @@ Package natbib Warning: Citation `song96' undefined on input line 50.
 
 Package natbib Warning: Citation `hulot02' undefined on input line 62.
 
-[789] [790] [791
+[787] [788] [789
 
 ]
-l. 68 Writing WebBook3.idv[369] (WebBook3368x.png)
+l. 68 Writing WebBook3.idv[368] (WebBook3367x.png)
 File: EPSfiles/chinesecompass.eps Graphic file (type eps)
- <EPSfiles/chinesecompass.eps> [792
+ <EPSfiles/chinesecompass.eps> [790
 
 ]
 
@@ -4093,14 +4084,14 @@ Package natbib Warning: Citation `wang48' undefined on input line 71.
 
 Package natbib Warning: Citation `smith67' undefined on input line 71.
 
-[793
+[791
 
-] [794] [795
+] [792] [793
 
 ]
-l. 89 Writing WebBook3.idv[370] (WebBook3369x.png)
+l. 89 Writing WebBook3.idv[369] (WebBook3368x.png)
 File: EPSfiles/halley.eps Graphic file (type eps)
- <EPSfiles/halley.eps> [796
+ <EPSfiles/halley.eps> [794
 
 ]
 
@@ -4109,34 +4100,34 @@ Package natbib Warning: Citation `cook01' undefined on input line 92.
 
 Package natbib Warning: Citation `needham62' undefined on input line 97.
 
-l. 108 Writing WebBook3.idv[371] (WebBook3370x.png)
-[797
+l. 108 Writing WebBook3.idv[370] (WebBook3369x.png)
+[795
 
-] [798] [799
+] [796] [797
 
 ]
-l. 120 Writing WebBook3.idv[372] (WebBook3371x.png)
+l. 120 Writing WebBook3.idv[371] (WebBook3370x.png)
 File: EPSfiles/gufm1.eps Graphic file (type eps)
- <EPSfiles/gufm1.eps> [800
+ <EPSfiles/gufm1.eps> [798
 
 ]
 
 Package natbib Warning: Citation `reeves18' undefined on input line 128.
 
-[801
+[799
 
-] [802
+] [800
 
 ]
-l. 142 Writing WebBook3.idv[373] (WebBook3372x.png)
+l. 142 Writing WebBook3.idv[372] (WebBook3371x.png)
 File: EPSfiles/psvmod.eps Graphic file (type eps)
- <EPSfiles/psvmod.eps> [803
+ <EPSfiles/psvmod.eps> [801
 
 ]
 
 Package natbib Warning: Citation `jackson00' undefined on input line 154.
 
-[804
+[802
 
 ]
 
@@ -4164,12 +4155,12 @@ Package natbib Warning: Citation `mcdougall63' undefined on input line 182.
 
 Package natbib Warning: Citation `johnson48' undefined on input line 190.
 
-[805] [806
+[803] [804
 
 ]
-l. 195 Writing WebBook3.idv[374] (WebBook3373x.png)
+l. 195 Writing WebBook3.idv[373] (WebBook3372x.png)
 File: EPSfiles/wilsoncreek.eps Graphic file (type eps)
- <EPSfiles/wilsoncreek.eps> [807
+ <EPSfiles/wilsoncreek.eps> [805
 
 ]
 
@@ -4199,47 +4190,47 @@ Package natbib Warning: Citation `korhonen08' undefined on input line 243.
 
 Package natbib Warning: Citation `genevey08' undefined on input line 243.
 
-[808
+[806
 
 ]
 
 Package natbib Warning: Citation `yukutake67' undefined on input line 250.
 
-[809] [810
+[807] [808
 
 ]
-l. 256 Writing WebBook3.idv[375] (WebBook3374x.png)
+l. 256 Writing WebBook3.idv[374] (WebBook3373x.png)
 File: EPSfiles/sint800.eps Graphic file (type eps)
- <EPSfiles/sint800.eps> [811
+ <EPSfiles/sint800.eps> [809
 
 ]
 
 Package natbib Warning: Citation `guyodo99' undefined on input line 259.
 
-[812
+[810
 
-] [813
+] [811
 
 ]
-l. 283 Writing WebBook3.idv[376] (WebBook3375x.png)
+l. 283 Writing WebBook3.idv[375] (WebBook3374x.png)
 File: EPSfiles/sedpint.eps Graphic file (type eps)
- <EPSfiles/sedpint.eps> [814
+ <EPSfiles/sedpint.eps> [812
 
-] [815]
+] [813]
 
 Package natbib Warning: Citation `laj07' undefined on input line 306.
 
 
 Package natbib Warning: Citation `guyodo99' undefined on input line 316.
 
-[816
+[814
 
-] [817] [818
+] [815] [816
 
 ]
-l. 321 Writing WebBook3.idv[377] (WebBook3376x.png)
+l. 321 Writing WebBook3.idv[376] (WebBook3375x.png)
 File: EPSfiles/919.eps Graphic file (type eps)
- <EPSfiles/919.eps> [819
+ <EPSfiles/919.eps> [817
 
 ]
 
@@ -4275,7 +4266,7 @@ Package natbib Warning: Citation `wagner00' undefined on input line 359.
 
 Package natbib Warning: Citation `wagner00b' undefined on input line 359.
 
-[820
+[818
 
 ]
 
@@ -4284,22 +4275,22 @@ Package natbib Warning: Citation `tauxe07' undefined on input line 364.
 
 Package natbib Warning: Citation `channell06' undefined on input line 369.
 
-[821] [822
+[819] [820
 
 ]
-l. 374 Writing WebBook3.idv[378] (WebBook3377x.png)
+l. 374 Writing WebBook3.idv[377] (WebBook3376x.png)
 File: EPSfiles/reversals.eps Graphic file (type eps)
- <EPSfiles/reversals.eps> [823
+ <EPSfiles/reversals.eps> [821
 
-] [824
+] [822
 
-] [825
+] [823
 
 ]
-l. 397 Writing WebBook3.idv[379] (WebBook3378x.png)
+l. 397 Writing WebBook3.idv[378] (WebBook3377x.png)
 File: EPSfiles/vgpspint.eps Graphic file (type eps)
  <EPSfiles/vgpspint.eps>
-[826
+[824
 
 ]
 
@@ -4317,37 +4308,37 @@ Package natbib Warning: Citation `clement84' undefined on input line 416.
 
 Package natbib Warning: Citation `clement04' undefined on input line 423.
 
-[827
+[825
 
-] [828
+] [826
 
 ]
-l. 437 Writing WebBook3.idv[380] (WebBook3379x.png)
+l. 437 Writing WebBook3.idv[379] (WebBook3378x.png)
 File: EPSfiles/gpts.eps Graphic file (type eps)
- <EPSfiles/gpts.eps> [829
+ <EPSfiles/gpts.eps> [827
 
 ]
 
 Package natbib Warning: Citation `constable03' undefined on input line 475.
 
-[830
+[828
+
+] [829
+
+]
+l. 487 Writing WebBook3.idv[380] (WebBook3379x.png)
+File: EPSfiles/hk02.eps Graphic file (type eps)
+ <EPSfiles/hk02.eps> [830
 
 ] [831
 
-]
-l. 487 Writing WebBook3.idv[381] (WebBook3380x.png)
-File: EPSfiles/hk02.eps Graphic file (type eps)
- <EPSfiles/hk02.eps> [832
-
-] [833
-
-] [834] [835
+] [832] [833
 
 ]
-l. 512 Writing WebBook3.idv[382] (WebBook3381x.png)
+l. 512 Writing WebBook3.idv[381] (WebBook3380x.png)
 File: EPSfiles/tangent.eps Graphic file (type eps)
  <EPSfiles/tangent.eps>
-[836
+[834
 
 ]
 
@@ -4356,7 +4347,7 @@ Package natbib Warning: Citation `lawrence08' undefined on input line 525.
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 525.
 
-[837
+[835
 
 ]
 
@@ -4365,14 +4356,14 @@ Package natbib Warning: Citation `tauxe07' undefined on input line 531.
 
 Package natbib Warning: Citation `perrin04' undefined on input line 536.
 
-[838
+[836
 
-] [839
+] [837
 
 ]
-l. 546 Writing WebBook3.idv[383] (WebBook3382x.png)
+l. 546 Writing WebBook3.idv[382] (WebBook3381x.png)
 File: EPSfiles/sbg-lava.eps Graphic file (type eps)
- <EPSfiles/sbg-lava.eps> [840
+ <EPSfiles/sbg-lava.eps> [838
 
 ]
 
@@ -4387,41 +4378,41 @@ Package natbib Warning: Citation `busse83' undefined on input line 572.
 
 Package natbib Warning: Citation `prevot90' undefined on input line 594.
 
-[841
+[839
 
-] [842
+] [840
 
 ]
-l. 609 Writing WebBook3.idv[384] (WebBook3383x.png)
+l. 609 Writing WebBook3.idv[383] (WebBook3382x.png)
 File: EPSfiles/psvrl.eps Graphic file (type eps)
- <EPSfiles/psvrl.eps> [843
+ <EPSfiles/psvrl.eps> [841
 
 ]
 
 Package natbib Warning: Citation `tauxe04' undefined on input line 615.
 
-[844
+[842
 
-] [845
+] [843
 
 ]
-l. 620 Writing WebBook3.idv[385] (WebBook3384x.png)
+l. 620 Writing WebBook3.idv[384] (WebBook3383x.png)
 File: EPSfiles/bell.eps Graphic file (type eps)
- <EPSfiles/bell.eps> [846
+ <EPSfiles/bell.eps> [844
 
 ]
-l. 645 Writing WebBook3.idv[386] (WebBook3385x.png)
- [847
+l. 645 Writing WebBook3.idv[385] (WebBook3384x.png)
+ [845
 
 ]
 
 Package natbib Warning: Citation `mcelhinny97' undefined on input line 658.
 
-l. 660 Writing WebBook3.idv[387] (WebBook3386x.png)
+l. 660 Writing WebBook3.idv[386] (WebBook3385x.png)
 
 Package natbib Warning: Citation `vandamme94' undefined on input line 668.
 
-[848]
+[846]
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 675.
 
@@ -4434,24 +4425,24 @@ Package natbib Warning: Citation `irving63' undefined on input line 683.
 
 Package natbib Warning: Citation `fisher53' undefined on input line 683.
 
-[849] [850
+[847] [848
 
 ]
-l. 694 Writing WebBook3.idv[388] (WebBook3387x.png)
+l. 694 Writing WebBook3.idv[387] (WebBook3386x.png)
 File: EPSfiles/tk03.eps Graphic file (type eps)
- <EPSfiles/tk03.eps> [851
+ <EPSfiles/tk03.eps> [849
 
-] [852] [853
+] [850] [851
 
 ]
 
-Package natbib Warning: Citation `mcfadden88' on page 854 undefined on input li
+Package natbib Warning: Citation `mcfadden88' on page 852 undefined on input li
 ne 703.
 
 
 Package natbib Warning: Citation `roberts72' undefined on input line 703.
 
-l. 704 Writing WebBook3.idv[389] (WebBook3388x.png)
+l. 704 Writing WebBook3.idv[388] (WebBook3387x.png)
 
 Package natbib Warning: Citation `mcfadden88' undefined on input line 711.
 
@@ -4461,11 +4452,11 @@ Package natbib Warning: Citation `mcelhinny97' undefined on input line 713.
 
 Package natbib Warning: Citation `constable88' undefined on input line 719.
 
-[854
+[852
 
 ]
-l. 723 Writing WebBook3.idv[390] (WebBook3389x.png)
- [855] [856]
+l. 723 Writing WebBook3.idv[389] (WebBook3388x.png)
+ [853] [854]
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 752.
 
@@ -4475,24 +4466,24 @@ Package natbib Warning: Citation `johnson08' undefined on input line 752.
 
 Package natbib Warning: Citation `jackson00' undefined on input line 760.
 
-[857]
+[855]
 
 Package natbib Warning: Citation `lawrence08' undefined on input line 784.
 
-[858]
+[856]
 
 Package natbib Warning: Citation `johnson08' undefined on input line 797.
 
-[859]) [860] [861
+[857]) [858] [859
 
 ]
 \openout2 = `Chapters/chapter15.aux'.
 
- (./Chapters/chapter15.tex [862
+ (./Chapters/chapter15.tex [860
 
-] [863
+] [861
 
-] [864
+] [862
 
 ]
 Chapter 15.
@@ -4506,35 +4497,35 @@ Package natbib Warning: Citation `cox63' undefined on input line 27.
 
 Package natbib Warning: Citation `cox64' undefined on input line 27.
 
-[865] [866] [867
+[863] [864] [865
 
 ]
-l. 32 Writing WebBook3.idv[391] (WebBook3390x.png)
+l. 32 Writing WebBook3.idv[390] (WebBook3389x.png)
 File: EPSfiles/cox64.eps Graphic file (type eps)
- <EPSfiles/cox64.eps> [868
+ <EPSfiles/cox64.eps> [866
 
 ]
 
 Package natbib Warning: Citation `cox64' undefined on input line 35.
 
-[869
+[867
+
+] [868
+
+]
+l. 59 Writing WebBook3.idv[391] (WebBook3390x.png)
+File: EPSfiles/mason61.eps Graphic file (type eps)
+ <EPSfiles/mason61.eps> [869
 
 ] [870
 
-]
-l. 59 Writing WebBook3.idv[392] (WebBook3391x.png)
-File: EPSfiles/mason61.eps Graphic file (type eps)
- <EPSfiles/mason61.eps> [871
-
-] [872
-
-] [873
+] [871
 
 ]
-l. 77 Writing WebBook3.idv[393] (WebBook3392x.png)
+l. 77 Writing WebBook3.idv[392] (WebBook3391x.png)
 File: EPSfiles/pitman66.eps Graphic file (type eps)
  <EPSfiles/pitman66.eps>
-[874
+[872
 
 ]
 
@@ -4555,14 +4546,14 @@ Package natbib Warning: Citation `heirtzler68' undefined on input line 99.
 
 Package natbib Warning: Citation `cande95' undefined on input line 102.
 
-[875
+[873
 
-] [876
+] [874
 
 ]
-l. 108 Writing WebBook3.idv[394] (WebBook3393x.png)
+l. 108 Writing WebBook3.idv[393] (WebBook3392x.png)
 File: EPSfiles/opdyke66.eps Graphic file (type eps)
- <EPSfiles/opdyke66.eps> [877
+ <EPSfiles/opdyke66.eps> [875
 
 ]
 
@@ -4577,14 +4568,14 @@ Package natbib Warning: Citation `harrison66' undefined on input line 121.
 
 Package natbib Warning: Citation `opdyke66' undefined on input line 121.
 
-[878
+[876
 
-] [879
+] [877
 
 ]
-l. 127 Writing WebBook3.idv[395] (WebBook3394x.png)
+l. 127 Writing WebBook3.idv[394] (WebBook3393x.png)
 File: EPSfiles/opdyke74.eps Graphic file (type eps)
- <EPSfiles/opdyke74.eps> [880
+ <EPSfiles/opdyke74.eps> [878
 
 ]
 
@@ -4605,7 +4596,7 @@ Package natbib Warning: Citation `channell95' undefined on input line 162.
 
 Package natbib Warning: Citation `tivey06' undefined on input line 162.
 
-[881
+[879
 
 ]
 
@@ -4614,12 +4605,12 @@ Package natbib Warning: Citation `shackleton90' undefined on input line 172.
 
 Package natbib Warning: Citation `hilgen91' undefined on input line 172.
 
-[882] [883
+[880] [881
 
 ]
-l. 177 Writing WebBook3.idv[396] (WebBook3395x.png)
+l. 177 Writing WebBook3.idv[395] (WebBook3394x.png)
 File: EPSfiles/hilgen91.eps Graphic file (type eps)
- <EPSfiles/hilgen91.eps> [884
+ <EPSfiles/hilgen91.eps> [882
 
 ]
 
@@ -4631,26 +4622,26 @@ Package natbib Warning: Citation `alvarez77' undefined on input line 189.
 
 Package natbib Warning: Citation `vanhinte76' undefined on input line 191.
 
-[885
+[883
 
-] [886
+] [884
 
 ]
-l. 202 Writing WebBook3.idv[397] (WebBook3396x.png)
+l. 202 Writing WebBook3.idv[396] (WebBook3395x.png)
 File: EPSfiles/newark.eps Graphic file (type eps)
- <EPSfiles/newark.eps> [887
+ <EPSfiles/newark.eps> [885
 
-] [888] [889
+] [886] [887
 
-] [890
+] [888
 
 ]
-l. 212 Writing WebBook3.idv[398] (WebBook3397x.png)
+l. 212 Writing WebBook3.idv[397] (WebBook3396x.png)
 File: EPSfiles/neogene.eps Graphic file (type eps)
 
-<EPSfiles/neogene.eps> [891
+<EPSfiles/neogene.eps> [889
 
-] [892] [893] [894
+] [890] [891] [892
 
 ]
 
@@ -4677,7 +4668,7 @@ Package natbib Warning: Citation `gradstein04' undefined on input line 253.
 
 Package natbib Warning: Citation `gee07' undefined on input line 256.
 
-[895
+[893
 
 ]
 
@@ -4701,25 +4692,25 @@ Package natbib Warning: Citation `cande95' undefined on input line 281.
 
 Package natbib Warning: Citation `lowrie04' undefined on input line 281.
 
-[896] [897] [898
+[894] [895] [896
 
 ]
-l. 293 Writing WebBook3.idv[399] (WebBook3398x.png)
+l. 293 Writing WebBook3.idv[398] (WebBook3397x.png)
 File: EPSfiles/spreadingrate.eps Graphic file (type eps)
- <EPSfiles/spreadingrate.eps> [899
+ <EPSfiles/spreadingrate.eps> [897
 
 ]
 
 Package natbib Warning: Citation `opdyke96' undefined on input line 333.
 
-[900
+[898
 
-] [901] [902] [903
+] [899] [900] [901
 
 ]
-l. 384 Writing WebBook3.idv[400] (WebBook3399x.png)
+l. 384 Writing WebBook3.idv[399] (WebBook3398x.png)
 File: EPSfiles/isochron.eps Graphic file (type eps)
- <EPSfiles/isochron.eps> [904
+ <EPSfiles/isochron.eps> [902
 
 ]
 
@@ -4743,7 +4734,7 @@ Package natbib Warning: Citation `gradstein04' undefined on input line 426.
 
 Package natbib Warning: Citation `gee07' undefined on input line 428.
 
-[905
+[903
 
 ]
 
@@ -4755,18 +4746,18 @@ Package natbib Warning: Citation `cande95' undefined on input line 431.
 
 Package natbib Warning: Citation `channell95' undefined on input line 431.
 
-[906] [907]
+[904] [905]
 
 Package natbib Warning: Citation `tauxe97' undefined on input line 572.
 
-[908]) [909] [910
+[906]) [907] [908
 
 ]
 \openout2 = `Chapters/chapter16.aux'.
 
- (./Chapters/chapter16.tex [911
+ (./Chapters/chapter16.tex [909
 
-] [912
+] [910
 
 ]
 Chapter 16.
@@ -4780,39 +4771,39 @@ Package natbib Warning: Citation `hospers55' undefined on input line 16.
 
 Package natbib Warning: Citation `irving58' undefined on input line 16.
 
-[913
+[911
 
-] [914
+] [912
 
 ]
-l. 25 Writing WebBook3.idv[401] (WebBook3400x.png)
+l. 25 Writing WebBook3.idv[400] (WebBook3399x.png)
 File: EPSfiles/wandering.eps Graphic file (type eps)
- <EPSfiles/wandering.eps> [915
+ <EPSfiles/wandering.eps> [913
 
 ]
-l. 35 Writing WebBook3.idv[402] (WebBook3401x.png)
+l. 35 Writing WebBook3.idv[401] (WebBook3400x.png)
 
 
 Package natbib Warning: Citation `demets94' undefined on input line 42.
 
-[916
+[914
 
-] [917] [918
+] [915] [916
 
 ]
-l. 48 Writing WebBook3.idv[403] (WebBook3402x.png)
+l. 48 Writing WebBook3.idv[402] (WebBook3401x.png)
 File: EPSfiles/plates.eps Graphic file (type eps)
- <EPSfiles/plates.eps> [919
+ <EPSfiles/plates.eps> [917
 
-] [920
+] [918
 
-] [921
+] [919
 
 ]
-l. 57 Writing WebBook3.idv[404] (WebBook3403x.png)
+l. 57 Writing WebBook3.idv[403] (WebBook3402x.png)
 File: EPSfiles/finrot.eps Graphic file (type eps)
 
-<EPSfiles/finrot.eps> [922
+<EPSfiles/finrot.eps> [920
 
 ]
 
@@ -4821,22 +4812,22 @@ Package natbib Warning: Citation `bullard65' undefined on input line 71.
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 75.
 
-[923
+[921
 
 ]
-l. 81 Writing WebBook3.idv[405] (WebBook3404x.png)
- [924] [925
+l. 81 Writing WebBook3.idv[404] (WebBook3403x.png)
+ [922] [923
 
 ]
-l. 91 Writing WebBook3.idv[406] (WebBook3405x.png)
+l. 91 Writing WebBook3.idv[405] (WebBook3404x.png)
 File: EPSfiles/polarity.eps Graphic file (type eps)
- <EPSfiles/polarity.eps> [926
+ <EPSfiles/polarity.eps> [924
 
 ]
-l. 118 Writing WebBook3.idv[407] (WebBook3406x.png)
+l. 118 Writing WebBook3.idv[406] (WebBook3405x.png)
 File: EPSfiles/poles-aus.eps Graphic file (type eps)
  <EPSfiles/poles-aus.eps>
-[927
+[925
 
 ]
 
@@ -4851,12 +4842,12 @@ Package natbib Warning: Citation `besse02' undefined on input line 138.
 
 Package natbib Warning: Citation `butler92' undefined on input line 153.
 
-[928]
+[926]
 
 Package natbib Warning: Citation `mcelhinny00' undefined on input line 160.
 
-[929]
-l. 179 Writing WebBook3.idv[408] (WebBook3407x.png)
+[927]
+l. 179 Writing WebBook3.idv[407] (WebBook3406x.png)
 File: EPSfiles/mkapwp.eps Graphic file (type eps)
  <EPSfiles/mkapwp.eps>
 
@@ -4865,21 +4856,21 @@ Package natbib Warning: Citation `besse02' undefined on input line 182.
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 182.
 
-[930]
+[928]
 
 Package natbib Warning: Citation `jupp87' undefined on input line 218.
 
-l. 225 Writing WebBook3.idv[409] (WebBook3408x.png)
+l. 225 Writing WebBook3.idv[408] (WebBook3407x.png)
 File: EPSfiles/PEP.eps Graphic file (type eps)
-<EPSfiles/PEP.eps> [931]
+<EPSfiles/PEP.eps> [929]
 
 Package natbib Warning: Citation `gordon84' undefined on input line 236.
 
 
 Package natbib Warning: Citation `may86' undefined on input line 239.
 
-[932]
-l. 263 Writing WebBook3.idv[410] (WebBook3409x.png)
+[930]
+l. 263 Writing WebBook3.idv[409] (WebBook3408x.png)
 File: EPSfiles/APWP.eps Graphic file (type eps)
  <EPSfiles/APWP.eps>
 
@@ -4888,22 +4879,22 @@ Package natbib Warning: Citation `torsvik08' undefined on input line 267.
 
 Package natbib Warning: Citation `besse02' undefined on input line 267.
 
-l. 273 Writing WebBook3.idv[411] (WebBook3410x.png)
+l. 273 Writing WebBook3.idv[410] (WebBook3409x.png)
 File: EPSfiles/triangulation.eps Graphic file (type eps)
-<EPSfiles/triangulation.eps> [933]
-l. 309 Writing WebBook3.idv[412] (WebBook3411x.png)
+<EPSfiles/triangulation.eps> [931]
+l. 309 Writing WebBook3.idv[411] (WebBook3410x.png)
 File: EPSfiles/gondwana-apwp.eps Graphic file (type eps)
- <EPSfiles/gondwana-apwp.eps> [934]
+ <EPSfiles/gondwana-apwp.eps> [932]
 
 Package natbib Warning: Citation `torsvik02' undefined on input line 327.
 
-[935]
+[933]
 
 Package natbib Warning: Citation `kirschvink97b' undefined on input line 339.
 
-l. 346 Writing WebBook3.idv[413] (WebBook3412x.png)
+l. 346 Writing WebBook3.idv[412] (WebBook3411x.png)
 File: EPSfiles/squish.eps Graphic file (type eps)
-<EPSfiles/squish.eps> [936]
+<EPSfiles/squish.eps> [934]
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 349.
 
@@ -4928,16 +4919,16 @@ Package natbib Warning: Citation `gilder01' undefined on input line 368.
 
 Package natbib Warning: Citation `tauxe04d' undefined on input line 368.
 
-l. 372 Writing WebBook3.idv[414] (WebBook3413x.png)
+l. 372 Writing WebBook3.idv[413] (WebBook3412x.png)
 File: EPSfiles/EI.eps Graphic file (type eps)
-<EPSfiles/EI.eps> [937]
+<EPSfiles/EI.eps> [935]
 
 Package natbib Warning: Citation `king55' undefined on input line 381.
 
 
 Package natbib Warning: Citation `tauxe04d' undefined on input line 385.
 
-[938]
+[936]
 
 Package natbib Warning: Citation `besse02' undefined on input line 389.
 
@@ -4950,9 +4941,9 @@ Package natbib Warning: Citation `tauxe08' undefined on input line 394.
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 396.
 
-l. 402 Writing WebBook3.idv[415] (WebBook3414x.png)
+l. 402 Writing WebBook3.idv[414] (WebBook3413x.png)
 File: EPSfiles/pangea.eps Graphic file (type eps)
-<EPSfiles/pangea.eps> [939]
+<EPSfiles/pangea.eps> [937]
 
 Package natbib Warning: Citation `smith70' undefined on input line 406.
 
@@ -4968,7 +4959,7 @@ Package natbib Warning: Citation `morel81' undefined on input line 406.
 
 Package natbib Warning: Citation `tan03' undefined on input line 414.
 
-[940] [941]
+[938] [939]
 
 Package natbib Warning: Citation `gregor74' undefined on input line 511.
 
@@ -5011,9 +5002,9 @@ Package natbib Warning: Citation `kluth82' undefined on input line 512.
 
 Package natbib Warning: Citation `rosenbaum02' undefined on input line 513.
 
-l. 520 Writing WebBook3.idv[416] (WebBook3415x.png)
+l. 520 Writing WebBook3.idv[415] (WebBook3414x.png)
 File: EPSfiles/pangea-poles.eps Graphic file (type eps)
-<EPSfiles/pangea-poles.eps> [942]
+<EPSfiles/pangea-poles.eps> [940]
 
 Package natbib Warning: Citation `smith70' undefined on input line 524.
 
@@ -5029,14 +5020,14 @@ Package natbib Warning: Citation `morel81' undefined on input line 524.
 
 Package natbib Warning: Citation `muttoni03' undefined on input line 524.
 
-[943]
+[941]
 
 Package natbib Warning: Citation `bullard65' undefined on input line 542.
 
 
 Package natbib Warning: Citation `smith70' undefined on input line 548.
 
-[944
+[942
 
 ]
 
@@ -5046,7 +5037,7 @@ Package natbib Warning: Citation `irving79' undefined on input line 581.
 Package natbib Warning: Citation `voo81' undefined on input line 590.
 
 Missing character: There is no Õ in font cmr10!
-[945]
+[943]
 
 Package natbib Warning: Citation `tauxe83b' undefined on input line 608.
 
@@ -5068,22 +5059,22 @@ Package natbib Warning: Citation `vanfossen92' undefined on input line 613.
 
 Package natbib Warning: Citation `vanfossen93' undefined on input line 613.
 
-l. 627 Writing WebBook3.idv[417] (WebBook3416x.png)
+l. 627 Writing WebBook3.idv[416] (WebBook3415x.png)
 File: EPSfiles/poles_na_dis.eps Graphic file (type eps)
 <EPSfiles/poles_na_dis.eps>
 
 Package natbib Warning: Citation `voo81' undefined on input line 633.
 
-l. 641 Writing WebBook3.idv[418] (WebBook3417x.png)
+l. 641 Writing WebBook3.idv[417] (WebBook3416x.png)
 File: EPSfiles/inconly.eps Graphic file (type eps)
-<EPSfiles/inconly.eps> [946] [947]
+<EPSfiles/inconly.eps> [944] [945]
 
 Package natbib Warning: Citation `may86' undefined on input line 659.
 
 
 Package natbib Warning: Citation `vanfossen90' undefined on input line 663.
 
-[948]
+[946]
 
 Package natbib Warning: Citation `irwin87' undefined on input line 680.
 
@@ -5120,288 +5111,288 @@ Package natbib Warning: Citation `may86' undefined on input line 702.
 
 Package natbib Warning: Citation `kowallis98' undefined on input line 709.
 
-[949]
+[947]
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 742.
 
-[950]
+[948]
 
 Package natbib Warning: Citation `besse02' undefined on input line 770.
 
-[951] [952]
-l. 797 Writing WebBook3.idv[419] (WebBook3418x.png)
+[949] [950]
+l. 797 Writing WebBook3.idv[418] (WebBook3417x.png)
 File: EPSfiles/gpmdb_search.eps Graphic file (type eps)
- <EPSfiles/gpmdb_search.eps> [953]) [954] [955
+ <EPSfiles/gpmdb_search.eps> [951]) [952] [953
 
 ]
 \openout2 = `Chapters/appendix.aux'.
 
 
-(./Chapters/appendix.tex [956
+(./Chapters/appendix.tex [954
 
 ]
 Appendix A.
 --- file WebBook3ap1.html ---
-[957
+[955
 
-] [958]
+] [956]
 
-LaTeX Warning: Reference `sect:interactions' on page 959 undefined on input lin
+LaTeX Warning: Reference `sect:interactions' on page 957 undefined on input lin
 e 158.
 
-[959] [960] [961]
-l. 242 Writing WebBook3.idv[420] (WebBook3419x.png)
-l. 254 Writing WebBook3.idv[421] (WebBook3420x.png)
+[957] [958] [959]
+l. 242 Writing WebBook3.idv[419] (WebBook3418x.png)
+l. 254 Writing WebBook3.idv[420] (WebBook3419x.png)
+ [960]
+l. 261 Writing WebBook3.idv[421] (WebBook3420x.png)
+l. 272 Writing WebBook3.idv[422] (WebBook3421x.png)
+ [961]
+l. 276 Writing WebBook3.idv[423] (WebBook3422x.png)
+l. 288 Writing WebBook3.idv[424] (WebBook3423x.png)
+l. 311 Writing WebBook3.idv[425] (WebBook3424x.png)
  [962]
-l. 261 Writing WebBook3.idv[422] (WebBook3421x.png)
-l. 272 Writing WebBook3.idv[423] (WebBook3422x.png)
+l. 328 Writing WebBook3.idv[426] (WebBook3425x.png)
+l. 337 Writing WebBook3.idv[427] (WebBook3426x.png)
  [963]
-l. 276 Writing WebBook3.idv[424] (WebBook3423x.png)
-l. 288 Writing WebBook3.idv[425] (WebBook3424x.png)
-l. 311 Writing WebBook3.idv[426] (WebBook3425x.png)
+l. 344 Writing WebBook3.idv[428] (WebBook3427x.png)
+l. 349 Writing WebBook3.idv[429] (WebBook3428x.png)
+l. 358 Writing WebBook3.idv[430] (WebBook3429x.png)
  [964]
-l. 328 Writing WebBook3.idv[427] (WebBook3426x.png)
-l. 337 Writing WebBook3.idv[428] (WebBook3427x.png)
+l. 374 Writing WebBook3.idv[431] (WebBook3430x.png)
  [965]
-l. 344 Writing WebBook3.idv[429] (WebBook3428x.png)
-l. 349 Writing WebBook3.idv[430] (WebBook3429x.png)
-l. 358 Writing WebBook3.idv[431] (WebBook3430x.png)
- [966]
-l. 374 Writing WebBook3.idv[432] (WebBook3431x.png)
- [967]
-l. 401 Writing WebBook3.idv[433] (WebBook3432x.png)
+l. 401 Writing WebBook3.idv[432] (WebBook3431x.png)
 File: EPSfiles/strig.eps Graphic file (type eps)
  <EPSfiles/strig.eps>
-l. 420 Writing WebBook3.idv[434] (WebBook3433x.png)
+l. 420 Writing WebBook3.idv[433] (WebBook3432x.png)
 
-[968]
-l. 425 Writing WebBook3.idv[435] (WebBook3434x.png)
-l. 436 Writing WebBook3.idv[436] (WebBook3435x.png)
+[966]
+l. 425 Writing WebBook3.idv[434] (WebBook3433x.png)
+l. 436 Writing WebBook3.idv[435] (WebBook3434x.png)
 File: EPSfiles/vectors.eps Graphic file (type eps)
- <EPSfiles/vectors.eps> [969]
-l. 439 Writing WebBook3.idv[437] (WebBook3436x.png)
-l. 451 Writing WebBook3.idv[438] (WebBook3437x.png)
- [970]
-l. 473 Writing WebBook3.idv[439] (WebBook3438x.png)
+ <EPSfiles/vectors.eps> [967]
+l. 439 Writing WebBook3.idv[436] (WebBook3435x.png)
+l. 451 Writing WebBook3.idv[437] (WebBook3436x.png)
+ [968]
+l. 473 Writing WebBook3.idv[438] (WebBook3437x.png)
 File: EPSfiles/cross.eps Graphic file (type eps)
  <EPSfiles/cross.eps>
-l. 483 Writing WebBook3.idv[440] (WebBook3439x.png)
- [971]
-l. 492 Writing WebBook3.idv[441] (WebBook3440x.png)
-l. 500 Writing WebBook3.idv[442] (WebBook3441x.png)
- [972]
-l. 516 Writing WebBook3.idv[443] (WebBook3442x.png)
-l. 528 Writing WebBook3.idv[444] (WebBook3443x.png)
+l. 483 Writing WebBook3.idv[439] (WebBook3438x.png)
+ [969]
+l. 492 Writing WebBook3.idv[440] (WebBook3439x.png)
+l. 500 Writing WebBook3.idv[441] (WebBook3440x.png)
+ [970]
+l. 516 Writing WebBook3.idv[442] (WebBook3441x.png)
+l. 528 Writing WebBook3.idv[443] (WebBook3442x.png)
 File: EPSfiles/dircosines.eps Graphic file (type eps)
 
-<EPSfiles/dircosines.eps> [973]
-l. 541 Writing WebBook3.idv[445] (WebBook3444x.png)
- [974]
-l. 549 Writing WebBook3.idv[446] (WebBook3445x.png)
-l. 558 Writing WebBook3.idv[447] (WebBook3446x.png)
-l. 575 Writing WebBook3.idv[448] (WebBook3447x.png)
+<EPSfiles/dircosines.eps> [971]
+l. 541 Writing WebBook3.idv[444] (WebBook3443x.png)
+ [972]
+l. 549 Writing WebBook3.idv[445] (WebBook3444x.png)
+l. 558 Writing WebBook3.idv[446] (WebBook3445x.png)
+l. 575 Writing WebBook3.idv[447] (WebBook3446x.png)
 File: EPSfiles/transform.eps Graphic file (type eps)
- <EPSfiles/transform.eps> [975]
-l. 607 Writing WebBook3.idv[449] (WebBook3448x.png)
- [976]
-l. 618 Writing WebBook3.idv[450] (WebBook3449x.png)
-l. 628 Writing WebBook3.idv[451] (WebBook3450x.png)
+ <EPSfiles/transform.eps> [973]
+l. 607 Writing WebBook3.idv[448] (WebBook3447x.png)
+ [974]
+l. 618 Writing WebBook3.idv[449] (WebBook3448x.png)
+l. 628 Writing WebBook3.idv[450] (WebBook3449x.png)
 
-[977]
-l. 649 Writing WebBook3.idv[452] (WebBook3451x.png)
-l. 656 Writing WebBook3.idv[453] (WebBook3452x.png)
- [978]
-l. 671 Writing WebBook3.idv[454] (WebBook3453x.png)
- [979] [980] [981] [982] [983] [984]
-l. 927 Writing WebBook3.idv[455] (WebBook3454x.png)
- [985
+[975]
+l. 649 Writing WebBook3.idv[451] (WebBook3450x.png)
+l. 656 Writing WebBook3.idv[452] (WebBook3451x.png)
+ [976]
+l. 671 Writing WebBook3.idv[453] (WebBook3452x.png)
+ [977] [978] [979] [980] [981] [982]
+l. 927 Writing WebBook3.idv[454] (WebBook3453x.png)
+ [983
 
 ]
-l. 937 Writing WebBook3.idv[456] (WebBook3455x.png)
-l. 946 Writing WebBook3.idv[457] (WebBook3456x.png)
+l. 937 Writing WebBook3.idv[455] (WebBook3454x.png)
+l. 946 Writing WebBook3.idv[456] (WebBook3455x.png)
+ [984]
+l. 966 Writing WebBook3.idv[457] (WebBook3456x.png)
+l. 976 Writing WebBook3.idv[458] (WebBook3457x.png)
+ [985]
+l. 984 Writing WebBook3.idv[459] (WebBook3458x.png)
+l. 986 Writing WebBook3.idv[460] (WebBook3459x.png)
+l. 1013 Writing WebBook3.idv[461] (WebBook3460x.png)
  [986]
-l. 966 Writing WebBook3.idv[458] (WebBook3457x.png)
-l. 976 Writing WebBook3.idv[459] (WebBook3458x.png)
- [987]
-l. 984 Writing WebBook3.idv[460] (WebBook3459x.png)
-l. 986 Writing WebBook3.idv[461] (WebBook3460x.png)
-l. 1013 Writing WebBook3.idv[462] (WebBook3461x.png)
- [988]
-l. 1030 Writing WebBook3.idv[463] (WebBook3462x.png)
+l. 1030 Writing WebBook3.idv[462] (WebBook3461x.png)
 File: EPSfiles/ski.eps Graphic file (type eps)
 
 <EPSfiles/ski.eps>
+l. 1038 Writing WebBook3.idv[463] (WebBook3462x.png)
 l. 1038 Writing WebBook3.idv[464] (WebBook3463x.png)
-l. 1038 Writing WebBook3.idv[465] (WebBook3464x.png)
- [989]
-l. 1041 Writing WebBook3.idv[466] (WebBook3465x.png)
-l. 1049 Writing WebBook3.idv[467] (WebBook3466x.png)
-l. 1056 Writing WebBook3.idv[468] (WebBook3467x.png)
- [990]
-l. 1065 Writing WebBook3.idv[469] (WebBook3468x.png)
+ [987]
+l. 1041 Writing WebBook3.idv[465] (WebBook3464x.png)
+l. 1049 Writing WebBook3.idv[466] (WebBook3465x.png)
+l. 1056 Writing WebBook3.idv[467] (WebBook3466x.png)
+ [988]
+l. 1065 Writing WebBook3.idv[468] (WebBook3467x.png)
 File: EPSfiles/div.eps Graphic file (type eps)
  <EPSfiles/div.eps>
-l. 1076 Writing WebBook3.idv[470] (WebBook3469x.png)
- [991]
-l. 1083 Writing WebBook3.idv[471] (WebBook3470x.png)
-l. 1093 Writing WebBook3.idv[472] (WebBook3471x.png)
+l. 1076 Writing WebBook3.idv[469] (WebBook3468x.png)
+ [989]
+l. 1083 Writing WebBook3.idv[470] (WebBook3469x.png)
+l. 1093 Writing WebBook3.idv[471] (WebBook3470x.png)
 File: EPSfiles/divzero.eps Graphic file (type eps)
  <EPSfiles/divzero.eps>
-l. 1101 Writing WebBook3.idv[473] (WebBook3472x.png)
+l. 1101 Writing WebBook3.idv[472] (WebBook3471x.png)
 File: EPSfiles/curl.eps Graphic file (type eps)
 
-<EPSfiles/curl.eps> [992]
-l. 1112 Writing WebBook3.idv[474] (WebBook3473x.png)
+<EPSfiles/curl.eps> [990]
+l. 1112 Writing WebBook3.idv[473] (WebBook3472x.png)
+ [991]
+l. 1123 Writing WebBook3.idv[474] (WebBook3473x.png)
+l. 1137 Writing WebBook3.idv[475] (WebBook3474x.png)
+ [992]
+l. 1149 Writing WebBook3.idv[476] (WebBook3475x.png)
+l. 1152 Writing WebBook3.idv[477] (WebBook3476x.png)
+l. 1161 Writing WebBook3.idv[478] (WebBook3477x.png)
+l. 1166 Writing WebBook3.idv[479] (WebBook3478x.png)
  [993]
-l. 1123 Writing WebBook3.idv[475] (WebBook3474x.png)
-l. 1137 Writing WebBook3.idv[476] (WebBook3475x.png)
- [994]
-l. 1149 Writing WebBook3.idv[477] (WebBook3476x.png)
-l. 1152 Writing WebBook3.idv[478] (WebBook3477x.png)
-l. 1161 Writing WebBook3.idv[479] (WebBook3478x.png)
-l. 1166 Writing WebBook3.idv[480] (WebBook3479x.png)
- [995]
 
 Package natbib Warning: Citation `efron93' undefined on input line 1181.
 
-l. 1198 Writing WebBook3.idv[481] (WebBook3480x.png)
+l. 1198 Writing WebBook3.idv[480] (WebBook3479x.png)
 File: EPSfiles/bootstrap.eps Graphic file (type eps)
-<EPSfiles/bootstrap.eps> [996]
-l. 1225 Writing WebBook3.idv[482] (WebBook3481x.png)
- [997]
-l. 1230 Writing WebBook3.idv[483] (WebBook3482x.png)
+<EPSfiles/bootstrap.eps> [994]
+l. 1225 Writing WebBook3.idv[481] (WebBook3480x.png)
+ [995]
+l. 1230 Writing WebBook3.idv[482] (WebBook3481x.png)
 File: EPSfiles/sundefs.eps Graphic file (type eps)
- <EPSfiles/sundefs.eps> [998]
-l. 1291 Writing WebBook3.idv[484] (WebBook3483x.png)
- [999]
-l. 1296 Writing WebBook3.idv[485] (WebBook3484x.png)
-l. 1310 Writing WebBook3.idv[486] (WebBook3485x.png)
+ <EPSfiles/sundefs.eps> [996]
+l. 1291 Writing WebBook3.idv[483] (WebBook3482x.png)
+ [997]
+l. 1296 Writing WebBook3.idv[484] (WebBook3483x.png)
+l. 1310 Writing WebBook3.idv[485] (WebBook3484x.png)
 
-[1000]
-l. 1321 Writing WebBook3.idv[487] (WebBook3486x.png)
- [1001]
-l. 1341 Writing WebBook3.idv[488] (WebBook3487x.png)
-l. 1348 Writing WebBook3.idv[489] (WebBook3488x.png)
- [1002]
+[998]
+l. 1321 Writing WebBook3.idv[486] (WebBook3485x.png)
+ [999]
+l. 1341 Writing WebBook3.idv[487] (WebBook3486x.png)
+l. 1348 Writing WebBook3.idv[488] (WebBook3487x.png)
+ [1000]
 Appendix B.
 --- file WebBook3ap2.html ---
-l. 1372 Writing WebBook3.idv[490] (WebBook3489x.png)
+l. 1372 Writing WebBook3.idv[489] (WebBook3488x.png)
 File: EPSfiles/mkeq.eps Graphic file (type eps)
 <EPSfiles/mkeq.eps>
-l. 1385 Writing WebBook3.idv[491] (WebBook3490x.png)
- [1003
+l. 1385 Writing WebBook3.idv[490] (WebBook3489x.png)
+ [1001
 
 ]
-l. 1388 Writing WebBook3.idv[492] (WebBook3491x.png)
-l. 1394 Writing WebBook3.idv[493] (WebBook3492x.png)
+l. 1388 Writing WebBook3.idv[491] (WebBook3490x.png)
+l. 1394 Writing WebBook3.idv[492] (WebBook3491x.png)
 File: EPSfiles/equal.eps Graphic file (type eps)
- <EPSfiles/equal.eps> [1004] [1005]
-l. 1405 Writing WebBook3.idv[494] (WebBook3493x.png)
+ <EPSfiles/equal.eps> [1002] [1003]
+l. 1405 Writing WebBook3.idv[493] (WebBook3492x.png)
 File: EPSfiles/how2eq.eps Graphic file (type eps)
 
-<EPSfiles/how2eq.eps> [1006
+<EPSfiles/how2eq.eps> [1004
 
 ]
-l. 1446 Writing WebBook3.idv[495] (WebBook3494x.png)
+l. 1446 Writing WebBook3.idv[494] (WebBook3493x.png)
 File: EPSfiles/tilt.eps Graphic file (type eps)
- <EPSfiles/tilt.eps> [1007] [1008]
-l. 1483 Writing WebBook3.idv[496] (WebBook3495x.png)
+ <EPSfiles/tilt.eps> [1005] [1006]
+l. 1483 Writing WebBook3.idv[495] (WebBook3494x.png)
 File: EPSfiles/ternary.eps Graphic file (type eps)
 
-<EPSfiles/ternary.eps> [1009
+<EPSfiles/ternary.eps> [1007
 
 ]
-l. 1501 Writing WebBook3.idv[497] (WebBook3496x.png)
+l. 1501 Writing WebBook3.idv[496] (WebBook3495x.png)
 File: EPSfiles/Ais.eps Graphic file (type eps)
- <EPSfiles/Ais.eps> [1010] [1011]
-l. 1536 Writing WebBook3.idv[498] (WebBook3497x.png)
-l. 1542 Writing WebBook3.idv[499] (WebBook3498x.png)
- [1012]
-l. 1556 Writing WebBook3.idv[500] (WebBook3499x.png)
-l. 1561 Writing WebBook3.idv[501] (WebBook3500x.png)
- [1013]
-l. 1570 Writing WebBook3.idv[502] (WebBook3501x.png)
+ <EPSfiles/Ais.eps> [1008] [1009]
+l. 1536 Writing WebBook3.idv[497] (WebBook3496x.png)
+l. 1542 Writing WebBook3.idv[498] (WebBook3497x.png)
+ [1010]
+l. 1556 Writing WebBook3.idv[499] (WebBook3498x.png)
+l. 1561 Writing WebBook3.idv[500] (WebBook3499x.png)
+ [1011]
+l. 1570 Writing WebBook3.idv[501] (WebBook3500x.png)
 
-[1014]
-l. 1584 Writing WebBook3.idv[503] (WebBook3502x.png)
-l. 1607 Writing WebBook3.idv[504] (WebBook3503x.png)
+[1012]
+l. 1584 Writing WebBook3.idv[502] (WebBook3501x.png)
+l. 1607 Writing WebBook3.idv[503] (WebBook3502x.png)
+ [1013]
+l. 1611 Writing WebBook3.idv[504] (WebBook3503x.png)
+ [1014]
+l. 1633 Writing WebBook3.idv[505] (WebBook3504x.png)
+l. 1637 Writing WebBook3.idv[506] (WebBook3505x.png)
+l. 1644 Writing WebBook3.idv[507] (WebBook3506x.png)
  [1015]
-l. 1611 Writing WebBook3.idv[505] (WebBook3504x.png)
+l. 1661 Writing WebBook3.idv[508] (WebBook3507x.png)
  [1016]
-l. 1633 Writing WebBook3.idv[506] (WebBook3505x.png)
-l. 1637 Writing WebBook3.idv[507] (WebBook3506x.png)
-l. 1644 Writing WebBook3.idv[508] (WebBook3507x.png)
- [1017]
-l. 1661 Writing WebBook3.idv[509] (WebBook3508x.png)
- [1018]
 Appendix C.
 --- file WebBook3ap3.html ---
-[1019
+[1017
 
 ]
-l. 1715 Writing WebBook3.idv[510] (WebBook3509x.png)
+l. 1715 Writing WebBook3.idv[509] (WebBook3508x.png)
 File: EPSfiles/hparcalc.eps Graphic file (type eps)
- <EPSfiles/hparcalc.eps> [1020] [1021] [1022
+ <EPSfiles/hparcalc.eps> [1018] [1019] [1020
 
 ]
-l. 1773 Writing WebBook3.idv[511] (WebBook3510x.png)
-l. 1778 Writing WebBook3.idv[512] (WebBook3511x.png)
+l. 1773 Writing WebBook3.idv[510] (WebBook3509x.png)
+l. 1778 Writing WebBook3.idv[511] (WebBook3510x.png)
+ [1021]
+l. 1782 Writing WebBook3.idv[512] (WebBook3511x.png)
+l. 1787 Writing WebBook3.idv[513] (WebBook3512x.png)
+ [1022]
+l. 1816 Writing WebBook3.idv[514] (WebBook3513x.png)
  [1023]
-l. 1782 Writing WebBook3.idv[513] (WebBook3512x.png)
-l. 1787 Writing WebBook3.idv[514] (WebBook3513x.png)
- [1024]
-l. 1816 Writing WebBook3.idv[515] (WebBook3514x.png)
- [1025]
-l. 1821 Writing WebBook3.idv[516] (WebBook3515x.png)
+l. 1821 Writing WebBook3.idv[515] (WebBook3514x.png)
 
-[1026]
-l. 1915 Writing WebBook3.idv[517] (WebBook3516x.png)
-l. 1917 Writing WebBook3.idv[518] (WebBook3517x.png)
-l. 1919 Writing WebBook3.idv[519] (WebBook3518x.png)
-l. 1929 Writing WebBook3.idv[520] (WebBook3519x.png)
-l. 1932 Writing WebBook3.idv[521] (WebBook3520x.png)
- [1027
+[1024]
+l. 1915 Writing WebBook3.idv[516] (WebBook3515x.png)
+l. 1917 Writing WebBook3.idv[517] (WebBook3516x.png)
+l. 1919 Writing WebBook3.idv[518] (WebBook3517x.png)
+l. 1929 Writing WebBook3.idv[519] (WebBook3518x.png)
+l. 1932 Writing WebBook3.idv[520] (WebBook3519x.png)
+ [1025
 
 ]
-l. 1938 Writing WebBook3.idv[522] (WebBook3521x.png)
-l. 1944 Writing WebBook3.idv[523] (WebBook3522x.png)
+l. 1938 Writing WebBook3.idv[521] (WebBook3520x.png)
+l. 1944 Writing WebBook3.idv[522] (WebBook3521x.png)
+ [1026]
+l. 1950 Writing WebBook3.idv[523] (WebBook3522x.png)
+l. 1967 Writing WebBook3.idv[524] (WebBook3523x.png)
+ [1027]
+l. 1988 Writing WebBook3.idv[525] (WebBook3524x.png)
+l. 1997 Writing WebBook3.idv[526] (WebBook3525x.png)
+l. 1999 Writing WebBook3.idv[527] (WebBook3526x.png)
+l. 2000 Writing WebBook3.idv[528] (WebBook3527x.png)
+l. 2007 Writing WebBook3.idv[529] (WebBook3528x.png)
+l. 2013 Writing WebBook3.idv[530] (WebBook3529x.png)
  [1028]
-l. 1950 Writing WebBook3.idv[524] (WebBook3523x.png)
-l. 1967 Writing WebBook3.idv[525] (WebBook3524x.png)
+l. 2020 Writing WebBook3.idv[531] (WebBook3530x.png)
+l. 2036 Writing WebBook3.idv[532] (WebBook3531x.png)
  [1029]
-l. 1988 Writing WebBook3.idv[526] (WebBook3525x.png)
-l. 1997 Writing WebBook3.idv[527] (WebBook3526x.png)
-l. 1999 Writing WebBook3.idv[528] (WebBook3527x.png)
-l. 2000 Writing WebBook3.idv[529] (WebBook3528x.png)
-l. 2007 Writing WebBook3.idv[530] (WebBook3529x.png)
-l. 2013 Writing WebBook3.idv[531] (WebBook3530x.png)
- [1030]
-l. 2020 Writing WebBook3.idv[532] (WebBook3531x.png)
-l. 2036 Writing WebBook3.idv[533] (WebBook3532x.png)
- [1031]
-l. 2041 Writing WebBook3.idv[534] (WebBook3533x.png)
-l. 2049 Writing WebBook3.idv[535] (WebBook3534x.png)
+l. 2041 Writing WebBook3.idv[533] (WebBook3532x.png)
+l. 2049 Writing WebBook3.idv[534] (WebBook3533x.png)
 
 
 Package natbib Warning: Citation `mardia77' undefined on input line 2052.
 
-[1032]
-l. 2054 Writing WebBook3.idv[536] (WebBook3535x.png)
-l. 2059 Writing WebBook3.idv[537] (WebBook3536x.png)
-l. 2063 Writing WebBook3.idv[538] (WebBook3537x.png)
- [1033]
-l. 2067 Writing WebBook3.idv[539] (WebBook3538x.png)
+[1030]
+l. 2054 Writing WebBook3.idv[535] (WebBook3534x.png)
+l. 2059 Writing WebBook3.idv[536] (WebBook3535x.png)
+l. 2063 Writing WebBook3.idv[537] (WebBook3536x.png)
+ [1031]
+l. 2067 Writing WebBook3.idv[538] (WebBook3537x.png)
 
 
 Package natbib Warning: Citation `tanaka99' undefined on input line 2072.
 
-[1034]
-l. 2083 Writing WebBook3.idv[540] (WebBook3539x.png)
+[1032]
+l. 2083 Writing WebBook3.idv[539] (WebBook3538x.png)
 File: EPSfiles/IZZI.eps Graphic file (type eps)
  <EPSfiles/IZZI.eps>
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
- [1035]
+ [1033]
 
 Package natbib Warning: Citation `benyosef08' undefined on input line 2088.
 
@@ -5417,18 +5408,18 @@ Package natbib Warning: Citation `york66' undefined on input line 2097.
 
 Package natbib Warning: Citation `coe78' undefined on input line 2097.
 
-[1036]
-l. 2107 Writing WebBook3.idv[541] (WebBook3540x.png)
-l. 2119 Writing WebBook3.idv[542] (WebBook3541x.png)
- [1037]
-l. 2135 Writing WebBook3.idv[543] (WebBook3542x.png)
-l. 2143 Writing WebBook3.idv[544] (WebBook3543x.png)
- [1038] [1039]
-l. 2168 Writing WebBook3.idv[545] (WebBook3544x.png)
-l. 2174 Writing WebBook3.idv[546] (WebBook3545x.png)
- [1040]
-l. 2181 Writing WebBook3.idv[547] (WebBook3546x.png)
- [1041] [1042]
+[1034]
+l. 2107 Writing WebBook3.idv[540] (WebBook3539x.png)
+l. 2119 Writing WebBook3.idv[541] (WebBook3540x.png)
+ [1035]
+l. 2135 Writing WebBook3.idv[542] (WebBook3541x.png)
+l. 2143 Writing WebBook3.idv[543] (WebBook3542x.png)
+ [1036] [1037]
+l. 2168 Writing WebBook3.idv[544] (WebBook3543x.png)
+l. 2174 Writing WebBook3.idv[545] (WebBook3544x.png)
+ [1038]
+l. 2181 Writing WebBook3.idv[546] (WebBook3545x.png)
+ [1039] [1040]
 Appendix D.
 --- file WebBook3ap4.html ---
 l.2195 --- TeX4ht warning --- \Link{tailWebBook3ap4.html}? ---
@@ -5436,21 +5427,21 @@ l.2195 --- TeX4ht warning --- \Link{tailWebBook3ap4.html}? ---
 Package natbib Warning: Citation `jelinek78' undefined on input line 2201.
 
 
-LaTeX Warning: Reference `fig:meas15' on page 1043 undefined on input line 2201
+LaTeX Warning: Reference `fig:meas15' on page 1041 undefined on input line 2201
 .
 
 
-LaTeX Warning: Reference `fig:meas15' on page 1043 undefined on input line 2205
+LaTeX Warning: Reference `fig:meas15' on page 1041 undefined on input line 2205
 .
 
-l. 2207 Writing WebBook3.idv[548] (WebBook3547x.png)
-[1043
+l. 2207 Writing WebBook3.idv[547] (WebBook3546x.png)
+[1041
 
 ]
-l. 2230 Writing WebBook3.idv[549] (WebBook3548x.png)
-l. 2245 Writing WebBook3.idv[550] (WebBook3549x.png)
+l. 2230 Writing WebBook3.idv[548] (WebBook3547x.png)
+l. 2245 Writing WebBook3.idv[549] (WebBook3548x.png)
 File: EPSfiles/meas15.eps Graphic file (type eps)
- <EPSfiles/meas15.eps> [1044]
+ <EPSfiles/meas15.eps> [1042]
 ! TeX capacity exceeded, sorry [input stack size=5000].
 \Protect ->\let \prOteCt \pr:tc 
                                 \ifx \prOteCt \pr:tc \let \prOteCt \relax \e...
@@ -5461,11 +5452,11 @@ you can ask a wizard to enlarge me.
 
  
 Here is how much of TeX's memory you used:
- 14619 strings out of 493090
- 210564 string characters out of 6134868
- 1696904 words of memory out of 5000000
- 17557 multiletter control sequences out of 15000+600000
+ 14552 strings out of 493090
+ 210043 string characters out of 6134868
+ 1694847 words of memory out of 5000000
+ 17491 multiletter control sequences out of 15000+600000
  17276 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 5000i,13n,4990p,2557b,4402s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on WebBook3.dvi (1067 pages, 2742184 bytes).
+ 5000i,13n,4990p,2557b,3952s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on WebBook3.dvi (1065 pages, 2742116 bytes).

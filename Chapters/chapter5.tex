@@ -602,7 +602,6 @@ In general,  Yu and Tauxe  (2005) showed that the larger the particle, the great
 
 \section{Problems}
 
-In this set of problems, we will begin to use REAL data.  The data files used with this book are part of the {\bf PmagPy} distribution, which you should have already downloaded and installed.  Look in the Datafile directory under `Essentals\_Examples' and you will find what you need.  
 %LJ  replaced .http://magician.ucsd.edu/~ltauxe/RockNPmag/Datafiles.zip with above for less confusion
 
 {\parindent 0pt \parskip 12pt 
@@ -621,33 +620,48 @@ $$
 $$
 
 
-\begin{figure}[htb]
+%\begin{figure}[htb]
 %\epsfxsize 13.5cm
 %\centering \epsffile{EPSfiles/gui-3.eps}
-\centering  \includegraphics[width=13.5 cm]{EPSfiles/gui-3.eps}
-\caption{Various hysteresis plots.}   
-\label{fig:gui}
-\end{figure}
-
+%\centering  \includegraphics[width=13.5 cm]{EPSfiles/gui-3.eps}
+%\caption{Various hysteresis plots.}   
+%\label{fig:gui}
+%\end{figure}
+%
 
 {\bf Problem 2}
 
-In this problem, you will become familiar with the {\bf  QuickMagIC.py} graphical user interface (GUI) for some of the {\bf PmagPy}  programs most useful to the working paleomagnetist.   These programs are designed to work with the Magnetics Information Consortium (MagIC)  database (see \url{http://earthref.org/MAGIC}; see also  \href{http://earthref.org/PmagPy/cookbook}{PmagPy} documentation) -- a database designed for paleomagnetic and rock magnetic measurements.  For now we are just using a few of the  programs.   
 
-  Someone has measured  hysteresis loops  on a mysterious set of specimens using an alternating gradient force magnetometer.     These are contained in the Chapter\_5 directory of the Datafiles package you downloaded.  
+In problem, we will begin to use REAL data.  The data files used with this book are part of the {\bf PmagPy} distribution, which you should have already downloaded and installed.  [If not, follow the full installation instructions for {\bf PmagPy} in the \href{http://earthref.org/PmagPy/}{PmagPy Cookbook}, and copy the {\it data\_files} directory to a directory dedicated to these problem sets. Also, {\bf PmagPy} is being constantly updated, so you should update your installation with the pip install method before attempting these problems.]  
 
-{\bf QuickMagIC.py} wants its own directory to store and manipulate files, so create a new directory (inside the Chapter\_5 directory for convenience).  From the command line, type {QuickMagIC.py}.    Choose your new directory by clicking on the `change dir' button.     DO NOT use directories with spaces in the path name (this is common on PCs).    
+In this problem, you will become familiar with  some of the {\bf PmagPy}  programs  useful to the working paleomagnetist.   These programs are designed to work with the Magnetics Information Consortium (MagIC)  database (see \url{http://earthref.org/MAGIC}; see also  \href{http://earthref.org/PmagPy/cookbook}{PmagPy} documentation) -- a database designed for paleomagnetic and rock magnetic measurements.  For now we are just using a few of the  programs.   
+
+  Someone has measured  hysteresis loops  on a mysterious set of specimens using an alternating gradient force magnetometer.     These are contained in the {\it data\_files/Essentials\_Examples/Chapter\_5}  directory.    For this problem, we will use the programs {\bf pmag\_gui.py} for converting measurement files to the MagIC format, and  {\bf hysteresis\_magic.py} and {dayplot\_magic.py} for visualizing and analyzing the data.  
+
+You should make a directory for every project you work on and that includes each homework problem. So create a new directory (say, Problem\_5.2).  From the command line navigate to your directory and , type {pmag\_gui.py}. [{\bf PC users may need to omit the .py termination for all PmagPy programs.] } 
+
+  Under the `Import' file menu, choose 'Hysteresis files' and `Import entire directory'.   The click on the `add' button and select the Chapter\_5 folder.   There are two characters that distinguish specimens (things that are measured) from samples (things that are taken in the field}.  The location name can be `Problem\_5.2'.     If you look in your project folder (here assumed Problem\_5.2), you will find a bunch of new files named IS06a-1.agm.magic and so on.  Now click on the `convert magnetometer files to MagIC format' button on the Pmag GUI main panel and click on `Skip to next step' button.  This will find all the files with the .magic termination.  Click on `OK' to combine these all into a single measurements file for use with {\bf hysteresis\_magic.py}.   Keep clicking on the `OK' buttons until the GUI is satisfied.  
+ Now exit the GUI and return to your notebook. 
 
 
-On the menu bar of the {\bf QuickMagIC.py} GUI you will find a pull down menu labelled ``Import''.  Select ``Hysteresis Files'' and choose the `Import entire directory'' option.  Choose the Chapter\_5 datafile directory.    When prompted, select the cgs units option.  These data are hysteresis loops that were measured with the ``old'' file format, so do not select ``new format''.   If you were really uploading a data  into the database, you would  fill out the location and other helpful information but for now, just click on the ``OK'' button to accept the specimen name.  {\bf QuickMagIC.py} copies  each datafile to the project directory and converts it to the MagIC format.  Repeat the file importation procedure for all the files in the Chapter\_5 directory.    When you have finished importing the files, click on the  ``convert magnetometer files...'' on the main panel and select the `Next step' button.  This finds all the individual measurement files and clicking 'OK' will combine them into a single file called {\it magic\_measurements.txt}.   
+
+
+a) Run the {\bf hysteresis\_magic.py} program from within your notebook using the ! symbol before the command.  Start by getting the help message:
+\begin{verbatim}
+!hysteresis_magic.py -h
+\end{verbatim}
+Then run the program using these options: 
+\begin{verbatim}
+!hysteresis_magic.py  -f magic_measurements.txt -sav -fmt png 
+\end{verbatim}
 
 
 
+Load the images for the specimen IS06a-2 into the notebook as shown in the template file for this chapter's problems (found in data\_files/Essentials\_Examples/Notebooks directory you installed before. 
 
-a) On your command line, change directories into the Project Directory you just created and type `hysteresis\_magic.py -f magic\_measurements.txt'.  This will  read in your datafile specimen by specimen, making plots and collecting hysteresis parameters.   To advance through the plots, just press return after each plot until finished.   Your terminal may look something like Figure~\ref{fig:gui}.    
-Write a detailed figure caption for the three non-blank figures for specimen IS06a-2.   What is the difference between the red and blue lines?   What are the blue squares?  What is the ``DeltaM'' curve. 
+Write a detailed figure caption for the three  figures for specimen IS06a-2.   What is the difference between the red and blue lines?   What are the blue squares?  What is the ``DeltaM'' curve? 
 
-b)  Stepping through all the plots in the last problem created a file that stored the hysteresis parameters like saturation remanence, coercivity, etc. in a file called \newline  {\it  rmag\_hysteresis.txt} in the project directory.    Now type `dayplot\_magic.py'     Write a caption for these plots.  How would you interpret them?  
+b)  Analyzing all the data in the last problem with {\bf hysteresis\_magic}  created a file that stored the hysteresis parameters like saturation remanence, coercivity, etc. in a file called \newline  {\it  rmag\_hysteresis.txt} in the project directory.    Now run `dayplot\_magic.py'   from within your notebook and load up the figures.    Write a caption for these plots.  How would you interpret them?  
 
 
 }
