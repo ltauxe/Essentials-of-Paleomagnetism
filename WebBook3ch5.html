@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-04-07 15:28:00"> 
+<meta name="date" content="2016-04-18 16:03:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1939,14 +1939,9 @@ href="WebBook3.html#QQ2-7-109" id="x7-520005.5">Problems</a></h3>
                                                                      
 
                                                                      
-<!--l. 605--><p class="noindent" >In this set of problems, we will begin to use REAL data. The data files used with
-this book are part of the <span 
-class="cmbx-10x-x-109">PmagPy </span>distribution, which you should have
-already downloaded and installed. Look in the Datafile directory under
-&#8216;Essentals_Examples&#8217; and you will find what you need.
-<!--l. 611--><p class="noindent" ><span 
+<!--l. 610--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 1</span>
-<!--l. 613--><p class="noindent" >For a grain with uniaxial anisotropy in an external field, the direction of
+<!--l. 612--><p class="noindent" >For a grain with uniaxial anisotropy in an external field, the direction of
 magnetization in this grain will be controlled entirely by the uniaxial anisotropy
 energy density <span 
 class="cmmi-10x-x-109">&#x03F5;</span><sub><span 
@@ -1954,7 +1949,7 @@ class="cmmi-8">a</span></sub> and the magnetic interaction energy <span
 class="cmmi-10x-x-109">&#x03F5;</span><sub><span 
 class="cmmi-8">m</span></sub>. The total energy can
 be written:
-<!--l. 615--><p class="noindent" >
+<!--l. 614--><p class="noindent" >
 <center class="math-display" >
 <img 
 src="WebBook3156x.png" alt="&#x03F5;tot = &#x03F5;a + &#x03F5;m = Ku sin 2&#x03B8; - &#x03BC;oHMs  cos (&#x03D5; - &#x03B8;),  " class="math-display" ></center>
@@ -1968,39 +1963,30 @@ class="cmmi-10x-x-109">&#x03D5; </span>=
 class="cmsy-8">&#x2218;</span></sup>, is given by:
 <center class="math-display" >
 <img 
-src="WebBook3157x.png" alt="Hc = 2Ku--.
-     &#x03BC;oMs
+src="WebBook3157x.png" alt="     2Ku
+Hc = &#x03BC;-M--.
+      o  s
 " class="math-display" ></center>
-                                                                     
-
-                                                                     
-<!--l. 624--><p class="noindent" ><hr class="figure"><div class="figure" 
->
-                                                                     
-
-                                                                     
-<a 
- id="x7-5200115"></a>
-                                                                     
-
-                                                                     
-<!--l. 627--><p class="noindent" ><img 
-src="WebBook3158x.png" alt="PIC" class="graphics" width="384.1122pt" height="233.07152pt" ><!--tex4ht:graphics  
-name="WebBook3158x.png" src="EPSfiles/gui-3.eps"  
--->
-<br /> <div class="caption" 
-><span class="id">Figure&#x00A0;5.15: </span><span  
-class="content">Various hysteresis plots.</span></div><!--tex4ht:label?: x7-5200115 -->
-                                                                     
-
-                                                                     
-<!--l. 630--><p class="noindent" ></div><hr class="endfigure">
-<!--l. 633--><p class="noindent" ><span 
+<!--l. 632--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 635--><p class="noindent" >In this problem, you will become familiar with the <span 
-class="cmbx-10x-x-109">QuickMagIC.py</span>
-graphical user interface (GUI) for some of the <span 
-class="cmbx-10x-x-109">PmagPy </span>programs most
+<!--l. 635--><p class="noindent" >In problem, we will begin to use REAL data. The data files used with this book
+are part of the <span 
+class="cmbx-10x-x-109">PmagPy </span>distribution, which you should have already
+downloaded and installed. [If not, follow the full installation instructions for
+                                                                     
+
+                                                                     
+<span 
+class="cmbx-10x-x-109">PmagPy </span>in the <a 
+href="http://earthref.org/PmagPy/" >PmagPy Cookbook</a>, and copy the <span 
+class="cmti-10x-x-109">data</span><span 
+class="cmti-10x-x-109">_files </span>directory to a
+directory dedicated to these problem sets. Also, <span 
+class="cmbx-10x-x-109">PmagPy </span>is being constantly
+updated, so you should update your installation with the pip install method
+before attempting these problems.]
+<!--l. 637--><p class="noindent" >In this problem, you will become familiar with some of the <span 
+class="cmbx-10x-x-109">PmagPy </span>programs
 useful to the working paleomagnetist. These programs are designed to
 work with the Magnetics Information Consortium (MagIC) database (see
 <a 
@@ -2009,52 +1995,76 @@ class="cmtt-10x-x-109">http://earthref.org/MAGIC</span></a>; see also <a
 href="http://earthref.org/PmagPy/cookbook" >PmagPy</a> documentation) &#8211; a database
 designed for paleomagnetic and rock magnetic measurements. For now we are
 just using a few of the programs.
-<!--l. 637--><p class="noindent" >Someone has measured hysteresis loops on a mysterious set of specimens using an
-alternating gradient force magnetometer. These are contained in the Chapter_5
-directory of the Datafiles package you downloaded.
-<!--l. 639--><p class="noindent" ><span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>wants its own directory to store and manipulate files, so create
-a new directory (inside the Chapter_5 directory for convenience). From the
-command line, type QuickMagIC.py. Choose your new directory by clicking on
-the &#8216;change dir&#8217; button. DO NOT use directories with spaces in the path name
-(this is common on PCs).
-<!--l. 642--><p class="noindent" >On the menu bar of the <span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>GUI you will find a pull down menu
-labelled &#8220;Import&#8221;. Select &#8220;Hysteresis Files&#8221; and choose the &#8216;Import entire
-directory&#8221; option. Choose the Chapter_5 datafile directory. When prompted,
-select the cgs units option. These data are hysteresis loops that were measured
-with the &#8220;old&#8221; file format, so do not select &#8220;new format&#8221;. If you were really
-uploading a data into the database, you would fill out the location and other
-helpful information but for now, just click on the &#8220;OK&#8221; button to accept the
-specimen name. <span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>copies each datafile to the project
-directory and converts it to the MagIC format. Repeat the file importation
-procedure for all the files in the Chapter_5 directory. When you have finished
-importing the files, click on the &#8220;convert magnetometer files...&#8221; on the main
-panel and select the &#8216;Next step&#8217; button. This finds all the individual
-measurement files and clicking &#8217;OK&#8217; will combine them into a single file called
+<!--l. 639--><p class="noindent" >Someone has measured hysteresis loops on a mysterious set of specimens using an
+alternating gradient force magnetometer. These are contained in the
 <span 
-class="cmti-10x-x-109">magic</span><span 
-class="cmti-10x-x-109">_measurements.txt</span>.
-<!--l. 647--><p class="noindent" >a) On your command line, change directories into the Project Directory you just
-created and type &#8216;hysteresis_magic.py -f magic_measurements.txt&#8217;. This will read
-in your datafile specimen by specimen, making plots and collecting hysteresis
+class="cmti-10x-x-109">data</span><span 
+class="cmti-10x-x-109">_files/Essentials</span><span 
+class="cmti-10x-x-109">_Examples/Chapter</span><span 
+class="cmti-10x-x-109">_5 </span>directory. For this problem, we will use
+the programs <span 
+class="cmbx-10x-x-109">pmag</span><span 
+class="cmbx-10x-x-109">_gui.py </span>for converting measurement files to the MagIC
+format, and <span 
+class="cmbx-10x-x-109">hysteresis</span><span 
+class="cmbx-10x-x-109">_magic.py </span>and dayplot_magic.py for visualizing and
+analyzing the data.
+<!--l. 641--><p class="noindent" >You should make a directory for every project you work on and that includes
+each homework problem. So create a new directory (say, Problem_5.2). From the
+command line navigate to your directory and , type pmag_gui.py. [<span 
+class="cmbx-10x-x-109">PC</span>
+<span 
+class="cmbx-10x-x-109">users may need to omit the .py termination for all PmagPy</span>
+<span 
+class="cmbx-10x-x-109">programs.]</span>
+<!--l. 643--><p class="noindent" >Under the &#8216;Import&#8217; file menu, choose &#8217;Hysteresis files&#8217; and &#8216;Import entire
+directory&#8217;. The click on the &#8216;add&#8217; button and select the Chapter_5 folder. There
+are two characters that distinguish specimens (things that are measured) from
+samples (things that are taken in the field. The location name can be
+&#8216;Problem_5.2&#8217;. If you look in your project folder (here assumed Problem_5.2),
+you will find a bunch of new files named IS06a-1.agm.magic and so on. Now click
+on the &#8216;convert magnetometer files to MagIC format&#8217; button on the Pmag GUI
+main panel and click on &#8216;Skip to next step&#8217; button. This will find all the files with
+the .magic termination. Click on &#8216;OK&#8217; to combine these all into a single
+measurements file for use with <span 
+class="cmbx-10x-x-109">hysteresis</span><span 
+class="cmbx-10x-x-109">_magic.py</span>. Keep clicking on the &#8216;OK&#8217;
+buttons until the GUI is satisfied. Now exit the GUI and return to your
+notebook.
+<!--l. 649--><p class="noindent" >a) Run the <span 
+class="cmbx-10x-x-109">hysteresis</span><span 
+class="cmbx-10x-x-109">_magic.py </span>program from within your notebook using the
+! symbol before the command. Start by getting the help message:
                                                                      
 
                                                                      
-parameters. To advance through the plots, just press return after each plot until
-finished. Your terminal may look something like Figure&#x00A0;<a 
-href="#x7-5200115">5.15<!--tex4ht:ref: fig:gui --></a>. Write a detailed
-figure caption for the three non-blank figures for specimen IS06a-2. What is the
-difference between the red and blue lines? What are the blue squares? What is
-the &#8220;DeltaM&#8221; curve.
-<!--l. 650--><p class="noindent" >b) Stepping through all the plots in the last problem created a file that stored the
-hysteresis parameters like saturation remanence, coercivity, etc. in a file called
-<br 
+<div class="verbatim" id="verbatim-3">
+!hysteresis_magic.py&#x00A0;-h
+</div>
+<!--l. 652--><p class="nopar" > Then run the program using these options:
+                                                                     
+
+                                                                     
+<div class="verbatim" id="verbatim-4">
+!hysteresis_magic.py&#x00A0;&#x00A0;-f&#x00A0;magic_measurements.txt&#x00A0;-sav&#x00A0;-fmt&#x00A0;png
+</div>
+<!--l. 656--><p class="nopar" >
+<!--l. 660--><p class="noindent" >Load the images for the specimen IS06a-2 into the notebook as shown in the template
+file for this chapter&#8217;s problems (found in data_files/Essentials_Examples/Notebooks
+directory you installed before.
+<!--l. 662--><p class="noindent" >Write a detailed figure caption for the three figures for specimen IS06a-2. What is
+the difference between the red and blue lines? What are the blue squares? What
+is the &#8220;DeltaM&#8221; curve?
+<!--l. 664--><p class="noindent" >b) Analyzing all the data in the last problem with <span 
+class="cmbx-10x-x-109">hysteresis</span><span 
+class="cmbx-10x-x-109">_magic </span>created a
+file that stored the hysteresis parameters like saturation remanence, coercivity,
+etc. in a file called <br 
 class="newline" /><span 
 class="cmti-10x-x-109">rmag</span><span 
-class="cmti-10x-x-109">_hysteresis.txt </span>in the project directory. Now type &#8216;dayplot_magic.py&#8217; Write a
-caption for these plots. How would you interpret them?
+class="cmti-10x-x-109">_hysteresis.txt </span>in the project directory. Now run &#8216;dayplot_magic.py&#8217; from
+within your notebook and load up the figures. Write a caption for these plots.
+How would you interpret them?
                                                                      
 
                                                                      
