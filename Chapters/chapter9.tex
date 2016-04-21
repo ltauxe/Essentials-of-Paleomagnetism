@@ -774,7 +774,7 @@ a) Write a python program in a Jupyter notebook to make a Zijderveld diagram usi
  
 Follow these steps:  1) Read in the data.  2) Convert the vectors to $x, y, z$.  3) Plot $x$ versus $-y$ using some solid symbol and then connect those dots with a line.  This is the horizontal projection  of the vector so $x$ should be on the horizontal axis and $-y$ should be up. (Think about this!   You are plotting a map view and Y is the East direction.  So $+y$ should be to the right of $x$.)   4) Now plot $ x $ versus $-z$.  Here again the projection is unusual because $+z$ is the down direction. Therefore it should be down.  [It is  $-z$ that is up!]    Use a different (open) symbol for these points and plot them on the same plot as your $x,y$ data.   
 
-b) The same data were saved without headers in a file named  {\it zijd\_example.dat}.  Plot them using the program {\bf zeq.py}. [Hint:  check the help message by typing {\bf zeq.py -h} on the command line to figure out how...].  This can be done either from the command line or from within a jupyter notebook (remember that to run a command line program, you use the syntax:
+b) The same data were saved without headers in a file named  {\it zijd\_example.dat}.  Plot them using the program {\bf zeq.py}. [Hint:  check the help message by typing {\bf zeq.py -h} on the command line to figure out how...].  This can be done either from the command line or from within a jupyter notebook (remember that to run a command line program, you use the syntax):
 \begin {verbatim}
 !zeq.py -h
 \end{verbatim}
@@ -788,24 +788,35 @@ of magnetization? The high stability component of magnetization? What is
 the most likely remanence carrying mineral in this specimen?   Thinking about what you learned about VRM in Chapter 7, for the low stability component to be a VRM acquired over the last million years,  at what temperature would the rock have to have been held to acquire this component viscously over a million years?  
 
 
-c) Run  {\bf zeq.py} again, this time setting the -beg and -end flags to calculate best-fit lines through the two components and a great circle through all the data (leaving out the NRM step).  Display these new images in your notebook.  In a markdown code block explain which interpretation makes the most sense?  
+c) Run  {\bf zeq.py} again, this time setting the -beg and -end flags to calculate best-fit lines through the two components and a great circle through all the data except the NRM and last steps.  Display these new images in your notebook.  In a markdown code block explain which interpretation makes the most sense?  
 
 
 
 {\bf Problem 2 }
 
-Use the program {\bf sundec.py}  to estimate what the drilling azimuth was using the following sun compass information:   You are located at 35$^{\circ}$ N and 33$^{\circ}$ E.  The local
+a) Use the program {\bf sundec.py}  from the command line to estimate what the drilling azimuth was using the following sun compass information:   You are located at 35$^{\circ}$ N and 33$^{\circ}$ E.  The local
 time is three hours ahead of Universal Time, so we subtract -3 from local time.  The shadow angle for the
 drilling direction was 68$^{\circ}$ measured at 16:09 on May 23, 1994.
+
+b) Now use the dosundec() function from the pmagpy.pmag  module to do the same thing.  
 
 {\bf Problem 3}
 % problem 4.2 from Butler 1992:
 
-The direction of NRM  for these problems is given in geographic coordinates along with the
-attitude of dipping strata from which the site was collected.  For each problem, plot the NRM direction on an equal-area
-projection (see Appendix~\ref{app:eqarea}). 
-Then using the procedures outlined in Appendix~\ref{app:eqtilt} (or slight modifications thereof), determine
+a) The direction of NRM  for these problem is given in geographic coordinates along with the
+attitude of dipping strata from which the site was collected:    
+
+D = 336$^{\circ}$, I = -2$^{\circ}$, bedding dip = 41$^{\circ}$, dip direction = 351 $^{\circ}$.  
+
+Plot the NRM direction on an equal-area
+projection (see Appendix~\ref{app:eqarea}).   Then using the procedures outlined in Appendix~\ref{app:eqtilt} (or slight modifications thereof), determine
 the ``structurally corrected'' direction of NRM that results from restoring the strata to horizontal.
+
+Check your answer with the program {\bf di_tilt.py}
+
+b) Now try the same problem using the pmagpy.pmag function dotilt() in a Jupyter notebook.   
+
+
 
 {\bf Problem 4}
 %Problem 4.3 from Butler 1992.
@@ -816,7 +827,7 @@ I = 33$^{\circ}$, D = 309$^{\circ}$. The bedding attitude of the collection site
 anticlinal axis are trend = 170$^{\circ}$, plunge = 20$^{\circ}$. Determine the direction of NRM from this site following
 structural correction. To do this, first correct the NRM direction (and the pole to bedding) for the
 plunge of the anticline. Rotate the fold axis to horizontal first. Then complete the structural correction of the NRM direction by restoring
-the bedding (corrected for plunge) to horizontal.   Use the function {\bf pmag.dotilt } in the {\bf PmagPy} package to do your rotations in an IPython notebook.    
+the bedding (corrected for plunge) to horizontal.   Use the function {\bf pmag.dotilt() } in the {\bf PmagPy} package to do your rotations in an Jupyter notebook.    
 
 
 

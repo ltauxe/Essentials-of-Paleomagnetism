@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  20 APR 2016 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  20 APR 2016 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3070,24 +3070,24 @@ File: EPSfiles/baked.eps Graphic file (type eps)
 
 Package natbib Warning: Citation `collinson83' undefined on input line 757.
 
-[556] [557] [558]
-l. 835 Writing WebBook3.idv[264] (WebBook3263x.png)
- [559] [560] [561] [562
+[556] [557] [558] [559]
+l. 846 Writing WebBook3.idv[264] (WebBook3263x.png)
+ [560] [561] [562
 
 ]
-l. 857 Writing WebBook3.idv[265] (WebBook3264x.png)
+l. 868 Writing WebBook3.idv[265] (WebBook3264x.png)
 File: EPSfiles/NS034.eps Graphic file (type eps)
  <EPSfiles/NS034.eps> [563
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 879.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 890.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 879.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 890.
  [564
 
 ] [565]
@@ -5452,11 +5452,11 @@ you can ask a wizard to enlarge me.
 
  
 Here is how much of TeX's memory you used:
- 14642 strings out of 493090
- 210639 string characters out of 6134868
- 1695249 words of memory out of 5000000
- 17581 multiletter control sequences out of 15000+600000
+ 14614 strings out of 493090
+ 210443 string characters out of 6134868
+ 1694177 words of memory out of 5000000
+ 17553 multiletter control sequences out of 15000+600000
  17276 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  5000i,13n,4990p,2557b,3954s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on WebBook3.dvi (1065 pages, 2743320 bytes).
+Output written on WebBook3.dvi (1065 pages, 2744052 bytes).
