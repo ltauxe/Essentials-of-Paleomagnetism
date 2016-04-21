@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-04-20 20:31:00"> 
+<meta name="date" content="2016-04-20 22:44:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1318,36 +1318,47 @@ years?
 <!--l. 791--><p class="noindent" >c) Run <span 
 class="cmbx-10x-x-109">zeq.py </span>again, this time setting the -beg and -end flags to calculate
 best-fit lines through the two components and a great circle through all the data
-except the NRM and the last steps. Display these new images in your notebook. In
+except the NRM and last steps. Display these new images in your notebook. In
 a markdown code block explain which interpretation makes the most
 sense?
 <!--l. 795--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 2</span>
-<!--l. 797--><p class="noindent" >Use the program <span 
-class="cmbx-10x-x-109">sundec.py </span>to estimate what the drilling azimuth was using the
-following sun compass information: You are located at 35<sup><span 
+<!--l. 797--><p class="noindent" >a) Use the program <span 
+class="cmbx-10x-x-109">sundec.py </span>from the command line to estimate what the
+drilling azimuth was using the following sun compass information: You are
+located at 35<sup><span 
 class="cmsy-8">&#x2218;</span></sup> N and 33<sup><span 
-class="cmsy-8">&#x2218;</span></sup> E. The
-local time is three hours ahead of Universal Time, so we subtract -3 from local
-time. The shadow angle for the drilling direction was 68<sup><span 
-class="cmsy-8">&#x2218;</span></sup> measured at 16:09 on
-May 23, 1994.
-<!--l. 801--><p class="noindent" ><span 
+class="cmsy-8">&#x2218;</span></sup> E. The local time is three hours ahead of Universal
+Time, so we subtract -3 from local time. The shadow angle for the drilling
+direction was 68<sup><span 
+class="cmsy-8">&#x2218;</span></sup> measured at 16:09 on May 23, 1994.
+<!--l. 801--><p class="noindent" >b) Now use the dosundec() function from the pmagpy.pmag module to do the
+same thing.
+<!--l. 803--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 3</span>
-<!--l. 804--><p class="noindent" >The direction of NRM for these problems is given in geographic coordinates along
                                                                      
 
                                                                      
-with the attitude of dipping strata from which the site was collected. For
-each problem, plot the NRM direction on an equal-area projection (see
-Appendix&#x00A0;<a 
-href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>). Then using the procedures outlined in Appendix&#x00A0;<a 
-href="WebBook3ap2.html#x20-230000B.1.3">B.1.3<!--tex4ht:ref: app:eqtilt --></a> (or slight
-modifications thereof), determine the &#8220;structurally corrected&#8221; direction of NRM
-that results from restoring the strata to horizontal.
-<!--l. 810--><p class="noindent" ><span 
+<!--l. 806--><p class="noindent" >a) The direction of NRM for these problem is given in geographic coordinates
+along with the attitude of dipping strata from which the site was collected:
+<!--l. 809--><p class="noindent" >D = 336<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, I = -2<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, bedding dip = 41<sup><span 
+class="cmsy-8">&#x2218;</span></sup>, dip direction = 351 <sup><span 
+class="cmsy-8">&#x2218;</span></sup>.
+<!--l. 811--><p class="noindent" >Plot the NRM direction on an equal-area projection (see Appendix&#x00A0;<a 
+href="WebBook3ap2.html#x20-227000B.1">B.1<!--tex4ht:ref: app:eqarea --></a>). Then
+using the procedures outlined in Appendix&#x00A0;<a 
+href="WebBook3ap2.html#x20-230000B.1.3">B.1.3<!--tex4ht:ref: app:eqtilt --></a> (or slight modifications
+thereof), determine the &#8220;structurally corrected&#8221; direction of NRM that results
+from restoring the strata to horizontal.
+<!--l. 815--><p class="noindent" >Check your answer with the program <span 
+class="cmbx-10x-x-109">di&#x02D9;tilt.py</span>
+<!--l. 817--><p class="noindent" >b) Now try the same problem using the pmagpy.pmag function dotilt() in a
+Jupyter notebook.
+<!--l. 821--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 4</span>
-<!--l. 813--><p class="noindent" >Now consider a more complex situation in which a paleomagnetic site has been
+<!--l. 824--><p class="noindent" >Now consider a more complex situation in which a paleomagnetic site has been
 collected from the limb of a plunging fold. On the east limb of a plunging
 anticline, a direction of NRM is found to be I = 33<sup><span 
 class="cmsy-8">&#x2218;</span></sup>, D = 309<sup><span 
@@ -1368,12 +1379,12 @@ bedding) for the plunge of the anticline. Rotate the fold axis to horizontal
 first. Then complete the structural correction of the NRM direction by
 restoring the bedding (corrected for plunge) to horizontal. Use the function
 <span 
-class="cmbx-10x-x-109">pmag.dotilt  </span>in the <span 
-class="cmbx-10x-x-109">PmagPy </span>package to do your rotations in an IPython
+class="cmbx-10x-x-109">pmag.dotilt()  </span>in the <span 
+class="cmbx-10x-x-109">PmagPy </span>package to do your rotations in an Jupyter
 notebook.
-<!--l. 826--><p class="noindent" ><span 
+<!--l. 837--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 5</span>
-<!--l. 828--><p class="noindent" >Write a python program to convert <span 
+<!--l. 839--><p class="noindent" >Write a python program to convert <span 
 class="cmmi-10x-x-109">D </span>= 8<span 
 class="cmmi-10x-x-109">.</span>1<span 
 class="cmmi-10x-x-109">,I </span>= 45<span 
@@ -1393,15 +1404,18 @@ class="cmmi-10x-x-109">A </span>of elements
 <span 
 class="cmmi-10x-x-109">a</span><sub><span 
 class="cmmi-8">ij</span></sub>:
-<!--l. 835--><p class="noindent" >
+<!--l. 846--><p class="noindent" >
+                                                                     
+
+                                                                     
 <center class="math-display" >
 <img 
-src="WebBook3263x.png" alt="(  a   a    a  )
-(   11    12   13)
-   a21  a22  a23  ,
+src="WebBook3263x.png" alt="(              )
+   a11  a12  a13
+(  a21  a22  a23),
    a31  a32  a33
 " class="math-display" ></center>
-<!--l. 844--><p class="nopar" >the command would be:
+<!--l. 855--><p class="nopar" >the command would be:
                                                                      
 
                                                                      
@@ -1409,11 +1423,11 @@ src="WebBook3263x.png" alt="(  a   a    a  )
 import&#x00A0;numpy&#x00A0;as&#x00A0;np
 &#x00A0;<br />A=np.array([[a11,a12,a13],[a21,a22,a23],[a31,a32,a33]])
 </div>
-<!--l. 849--><p class="nopar" >
-<!--l. 851--><p class="noindent" >The import command can be put at the beginning of the program as always. Use
+<!--l. 860--><p class="nopar" >
+<!--l. 862--><p class="noindent" >The import command can be put at the beginning of the program as always. Use
 your programs to convert direction to cartesian coordinates and back
 again.
-<!--l. 853--><p class="noindent" >Compare your answer to the one given by <span 
+<!--l. 864--><p class="noindent" >Compare your answer to the one given by <span 
 class="cmbx-10x-x-109">di</span><span 
 class="cmbx-10x-x-109">_geo.py </span>and <span 
 class="cmbx-10x-x-109">di</span><span 
@@ -1425,7 +1439,7 @@ class="cmbx-10x-x-109">_tilt.py </span>uses dip and dip direction instead of str
 dip. These are completely interchangeable, but dip and dip direction is
 unique, while strike and dip requires some convention like &#8220;dip to right of
 strike&#8221;).
-<!--l. 856--><p class="noindent" ><hr class="figure"><div class="figure" 
+<!--l. 867--><p class="noindent" ><hr class="figure"><div class="figure" 
 >
                                                                      
 
@@ -1435,7 +1449,7 @@ strike&#8221;).
                                                                      
 
                                                                      
-<!--l. 857--><p class="noindent" ><img 
+<!--l. 868--><p class="noindent" ><img 
 src="WebBook3264x.png" alt="PIC" class="graphics" width="398.33858pt" height="185.12015pt" ><!--tex4ht:graphics  
 name="WebBook3264x.png" src="EPSfiles/NS034.eps"  
 -->
@@ -1448,15 +1462,15 @@ direction (see look direction in notebook page.) c) Page from the notebook.
                                                                      
 
                                                                      
-<!--l. 860--><p class="noindent" ></div><hr class="endfigure">
-<!--l. 863--><p class="noindent" ><span 
+<!--l. 871--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 874--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 6</span>
-<!--l. 867--><p class="noindent" >An intrepid group called &#8220;the red team&#8221; sampled a lava flow on Bastille day in
+<!--l. 878--><p class="noindent" >An intrepid group called &#8220;the red team&#8221; sampled a lava flow on Bastille day in
 2006. The team, the sampling sites and the notebook page are shown in
 Figure&#x00A0;<a 
 href="#x11-11500115">9.15<!--tex4ht:ref: fig:ns34 --></a>a,b and c respectively. In this problem we will look at some real data
 collected from this lava flow.
-<!--l. 871--><p class="noindent" >a) Make a new directory in your homework directory for this problem. Do not
+<!--l. 882--><p class="noindent" >a) Make a new directory in your homework directory for this problem. Do not
 include spaces in the directory name! Run the <span 
 class="cmbx-10x-x-109">Pmag GUI </span>graphical user
 interface by typing <span 
@@ -1464,8 +1478,8 @@ class="cmbx-10x-x-109">pmag</span><span
 class="cmbx-10x-x-109">_gui.py </span>on the command line. [Note that PC users
 may have to omit the .py termination.] This problem does not use the Jupyter
 notebook!
-<!--l. 874--><p class="noindent" >Change directories into your new homework directory.
-<!--l. 876--><p class="noindent" >b) Convert your data files to the MagIC format. The measurements were made in
+<!--l. 885--><p class="noindent" >Change directories into your new homework directory.
+<!--l. 887--><p class="noindent" >b) Convert your data files to the MagIC format. The measurements were made in
 the SIO paleomagnetic laboratory in the SIO lab format. Specimens were
 demagnetized using the AF and thermal methods and the data are in the
 Chapter_9 directory, named ns_a.mag and ns_t.mag respectively.
@@ -1494,7 +1508,7 @@ Chapter_9 directory, named ns_a.mag and ns_t.mag respectively.
      </li>
      <li class="itemize">Skip the panel &#8216;Step 3:&#8217; by clicking on &#8216;OK&#8217; to complete the conversion
      step.</li></ul>
-<!--l. 886--><p class="noindent" >c) Click on the button labelled &#8216;2. Calculate the geographic/tilt-corrected
+<!--l. 897--><p class="noindent" >c) Click on the button labelled &#8216;2. Calculate the geographic/tilt-corrected
 directions&#8217;. Here you could fill out the form using the notebook information in
 Figure&#x00A0;<a 
 href="#x11-11500115">9.15<!--tex4ht:ref: fig:ns34 --></a>. But someone has typed in all the data you need for you.
@@ -1531,7 +1545,7 @@ class="cmsy-10x-x-109">~ </span>if it broke
                                                                      
 
                                                                      
-<!--l. 898--><p class="noindent" >d) Look at the demagnetization data.
+<!--l. 909--><p class="noindent" >d) Look at the demagnetization data.
      <ul class="itemize1">
      <li class="itemize">Click on the &#8216;Demag GUI&#8217; button. You should have a panel of plots
      including  a  Zijderveld  plot,  an  equal  area  projection  with  all  the
@@ -1559,7 +1573,7 @@ class="cmsy-10x-x-109">~ </span>if it broke
      </li>
      <li class="itemize">Exit the program by selecting the &#8216;Quit Demag-gui&#8217; option under the
      &#8217;File&#8217; menu.</li></ul>
-<!--l. 910--><p class="noindent" >e) Explore the MagIC database tables that you have created.
+<!--l. 921--><p class="noindent" >e) Explore the MagIC database tables that you have created.
      <ul class="itemize1">
      <li class="itemize">Look at the chapter on the MagIC database and file formats in the
      <a 
@@ -1598,7 +1612,7 @@ href="http://earthref.org/PmagPy/" >PmagPy cookbook</a>.
      for the age.
      </li>
      <li class="itemize">Click on &#8216;Save and continue&#8217; to finish.</li></ul>
-<!--l. 926--><p class="noindent" >You can explore your handiwork by looking at the files created in your homework
+<!--l. 937--><p class="noindent" >You can explore your handiwork by looking at the files created in your homework
 directory with Excel or some other spreadsheet program.
                                                                      
 
