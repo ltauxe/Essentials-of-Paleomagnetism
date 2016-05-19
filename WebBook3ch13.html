@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-04-20 22:44:00"> 
+<meta name="date" content="2016-05-18 17:05:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1907,10 +1907,11 @@ class="cmti-10x-x-109">prob13-1.dat</span>.
 class="cmbx-10x-x-109">s</span><span 
 class="cmbx-10x-x-109">_eigs.py </span>(see
 example in <a 
-href="http://earthref.org/PmagPy/cookbook/#s_eigs.py" >PmagPy</a>). Remember also that all <span 
+href="http://earthref.org/PmagPy#s_eigs.py" >PmagPy</a>). Remember also that all <span 
 class="cmbx-10x-x-109">PmagPy </span>programs have a help
-menu by typing the program name with -h after it on the command
-line.)
+menu by typing the program name with -h after it on the command line and that
+you can call the program from within a Jupyter Notebook by using an initial !,
+e.g., !s_eigs.py.)
 <!--l. 996--><p class="noindent" >b) Now convert the eigenparameters back to the <span 
 class="cmmi-10x-x-109">s</span><sub><span 
 class="cmmi-8">i</span></sub> using <span 
@@ -2008,85 +2009,81 @@ class="cmr-8">15</span></sub></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-11-4-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-4-1"  
 class="td11"> </td></tr></table></div>
-<!--l. 1017--><p class="nopar" >where az, pl, strike, dip are the azimuth and plunge of the laboratory arrow and
                                                                      
 
                                                                      
+<!--l. 1017--><p class="nopar" >where az, pl, strike, dip are the azimuth and plunge of the laboratory arrow and
 the structural strike and dip (see Chapter 9) and the <span 
 class="cmmi-10x-x-109">K</span><sub><span 
 class="cmmi-8">i</span></sub> are the susceptibility
 measurements.
 <!--l. 1019--><p class="noindent" >a) Calculate the average bedding pole direction from the strike and dip
 measurements. [Hint: convert each dip direction and dip to its pole by: pole
-declination = dip direction; pole inclination = 90 - dip. Calculate the
-average pole with <span 
+declination = dip direction; pole inclination = 90 - dip. Calculate the average
+pole to the bedding plane with <span 
 class="cmbx-10x-x-109">gofish.py </span>(see example in <a 
-href="http://earthref.org/PmagPy/cookbook/#gofish.py" >PmagPy</a> or review Chapter 11
-problems).]
+href="http://earthref.org/PmagPy#gofish.py" >PmagPy</a> or review
+Chapter 11 problems).]
 <!--l. 1022--><p class="noindent" >b) Import the .k15 formatted files into the MagIC format using the
 <span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>GUI as follows: Create an empty folder that has no spaces
-in the Path. Type <span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>on your <a 
-href="http://earthref.org/PmagPy/cookbook/#command_line" >command line</a> and select
-your new folder as the Project Directory. Under the Import menu, select
-&#8216;anisotropy files&#8217; and choose the &#8216;k15&#8217; format. Import each data file. There is a
-single character that differentiates between specimen and sample. Samples
-are distinguished from sites with a &#8217;-&#8217; delimiter. For the location, just
-put &#8217;Dike&#8217;. After importing the files, Click on &#8216;1. convert magnetometer
-files&#8217; and choose &#8216;Next Step&#8217;. Combine combine all the files into a single
+class="cmbx-10x-x-109">pmag</span><span 
+class="cmbx-10x-x-109">_gui.py </span>GUI as follows: Create an empty folder for this problem. Then
+type <span 
+class="cmbx-10x-x-109">pmag</span><span 
+class="cmbx-10x-x-109">_gui.py </span>on your <a 
+href="http://earthref.org/PmagPy#command_line" >command line</a> [note that some PC installations omit
+the .py at the end of the command]. Select your new folder as the Project
+Directory. Under the Import menu, select &#8216;anisotropy files&#8217; and choose the &#8216;k15&#8217;
+format. Click on the &#8217;add&#8217; button to import these data files in sequence: east.k15
+and west.k15. There is a single character that differentiates between specimen
+and sample. Samples are distinguished from sites with a &#8217;-&#8217; delimiter. For the
+location, just put &#8217;Dike&#8217;. After importing the files, Click on &#8216;1. convert
+magnetometer files&#8217; and choose &#8216;Next Step&#8217;. Combine all the files into a single
 <span 
 class="cmti-10x-x-109">magic</span><span 
-class="cmti-10x-x-109">_measurements.txt </span>file by clicking on &#8216;OK&#8217;. In Step 3, just click on &#8216;OK&#8217;
-to create a single er_samples.txt file. When you are finished, exit from
-<span 
-class="cmbx-10x-x-109">QuickMagIC </span>and find your command line. Make sure you are in your Project
-Directory.
-<!--l. 1024--><p class="noindent" >c) Plot the AMS data by typing &#8220;aniso_magic.py&#8221; on the command line in your
-Project Directory. First you must combine the data from the two different
-margins into a single file using the program <span 
-class="cmbx-10x-x-109">combine</span><span 
-class="cmbx-10x-x-109">_magic.py</span>. To do this type
-the following on your command line:
+class="cmti-10x-x-109">_measurements.txt </span>file by clicking on &#8216;OK&#8217;. In Step 3, just click on &#8216;OK&#8217; to
+create a single er_samples.txt and rmag_anisotropy file. When you are
+finished, exit from <span 
+class="cmbx-10x-x-109">Pmag GUI </span>and find your command line (or return
+to the notebook). Make sure you are your Project Directory is in the
+notebook&#8217;s path or that you are &#8216;in&#8217; it if working from the command
+line.
+<!--l. 1024--><p class="noindent" >c) Plot the AMS data by typing &#8220;aniso_magic.py&#8221; on the command line in
+your Project Directory. If you are working from within the notebook,
+you must specify the path of your anisotropy file (for example with -f
+MyFiles/rmag_anisotropy.txt) and use the -sav option to prevent hanging of the
+program.
+<!--l. 1026--><p class="noindent" >Now you can plot the data &#8220;by site&#8221; which in this case is by margin. Choose the
+geographic coordinate system and suppress the bootstrap. Plot the Hext ellipses.
+Then choose a parametric bootstrap, plotting the bootstrap eigenvectors. How do
+the two methods compare?
+<!--l. 1029--><p class="noindent" >d) Plot the dike plane by choosing to plot the great circle (check the help
+message to see how to do that) and enter the pole you calculated in
                                                                      
 
                                                                      
-<div class="verbatim" id="verbatim-9">
-%&#x00A0;combine_magic.py&#x00A0;-F&#x00A0;rmag_anisotropy.txt&#x00A0;-f&#x00A0;east.k15_rmag_anisotropy.txt&#x00A0;west.k15_rmag_anisotopy.txt
-</div>
-<!--l. 1028--><p class="nopar" >
-<!--l. 1030--><p class="noindent" >Now you can plot the data &#8220;by site&#8221; which in this case is by margin. Choose the
-geographic coordinate system and suppress the bootstrap. Plot the Hext
-ellipses. Then choose a parametric bootstrap, plotting the bootstrap
-eigenvectors. If you are doing this from within your notebook, use the -sav
-option to prevent hanging of the program. How do the two methods
-compare?
-<!--l. 1033--><p class="noindent" >d) Plot the dike plane by choosing to plot the great circle (check the help
-message to see how to do that) and enter the pole you calculated in
 a).
-<!--l. 1035--><p class="noindent" >e) Which direction was the magma flowing when the dike was created?
-<!--l. 1038--><p class="noindent" ><span 
+<!--l. 1031--><p class="noindent" >e) Which direction was the magma flowing when the dike was created?
+<!--l. 1034--><p class="noindent" ><span 
 class="cmbx-10x-x-109">Problem 3</span>
-<!--l. 1040--><p class="noindent" >For this problem, we will download data from the MagIC database that were
+<!--l. 1036--><p class="noindent" >For this problem, we will download data from the MagIC database that were
 published by Schwehr and Tauxe (2003) as part of a study to detect slumping in
 sedimentary environments.
-<!--l. 1043--><p class="noindent" >a) Download the dataset from the persistent link to this study at by clicking on
+<!--l. 1039--><p class="noindent" >a) Download the dataset from the persistent link to this study at by clicking on
 the &#8216;Data&#8217; icon:
-<!--l. 1045--><p class="noindent" ><a 
+<!--l. 1041--><p class="noindent" ><a 
 href="http://earthref.org/MAGIC/1984/" class="url" ><span 
 class="cmtt-10x-x-109">http://earthref.org/MAGIC/1984/</span></a>
-<!--l. 1047--><p class="noindent" >Put the file you downloaded into a new Project Directory.
-<!--l. 1049--><p class="noindent" >b) After firing up the <span 
-class="cmbx-10x-x-109">QuickMagIC.py </span>graphical user interface, click on &#8216;unpack
-downloaded txt file&#8217; from the front panel and choose the file you downloaded in
-a).
-<!--l. 1051--><p class="noindent" >c) Plot the data with the <span 
+<!--l. 1043--><p class="noindent" >Put the file you downloaded into a new Project Directory.
+<!--l. 1045--><p class="noindent" >b) After firing up the <span 
+class="cmbx-10x-x-109">pmag</span><span 
+class="cmbx-10x-x-109">_gui.py </span>graphical user interface, click on &#8216;unpack txt
+file downloaded from MagIC&#8217; from the front panel and choose the file you
+downloaded in a).
+<!--l. 1047--><p class="noindent" >c) Plot the data with the <span 
 class="cmbx-10x-x-109">aniso</span><span 
 class="cmbx-10x-x-109">_magic.py </span>(from the command line or using the
-                                                                     
-
-                                                                     
--sav option from within the Python notebook). and choose the &#8220;plot by site,
+-sav option from within the Python notebook). Also, choose the &#8220;plot by site,
 parametric bootstrap and bootstrapped eigenvectors&#8221; options. There were three
 sites collected: one from undisturbed sedimentary layers, one with clear evidence
 of slumping in the outcrop and one from the same horizon, but with no
