@@ -991,7 +991,7 @@ Make sure you have downloaded and unzipped the Datafiles for this book (see Chap
 
 Someone measured the AMS of a set of specimens using the six position measurement scheme described in the chapter.  These data were converted to the six tensor elements $s_i$ as in Equation~\ref{eq:kj}.  The six tensor elements for each specimen are saved in file {\it prob13-1.dat}.   
 
-a) Convert these to eigenvalues and eigenvectors using program {\bf s\_eigs.py} (see example in \href{http://earthref.org/PmagPy/cookbook/#s_eigs.py}{PmagPy}). Remember also that all {\bf PmagPy} programs have a help menu by typing the program name with -h after it on the command line.)   
+a) Convert these to eigenvalues and eigenvectors using program {\bf s\_eigs.py} (see example in \href{http://earthref.org/PmagPy#s_eigs.py}{PmagPy}). Remember also that all {\bf PmagPy} programs have a help menu by typing the program name with -h after it on the command line and that you can call the program from within a Jupyter Notebook by using an initial !, e.g., !s\_eigs.py.)   
 
 b) Now convert the eigenparameters back to the $s_i$ using {\bf eigs\_s.py}).  Compare the two $s_i$ files.  Are they identical?  How many times can you repeat this before the data are completely unreliable?  
 
@@ -1017,17 +1017,13 @@ specimen\_name [optional: az,pl,strike,dip]
 \noindent where az, pl, strike, dip are the azimuth and plunge of the laboratory arrow and the structural strike and dip (see Chapter 9) and the $K_i$ are the susceptibility measurements.  
 
 a) Calculate the average bedding pole direction from the strike and dip measurements.  [Hint:  convert each dip direction and dip to its pole by: pole declination = dip direction; pole inclination = 90 - dip.
-Calculate the average pole with {\bf gofish.py} (see example in \href{http://earthref.org/PmagPy/cookbook/#gofish.py}{PmagPy} or review Chapter 11 problems).]  
+Calculate the average pole to the bedding plane with {\bf gofish.py} (see example in \href{http://earthref.org/PmagPy#gofish.py}{PmagPy} or review Chapter 11 problems).]  
 
-b)  Import the .k15 formatted files into the MagIC format using the {\bf QuickMagIC.py} GUI as follows:  Create an empty folder that has no spaces in the Path.   Type {\bf QuickMagIC.py} on your \href{http://earthref.org/PmagPy/cookbook/#command_line}{command  line} and select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Import each data file.  There is a single character that differentiates between specimen and sample.  Samples are distinguished from sites with a '-' delimiter.  For the location, just put 'Dike'.     After importing the files, Click on  `1. convert magnetometer files'  and choose `Next Step'.  Combine combine all the files into a single {\it magic\_measurements.txt} file by clicking on `OK'.   In Step 3, just click on `OK' to create a single er\_samples.txt file.   When you are finished, exit from {\bf QuickMagIC} and find your command line.  Make sure you are in your Project Directory.  
+b)  Import the .k15 formatted files into the MagIC format using the {\bf pmag\_gui.py} GUI as follows:  Create an empty folder for this problem.  Then type {\bf pmag\_gui.py} on your \href{http://earthref.org/PmagPy#command_line}{command  line} [note that some PC installations omit the .py at the end of the command].  Select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Click on the 'add' button to import these data files in sequence:  east.k15 and west.k15.  There is a single character that differentiates between specimen and sample.  Samples are distinguished from sites with a '-' delimiter.  For the location, just put 'Dike'.     After importing the files, Click on  `1. convert magnetometer files'  and choose `Next Step'.  Combine  all the files into a single {\it magic\_measurements.txt} file by clicking on `OK'.   In Step 3, just click on `OK' to create a single er\_samples.txt and rmag\_anisotropy file.   When you are finished, exit from {\bf Pmag GUI} and find your command line (or return to the notebook).  Make sure you are your Project Directory is in the notebook's path or that you are `in' it if working from the command line.  
 
-c)   Plot the AMS data by typing ``aniso\_magic.py'' on the command line in your Project Directory.  First you must combine the data from the two different margins into a single file using the program {\bf combine\_magic.py}.  To do this type the following on your command line:
+c)   Plot the AMS data by typing ``aniso\_magic.py'' on the command line in your Project Directory. If you are working from within the notebook, you must specify the path of your anisotropy file (for example with -f MyFiles/rmag\_anisotropy.txt) and    use the -sav option to prevent hanging of the program. 
 
-\begin{verbatim}
-% combine_magic.py -F rmag_anisotropy.txt -f east.k15_rmag_anisotropy.txt west.k15_rmag_anisotopy.txt
-\end{verbatim}
-
-Now you can plot the data ``by site'' which in this case is by margin.  Choose the geographic coordinate system and  suppress the bootstrap.  Plot the Hext ellipses.  Then choose a parametric bootstrap, plotting the bootstrap eigenvectors.    If you are doing this from within your notebook, use the -sav option to prevent hanging of the program.    How do the two methods compare?   
+Now you can plot the data ``by site'' which in this case is by margin.  Choose the geographic coordinate system and  suppress the bootstrap.  Plot the Hext ellipses.  Then choose a parametric bootstrap, plotting the bootstrap eigenvectors.     How do the two methods compare?   
 
 
 d) Plot the dike plane by choosing to plot the great circle  (check the help message to see how to do that)  and enter the pole you calculated in a).   
@@ -1046,8 +1042,8 @@ a)  Download the  dataset from  the persistent link to this study at by clicking
 
 Put the file you downloaded into a  new Project Directory.
 
-b)   After firing up the {\bf QuickMagIC.py} graphical user interface, click on `unpack downloaded txt file' from the front panel and choose the file you downloaded in a). 
+b)   After firing up the {\bf pmag\_gui.py} graphical user interface, click on `unpack  txt file downloaded from MagIC' from the front panel and choose the file you downloaded in a). 
 
-c) Plot the data with the {\bf aniso\_magic.py} (from the command line or using the -sav option from within the Python notebook).  and choose the  ``plot by site, parametric bootstrap and bootstrapped eigenvectors'' options.  There were three sites collected:  one from  undisturbed sedimentary layers,  one with clear evidence of slumping in the outcrop and one from the same horizon, but with no obvious slumping at the sampling site (a cryptoslump).  Which site was which?  
+c) Plot the data with the {\bf aniso\_magic.py} (from the command line or using the -sav option from within the Python notebook).  Also,  choose the  ``plot by site, parametric bootstrap and bootstrapped eigenvectors'' options.  There were three sites collected:  one from  undisturbed sedimentary layers,  one with clear evidence of slumping in the outcrop and one from the same horizon, but with no obvious slumping at the sampling site (a cryptoslump).  Which site was which?  
 }
 %
