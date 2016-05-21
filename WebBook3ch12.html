@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-05-18 17:05:00"> 
+<meta name="date" content="2016-05-21 12:07:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -111,8 +111,7 @@ and is given by:
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3322x.png" alt="          - 1                 2
-F = c(&#x03BA;,&#x03B2; )  exp(&#x03BA; cos&#x03B1; + &#x03B2;sin &#x03B1; cos2&#x03D5;),
+src="WebBook3322x.png" alt="F = c(&#x03BA;,&#x03B2; )- 1exp(&#x03BA; cos&#x03B1; + &#x03B2;sin2&#x03B1; cos2&#x03D5;),
 " class="math-display" ><a 
  id="x14-146001r1"></a></center></td><td class="equation-label">(12.1)</td></tr></table>
 <!--l. 70--><p class="nopar" >
@@ -121,7 +120,7 @@ the Fisher distribution (see Chapter 11). The difference is that when
 transformed to the mean direction, Kent declinations are not uniformly
 distributed around the mean. If we calculate eigenparameters for the
 orientation matrix of the data (see Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>), then the major
+href="WebBook3ap1.html#x20-220000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>), then the major
 and minor eigenvectors (<span 
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">2</span></sub><span 
@@ -153,12 +152,12 @@ class="cmmi-10x-x-109">&#x03BA; </span>and <span
 class="cmmi-10x-x-109">&#x03B2;</span>.
 When <span 
 class="cmmi-10x-x-109">&#x03B2; </span>is zero, the Kent distribution reduces to a Fisher distribution.
-Details of the calculation of Kent 95% confidence ellipse are given in
-Appendix&#x00A0;<a 
-href="WebBook3ap3.html#x21-241000C.2.4">C.2.4<!--tex4ht:ref: app:kent --></a>.
                                                                      
 
                                                                      
+Details of the calculation of Kent 95% confidence ellipse are given in
+Appendix&#x00A0;<a 
+href="WebBook3ap3.html#x22-242000C.2.4">C.2.4<!--tex4ht:ref: app:kent --></a>.
 <!--l. 79--><p class="noindent" >If we were to collect data from the equatorial region, we might well obtain a set
 of directions such as those shown in Figure&#x00A0;<a 
 href="#x14-1460022">12.2<!--tex4ht:ref: fig:confidence --></a>a. [Note that the center of the
@@ -210,9 +209,9 @@ bimodal, elliptical data that the Bingham distribution was developed (Bingham,
 <!--l. 99--><p class="noindent" >
 <center class="math-display" >
 <img 
-src="WebBook3324x.png" alt="         1               2         2     2
-F =  4&#x03C0;d(k-,k-) exp (k1cos &#x03D5; + k2sin &#x03D5;)sin &#x03B1;,
-          1  2  " class="math-display" ></center>
+src="WebBook3324x.png" alt="         1
+F =  ----------exp (k1cos2&#x03D5; + k2sin2&#x03D5;)sin2&#x03B1;,
+     4&#x03C0;d(k1,k2)  " class="math-display" ></center>
 where <span 
 class="cmmi-10x-x-109">&#x03B1; </span>and <span 
 class="cmmi-10x-x-109">&#x03D5; </span>are as in the Kent distribution, <span 
@@ -237,12 +236,12 @@ class="cmr-8">1</span></sub><span
 class="cmmi-10x-x-109">,k</span><sub><span 
 class="cmr-8">2</span></sub> can be estimated by numerical integration and can be converted into 95%
 confidence ellipses, the details of which are given in Appendix&#x00A0;<a 
-href="WebBook3ap3.html#x21-242000C.2.5">C.2.5<!--tex4ht:ref: app:bing --></a>. In a nut
+href="WebBook3ap3.html#x22-243000C.2.5">C.2.5<!--tex4ht:ref: app:bing --></a>. In a nut
 shell, the <span 
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">1</span></sub> eigenvector of the orientation matrix (associated with the
 largest eigenvalue, see Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>) is the principal direction and the
+href="WebBook3ap1.html#x20-220000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>) is the principal direction and the
 semi-axes of the 95% confidence ellipse are proportional to the intermediate
 and minimum eigenvalues. The Bingham principal direction therefore is
 not necessarily the same as the Fisher or Kent mean. If we take each
@@ -251,10 +250,10 @@ axis about which the moment of inertia of the masses would be least.
 The Fisher mean is somewhat different, in that it is the vector sum of
 unit vectors. The Bingham mean (principal direction) is less affected by
 outliers than the Fisher mean, lying closer to the center of mass of data
-points.
                                                                      
 
                                                                      
+points.
 <!--l. 104--><p class="noindent" >The principle drawback of the Bingham distribution is that because the
 orientation matrix uses the entire data set (normal and reverse) the two modes
 are assumed to be antipodal and to share the same distribution parameters.
@@ -273,7 +272,7 @@ href="WebBook3li1.html#QQ2-14-304" id="x14-14800012.1.3">The Bingham-LeGoff appr
 <!--l. 113--><p class="nopar" >Estimating the parameters for the Bingham ellipse exactly is computationally
 taxing and all of the available &#8220;canned&#8221; programs use the look up table of
 Mardia and Zemroch (1977; see Appendix&#x00A0;<a 
-href="WebBook3ap3.html#x21-242000C.2.5">C.2.5<!--tex4ht:ref: app:bing --></a>).  LeGoff et al. (1992) suggested
+href="WebBook3ap3.html#x22-243000C.2.5">C.2.5<!--tex4ht:ref: app:bing --></a>).  LeGoff et al. (1992) suggested
 some approximations which may be valid for concentrated distributions. They
 also introduced the concept of weighting results according to some reliability
 criteria. For the general case, however, it seems preferable to use the exact Kent
@@ -365,23 +364,23 @@ bootstrap has the flexibility to allow us to treat awkward data sets like that
 shown in Figure&#x00A0;<a 
 href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a>a.
 <!--l. 162--><p class="noindent" >The principles of the bootstrap are given in Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-224000A.3.7">A.3.7<!--tex4ht:ref: app:bootstrap --></a>. In essence, the
+href="WebBook3ap1.html#x20-225000A.3.7">A.3.7<!--tex4ht:ref: app:bootstrap --></a>. In essence, the
 parameter of interest (say, the mean vector) is calculated from many resampled
 data sets, whose data points are selected at random from the original data. The
 bootstrapped estimates &#8220;map out&#8221; the likely distribution of the parameter,
 allowing estimation of confidence regions. Before we extend the bootstrap from
 the scalar treatment in Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-224000A.3.7">A.3.7<!--tex4ht:ref: app:bootstrap --></a> to vectors, it is important to point out
+href="WebBook3ap1.html#x20-225000A.3.7">A.3.7<!--tex4ht:ref: app:bootstrap --></a> to vectors, it is important to point out
 that with the bootstrap, it is assumed that the underlying distribution is
 represented by the data, demanding that the data sets be rather large. Moreover,
 the bootstrap estimates are only asymptotically valid, meaning that a
 large number of bootstrap calculations are required for the confidence
 intervals to be valid. It&#8217;s a good thing we have fast computers with huge
 hard-drives.
-<!--l. 170--><p class="noindent" >There are a variety of ways we can use the bootstrap to estimate confidence
                                                                      
 
                                                                      
+<!--l. 170--><p class="noindent" >There are a variety of ways we can use the bootstrap to estimate confidence
 regions for paleomagnetic data. We will start with the most &#8220;Fisher&#8221; like
 approach of taking unit vectors of a single polarity. Then we will accommodate
 dual polarity data sets and develop analogous tests to those so useful for Fisher
@@ -431,6 +430,9 @@ could calculate the principal eigenvector <span
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">1</span></sub> of each mode, which is less sensitive
 to the presence of outliers.
+                                                                     
+
+                                                                     
 <!--l. 200--><p class="noindent" ><hr class="figure"><div class="figure" 
 >
                                                                      
@@ -557,6 +559,9 @@ coordinates of the bootstrapped means are shown in Figure&#x00A0;<a
 href="#x14-1530017">12.7<!--tex4ht:ref: fig:revtest --></a>. The
 confidence intervals for the normal and reverse antipodes overlap, thereby
 suggesting that the two means cannot be distinguished at the 95% level of
+                                                                     
+
+                                                                     
 confidence. Thus, the data in Figure&#x00A0;<a 
 href="#x14-1490014">12.4<!--tex4ht:ref: fig:hypeq --></a> pass the bootstrap reversals
 test.
@@ -689,7 +694,7 @@ class="cmmi-10x-x-109">&#x03BA; </span>will not be straight forward with data su
 these.
 <!--l. 399--><p class="noindent" >An alternative approach is based on the orientation matrix  (Tauxe and Watson,
 1994). [Please read Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a> if you have not yet done so.] In the
+href="WebBook3ap1.html#x20-220000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a> if you have not yet done so.] In the
 orientation matrix, polarity does not play a role and the &#8220;tightness&#8221; of grouping
 is reflected in the relative magnitudes of the eigenvalues (<span 
 class="cmmi-10x-x-109">&#x03C4;</span>). As the data become
@@ -709,14 +714,14 @@ calculate the eigenparameters of the orientation matrix for a range of percent
 unfolding. Some examples of the behavior of <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">1</span></sub> during tilt adjustment of
+                                                                     
+
+                                                                     
 representative pseudo-samples drawn from the data in Figure&#x00A0;<a 
 href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>a are shown in
 Figure&#x00A0;<a 
 href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>c. The green line in Figure&#x00A0;<a 
 href="#x14-1540018">12.8<!--tex4ht:ref: fig:foldtest --></a>c is a cumulative distribution plot of
-                                                                     
-
-                                                                     
 maxima in <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">1</span></sub> from 500 pseudo-samples. These are sorted and the 95%
@@ -762,11 +767,11 @@ from failure to account for plunging folds, or vertical axis rotation between bl
 (see Tauxe and Watson, 1994), so some caution should be exercised when
 interpreting fold test results.
 <!--l. 451--><p class="nopar" >SUPPLEMENTAL READINGS: Fisher, et al. (1987), Chapters 2&#8211;5.
-<h3 class="sectionHead"><span class="titlemark">12.7   </span> <a 
-href="WebBook3.html#QQ2-14-317" id="x14-15500012.7">Problems</a></h3>
                                                                      
 
                                                                      
+<h3 class="sectionHead"><span class="titlemark">12.7   </span> <a 
+href="WebBook3.html#QQ2-14-317" id="x14-15500012.7">Problems</a></h3>
 <!--l. 459--><p class="nopar" ><span 
 class="cmbx-10x-x-109">Problem 1</span>
 <!--l. 461--><p class="noindent" >Find the Chapter_12 directory (see the Problems in Chapter 5 for downloading
@@ -827,6 +832,9 @@ class="cmr-8">95</span></sub>s with <span
 class="cmbx-10x-x-109">gofish.py</span>. Check if the data are fisher distributed using <span 
 class="cmbx-10x-x-109">fishqq.py</span>.
 Calculate the Kent ellipses on the normal and reverse data sets using the
+                                                                     
+
+                                                                     
 program <span 
 class="cmbx-10x-x-109">gokent.py</span>. Calculate the Bingham ellipse on the whole data set using
 <span 
@@ -836,9 +844,6 @@ class="cmbx-10x-x-109">_ell.py</span>. Make
 plots of all the ellipses <span 
 class="cmbx-10x-x-109">eqarea</span><span 
 class="cmbx-10x-x-109">_ell.py</span>. Which method seems to represent the
-                                                                     
-
-                                                                     
 character of the data the best? This problem can be done on the command line,
 or through an IPython notebook, using the functions from the <span 
 class="cmbx-10x-x-109">pmag </span>module

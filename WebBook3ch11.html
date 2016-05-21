@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-05-18 17:05:00"> 
+<meta name="date" content="2016-05-21 12:07:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -48,6 +48,9 @@ the distribution of observations for a hypothetical, infinite set of observation
 called a population. The Gaussian probability density function (normal
 distribution) has the familiar bell-shaped form shown in Figure&#x00A0;<a 
 href="#x13-1310011">11.1<!--tex4ht:ref: fig:gauss --></a>a. The
+                                                                     
+
+                                                                     
 meaning of the probability density function <span 
 class="cmmi-10x-x-109">f</span>(<span 
 class="cmmi-10x-x-109">z</span>) is that the proportion of
@@ -58,9 +61,6 @@ class="cmmi-10x-x-109">z </span>is
 class="cmmi-10x-x-109">f</span>(<span 
 class="cmmi-10x-x-109">z</span>)<span 
 class="cmmi-10x-x-109">dz</span>.
-                                                                     
-
-                                                                     
 <!--l. 37--><p class="noindent" ><hr class="figure"><div class="figure" 
 >
                                                                      
@@ -107,8 +107,8 @@ class="cmr-8">2</span></sup>. </span></div><!--tex4ht:label?: x13-1310011 -->
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3283x.png" alt="                    2
-f(z) = -&#x221A;1--exp (--z-),
+src="WebBook3283x.png" alt="         1       - z2
+f(z) = -&#x221A;---exp (----),
        &#x03C3;  2&#x03C0;      2
 " class="math-display" ><a 
  id="x13-131002r1"></a></center></td><td class="equation-label">(11.1)</td></tr></table>
@@ -117,8 +117,8 @@ where
 <!--l. 62--><p class="noindent" >
 <center class="math-display" >
 <img 
-src="WebBook3284x.png" alt="z = x---&#x03BC;.
-      &#x03C3;
+src="WebBook3284x.png" alt="    x---&#x03BC;
+z =   &#x03C3;  .
 " class="math-display" ></center>
 <!--l. 66--><p class="nopar" ><span 
 class="cmmi-10x-x-109">x </span>is the variable measured, <span 
@@ -139,12 +139,12 @@ class="cmmi-10x-x-109">&#x03BC;</span>, while 95% are within 1.96<span
 class="cmmi-10x-x-109">&#x03C3; </span>of
 <span 
 class="cmmi-10x-x-109">&#x03BC;</span>.
-<!--l. 72--><p class="noindent" >The usual situation is that one has made a finite number of measurements of a
-variable <span 
-class="cmmi-10x-x-109">x</span>. In the literature of statistics, this set of measurements is referred to as
                                                                      
 
                                                                      
+<!--l. 72--><p class="noindent" >The usual situation is that one has made a finite number of measurements of a
+variable <span 
+class="cmmi-10x-x-109">x</span>. In the literature of statistics, this set of measurements is referred to as
 a sample. Let us say that we made 1000 measurements of some parameter, say
 bed thickness (in cm) in a particular sedimentary formation. We plot these in
 histogram form in Figure&#x00A0;<a 
@@ -164,9 +164,9 @@ class="cmmi-10x-x-109">x</span></span> drawn from a normal distribution is
 calculated by:
 <center class="math-display" >
 <img 
-src="WebBook3285x.png" alt="     1&#x2211;N
-¯x = --    xi,
-    N  i=1  " class="math-display" ></center>
+src="WebBook3285x.png" alt="       N
+¯x = -1&#x2211;   x ,
+    N  i=1  i  " class="math-display" ></center>
 where <span 
 class="cmmi-10x-x-109">N </span>is the number of measurements and <span 
 class="cmmi-10x-x-109">x</span><sub><span 
@@ -190,8 +190,8 @@ class="equation"><tr><td>
 <center class="math-display" >
 <img 
 src="WebBook3286x.png" alt="            N
- 2   --1---&#x2211;         2
-s =  N - 1    (xi - ¯x) .
+s2 = --1---&#x2211;  (x - ¯x)2.
+     N - 1      i
            i=1
 " class="math-display" ><a 
  id="x13-131003r2"></a></center></td><td class="equation-label">(11.2)</td></tr></table>
@@ -231,14 +231,15 @@ class="cmmi-8">m</span></sub>) to be related to <span
 class="cmmi-10x-x-109">s</span>
 by
 <center class="math-display" >
-<img 
-src="WebBook3287x.png" alt="      ---s----
-sm =  &#x221A;Ntrials.
-" class="math-display" ></center>
-<!--l. 131--><p class="noindent" >What if we were to plot up a histogram of the estimated variances as in
                                                                      
 
                                                                      
+<img 
+src="WebBook3287x.png" alt="         s
+sm =  &#x221A;------.
+       Ntrials
+" class="math-display" ></center>
+<!--l. 131--><p class="noindent" >What if we were to plot up a histogram of the estimated variances as in
 Figure&#x00A0;<a 
 href="#x13-1310011">11.1<!--tex4ht:ref: fig:gauss --></a>c? Are these also normally distributed? The answer is no, because
 variance is a squared parameter relative to the original units. In fact, the
@@ -314,6 +315,9 @@ class="cmmi-10x-x-109">,&#x03BD;</span><sub><span
 class="cmr-8">2</span></sub>]. Thus if the ratio <span 
 class="cmmi-10x-x-109">F</span>, given
 by:
+                                                                     
+
+                                                                     
 <center class="math-display" >
 <img 
 src="WebBook3289x.png" alt="      2
@@ -326,9 +330,6 @@ class="cmr-8">1</span></sub><span
 class="cmmi-10x-x-109">,&#x03BD;</span><sub><span 
 class="cmr-8">2</span></sub>] (check the F distribution tables in
 your favorite statistics book or online), the hypothesis that the two variances are
-                                                                     
-
-                                                                     
 the same can be rejected at the 95% level of confidence.
 <!--l. 173--><p class="noindent" >A related test to the <span 
 class="cmmi-10x-x-109">F </span>test is Student&#8217;s <span 
@@ -357,16 +358,15 @@ by:
 <!--l. 177--><p class="noindent" >
 <center class="math-display" >
 <img 
-src="WebBook3290x.png" alt="    ¯x  - ¯x
-t = -1----2,
+src="WebBook3290x.png" alt="    ¯x1 - ¯x2
+t = -------,
     &#x03C3;(x1-x2)  " class="math-display" ></center>
 where
 <center class="math-display" >
 <img 
 src="WebBook3291x.png" alt="          &#x2218; ----------------------------------
-                     2            2
-&#x03C3;(x1- x2) =   (N1---1)&#x03C3;1-+-(N2----1)&#x03C3;-2)( 1-+ -1-).
-                       &#x03BD;             N1   N2  " class="math-display" ></center>
+&#x03C3;       =   (N1---1)&#x03C3;21-+-(N2----1)&#x03C3;22)( 1-+ -1-).
+ (x1- x2)                &#x03BD;             N1   N2  " class="math-display" ></center>
 Here <span 
 class="cmmi-10x-x-109">&#x03BD; </span>= <span 
 class="cmmi-10x-x-109">N</span><sub><span 
@@ -379,9 +379,6 @@ hypothesis that the two sets of data are the same cannot be rejected at a given
 level of confidence. The critical value can be looked up in <span 
 class="cmmi-10x-x-109">t</span>-tables in your favorite
 statistics book or online.
-                                                                     
-
-                                                                     
 <h3 class="sectionHead"><span class="titlemark">11.2   </span> <a 
 href="WebBook3.html#QQ2-13-276" id="x13-13200011.2">Statistics of vectors</a></h3>
 <!--l. 192--><p class="nopar" >We turn now to the trickier problem of sets of measured vectors. We will consider
@@ -410,6 +407,9 @@ include:
      </li>
      <li 
   class="enumerate" id="x13-132012x6">secular variation of the Earth&#8217;s magnetic field, and
+                                                                     
+
+                                                                     
      </li>
      <li 
   class="enumerate" id="x13-132014x7">lightning strikes.</li></ol>
@@ -497,9 +497,8 @@ class="equation"><tr><td>
                                                                      
 <center class="math-display" >
 <img 
-src="WebBook3293x.png" alt="             &#x03BA;
-PdA (&#x03B1; ) = --------exp (&#x03BA; cos&#x03B1;),
-          4&#x03C0;sinh&#x03BA;
+src="WebBook3293x.png" alt="          ---&#x03BA;----
+PdA (&#x03B1; ) = 4&#x03C0;sinh&#x03BA; exp (&#x03BA; cos&#x03B1;),
 " class="math-display" ><a 
  id="x13-133001r3"></a></center></td><td class="equation-label">(11.3)</td></tr></table>
 <!--l. 269--><p class="nopar" >
@@ -558,7 +557,8 @@ as
 <!--l. 290--><p class="noindent" >
 <center class="math-display" >
 <img 
-src="WebBook3295x.png" alt="PdA (&#x03B1; )dA = PdA (&#x03B1; )sin (&#x03B1;)d&#x03B1;d&#x03D5;.
+src="WebBook3295x.png" alt="P   (&#x03B1; )dA = P   (&#x03B1; )sin (&#x03B1;)d&#x03B1;d&#x03D5;.
+  dA          dA
 " class="math-display" ></center>
 <!--l. 294--><p class="nopar" >The sin<span 
 class="cmmi-10x-x-109">&#x03B1; </span>term arises because the area of a band of width <span 
@@ -570,12 +570,15 @@ that
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3296x.png" alt="&#x222B; 2&#x03C0;&#x222B; &#x03C0;
-         PdA (&#x03B1; )sin (&#x03B1;)d&#x03B1;d&#x03D5; = 1.
- &#x03D5;=0 &#x03B1;=0
+src="WebBook3296x.png" alt="&#x222B;   &#x222B;
+  2&#x03C0;  &#x03C0;
+ &#x03D5;=0 &#x03B1;=0 PdA (&#x03B1; )sin (&#x03B1;)d&#x03B1;d&#x03D5; = 1.
 " class="math-display" ><a 
  id="x13-133003r4"></a></center></td><td class="equation-label">(11.4)</td></tr></table>
 <!--l. 301--><p class="nopar" >
+                                                                     
+
+                                                                     
 <!--l. 303--><p class="nopar" >Equation&#x00A0;<a 
 href="#x13-133003r4">11.4<!--tex4ht:ref: eq:fishnorm --></a> simply indicates that the probability of finding a direction
 somewhere on the unit sphere must be unity. The probability <span 
@@ -586,16 +589,13 @@ class="cmmi-10x-x-109">d&#x03B1; </span>between <span
 class="cmmi-10x-x-109">&#x03B1; </span>and <span 
 class="cmmi-10x-x-109">&#x03B1; </span>+ <span 
 class="cmmi-10x-x-109">d&#x03B1; </span>is given
-                                                                     
-
-                                                                     
 by:
 <!--l. 305--><p class="noindent" >
 <center class="math-display" >
 <img 
 src="WebBook3297x.png" alt="         &#x222B; 2&#x03C0;
-Pd&#x03B1;(&#x03B1;) =     PdA (&#x03B1;)dA = 2&#x03C0;PdA (&#x03B1;)sin(&#x03B1;)d&#x03B1;
-          &#x03D5;=0
+P  (&#x03B1;) =     P   (&#x03B1;)dA = 2&#x03C0;P   (&#x03B1;)sin(&#x03B1;)d&#x03B1;
+ d&#x03B1;       &#x03D5;=0  dA             dA
 " class="math-display" ></center>
 <table 
 class="equation"><tr><td>
@@ -618,6 +618,9 @@ class="cmmi-10x-x-109">&#x03B1; </span>term is apparent. Equation&#x00A0;<a
 href="#x13-133001r3">11.3<!--tex4ht:ref: eq:fishdis --></a> for the Fisher distribution function
 suggests that declinations are symmetrically distributed about the mean. In
 &#8220;data&#8221; coordinates, this means that the declinations are uniformly distributed
+                                                                     
+
+                                                                     
 from 0 <span 
 class="cmsy-10x-x-109">&#x2192; </span>360<sup><span 
 class="cmsy-8">&#x2218;</span></sup>. Furthermore, the probability <span 
@@ -628,9 +631,6 @@ from the mean decays exponentially.
 <!--l. 326--><p class="noindent" >Because the intensity of the magnetization has little to do with the validity of the
 measurement (except for very weak magnetizations), it is customary to assign
 unit length to all directions. The mean direction is calculated by first converting
-                                                                     
-
-                                                                     
 the individual moment directions (<span 
 class="cmmi-10x-x-109">m</span><sub><span 
 class="cmmi-8">i</span></sub>) (see Figure&#x00A0;<a 
@@ -648,7 +648,7 @@ class="cmmi-10x-x-109">,x</span><sub><span
 class="cmr-8">3</span></sub>) by the
 methods given in Chapter 2. Following the logic for vector addition explained in
 Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-212000A.3.2">A.3.2<!--tex4ht:ref: app:vectors --></a>, the length of the vector sum, or resultant vector <span 
+href="WebBook3ap1.html#x20-213000A.3.2">A.3.2<!--tex4ht:ref: app:vectors --></a>, the length of the vector sum, or resultant vector <span 
 class="cmmi-10x-x-109">R</span>, is given
 by:
 <table 
@@ -672,17 +672,17 @@ class="cmmi-10x-x-109">N </span>only when the vectors are tightly clustered. The
 mean direction components are given by:
 <table 
 class="equation"><tr><td>
+                                                                     
+
+                                                                     
 <center class="math-display" >
 <img 
-src="WebBook3300x.png" alt="     1  &#x2211;              1 &#x2211;               1 &#x2211;
-¯x1 = --(   x1i);  ¯x2 = -(    x2i);  ¯x3 = --(   x3i).
+src="WebBook3300x.png" alt="        &#x2211;                &#x2211;                 &#x2211;
+¯x1 = 1-(   x1i);  ¯x2 = 1(    x2i);  ¯x3 = -1(   x3i).
      R   i             R   i            R   i
 " class="math-display" ><a 
  id="x13-133006r7"></a></center></td><td class="equation-label">(11.7)</td></tr></table>
 <!--l. 350--><p class="nopar" >
-                                                                     
-
-                                                                     
 <!--l. 352--><p class="nopar" >These cartesian coordinates can, of course, be converted back to geomagnetic
 elements (<span class="bar-css"><span 
 class="cmmi-10x-x-109">D</span></span><span 
@@ -743,13 +743,11 @@ class="cmr-8">95</span></sub>, by:
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3303x.png" alt="        -1     N - R   1 --1--
-&#x03B1;95 = cos [1-  --R---[(p)(N -1) - 1]].
+src="WebBook3303x.png" alt="               N - R   1 --1--
+&#x03B1;95 = cos-1[1- ------[(-)(N -1) - 1]].
+                 R     p
 " class="math-display" ><a 
  id="x13-133009r9"></a></center></td><td class="equation-label">(11.9)</td></tr></table>
-                                                                     
-
-                                                                     
 <!--l. 390--><p class="nopar" >
 In the classic paleomagnetic literature, <span 
 class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
@@ -775,6 +773,9 @@ S2 = --1---&#x2211;   &#x0394;2,
 " class="math-display" ><a 
  id="x13-133010r10"></a></center></td><td class="equation-label">(11.10)</td></tr></table>
 <!--l. 405--><p class="nopar" >
+                                                                     
+
+                                                                     
 <!--l. 407--><p class="nopar" >where &#x0394;<sub><span 
 class="cmmi-8">i</span></sub> is the angle between the <span 
 class="cmmi-10x-x-109">i</span><sup><span 
@@ -784,13 +785,11 @@ class="cmmi-10x-x-109">S</span>, which can
 be approximated by:
 <table 
 class="equation"><tr><td>
-                                                                     
-
-                                                                     
 <center class="math-display" >
 <img 
-src="WebBook3306x.png" alt="        8&#x221A;1--
-CSD   &#x2243;   k,
+src="WebBook3306x.png" alt="        81
+CSD   &#x2243; &#x221A;--,
+          k
 " class="math-display" ><a 
  id="x13-133011r11"></a></center></td><td class="equation-label">(11.11)</td></tr></table>
 <!--l. 415--><p class="nopar" >
@@ -817,6 +816,9 @@ class="cmmi-10x-x-109">N &#x003E;</span><span
 class="cmsy-10x-x-109">~ </span>10 <span 
 class="cmsy-10x-x-109">- </span>20, CSD and <span 
 class="cmmi-10x-x-109">&#x03B4; </span>are
+                                                                     
+
+                                                                     
 close to equal.
 <!--l. 427--><p class="noindent" >When we calculate the mean direction, a dispersion estimate, and a confidence
 limit, we are supposing that the observed data came from random sampling of a
@@ -831,9 +833,6 @@ class="cmmi-10x-x-109">&#x03BA;</span>. The confidence limit <span
 class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
 class="cmr-8">95</span></sub> is
 a measure of the precision with which the true mean direction has been
-                                                                     
-
-                                                                     
 estimated. One is 95% certain that the unknown true mean direction lies
 within <span 
 class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
@@ -877,6 +876,9 @@ class="cmsy-8">&#x2218;</span></sup> to 89.3<sup><span
 class="cmsy-8">&#x2218;</span></sup>, and the
 mean declinations fall within all quadrants of the equal-area projection. The
 calculated mean direction thus randomly dances about the true mean
+                                                                     
+
+                                                                     
 direction and deviates from the true mean by between 0.7<sup><span 
 class="cmsy-8">&#x2218;</span></sup> and 11.4<sup><span 
 class="cmsy-8">&#x2218;</span></sup>. The
@@ -902,9 +904,6 @@ calculated mean direction removed from the true mean direction by more than
 the calculated confidence limit <span 
 class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
 class="cmr-8">95</span></sub>. That is, the true mean direction
-                                                                     
-
-                                                                     
 would lie outside the circle of 95% confidence, on average, in 5% of the
 cases.
 <!--l. 466--><p class="noindent" >It is also important to appreciate which statistical quantities are fundamentally
@@ -950,6 +949,9 @@ class="cmmi-10x-x-109">N </span>= 30 from a Fisher distribution
 class="cmmi-10x-x-109">&#x03BA; </span>of 29.2 (equivalent to a circular standard deviation <span 
 class="cmmi-10x-x-109">S </span>of 15<sup><span 
 class="cmsy-8">&#x2218;</span></sup>).
+                                                                     
+
+                                                                     
      </li>
      <li 
   class="enumerate" id="x13-134004x2">Starting with the first four directions in the synthetic data set, a subset
@@ -987,9 +989,6 @@ href="#x13-1340075">11.5<!--tex4ht:ref: fig:a95-csd --></a> in which we show
 a comparison of the two estimates of <span 
 class="cmmi-10x-x-109">S</span>, CSD and <span 
 class="cmmi-10x-x-109">&#x03B4;</span>. Although not fundamentally
-                                                                     
-
-                                                                     
 dependent upon <span 
 class="cmmi-10x-x-109">N</span>, in practice the estimated angular standard deviation, CSD,
 deviates from <span 
@@ -1050,8 +1049,8 @@ not!
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3311x.png" alt="         cos&#x03BB;         1            2
-dm = &#x03B1;95 cos ¯I-, dp = 2&#x03B1;95(1+ 3 sin  &#x03BB;),
+src="WebBook3311x.png" alt="         cos&#x03BB;-        1-           2
+dm = &#x03B1;95 cos ¯I , dp = 2&#x03B1;95(1+ 3 sin  &#x03BB;),
 " class="math-display" ><a 
  id="x13-134008r13"></a></center></td><td class="equation-label">(11.13)</td></tr></table>
 <!--l. 529--><p class="nopar" >
@@ -1066,13 +1065,13 @@ href="WebBook3.html#QQ2-13-283" id="x13-13500011.3">Significance Tests</a></h3>
 <!--l. 538--><p class="nopar" >The Fisher distribution allows us to ask a number of questions about
 paleomagnetic data sets, such as:
 <!--l. 540--><p class="noindent" >
+                                                                     
+
+                                                                     
      <ol  class="enumerate1" >
      <li 
   class="enumerate" id="x13-135002x1">Is a given set of directions random? This is the question that we ask
      when we perform a conglomerate test (Chapter 9).
-                                                                     
-
-                                                                     
      </li>
      <li 
   class="enumerate" id="x13-135004x2">Is one data set better grouped than another as in the fold test from
@@ -1109,13 +1108,13 @@ class="cmti-10x-x-109">null hypothesis</span>. For example, in comparing two mea
      different populations with distinct true mean directions.) Significance
      tests do not disprove a null hypothesis but only show that observed
      differences between the sample and the null hypothesis are unlikely to
+                                                                     
+
+                                                                     
      have occurred because of sampling limitations. In other words, there is
      probably a real difference between the sample and the null hypothesis,
      indicating that the null hypothesis is probably incorrect.
      </li>
-                                                                     
-
-                                                                     
      <li 
   class="enumerate" id="x13-135014x2">Any significance test must be applied by using a level of significance.
      This is the probability level at which the differences between a set of
@@ -1162,12 +1161,12 @@ tests have been updated using advances in statistical sampling theory. These wil
 be discussed in Chapter 12. While they are technically superior to the traditional
 significance tests, they are more complex and less intuitive than the traditional
 tests.
-<!--l. 601--><p class="nopar" >
-<h4 class="subsectionHead"><span class="titlemark">11.3.1   </span> <a 
-href="WebBook3li1.html#QQ2-13-284" id="x13-13600011.3.1">Watson&#8217;s test for randomness</a></h4>
                                                                      
 
                                                                      
+<!--l. 601--><p class="nopar" >
+<h4 class="subsectionHead"><span class="titlemark">11.3.1   </span> <a 
+href="WebBook3li1.html#QQ2-13-284" id="x13-13600011.3.1">Watson&#8217;s test for randomness</a></h4>
 <!--l. 607--><p class="nopar" >Watson (1956) demonstrated how to test a given directional data set for
 randomness. His test relies on the calculation of <span 
 class="cmmi-10x-x-109">R </span>given by Equation&#x00A0;<a 
@@ -1213,18 +1212,18 @@ sets. The critical values of <span
 class="cmmi-10x-x-109">R </span>for 5 <span 
 class="cmmi-10x-x-109">&#x003C; N &#x003C; </span>20 from Watson (1956) are listed for
 convenience in Table&#x00A0;<a 
-href="WebBook3ap3.html#x21-2370012">C.2<!--tex4ht:ref: tab:Ro --></a>.
+href="WebBook3ap3.html#x22-2380012">C.2<!--tex4ht:ref: tab:Ro --></a>.
 <!--l. 633--><p class="noindent" >The test for randomness is particularly useful for determining if, for
 example, the directions from a given site are randomly oriented (the data
+                                                                     
+
+                                                                     
 for the site should therefore be thrown out). Also, one can determine if
 directions from the conglomerate test are random or not (see Chapter
 9).
 <!--l. 641--><p class="nopar" >
 <h4 class="subsectionHead"><span class="titlemark">11.3.2   </span> <a 
 href="WebBook3li1.html#QQ2-13-285" id="x13-13700011.3.2">Comparison of precision </a></h4>
-                                                                     
-
-                                                                     
 <!--l. 643--><p class="nopar" >In the fold test (or bedding-tilt test), one examines the clustering of directions
 before and after performing structural corrections. If the clustering improves on
 structural correction, the conclusion is that the ChRM was acquired
@@ -1256,10 +1255,14 @@ because of sampling errors according to
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3313x.png" alt="k1=  var[2(N2---1)],
-k2   var[2(N1 - 1)]
+src="WebBook3313x.png" alt="k1   var[2(N2 - 1)]
+k-=  var[2(N----1)],
+ 2          1
 " class="math-display" ><a 
  id="x13-137001r15"></a></center></td><td class="equation-label">(11.15)</td></tr></table>
+                                                                     
+
+                                                                     
 <!--l. 662--><p class="nopar" >
 <!--l. 664--><p class="nopar" >where var[2(<span 
 class="cmmi-10x-x-109">N</span><sub><span 
@@ -1287,9 +1290,6 @@ unlikely that the two data sets are samples of populations with the same <span
 class="cmmi-10x-x-109">&#x03BA;</span>. In
 that case, the conclusion is that the difference in the <span 
 class="cmmi-10x-x-109">&#x03BA; </span>values is significant and
-                                                                     
-
-                                                                     
 the two data sets were most likely sampled from populations with different
 <span 
 class="cmmi-10x-x-109">&#x03BA;</span>.
@@ -1411,59 +1411,59 @@ href="#x13-1370026">11.6<!--tex4ht:ref: fig:twosets --></a>a. The Fisher statist
 <div class="center" 
 >
 <!--l. 741--><p class="noindent" >
-<div class="tabular"> <table id="TBL-9" class="tabular" 
+<div class="tabular"> <table id="TBL-11" class="tabular" 
 cellspacing="0" cellpadding="0"  
-><colgroup id="TBL-9-1g"><col 
-id="TBL-9-1"><col 
-id="TBL-9-2"><col 
-id="TBL-9-3"><col 
-id="TBL-9-4"><col 
-id="TBL-9-5"><col 
-id="TBL-9-6"><col 
-id="TBL-9-7"><col 
-id="TBL-9-8"></colgroup><tr 
+><colgroup id="TBL-11-1g"><col 
+id="TBL-11-1"><col 
+id="TBL-11-2"><col 
+id="TBL-11-3"><col 
+id="TBL-11-4"><col 
+id="TBL-11-5"><col 
+id="TBL-11-6"><col 
+id="TBL-11-7"><col 
+id="TBL-11-8"></colgroup><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-9-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-1"  
+ style="vertical-align:baseline;" id="TBL-11-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-1"  
 class="td11"><span 
-class="cmmi-10x-x-109">i</span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-2"  
-class="td11">symbol</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-3"  
+class="cmmi-10x-x-109">i</span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-2"  
+class="td11">symbol</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-3"  
 class="td11"> <span class="bar-css"><span 
-class="cmmi-10x-x-109">D</span></span> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-4"  
+class="cmmi-10x-x-109">D</span></span> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-4"  
 class="td11"> <span class="bar-css"><span 
-class="cmmi-10x-x-109">I</span></span>  </td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-5"  
+class="cmmi-10x-x-109">I</span></span>  </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-5"  
 class="td11"><span 
-class="cmmi-10x-x-109">N</span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-6"  
+class="cmmi-10x-x-109">N</span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-6"  
 class="td11">  <span 
-class="cmmi-10x-x-109">R   </span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-7"  
+class="cmmi-10x-x-109">R   </span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-7"  
 class="td11"> <span 
-class="cmmi-10x-x-109">k  </span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-1-8"  
+class="cmmi-10x-x-109">k  </span></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-8"  
 class="td11"><span 
 class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
 class="cmr-8">95</span></sub> </td>
 </tr><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-9-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-1"  
-class="td11">1</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-2"  
-class="td11">spades</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-3"  
-class="td11">38.0</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-4"  
-class="td11">45.7</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-5"  
-class="td11">20</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-6"  
-class="td11">18.0818</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-7"  
-class="td11"> 9.9 </td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-2-8"  
+ style="vertical-align:baseline;" id="TBL-11-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-1"  
+class="td11">1</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-2"  
+class="td11">spades</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-3"  
+class="td11">38.0</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-4"  
+class="td11">45.7</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-5"  
+class="td11">20</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-6"  
+class="td11">18.0818</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-7"  
+class="td11"> 9.9 </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-8"  
 class="td11">10.9</td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-9-3-"><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-1"  
-class="td11">2</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-2"  
-class="td11"> hearts </td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-3"  
-class="td11">16.9</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-4"  
-class="td11">45.2</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-5"  
-class="td11">20</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-6"  
-class="td11">19.0899</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-7"  
-class="td11">20.9</td><td  style="white-space:nowrap; text-align:center;" id="TBL-9-3-8"  
+ style="vertical-align:baseline;" id="TBL-11-3-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-1"  
+class="td11">2</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-2"  
+class="td11"> hearts </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-3"  
+class="td11">16.9</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-4"  
+class="td11">45.2</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-5"  
+class="td11">20</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-6"  
+class="td11">19.0899</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-7"  
+class="td11">20.9</td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-8"  
 class="td11"> 7.3 </td>
 </tr><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-9-4-"><td  style="white-space:nowrap; text-align:center;" id="TBL-9-4-1"  
+ style="vertical-align:baseline;" id="TBL-11-4-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-4-1"  
 class="td11"> </td>
 </tr></table></div></div>
 <!--l. 752--><p class="noindent" >As shown in the equal area projection in Figure&#x00A0;<a 
@@ -1488,14 +1488,14 @@ class="cmr-8">2</span></sub>. The
 statistic
 <table 
 class="equation"><tr><td>
-<center class="math-display" >
                                                                      
 
                                                                      
+<center class="math-display" >
 <img 
-src="WebBook3316x.png" alt="            (R  + R  - R)
-F = (N -  2)--1----2-----,
-            (N  - R1 - R2)
+src="WebBook3316x.png" alt="            (R1 + R2 - R)
+F = (N -  2)(N----R----R-),
+                  1     2
 " class="math-display" ><a 
  id="x13-139001r16"></a></center></td><td class="equation-label">(11.16)</td></tr></table>
 <!--l. 768--><p class="nopar" >
@@ -1584,7 +1584,7 @@ is closer to the Fisher mean than the Gaussian average).</span></div><!--tex4ht:
 class="cmmi-10x-x-109">V</span> <sub><span 
 class="cmmi-8">w</span></sub>) was proposed by
 Watson (1983; see Appendix&#x00A0;<a 
-href="WebBook3ap3.html#x21-238000C.2.1">C.2.1<!--tex4ht:ref: app:watsonsV --></a> for details).  <span 
+href="WebBook3ap3.html#x22-239000C.2.1">C.2.1<!--tex4ht:ref: app:watsonsV --></a> for details).  <span 
 class="cmmi-10x-x-109">V</span> <sub><span 
 class="cmmi-8">w</span></sub> was posed as a test statistic
 that increases with increasing difference between the mean directions of the two
@@ -1656,12 +1656,12 @@ class="cmmi-8">w</span></sub>s simulated for two distributions with the same <sp
 class="cmmi-10x-x-109">&#x03BA; </span>and <span 
 class="cmmi-10x-x-109">N </span>as our example
 data sets but drawn from distributions with the same mean are plotted as a
-cumulative distribution function in Figure&#x00A0;<a 
-href="#x13-1370026">11.6<!--tex4ht:ref: fig:twosets --></a>c with the bound containing the
-lowermost 95% of the simulations shown as a dashed line at 6.2. The value of 8.5,
                                                                      
 
                                                                      
+cumulative distribution function in Figure&#x00A0;<a 
+href="#x13-1370026">11.6<!--tex4ht:ref: fig:twosets --></a>c with the bound containing the
+lowermost 95% of the simulations shown as a dashed line at 6.2. The value of 8.5,
 calculated for the data set is shown as a heavy vertical line and is clearly larger
 than 95% of the simulated populations. This simulation therefore supports the
 suggestion that the two data sets do not have a common mean at the 95% level
@@ -1688,7 +1688,7 @@ plot) and the <span
 class="cmmi-10x-x-109">&#x03B1;</span><sub><span 
 class="cmr-8">95</span></sub> from sites that mixes planes (great circles on an equal
 area projection) and directed lines (see Appendix&#x00A0;<a 
-href="WebBook3ap3.html#x21-239000C.2.2">C.2.2<!--tex4ht:ref: app:linesNplanes --></a>). The key to
+href="WebBook3ap3.html#x22-240000C.2.2">C.2.2<!--tex4ht:ref: app:linesNplanes --></a>). The key to
 their method is to find the direction within each plane that gives the
 tightest grouping of directions. Then &#8220;regular&#8221; Fisher statistics can be
 applied.
@@ -1698,15 +1698,15 @@ href="WebBook3.html#QQ2-13-292" id="x13-14100011.4">Inclination only data</a></h
 <!--l. 866--><p class="nopar" >A different problem arises when only the inclination data are available as in the
 case of unoriented drill cores. Cores can be drilled and arrive at the surface in
 short, unoriented pieces. Specimens taken from such core material will be
+                                                                     
+
+                                                                     
 oriented with respect to the vertical, but the declination data are unknown. It is
 often desirable to estimate the true Fisher inclination of data sets having only
 inclination data, but how to do this is not obvious. Consider the data in
 Figure&#x00A0;<a 
 href="#x13-1390028">11.8<!--tex4ht:ref: fig:incfish --></a>. The true Fisher mean declination and inclination are shown
 by the triangle. If we had only the inclination data and calculated a
-                                                                     
-
-                                                                     
 gaussian mean (<span 
 class="cmmi-10x-x-109">&#x003C; I &#x003E;</span>), the estimate would be too shallow as pointed out
 earlier.
@@ -1714,7 +1714,7 @@ earlier.
 and Reid (1982) developed a maximum likelihood estimate for the true
 inclination which works reasonably well. Their approach is outlined in the
 Appendix&#x00A0;<a 
-href="WebBook3ap3.html#x21-240000C.2.3">C.2.3<!--tex4ht:ref: app:incfish --></a>.
+href="WebBook3ap3.html#x22-241000C.2.3">C.2.3<!--tex4ht:ref: app:incfish --></a>.
 <!--l. 886--><p class="noindent" >By comparing inclinations estimated using the McFadden-Reid technique with
 those calculated using the full vector data, it is clear that the method breaks
 down at high inclinations and high scatter. It is also inappropriate for data sets
@@ -1804,7 +1804,7 @@ class="cmmi-8">i</span></sub>
 and eigenvalues <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmmi-8">i</span></sub> (Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a> - in case you haven&#8217;t read it yet,
+href="WebBook3ap1.html#x20-220000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a> - in case you haven&#8217;t read it yet,
 do so NOW). Substituting the direction cosines relating the geographic
 coordinate system <span 
 class="cmbx-10x-x-109">X</span> to the coordinate system defined by <span 
@@ -1815,14 +1815,14 @@ class="cmbx-10x-x-109">V</span> is the &#8220;new&#8221; set of axes, we can tra
 the coordinate system for a set of data from &#8220;geographic&#8221; coordinates
 (Figure&#x00A0;<a 
 href="#x13-1410019">11.9<!--tex4ht:ref: fig:fishrot --></a>a) where the vertical axis is the center of the diagram, to the
+                                                                     
+
+                                                                     
 &#8220;data&#8221; coordinate system, (Figure&#x00A0;<a 
 href="#x13-1410019">11.9<!--tex4ht:ref: fig:fishrot --></a>b) where the principal eigenvector
 (<span 
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">1</span></sub>) lies at the center of the diagram, after transformation into &#8220;data&#8221;
-                                                                     
-
-                                                                     
 coordinates.
 <!--l. 969--><p class="noindent" >Recalling that Fisher distributions are symmetrically disposed about the mean
 direction, but fall off exponentially away from that direction, let us compare the
@@ -1876,7 +1876,7 @@ Fisher et al., 1987). In a Q-Q plot, the data are graphed against the value
 expected from a particular distribution. Data compatible with the chosen
 distribution plot along a line. The procedure for accomplishing this is given in
 Appendix&#x00A0;<a 
-href="WebBook3ap2.html#x20-232000B.1.5">B.1.5<!--tex4ht:ref: app:qq --></a>. In Figure&#x00A0;<a 
+href="WebBook3ap2.html#x21-233000B.1.5">B.1.5<!--tex4ht:ref: app:qq --></a>. In Figure&#x00A0;<a 
 href="#x13-14200111">11.11<!--tex4ht:ref: fig:fishqq --></a>a, we plot the declinations from Figure&#x00A0;<a 
 href="#x13-1410019">11.9<!--tex4ht:ref: fig:fishrot --></a>
 (in data coordinates) against the values calculated assuming a uniform
@@ -1884,7 +1884,7 @@ distribution and in Figure&#x00A0;<a
 href="#x13-14200111">11.11<!--tex4ht:ref: fig:fishqq --></a>b, we plot the co-inclinations against those
 calculated using an exponential distribution. As expected, the data plot along
 lines. Appendix&#x00A0;<a 
-href="WebBook3ap2.html#x20-232000B.1.5">B.1.5<!--tex4ht:ref: app:qq --></a> outlines the calculation of two test statistics <span 
+href="WebBook3ap2.html#x21-233000B.1.5">B.1.5<!--tex4ht:ref: app:qq --></a> outlines the calculation of two test statistics <span 
 class="cmmi-10x-x-109">M</span><sub><span 
 class="cmmi-8">u</span></sub>
 and <span 

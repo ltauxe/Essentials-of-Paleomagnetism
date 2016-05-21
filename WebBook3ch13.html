@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-05-18 17:05:00"> 
+<meta name="date" content="2016-05-21 12:07:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -100,8 +100,11 @@ M3 =  &#x03C7;31H1 + &#x03C7;32H2 + &#x03C7;33H3,
 class="cmmi-10x-x-109">&#x03C7;</span><sub><span 
 class="cmmi-8">ij</span></sub> are coefficients of the magnetic susceptibility tensor.
 <!--l. 61--><p class="noindent" >We have met tensors before in the orientation matrix and rotation matrices (see
+                                                                     
+
+                                                                     
 Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-215000A.3.5">A.3.5<!--tex4ht:ref: app:tensors --></a>.) The coefficients <span 
+href="WebBook3ap1.html#x20-216000A.3.5">A.3.5<!--tex4ht:ref: app:tensors --></a>.) The coefficients <span 
 class="cmmi-10x-x-109">&#x03C7;</span><sub><span 
 class="cmmi-8">ij</span></sub> are the elements of a second-order,
 symmetric tensor, known as the  <span 
@@ -109,9 +112,6 @@ class="cmti-10x-x-109">anisotropy of magnetic susceptibility </span>(AMS)
 tensor <span 
 class="cmmi-10x-x-109">&#x03C7;</span>. The set of Equations&#x00A0;<a 
 href="#x15-157001r1">13.1<!--tex4ht:ref: eq:MkH --></a> can be rewritten in summation notation
-                                                                     
-
-                                                                     
 as:
 <table 
 class="equation"><tr><td>
@@ -145,9 +145,6 @@ s6 = &#x03C7;13 = &#x03C7;31.
 " class="math-display" ><a 
  id="x15-157003r3"></a></center></td><td class="equation-label">(13.3)</td></tr></table>
 <!--l. 88--><p class="nopar" >
-                                                                     
-
-                                                                     
 <!--l. 90--><p class="nopar" >In practice, only <span 
 class="cmmi-10x-x-109">s</span><sub><span 
 class="cmr-8">1</span></sub><span 
@@ -232,16 +229,19 @@ class="cmti-10x-x-109">design</span>
 class="cmti-10x-x-109">matrix</span>. The measurement scheme shown in Figure&#x00A0;<a 
 href="#x15-1560011">13.1<!--tex4ht:ref: fig:measAMS --></a>b, has the design
 matrix:
+                                                                     
+
+                                                                     
 <table 
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
 src="WebBook3336x.png" alt="     ( 1   0  0   0  0  0 )
      | 0   1  0   0  0  0 |
-     ||                    ||
-A =  || 0   0  1   0  0  0 || .
-     | .5  .5  0   1  0  0 |
-     ( 0  .5  .5  0  1  0 )
+     || 0   0  1   0  0  0 ||
+A =  ||                    || .
+     |( .5  .5  0   1  0  0 |)
+       0  .5  .5  0  1  0
        .5   0  .5  0  0  1
 " class="math-display" ><a 
  id="x15-157005r5"></a></center></td><td class="equation-label">(13.5)</td></tr></table>
@@ -253,7 +253,8 @@ algebra:
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3337x.png" alt="¯s = (AT A )-1AT K   or  ¯s = BK,
+src="WebBook3337x.png" alt="       T   -1  T
+¯s = (A  A )  A  K   or  ¯s = BK,
 " class="math-display" ><a 
  id="x15-157006r6"></a></center></td><td class="equation-label">(13.6)</td></tr></table>
 <!--l. 125--><p class="nopar" >
@@ -270,17 +271,20 @@ class="cmr-8">1</span></sup><span
 class="cmbx-10x-x-109">A</span><sup><span 
 class="cmmi-8">T</span> </sup>. The elements of <span 
 class="cmbx-10x-x-109">B</span> for the
+                                                                     
+
+                                                                     
 scheme shown in Figure&#x00A0;<a 
 href="#x15-1560011">13.1<!--tex4ht:ref: fig:measAMS --></a>b are readily determined as:
 <table 
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3338x.png" alt="    (  1     0    0   0  0  0 )
-    |  0     1    0   0  0  0 |
-    ||                         ||
+src="WebBook3338x.png" alt="    (                         )
+       1     0    0   0  0  0
+    ||  0     1    0   0  0  0 ||
 B = ||  0     0    1   0  0  0 || .
-    | - .5   - .5  0   1  0  0 |
+    || - .5   - .5  0   1  0  0 ||
     (  0    - .5 - .5  0  1  0 )
       - .5    0   - .5  0  0  1
 " class="math-display" ><a 
@@ -315,13 +319,16 @@ class="cmr-8">2</span></sub>, <span
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">3</span></sub>) in which the off-axis terms of <span 
 class="cmmi-10x-x-109">&#x03C7; </span>are zero (see Appendix&#x00A0;<a 
-href="WebBook3ap1.html#x19-219000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>). While
+href="WebBook3ap1.html#x20-220000A.3.5">A.3.5<!--tex4ht:ref: app:eigen --></a>). While
 the eigenvectors collectively are called the &#8220;principal axes&#8221;, the first eigenvector
 is also known simply as the principal eigenvector and the other two are
 the major and minor eigenvector respectively. In this special coordinate
 system:
 <table 
 class="equation"><tr><td>
+                                                                     
+
+                                                                     
 <center class="math-display" >
 <img 
 src="WebBook3339x.png" alt="M1  = s1H1 = &#x03C7;11H1 &#x221D;  &#x03C4;1H1
@@ -355,9 +362,6 @@ class="cmbx-10x-x-109">V</span><sub><span
 class="cmr-8">2</span></sub> and <span 
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">3</span></sub> are
-                                                                     
-
-                                                                     
 sometimes referred to as <span 
 class="cmmi-10x-x-109">K</span><sub><span 
 class="cmmi-8">max</span></sub><span 
@@ -403,8 +407,9 @@ class="cmmi-8">i</span></sub> satisfy the following:
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3341x.png" alt="M-21-+ M-22+ M--23=  1.
- &#x03C4;21    &#x03C4;22    &#x03C4;23
+src="WebBook3341x.png" alt="M-21-  M-22  M--23
+ &#x03C4;2 +  &#x03C4;2 +  &#x03C4;2 =  1.
+  1     2     3
 " class="math-display" ><a 
  id="x15-157010r9"></a></center></td><td class="equation-label">(13.9)</td></tr></table>
 <!--l. 188--><p class="nopar" >
@@ -436,7 +441,8 @@ class="equation"><tr><td>
                                                                      
 <center class="math-display" >
 <img 
-src="WebBook3342x.png" alt="&#x03C7; = V&#x03C4; VT ,
+src="WebBook3342x.png" alt="        T
+&#x03C7; = V&#x03C4; V  ,
 " class="math-display" ><a 
  id="x15-157011r10"></a></center></td><td class="equation-label">(13.10)</td></tr></table>
 <!--l. 212--><p class="nopar" >
@@ -496,6 +502,9 @@ eigenvalues from a given data set are significantly different from one
 another.
 <!--l. 243--><p class="noindent" >Making only six measurements allows calculation of the eigenparameters, but
 gives no constraints for their uncertainties. We would like to ask questions such
+                                                                     
+
+                                                                     
 as the following:
      <div class="quote">
      <!--l. 248--><p class="noindent" >1) Is a particular axis parallel to some direction? Is <span 
@@ -504,9 +513,6 @@ class="cmr-8">3</span></sub> vertical
      as might be expected for a primary sedimentary fabric? Is <span 
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">1</span></sub>
-                                                                     
-
-                                                                     
      parallel to some lineation such as elongated vesicles in volcanic
      dikes, or deformed ooids in strained rocks?
      <!--l. 253--><p class="noindent" >2)  Are  two  sets  of  eigenvectors  distinct?  Are  data  from  two
@@ -535,12 +541,12 @@ class="cmmi-10x-x-109">&#x03B4; </span>so we can
 write:
 <table 
 class="equation"><tr><td>
-<center class="math-display" >
-<img 
-src="WebBook3343x.png" alt="Ki = Aijsj + &#x03B4;i.
                                                                      
 
                                                                      
+<center class="math-display" >
+<img 
+src="WebBook3343x.png" alt="Ki = Aijsj + &#x03B4;i.
 " class="math-display" ><a 
  id="x15-158001r11"></a></center></td><td class="equation-label">(13.11)</td></tr></table>
 <!--l. 292--><p class="nopar" >
@@ -562,10 +568,12 @@ class="cmmi-10x-x-109">&#x03C3;</span><sup><span
 class="cmr-8">2</span></sup> as:
 <table 
 class="equation"><tr><td>
+                                                                     
+
+                                                                     
 <center class="math-display" >
 <img 
-src="WebBook3345x.png" alt=" 2
-&#x03C3; =  So&#x2215;nf.
+src="WebBook3345x.png" alt="&#x03C3;2 = So&#x2215;nf.
 " class="math-display" ><a 
  id="x15-158003r13"></a></center></td><td class="equation-label">(13.13)</td></tr></table>
 <!--l. 305--><p class="nopar" >
@@ -579,9 +587,6 @@ class="cmmi-10x-x-109">N</span><sub><span
 class="cmmi-8">meas</span></sub> is the
 number of measurements and six is the minimum number of measurements
 required to determine the susceptibility tensor.
-                                                                     
-
-                                                                     
 <!--l. 310--><p class="noindent" ><hr class="figure"><div class="figure" 
 >
                                                                      
@@ -614,7 +619,7 @@ scheme of Jelinek (1976), has <span
 class="cmmi-10x-x-109">N</span><sub><span 
 class="cmmi-8">meas</span></sub> = 15, and is described in detail in
 Appendix&#x00A0;<a 
-href="WebBook3ap4.html#x22-245000D.1">D.1<!--tex4ht:ref: app:K15 --></a>. Spinning susceptibility meters have more recently been
+href="WebBook3ap4.html#x23-246000D.1">D.1<!--tex4ht:ref: app:K15 --></a>. Spinning susceptibility meters have more recently been
 introduced that measure magnetic susceptibility as the specimen spins
 around each of three axes (see Figure&#x00A0;<span 
 class="cmbx-10x-x-109">??</span>). The procedure used in the
@@ -632,7 +637,8 @@ class="cmbx-10x-x-109">s</span>:
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3347x.png" alt="¯si = BijKj.
+src="WebBook3347x.png" alt="¯s = B  K  .
+ i    ij  j
 " class="math-display" ><a 
  id="x15-158005r14"></a></center></td><td class="equation-label">(13.14)</td></tr></table>
 <!--l. 340--><p class="nopar" >
@@ -641,11 +647,13 @@ class="cmbx-10x-x-109">K</span> (<span class="bar-css"><span
 class="cmbx-10x-x-109">K</span></span>) can then be calculated by substituting the right <span 
 class="cmbx-10x-x-109">A</span>
 matrix (see e.g., Appendix&#x00A0;<a 
-href="WebBook3ap4.html#x22-245000D.1">D.1<!--tex4ht:ref: app:K15 --></a>):
+href="WebBook3ap4.html#x23-246000D.1">D.1<!--tex4ht:ref: app:K15 --></a>):
+                                                                     
+
+                                                                     
 <center class="math-display" >
 <img 
-src="WebBook3348x.png" alt="¯
-Ki = Aij¯sj.  " class="math-display" ></center>
+src="WebBook3348x.png" alt="¯Ki = Aij¯sj.  " class="math-display" ></center>
 Now we can calculate the <span 
 class="cmmi-10x-x-109">&#x03B4;</span><sub><span 
 class="cmmi-8">i</span></sub> by:
@@ -653,7 +661,8 @@ class="cmmi-8">i</span></sub> by:
 class="equation"><tr><td>
 <center class="math-display" >
 <img 
-src="WebBook3349x.png" alt="&#x03B4;i = Ki - K¯i,
+src="WebBook3349x.png" alt="          ¯
+&#x03B4;i = Ki - Ki,
 " class="math-display" ><a 
  id="x15-158006r15"></a></center></td><td class="equation-label">(13.15)</td></tr></table>
 <!--l. 352--><p class="nopar" >
@@ -676,6 +685,9 @@ href="WebBook3li1.html#QQ2-15-324" id="x15-15900013.2.1">Hext confidence ellipse
 href="#x15-1580043">13.3<!--tex4ht:ref: fig:eij --></a> are calculated as
 follows:
 <!--l. 368--><p class="noindent" >
+                                                                     
+
+                                                                     
      <ol  class="enumerate1" >
      <li 
   class="enumerate" id="x15-159002x1">We assume that the uncertainties in the eigenvectors are in a plane
@@ -686,9 +698,6 @@ class="cmbx-10x-x-109">V</span><sub><span
 class="cmmi-8">i</span></sub>. The ellipse with semi-axes <span 
 class="cmmi-10x-x-109">&#x03F5;</span><sub><span 
 class="cmmi-8">ij</span></sub> that outline a
-                                                                     
-
-                                                                     
      95% confidence region in this plane is then projected onto the sphere
      (Figure&#x00A0;<a 
 href="#x15-1580043">13.3<!--tex4ht:ref: fig:eij --></a>).
@@ -746,12 +755,12 @@ src="WebBook3350x.png" alt="&#x03F5;12 = tan -1[f&#x03C3;&#x2215;2(&#x03C4;1 - &
         &#x03F5;21 = &#x03F5;12
         &#x03F5;32 = &#x03F5;23
         &#x03F5;31 = &#x03F5;13,
-     " class="math-display" ><a 
- id="x15-159011r16"></a></center></td><td class="equation-label">(13.16)</td></tr></table>
-     <!--l. 407--><p class="nopar" >
                                                                      
 
                                                                      
+     " class="math-display" ><a 
+ id="x15-159011r16"></a></center></td><td class="equation-label">(13.16)</td></tr></table>
+     <!--l. 407--><p class="nopar" >
      <!--l. 409--><p class="nopar" >where
      <!--l. 411--><p class="noindent" >
      <center class="math-display" >
@@ -805,16 +814,17 @@ intermediate and minimum eigenvalues (are the data prolate?). (If all three
 are positive, the data are triaxial). The <span 
 class="cmmi-10x-x-109">F </span>statistics are calculated as
 follows:
-<table 
-class="equation"><tr><td>
                                                                      
 
                                                                      
+<table 
+class="equation"><tr><td>
 <center class="math-display" >
 <img 
 src="WebBook3352x.png" alt="F = 0.4(&#x03C4;12+ &#x03C4;22 + &#x03C4;23 - 3&#x03C7;2b)&#x2215;&#x03C3;2
     F12 = 0.5((&#x03C4;1 - &#x03C4;2)&#x2215;&#x03C3;)2
-   F23 = 0.5((&#x03C4;2 - &#x03C4;3)&#x2215;&#x03C3; )2,
+   F   = 0.5((&#x03C4;  - &#x03C4; )&#x2215;&#x03C3; )2,
+     23        2    3
 " class="math-display" ><a 
  id="x15-160001r17"></a></center></td><td class="equation-label">(13.17)</td></tr></table>
 <!--l. 435--><p class="nopar" >
@@ -861,12 +871,12 @@ class="cmr-8">23</span></sub>). <span
 class="cmmi-10x-x-109">F </span>values below the critical
 values do not allow rejection of the null hypotheses of isotropy or rotational
 symmetry, respectively.
-<!--l. 456--><p class="nopar" >
-<h3 class="sectionHead"><span class="titlemark">13.3   </span> <a 
-href="WebBook3.html#QQ2-15-326" id="x15-16100013.3">Limitations of Hext statistics</a></h3>
                                                                      
 
                                                                      
+<!--l. 456--><p class="nopar" >
+<h3 class="sectionHead"><span class="titlemark">13.3   </span> <a 
+href="WebBook3.html#QQ2-15-326" id="x15-16100013.3">Limitations of Hext statistics</a></h3>
 <!--l. 458--><p class="nopar" >The assumptions for using Hext statistics (Section&#x00A0;<a 
 href="#x15-15800013.2">13.2<!--tex4ht:ref: sect:hext --></a>) are that the
 uncertainties in the measurements have zero mean, are normally distributed, and
@@ -972,14 +982,14 @@ for most of the questions outlined at the beginning of the chapter, it is
 preferable to assess directly the 95% confidence bounds on the parameter of
 interest.
 <!--l. 532--><p class="noindent" >By analogy with the bootstrap for unit vectors and the fold test, we can also
+                                                                     
+
+                                                                     
 perform parametric bootstraps. There are two flavors of these: the <span 
 class="cmti-10x-x-109">specimen</span>
 <span 
 class="cmti-10x-x-109">parametric bootstrap </span>and the <span 
 class="cmti-10x-x-109">site parametric bootstrap</span>. For the specimen
-                                                                     
-
-                                                                     
 parametric bootstrap, proceed as follows: After randomly selecting a particular
 specimen for inclusion, each element <span 
 class="cmbx-10x-x-109">s</span><sub><span 
@@ -1279,6 +1289,9 @@ class="cmbx-10x-x-109">V</span><sub><span
 class="cmr-8">2</span></sub> and <span 
 class="cmbx-10x-x-109">V</span><sub><span 
 class="cmr-8">3</span></sub> directions are smeared in a girdle
+                                                                     
+
+                                                                     
 (Figure&#x00A0;<a 
 href="#x15-1630038">13.8<!--tex4ht:ref: fig:shape --></a>g). The bootstrapped eigenvalue distributions show that the <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
@@ -1288,9 +1301,6 @@ class="cmmi-10x-x-109">&#x03C4;</span><sub><span
 class="cmr-8">2</span></sub> and <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub> are clumped together
-                                                                     
-
-                                                                     
 (Figure&#x00A0;<a 
 href="#x15-1630038">13.8<!--tex4ht:ref: fig:shape --></a>k).
 <!--l. 732--><p class="noindent" >Finally, data from the triaxial case are shown in Figure&#x00A0;<a 
@@ -1462,19 +1472,19 @@ diagram. [Figure from Tauxe, 1998.] </span></div><!--tex4ht:label?: x15-16400210
 <br /> <div class="caption" 
 ><span class="id">Table&#x00A0;13.1: </span><span  
 class="content">Assorted anisotropy statistics.</span></div><!--tex4ht:label?: x15-1640031 -->
-<div class="tabular"> <table id="TBL-10" class="tabular" 
+<div class="tabular"> <table id="TBL-12" class="tabular" 
 cellspacing="0" cellpadding="0"  
-><colgroup id="TBL-10-1g"><col 
-id="TBL-10-1"><col 
-id="TBL-10-2"></colgroup><tr 
+><colgroup id="TBL-12-1g"><col 
+id="TBL-12-1"><col 
+id="TBL-12-2"></colgroup><tr 
 class="hline"><td><hr></td><td><hr></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-10-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-1-1"  
-class="td11">Parameter (Reference)                         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-1-2"  
+ style="vertical-align:baseline;" id="TBL-12-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-1-1"  
+class="td11">Parameter (Reference)                         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-1-2"  
 class="td11">Equation                              </td>
 </tr><tr 
 class="hline"><td><hr></td><td><hr></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-10-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-2-1"  
-class="td11">Bulk Susceptibility (see text)                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-2-2"  
+ style="vertical-align:baseline;" id="TBL-12-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-2-1"  
+class="td11">Bulk Susceptibility (see text)                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-2-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">&#x03C7;</span><sub><span 
 class="cmmi-8">b</span></sub> = (<span 
@@ -1486,8 +1496,8 @@ class="cmmi-10x-x-109">s</span><sub><span
 class="cmr-8">3</span></sub>)<span 
 class="cmmi-10x-x-109">&#x2215;</span>3              </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-3-1"  
-class="td11">Normalized eigenvalues (see text)           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-3-2"  
+ style="vertical-align:baseline;" id="TBL-12-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-3-1"  
+class="td11">Normalized eigenvalues (see text)           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-3-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">1</span></sub> + <span 
@@ -1496,8 +1506,8 @@ class="cmr-8">2</span></sub> + <span
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub> = 1                     </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-4-1"  
-class="td11">Log eigenvalues (Jelinek, 1981)               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-4-2"  
+ style="vertical-align:baseline;" id="TBL-12-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-4-1"  
+class="td11">Log eigenvalues (Jelinek, 1981)               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-4-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">&#x03B7;</span><sub><span 
 class="cmr-8">1</span></sub> = ln<span 
@@ -1512,8 +1522,8 @@ class="cmr-8">3</span></sub> = ln<span
 class="cmbx-10x-x-109">s</span><sub><span 
 class="cmr-8">3</span></sub></td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-5-1"  
-class="td11">Log mean susceptibility (Jelinek, 1981)    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-5-2"  
+ style="vertical-align:baseline;" id="TBL-12-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-5-1"  
+class="td11">Log mean susceptibility (Jelinek, 1981)    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-5-2"  
 class="td11"><span class="bar-css"><span 
 class="cmmi-10x-x-109">&#x03B7;</span></span> = (<span 
 class="cmmi-10x-x-109">&#x03B7;</span><sub><span 
@@ -1524,13 +1534,13 @@ class="cmmi-10x-x-109">&#x03B7;</span><sub><span
 class="cmr-8">3</span></sub>)<span 
 class="cmmi-10x-x-109">&#x2215;</span>3               </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-6-1"  
+ style="vertical-align:baseline;" id="TBL-12-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-6-1"  
 class="td11">                                   </td></tr><tr  
- style="vertical-align:baseline;" id="TBL-10-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-7-1"  
+ style="vertical-align:baseline;" id="TBL-12-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-7-1"  
 class="td11">Magnitude of Anisotropy:</td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-8-1"  
-class="td11">% Anisotropy (Tauxe et al. , 1990)         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-8-2"  
+ style="vertical-align:baseline;" id="TBL-12-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-8-1"  
+class="td11">% Anisotropy (Tauxe et al. , 1990)         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-8-2"  
 class="td11">%<span 
 class="cmmi-10x-x-109">h </span>= 100(<span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
@@ -1539,8 +1549,8 @@ class="cmsy-10x-x-109">- </span><span
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub>)                  </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-9-1"  
-class="td11">&#8220;Total&#8221; Anisotropy (Owens, 1974)          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-9-2"  
+ style="vertical-align:baseline;" id="TBL-12-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-9-1"  
+class="td11">&#8220;Total&#8221; Anisotropy (Owens, 1974)          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-9-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">A </span>= (<span 
 class="cmmi-10x-x-109">s</span><sub><span 
@@ -1551,8 +1561,8 @@ class="cmr-8">3</span></sub>)<span
 class="cmmi-10x-x-109">&#x2215;&#x03C7;</span><sub><span 
 class="cmmi-8">b</span></sub>                      </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-10-1"  
-class="td11">Anisotropy Degree (Nagata, 1961)          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-10-2"  
+ style="vertical-align:baseline;" id="TBL-12-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-10-1"  
+class="td11">Anisotropy Degree (Nagata, 1961)          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-10-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">P </span>= <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
@@ -1560,8 +1570,8 @@ class="cmr-8">1</span></sub><span
 class="cmmi-10x-x-109">&#x2215;&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub>                                     </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-11-1"  
-class="td11">&#8220;Corrected&#8221; Anisotropy (Jelinek, 1981)    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-11-2"  
+ style="vertical-align:baseline;" id="TBL-12-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-11-1"  
+class="td11">&#8220;Corrected&#8221; Anisotropy (Jelinek, 1981)    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-11-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">P</span><span 
 class="cmsy-10x-x-109">&#x2032; </span>= <span 
@@ -1570,14 +1580,14 @@ src="WebBook3361x.png" alt="&#x221A; ------2------2------2-
   2[(&#x03B7;1-&#x03B7;¯) +(&#x03B7;2- ¯&#x03B7;) +(&#x03B7;3- ¯&#x03B7;)"  class="sqrt" ><span 
 class="cmr-8">]</span></sup></td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-12-1"  
+ style="vertical-align:baseline;" id="TBL-12-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-12-1"  
 class="td11">                                   </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-13-1"  
+ style="vertical-align:baseline;" id="TBL-12-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-13-1"  
 class="td11">Shape:                                              </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-14-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-14-1"  
-class="td11">Shape Factor (Jelinek, 1981])                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-14-2"  
+ style="vertical-align:baseline;" id="TBL-12-14-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-14-1"  
+class="td11">Shape Factor (Jelinek, 1981])                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-14-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">T </span>= (2<span 
 class="cmmi-10x-x-109">&#x03B7;</span><sub><span 
@@ -1595,8 +1605,8 @@ class="cmsy-10x-x-109">- </span><span
 class="cmmi-10x-x-109">&#x03B7;</span><sub><span 
 class="cmr-8">3</span></sub>)   </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-15-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-15-1"  
-class="td11">Lineation (Balsley and Buddington, 1960)</td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-15-2"  
+ style="vertical-align:baseline;" id="TBL-12-15-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-15-1"  
+class="td11">Lineation (Balsley and Buddington, 1960)</td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-15-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">L </span>= <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
@@ -1604,8 +1614,8 @@ class="cmr-8">1</span></sub><span
 class="cmmi-10x-x-109">&#x2215;&#x03C4;</span><sub><span 
 class="cmr-8">2</span></sub>                                     </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-16-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-16-1"  
-class="td11">Foliation (Stacey et al., 1960)                </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-16-2"  
+ style="vertical-align:baseline;" id="TBL-12-16-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-16-1"  
+class="td11">Foliation (Stacey et al., 1960)                </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-16-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">F </span>= <span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
@@ -1613,22 +1623,22 @@ class="cmr-8">2</span></sub><span
 class="cmmi-10x-x-109">&#x2215;&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub>                                     </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-17-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-17-1"  
-class="td11">log Lineation (Woodcock, 1977)             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-17-2"  
+ style="vertical-align:baseline;" id="TBL-12-17-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-17-1"  
+class="td11">log Lineation (Woodcock, 1977)             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-17-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">L</span><span 
 class="cmsy-10x-x-109">&#x2032; </span>= ln(<span 
 class="cmmi-10x-x-109">L</span>)                            </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-18-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-18-1"  
-class="td11">log Foliation (Woodcock, 1977)              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-18-2"  
+ style="vertical-align:baseline;" id="TBL-12-18-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-18-1"  
+class="td11">log Foliation (Woodcock, 1977)              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-18-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">F</span><span 
 class="cmsy-10x-x-109">&#x2032; </span>= ln(<span 
 class="cmmi-10x-x-109">F</span>)                           </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-19-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-19-1"  
-class="td11">Elongation (Tauxe, 1998)                      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-19-2"  
+ style="vertical-align:baseline;" id="TBL-12-19-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-19-1"  
+class="td11">Elongation (Tauxe, 1998)                      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-19-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">E</span><span 
 class="cmsy-10x-x-109">&#x2032; </span>= <span 
@@ -1638,15 +1648,15 @@ class="cmmi-10x-x-109">.</span>5<span
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub>                              </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-10-20-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-20-1"  
-class="td11">Roundness (Tauxe, 1998)                      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-10-20-2"  
+ style="vertical-align:baseline;" id="TBL-12-20-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-20-1"  
+class="td11">Roundness (Tauxe, 1998)                      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-12-20-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">R </span>= sin(60)<span 
 class="cmmi-10x-x-109">&#x03C4;</span><sub><span 
 class="cmr-8">3</span></sub>                              </td>
 </tr><tr 
 class="hline"><td><hr></td><td><hr></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-10-21-"><td  style="white-space:nowrap; text-align:left;" id="TBL-10-21-1"  
+ style="vertical-align:baseline;" id="TBL-12-21-"><td  style="white-space:nowrap; text-align:left;" id="TBL-12-21-1"  
 class="td11">                                   </td></tr></table></div></div>
                                                                      
 
@@ -1680,13 +1690,13 @@ describe first how AARM is determined in the SIO laboratory. There are
 slight experimental differences between AARM and ATRM which will be
 noted.
 <!--l. 913--><p class="nopar" >
+                                                                     
+
+                                                                     
 <h4 class="subsectionHead"><span class="titlemark">13.7.1   </span> <a 
 href="WebBook3li1.html#QQ2-15-339" id="x15-16600013.7.1">Anisotropy of ARM and TRM</a></h4>
 <!--l. 916--><p class="nopar" >Prior to acquisition of the laboratory remanence, the specimen should be in a
 fully demagnetized state which is measured as a baseline. Then one applies an
-                                                                     
-
-                                                                     
 ARM in at least three directions (say positions 1, 2 and 3 in Figure&#x00A0;<a 
 href="#x15-1560011">13.1<!--tex4ht:ref: fig:measAMS --></a>b).
 Generally, from six to 15 orientations for the ARM are used to get a reasonable
@@ -1745,10 +1755,10 @@ class="cmmi-10x-x-109">&#x03C7;</span><sub><span
 class="cmmi-8">R</span></sub> as follows.
 <!--l. 928--><p class="noindent" >The ancient field direction <span 
 class="cmbx-10x-x-109">H</span> is given by:
-<!--l. 930--><p class="noindent" >
                                                                      
 
                                                                      
+<!--l. 930--><p class="noindent" >
 <center class="math-display" >
 <img 
 src="WebBook3362x.png" alt="Hanc = M  &#x22C5;&#x03C7;R -1.
@@ -1786,16 +1796,17 @@ src="WebBook3363x.png" alt="|M    | = |M  |&#x22C5; |Ma-|.
 <!--l. 940--><p class="nopar" >
 <h4 class="subsectionHead"><span class="titlemark">13.7.2   </span> <a 
 href="WebBook3li1.html#QQ2-15-340" id="x15-16700013.7.2">Anisotropy of DRM</a></h4>
+                                                                     
+
+                                                                     
 <!--l. 942--><p class="nopar" >Inclination of DRM is often too shallow (see Chapter 7) and laboratory
 experiments show that it follows a tangent function:
 <table 
 class="equation"><tr><td>
 <center class="math-display" >
-                                                                     
-
-                                                                     
 <img 
-src="WebBook3364x.png" alt="tan Io = f tanIf,
+src="WebBook3364x.png" alt="tan I = f tanI ,
+     o        f
 " class="math-display" ><a 
  id="x15-167001r19"></a></center></td><td class="equation-label">(13.19)</td></tr></table>
 <!--l. 947--><p class="nopar" >
@@ -1817,6 +1828,9 @@ class="cmbx-10x-x-109">H</span> as:
 <img 
 src="WebBook3365x.png" alt="Md  = kdH,
 " class="math-display" ></center>
+                                                                     
+
+                                                                     
 <!--l. 962--><p class="nopar" >where <span 
 class="cmmi-10x-x-109">k</span><sub><span 
 class="cmmi-8">d</span></sub> is the DRM tensor. The eigenvalues of the <span 
@@ -1850,9 +1864,6 @@ role in determining the anisotropy tensor, particularly as a function of
 applied magnetic field. The proxy approach is straight-forward in the lab,
 but difficult to tie directly to the DRM anisotropy. What is required
 is a laboratory remanence that closely targets the same spectrum of
-                                                                     
-
-                                                                     
 coercivities as that carrying the DRM. By AF demagnetizing the NRM and an
 ARM or a pARM it can be shown that the (p)ARM often satisfies this
 requirement (see e.g.,  Levi and Banerjee 1976). From this, Jackson et al.
@@ -1876,6 +1887,9 @@ determine the orientations of the particle long axes as well as the effects of
 individual particle anisotropies. This latter results from the fact that individual
 particles are not ordinarily at saturation being generally (except for very small
 grains or grains of low magnetization materials) non-uniformly magnetized
+                                                                     
+
+                                                                     
 themselves (e.g., vortex remanence state). The rationale is that because
 AARM reflects the variations in the capacity for carrying remanence in the
 detrital particles, that AARM can be used to determine the anisotropy of
@@ -1887,9 +1901,6 @@ Appendix.
 <!--l. 984--><p class="nopar" >
 <h3 class="sectionHead"><span class="titlemark">13.8   </span> <a 
 href="WebBook3.html#QQ2-15-341" id="x15-16800013.8">Problems</a></h3>
-                                                                     
-
-                                                                     
 <!--l. 986--><p class="nopar" >Make sure you have downloaded and unzipped the Datafiles for this book (see
 Chapter 5 for instructions.) The data for these problems are in the Chapter_13
 directory.
@@ -1921,6 +1932,9 @@ the two <span
 class="cmmi-10x-x-109">s</span><sub><span 
 class="cmmi-8">i</span></sub> files. Are they identical? How many times can you repeat this before
 the data are completely unreliable?
+                                                                     
+
+                                                                     
 <!--l. 998--><p class="noindent" >c) Convert the file <span 
 class="cmti-10x-x-109">prob13-1.dat </span>into the MagIC format using <span 
 class="cmbx-10x-x-109">s</span><span 
@@ -1938,80 +1952,77 @@ of a dike. They also measured the dip direction and dip of the dike in
 several places (saved in the file <span 
 class="cmti-10x-x-109">dike.dd</span>). Specimens from the samples were
 measured using the 15 measurement scheme described in Appendix&#x00A0;<a 
-href="WebBook3ap4.html#x22-245000D.1">D.1<!--tex4ht:ref: app:K15 --></a> and
+href="WebBook3ap4.html#x23-246000D.1">D.1<!--tex4ht:ref: app:K15 --></a> and
 saved as the <span 
 class="cmti-10x-x-109">east.k15 </span>and <span 
 class="cmti-10x-x-109">west.k15 </span>data files. The format for these files
 is:
 <!--l. 1009--><p class="noindent" >specimen_name [optional: az,pl,strike,dip]
-<div class="tabular"> <table id="TBL-11" class="tabular" 
+<div class="tabular"> <table id="TBL-13" class="tabular" 
 cellspacing="0" cellpadding="0"  
-><colgroup id="TBL-11-1g"><col 
-id="TBL-11-1"><col 
-id="TBL-11-2"><col 
-id="TBL-11-3"><col 
-id="TBL-11-4"><col 
-id="TBL-11-5"><col 
-id="TBL-11-6"></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-11-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-1"  
-class="td11"></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-2"  
+><colgroup id="TBL-13-1g"><col 
+id="TBL-13-1"><col 
+id="TBL-13-2"><col 
+id="TBL-13-3"><col 
+id="TBL-13-4"><col 
+id="TBL-13-5"><col 
+id="TBL-13-6"></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-13-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-13-1-1"  
+class="td11"></td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-1-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">1</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-3"  
+class="cmr-8">1</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-1-3"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">2</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-4"  
+class="cmr-8">2</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-1-4"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">3</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-5"  
+class="cmr-8">3</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-1-5"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">4</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-1-6"  
+class="cmr-8">4</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-1-6"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
 class="cmr-8">5</span></sub> </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-11-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-1"  
-class="td11"> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-2"  
+ style="vertical-align:baseline;" id="TBL-13-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-13-2-1"  
+class="td11"> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-2-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">6</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-3"  
+class="cmr-8">6</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-2-3"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">7</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-4"  
+class="cmr-8">7</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-2-4"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">8</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-5"  
+class="cmr-8">8</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-2-5"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">9</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-2-6"  
+class="cmr-8">9</span></sub> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-2-6"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
 class="cmr-8">10</span></sub></td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-11-3-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-1"  
-class="td11"> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-2"  
+ style="vertical-align:baseline;" id="TBL-13-3-"><td  style="white-space:nowrap; text-align:center;" id="TBL-13-3-1"  
+class="td11"> </td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-3-2"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">11</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-3"  
+class="cmr-8">11</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-3-3"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">12</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-4"  
+class="cmr-8">12</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-3-4"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">13</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-5"  
+class="cmr-8">13</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-3-5"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
-class="cmr-8">14</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-11-3-6"  
+class="cmr-8">14</span></sub></td><td  style="white-space:nowrap; text-align:center;" id="TBL-13-3-6"  
 class="td11"><span 
 class="cmmi-10x-x-109">K</span><sub><span 
 class="cmr-8">15</span></sub></td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-11-4-"><td  style="white-space:nowrap; text-align:center;" id="TBL-11-4-1"  
+ style="vertical-align:baseline;" id="TBL-13-4-"><td  style="white-space:nowrap; text-align:center;" id="TBL-13-4-1"  
 class="td11"> </td></tr></table></div>
-                                                                     
-
-                                                                     
 <!--l. 1017--><p class="nopar" >where az, pl, strike, dip are the azimuth and plunge of the laboratory arrow and
 the structural strike and dip (see Chapter 9) and the <span 
 class="cmmi-10x-x-109">K</span><sub><span 
@@ -2042,6 +2053,9 @@ magnetometer files&#8217; and choose &#8216;Next Step&#8217;. Combine all the fi
 <span 
 class="cmti-10x-x-109">magic</span><span 
 class="cmti-10x-x-109">_measurements.txt </span>file by clicking on &#8216;OK&#8217;. In Step 3, just click on &#8216;OK&#8217; to
+                                                                     
+
+                                                                     
 create a single er_samples.txt and rmag_anisotropy file. When you are
 finished, exit from <span 
 class="cmbx-10x-x-109">Pmag GUI </span>and find your command line (or return
@@ -2059,9 +2073,6 @@ Then choose a parametric bootstrap, plotting the bootstrap eigenvectors. How do
 the two methods compare?
 <!--l. 1029--><p class="noindent" >d) Plot the dike plane by choosing to plot the great circle (check the help
 message to see how to do that) and enter the pole you calculated in
-                                                                     
-
-                                                                     
 a).
 <!--l. 1031--><p class="noindent" >e) Which direction was the magma flowing when the dike was created?
 <!--l. 1034--><p class="noindent" ><span 
@@ -2083,6 +2094,9 @@ downloaded in a).
 <!--l. 1047--><p class="noindent" >c) Plot the data with the <span 
 class="cmbx-10x-x-109">aniso</span><span 
 class="cmbx-10x-x-109">_magic.py </span>(from the command line or using the
+                                                                     
+
+                                                                     
 -sav option from within the Python notebook). Also, choose the &#8220;plot by site,
 parametric bootstrap and bootstrapped eigenvectors&#8221; options. There were three
 sites collected: one from undisturbed sedimentary layers, one with clear evidence
