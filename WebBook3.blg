@@ -20,48 +20,48 @@ A level-1 auxiliary file: Chapters/chapter15.aux
 A level-1 auxiliary file: Chapters/chapter16.aux
 A level-1 auxiliary file: Chapters/appendix.aux
 The style file: apalike2.bst
-Reallocated field_info (elt_size=4) to 13272 items from 5000.
+Reallocated field_info (elt_size=4) to 13470 items from 5000.
 Database file #1: UCPbook.bib
 Warning--empty journal in hunt95
-You've used 376 entries,
+You've used 385 entries,
             2227 wiz_defined-function locations,
-            2405 strings with 59455 characters,
-and the built_in function-call counts, 158173 in all, are:
-= -- 15640
-> -- 5848
-< -- 268
-+ -- 2053
-- -- 1913
-* -- 13681
-:= -- 27121
-add.period$ -- 1147
-call.type$ -- 376
-change.case$ -- 2440
-chr.to.int$ -- 368
-cite$ -- 377
-duplicate$ -- 5540
-empty$ -- 11679
-format.name$ -- 2537
-if$ -- 31407
+            2451 strings with 61486 characters,
+and the built_in function-call counts, 162548 in all, are:
+= -- 16051
+> -- 6085
+< -- 269
++ -- 2139
+- -- 1997
+* -- 14105
+:= -- 27895
+add.period$ -- 1174
+call.type$ -- 385
+change.case$ -- 2518
+chr.to.int$ -- 377
+cite$ -- 386
+duplicate$ -- 5653
+empty$ -- 11963
+format.name$ -- 2632
+if$ -- 32237
 int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 407
-newline$ -- 1883
-num.names$ -- 1164
-pop$ -- 2049
+missing$ -- 416
+newline$ -- 1928
+num.names$ -- 1191
+pop$ -- 2116
 preamble$ -- 1
-purify$ -- 2816
+purify$ -- 2903
 quote$ -- 0
-skip$ -- 4207
+skip$ -- 4287
 stack$ -- 0
-substring$ -- 14290
-swap$ -- 595
+substring$ -- 14682
+swap$ -- 594
 text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2190
+type$ -- 2244
 warning$ -- 1
-while$ -- 1218
+while$ -- 1245
 width$ -- 0
-write$ -- 4915
+write$ -- 5032
 (There was 1 warning)

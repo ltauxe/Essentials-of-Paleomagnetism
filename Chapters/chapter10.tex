@@ -504,44 +504,96 @@ Tauxe and Yamazaki (2007). \nocite{tauxe07}
 
 {\bf Problem 1 }
 
-a)  In this problem, we will use published data to get a feel for ``real'' paleointensity data.  Make sure you have the {\bf PmagPy} programs working (see \href{http://earthref.org/PmagPy/cookbook/}{PmagPy webiste}).  You can find a data set associated with a particular publication (if someone uploaded the data), by using the digital object identifier (DOI) search.  For example, the data set of Shaar et al. (2011)  \nocite{shaar11} could be located using the syntax:   
+a)  In this problem, we will use published data to get a feel for ``real'' paleointensity data.  Make sure you have the {\bf PmagPy} programs working (see \href{http://earthref.org/PmagPy}{PmagPy website}).  You can find a data set associated with a particular publication (if someone uploaded the data), by using the digital object identifier (DOI) search.  For example, the data set of Tauxe et al. (2016)  \nocite{tauxe16} could be located using the syntax:   
 
-\url{http://earthref.org/doi/10.1016/j.epsl.2010.11.013} 	
+\url{http://earthref.org/doi/10.1002/2016GC006307} 	
 	
-When you locate the reference, click on the text file icon under the column labeled ``Data''.     This is a dataset   from  Israeli/Jordanian metallurgical slags.   
+When you locate the reference, click on the text file icon under the column labeled ``Data''.     This is a dataset  from a bunch of samples that acquired their TRM in known fields.   
 
 b) Create a new folder for these data and put the downloaded text file in it.  Make sure it is a directory with no spaces in the path name.
 
-c) Open a \href{http://earthref.org/PmagPy/cookbook/#command_line}{terminal window} (command prompt on Windows machines).    On the command line,  type:  {\bf QuickMagIC.py}. Change directories into your ``Project Directory''. 
+c) Open a \href{http://earthref.org/PmagPy/#command_line}{terminal window} (command prompt on Windows machines).    On the command line,  type:  {\bf pmag\_gui.py}. [Remember that some PC installations omit the .py termination.]   Change directories into your ``Project Directory''. 
 
-d) Click on the  ``unpack downloaded txt file'' button on the front panel and choose the file you downloaded. 
+d) Click on the  ``unpack  txt file downloaded from MagIC''  button on the front panel and choose the file you downloaded. 
 
 e) Click on the `Thellier GUI' button.  
 
 f) Step through the data by clicking on `next'.  You don't have to look at all of them, because there are a LOT.  
 
-g)  You will be able to see the interpretations used in the publication.  Perhaps you would interpret the data differently.  To change an interpretation, change the  temperature bounds for the slope calculation.  A complete list of the definitions for paleointensity statistics used by the GUI is available as a supplement to the article by \href{#http://dx.doi.org/10.1002/2013GC005135}{Paterson et al., 2014}  \nocite{paterson14} and available for download   \href{http://onlinelibrary.wiley.com/store/10.1002/2013GC005135/asset/supinfo/ggge20412-sup-0001-suppinfoCORRECTED.pdfv=1&s=e1c3ab0a86c942d1039f6d2e15496aa172dc86ec}
-{here}.
- 
+g)  This paper compared two different selection criteria, those of Cromwell et al. (2015) \nocite{cromwell15} which they called `CCRIT' and a set called TTA from  Leonhardt et al. (2004). \cite{leonhardt04}:  
+
+
+\begin{tabular}{lllllllllllllllll}
+\hline
+& $n$&   $f$&FRAC&$\beta$&$q$&MAD&MAD$_{Anc}$&DANG&$\alpha$& $n_{pTRM}$&SCAT&$\delta$CK&$\delta$pal&$\delta$TR&$\delta$t*&k'\\
+C&4  & &0.78 & 0.1&-&5 & - &  10 & - &2& True & - & -& - &- &0.164\\
+T&5   &0.5 & - & 0.1& 5&- & 10&- &5 & -& -& 5&5 & 10&3 &\\
+\hline
+\end{tabular}
+C: CCRIT, T: TTA.  For definitions of statistics see \cite{paterson14}.  The study also used a minimum of three samples per site with a standard deviation of less than 6 $\mu$T or 15\%.   
+
+
+There are many other commonly used schemes summarized in   {Paterson et al., 2014}  \nocite{paterson14}  who also compiled all the known 
+definitions for paleointensity statistics.  These are  supported by the Thellier GUI  included in Pmag GUI.    The selection criteria can be changed by choosing  Analysis $=> $Acceptance criteria =$>$change acceptance criteria.   If a particular statistic does not show up in the list, you can add any of the Paterson criteria under the Preferences $=>$ Selection criteria....   menu.   After adding and/or  changing your criteria,  you can try to run the `auto interpreter' to see what will `pass'.    
+
+Set the criteria to the CCRIT criteria of Cromwell et al. (2015) and see what passes and what doesn't.   You can do this `by hand' or you can import the ccrit\_criteria.txt file available in the Chapter\_10 folder of the Essentials Examples directory in the data\_files directory of PmagPy (see instructions in Chapter 5).  
+
+After you run the auto interpreter, save the results by selecting `Save MagIC Pmag tables' under the File menu.   Exit the Pmag GUI program and return to your command line or open up a jupyter notebook.  
+Move or copy your brand new  pmag\_sites.txt table to pmag\_sites\_ccrit.txt using the {\bf mv} command in a jupyter notebook or from the command line.  
   
- You can see how the answer will  change with different boundary picks and also whether the interpretation `passes' or not.  
- 
-h)     The selection criteria can be changed by choosing  Analysis $=> $Acceptance criteria =$>$change acceptance criteria.   After changing these,  you can try to run the auto interpreter to see what will `pass'.  
+h)  Repeat the steps in g) but use the TTA criteria of Leonhardt (2004) (import the file tta\_criteria.txt this time).   See how  interpretations  change.   Exit the Pmag GUI program and move or copy this  new  pmag\_sites.txt table to pmag\_sites\_tta.txt.  
 
 
-i) What do you think were the guiding principles that the original author used to select bounds?  Do you think these are reasonable?  What principles would YOU use to guide your interpretations of these data?   Which statistics are the most useful?  
+
+
+i)  Read in the two files created in steps g) and h) into Pandas Dataframes.  
+Compare the results with the expected fields listed here:  
+
+\nocite{bowles06,donadini07,muxworthy11,pick93,shaar10,shaar11b,tanaka12,yamamoto03,yamamoto08}
+
+\begin{tabular}{llllllll}
+\hline
+Citation & DOI & Site & Type & Lat. ($^{\circ}$)N & Lon. ($^{\circ}$)E & Year & $B_{exp} (\mu$T)\\
+\hline
+Bowles et al. (2006) & 10.1029/2005GC001141 & 1991-1992 Eruption Site & SBG$^a$ & 9.8 & -104.3 & 1991 & 36.2\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw108 & basalt & 19.9 & -155.9 & 1859 & 39.0\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw226 & basalt & 19.64 & -155.51 & 1843 & 40.1\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw123 & basalt & 19.073 & -155.714 & 1907 & 37.7\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw126 & basalt & 19.69 & -155.46 & 1935 & 36.6\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw128 & basalt& 19.26 & -155.87 & 1950 & 36.2\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw241 &basalt & 19.52 & -155.81 & 1960 & 36\\
+Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw201 & basalt & 19.36 & -154.97 & 1990 & 35.2\\
+Donadini et al. (2007) & 10.1016/j.pepi.2007.10.002 & BR06 & brick & 60.1 & 24.9 & 1906 & 49.7\\
+Muxworthy et al. (2011) & 10.1029/2010JB007844 & P & basalt& 19.3 & -102.1 & 1943 & 44.6\\
+Muxworthy et al. (2011) & 10.1029/2010JB007844 & VM & basalt & 40.8 & 14.5 & 1944 & 43.8\\
+Pick and Tauxe (1993) & 10.1029/93jb01160  & BBQ & SBG& 9.8 & -104.3 & 1990 & 36.2\\
+Shaar et al. (2010) & 10.1016/j.epsl.2009.12.022 & RS25 & synthetic &  &  &  & 30.0\\
+Shaar et al. (2010) & 10.1016/j.epsl.20s09.12.022 & RS26 & synthetic &  &  &  & 60.0\\
+Shaar et al. (2010) & 10.1016/j.epsl.2009.12.022 & RS27 & synthetic &  &  &  & 90.0\\
+Shaar et al. (2011) & 10.1016/j.epsl.2011.08.024 & RS61 & synthetic &  &  &  & 60.0\\
+Shaar et al. (2011) & 10.1016/j.epsl.2011.08.024 & RS63 & synthetic &  &  &  & 80.0\\
+Tanaka et al. (2012) & 10.1111/j.1365-246X.2012.05412.x & KF &basalt & 65.7 & -16.8 & 1984 & 52.0\\
+Yamamoto et al. (2003) & 10.1046/j.1365-246X.2003.01909.x & Hawaii 1960 Flow&basalt & 19.52& -155.81 & 1960 & 36.0\\
+Yamamoto and Hoshi (2008) & 10.1016/j.pepi.2008.03.006 & SW & andesite & 31.6 & -130.6 & 1946 & 46.4\\
+Yamamoto and Hoshi (2008) & 10.1016/j.pepi.2008.03.006 & TS & andesite & 31.6 & -130.6 & 1914 & 47.8\\
+\hline
+
+$^a$SBG is submarine basaltic glass.  
+\end{tabular}
+
+Which paleointensity statistics are the most useful?  What are the advantages and drawbacks of the two sets of selection criteria used here?   
 
 
 {\bf Problem 2}
 
 a) Now go to permalink: 
 
-\url{http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x} 
+\href{http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x} {http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x} 
 
-and download the data as before.  Make a new project directory and copy the downloaded file into it.       Unpack the txt file with {\bf QuickMagIC.py}.   
+and download the data as in Problem 10.1.  Make a new project directory and copy the downloaded file into it.   Unpack the data file with the command {\bf download\_magic.py -f upload.txt}, or from within a jupyter notebook using the initial '!' as usual.   
 
 
-b) Find your \href{http://earthref.org/PmagPy/cookbook/#command_line}{command line} and change directories into your new project directory by typing {\it cd MY\_DIRECTORY}, where you type the directory name instead of MY\_DIRECTORY. Then type  {\bf biplot\_magic.py}.    This will give you a list of available options for plotting measurement data.   In this case they are 'LT-AF-Z', 'LT-AF-I', 'LT-IRM', 'LP-X', which are `method codes' in MagIC.   On the \url{http://earthref.org/MAGIC}  website, follow the link to ``Method Codes''.   Examine the available options under  ``Lab Protocol'' and ``Lab Treatment''  and find the option that describes   these.   
+b) Find your \href{http://earthref.org/PmagPy/#command_line}{command line} and change directories into your new project directory by typing {\it cd MY\_DIRECTORY}, where you type the directory name instead of MY\_DIRECTORY. Then type  {\bf biplot\_magic.py}.    This will give you a list of available options for plotting measurement data.   In this case they are 'LT-AF-Z', 'LT-AF-I', 'LT-IRM', 'LP-X', which are `method codes' in MagIC.   On the \href{http://earthref.org/MAGIC} {http://earthref.org/MAGIC}  website, follow the link to ``Method Codes''.   Examine the available options under  ``Lab Protocol'' and ``Lab Treatment''  and find the option that describes   these.   
 
 c) Type:  {\bf biplot\_magic.py}.   Using the help message for this program (remember the -h option), figure out how to plot ARM versus $\chi$ and IRM versus $\chi$ for these data.    
 
@@ -550,7 +602,6 @@ d) Use the program {\bf strip\_magic.py} to plot relative intensity versus age.
 e)  These data are supposedly relative paleointensity data from the Oligocene in the South Atlantic.  What would convince you that these were ``real''?   
 
 
-}
 
 
 
