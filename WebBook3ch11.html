@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,2,sections+ --> 
 <meta name="src" content="WebBook3.tex"> 
-<meta name="date" content="2016-05-21 12:07:00"> 
+<meta name="date" content="2016-05-24 15:10:00"> 
 <link rel="stylesheet" type="text/css" href="WebBook3.css"> 
 </head><body 
 >
@@ -1913,7 +1913,8 @@ class="cmsy-8">&#x2218;</span></sup> and a
 class="cmmi-10x-x-109">&#x03BA; </span>of 25. Save these to a file called <span 
 class="cmti-10x-x-109">prob1a.dat</span>. (Use <span 
 class="cmbx-10x-x-109">eqarea.py </span>to admire your
-handiwork.) Hint: use the Unix file redirect feature:
+handiwork.) Remember that some PCs installations do not use the .py
+termination. Hint: use the Unix file redirect feature:
                                                                      
 
                                                                      
@@ -1939,23 +1940,26 @@ class="cmbx-10x-x-109">plot</span><span
 class="cmbx-10x-x-109">_di</span>.
 <!--l. 1042--><p class="noindent" >b) Write a program to read in <span 
 class="cmti-10x-x-109">ps11</span><span 
-class="cmti-10x-x-109">_prob1a.dat </span>from a) and calculate the Fisher
-statistics of: <span class="bar-css"><span 
-class="cmmi-10x-x-109">D</span></span><span 
-class="cmmi-10x-x-109">,</span><span class="bar-css"><span 
-class="cmmi-10x-x-109">I</span></span><span 
-class="cmmi-10x-x-109">,k,&#x03B1;</span><sub><span 
+class="cmti-10x-x-109">_prob1a.dat </span>from a) and calculate the average
+Declination and Inclination and these Fisher statistics: <span 
+class="cmmi-10x-x-109">k,&#x03B1;</span><sub><span 
 class="cmr-8">95</span></sub><span 
-class="cmmi-10x-x-109">,R </span>and CSD.
+class="cmmi-10x-x-109">,R </span>and CSD. You
+can check your answer with the PmagPy program <span 
+class="cmbx-10x-x-109">gofish.py</span>.
 <!--l. 1044--><p class="noindent" >c) Now generate a second sample from the same distribution (just repeat the
 <span 
 class="cmbx-10x-x-109">fishrot.py </span>command) and put the second set of directions in <span 
 class="cmti-10x-x-109">prob1c.dat</span>. These
 are two sets of directions drawn from the same distribution and certainly should
-share a common mean direction (logically). But do the two data sets pass the
-simple Watson <span 
-class="cmmi-10x-x-109">F </span>test for common mean direction? [This test will fail 5% of the
-time!]
+share a common mean direction (logically). But do the two data sets pass
+the simple Watson <span 
+class="cmmi-10x-x-109">F </span>test for common mean direction? [This test will
+fail 5% of the time!] Write a simple program to read in the two data
+files and calculate Watson&#8217;s F. Check your answer using the program
+<span 
+class="cmbx-10x-x-109">watsons</span><span 
+class="cmbx-10x-x-109">_f.py</span>.
 <!--l. 1047--><p class="noindent" >d) Generate a third sample from a distribution with <span 
 class="cmmi-10x-x-109">D </span>= 55<sup><span 
 class="cmsy-8">&#x2218;</span></sup><span 
@@ -1968,10 +1972,7 @@ class="cmti-10x-x-109">ps11</span><span
 class="cmti-10x-x-109">_prob1d.dat</span>. Does this data set pass the <span 
 class="cmmi-10x-x-109">F </span>test
 for common mean with the data in <span 
-class="cmti-10x-x-109">prob1a.dat</span>? Check your answer using the
-program <span 
-class="cmbx-10x-x-109">watsons</span><span 
-class="cmbx-10x-x-109">_f.py</span>.
+class="cmti-10x-x-109">prob1a.dat</span>?
 <!--l. 1049--><p class="noindent" >e) An alternative method for testing for common mean with less restrictive
 assumptions uses Watson&#8217;s statistic <span 
 class="cmmi-10x-x-109">V</span> <sub><span 
@@ -1994,12 +1995,12 @@ class="cmsy-8">&#x2218;</span></sup>. Calculate the Gaussian average of the incl
 You can write your own script or use the <span 
 class="cmbx-10x-x-109">PmagPy </span>program <span 
 class="cmbx-10x-x-109">stats.py </span>for this.
-[HINT: investigate the marvels of the Unix command <span 
-class="cmbx-10x-x-109">awk</span>. If you use a PC and
-think you do not have this, re-read the installation instructions for the
                                                                      
 
                                                                      
+[HINT: investigate the marvels of the Unix command <span 
+class="cmbx-10x-x-109">awk</span>. If you use a PC and
+think you do not have this, re-read the installation instructions for the
 <span 
 class="cmbx-10x-x-109">PmagPy </span>software package &#8211; there is a set of useful Unix utilities for
 you.]
