@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (http://matplotlib.sourceforge.net/) -->
+<svg width="372" height="372" viewBox="0 0 372 372"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg1">
+<g id="figure1">
+<polygon style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.000000; stroke-linejoin: miter; stroke-linecap: square;  opacity: 1.000000"  points = "0.000000,372.600000 0.000000,0.000000 372.600000,0.000000 372.600000,372.600000"/>
+<g id="axes1">
+<polygon style="fill: #ffffff; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: miter; stroke-linecap: square;  opacity: 1.000000"  points = "46.575000,335.340000 46.575000,37.260000 335.340000,37.260000 335.340000,335.340000"/>
+<defs>
+    <clipPath id="-1467158557">
+    <rect x="46.575000" y="37.260000" width="288.765000" height="298.080000"
+    style="stroke: gray; fill: none;"/>
+    </clipPath>
+</defs>
+<path style="fill: none; stroke: #0000ff; stroke-width: 1.000000; stroke-linejoin: miter; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#-1467158557)" d="M 58.125600,219.282993 L 63.900900,148.362308 L 69.676200,84.449594 L 75.451500,56.081625 L 81.226800,66.626592 L 87.002100,114.619090 L 92.777400,195.761353 L 98.552700,270.958829 L 104.328000,312.503064 L 110.103300,327.900128 L 115.878600,332.483055 L 121.653900,334.211464 L 127.429200,334.697084 L 133.204500,334.498052 L 138.979800,334.592075 L 144.755100,335.186607 L 150.530400,335.112149 L 156.305700,335.135093 L 162.081000,335.202689 L 167.856300,335.108764 L 173.631600,335.285833 L 179.406900,335.298187 L 185.182200,335.185749 L 190.957500,335.239237 L 196.732800,335.329674 L 202.508100,335.248575 L 208.283400,335.253493 L 214.058700,334.905937 L 219.834000,335.107434 L 225.609300,335.280888 L 231.384600,335.146513 L 237.159900,334.898652 L 242.935200,335.326356 L 248.710500,335.072246 L 254.485800,335.304737 L 260.261100,335.064925 L 266.036400,335.247943 L 271.811700,335.296437 L 277.587000,335.337178 L 283.362300,335.330655 L 289.137600,335.253657 L 294.912900,335.217862 L 300.688200,334.834263 L 306.463500,334.684328 L 312.238800,335.006130 L 318.014100,334.978886 L 323.789400,334.691296 L 329.564700,334.773258 "/>
+<g id="matplotlib.axis1">
+<g id="xtick1">
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="39.575000" y="347.340000" >0.0</text>
+</g>
+<g id="xtick2">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 104.328000,335.340000 L 104.328000,331.340000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 104.328000,41.260000 L 104.328000,37.260000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="97.328000" y="347.340000" >0.1</text>
+</g>
+<g id="xtick3">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 162.081000,335.340000 L 162.081000,331.340000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 162.081000,41.260000 L 162.081000,37.260000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="155.081000" y="347.340000" >0.2</text>
+</g>
+<g id="xtick4">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 219.834000,335.340000 L 219.834000,331.340000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 219.834000,41.260000 L 219.834000,37.260000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="212.834000" y="347.340000" >0.3</text>
+</g>
+<g id="xtick5">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 277.587000,335.340000 L 277.587000,331.340000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 277.587000,41.260000 L 277.587000,37.260000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="270.087000" y="347.340000" >0.4</text>
+</g>
+<g id="xtick6">
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="328.340000" y="347.433750" >0.5</text>
+</g>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="178.457500" y="362.433750" >B (T)</text>
+</g>
+<g id="matplotlib.axis2">
+<g id="ytick1">
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="37.575000" y="339.340000" >0</text>
+</g>
+<g id="ytick2">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,298.080000 L 50.575000,298.080000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,298.080000 L 335.340000,298.080000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="37.575000" y="302.080000" >2</text>
+</g>
+<g id="ytick3">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,260.820000 L 50.575000,260.820000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,260.820000 L 335.340000,260.820000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="36.575000" y="264.820000" >4</text>
+</g>
+<g id="ytick4">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,223.560000 L 50.575000,223.560000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,223.560000 L 335.340000,223.560000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="37.575000" y="227.560000" >6</text>
+</g>
+<g id="ytick5">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,186.300000 L 50.575000,186.300000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,186.300000 L 335.340000,186.300000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="37.575000" y="190.300000" >8</text>
+</g>
+<g id="ytick6">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,149.040000 L 50.575000,149.040000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,149.040000 L 335.340000,149.040000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="33.575000" y="153.040000" >10</text>
+</g>
+<g id="ytick7">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,111.780000 L 50.575000,111.780000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,111.780000 L 335.340000,111.780000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="33.575000" y="115.780000" >12</text>
+</g>
+<g id="ytick8">
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 46.575000,74.520000 L 50.575000,74.520000"/>
+<path style="fill: none; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: miter; stroke-linecap: butt;  opacity: 1.000000"  d="M 331.340000,74.520000 L 335.340000,74.520000"/>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="32.575000" y="78.520000" >14</text>
+</g>
+<g id="ytick9">
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="33.575000" y="41.260000" >16</text>
+</g>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="27.575000" y="222.300000" transform="translate(27.575000,222.300000) rotate(-90.0) translate(-27.575000,-222.300000)">d (Delta M)/dB</text>
+</g>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: miter; stroke-linecap: square;  opacity: 1.000000"  d="M 46.575000,335.340000 L 335.340000,335.340000 L 335.340000,37.260000 L 46.575000,37.260000 L 46.575000,335.340000 "/>
+<text style="font-size: 14.000000; font-family: Times; font-style: Regular; fill: #000000;" x="128.457500" y="31.298400" >TC04-15-03F:LP-HYS</text>
+</g>
+<text style="font-size: 12.000000; font-family: Times; font-style: Regular; fill: #000000;" x="7.452000" y="368.874000" >pmagpy-1.51b</text>
+</g>
+</svg>

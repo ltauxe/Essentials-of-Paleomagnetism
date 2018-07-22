@@ -1,4 +1,4 @@
-%\customlink{Tectonic_applications_of_paleomagnetism} 
+\customlink{Tectonic_applications_of_paleomagnetism} 
 \chapter{Tectonic applications of paleomagnetism}
 
 
@@ -120,7 +120,7 @@ Global Paleomagnetic  Database
 \label{fig:poles.aus}
 \end{figure}
 
-%\customlink{apparent_polar_wander_path}
+\customlink{apparent_polar_wander_path}
 The goal of much paleomagnetic research has been to assemble the various poles or some subset  of poles into 
 \index{apparent polar wander path}
 {\it apparent polar wander paths}  (APWPs) for the many different continental fragments.    There are two  issues that guide the construction of APWP:  selection of poles which can be considered ``reliable'' and curve fitting.   
@@ -374,7 +374,7 @@ Si and van der Voo, 2001) \nocite{si01} and those that compare observed  statist
 \label{fig:EI}
 \end{figure}
 
-%\customlink{TK03}
+\customlink{TK03}
 From Chapter 14 we know that paleomagnetic directions from the last five million years are, if anything, elongate in the North-South vertical plane.  However,  sedimentary inclination flattening not only results in directions that are too shallow, but also reduces N-S elongations  in favor of elongations that are more east-west.   This effect is shown in Figure~\ref{fig:squish}.  
 Geomagnetic field directions (e.g., Figure~\ref{fig:squish}a)  with inclinations $I_f$ are recorded in sediments with  observed inclinations ($I_o$) following the  flattening function  of 
 \index{King, R.F.}
@@ -746,71 +746,67 @@ And so we return to where we started at the beginning of this book with an assum
 
 {\parindent 0pt  \parskip 12pt
 
-
 {\bf Problem 1}
 
-a) Calculate the expected direction for  about 20 Ma at a locality in the Mojave Desert (latitude of 34.5$^{\circ}$N and longitude  of 117.5$^{\circ}$W).   Use the program {\bf apwp.py}.    Assume that the Mojave  was on the North American Plate.  
+a) Calculate the expected direction for  about 20 Ma at a locality in the Mojave Desert (latitude of 34.5$^{\circ}$N and longitude  of 117.5$^{\circ}$W).   Use the function {\bf pmag.apwp( )} which is built on the Besse and Courtillot (2002) global apparent polar wander path to get the pole.    Assume that the Mojave  was on the North American Plate (which it was back then).   
 
 
 
+b) Go to the MagIC search interface  at:
 
-b) Go to the MagIC search interface  at: \url{earthref.org/MAGIC/search}.    Click on the search icon and use the `All coordinates are within' filter.   Find the studies from 34.5N 119W to 35.5N 116W.    Once you have applied the search criteria, you will be returned to the Search interface.    Click on the `Locations' and `Paleomagnetics' tabs and save the search (use the `Save As' button).  This will download a file to your desktop.  
-Make a new Project Directory  unpack the downloaded file with {\bf QuickMagIC.py}.  
+\href{http://earthref.org/MAGIC/search}{http://earthref.org/MAGIC/search}.   
+ 
+  Fill in the Geospatial Boundary and Age Range filters looking for data younger than 30 Ma and  from 34.5N 119W to 35.5N 116W.    Once you have applied the search criteria, you can click on the 'Download Results button.  Save the `location rows' in a `MagIC Text File'  to your downloads folder.  
+Make a new Project Directory  (say, Chapter\_16/Problem\_1) and unpack the downloaded file with {\bf ipmag.download\_magic( )}.  
 
-c) Fish out the data that are Neogene in age ($<$30 Ma) and make an equal area  plot of all these results,  Calculate the  average direction, confidence ellipses.   Be sure to only work on single polarity groups. 
-How does the average direction compare with the prediction made in Problem 1a?  Explain any differences.  
-
-d) Calculate the VGPs and an average paleopole for these data.  
-
+c) Fish out the data that are tilt corrected and make an equal area  plot of all the  directions.   Use the usual functions {\bf ipmag.plot\_net( ), ipmag.plot\_di( )}.   Plot these in 5 million year  color coded age groups.   
+Put the expected direction on (both normal and reverse) as black stars.   What do you think is going on?  
 
 
 {\bf Problem 2}
 
 Look back at the Problems for Chapter 15, and use the same data set.  
  What tectonic plate is Site 522 on?  Using the age range inferred from your magnetostratigraphic interpretation and knowing the plate and the present day location,  find the appropriate paleopoles for the top (Oligo/Miocene boundary) and bottom (Eocene/Oligocene boundary) of the dataset from those of  Besse and Courtillot (2002).   \nocite{besse02}
-Best and Courtillot (2002) is what is implemented in  the program {\bf apwp.py}  to calculate the  the expected inclinations for the top and bottom  10 meters of the record, respectively.  How do these inclinations compare with the ones in Site 522?  
+Besse and Courtillot (2002) is what is implemented in  the function {\bf pmag.apwp( )}  to calculate the  the expected inclinations for the top and bottom  10 meters of the record, respectively.  How do these inclinations compare with the ones in Site 522?  
 
 
 {\bf Problem 3}
 
 
-a) Find the appropriate pole of rotation from North America to South African coordinates for 90 Ma (use the right sign for the rotation angle!)  from Appendix~\ref{app:polerot} .
+a) Find the appropriate pole of rotation from North America to South African coordinates for 90 Ma (use the right sign for the rotation angle!)  from  %Appendix~\ref{app:polerot} .
+the Appendix A.3.5 on `Tricks with tensors'.   Or you can use the {\bf frp.get\_pole( )} function in the {\bf pmagpy.frp} module.  
 
-b) Write a program that will transform the North American pole to South African coordinates using the method outlined in the Appendix~\ref{app:polerot}.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How does your answer compare? 
+
+
+b) Use the function {\bf pmag.PTrot( )} to  transform the North American pole to South African coordinates using the method outlined in the Appendix.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How do your answers compare? 
+
+
 
 {\bf Problem 4}
 
-Find the  data set {\it prob4.dat}  in the Chapter\_16 directory of the Datafiles folder (see Problems for Chapter 5 for instructions in downloading it).  It  
-was collected from a study in Spain at a latitude of  41.5$^{\circ}$ and a longitude of  358.5$^{\circ}$ from Miocene aged red bed sediments.  Look up the European pole   for  15 Ma using {\bf apwp.py}.  What is the expected direction at the location for that age?  Make an equal area projection of the data using {\bf eqarea.py}.  What is the average normal and average reverse direction using {\bf eqarea\_ell.py}.  Are these antipodal using, for example {\bf revtest.py}?    
+a) Go to the MagIC search interface at: \url{http://earthref.org/MagIC/search}.   Filter for data between 38 and 68 North latitude, -10 to 34 East longitude and 85 and 110 Ma that have the MagIC method code DE-DI . According to  the MagIC website
+\href {https://www2.earthref.org/MagIC/method-codes}{https://www2.earthref.org/MagIC/method-codes}, 
+  has a pole latitude and longitude calculation from mean declination-inclination.  Download the results as Location Rows when prompted and choose a MagIC Text File.  Unpack the downloaded file in new Project Directory (e.g., Chapter\_16/Problem\_4} using {\bf ipmag.download\_magic} (see Problem 1).  
+Read the {\it locations.txt} file  into a Pandas DataFrame (e.g., {\it df}) and take a look at the method codes using the syntax:
 
-Use the program {\bf tk03.py} to generate a set of directions expected from the statistical field model at that location.  Plot those directions in equal area projection and compare them with the observed directions.  (On a Unix type computer, a handy way to do this would be to pipe the output of {\bf tk03.py} to {\bf eqarea.py}, otherwise save the output of {\bf tk03.py} in a file, then plot it with {\bf eqarea.py}.       
+{\bf df.method\_codes.unique( )}. 
 
-Calculate Bingham ellipses for both data sets using {\bf gobing.py}.   What is different about the two data sets?    (You might have to blow up the error ellipses for a closer look because N is so large......)
+ You will notice that some have method codes of DE-DC2 (a DC code of 2, see Table~\ref{tab:DC}) or even DC1!  Filter for those with DC codes of 4 or 5 for the `best' poles and concatenate them into a new DataFrame.   
 
-Finally, use the  programs  {\bf find\_EI.py} to ``fix'' the data using the E/I method explained in the text.   In the cumulative distribution  plot you have the cumulative distribution of the bootstrap best-fit inclinations and the bounds (in dashed lines).  Is this result consistent with the Besse and Courtillot prediction for this location and age (assume ages of 10 and 20 Ma to get bounds)?   
+b) Some of the data come studies that have been superseded by later studies or the authors thought were `remagnetized' or have been combined into other studies.  You can see this looking at the `description' column in the DataFrame.  Exclude these studies by filtering on this column using the strings  `emagnetiz', `econdary', 'uperseded',`synfolding', `Data incl. in RESULT', `verprint'.   Also, there seem to be a lot of duplicate poles in our filter list.  You can get rid of duplicates using the {\bf df.drop\_duplicates} method of {\bf Pandas}.  
 
 
-{\bf Problem 5}
 
-a) Go to the MagIC search interface at: \url{http://earthref.org/MagIC/search}.   click on the Search button and select the following:  Location Contenent or ocean Island Region equals Europe,  Any Age (in Years BP) is between 85,000,000 and 110,000,000,  Any External Database Name equals GPMDB, and Any Method Code contains LP-DC4.  Your web interface should look something like this:
-
- \centering \includegraphics[width=16cm]{EPSfiles/gpmdb_search.eps}
+c) Put the pole latitudes and longitudes into form that you can use with  {\bf pmag.PTrot( )}  to rotate these to North American coordinates for 100 Ma.  Get the poles of rotation from the {\bf frp.get\_pole( )} function (or in Appendix A.3.5).  
+%Appendix~\ref{app:polerot}.
+ You need to   first rotate Europe to fixed African coordinates, then African to North American coordinates (you will have to change the 
+ sign of $\Omega$ for the latter).  
  
- Click on the `Apply 4 filters' button and you will return to the main search interface.  After some time, all the records will be available to you.  Click on the `Locations' tab and then the 'Paleomagnetics' tab.  Then click on the `Save As' button to download your search.  Repeat using a method code of LP-DC5.  
+   Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the function  {\bf pmag.apwp( )}.   
  
- You now have records from the GPMDB (global paleomagnetic data base) database.  The LP-DC4 and LP-DC5 method codes indicate that all the specimens were demagnetized in step wise fashion.    
- 
- b) Make a new Project Directory  with two subdirectories (one for each method code) and unpack the two downloaded files (see Problem 1).   Read them into a Pandas DataFrame.  You will notice that our search cast a wide net and there are many results outside the desired age bounds.  You will have to get rid of the ones outside the bounds.  Also, there are a number of suspicious looking 'result\_description' fields including words like 'Superseded', 'Overprint', 'Remagnetized', 'Included in RESULTNOS', etc.  Get rid of these too.  
-
-
-
-c) Put the pole latitudes and longitudes into a file and use the program {\bf pt\_rot.py} to rotate these to North American coordinates for 100 Ma.  Look up the poles of rotation in Appendix~\ref{app:polerot} for first rotating Europe to fixed African coordinates, then African to North American coordinates (you will have to change the 
- sign of $\Omega$ for the latter).     Save your rotated poles in a file using the '-F' option (creates a MagIC formatted pmag\_results file)  and plot these using the program {\bf vgpmap\_magic.py}.    Or, if you are using IPython notebooks (recommended), you can use the ipmag.plot\_vgp function as in Chapter 14.    Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the program {\bf apwp.py}.   
- 
- d) Make a plot of the continental configurations at 100 Ma using the program {\bf cont\_rot.py}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
-
+  d) Make a plot of the continental configurations at 100 Ma using the function  {\bf continents.get\_continent} in the {\bf pmagpy.continents} module along with the {\bf pmagplotlib.plotMAP( )} function.  You will of course also need {\bf frp.get\_pole( )} and {\bf pmag.pmag.PTrot( )}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
 
 
  
  
- }
+% }

@@ -1,0 +1,3 @@
+tab 	rmag_anisotropy
+er_citation_names	anisotropy_sigma	magic_experiment_names	anisotropy_s6	anisotropy_type	er_site_name	er_sample_name	er_location_name	anisotropy_s5	anisotropy_s4	anisotropy_s3	anisotropy_s2	anisotropy_s1	er_specimen_name	anisotropy_unit	magic_method_codes
+This study	.00008618	.33412680:AMS	.00135722	AMS	unknown	unknown	Unknown	.00124845	-.00015293	.33304584	.33282739	.33412680	unknown	SI	LP-X

@@ -1,0 +1,22 @@
+Thee data in alldat are the time series represented by PSVMOD1.0
+and discussed in detail in Lund & Constable 1999. The time series come
+from 24 globally distributed sites, and are modelled declination and
+or inclination at 100 year intervals.
+
+Sample format of the file alldat is suitbale for input into Occam
+inversion code maintained at SIO and is as follows:
+
+1 35 -110 57.700 0 0 2.5 -1.0000 0 0 2.5 1600.0
+
+Column 1: No of measurements - always 1 here
+column 2: Site latitude - degrees
+column 3: site longitude - degrees
+column 4: inclination 
+column 5: dummy
+column 6: dummy
+column 7: estimated uncertainty in inclination (1 s.d.)
+column 8: declination
+column 9: dummy
+column 10: dummy
+column 11: estimated uncertainty in declination (1 s.d.)
+column 12: age of record - positive is years AD, negative BC.

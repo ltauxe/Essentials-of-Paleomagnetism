@@ -1,4 +1,4 @@
-%\customlink{Getting_a_paleomagnetic_direction}
+\customlink{Getting_a_paleomagnetic_direction}
 \chapter{ Getting a paleomagnetic direction}
 
 Rocks become magnetized in a variety
@@ -758,47 +758,42 @@ upper bound on the age of remanence in the host rock.
 
 \vskip -6pt
 
+
 \section{Problems}
-{\parindent 0pt  \parskip 6pt
 
-Before you start, make sure you have the most recent distribution of the {\bf PmagPy} software (see \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website}) and see instructions in Problem 2 in Chapter 5 for help in accessing the data files.  Find the data files for these problems in the Essentials\_Examples/Chapter\_9 directory.    
+{\parindent 0pt \parskip 12pt 
+\vskip -12pt
+Before you start, make sure you have the most recent distribution of the {\bf PmagPy} software (see \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website}) and see instructions in the Preface for help in accessing the data files.  Find the data files for these problems in the Chapter\_9 directory.    
 
-
-  
 {\bf Problem 1 }
 
 The remanence vectors in the Chapter\_9 directory saved in {\it zijd\_example.csv} were measured during the 
 thermal demagnetization of a specimen.  The first column is the specimen name. The second is the temperature to which the specimen was heated, before cooling in zero field.  The next columns are intensity, declination and inclination respectively for each   treatment step.  
 
-a) Write a python program in a Jupyter notebook to make a Zijderveld diagram using python.  
+a) Write a python program in a Jupyter notebook to make a Zijderveld diagram.  
  
 Follow these steps:  1) Read in the data.  2) Convert the vectors to $x, y, z$.  3) Plot $x$ versus $-y$ using some solid symbol and then connect those dots with a line.  This is the horizontal projection  of the vector so $x$ should be on the horizontal axis and $-y$ should be up. (Think about this!   You are plotting a map view and Y is the East direction.  So $+y$ should be to the right of $x$.)   4) Now plot $ x $ versus $-z$.  Here again the projection is unusual because $+z$ is the down direction. Therefore it should be down.  [It is  $-z$ that is up!]    Use a different (open) symbol for these points and plot them on the same plot as your $x,y$ data.   
 
-b) The same data were saved without headers in a file named  {\it zijd\_example.dat}.  Plot them using the program {\bf zeq.py}. [Hint:  check the help message by typing {\bf zeq.py -h} on the command line to figure out how...].  This can be done either from the command line or from within a jupyter notebook (remember that to run a command line program, you use the syntax):
-\begin {verbatim}
-!zeq.py -h
-\end{verbatim}
-
-Compare your answer from Problem 1a  with that produced by the PmagPy program {\bf zeq.py}.  Re-write your program until it is right; you can cheat by looking in zeq.py and the two function modules {\bf pmag.py} and {\bf pmagplotlib.py}  (see the \href{https://earthref.org/PmagPy/#zeq.py}{PmagPy Cookbook documentation}   if you have to, but make your program ``your own''.   Set the -sav and -png flags to save your figures and display them in your notebook using the Image function from IPython.display as you did in Chapter 5.  
+b) The same data were saved without headers in a file named  {\it zijd\_example.dat}.  Plot them using the program {\bf ipmag.zeq}. [Hint:  check the help message by typing {\bf help(ipmag.zeq)}  to figure out how...].  Compare your answer from Problem 1a  with that produced by the PmagPy program {\bf ipmag.zeq}.  Re-write your program until it is right; you can cheat by looking in {\bf ipmag.zeq} and in the two function modules {\bf pmag.py} and {\bf pmagplotlib.py}  if you have to, but make your program ``your own''.   
 
 
-
-c)     Assuming these data have already been converted to geographic coordinates $(x=N,y=E,z=V)$, what is the approximate direction (e.g. NE and up) of the low stability component
+c)     Assuming these data have already been converted to geographic coordinates $(x=N, y=E, z=V)$, what is the approximate direction (e.g. NE and up) of the low stability component
 of magnetization? The high stability component of magnetization? What is
 the most likely remanence carrying mineral in this specimen?   Thinking about what you learned about VRM in Chapter 7, for the low stability component to be a VRM acquired over the last million years,  at what temperature would the rock have to have been held to acquire this component viscously over a million years?  
 
 
-c) Run  {\bf zeq.py} again, this time setting the -beg and -end flags to calculate best-fit lines through the two components and a great circle through all the data except the NRM and last steps.  Display these new images in your notebook.  In a markdown code block explain which interpretation makes the most sense?  
-
+c) Run  {\bf ipmag.zeq} again, this time setting the -begin\_pca and -end\_pca flags to calculate best-fit lines through the two components and a great circle through all the data except the NRM and last steps.  Look at these new images in your notebook.  In a markdown code block explain which interpretation makes the most sense?  
 
 
 {\bf Problem 2 }
 
-a) Use the program {\bf sundec.py}  from the command line to estimate what the drilling azimuth was using the following sun compass information:   You are located at 35$^{\circ}$ N and 33$^{\circ}$ E.  The local
+ Use the program {\bf pmag.dosundec}  from within a notebook   to estimate what the drilling azimuth was using the following sun compass information:   You are located at 35$^{\circ}$ N and 33$^{\circ}$ E.  The local
 time is three hours ahead of Universal Time, so we subtract -3 from local time.  The shadow angle for the
 drilling direction was 68$^{\circ}$ measured at 16:09 on May 23, 1994.
 
-b) Now use the dosundec() function from the pmagpy.pmag  module to do the same thing.  
+\begin{verbatim}
+import pmagpy.pmag as pmag
+\end{verbatim}
 
 {\bf Problem 3}
 % problem 4.2 from Butler 1992:
@@ -809,13 +804,10 @@ attitude of dipping strata from which the site was collected:
 D = 336$^{\circ}$, I = -2$^{\circ}$, bedding dip = 41$^{\circ}$, dip direction = 351 $^{\circ}$.  
 
 Plot the NRM direction on an equal-area
-projection (see Appendix~\ref{app:eqarea}).   Then using the procedures outlined in Appendix~\ref{app:eqtilt} (or slight modifications thereof), determine
+projection (see Appendix B.1).   Then using the procedures outlined in Appendix B1.3 (or slight modifications thereof), to determine
 the ``structurally corrected'' direction of NRM that results from restoring the strata to horizontal.
 
-Check your answer with the program {\bf di\_tilt.py}
-
-b) Now try the same problem using the pmagpy.pmag function dotilt() in a Jupyter notebook.   
-
+b) Check your answer with the function {\bf pmag.dotilt}. 
 
 
 {\bf Problem 4}
@@ -827,7 +819,7 @@ I = 33$^{\circ}$, D = 309$^{\circ}$. The bedding attitude of the collection site
 anticlinal axis are trend = 170$^{\circ}$, plunge = 20$^{\circ}$. Determine the direction of NRM from this site following
 structural correction. To do this, first correct the NRM direction (and the pole to bedding) for the
 plunge of the anticline. Rotate the fold axis to horizontal first. Then complete the structural correction of the NRM direction by restoring
-the bedding (corrected for plunge) to horizontal.   Use the function {\bf pmag.dotilt() } in the {\bf PmagPy} package to do your rotations in an Jupyter notebook.    
+the bedding (corrected for plunge) to horizontal.   Use the function {\bf pmag.dotilt() }  to do your rotations in an Jupyter notebook.    
 
 
 
@@ -841,7 +833,7 @@ $D=8.1, I=45.2$  into geographic and tilt adjusted coordinates. Use the geograph
 orientation of the laboratory arrow on the specimen was: azimuth = 347$^{\circ}$;
 plunge = 27$^{\circ}$.  The  strike was 135$^{\circ}$ and the dip was 21$^{\circ}$.
 (NB: the convention is that the dip direction is to the ``right'' of 
-the strike).   For this it would be handy to use the {\bf numpy} module which allows arrays, instead of simple lists.  To make an array $A$ of elements $ a_{ij}$:
+the strike).   For this it would be handy to use the {\bf NumPy} module which allows arrays, instead of simple lists.  To make an array $A$ of elements $ a_{ij}$:
 
 $$
 {\pmatrix{
@@ -861,7 +853,7 @@ A=np.array([[a11,a12,a13],[a21,a22,a23],[a31,a32,a33]])
 
 The import command can be put at the beginning of the program as always.    Use your programs to convert direction to cartesian coordinates and back again.  
 
-Compare your answer to the one given by {\bf di\_geo.py} and {\bf di\_tilt.py} that are callable from the command line in an interactive mode.    Rewrite your code until you have it right.    NB: {\bf  di\_tilt.py}  uses dip and dip direction instead of strike and dip.  These are completely interchangeable, but dip and dip direction is unique, while strike and dip requires some convention like ``dip to right of strike'').   
+Compare your answer to the one given by {\bf pmag.dogeo} and {\bf pmag.dotilt} that are callable from within your notebook.  Rewrite your code until you have it right.    NB: {\bf  pmag.dotilt.py}  uses dip and dip direction instead of strike and dip.  These are completely interchangeable, but dip and dip direction is unique, while strike and dip requires some convention like ``dip to right of strike'' and can make for confusion if you are used to a different convention).   
 
 
 \begin{figure}[h!tb]
@@ -882,7 +874,7 @@ In this problem we will look at some real data collected from this lava flow.
 a) Make a  new directory in your homework directory for this problem.   Do not include spaces in the directory name!
 Run the {\bf Pmag GUI} graphical user interface by typing {\bf pmag\_gui.py} on the command line.  [Note that PC users may have to omit the .py termination.]  This problem does not use the Jupyter notebook!
 
-Change directories into your new homework directory.  
+Change directories into your new homework directory and fire up {\bf pmag\_gui.py}. Choose data\_model 3  
 
 b) Convert your data files to the MagIC format.   The measurements were made in the SIO paleomagnetic laboratory in the SIO lab format.  Specimens were demagnetized using the AF and thermal methods and the data are in the Chapter\_9 directory, named ns\_a.mag and ns\_t.mag respectively.  
 
@@ -910,10 +902,10 @@ d) Look at the demagnetization data.
 
 \begin{itemize}
 \item Click on the 	`Demag GUI' button.  You should have a panel of plots including a  Zijderveld plot, an equal area projection with all the demagnetization directions, a intensity decay curve, and a blank site level equal area projection.    
-\item You will see a list of data to the left.   You can toggle the orientation from geographic to specimen or stratigraphic (tilt corrected) by choosing the coordinate system.   You can also change the declination for the horizontal axis of the Zijderveld diagram with the Zijderveld plot pull down menu.  The default is to rotate it to the NRM direction.    
-\item  Calculate the best fit direction for this specimen by selecting data from the second demagnetization step to the end in the `bounds' drop down menus at the top left of the panel.   Choose the default to calculate a best-fit line by simply leaving the `specimen man type set to `line'.    You will see the data re-plotted with the best-fit line.   Save the interpretation by clicking on the `save' button.  
-\item Step through all the data until you have interpreted all the specimens.   Notice how each interpretation shows up in the site window.  
-\item  Under the 'File' menu, select `Save MagIC pmag tables'.  Use the default age of 1100 Ma for these rocks.  Then click on `OK'. 
+\item You will see a list of data to the left.   You can toggle the orientation from geographic to specimen or stratigraphic (tilt corrected) by choosing the coordinate system.   You can also change the declination for the horizontal axis of the Zijderveld diagram with the Zijderveld plot pull down menu.  The default is to use the X=East direction.    
+\item  Calculate the best fit direction for this specimen by first clicking on the `add fit' interpretation option and selecting data from the second demagnetization step to the end in the `bounds' drop down menus at the top left of the panel.   Choose the default to calculate a best-fit line by simply leaving the Interpretation Type set to  `line'.    You will see the data re-plotted with the best-fit line.   Save the interpretation by clicking on the `save' button.  
+\item Step through all the data until you have interpreted all the specimens.   If you set `Mean Options' to Fit 1,  how each interpretation shows up in the site window.  
+\item  Under the `File' menu, select `Save MagIC  tables'.  Use the default age of 1100 Ma for these rocks.  Calculate the site mean by averaging all the specimens with Fisher statistics.   Then click on `OK'. 
 \item Exit the program by  selecting the `Quit Demag-gui' option under the 'File' menu.  
 \end{itemize}
 
@@ -924,7 +916,7 @@ e) Explore the MagIC database tables that you have created.
 \item  Look at  the chapter on the MagIC database and file formats in the \href{http://earthref.org/PmagPy/}{PmagPy cookbook}.  
 \item Click on the Pmag GUI's button `3. fill Earth-Ref data' and verify the relationship of the specimens to the samples.  Click on `Save and continue'.  
 \item Repeat this for Step 2. 
-\item For Step 3, you must insure that site `s034' belongs to `North Shore Volcanics', which you must add with the `Add a new location' button.  Then click on the cell below locations and select that.    
+\item For Step 3, you must insure that site `ns034' belongs to `North Shore Volcanics', which you must add with the `Add a new location' button.  Then click on the cell below locations and select that.    
 \item These were extrusive igneous rocks, so select those options for the site\_class column.
 \item find `Basalt' under the site\_lithology column and `Lava Flow' for site\_type.  
 \item Then click on `Save and continue.  
@@ -935,7 +927,6 @@ e) Explore the MagIC database tables that you have created.
 \end{itemize}
 
 You can explore your handiwork by looking at the files created in your homework directory with Excel or some other spreadsheet program.   
-
 
 
 

@@ -134,12 +134,6 @@ Borradaile, G.~J. (2003).
   Space, and Orientation}.
 \newblock Berlin: Springer.
 
-\bibitem[Bowles et~al., 2006]{bowles06}
-Bowles, J., Gee, J., Kent, D.~V., Perfit, M., Soule, A., \& Fornari, D. (2006).
-\newblock Paleointensity applications to timing and extent of eruptive
-  activity, 9$^{\circ}$-10$^{\circ}$N East Pacific rise.
-\newblock {\em Geochem., Geophys., Geosyst.}, in press.
-
 \bibitem[Brunhes, 1906]{brunhes06}
 Brunhes, B. (1906).
 \newblock Recherches sur le direction d'aimantation des roches volcaniques.
@@ -343,11 +337,11 @@ Creer, K.~M. (1983).
 \newblock Computer synthesis of geomagnetic paleosecular variations.
 \newblock {\em Nature}, 304, 695--699.
 
-\bibitem[Cromwell et~al., 2015]{cromwell15}
-Cromwell, G., Tauxe, L., Staudigel, H., \& Ron, H. (2015).
-\newblock Paleointensity estimates from historic and modern Hawaiian lava flows
-  using basaltic volcanic glass as a primary source material.
-\newblock {\em Phys. Earth Planet. Int.}, 241, 44--56.
+\bibitem[Cromwell et~al., 2018]{cromwell18}
+Cromwell, G., Johnson, C., Tauxe, L., Constable, C., \& Jarboe, N. (2018).
+\newblock PSV10: a global data set of 0-10 Ma time-averaged field and
+  paleosecular variation studies.
+\newblock {\em Geochem., Geophys., Geosyst.}
 
 \bibitem[Cronin et~al., 2001]{cronin01}
 Cronin, M., Tauxe, L., Constable, C., Selkin, P., \& Pick, T. (2001).
@@ -426,12 +420,6 @@ Doell, R. \& Dalrymple, G. (1966).
 \newblock Geomagnetic polarity epochs: A new polarity event and the age of the
   Brunhes-Matuyama boundary.
 \newblock {\em Science}, 152, 1060--1061.
-
-\bibitem[Donadini et~al., 2007]{donadini07}
-Donadini, F., Kovacheva, M., Kostadinova, M., Ll., C., \& Pesonen, L. (2007).
-\newblock New archaeointensity results from Scandinavia and Bulgaria: Rock
-  magnetic studies inference and geophysical application.
-\newblock {\em Phys. Earth and Planet. Inter.}, 165, 229--247.
 
 \bibitem[Dunlop, 002b]{dunlop02b}
 Dunlop, D. (2002b).
@@ -1140,12 +1128,6 @@ LeGoff, M., Henry, B., \& Daly, L. (1992).
 \newblock Practical method for drawing a VGP path.
 \newblock {\em Phys. Earth Planet. Inter.}, 70, 201--204.
 
-\bibitem[Leonhardt et~al., 2004]{leonhardt04}
-Leonhardt, R., Heunemann, C., \& Kra\'asa, D. (2004).
-\newblock Analyzing absolute paleointensity determinations: Acceptance criteria
-  and the software ThellierTool4.0.
-\newblock {\em Geochem. Geophys. Geosys.}, 5, Q12016, doi:10.1029/2004GC000807.
-
 \bibitem[Levi \& Banerjee, 1976]{levi76}
 Levi, S. \& Banerjee, S.~K. (1976).
 \newblock On the possibility of obtaining relative paleointensities from lake
@@ -1347,13 +1329,6 @@ Muttoni, G., Kent, D.~V., Garzanti, E., Brack, P., Abrahamsen, N., \& Gaetani,
 \newblock Early Permian Pangea 'B' to Late permian Pangea 'A'.
 \newblock {\em Earth Planet. Sci. Lett.}, 215, 379--394.
 
-\bibitem[Muxworthy et~al., 2011]{muxworthy11}
-Muxworthy, A.~R., Heslop, D., \& Paterson, G.and~Michalk, D. (2011).
-\newblock A Preisach method for estimating absolute paleofield intensity under
-  the constraint of using only isothermal measurements: 2) Experimental
-  testing.
-\newblock {\em J. Geophys. Res.}, 116, B04103, doi:10.1029/2010JB007844.
-
 \bibitem[Nagata, 1961]{nagata61}
 Nagata, T. (1961).
 \newblock {\em Rock Magnetism}.
@@ -1448,11 +1423,6 @@ Paquereau-Lebti, P., Fornari, M., Roperch, P., Thouret, J.~C., \& Macedo, O.
 \newblock Paleomagnetism, magnetic fabric, and Ar-40/Ar-39 dating of Pliocene
   and Quaternary ignimbrites in the Arequipa area, southern Peru.
 \newblock {\em Bull. Volcanol.}, 70(8), 977--997.
-
-\bibitem[Paterson et~al., 2014]{paterson14}
-Paterson, G., Tauxe, L., Biggin, A., Shaar, R., \& Jonestrask, L. (2014).
-\newblock On improving the selection of Thellier-type paleointensity data.
-\newblock {\em Geochem. Geophys. Geosys.}, 15, 1--13.
 
 \bibitem[Pauthenet \& Bochinrol, 1951]{pauthenet51}
 Pauthenet, R. \& Bochinrol, L. (1951).
@@ -1664,19 +1634,6 @@ Selkin, P. \& Tauxe, L. (2000).
 \newblock Long-term variations in paleointensity.
 \newblock {\em Phil. Trans. Roy. Soc. Lond.}, 358, 1065--1088.
 
-\bibitem[Shaar et~al., 011b]{shaar11b}
-Shaar, R., Ron, H., Tauxe, L., Kessel, R., \& Agnon, A. (2011b).
-\newblock Paleomagnetic field intensity derived from non-SD: Testing the
-  Thellier IZZI technique on MD slag and a new bootstrap procedure.
-\newblock {\em Earth and Planetary Science Letters}, 310(213-224).
-
-\bibitem[Shaar et~al., 2010]{shaar10}
-Shaar, R., Ron, H., Tauxe, L., Kessel, R., Agnon, A., Ben~Yosef, E., \&
-  Feinberg, J. (2010).
-\newblock Testing the accuracy of absolute intensity estimates of the ancient
-  geomagnetic field using copper slag material.
-\newblock {\em Earth and Planetary Science Letters}, 290, 201--213.
-
 \bibitem[Shackleton et~al., 1990]{shackleton90}
 Shackleton, N.~J., Berger, A., \& Peltier, W.~R. (1990).
 \newblock An alternative astronomical calibration of the lower Pleistocene
@@ -1837,12 +1794,6 @@ Tanaka, H. (1999).
   latitude volcanic sites.
 \newblock {\em Earth Planets Space}, 51, 1279--1286.
 
-\bibitem[Tanaka et~al., 2012]{tanaka12}
-Tanaka, H., Hashimoto, Y., \& Morita, N. (2012).
-\newblock Palaeointensity determinations from historical and Holocene basalt
-  lavas in Iceland.
-\newblock {\em Geophys. J. Int.}, 189, 833--845.
-
 \bibitem[Tarduno et~al., 2006]{tarduno06}
 Tarduno, J., Cottrell, R., \& Smirnov, A. (2006).
 \newblock The paleomagnetism of single silicate crystals: recording geomagnetic
@@ -1987,6 +1938,19 @@ Taylor, J. (1982).
 \newblock {\em An Introduction to Error Analysis: The Study of Uncertainties in
   Physical Measurements}.
 \newblock Mill Valley, CA: University Science Books.
+
+\bibitem[Th\'ebault et~al., 2015]{thebault15}
+Th\'ebault, E., Finlay, C., Beggan, C., Alken, P., Aubert, J., Barrois, O.,
+  Bertrand, H., Bondar, T., Boness, A., Bocco, L., Canet, E., Chambodut, A.,
+  Chulliat, A., Coisson, P., Civet, F., Du, A., Fournier, A., Fratter, I.,
+  Gillet, N., Hamilton, B., Hamoudi, M., Hulot, G., Jage, T., Korte, M., Kuang,
+  W., Lalanne, X., Langlais, B., L\'eger, J.-M., Lesur, V., Lowes, F.,
+  Macmillan, S., Mandea, M., Manoj, C., Maus, S., Olsen, N., Petrov, V.,
+  Ridley, V., Rother, M., Sabaka, T., saturnino, D., Schachtschneider, R.,
+  Sirol, O., Tangborn, A., Thomson, A., Toffner-Clausen, L., Vigneron, P.,
+  Wardinski, I., \& Zvereva, T. (2015).
+\newblock International Geomagnetic Reference Field, the 12th generation.
+\newblock {\em Earth Planets Space}, 67, 79.
 
 \bibitem[Thellier \& Thellier, 1959]{thellier59}
 Thellier, E. \& Thellier, O. (1959).
@@ -2201,13 +2165,6 @@ Worm, H.~U., Clark, D., \& Dekkers, M.~J. (1993).
 \newblock Magnetic susceptibility of pyrrhotite: grain size, field and
   frequency dependence.
 \newblock {\em Geophys. J. Int.}, 114, 127--137.
-
-\bibitem[Yamamoto \& Hoshi, 2008]{yamamoto08}
-Yamamoto, Y. \& Hoshi, H. (2008).
-\newblock Paleomagnetic and rock magnetic studies of the Sakurajima 1914 and
-  1946 andesitic lavas from Japan: A comparison of the LTD-DHT Shaw and
-  Thellier paleointensity methods.
-\newblock {\em Phys. Earth and Planet. Inter.}, 167, 118--143.
 
 \bibitem[Yamamoto et~al., 2003]{yamamoto03}
 Yamamoto, Y., Tsunakawa, H., \& Shibuya, H. (2003).

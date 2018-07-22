@@ -1,4 +1,4 @@
-%\customlink{Induced_and_remanent_magnetism}
+\customlink{Induced_and_remanent_magnetism}
 
 
 
@@ -635,19 +635,21 @@ Dunlop and \"Ozdemir (1997), Chapter 2.1 to 2.7.
 \section{Problems }
 
 
+
 {\bf Problem 1}
 
-a) Given one Bohr magneton ($m_b$) in the Earth's field (40 $\mu$T), write a program using python that calcuates magnetostatic interaction energy (-$m_bB\cos \theta$) for angles 0$\rightarrow$ 180$^{\circ}$.   Make a plot of this with the {\bf matplotlib} module in Python (see online \href{http://earthref.org/PmagPy/cookbook/#matplotlib}{PmagPy} documentation).  
+a) Given one Bohr magneton ($m_b$) in the Earth's field (40 $\mu$T), write a program using Python that calcuates magnetostatic interaction energy (-$m_bB\cos \theta$) for angles 0$\rightarrow$ 180$^{\circ}$.   Make a plot of this with the {\bf matplotlib} module in Python.  
 
 b) Calculate the thermal energy at room temperature (300K).     How does this compare with the interaction energy? 
 
 {\bf Problem 2}
 
+
 Fayalite (Fe$_2$SiO$_4$) is a paramagnetic solid with magnetic susceptibility $\chi$ = 4.4 x 10$^{-4}$ (cgs units) at 0$^{\circ}$C (= 273K).  
 A single crystal of fayalite has a volume of 2 cm$^{3}$.  This crystal is placed in a magnetic field, $H=10$ oe at 0$^{\circ}$C.  What is the resulting induced magnetic  moment $m$ of this crystal?  
 
 
-a)  Do this problem first in cgs units.  Then convert your answer to SI using the conversion factors in Table~\ref{tab:units} in Chapter 1.
+a)  Do this problem first in cgs units.  Then convert your answer to SI using the conversion factors in Table \ref{tab:units}  in Chapter 1. 
 
 b)  Do the problem again  by first converting all the parameters into SI units.  Check your answer by converting the SI answer that you get back to cgs.  You should get the same answer (but you would be surprised how many people do this wrong).   
 
@@ -663,9 +665,10 @@ If fayalite is placed in a magnetic field $H$= 100 oe at a temperature of 500$^{
 
 {\bf Problem 5 } 
 
-Try the examples for \href{http://earthref.org/PmagPy/cookbook/#curie.py}{\bf curie.py } in the {\bf PmagPy} software package.  What is the Curie temperature of the material?
-
-}
+a) Read into a Pandas DataFrame  the datafile {\it Chapter\_3/BMoskinBan91.txt} provided.   Make a plot of magnetization versus temperature.  
+  What is the Curie temperature of the material?
+  
+ b) Using this Equation~\ref{eq:MsT} from the chapter, find the value for $\gamma$ between 0.35 and 0.43 at intervals of 0.01 that fits the best.    Plot the data as in Figure~\ref{fig:curie} in the chapter, i.e. $M_s(T)/Ms(T_o)$ against $T/T_c$.  
 
 
 

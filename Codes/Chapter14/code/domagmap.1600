@@ -1,0 +1,9 @@
+file GUFM.1600
+radius 0.547
+normalize S
+project A
+coast
+plot color
+field R
+execute
+quit

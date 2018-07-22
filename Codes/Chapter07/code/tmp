@@ -1,0 +1,85 @@
+    def __call__(self, arg):
+    "Simulate a ufunc; handle being called on an array."
+    if type(arg) == func.ArrayType:
+        return func.array_map(self.call, arg)
+    else:
+        return self.call(arg)
+
+    def call(self, x):
+    "Evaluate the spline, assuming x is a scalar."
+
+    # if out of range, return endpoint
+    if x <= self.x_vals[0]:
+        return self.y_vals[0]
+    if x >= self.x_vals[-1]:
+        return self.y_vals[-1]
+
+    pos = numpy.searchsorted(self.x_vals, x)
+      
+    h = self.x_vals[pos]-self.x_vals[pos-1]
+    if h == 0.0:
+        raise BadInput
+      
+    a = (self.x_vals[pos] - x) / h
+    b = (x - self.x_vals[pos-1]) / h
+    return (a*self.y_vals[pos-1] + b*self.y_vals[pos] + \
+        ((a*a*a - a)*self.y2_vals[pos-1] + \
+         (b*b*b - b)*self.y2_vals[pos]) * h*h/6.0)
+
+
+class LinInt(func.FuncOps):
+    def __init__(self, x_array, y_array):
+    self.x_vals = x_array
+    self.y_vals = y_array
+      
+    # compute approximation
+    def __call__(self, arg):
+    "Simulate a ufunc; handle being called on an array."
+    if type(arg) == func.ArrayType:
+        return func.array_map(self.call, arg)
+    else:
+        return self.call(arg)
+
+    def call(self, x):
+    "Evaluate the interpolant, assuming x is a scalar."
+
+    # if out of range, return endpoint
+    if x <= self.x_vals[0]:
+        return self.y_vals[0]
+    if x >= self.x_vals[-1]:
+        return self.y_vals[-1]
+
+    pos = numpy.searchsorted(self.x_vals, x)
+      
+    h = self.x_vals[pos]-self.x_vals[pos-1]
+    if h == 0.0:
+        raise BadInput
+      
+    a = (self.x_vals[pos] - x) / h
+    b = (x - self.x_vals[pos-1]) / h
+    return a*self.y_vals[pos-1] + b*self.y_vals[pos]
+
+def spline_interpolate(x1, y1, x2):
+    """
+    Given a function at a set of points (x1, y1), interpolate to
+    evaluate it at points x2.
+    """
+    sp = Spline(x1, y1)
+    return sp(x2)
+
+def logspline_interpolate(x1, y1, x2):
+    """
+    Given a function at a set of points (x1, y1), interpolate to
+    evaluate it at points x2.
+    """
+    sp = Spline(log(x1), log(y1))
+    return exp(sp(log(x2)))
+
+
+def linear_interpolate(x1, y1, x2):
+    """
+    Given a function at a set of points (x1, y1), interpolate to
+    evaluate it at points x2.
+    """
+    li = LinInt(x1, y1)
+    return li(x2)

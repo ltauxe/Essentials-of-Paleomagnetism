@@ -1,3 +1,4 @@
+\customlink{The_GPTS_and_magnetostratigraphy}
 \chapter{The GPTS and magnetostratigraphy}
 
 
@@ -569,27 +570,34 @@ Oreskes (2001); \nocite{oreskes01}
 
 {\bf Problem 1 }
 
-a) Go to the MagIC web site at: \url{http://earthref.org/doi/10.1111/j.1365-246X.1997.tb04082.x} to find the data for Tauxe and Hartl (1997) \nocite{tauxe97} who published paleomagnetic data from a deep sea sediment core.   The core was taken at DSDP Site 522 located at  26$^{\circ}$S/5$^{\circ}$W.  The nannofossils in the core suggest an Oligocene age.   Download the associated data  archive and place it in a new Project Directory.  Fire up {\bf QuickMagIC.py} in the {\bf PmagPy} distribution and unpack the   downloaded data file.   
+a) Go to the MagIC web site at: 
+
+\url{http://earthref.org/doi/10.1111/j.1365-246X.1997.tb04082.x}
+
+ to find the data for Tauxe and Hartl (1997) \nocite{tauxe97} who published paleomagnetic data from a deep sea sediment core.   The core was taken at DSDP Site 522 located at  26$^{\circ}$S/5$^{\circ}$W.  The nannofossils in the core suggest an Oligocene age.   Download the associated data  archive and place it in a new Project Directory (e.g., Chapter\_15/Problem\_1).  Use {\bf ipmag.download\_magic} to  unpack the   downloaded data file.   
 
 
-b) Use the program {\bf strip\_magic.py} to plot the data.  Run it once to see what fields are  available for plotting.  Then plot inclination versus stratigraphic position.  
+b) Read in the MagIC formatted {\it specimens.txt} and {\it sites.txt}  files into a Pandas DataFrame  (these are tab delimited with headers in the second row).   Find out what is available for plotting using a  command like {\bf df.columns}.  Then plot inclination versus stratigraphic position.  
+
+There are a few tricks you need to know:  1) MagIC's data model 3.0 puts the depth of the sites (= specimen here) in the sites table and the specimen directional information in the specimens table.  2) In order to preserve information, there are multiple lines for each specimen so you will have to choose which line to fish out (try eliminating two with the {\bf df.dropna( )} method on the analysts column) and  pair the specimen with the stratigraphic positional information   3) One would usually have to look up the specimen, sample, site relationship through the samples table, but here we are fortunate that the `site' name is the same as the specimen name.  To attach the position (from the sites table) to the inclination (in the specimen table)  you first make a new column `site' in the specimens DataFrame which is the same as the `specimen'  column.  Now you can use the pandas {\bf merge} function with the syntax df3=pd.merge(df1,df2,on='site'). 
+Now you can make your plot with {\bf matplotlib} plotting functions.    
+
  What is the GAD inclination at the site?    Are the data consistent with that expected value?   What might cause of any discrepancies you observe?    
 
-c) Plot VGP latitude versus age.  
- Find the age range for the Oligocene from the website: \url{http://stratigraphy.org}.  Run the program {\bf strip\_magic.py} again, this time using the -ts switch to select a timescale and an age range for the Oligocene. [Remember to use the -h option to find the correct syntax.]     Identify the Chron boundaries in the magnetostratigraphic section.   
+c) Plot inclination versus age.  
+ Find the age range for the Oligocene from the website: \url{http://stratigraphy.org}.  Use  the function  {\bf  pmag.plot\_ts}   to plot a timescale and an age range for the Oligocene. [Remember to use the help function {\bf help(pmag.plot\_ts)} to find the correct syntax]. Plot the inclinations  against age next to it.      Identify the Chron boundaries in the magnetostratigraphic section.   
 
-d) Plot the data again, this time using the -x age option to plot the data against the age assigned by the original authors.   They used one of the two time scales (ck95 or gts04).  Which did they use?  
+d) Plot the data again, this time using the `ck95' (Cande and Kent, 1995).  Which did the original authors use?  
 
 {\bf Problem 2}
 
-a) Write a program to plot Age versus Depth for the data in the {\it pmag\_results.txt} file unpacked  in Problem 1.  
+a) Write a program to plot Age versus Depth for the data in the {\it sites.txt} file unpacked  in Problem 1.  
 
 b) What is the average sedimentation rate?  How does it change? 
 
 c) The drill site (DSDP 522) was at the ridge crest  at the old end of the data set and moved away as the data get younger.  How would you explain the changing sedimentation rates through this data set? 
 
-d) At what paleolatitude was the drill site 25 Myr ago?  Which direction was it moving as the sediments were being laid down?  
-
+d) At what paleolatitude was the drill site 25 Myr ago?  [Hint:  Use the GAD hypothesis to get paleolatitude from average inclination, but do NOT calculate the average inclination as a gaussian mean!  Go read Chapter 11 again if you were tempted.]   Which direction was it moving as the sediments were being laid down?  
 
 }
 

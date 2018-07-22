@@ -1,3 +1,4 @@
+\customlink{Fisher_statistics}
 \chapter{Fisher statistics}
 
 BACKGROUND: 
@@ -1020,59 +1021,47 @@ those calculated using an exponential distribution.
 \section{Problems}
 
 {\parindent 0pt \parskip 12pt 
-
-Check the \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website} for examples on how to use the {\bf PmagPy} programs in this problem set.  
+\vskip -12pt
+Review the instructions in the Preface for using PmagPy modules in Jupyter notebooks.   
 
 {\bf Problem 1}
 
-a) Use the program {\bf fishrot.py} to generate a Fisher distributed data set of $N=20$ data points, drawn from a true mean direction of $D = 12^{\circ}, I = 45^{\circ}$ and a $\kappa$ of  25.   Save these to a file called {\it prob1a.dat}.    (Use {\bf eqarea.py} to admire your handiwork.)  Remember that some PCs installations do not use the .py termination.     Hint:  use the Unix file redirect feature:   
+a) Use the function  {\bf ipmag.fishrot} to generate a Fisher distributed data set of $N=20$ data points, drawn from a true mean direction of $D = 12^{\circ}$,  I = 45$^{\circ}$ and a $\kappa$ of  25.  Use {\bf ipmag.plot\_net} and {\bf ipmag.plot\_di} to admire your handiwork.
 
-\begin{verbatim}
-% fishrot.py -n 20 -D 12  -I 45 -k 25 > ps11_prob1a.dat 
-\end{verbatim}
+b) Write a program calculate the Fisher mean declination and inclination and these Fisher statistics:  $k, \alpha_{95}, R$ and CSD for the data generated in Problem 1a.      You can check your answer with the PmagPy program  {\bf ipmag.fisher\_mean} designed to work within Jupyter notebooks.  
 
-Note that you can also do this from within a notebook using the '!' option in a code block:
-
-\begin{verbatim}
-!fishrot.py -n 20 -D 12  -I 45 -k 25 > ps11_prob1a.dat 
-\end{verbatim} 
-
-As a challenge problem, you can use the function pmag.fshdev directly from the ipython notebook environment and plot it with the ipmag functions {\bf plot\_net} and  and {\bf plot\_di}.  
-
-b) Write a program to read in {\it ps11\_prob1a.dat}  from a) and calculate the average Declination and Inclination and these Fisher statistics:  $k, \alpha_{95}, R$ and CSD.      You can check your answer with the PmagPy program {\bf gofish.py}.  
-
-c) Now generate a second sample from the same distribution (just repeat the {\bf fishrot.py} command)  and put the second set of directions  in {\it prob1c.dat}.  These are two sets of directions drawn from the same distribution and certainly should share a common mean direction (logically).  But  do the two data sets  pass the simple Watson $F$ test for common mean direction?  [This test will fail 5\% of the time!]  Write a simple program to read in the two data files and calculate Watson's F.  Check your answer using the program {\bf watsons\_f.py}.  
+c) Generate a second sample from the same distribution (just repeat the {\bf ipmag.fishrot}  calls.  Now you have  two sets of directions drawn from the same distribution and certainly should share a common mean direction (logically).  But  do the two data sets  pass the simple Watson's $F$ test for common mean direction?  [This test should fail 5\% of the time!]   Write a simple program to read in the two data files and calculate Watson's F.  Check your answer using the function {\bf pmag.watsons\_f}.  
 
 
-d) Generate a third sample from a distribution with $D = 55^{\circ}, I = 60^{\circ}$ but the same $N$ and $\kappa$ and save it in {\it ps11\_prob1d.dat}.  Does this data set pass the $F$ test for common mean with the data in {\it prob1a.dat}?   
+d) Generate a third sample from a distribution with $D = 55^{\circ}, I = 60^{\circ}$ but the same $N$ and $\kappa$.  Does this data set pass the $F$ test for common mean with the first data set in Problem 1a?  
 
-e)  An alternative method for testing for common mean with less restrictive assumptions uses  Watson's statistic $V_w$.  Use the program {\bf watsons\_v.py} to  test {\it prob1a.dat} against {\it prob1c.dat} and {\it prob1d.dat}.  Do the answers  using $V_w$ agree with those using the $F$ test?     
+e)  An alternative method for testing for common mean with less restrictive assumptions uses  Watson's statistic $V\_w$.  Use the program {\bf ipmag.common\_mean\_watson} to  test the Problem 1a data set against the one generated in Problem 1d.   Do the answers  using $V\_w$ agree with those using the $F$ test?     
 
 
 
 {\bf Problem 2} 
 
-a)  Generate a set of directions, drawn from a Fisher distribution with a true mean inclination of 70$^{\circ}$.   Calculate the Gaussian average of the  inclination data.  You can write your own script or use the {\bf PmagPy} program {\bf stats.py} for this.  [HINT: investigate the marvels of the Unix command {\bf awk}.  If you use a PC and think you do not have this, re-read the installation instructions for the {\bf PmagPy} software package -- there is a set of useful Unix utilities for you.] 
+a)  Draw a set of directions from a Fisher distribution with a true mean inclination of 50$^{\circ}$ (using e.g., {\bf ipmag.fishrot}, an $N$ of 20 and a $\kappa$ of 20.   Calculate the Gaussian mean of the  inclination data.  
 
-b) How does this compare with the average you calculate using your Fisher program (or {\bf gofish.py}).
+b) How does the gaussian average compare with the average you calculate using your Fisher program (or  {\bf ipmag.fisher\_mean}).
 
-c) Use the program {\bf incfish.py}, which does the inclination only calculation of $\bar I$.  Is this estimate closer to the Fisher estimate?   Or, you can call the {\bf pmag} module function {\bf doincfish} from within an IPython notebook.  
+c) Call  the function  {\bf pmag.doincfish}, which does the inclination only calculation of $\bar I$.  Is this estimate closer to the Fisher estimate?   
 
 {\bf Problem 3}
 
-a ) Unpack the Chapter\_11 datafile from the Datafiles archive (in the Essentials\_Examples folder in Datafiles that comes with the \href{http://earthref.org/PmagPy/cookbook}{\bf PmagPy} software package ).   You will find a file called {\it prob3a.dat}.   This has:   $D, I$, dip direction and dip from two limbs of the fold.    They are of both polarities.   Separate the data into normal and reverse polarity,  flip the reverse data over to their antipodes and calculate the Fisher statistics for the combined data set.   
+a ) Unpack the Chapter\_11 datafile from the data\_files archive (see the Preface for instructions).   You will find a file called {\it prob3a.dat}.   This has:   $D, I$, dip direction and dip from two limbs of the fold.    They are of both polarities.   Separate the data into normal and reverse polarity,  flip the reverse data over to their antipodes and calculate the Fisher statistics for the combined data set.
+
+\begin{itemize}
+\item    To split the data into two modes, use the program {\bf pmag.doprinc} to calculate the principle direction.  Directions with an angle less than 90$^{\circ}$ away from this are in one mode and greater than 90$^{\circ}$ away are in the other.  You can use Python's Pandas filtering power for this, but you will have to write a small function to calculate the angle.  For this, remember that the cosine of the angle is the dot product of the two unit vectors.  Or, use {\bf pmag.angle} which does just that!. 
+\item  Take that antipodes of one of the two sets and `flip' them by adding 180 (using modulo 360! - \%360) and taking the opposite of the inclination.   
+\item Calculate the means using one of the options described in Problem 1. 
+\end{itemize}
 
 
-b)     Use the program {\bf di\_tilt.py} to ``untilt'' the data (call {\bf pmag.dotilt} from an IPython notebook).   Repeat the procedure in a).     Would the two data sets pass a simple (McElhinny $F$ test) fold test?  
+b)     Use the function {\bf pmag.dotilt}  to ``untilt'' the data.   Repeat the procedure in a).     Would the two data sets pass a simple (McElhinny $F$ test) fold test?  
 
-%{\bf Problem 4}
-%
-%a)  Refer to Problem 6 in Chapter 9 for help with importing data files into the MagIC format.  Someone has measured some more specimens from the same study that was the focus of that problem.  In the Chapter\_11 directory,  there is a directory named Problem4 with a sub-directory named MagIC.  From the command line,  fire up {\bf QuickMagIC.py} and choose this directory as your project directory.  Someone has already imported the orientation data, but you need to import the AF data from data file {\it ns\_a.mag} and the thermal demagnetization data in {\it ns\_t.mag} in the Chapter\_11 directory.    After importing both of these,  combine the measurements and interpret them using `Demag GUI' option.  
-%
-%b) Look at your interpretations at the site level as in Problem 6 in Chapter 9.  One of the sites (NS007) has a ``funny'' direction that you suspect might be an orientation error in the field of some kind.  Use the option Data Reduction/Upload$>$Check sample orientations to test several hypotheses about bad orientations.   Ignore all previous interpretations.     Find the name of the specimen by looking at the information in the command window and comparing it to the equal area plot.  Then type 'e' at the command window and (after hitting return) type in the specimen name.  You will see an equal area projection with the data as before, but now there is a small circle tracing out directions that would come if the orientation mark on the sample in the field was wrong (say if a stray mark was interpreted as the brass scratch).  There is also a triangle, if the arrow was marked the wrong direction (say out from the outcrop instead of in) and a $\Delta$ if someone read the wrong end of the compass in the field.  If any of these plots next to the rest of the directions, it may be reasonable to mark this sample orientation as ``bad'' and exclude it from the site mean.  So, select 'y' when asked and choose ``bad mark'' as your excuse.  This remains a permanent part of the data, but specimens from this sample will not bother you again!  Quit the program and re-run the Assemble specimens option.  
-%
-%c)   Look at the specimen data (by site) with the equal area projections as in Problem 6 in Chapter 9.  Use the geographic coordinates when asked.  This time, select `Combine Lines \& Planes' as the confidence ellipses because you should have interpreted several of the specimens from Site NS016 as great circles.  
 
- }
+}
+
 
 

@@ -1,3 +1,4 @@
+\customlink{The_ancient_geomagnetic_field}
 \chapter{The ancient geomagnetic field}
 
 
@@ -753,27 +754,31 @@ PSVRL database (see Figure~\ref{fig:tk03}b), but there are other attributes of t
 
 
 \section{Problems}
-{\parindent 0pt  \parskip 12pt
+
+{\parindent 0pt \parskip 12pt 
 {\bf Problem 1}   
 
-You learned how to use the program {\bf igrf.py} in the problems for Chapter 2. The program uses the official DGRF and IGRF field models since 1945.  A special feature of the program, however, is the use of the GUFM1 coefficients of 
+You learned how to use the function {\bf ipmag.igrf} in the problems for Chapter 2. The program uses the official DGRF and IGRF field models since 1945.  A special feature of the program, however, is the use of the GUFM1 coefficients of 
 \index{Jackson, A.} \nocite{jackson00}
-Jackson et al. (2000) for dates between 1600 and 1945.  
+Jackson et al. (2000) for dates between 1600 and 1945.  Note that while {\bf ipmag.igrf} only calculates a single date at a time we can easily set up a list with results for a time series.  
 
-a) Calculate the variation in inclination of the geomagnetic field in Sicily (latitude of 38$^{\circ}$, longitude of 14$^{\circ}$E) between 1600 and 1940 (at 10 year intervals) and make a plot using the {\bf matplotlib} plotting utility.  [There are handy  functions in the {\bf PmagPy} programs and modules ({\bf pmag} and {\bf pmagplotlib} that you are free to call or copy; just do not modify them without renaming them or the {\bf PmagPy} programs won't work right anymore!]   For example, look at {\bf igrf.py} program and  the {\bf pmagplotlib.plotXY} function.
+a) Calculate the variation in inclination of the geomagnetic field in Sicily (latitude of 38$^{\circ}$, longitude of 14$^{\circ}$E) between 1600 and 1900 (at 10 year intervals) and make  plots of the field elements using the {\bf matplotlib} plotting utility. Use the most recent data model available.  
 
-b)  The GUFM1 coefficients were estimated using deliberate, human observations.   An independent dataset is that from lava flows and archaeological artifacts.  These can be searched using the GEOMAGIA web set at \url{http://geomagia.ucsd.edu}.
-In the Chapter\_14 data directory in Datafiles (see Chapter 5 for instructions in how to download this) there is a file called {\it geomagia\_sel.txt} with inclination and age data from near the latitude and longitude  of the site examined in a).     Modify your program to plot these data on top of the GUFM predictions.  How do they compare?  
 
-c) Go to the MagIC website (\url{http://earthref.org/MAGIC}) and find out where these data come from.  Are they reliable?  
+b)  The GUFM1 coefficients were estimated using deliberate, human observations.   An independent data set is that from lava flows and archaeological artifacts.  These can be searched using the GEOMAGIA web set at \url{http://geomagia.ucsd.edu}.
+In the Chapter\_14 data directory there is a file called {\it geomagia\_sel.txt} with inclination and age data from near the latitude and longitude  of the site examined in a).     Modify your program to plot these data on top of the GUFM predictions.  How do they compare?  
+
+c) Find the fRolph et al. (1987) paper in the geomagia data set as an example.  and read the paper.    Are the data reliable?   Make an equal area plot of the directions in the geomagia download file. Do they look ok?  
 
 {\bf Problem 2}
 
 
-Paleointensity data have been assembled into databases for quite some time.  A recent version of the compilation is in the file {\it PINT08.xls} in the Chapter\_14 data directory.  
+Paleointensity data have been assembled into databases for quite some time.  A recent version of the compilation is from this website:  {\url http://earth.liv.ac.uk/pint/}.  Download it and have a look using Panda's {\bf read\_excel} function.  
 
-a)  Find all the data for the last 10 Myr.  
-Select the data that were done with a Thellier double heating type experiment, with pTRM checks (T+) and those that were done with the Shaw method (S).   Plot both sets versus age.  Are there any differences?  
+
+
+a)  Find all the VDM/VADM estimates  for the last 10 Myr.  
+Select the data that were done with a Thellier double heating type experiment, with pTRM checks (T+) and those that were done with the Shaw method (S).   Plot the VDM/VADMs from both sets versus age.  Are there any differences?  
 
 b) Now find all the T+ data that have polarity information for the last 10 Myr.  Separate the data into N, R, and T groups.   Plot these versus age (with different symbols).  Are there any differences?  
 
@@ -783,18 +788,19 @@ The dependence of scatter in directions and VGPs on latitude is well known.
 
 a) Go to the MagIC database website and download the data for one high latitude data set (Lawrence et al., 2009):  \nocite{lawrence08}
 
- \url{http://earthref.org/MagIC/doi/10.1029/2008GC002072}	
+{ \url{http://earthref.org/MagIC/doi/10.1029/2008GC002072}	}
 
-Create a Project Directory and put the file in it.     Use the {\bf QuickMagIC.py} graphical user interface  and cd into your project directory.  Click on ``unpack downloaded txt file'' to extract the data from the txt file.  This will release a number of tab delimited MagIC database formatted files that you can look at using a spreadsheet program.   Read the  documentation at  \url{http://earthref.org/PmagPy/cookbook/#MagIC}  to familiarize yourself with the MagIC database file structure. 
+Create a Project Directory and put the file in it.  Unpack it with {\bf  ipmag.download\_magic}.  
 
-b)  You can read in the site mean data from the {\it pmag\_results.txt} file into a Pandas Dataframe and look them in equal area projection using the {\bf plot\_net} and {\bf plot\_di} functions in the ipmag module of {\bf PmagPy} from within an IPython notebook.   Be sure to get rid of all the blank directional data with the Pandas function dropna. Also, there are study averages, so you need the `individual'  data under the `data type' key (data type is 'i').    Now fish out the VGPs from the same data records and plot them with the ipmag.plot\_vgp function.  To do that, you will need to have Basemap installed and learn how make a simple map (consult the website \url{https://nbviewer.jupyter.org/github/swanson-hysell/2015_Tauxe-et-al_PmagPy_Notebook/blob/master/PmagPy_notebook.ipynb} for help).     As this is a dual polarity data set, first flip the VGPs with negative latitudes to the antipode (subtract 180 from the longitude and take the absolute value of the latitude).  
+b)  Read in the site mean data from the {\it sites.txt} file into a Pandas DataFrame, knowing that the files are always tab delimited and have a header in the second line (header=1 to Pandas).  Look at the directions in equal area projection using the {\bf ipmag.plot\_net} and {\bf ipmag.plot\_di} functions  from within your Jupyter notebook.   Be sure to get rid of all the blank directional data (MagIC headers of {\it dir\_dec, dir\_inc} with the Pandas function {\bf dropna}. 
 
+Plot the VGPs with {\bf ipmag.plot\_vgp}  To do that, you will need to have Basemap installed.  Follow the instructions in the help message to  make a simple map.     As this is a dual polarity data set, first make an nested [lon,lat] array and use {\bf pmag.flip} to separate it into normal and verse antipodes.   Be sure to drop all the records with no VGP data in them (using Pandas dropna function) first.    
 
 c)  Write a program that will calculate the $S_p$ VGP scatter statistic from VGPs.   What is $S_p$ of the entire data set?  [Use the antipodes of the reverse data.]  
 
 d)  Now modify your program to calculate $S_p$ as a function of  latitude cutoff, i.e., make an option to exclude VGP latitudes with latitudes more than a specified amount away from the spin axis.    What is the ``best'' latitude cut-off?  
 
-e) A file called {\bf hawaii\_results.txt} is stored in the Chapter\_14 Datafiles directory.  This is a compilation of all the data from Hawaii used in a recent analysis of the time averaged field project by Johnson et al. (2008). \nocite{johnson08}
+e) A file called {\bf hawaii.txt} is stored in the Chapter\_14/Problem\_3  directory.  This is a compilation of all the data from Hawaii used in a recent analysis of the time averaged field project by Cromwell et al. (2018). \nocite{cromwell18}
 Repeat problems 2b-d on the Hawaiian data set.  Is there a latitude dependence of $S_p$? 
 
 
@@ -804,13 +810,15 @@ f) Compare these values of $S_p$  to those predicted by Model G.
 
 {\bf Problem 4}
 
-a) Use the program {\bf tk03.py} to generate a set of 100 directions for a latitude of 20$^{\circ}$ (the approximate latitude of Hawaii). Save these in a file called {\it hawaii.tk03} and plot them using the program {\bf eqarea.py}.  
+a) Use the program {\bf ipmag.tk03} to generate a nested list  of 100 vectors for a latitude of 20$^{\circ}$ (the approximate latitude of Hawaii). Plot them using the functions {\bf ipmag.plot\_net, ipmag.plot\_di}.  Hint, it would be easiest to turn the output  of   {\bf ipmag.tk03} into an array and take the transpose. Then the first element is an array of declinations and the second is the inclinations.  
 
-b)  Find the present IGRF and GAD directions at 20$^{\circ}$ and -156$^{\circ}$ using the programs {\bf igrf.py} and {\bf dipole\_pinc.py} (or you can use the functions {\bf  ipmag.igrf} and {\bf pmag.pinc(lat)} from inside an IPython notebook).    Rotate the directions in {\it hawaii.tk03}  to the expected GAD direction using the program {\bf di\_rot.py}.  
-Plot these rotated directions using {\bf eqarea.py}.  Now rotate the directions extracted from {\it hawaii\_results.txt} in Problem 2e in the same way and plot them in equal area projection.  How do the directions predicted by the PSV field model compare with the data set from Hawaii?  
+b)  Find the present IGRF and GAD directions at 20$^{\circ}$ and -156$^{\circ}$ using the functions {\bf  ipmag.igrf} and {\bf pmag.pinc}.    Rotate the directions in {\it hawaii.tk03}  to the expected GAD direction using the function {\bf pmag.dodirot\_V}.   Hint: try the nice {\bf NumPy} function {\bf column\_stack} to put your directions into the right format.  
+Plot these rotated directions using  the {\bf ipmag} functions.  Now rotate the directions extracted from {\it hawaii.txt} in Problem 2e plot them in equal area projection.  How do the directions predicted by the PSV field model compare with the data set from Hawaii?  
 
-c) Use the program {\bf goprinc.py} to calculate the eigenparameters of the orientation matrix of the Hawaiian directions (see Chapter 9 and Appendix~\ref{app:eigen}).   What is wrong with either the GAD model or the data set?  
+c) Use the function {\bf pmag.doprinc} to calculate the eigenparameters of the orientation matrix of the Hawaiian directions (see Chapter 9 and %Appendix~\ref{app:eigen})
+the Appendix on Orientation Tensors here: 
 
+ {\url{https://earthref.org/MagIC/books/Tauxe/Essentials/WebBook3ap1.html#x20-220000A.3.5}}.   What is wrong with either the GAD model or the data set?  
 
 }
 

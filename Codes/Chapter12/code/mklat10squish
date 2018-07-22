@@ -1,0 +1,5 @@
+fishrot.py -I 20 -n 30 -k 50|squish.py .5 |awk '{print $1,$2}' > lat10_squish.di
+awk '{print $1,$2,10,0}' lat10_squish.di |di_vgp.py > lat10_squish.di.vgp
+gofish <lat10_squish.di
+goprinc < lat10_squish.di.vgp
+#di_rot.py -D 181.7 -I 49.6 < lat10_squish.di.vgp > lat10_squish.vgp.rot

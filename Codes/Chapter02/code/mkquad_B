@@ -1,0 +1,8 @@
+file quadrupole_neg
+norm S
+proj A
+coast
+field F
+color
+execute
+

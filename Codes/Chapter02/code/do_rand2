@@ -1,0 +1,205 @@
+file igrf2005
+normalize S
+site  49.1 217.7
+execute
+site  8.2 146.8
+execute
+site  -27.3 116.9
+execute
+site  -13.6 25.3
+execute
+site  62.7 180.0
+execute
+site  46.4 106.8
+execute
+site  21.8 73.8
+execute
+site  -68.2 0.0
+execute
+site  -21.8 185.9
+execute
+site  51.8 80.0
+execute
+site  43.6 128.8
+execute
+site  -62.7 24.0
+execute
+site  38.2 101.4
+execute
+site  62.7 96.0
+execute
+site  16.4 71.4
+execute
+site  24.5 111.0
+execute
+site  -2.7 11.0
+execute
+site  -65.5 93.3
+execute
+site  -51.8 17.8
+execute
+site  49.1 58.6
+execute
+site  2.7 327.0
+execute
+site  -43.6 341.1
+execute
+site  -21.8 354.1
+execute
+site  27.3 116.9
+execute
+site  73.6 58.4
+execute
+site  79.1 180.0
+execute
+site  51.8 280.0
+execute
+site  -30.0 353.7
+execute
+site  57.3 319.4
+execute
+site  46.4 288.8
+execute
+site  -19.1 293.2
+execute
+site  -16.4 200.0
+execute
+site  -2.7 85.2
+execute
+site  -13.6 210.9
+execute
+site  -30.0 120.0
+execute
+site  -43.6 242.5
+execute
+site  57.3 35.5
+execute
+site  -46.4 296.7
+execute
+site  -16.4 122.9
+execute
+site  57.3 20.3
+execute
+site  8.2 66.5
+execute
+site  5.5 211.6
+execute
+site  8.2 2.8
+execute
+site  21.8 11.8
+execute
+site  54.5 37.9
+execute
+site  -51.8 57.8
+execute
+site  -13.6 320.6
+execute
+site  27.3 86.2
+execute
+site  73.6 243.2
+execute
+site  -43.6 291.8
+execute
+site  10.9 111.6
+execute
+site  0.0 68.2
+execute
+site  57.3 268.7
+execute
+site  76.4 0.0
+execute
+site  30.0 176.8
+execute
+site  27.3 113.8
+execute
+site  35.5 356.6
+execute
+site  79.1 165.0
+execute
+site  -2.7 27.5
+execute
+site  -19.1 357.1
+execute
+site  43.6 185.7
+execute
+site  -8.2 207.7
+execute
+site  -32.7 113.5
+execute
+site  13.6 267.2
+execute
+site  -60.0 88.6
+execute
+site  -2.7 186.9
+execute
+site  -54.5 232.1
+execute
+site  46.4 213.6
+execute
+site  32.7 304.9
+execute
+site  -10.9 75.3
+execute
+site  -65.5 93.3
+execute
+site  -10.9 189.8
+execute
+site  8.2 160.6
+execute
+site  -73.6 136.2
+execute
+site  -35.5 168.2
+execute
+site  32.7 22.7
+execute
+site  10.9 181.4
+execute
+site  49.1 305.6
+execute
+site  -40.9 290.9
+execute
+site  -54.5 85.3
+execute
+site  -68.2 286.5
+execute
+site  -38.2 76.9
+execute
+site  16.4 225.7
+execute
+site  -30.0 233.7
+execute
+site  62.7 96.0
+execute
+site  13.6 331.9
+execute
+site  32.7 126.5
+execute
+site  65.5 246.7
+execute
+site  65.5 166.7
+execute
+site  -49.1 171.6
+execute
+site  -51.8 53.3
+execute
+site  21.8 129.8
+execute
+site  32.7 269.2
+execute
+site  65.5 73.3
+execute
+site  2.7 167.6
+execute
+site  16.4 128.6
+execute
+site  -10.9 11.2
+execute
+site  0.0 234.5
+execute
+site  -27.3 21.5
+execute
+site  46.4 31.6
+execute
+site  79.1 150.0
+execute
+quit

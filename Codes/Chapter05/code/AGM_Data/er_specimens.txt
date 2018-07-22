@@ -1,0 +1,4 @@
+tab 	er_specimens
+er_citation_names	er_site_name	er_sample_name	er_location_name	er_specimen_name	er_scientist_mail_names
+This study			unknown	M428	
+This study		TC04-15-03	unknown	TC04-15-03F	

@@ -1,0 +1,9 @@
+ igrf 1995
+file hk02n
+norm S
+proj A
+coast
+field F
+color
+execute
+

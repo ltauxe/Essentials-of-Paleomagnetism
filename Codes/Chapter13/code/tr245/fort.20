@@ -1,0 +1,26 @@
+tr245               
+e.peel: Deleted   1 out of   8 specimens: F12>4.26
+w.peel: Deleted   0 out of   5 specimens: F12>4.26
+m.peel: Deleted   0 out of   1 specimens: F12>4.26
+Pole to dike:  285.3   33.6
+Average lineations:   28.2   14.5
+E:  Deleted   0 out of   7 specimens: >45 away from dike
+W:  Deleted   0 out of   5 specimens: >45 away from dike
+ Eastern margin: N =   7
+  Site parametric bootstrap:
+0.33158 0.00033   268.9   22.9   17.2    5.9   16.1   25.9  128.0   61.5
+0.33323 0.00034   124.9   62.5   18.0   31.7    1.6   28.7  300.9   27.5
+0.33519 0.00033     5.1   14.5   16.3  267.8   26.4   21.4  121.0   59.3
+ Angle between g1 and dike plane:   16.3
+ Western margin: N =   5
+  Site parametric bootstrap:
+0.33146 0.00029   299.7   40.7    8.8  208.8    1.1   68.7  117.5   49.2
+0.33256 0.00039   110.8   48.9   18.3  207.3    5.7   70.3  302.3   40.5
+0.33598 0.00033   205.9    4.4    6.9  299.1   35.8   17.9  109.8   53.8
+ Angle between g1 and dike plane:   11.3
+ Dike pole after structural tilt:  291.7  10.5
+ Lineations after structural tilt:   24.1   6.6
+ Eastern margin g1 [dike coordinates]:  163.6   5.5
+ Western margin g1 [dike coordinates]:  191.4  10.2
+ Eastern margin rake:   -9.0 -  16.1
+ Western margin rake:   -2.4 -  20.4

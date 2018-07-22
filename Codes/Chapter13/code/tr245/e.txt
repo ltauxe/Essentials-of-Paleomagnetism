@@ -1,0 +1,368 @@
+ tr245f                ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ ******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00          995.    1004.     998.          .1     .0     .0
+ VOL   10.00          999.     999.     997.         -.4     .0     .0
+ RFC   50.00          993.    1001.    1002.         -.2    -.2     .1
+ LAZ       0.         995.    1004.     998.          .1     .0     .0
+ LPL       0.        1000.     999.     997.          .6     .0     .0
+                                                         STD ERR    .3
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   421.0       194.5       338.4           4.2         3.2         1.8
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      49940.00           49940.00        .3352      .3335      .3313
+                                     +-  .0002      .0002      .0002
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.005       1.007       1.012       1.012        .140        .138
+ 
+
+          G%          %h           h           E           V           Q 
+       1.176        .394        .012       1.002       1.461        .550
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D      256.     74.    165.         .3315    .3341    .3344
+ SYSTEM    I       46.     44.      1.         .0008   -.0002   -.0008
+FF
+ tr245g                ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ ******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1076.    1076.    1068.         -.8     .1     .1
+ VOL   10.00         1066.    1068.    1075.         -.8     .6    -.4
+ RFC   50.00         1072.    1072.    1071.          .2     .2    -.5
+ LAZ       0.        1077.    1076.    1068.          .2     .1     .1
+ LPL       0.        1067.    1067.    1076.          .2    -.4     .6
+                                                         STD ERR    .6
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   150.0       251.7         2.7           3.7        32.1         3.4
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      53590.00           53590.00        .3360      .3322      .3318
+                                     +-  .0003      .0003      .0003
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.012       1.001       1.013       1.014       -.811       -.812
+ 
+
+          G%          %h           h           E           V           Q 
+       1.267        .426        .013        .990       3.312       1.656
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D      314.    159.     52.         .3334    .3334    .3333
+ SYSTEM    I       33.     55.     12.        -.0016    .0012   -.0013
+FF
+ tr245h                ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ ******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1219.    1230.    1221.         -.8     .5    -.3
+ VOL   10.00         1231.    1231.    1221.         -.8     .5    -.3
+ RFC   50.00         1218.    1234.    1225.         1.0    -.5    -.5
+ LAZ       0.        1220.    1230.    1221.          .2     .5    -.3
+ LPL       0.        1232.    1231.    1221.          .2     .5    -.3
+                                                         STD ERR    .7
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   202.8       133.6       120.3           5.1         5.4         2.6
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      61290.00           61290.00        .3362      .3333      .3305
+                                     +-  .0003      .0003      .0003
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.009       1.009       1.017       1.017       -.022       -.026
+ 
+
+          G%          %h           h           E           V           Q 
+       1.718        .578        .017       1.000       1.556        .690
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D       73.    235.    343.         .3310    .3357    .3333
+ SYSTEM    I        3.     87.      1.         .0016    .0000    .0001
+FF
+ tr245i1               ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ *******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1031.    1035.    1030.         -.7    -.1     .1
+ VOL   10.00         1027.    1031.    1027.         -.7    -.6     .1
+ RFC   50.00         1025.    1035.    1032.          .2     .4    -.1
+ LAZ       0.        1032.    1035.    1030.          .3    -.1     .1
+ LPL       0.        1028.    1032.    1027.          .3     .4     .1
+                                                         STD ERR    .5
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   132.5        33.1       145.8          10.2         4.9         3.3
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      51530.00           51530.00        .3350      .3338      .3312
+                                     +-  .0003      .0003      .0003
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.004       1.008       1.011       1.012        .357        .355
+ 
+
+          G%          %h           h           E           V           Q 
+       1.119        .375        .011       1.004       1.364        .385
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D      277.    129.     13.         .3315    .3347    .3338
+ SYSTEM    I       24.     63.     13.        -.0006   -.0005   -.0006
+FF
+ tr245i2               ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ *******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1065.    1069.    1064.         -.7    -.5    -.4
+ VOL   10.00         1062.    1067.    1059.         -.7     .5     .1
+ RFC   50.00         1058.    1071.    1065.          .1     .4    -.4
+ LAZ       0.        1066.    1070.    1065.          .3     .5     .6
+ LPL       0.        1063.    1066.    1059.          .3    -.5     .1
+                                                         STD ERR    .6
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   123.1        36.0       127.5           9.8         5.2         3.4
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      53240.00           53240.00        .3354      .3338      .3309
+                                     +-  .0003      .0003      .0003
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.005       1.009       1.014       1.014        .309        .306
+ 
+
+          G%          %h           h           E           V           Q 
+       1.340        .449        .013       1.004       1.383        .420
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D      274.    151.      8.         .3312    .3352    .3336
+ SYSTEM    I       13.     67.     19.        -.0005   -.0009   -.0005
+FF
+ tr245j                ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ ******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1804.    1811.    1806.         -.8     .0    -.1
+ VOL   10.00         1803.    1810.    1803.         -.8    -.5    -.1
+ RFC   20.00         1799.    1811.    1811.          .8     .5     .0
+ LAZ       0.        1805.    1811.    1806.          .2     .0    -.1
+ LPL       0.        1804.    1811.    1803.          .2     .5    -.1
+                                                         STD ERR    .6
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   135.3          .9       239.2          47.6         3.8         3.6
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      36140.00           36140.00        .3342      .3341      .3318
+                                     +-  .0002      .0002      .0002
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.000       1.007       1.007       1.008        .886        .885
+ 
+
+          G%          %h           h           E           V           Q 
+        .727        .243        .007       1.006       1.212        .059
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D      249.     94.      2.         .3318    .3341    .3341
+ SYSTEM    I       74.     15.      7.        -.0001   -.0003    .0000
+FF
+ tr245k                ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ ******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1013.    1017.    1015.         -.6     .0     .0
+ VOL   10.00         1019.    1019.    1015.        -1.1     .0     .0
+ RFC   50.00         1014.    1020.    1016.          .1     .1    -.1
+ LAZ       0.        1014.    1017.    1015.          .4     .0     .0
+ LPL       0.        1021.    1019.    1015.          .9     .0     .0
+                                                         STD ERR    .5
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+    57.6        51.3        22.5           8.2        12.3         5.0
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      50840.00           50840.00        .3349      .3331      .3320
+                                     +-  .0003      .0003      .0003
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.005       1.004       1.009       1.009       -.201       -.203
+ 
+
+          G%          %h           h           E           V           Q 
+        .886        .297        .009        .998       1.695        .861
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D       67.    213.    336.         .3324    .3344    .3332
+ SYSTEM    I       10.     78.      6.         .0011    .0000    .0003
+FF
+ tr245l                ANISOTROPY OF SUSCEPTIBILITY (PROGRAM ANISO 21)
+ ******
+                          DATA MEASURED                  RESIDUALS
+ HOL  -100.0
+ VLN   10.00         1159.    1164.    1158.          .0    -.2    -.5
+ VOL   10.00         1164.    1164.    1158.         -.5    -.2     .0
+ RFC   50.00         1156.    1168.    1161.          .1     .3     .3
+ LAZ       0.        1159.    1164.    1159.          .0    -.2     .5
+ LPL       0.        1165.    1164.    1158.          .5    -.2     .0
+                                                         STD ERR    .4
+
+ T1          F1            L1          T2          F2            L2
+
+ 00        0./  0.       0./  0.       00        0./  0.       0./  0.
+
+
+        TESTS FOR ANISOTROPY                 95 %  CONFIDENCE ANGLES
+
+       F         F12         F23           E12         E23         E31
+
+   227.8       192.6        96.6           4.3         6.0         2.5
+
+
+                -6
+ MEAN SUSC IN 10  SI   NORMING FACTOR        NORMED PRINCIPAL SUSCS
+
+      58080.00           58080.00        .3353      .3331      .3316
+                                     +-  .0002      .0002      .0002
+
+
+                              ANISOTROPY FACTORS
+
+           L           F           P           P'          T           U 
+       1.007       1.005       1.011       1.011       -.168       -.171
+ 
+
+          G%          %h           h           E           V           Q 
+       1.111        .373        .011        .998       1.666        .828
+ 
+
+
+                  PRINCIPAL DIRECTIONS              NORMED TENSOR
+
+ SPECIMEN  D      257.    159.    347.         .3318    .3351    .3331
+ SYSTEM    I        0.     87.      3.         .0008   -.0001    .0000
+FF

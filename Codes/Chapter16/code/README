@@ -1,0 +1,44 @@
+this was the command used to generate wandering.eps
+
+cont_rot.py -prj ortho -fpp poles.ind -eye 10 90 -con ind
+
+for polarity ambiguity: 
+cont_rot.py -prj ortho -feu polerots.balt -eye 20 45 -con balt
+
+for reconstructions by age,  use, e.g.:
+cont_rot.py -con af:sam:nam:eur -age 200 -sym 'r-' 5 -prj ortho -eye 29 -45 -res l
+
+***** INCONLY picture:
+
+inconly.dat has data from inconly.xls.  took site lat/lon as input to pt_rot.py (see inconly.dat)
+rotated site lat/lon put into inconly_rot.dat as input to vgpmap_magic.py with command:
+vgpmap_magic.py -prj ortho -eye 29 -45 -f inconly_rot.dat -sym 'ko' 10 -ell     # makes plot with small circles
+
+for the kimmerigian (~150 Ma) poles:  use kimmerigian_poles.dat as input to pt_rot.py (pt_rot.py -f kimmeridgian_poles.dat)
+vgpmap_magic.py -prj ortho -eye 29 -45 -f kimmeridgian_poles_rot.dat -sym 'g^' 10     # makes plot with poles as green  triangles
+
+or irving and irving path:  
+awk '{print $2,$3,"nam",200}' irving82_nam.dat > tmp ; pt_rot.py -f tmp > tmp1
+awk '{print $1,$4}' irving82_nam.dat > tmp2
+paste tmp1 tmp2 > irving82_nam_saf_200.txt 
+then edit file to make a pmag_results format file with vgp_lat vgp_lon average_age vgp_alpha95 as headers. then:
+vgpmap_magic.py -prj ortho -eye 29 -45 -sym 'bs' 10 -age -f irving82_nam_saf_200.txt
+
+for pangea reconstructions:   example:
+
+pan A:
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con grn -ffr grn_panA.frp
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con eur -ffr eur_panA.frp
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con af -ffr af_panA.frp
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con sam -ffr sam_panA.frp
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con ind -ffr ind_panA.frp
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con aus -ffr aus_panA.frp
+cont_rot.py -prj ortho -eye 0 0 -res l -sym 'k-' 1 -sr -con ant -ffr ant_panA.frp
+    
+
+
+
+
+ pt_rot.py -ff nam_180-200.txt nam_panA.frp -F nam_lJu_panA.txt
+then
+ vgpmap_magic.py -prj ortho -eye 80 0 -sym 'bs' 5 -f nam_lJu_panA.txt

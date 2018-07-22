@@ -1,0 +1,2 @@
+pscoast -R0/360/-90/90 -Ja0/30/3/0 -B30g30/15g15 -G100/100/0   -P -Y4 -X2 -K >aus_sel.ps
+psxy poles.aus.sel -R0/360/-90/90 -Ja0/30/3/0 -O -G0/0/255 -Sc.1 -:  >>aus_sel.ps

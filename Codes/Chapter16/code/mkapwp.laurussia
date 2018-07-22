@@ -1,0 +1,3 @@
+pscoast -R0/360/-90/90 -Ja180/30/3/0 -B30g30/15g15 -G100  -Y.5 -X.5 -P -K>laurussia.ps
+psxy poles.laurussia  -R0/360/-90/90 -Ja180/30/3/0 -O  -L -: -G0/0/255 -K   >>laurussia.ps
+psxy poles.laurussia  -R0/360/-90/90 -Ja180/30/3/0 -O  -L -: -G255/0/0  -Ss.2 >>laurussia.ps

@@ -1,0 +1,9 @@
+file GUFM.1990
+radius 0.547 	% evaluate at core mantle boundary
+normalize S 	% Use schmidt seminormalized coefficients
+project A 	% Aitoff projection
+coast 		% add a coastline to the map
+plot color 	% makes a "color" 
+field R		% evaluate field strength
+execute		% Perform the computations
+quit		% we're done

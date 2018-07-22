@@ -1,0 +1,5 @@
+data1 was created with the command:  
+fishrot -kndis 10 20 45 45 22
+data2 with:
+fishrot -kndis 20 20 16 45 42 > tmp1
+the means and alpha95s were plotted with plotdi_a

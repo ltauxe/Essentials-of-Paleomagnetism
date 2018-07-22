@@ -1,0 +1,8 @@
+file octupole
+norm S
+proj A
+coast
+field V
+color
+execute
+

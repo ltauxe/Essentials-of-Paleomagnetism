@@ -1,0 +1,14 @@
+tab 	er_specimens
+er_specimen_name	er_site_name	er_sample_name	er_citation_names	er_location_name
+tr213a1	tr213	tr213a	This study	none
+tr213b1	tr213	tr213b	This study	none
+tr213b2	tr213	tr213b	This study	none
+tr213c1	tr213	tr213c	This study	none
+tr213c2	tr213	tr213c	This study	none
+tr213d1	tr213	tr213d	This study	none
+tr213e1	tr213	tr213e	This study	none
+tr213f1	tr213	tr213f	This study	none
+tr213f2	tr213	tr213f	This study	none
+tr213g1	tr213	tr213g	This study	none
+tr213g2	tr213	tr213g	This study	none
+tr213h1	tr213	tr213h	This study	none

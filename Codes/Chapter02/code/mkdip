@@ -1,0 +1,8 @@
+file dipole
+norm S
+proj A
+coast
+field I
+color
+execute
+

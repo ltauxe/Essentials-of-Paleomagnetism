@@ -1,0 +1,655 @@
+from:\\
+\hline
+http://gdcinfo.agg.nrcan.gc.ca/app/utig_report_e.html\\
+\hline
+Central Africa paleomagnetic reference frame\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 0.00 & 0.00 & 0.00 &  \\
+14.0 & 0.00 & 92.00 & 5.00 & Ziegler et al. 1983\\
+44.0 & 0.00 & 113.00 & 12.00 & Ziegler et al. 1983\\
+60.0 & 0.00 & 126.00 & 10.00 & Ziegler et al. 1983\\
+75.0 & 0.00 & 129.00 & 17.00 & Ziegler et al. 1983\\
+93.0 & 0.00 & 151.00 & 20.00 & Ziegler et al. 1983\\
+131.0 & 0.00 & 156.00 & 35.00 & Ziegler et al. 1983\\
+175.0 & 0.00 & 166.00 & 36.00 & Ziegler et al. 1983\\
+192.0 & 0.00 & 172.00 & 31.00 & Ziegler et al. 1983\\
+ATLANTIC OCEAN (other ocean)\\
+\hline
+\hline
+North America to Northwest Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+10.0 &  80.12 &  50.80 &  2.52 & Müller et al. 1990\\
+20.0 &  79.57 &  37.84 &  5.29 & Klitgord \& Schouten 1986\\
+35.5 &  75.37 &  1.12 &  10.04 & Müller et al. 1990\\
+49.5 & 75.30 & -3.88 & 15.25 & Müller et al. 1990\\
+59.0 & 79.68 & -0.46 & 18.16 & Müller et al. 1990\\
+67.5 & 82.90 & 4.94 & 20.76 & Müller et al. 1990\\
+72.5 & 81.35 & -9.15 & 22.87 & Klitgord \& Schouten 1986\\
+74.3 & 80.76 & -11.76 & 23.91 & Klitgord \& Schouten 1986\\
+80.2 & 78.30 & -18.35 & 27.06 & Klitgord \& Schouten 1986\\
+84.0 & 76.55 & -20.73 & 29.60 & Klitgord \& Schouten 1986\\
+118.0 & 66.30 & -19.90 & 54.25 & Klitgord \& Schouten 1986\\
+126.0 & 66.13 & -19.0 & 56.39 & Klitgord \& Schouten 1986\\
+131.5 & 65.95 & -18.50 & 57.40 & Klitgord \& Schouten 1986\\
+141.5 & 66.10 & -18.40 & 59.79 & Klitgord \& Schouten 1986\\
+149.5 & 66.50 & -18.10 & 61.92 & Klitgord \& Schouten 1986\\
+156.5 & 67.15 & -16.0 & 64.70 & Klitgord \& Schouten 1986\\
+170.0 & 67.02 & -13.17 & 72.10 & Klitgord \& Schouten 1986\\
+175.0 & 66.95 & -12.02 & 75.55 & Klitgord \& Schouten 1986\\
+\hline
+Greenland to North America\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+35.5 & 0.00 & 0.00 & 0.00 &  \\
+49.0 & 59.50 & -92.00 & -2.81 & Royer et al., 1992\\
+56.0 & 54.91 & -110.01 & -4.00 & Roest \& Srivastava 1989\\
+59.0 & 24.48 & -137.25 & -3.12 & Roest \& Srivastava 1989\\
+61.0 & 20.61 & -148.20 & -3.27 & Roest \& Srivastava 1989\\
+63.0 & 27.63 & -149.41 & -3.72 & Roest \& Srivastava 1989\\
+69.0 & 43.94 & -145.31 & -4.92 & Roest \& Srivastava 1989\\
+84.0 & 65.30 & -122.45 & -11.00 & Roest \& Srivastava 1989\\
+92.0 & 66.60 & -119.48 & -12.20 & Roest \& Srivastava 1989\\
+105.0 & 67.08 & -118.96 & -12.99 & Roest \& Srivastava 1989\\
+118.0 & 67.50 & -118.48 & -13.78 & Roest \& Srivastava 1989\\
+\hline
+South America to Central Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+1.9 & 60.00 & -39.00 & 0.51 & Cande et al. 1988\\
+2.5 & 60.00 & -39.00 & 0.77 & Cande et al. 1988\\
+3.9 & 60.00 & -39.00 & 1.21 & Cande et al. 1988\\
+5.3 & 60.00 & -39.00 & 1.78 & Cande et al. 1988\\
+6.7 & 60.00 & -39.00 & 2.27 & Cande et al. 1988\\
+7.9 & 60.00 & -39.00 & 2.76 & Cande et al. 1988\\
+8.9 & 60.00 & -39.00 & 3.15 & Cande et al. 1988\\
+11.6 & 59.50 & -38.00 & 4.05 & Cande et al. 1988\\
+14.9 & 59.50 & -38.00 & 5.25 & Cande et al. 1988\\
+16.2 & 59.50 & -38.00 & 5.75 & Cande et al. 1988\\
+17.6 & 59.50 & -38.00 & 6.30 & Cande et al. 1988\\
+18.6 & 59.50 & -38.00 & 6.70 & Cande et al. 1988\\
+19.4 & 59.50 & -38.00 & 7.05 & Cande et al. 1988\\
+20.9 & 59.50 & -37.75 & 7.60 & Nürnberg \& Müller 1991\\
+22.6 & 59.50 & -36.50 & 8.45 & Cande et al. 1988\\
+23.3 & 59.50 & -37.00 & 8.80 & Nürnberg \& Müller 1991\\
+25.5 & 59.00 & -36.00 & 9.50 & Cande et al. 1988\\
+26.9 & 59.00 & -36.00 & 10.00 & Cande et al. 1988\\
+28.2 & 58.00 & -35.00 & 10.55 & Cande et al. 1988\\
+29.7 & 57.00 & -35.00 & 11.05 & Cande et al. 1988\\
+31.2 & 57.00 & -34.50 & 11.60 & Nürnberg \& Müller 1991\\
+32.5 & 57.50 & -35.00 & 12.15 & Cande et al. 1988\\
+35.3 & 57.50 & -34.00 & 13.38 & Cande et al. 1988\\
+37.2 & 57.00 & -33.50 & 14.10 & Cande et al. 1988\\
+38.1 & 57.00 & -33.25 & 14.40 & Nürnberg \& Müller 1991\\
+39.5 & 57.00 & -33.00 & 15.05 & Cande et al. 1988\\
+41.3 & 57.50 & -32.50 & 15.80 & Cande et al. 1988\\
+43.6 & 58.00 & -32.00 & 17.00 & Cande et al. 1988\\
+44.7 & 57.50 & -31.75 & 17.60 & Cande et al. 1988\\
+48.7 & 58.50 & -31.50 & 19.07 & Cande et al. 1988\\
+51.9 & 59.00 & -31.50 & 20.10 & Cande et al. 1988\\
+53.9 & 60.00 & -32.00 & 20.75 & Cande et al. 1988\\
+55.1 & 60.00 & -32.00 & 21.20 & Cande et al. 1988\\
+58.6 & 61.50 & -32.50 & 22.30 & Nürnberg \& Müller 1991\\
+60.2 & 61.50 & -32.50 & 22.70 & Cande et al. 1988\\
+63.0 & 62.50 & -33.00 & 23.55 & Cande et al. 1988\\
+64.3 & 63.00 & -33.30 & 24.00 & Cande et al. 1988\\
+65.5 & 63.00 & -33.30 & 24.30 & Cande et al. 1988\\
+66.7 & 63.00 & -33.30 & 24.70 & Cande et al. 1988\\
+68.5 & 63.00 & -33.50 & 25.40 & Cande et al. 1988\\
+71.4 & 63.00 & -33.50 & 26.60 & Cande et al. 1988\\
+74.3 & 63.00 & -33.50 & 27.90 & Cande et al. 1988\\
+80.2 & 63.00 & -34.00 & 31.00 & Cande et al. 1988\\
+84.0 & 61.75 & -34.00 & 33.50 & Cande et al. 1988\\
+118.7 & 50.10 & -34.60 & 52.78 & Royer et al., 1992\\
+121.0 & 50.00 & -34.20 & 53.64 & Royer et al., 1992\\
+126.5 & 49.30 & -33.80 & 54.29 & Royer et al., 1992\\
+131.5 & 49.10 & -33.70 & 55.17 & Royer et al., 1992\\
+245.0 & 49.10 & -33.70 & 55.17 & Royer et al., 1992\\
+\hline
+Northwest Africa to Central Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 0.00 & 0.00 & 0.00 &  \\
+84.0 & 0.00 & 0.00 & 0.00 &  \\
+118.7 & 8.80 & 98.70 & 0.37 & Royer et al., 1992 (fit)\\
+\hline
+Northwest Africa to South America\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+118.7 & 50.00 & -35.20 & -52.90 & Royer et al., 1992\\
+\hline
+Eurasia to North America\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+10.0 & 65.38 & 133.58 & -2.44 & Lawver et al. 1990\\
+20.0 & 68.92 & 136.74 & -4.97 & Lawver et al. 1990\\
+36.0 & 65.64 & 136.95 & -7.51 & Lawver et al. 1990\\
+49.0 & 67.19 & 137.74 & -10.91 & Srivastava \& Roest 1989\\
+56.0 & 62.60 & 140.81 & -12.75 & Srivastava \& Roest 1989\\
+59.0 & 63.14 & 141.66 & -14.22 & Srivastava \& Roest 1989\\
+69.0 & 64.84 & 143.96 & -16.95 & Srivastava \& Roest 1989\\
+80.0 & 66.17 & 147.74 & -19.00 & Srivastava \& Roest 1989\\
+84.0 & 66.54 & 148.91 & -19.70 & Srivastava \& Roest 1989\\
+92.0 & 66.67 & 150.26 & -20.37 & Srivastava \& Roest 1989\\
+105.0 & 66.85 & 152.34 & -21.49 & Srivastava \& Roest 1989\\
+118.0 & 68.99 & 154.75 & -23.05 & Srivastava \& Roest 1989\\
+145.0 & 68.99 & 154.75 & -23.05 & Srivastava \& Roest 1989\\
+170.0 & 69.10 & 156.70 & -23.64 & Royer et al., 1992\\
+\hline
+Iberia (fixed) to Eurasia\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 0.00 & 0.00 & 0.00 &  \\
+30.0 & 90.00 & 0.00 & 0.00 & (fixed)\\
+\hline
+Iberia to Northwest Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+30.0 & 31.4 & -18.60 & 7.87 & Srivastava \& Tapscott 1986 (fit)\\
+133.2 & 31.4 & -18.60 & 7.87 & Srivastava \& Tapscott 1986\\
+\hline
+Iberia to North America\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+133.2 & 70.30 & -11.00 & -51.50 & calculated from Srivastava \& Tapscott 1986\\
+\hline
+Porcupine plate to North America\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+10.0 & 65.38 & 133.58 & -2.44 & Lawver et al. 1990\\
+20.0 & 68.92 & 136.74 & -4.97 & Lawver et al. 1990\\
+36.0 & 65.64 & 136.95 & -7.51 & Lawver et al. 1990\\
+49.0 & 58.75 & 142.49 & -10.01 & Srivastava \& Roest 1989\\
+56.0 & 59.21 & 143.14 & -12.29 & Srivastava \& Roest 1989\\
+59.0 & 60.10 & 143.68 & -13.76 & Srivastava \& Roest 1989\\
+69.0 & 62.31 & 145.52 & -16.47 & Srivastava \& Roest 1989\\
+80.0 & 63.90 & 148.92 & -18.51 & Srivastava \& Roest 1989\\
+84.0 & 64.35 & 149.97 & -19.21 & Srivastava \& Roest 1989\\
+92.0 & 64.55 & 151.19 & -19.88 & Srivastava \& Roest 1989\\
+105.0 & 64.82 & 153.08 & -21.00 & Srivastava \& Roest 1989\\
+118.0 & 67.13 & 155.32 & -22.54 & Srivastava \& Roest 1989\\
+\hline
+Rockall to North America\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+10.0 & 65.38 & 133.58 & -2.44 & Lawver et al. 1990\\
+20.0 & 68.92 & 136.74 & -4.97 & Lawver et al. 1990\\
+36.0 & 65.64 & 136.95 & -7.51 & Lawver et al. 1990\\
+49.0 & 63.62 & 141.96 & -10.52 & Srivastava \& Roest 1989\\
+56.0 & 54.86 & 143.39 & -11.99 & Srivastava \& Roest 1989\\
+59.0 & 56.24 & 143.78 & -13.44 & Srivastava \& Roest 1989\\
+69.0 & 59.05 & 147.21 & -15.56 & Srivastava \& Roest 1989\\
+80.0 & 69.31 & 152.06 & -19.31 & Srivastava \& Roest 1989\\
+84.0 & 72.29 & 154.49 & -20.94 & Srivastava \& Roest 1989\\
+92.0 & 73.95 & 156.24 & -22.00 & Srivastava \& Roest 1989\\
+118.0 & 75.32 & 159.61 & -23.47 & Srivastava \& Roest 1989\\
+\hline
+Jan Mayen to Eurasia\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+36.0 & 0.00 & 0.00 & 0.00 &  \\
+42.7 & 64.90 & -12.20 & -22.60 & Royer et al., 1992\\
+46.2 & 64.90 & -12.30 & -31.60 & Royer et al., 1992\\
+49.0 & 64.30 & -12.70 & -37.30 & Lawver et al. 1990\\
+52.6 & 64.00 & -12.90 & -41.70 & Royer et al., 1992\\
+54.7 & 63.10 & -13.50 & -40.90 & Royer et al., 1992\\
+56.0 & 63.10 & -13.50 & -50.00 & Lawver et al. 1990\\
+\hline
+Jan Mayen to Greenland (fit)\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+56.0 & 73.40 & -10.80 & -55.45 & calculated from Lawver et al. 1990\\
+245.0 & 73.40 & -10.80 & -55.45 & calculated from Lawver et al. 1990\\
+INDIAN OCEAN(other ocean)\\
+\hline
+\hline
+India to Central Indian Basin\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 & Royer et al., 1992\\
+10.5 & -8.70 & 76.90 & 2.75 & Royer et al., 1992\\
+20.5 & -0.90 & 74.60 & 6.77 & Royer et al., 1992\\
+70.0 & -0.90 & 74.60 & 6.77 & Royer et al., 1992\\
+\hline
+India to East Antarctica\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+70.0 & 13.00 & 7.20 & -50.08 & Royer et al., 1992\\
+80.2 & 8.20 & 11.00 & -62.18 & Royer \& Sandwell 1989\\
+84.0 & 7.80 & 10.90 & -65.10 & Royer \& Sandwell 1989\\
+\hline
+India to Madagascar\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+84.0 & 17.50 & 22.60 & -55.41 & Royer \& Sandwell 1989\\
+100.0 & 18.20 & 24.60 & -61.92 & Royer et al., 1992\\
+115.0 & 19.40 & 27.10 & -59.74 & Royer et al., 1992\\
+140.0 & 19.10 & 31.20 & -61.99 & calculated from Lawver \& Scotese 1987\\
+\hline
+India to East Antarctica (fit)\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+140.0 & -4.40 & 16.70 & -92.77 & Lawver \& Scotese 1987\\
+\hline
+Arabia to Central Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+4.7 & 32.80 & 22.60 & -1.89 & LePichon \& Gaullier 1988\\
+13.0 & 32.20 & 22.60 & -5.36 & LePichon \& Gaullier 1988\\
+30.0 & 32.10 & 22.60 & -6.36 & LePichon \& Gaullier 1988\\
+\hline
+Central Indian Basin to Australia\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+42.7 & 90.00 & 0.00 & 0.00 & (fixed)\\
+\hline
+Central Indian Basin to East Antarctica\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+42.7 & 16.60 & 29.90 & -23.62 & Royer et al., 1992\\
+46.2 & 16.30 & 28.50 & -25.24 & Royer \& Sandwell 1989\\
+50.4 & 14.90 & 26.00 & -27.77 & Royer et al., 1992\\
+56.1 & 12.30 & 21.50 & -34.40 & Royer \& Sandwell 1989\\
+64.3 & 9.70 & 17.40 & -45.12 & Royer \& Sandwell 1989\\
+68.5 & 9.40 & 13.70 & -51.59 & Royer \& Sandwell 1989\\
+80.2 & 8.20 & 11.00 & -62.18 & Royer \& Sandwell 1989\\
+84.0 & 7.80 & 10.90 & -65.10 & Royer \& Sandwell 1989\\
+\hline
+Madagascar to Central Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+115.0 & 90.00 & 0.00 & 0.00 &  \\
+118.7 & 5.40 & -76.20 & 0.90 & Royer et al., 1992\\
+123.0 & 5.40 & -76.20 & 1.96 & Royer et al., 1992\\
+126.5 & 5.40 & -76.20 & 3.19 & Royer et al., 1992\\
+129.4 & 5.40 & -76.20 & 4.20 & Royer et al., 1992\\
+141.9 & 5.40 & -76.20 & 8.32 & Royer et al., 1992\\
+149.9 & 4.00 & -71.40 & 11.32 & Royer et al., 1992\\
+165.0 & -3.41 & -81.70 & 19.73 & Lawver and Scotese 1987\\
+\hline
+Mascarene Plateau to Madagascar\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+63.0 & 90.00 & 0.00 & 0.00 &  \\
+64.3 & -15.10 & 49.90 & -10.48 & Patriat unpublished manuscript\\
+68.5 & 5.90 & 30.00 & -12.74 & Patriat unpublished manuscript\\
+73.4 & 4.30 & 32.80 & -20.01 & Patriat unpublished manuscript\\
+84.0 & -4.50 & 46.00 & -45.16 & Royer et al., 1992\\
+96.0 & -2.90 & 44.80 & -50.00 & Royer et al., 1992\\
+\hline
+Australia to East Antarctica\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+10.5 & 13.10 & 36.10 & -6.61 & Royer \& Chang 1991\\
+20.5 & 15.40 & 32.70 & -11.97 & Royer \& Chang 1991\\
+35.5 & 13.80 & 33.40 & -20.41 & Royer \& Chang 1991\\
+42.7 & 16.60 & 29.90 & -23.62 & Royer \& Sandwell 1989\\
+46.2 & 15.10 & 31.30 & -24.50 & Royer \& Sandwell 1989\\
+56.1 & 12.50 & 31.70 & -25.24 & Royer \& Sandwell 1989\\
+68.5 & 8.70 & 33.20 & -25.83 & Royer \& Sandwell 1989\\
+80.2 & 6.20 & 35.10 & -26.37 & Royer \& Sandwell 1989\\
+84.0 & 4.90 & 35.80 & -26.81 & Royer \& Sandwell 1989\\
+96.0 & 1.00 & 38.00 & -28.30 & Royer \& Sandwell 1989\\
+130.0 & -2.00 & 38.90 & -31.50 & Royer \& Sandwell 1989\\
+\hline
+East Antarctica to Central Africa\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+10.5 & 8.20 & -49.40 & 1.53 & Royer \& Chang 1991\\
+20.5 & 10.70 & -47.90 & 2.78 & Royer \& Chang 1991\\
+35.5 & 12.00 & -48.40 & 5.46 & Royer \& Chang 1991\\
+46.2 & 11.40 & -43.70 & 7.81 & Royer et al. 1988\\
+50.3 & 10.30 & -42.90 & 8.77 & Royer et al. 1988\\
+56.1 & 6.70 & -40.60 & 9.97 & Royer et al. 1988\\
+60.8 & 3.80 & -39.70 & 10.63 & Royer et al. 1988\\
+64.3 & 0.60 & -39.20 & 11.32 & Royer et al. 1988\\
+66.2 & -0.40 & -39.40 & 11.59 & Royer et al. 1988\\
+68.5 & 1.10 & -41.60 & 11.84 & Royer et al. 1988\\
+73.6 & -1.80 & -41.40 & 13.47 & Royer et al. 1988\\
+80.2 & -4.70 & -39.70 & 16.04 & Royer et al. 1988\\
+84.0 & -2.00 & -39.20 & 17.85 & Royer et al. 1988\\
+118.7 & -4.20 & -29.10 & 42.80 & Royer et al., 1992\\
+123.0 & -4.60 & -29.10 & 44.17 & Royer et al., 1992\\
+141.9 & -7.00 & -26.90 & 50.70 & Royer et al., 1992\\
+149.9 & -4.70 & -29.00 & 52.84 & Royer et al., 1992\\
+165.0 & -7.78 & -31.42 & 58.00 & Lawver \& Scotese 1987\\
+\hline
+Kerguelen to East Antarctica\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+50.0 & 90.00 & 0.00 & 0.00 &  \\
+50.0 & 15.10 & 31.30 & 24.60 & Royer et al., 1992\\
+155.0 & 15.10 & 31.30 & 24.60 & Royer et al., 1992\\
+PACIFIC OCEAN (other ocean)\\
+\hline
+fixed to the global reference frame\\
+\hline
+Marie Byrd Land to East Antarctica\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+95.0 & 90.00 & 0.00 & 0.00 &  \\
+130.0 & 62.27 & 21.84 & 13.27 & Lawver \& Scotese 1987\\
+245.0 & 62.27 & 21.84 & 13.27 & Lawver \& Scotese 1987\\
+\hline
+Bellinghausen plate to Pacific\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+4.7 & 66.20 & -83.50 & - 4.13 & Mayes et al. 1990\\
+10.6 & 70.44 & -78.84 & -9.12 & Mayes et al. 1990\\
+25.8 & 73.13 & -72.44 & -19.52 & Mayes et al. 1990\\
+30.0 & 73.73 & -69.54 & -22.52 & Mayes et al. 1990\\
+35.9 & 73.67 & -65.98 & -26.68 & Mayes et al. 1990\\
+42.7 & 72.78 & -64.61 & -29.89 & Mayes et al. 1990\\
+49.6 & 72.09 & -63.44 & -33.93 & Mayes et al. 1990\\
+59.2 & 71.81 & -60.67 & -39.39 & Mayes et al. 1990\\
+65.1 & 70.77 & -58.37 & -45.52 & Mayes et al. 1990\\
+69.4 & 70.31 & -56.34 & -50.92 & Mayes et al. 1990\\
+74.0 & 69.92 & -54.75 & -56.33 & Mayes et al. 1990\\
+\hline
+Lord Howe Rise to Australia\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+55.7 & 90.00 & 0.00 & 0.00 & Weissel \& Hayes 1977\\
+60.5 & -1.50 & 138.50 & -2.55 & Weissel \& Hayes 1977\\
+65.8 & -5.50 & 140.50 & -6.60 & Weissel \& Hayes 1977\\
+72.7 & -11.40 & 41.50 & -12.75 & Weissel \& Hayes 1977\\
+77.2 & -14.00 & 142.00 & -19.00 & Weissel \& Hayes 1977\\
+84.0 & -14.00 & 148.00 & -23.34 & Royer et al., 1992 (fit)\\
+245.0 & -14.00 & 148.00 & -23.34 & Royer et al., 1992\\
+\hline
+Pacific to Marie Byrd Land\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+4.8 & 66.20 & -83.50 & 4.13 & Mayes et al. 1990\\
+10.6 & 70.44 & -78.84 & 9.12 & Mayes et al. 1990\\
+26.0 & 73.13 & -72.44 & 19.52 & Mayes et al. 1990\\
+30.3 & 73.73 & -69.54 & 22.52 & Mayes et al. 1990\\
+35.9 & 73.67 & -65.98 & 26.68 & Mayes et al. 1990\\
+42.7 & 72.78 & -64.61 & 29.89 & Mayes et al. 1990\\
+49.5 & -73.42 & 122.78 & -35.15 & Stock \& Molnar 1987\\
+50.3 & 72.09 & -63.44 & 33.93 & Mayes et al. 1990\\
+59.2 & 70.32 & -63.45 & 36.77 & Mayes et al. 1990\\
+65.1 & 68.69 & -63.47 & 39.88 & Mayes et al. 1990\\
+69.4 & 67.12 & -63.02 & 4.53 & Mayes et al. 1990\\
+84.0 & 64.94 & -62.49 & 53.09 & Mayes et al. 1990\\
+90.0 & 64.03 & -56.96 & 57.65 & Mayes et al. 1990\\
+For times > 90 Ma, the Pacific plate is\\
+90.0 & 64.00 & -73.30 & 54.47 & calculated from Mayes et al. 1990\\
+\hline
+Nazca to Pacific\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+4.8 & 58.86 & -89.43 & -6.60 & Mayes et al. 1990\\
+10.6 & 60.13 & -89.76 & -15.18 & Mayes et al. 1990\\
+20.5 & 64.50 & -91.50 & -30.70 & calculated from Mayes et al. 1990\\
+26.0 & 65.41 & -92.00 & -39.35 & Mayes et al. 1990\\
+26.0 & 38.80 & -84.30 & -20.79 & Royer et al., 1992\\
+\hline
+Vancouver to Pacific\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+10.4 & 72.00 & 6.40 & -14.76 & Royer et al., 1992\\
+20.5 & 82.60 & 4.60 & -15.65 & Royer et al., 1992\\
+35.3 & 88.50 & -134.00 & -34.99 & Royer et al., 1992\\
+41.3 & 87.50 & -161.00 & -43.34 & Royer et al., 1992\\
+48.8 & 86.50 & -168.90 & -51.80 & Royer et al., 1992\\
+61.0 & 85.20 & 125.80 & -59.54 & Royer et al., 1992\\
+69.0 & 82.50 & 108.40 & -66.24 & Royer et al., 1992\\
+84.0 & 77.10 & 93.60 & -75.91 & Royer et al., 1992\\
+133.5 & 63.80 & 78.60 & -108.58 & Royer et al., 1992\\
+158.0 & 57.10 & 81.10 & -121.36 & Royer et al., 1992\\
+\hline
+Cocos to Pacific\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+0.0 & 90.00 & 0.00 & 0.00 &  \\
+4.8 & 36.80 & -108.60 & -10.03 & DeMets et al. 1990\\
+10.4 & 34.00 & -106.80 & -22.73 & Royer et al., 1992\\
+20.5 & 37.30 & -113.30 & -31.62 & Royer et al., 1992\\
+20.5 & 55.40 & -117.70 & -42.28 & Royer et al., 1992\\
+\hline
+Izanagi to Pacific\\
+\hline
+Age & Lat & Lon & Angle & Reference\\
+84.0 & 90.0 & 0.0 & 0.0 & Engebretson 1983\\
+131.7 & 54.5 & 6.6 & 64.15 & Royer et al., 1992\\
+141.9 & 64.7 & 15.7 & 68.33 & Royer et al., 1992\\
+149.9 & 57.5 & 96.3 & 87.76 & Royer et al., 1992\\
+156.6 & 60.5 & 80.8 & 79.43 & Royer et al., 1992\\
+\hline
+references:\\
+Barker, P. and Lawver, L., 1986, unpublished.\\
+Barker, P.F., 1982, The Cenozoic subduction history of the Pacific margin of the Antarctic Peninsula: ridge crest-trench interactions, J. Geol. Soc. London, 139: 787-801.\\
+\hline
+Bergh, H.W., 1985, pers. comm.\\
+\hline
+Bergh, H.W., 1987, Underlying fracture zone nature of Astrid Ridge off Antarctica's Queen Maud Land, J. Geophys. Res., 92: 475-484.\\
+\hline
+Bott, M.N.P., 1987, The continental margin of central East Greenland in relation to North Atlantic plate tectonic evolution, J. Geol. Soc., London, 144: 561-568.\\
+\hline
+Buffler, R., Shaub., J. Huerta, R., Ibrahim, A. and Watkins, D., 1981, A model for the early evolution of the Gulf of Mexico Basin, Oceanol. Acta, C3, pp. 129-136.\\
+\hline
+Burns, R.E., Andrews, J.E., et al., 1973, Initial Reports of the Deep Sea Drilling Project, Leg XXI, Washington (U.S. Govt. Printing Office).\\
+\hline
+Canadian Hydrographic Service, 1981, General Bathymetric Map of the Oceans (GEBCO), scale 1:10,000,000.\\
+\hline
+Cande, S., LaBrecque, J.L., and Haxby, W.B., 1988, Plate kinematics of the South Atlantic: Chron 34 to present, J. Geophys. Res., 93(B11): 13479-13492.\\
+\hline
+Cande, S.C., Herron, E.M., and Hall, B.R., 1982, The early Cenozoic history of the southeast Pacific, Earth Planet. Sci. Letters, 57: 47-62.\\
+\hline
+Cande, S.C., Larson, R.L., and LaBrecque, J.L., 1978, Magnetic lineations in the Pacific Jurassic Quiet Zone, Earth Planet. Sci. Letters, 41: 434-440.\\
+\hline
+Caress, D.W., Menard, H.W., and Hey, R.N., 1988, Eocene reorganization of the Pacific-Farallon Spreading Center north of the Mendocino Fracture Zone, J. Geophys. Res., 93: 2813-2838.\\
+\hline
+Case, J. and Holcombe, T., 1980, Gologic-tectonic map of the Caribbean region, scale 1:2,500,000.\\
+\hline
+Christofel, D.A. and Falconer, R.F., 1972, Marine magnetic measurements in the southwest Pacific Ocean and the identification of new tectonic features, Antarctic Oceanology II -The Antarctic - New Zealand Sector.\\
+\hline
+Cochran, J. R., 1981, The Gulf of Aden: Structure and evolution of a young ocean basin and continental margin, J. Geophys. Res., 86: 263-287.\\
+\hline
+Cochran, J.R., 1988,The Somali Basin, Chain Ridge and the origin of the northern Somali Basin gravity and geoid low, J. Geophys. Res., 93(B10): 11,985 - 12,008.\\
+\hline
+Curray, J.R., Moore, D.G., Lawver, L.A., Emmel, F.J., Raitt, R.W., Henry, M., and Kieckhefer, R., 1979, Tectonics of the Andaman Sea and Burma, in J.S. Watkins, J. Montadert and P.W. Dickerson (editors), Geological and Geophysical Investigations of Continental Margins, pp. 189-198.\\
+\hline
+Currie, R.G., Seeman, D.A., and Riddihough, R.P., 1982, Total field magnetic anomaly offshore British Columbia, Geological Survey of Canada Open-File Report 828, scale 1:1,000,000.\\
+\hline
+Davies, T.A., Luyendyk, B.P., et al., 1974, Leg XXVI, Initial Reports of the Deep Sea Drilling Project, Washington (U.S. Govt. Printing Office).\\
+\hline
+DeMets, C., Gordon, R.G., Argus, D.F., and Stein, S., 1990, Current plate motions, Geophysical Journal International, 101: 425-478.\\
+\hline
+Dunbar, J. and Sawyer, D., 1986, Crust extension within the Gulf of Mexico: Implications for the breakup of Western Pangea, abs. from 1986 Geodynamics Symposium.\\
+\hline
+Eldholm, O. and Thiede, J., 1987, Summary and preliminary conclusions, OPD Leg 104: Proceedings, Ocean Drilling Program Initial Reports, Part A, 751-771.\\
+\hline
+Elvers, D.J., Mathewson, C.C., Kohler, R.E., and Moses, R.L., 1967, Systematic ocean surveys by the USC and GSS Pioneer 1961-1963: Coast and Geodetic Survey Operational Data Report C and GSDR-1, 19 P.\\
+\hline
+Emery, K.O. and Uchupi., E., 1984, The Geology of the Atlantic Ocean, Springer, New York, 1050 p. 9301\\
+\hline
+Fischer, A.G., et al., 1971, Initial Reports of the Deep Sea Drilling Project, Leg VI, Washington (U.S. Govt. Printing Office).\\
+\hline
+Fisher, R.L., Sclater, J.G. and McKenzie, D., 1971, Evolution of the Central Indian Ridge, GSA Bull. 82: 553-562.\\
+\hline
+Gahagan, L.M., Scotese, C.R., Royer, J.-Y., Sandwell, D.T., Winn, J.K., Tomlins, R.L., Ross, M.I., Newman, J.S., Müller, R.D., Mayes, C.L., Lawver, L.A., and Heubeck, C.E., 1988, Tectonic fabric map of the ocean basins from satellite altimetry data, Tectonophysics, 155: 1-26.\\
+\hline
+Goodlad, S.W., Martin, A.K., and Hartnady, C., 1982, Mesozoic magnetic anomalies in the southern Natal Valley, Nature, 295: 686-688.\\
+\hline
+Guennoc, P. Pautot, G., and Coutell, A., 1988, Surficial structures of the northern Red Sea azial valley from 23°N to 28°N: time and space evolution of neo-oceanic structures, Tectonophysics Special Issue on The Gulf of Suez and Red Sea rifting, 153: 1-23.\\
+\hline
+Hamilton, Warren, 1978, Tectonic map of the Indonesian region,USGS Survey, Map I-875-D, Reston, Va.\\
+\hline
+Handschumacher, D.W., 1976, Post-Eocene plate tectonics of the Eastern Pacific, in The Geophysics of the Pacific Ocean Basin and its Margins, in The Geophysics of the Pacific Ocean Basin and its Margins, AGU Monograph 19, ed.G.H.Sutton, et al., Washington: AGU, pp. 177-202.\\
+\hline
+Handschumacher, D.W., Pilger, R.H. Jr., Foreman, J.A., and Campbell, J.F., 1981, Structure and evolution of the Easter plate, GSA Memoir 154, pp. 63-76.\\
+\hline
+Hayes, D.E. and Taylor, B., 1978, A geophysical atlas of the East and Southeast Asian Seas, GSA Map and Chart Series MC-25,Washington, D.C.\\
+\hline
+Herron, E.M.,1972, Sea-floor spreading and the Cenozoic history of the east-central Pacific, GSA Bull., 83: 1671-1692.\\
+\hline
+Hilde, T.W.C., Isezki, Nobuhiro, and Wageman, J.M., 1976, in The Geophysics of the Pacific Ocean Basin and its Margins, p. 205-226 (Geophys. Mono. 19).\\
+\hline
+Hill, K.C. and Hayward, A.B., 1988, Structural constraints on the Tertiary plate tectonic evolution of Italy, Mar. Petr. Geol., 5: 2-16.\\
+\hline
+Jennings, C.W., 1961, Geologic map of California: Kingman sheet, scale 1:250,000, California Division of Mines and Geology, Sacramento, CA.\\
+\hline
+Johnson, H.P. and Holmes, M.L., 1989, Evolution in plate tectonics: The Juan de Fuca Ridge, in Winterer, E.L., Hussong, D.M. and Decker, R.W. (eds), The Eastern Pacific Ocean and Hawaii, The Geology of North America, Geological Society of America, Boulder, Colorado, Vol. N., pp. 73-91.\\
+\hline
+Karasik, A.M., Mercuryer, S.A., Mitin, L.I., Sochevanova, N.A., Yanovsky, V.N., 1986, Documents of the Academy of Science of the USSR, 286: 933-938.\\
+\hline
+Klitgord, K.D. and Mammerickx, J., 1983, Northern East Pacific Rise: Magnetic anomaly and bathymetric framework, J. Geophys. Res., 6725-6750.\\
+\hline
+Klitgord, K.D. and Schouten, H. 1986, Plate kinematics of the central Atlantic, in Vogt, P.R. and Tucholke, B.E., eds., The Western North Atlantic Region, GSA DNAG vol. M, pp. 351-378.\\
+\hline
+Kroenke, L.W., Jouannic, C. and Woodward, P., 1983, Bathymetry of the southwest Pacific, Geophysical Atlas of the southwest Pacific, chart 1, UNIGCP 110, United Nations ESCAP, New York.\\
+\hline
+LaBrecque, J.L. and Cande, S.C., 1986, Total intensity magnetic anomaly profiles, Northwest Ocean Margin Drilling Program, Regional Data Synthesis Series, Atlas 13, S. Atlantic Ocean and Adjacent Antarctic Continental Margin.\\
+\hline
+LaBrecque, J.L. and Hayes, D.E., 1979, Seafloor spreading history of the Agulhas Basin, Earth and Planet. Sci. Letters, 45: 411-428.\\
+\hline
+Ladd, J.W., 1974, South Atlantic seafloor spreading and Carribean tectonics, Ph.D.thesis, 251pp., Columbia University, New York, 1974.\\
+\hline
+Larsen, H.L., 1984, Geology of the East Greenland shelf: in Petroleum Geology of the North European Margin, Norweg. Pet. Soc., Graham \& Trotman, pp. 329-339.\\
+\hline
+Larson R.L., Carpenter, G.B., and Diebold, J.B., 1978, A geophysical study of the Wharton Basin near the Investigator Fracture Zone, J. Geophys. Res., 83(B2): 773-782.\\
+\hline
+Larson, R.L., Pitman, W.C., Golobchenko, X., Cande, S.C., Dewey, J.F., Haxby, W.F. and LaBrecque, J.L., 1985, The Bedrock Geology of the World (color map), Freeman and Co., New York, NY.\\
+\hline
+Lawver, L.A., Müller, R.D., Srivastava, S.P., and Roest, W., 1990, The Opening of the Arctic Ocean, in Geologic History of the Polar Oceans: Arctic Versus Antarctic, U. Bleil and J. Thiede (eds.), from the NATO Symposium (October, 1988) in Bremen, West Germany, pp. 29-62.\\
+\hline
+Lawver, L.A., and Scotese, C.R., 1987, A revised reconstruction of Gondwanaland, in McKenzie, G.D., ed., Gondwana Six: Structure, Tectonics, and Geophysics, AGU Geophysical Monograph 40 , 17-24.\\
+\hline
+LePichon, X. and J.-M. Gaulier, 1988, The rotation of Arabia and the Levant fault system, Tectonophysics, 153: 271-294.\\
+\hline
+Liu, C.S., Curray, J., and McDonald, J.M., 1982, New constraints on the tectonic evolution of the Eastern Indian Ocean, Earth and Planet.Sci. Letters, 331-342.\\
+\hline
+Lonsdale, P., 1988, Structural patterns of the Pacific floor offshore of Peninsula California, in Gulf and Peninsula Provinces of the Californias, AAPG Memoir, in press.\\
+\hline
+Mammerickx, J., Fisher, R.L., Emmel, K.J., and Smith, S.M., 1976, Bathymetry of the East and Southeast Asian Seas, GSA Map and Chart Series MC-17, Washington, D.C.\\
+\hline
+Mammerickx, J., Herron, E.M., and Dorman, L., 1980, Evidence for two fossil spreading ridges in the southeast Pacific, GSA Bull.,91: 263-271.\\
+\hline
+Mammerickx, J., Naar, D.F., and Tyuce, R.L., 1988, The Mathematician Paleo-plate, J. Geophys. Res., 93: 3025-3040.\\
+\hline
+Mammerickx, J. and Sharman, G.F., 1988, Tectonic evolution of the North Pacific during the Cretaceous Quiet Period, J. Geophys, Res., 93: 3009-3024.\\
+\hline
+Markl, R.G., 1974, Evidence for the breakup of Eastern Gondwanaland by the Early Cretaceous, Nature, 251: 196-199.\\
+\hline
+Markl, R.G., 1978, Further evidence for the Early Cretaceous breakup of Gondwanaland off Southwestern Australia, Earth and Planet. Sci. Letters, 39: 211-225.\\
+\hline
+Martin, A.K., Goodlad, S.W., Hartnady, C.J.H., and du Plessis, A.,1982, Cretaceous paleopositions of the Falkland Plateau relative to southern Africa using Mesozoic seafloor spreading anomalies,Geophys. J. R. astr. Soc., 71: 567-579.\\
+\hline
+Mayes, C.L., Lawver, L.A., and Sandwell, D.T., 1990, Tectonic history and new isochron chart of the South Pacific, Journal of Geophysical Research, 95(B6), pp. 8543-8567, 1990.\\
+\hline
+McKenzie, D. and Sclater, J.G., 1971,The evolution of the Indian Ocean since the Late Cretaceous, Geophys J. Roy. Ast. Soc., 25: 437-528.\\
+\hline
+Mejorada, P., 1976, Carta geologica del la Republica Mexicana, scale 1:2,000,000.\\
+\hline
+Mohr, P., and Zannettin, B., 1988. The Ethiopian flood basalt province. In Macdougall, J.D., ed., Continental Flood Basalts: Dordrecht, The Netherlands (Kluwer), 63-110.\\
+\hline
+Molnar, P., Atwater, T., Mammerickx, J., and Smith, S.M., 1975, Magnetic anomalies, bathymetry, and the tectonic evolution of the South Pacific since the Late Cretaceous, Geophys. J.R. Astr. Soc., 40: 383-420.\\
+\hline
+Müller, R.D., Sandwell, D.T., Tucholke, B.E., Sclater, J.G., and Shaw, P.R., 1990, Depth to basement and geoid expression of the Kane Fracture Zone: a comparison, Marine Geophysical Researches, 13: 105-129.\\
+\hline
+Müller, R.D. and Roest, W.R., 1992, Fracture zones in the North Atlantic from combined Geosat and Seasat data, Journal of Geophysical Research, 97(B3): 3337-3350.\\
+\hline
+Nakanishi, M., Tamaki, K., and Kobayashi, K., 1989, Mesozoic magnetic anomaly lineations and seafloor spreading history of the Northwestern Pacific, Journal of Geophysical Research, 94(B11): 15,437-15,462.\\
+\hline
+Nakanishi, M., Tamaki, K., and Kobayashi, K., 1992, Magnetic anomaly lineations from Late Jurassic to Early Cretaceous in the west-central Pacific Ocean, Geophysical Journal International, 109: 701-719.\\
+\hline
+New Zealand Geological Survey, 1972, "Geological map of New Zealand 1:1,000,000", North and South Islands sheets (1st edition), Department of Scientific and Industrial Research, Wellington, New Zealand.\\
+\hline
+Norton, I.O. and Sclater, J.G., 1979, A model for the evolution of the Indian Ocean and the breakup of Gondwanaland, J. Geophys. Res., 84: 6803-6830.\\
+\hline
+Nürnberg, D. and Müller, R.D., 1991, The tectonic evolution of the South Atlantic from Late Jurassic to present, Tectonophysics, 191: 27-53.\\
+\hline
+Ohta, Y., 1982, Morpho-tectonic studies around Svalbard and the northernmost Atlantic, Can. Soc. Pet. Geol. Mem. 8, pp. 415-429.\\
+\hline
+Otsuki, K. and Ehiro, M., 1979, Major strike-slip faults and their bearing on spreading in the Japan Sea, in Uyeda, S., Murphy, R.W., and Kobayashi, K. (eds.), Geodynamics of the Western Pacific, Proceedings of the International Conference on Geodynamics of the Westrn Pacific-Indonesian Region, March 1978, Tokyo, Advances in Earth and Planetary Sciences, vol. 6, pp. 537-555.\\
+\hline
+Packhorn, G.H. (Ed.), 1982, The evolution of the India-Pacific plate boundaries, Tectonophysics, Special Issue, 87: 1-397.\\
+\hline
+Pardo-Casas, F. and Molnar, P., 1987, Relative motion of the Nazca (Farallon) and South American plates since Late Cretaceous time, Tectonics, 6(3): 215-232.\\
+\hline
+Patriat, P., 1987, Reconstitution de l'évolution du systéme de dorsales de l'Océan Indien par les méthodes de la cinématique des plaques, Territoire des Terres Australes et Antarctique Françcaises (ed.), 308 p., PhD Thesis, Université de Paris VI, France. [Central Indian Ridge]\\
+\hline
+Perry, R.K., Fleming, H.S., Weber, J.R., Kristoffersenn, Y., Hall, J.K., Grantz, A., and Johnson, G.L., 1985, Bathymetry of the Arctic Ocean, Naval Research Laboratory - Acoutistics Division, scale 1:4,704,075 at 78°N.\\
+\hline
+Piccirillo, E.M., Melfi, A.J., Comin-Chiaramonti, P., Bellieni, G., Ernesto, M., Margues, L.S., Nardy, A.J.R., Pacca, I.G., Roisenberg, A., and Stolfa, D., 1988. Continental flood volcanism from the Paraná Basin (Brazil). In Macdougall, J.D., ed., Continental Flood Basalts: Dordrecht, The Netherlands (Kluwer), 195-238.\\
+\hline
+Rabinowitz, P.D. and LaBrecque, J.L., 1979, The Mesozoic South Atlantic Ocean and evolution of its continental margins, J. Geophys. Res., 84: 5973-6002.\\
+\hline
+Raff, A.D. and Mason, R.G., 1961, Magnetic survey off the west coast of North America, 40°N Latitude to 52°N Latitude, GSA Bull., 72: 1267-1270.\\
+\hline
+Roest, W.R. and Srivastava, S.P., 1989, Seafloor spreading in the Labrador Sea: a new reconstruction, Geology, 17: 1000-1004.\\
+\hline
+Rosencrantz, E., Ross, M. and Sclater, J.G., 1988, Age and spreading history of the Cayman Trough as determined from depth, heat flow, and magnetic anomalies, J. Geophys. Res., 93(B3): 2141-2157.\\
+\hline
+Ross, M.I. and Scotese, C.R., 1988, A hierarchical tectonic model of the Gulf of Mexico and Caribbean region, Tectonophysics, 155: 139-168.\\
+\hline
+Royer, J.-Y., 1987, Evolution of the Eastern Indian Ocean: new constraints from satellite altimetry data, Paleoceanographic Mapping Project Progress Report #29-1287.\\
+\hline
+Royer, J.-Y., Patriat, P., Bergh, H.W., and Scotese, C. R., 1988, Evolution of the Southwest Indian Ridge from the Late Cretaceous (anomaly 34) to the Middle Eocene (anomaly 20),Tectonophysics , 155: 235-260.\\
+\hline
+Royer, J.Y. and Sandwell, D.T., 1989, Evolution of the Eastern Indian Ocean Since the Late Cretaceous: Constraints from Geosat Altimetry, J. Geophys. Res., 94(B10): 13,755-13,782.\\
+\hline
+Royer, J.-Y., Sclater, J.G., and Sandwell, D.T., 1989, A preliminary tectonic fabric chart of the Indian Ocean, Proceedings of the Indian Academy of Sciences (Earth and Planetary Sciences), 98(1): 7-24.\\
+\hline
+Schlich, R., 1982, The Indian Ocean: Aseismic ridges, spreading centers and basins, in Nairn, A.E.M., and Stehli, F., The Indian Ocean, 6: 51-147.\\
+\hline
+Schlich, R., Coffin, M. F., Munschy, M., Stagg, H. M. J., Li, Z., G., Revill, K., 1987, Bureau of Mineral Resource, Canberra, Australia, and the Institut de Physique du Globe, Strasbourg, France\\
+Sclater, J.G., Luyendyk, B.P., and Meinke, L., 1976, Magnetic lineations in the southern part of the Central Indian Basin, GSA Bull., 87: 371-378.\\
+\hline
+Searle, R., 1980, Tectonic pattern of the Azores spreading centre and triple junction, Earth Planet. Sci. Let., 51: 415-434.\\
+\hline
+Segoufin, J. and Patriat, P., 1981, Reconstructions de l'océan Indian occidental pour les époques des anomalies M21, m2 et 34, paléoposition de Madagascar, Bull. Soc. Geol. France, 23: 603-607.\\
+\hline
+Segoufin, J., 1981, Ph.D. thesis; Mozambique Basin magnetics.\\
+\hline
+Sharman, G.F. and Risch, D.L., 1988, Northwest Pacific tectonic evolution in the Middle Mesozoic, Tectonophysics, 155: 331-344\\
+\hline
+Srivastava, S.P. and Roest, W.R., 1989, Seafloor spreading history II-IV, in East Coast Basin Atlas Series: Labrador Sea, J.S. Bell (co-ordinator). Atlantic Geoscience Centre, Geologic Survey of Canada, Map sheets L17-2 - L17-6.\\
+\hline
+Srivastava, S.P., and Tapscott, C.R., 1986, Plate kinematics of the North Atlantic, in Tucholke, B.E., and Vogt, P.R., eds., The Geology of North America: The Western Atlantic Region, DNAG Series, vol. M, Geol. Soc. of America, pp. 379-404.\\
+\hline
+Stock, J., and Molnar, P., 1987, Revised history of early Tertiary plate motion in the south-west Pacific, Nature, 325: 495-499.\\
+\hline
+Tamaki, K., Toshima, M. and Larson, R.L., 1979, Remnant Early Cretaceous spreading center in the central Pacific Basin, J. Geophys. Res., 84: 4501-4510.\\
+\hline
+Tapscott, C., Patriat, P., Fisher, R.L., Sclater, J.G., Hoskins, H., and Parsons, B., 1980, The Indian Ocean triple junction,J. Geophys. Res., 85: 4723-4739.\\
+\hline
+Theberge, A.E., Jr., 1971, Magnetic survey off southern California and Baja California: Rockwel, Maryland, National Oceanographic and Atmospheric Administration, National Ocean Survey, scale 1:1,000,000.\\
+\hline
+Veevers, J.J., Tayton, J.W., Johnson, B.D., and Hansen, L., 1985, Magnetic expression of the continent-ocean boundary between the western margin of Australia and the Eastern Indian Ocean, J. Geophys., 56: 106-120.\\
+\hline
+Veevers, J.J., Tayton, J.W., Johnson, B.D., and Hansen, L., 1985, Magnetic expression of the continent-ocean boundary between the western margin of Australia and the Eastern Indian Ocean, J. Geophys., 56: 106-120.\\
+\hline
+Veevers, J.J., 1986, Breakup of Australia and Antarctica estimated as mid-Cretaceous (95+5 Ma) from magnetic and seismic data at the continental margin, Earth Planet. Sci. Lett., 77: 91-99.\\
+\hline
+Veevers, J.J., 1986, Breakup of Australia and Antarctica estimated as mid-Cretaceous (95+5 Ma) from magnetic and seismic data at the continental margin, Earth Planet. Sci. Lett., 77: 91-99.\\
+\hline
+Veevers, J.J., 1986, Breakup of Australia and Antarctica estimated as mid-Cretaceous (95+5 Ma) from magnetic and seismic data at the continental margin, Earth Planet. Sci. Lett., 77: 91-99.\\
+\hline
+Vogt, P.R., Cherkis, N.Z., Morgan, G.A., 1983, Project Investigator I: Evolution of the Australia-Antarctic discordance deduced from a detailed aeromagnetic survey, Antarctic Earth Science, 608-613.\\
+\hline
+Weissel, J.K. and Hayes, D.E., 1972,Magnetic anomalies in the Southeast Indian Ocean, in Antarctic Oceanology II - The Antarctic - New Zealand Sector, D.E. Hayes (ed.), Am. Geophys. Union., Ant. Res. Ser., 19: 165-196.\\
+\hline
+Weissel, J.K., Hayes, D.E., and Herron, E.M., 1977, Plate tectonics synthesis: the displacements between Australia, New Zealand, and Antarctica since the Late Cretaceous, Marine Geology, 25: 231-277.\\
+\hline
+Whitmarsh, R.B., Wese, O.E., Ross, D.A., et al., 1974, Initial Reports of the DSDP, 23: 527-535, Washington, (U.S. Government Print. Office).\\
+\hline
+Whitmarsh, R.B., 1974, Some aspects of plate tectonics in the Arabian Sea, in R.B. Whitmarsh, O.E. Weser, D.A. Ross, et al., Init. Rep. D.S.D.P., Washington (U.S. Government Printing Office) 23: 527-535.\\
+\hline
+World Data Bank #2 (CIA), Cartographic Database - Natural and manmade features of the world (digitized format), NTIS PB 271-874.\\
+\hline
+Ziegler, P.A., 1982, Geological atlas of Western and Central Europe, Shell Int. Petr. Maatschappij B.V. 130 p.\\
+\hline
+Ziegler, A.M., Scotese, C.R., and Barrett, S.F., 1983, Mesozoic and Cenozoic paleogeographic maps, in Tidal Friction and the Earth's Rotation II, Broche/Sundermann, eds., Springer-Verlag, Berlin, pp. 240 - 252.\\
+\hline

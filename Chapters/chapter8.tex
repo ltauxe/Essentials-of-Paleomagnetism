@@ -1,4 +1,4 @@
-%\customlink{Applied_rock_(environmental)_magnetism}
+\customlink{Applied_rock_(environmental)_magnetism}
 \chapter{Applied rock (environmental) magnetism}
 
 \noindent
@@ -819,19 +819,17 @@ There are many other excellent examples of applications of rock magnetic data to
 {\bf Problem 1}
 
 
-a) Use the program {\bf curie.py} 
+a) Use the function {\bf ipmag.curie.} 
 to calculate the Curie temperature of the data
-contained in the two data files  {\it curie\_example.dat} and {\it curie\_example2.dat}  in the Chapter\_8 directory of the Datafiles folder (see Problems to Chapter 5 for downloading instructions).    This program is designed to run on the command line, but can be run within an IPython notebook by using the -sav option.  To run a command line function from within an Python notebook, just put an exclamation point before the command.  So, to see how any of the PmagPy programs work from within the Python notebook, 
-type !ProgramName -h   in a code block.    Try this with {\bf curie.py}. 
+contained in the two data files  {\it curie\_example.dat} and {\it curie\_example2.dat}  in the Chapter\_8 directory of the data  folder (see Preface instructions).    This funtion is designed to run in  a Jupyter notebook.
 
-
-b) The way {\bf curie.py} works is to use a triangular sliding window and average over a range of temperature steps.   Then it calculates the first and second derivatives of the data and uses the maximum curvature (maximum in the second derivative) to estimate the Curie Temperature.   It can be tricky to get the ``right'' temperature, especially if there are two inflections and/or the data are noisy.  Therefore, the program will scan through a range of smoothing intervals. You can truncate the interval over which you want to look using the -t option and set the smoothing interval desired with the -w option.  
+b) The way {\bf ipmag.curie}  works is to use a triangular sliding window and average over a range of temperature steps.   Then it calculates the first and second derivatives of the data and uses the maximum curvature (maximum in the second derivative) to estimate the Curie Temperature.   It can be tricky to get the ``right'' temperature, especially if there are two inflections and/or the data are noisy.  Therefore, the program will scan through a range of smoothing intervals. You can truncate the interval over which you want to look (see the help message for the {\bf ipmag.curie}) and set the smoothing interval.  
 The program has a default smoothing window width of 3$^{\circ}$, which is usually too small to get an accurate Curie Temperature.  
 The first data file is not very noisy and the second is noisier.   
-  Note that you MUST use the -sav option within the Python notebook or the program will hang.  
 
 
- First  look at each data file using the defaults.  To view the images from within the notebook you will need to import  the Image module from Python.display (from Python.display import Image) and then use the Image(filename='IMAGE\_NAME') command to display the image.  Now choose the optimal smoothing interval (the smallest
+
+ First  look at each data file using the defaults. Then, choose the optimal smoothing interval (the smallest
 interval necessary
 to isolate the correct peak in the second derivative). Finally, repeat
 this, but  truncate
@@ -842,7 +840,7 @@ the data set to between 400$^{\circ}$ to 600$^{\circ}$.
 
 {\bf Problem 2}
 
-Rock magnetic parameters have been used extensively to study the Chinese sequences of loess.  Data from one such study (Hunt et al., 1995) \nocite{hunt95} is saved in the file loess\_rockmag.dat in the Chapter\_8 directory of the Datafiles folder.   The data columns are:  stratigraphic position in meters below reference horizon,   total mass normalized magnetic susceptibility ($\kappa_{total}$) in ($\mu $m)$^3$kg$^{-1}$,   and sIRM in (mAm)$^2$kg$^{-1}$.   The paramagnetic susceptibility  ($\kappa_p$) for the section was relatively constant at about 60 nm$^3$kg$^{-1}$.   
+Rock magnetic parameters have been used extensively to study the Chinese sequences of loess.  Data from one such study (Hunt et al., 1995) \nocite{hunt95} is saved in the file loess\_rockmag.dat in the Chapter\_8 directory.   The data columns are:  stratigraphic position in meters below reference horizon,   total mass normalized magnetic susceptibility ($\kappa_{total}$) in ($\mu $m)$^3$kg$^{-1}$,   and sIRM in (mAm)$^2$kg$^{-1}$.   The paramagnetic susceptibility  ($\kappa_p$) for the section was relatively constant at about 60 nm$^3$kg$^{-1}$.   
 
 Make plots of total susceptibility, ferromagnetic susceptibility ($\kappa_f = \kappa_{total} - \kappa_p$), sIRM and the ratio $\kappa_f/$sIRM/ versus stratigraphic position.     The reference horizon was the top of the modern soil, $S_0$.  
 

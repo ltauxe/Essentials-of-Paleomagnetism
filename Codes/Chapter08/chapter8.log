@@ -1,0 +1,32 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2007.5.18)  6 OCT 2008 13:27
+entering extended mode
+ %&-line parsing enabled.
+**chapter8.tex
+(./chapter8.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+! Undefined control sequence.
+l.1 \chapter
+            {Applied Rock (Environmental) Magnetism}
+? 
+! Emergency stop.
+l.1 \chapter
+            {Applied Rock (Environmental) Magnetism}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 94074
+ 126 string characters out of 1163007
+ 48804 words of memory out of 1500000
+ 3390 multiletter control sequences out of 10000+50000
+ 3640 words of font info for 14 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 5i,0n,1p,63b,8s stack positions out of 5000i,500n,6000p,200000b,5000s
+No pages of output.

@@ -1,0 +1,2 @@
+m428_loop.magic | agm_new_magic.py -WD "/Users/ltauxe/Desktop/4bakup/rockNpmag.08/Lectures/lecture_5/code/AGM_Data/MagIC" -F m428_loop.magic -f m428_loop  -spc m428_loop
+m428_loop.magic | agm_new_magic.py -WD "/Users/ltauxe/Desktop/4bakup/rockNpmag.08/Lectures/lecture_5/code/AGM_Data/MagIC" -F m428_loop.magic -f m428_loop  -spc m428_loop

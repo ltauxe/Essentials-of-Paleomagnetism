@@ -1,0 +1,7 @@
+drawtk03.py -L 30 -D 25 -R | awk '{print $1,$2,30,-20}' | di_tilt.py > limb1.geo
+drawtk03.py -L 30 -D 25 -R | awk '{print $1,$2,210,-45}' |di_tilt.py >limb2.geo
+awk '{print $1,$2,30,20}' limb1.geo |tee limb1.didd |di_tilt.py >limb1.strat 
+awk '{print $1,$2,210,45}' limb2.geo | tee limb2.didd | di_tilt.py >limb2.strat 
+cat limb?.didd |awk '{print $1,$2,$3-90,$4}'> data.disd
+cat limb?.geo |eqarea.py &
+cat limb?.strat |eqarea.py &

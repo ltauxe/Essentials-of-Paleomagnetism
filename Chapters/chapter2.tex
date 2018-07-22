@@ -1,4 +1,4 @@
-%\customlink{The_geomagnetic_field}
+\customlink{The_geomagnetic_field}
 \chapter{The geomagnetic field}
 \index{geomagnetic!field}
 \index{magnetic!field!Earth's}
@@ -235,34 +235,34 @@ observations to estimate the coefficients to $l=6$.  Nowadays, we have satellite
 
 \begin{table}[h!tb]
 \begin{center}
-\caption {IGRF,  10$^{th}$ generation (2005) to $l=6$.}
-\label{tab:igrf05}
+\caption {IGRF,  12$^{th}$ generation (2015) to $l=6$. (Thebault et al., 2015)}
+\label{tab:igrf15}
 \begin{tabular}{r r r r|rrrr}
 \hline
 $l$&$m$&$g $( nT) &$h$ (nT) & $l$&$m$&$g $( nT) &$h$ (nT) \\
 \hline
-1 & 0 & -29556.8 & 0 & 5 & 0 & -227.6 & 0\\
-1 & 1 & -1671.8 & 5080 & 5 & 1 & 354.4 & 42.7\\
-2 & 0 & -2340.5 & 0 & 5 & 2 & 208.8 & 179.8\\
-2 & 1 & 3047 & -2594.9 & 5 & 3 & -136.6 & -123\\
-2 & 2 & 1656.9 & -516.7 & 5 & 4 & -168.3 & -19.5\\
-3 & 0 & 1335.7 & 0 & 5 & 5 & -14.1 & 103.6\\
-3 & 1 & -2305.3 & -200.4 & 6 & 0 & 72.9 & 0\\
-3 & 2 & 1246.8 & 269.3 & 6 & 1 & 69.6 & -20.2\\
-3 & 3 & 674.4 & -524.5 & 6 & 2 & 76.6 & 54.7\\
-4 & 0 & 919.8 & 0 & 6 & 3 & -151.1 & 63.7\\
-4 & 1 & 798.2 & 281.4 & 6 & 4 & -15 & -63.4\\
-4 & 2 & 211.5 & -225.8 & 6 & 5 & 14.7 & 0\\
-4 & 3 & -379.5 & 145.7 & 6 & 6 & -86.4 & 50.3\\
-4 & 4 & 100.2 & -304.7 &  &  &  & \\
+1 & 0 & -29442.0 & 0 & 5 & 0 & -232.6 & 0\\
+1 & 1 & -1501.0 & 4797.1 & 5 & 1 & 360.1 & 47.3\\
+2 & 0 & -2445.1 & 0 & 5 & 2 & 192.4 & 197.0\\
+2 & 1 & 3012.9 & -2845.6 & 5 & 3 & -140.9 & -119.3\\
+2 & 2 & 1676.7 & -641.9 & 5 & 4 & -157.5 & 16.0\\
+3 & 0 & 1350.7 & 0 & 5 & 5 & 4.1 & 100.2\\
+3 & 1 & -2352.3 & -115.3 & 6 & 0 & 70.0 & 0\\
+3 & 2 & 1225.6 & 244.9 & 6 & 1 & 67.7 & -20.8\\
+3 & 3 & 582.0 & -538.4 & 6 & 2 & 72.7 & 33.2\\ 
+4 & 0 & 907.6 & 0 & 6 & 3 & -129.9 & 58.9\\
+4 & 1 & 813.7 & 283.3 & 6 & 4 & -28.9 & -66.7\\
+4 & 2 & 120.4 & -188.7 & 6 & 5 & 13.2 & 7.3\\
+4 & 3 & -334.9 & 180.9 & 6 & 6 & -70.9 & 62.6\\ 
+4 & 4 & 70.4 & -329.5 \\
  \hline
 \end{tabular}
 \end{center}
 \end{table}
-  
+  \nocite{thebault15}
 
 
-In order to get a feel for the importance of the various gauss coefficients, take a look at Table~\ref{tab:igrf05}, which has the Schmidt quasi-normalized gauss coefficients for the first six degrees from the IGRF for 2005.   
+In order to get a feel for the importance of the various gauss coefficients, take a look at Table~\ref{tab:igrf15}, which has the Schmidt quasi-normalized gauss coefficients for the first six degrees from the IGRF for 2005.   
 The power at each degree is the average squared field per spherical harmonic degree over the Earth's surface and is calculated by  $R_l=\sum_m (l+1)[(g_l^m)^2 + (h_l^m)^2]$
 \index{Lowes, F.J.} \nocite{lowes74} 
 (Lowes, 1974). 
@@ -387,7 +387,7 @@ to a  first approximation, we can write:
 \label{eq:Vmdip}
 \eeq
 
- Note that $g_1^0$ is given in nT in Table~\ref{tab:igrf05}.    Thus, from Equation~\ref{eq:Vmdip}, 
+ Note that $g_1^0$ is given in nT in Table~\ref{tab:igrf15}.    Thus, from Equation~\ref{eq:Vmdip}, 
 
 \begin{equation} 
 {B_N}=\mu_o H_N= {g_1^0 a^3 \sin \theta \over r^3}, \hskip 1em B_E=0, \hskip 1em \hbox{and} \hskip 1em
@@ -557,7 +557,7 @@ the Earth). The position of the pole at P ($\theta_p,\phi_p$)  can be calculated
 \label{fig:mkvgp}
 \end{figure}
 
-%\customlink{Virtual_geomagnetic_poles}
+\customlink{Virtual_geomagnetic_poles}
 \subsection{Virtual geomagnetic poles}
 \label{sect:vgp}
 
@@ -671,7 +671,7 @@ $$
 \noindent where $C = |1- (\cos D)^2|$.     Also, if  $-90 < \Delta \phi <0$ or if $ \Delta \phi > 180$, then $D = 360 - D$.       
  
 \index{virtual!dipole moment}%
-%\customlink{Virtual_dipole_moment}
+\customlink{Virtual_dipole_moment}
 \subsection {Virtual dipole moment}
 \label{sect:vdm}
 
@@ -705,8 +705,15 @@ derivation of Equation~\ref{eq:Bvdip}, we have
 {\parindent 0pt \parskip 12pt 
 \section{Problems}
  
-For this problem set, you will need the {\bf PmagPy}  package.  Refer to Problem 0 in Chapter 1 of this textbook for instructions.   Use the template in the Notebooks folder of the Essentials\_Examples folder described in Chapter 1.  
+For this and future problem sets, you will need the {\bf PmagPy}  package (see section in the Preface at the beginning of the book).  After you have installed this and properly set your path, you can import the functions from {\bf PmagPy} using these commands: 
 
+\begin{verbatim}
+import pmagpy.pmag as pmag
+import pmagpy.ipmag as ipmag
+import pmagpy.pmagplotlib as pmagplotlib
+\end{verbatim}
+
+Please consult the Jupyter notebook {\it data\_files/notebooks/\_PmagPy\_nb.ipynb} for more help  on using PmagPy functions within a notebook.  
 
 
 {\bf Problem 1}
@@ -714,14 +721,15 @@ For this problem set, you will need the {\bf PmagPy}  package.  Refer to Problem
 
 a) Write a python script in an Jupyter notebook
 that converts
-declination, inclination and intensity to North, East, and Down.   Read in the data from the Chapter\_2 example data in the data\_files/Essentials\_Examples/Chapter\_2 folder that is part of the PmagPy software distribution and run them through your function.  For this the {\bf loadtxt} function in the Numpy module will come in handy.   
+declination, inclination and intensity to North, East, and Down.   Read in the data in the file {\it Chapter\_2/ps2\_prob1\_data.txt}.  For this the {\bf loadtxt} function in the Numpy module will come in handy.   
 
 
-b) Choose 10 random spots on the surface of the earth.  Alternatively, you can use the {\bf pmag.py} function {\bf get\_unf} to generate a list for you.  Then 
-use the {\bf igrf} function  in the {\bf ipmag} module of the   {\bf PmagPy}  package to  evaluate  the declination, inclination and intensity at each of these locations in January 2006.  As with all {\bf PmagPy} programs, and functions, you can find out what they do by printing out the doc string:
+b) Choose 10 random spots on the surface of the earth.  You can use the {\bf pmag.get\_unf} to generate a list for you.  Then 
+use the {\bf ipmag.igrf} function   to  evaluate  the declination, inclination and intensity at each of these locations in January 2006.  As with all {\bf PmagPy} programs, and functions, you can find out what they do by printing out the doc string:
+ you can find out what they do by getting the help message:
 
 \begin{verbatim}
-print ipmag.igrf.__doc__
+help(ipmag.igrf)
 \end{verbatim}
 
 \noindent  Calls like these generates  help messages which will help you to call the function properly.  
@@ -733,13 +741,12 @@ c) Take the vectors from the output of  Problem 1b and convert them to cartesian
 
 {\bf Problem 2}
 
-a) Plot the IGRF directions from Problem 1b  on an equal area projection by hand.    Use the equal area net provided in Appendix~\ref{app:eqarea}.   Remember that the outer rim is  horizontal and the center of the diagram is vertical.  Azimuth goes around the rim with clockwise being positive.    Put a  thumbtack through the equal area (Schmidt) net and place a piece of tracing paper on the thumbtack. Mark the top of the stereonet with a tick mark on the tracing paper. 
+a) Plot the IGRF directions from Problem 1b  on an equal area projection by hand.    Use the equal area net provided in the Appendix.   Remember that the outer rim is  horizontal and the center of the diagram is vertical.  Azimuth goes around the rim with clockwise being positive.    Put a  thumbtack through the equal area (Schmidt) net and place a piece of tracing paper on the thumbtack. Mark the top of the stereonet with a tick mark on the tracing paper. 
 
 To plot a direction,   rotate the tick mark of the tracing paper around  counter clockwise until the top of the paper is rotated by the declination of the direction. Then count tick marks toward the center from the outer rim (the horizontal) to the inclination angle, plot the point, and rotate back so that the tick is North again. Put all your points on the diagram.
 
 
-b) Now use the {\bf ipmag} functions {\bf plot\_net } and {\bf plot\_di} (see the example notebook in the essentials\_ch\_0.ipynb in the Notebook folder in the data\_files directory you copied (see problems for Chapter 1).  
-
+b) Now use the {\bf ipmag} functions {\bf plot\_net } and {\bf plot\_di}.
  or write your own!  Both plots should look the same....
 
 
@@ -749,7 +756,8 @@ You went to Wyoming (112$^{\circ}$ W and 36$^{\circ}$ N) to sample some Cretaceo
 
 a) What direction would you expect  from the present (GAD) field? 
 
-b)  What is the virtual geomagnetic pole position corresponding to the direction you actually measured?  [Hint: Use the function {\bf pmag.dia\_vgp} in the {\bf PmagPy} module. ]
+b)  What is the virtual geomagnetic pole position corresponding to the direction you actually measured?  [Hint: Use the function {\bf pmag.dia\_vgp} in the {\bf PmagPy} module or for a challenge, write your own! ]
+
 
 
  

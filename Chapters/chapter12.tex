@@ -1,3 +1,4 @@
+\customlink{Beyond_Fisher_statistics}
 \chapter{Beyond Fisher statistics}
 
 
@@ -458,34 +459,38 @@ Finally, it is important to remember that peaks in concentration between 0 and 1
 
 {\bf Problem 1 }
 
-Find the  Chapter\_12 directory (see the Problems in Chapter 5 for downloading instructions.)    This problem set will use the {\bf PmagPy} programs on the command line (or the ! option from within an IPython notebook).  You can check the \href{http://earthref.org/PmagPy/cookbook/}{PmagPy website} for examples in how to use the {\bf PmagPy} programs. 
+Find the  Chapter\_12 directory (see the Preface for instructions.)    This problem set will use  {\bf PmagPy} modules from within a Juptyer notebook.  You can check the \_PmagPy\_nb.ipynb in the data\_files/notebook directory  for examples. 
  
  a)
-Look at {\it ps12-1a.di} with the program {\bf eqarea.py}.  Do the data look Fisher distributed to you?   
-Now check whether they are using the program {\bf fishqq.py}.  Are they?   
+Look at the data in {\it Chapter\_12/ps12-1a.di} with the functions  {\bf ipmag.plot\_net( )} and {\bf ipmag.plot\_di(  )} .  Do the data look Fisher distributed to you?   
+Now check whether they are using the program  {\bf ipmag.fishqq( )} from within a notebook.  Are they?   
 
-b) Repeat this exercise for {\it ps12-1b.di}.  
+b) Repeat this exercise for {\it Chapter\_12/ps12-1b.di}.  
 
-c)  Now rotate the data in {\it ps12-1c.di}  to the mean direction.    Do this by first determining the mean  direction with {\bf gofish.py}.     Then use the program {\bf di\_rot.py} using the mean from {\bf gofish.py} as the new coordinate system.  Look at your output with {\bf eqarea.py} -- the center of the diagram will be the mean direction you used in {\bf di\_rot.py}.   Why are these data not Fisherian?  
+c)  Now rotate the data in {\it Chapter\_12/ps12-1c.di}  to the mean direction.    Do this by first determining the mean  direction with {\bf ipmag.fisher\_mean( )}.     Then use the function  {\bf pmag.dodirot\_V( )}  using the mean you just calculated as the new coordinate system.  Look at your output in an equal area projection  -- the center of the diagram will be the mean direction you used for the rotation.   Why are these data not Fisherian?  
 
 {\bf Problem 2} 
 
-a) The data in {\it ps12-2.dat} are $D, I$, dip direction and dip where the $D$ and $I$ are in geographic coordinates.   Use the program {\bf foldtest.py} to perform a fold test.  Were the data magnetized before or after folding?   
+The data in {\it Chapter\_12/ps12-2.dat} are $D, I$, dip direction and dip where the $D$ and $I$ are in geographic coordinates.   Use the function  {\bf ipmag.bootstrap\_fold\_test( )} to perform a fold test.  Were the data magnetized before or after folding?   
 
-b) Repeat the fold test, but assign an angular uncertainty (CSD of the bedding pole distribution -- see Chapter 11) of 10$^{\circ}$.  Does this change your conclusion?  
 
 
 {\bf Problem 3}
 
-The data in {\it ps12-3.dat} are declination/inclination data from a paleomagnetic study. 
+The data in {\it Chapter\_12/ps12-3.dat} are declination/inclination data from a (fake but typical) paleomagnetic study. 
 
 a)  First examine the data set  
-with {\bf eqarea.py}.  
+in an equal area projection.  
 
-b) Separate the data into two files by polarity.   
-Calculate the Fisher means, and $\alpha_{95}$s with {\bf gofish.py}.  Check if the data are fisher distributed using {\bf fishqq.py}.   Calculate the Kent ellipses on the normal and reverse data sets using the program {\bf gokent.py}.  Calculate the Bingham ellipse on the whole data set using {\bf gobing.py}.  Now calculate the bootstrap ellipses using {\bf eqarea\_ell.py}.    Make plots of all the ellipses {\bf eqarea\_ell.py}.   Which method seems to represent the character of the data the best?   This problem can be done on the command line, or through an IPython notebook, using the functions from the {\bf pmag} module {\bf fisher\_mean},  {\bf dobingham}, {\bf  dokent} and using the -sav option with  {\bf eqarea\_ell.py}. 
+b) Separate the data into two separate data arrays by polarity (see Chapter 11 problems).   
+Calculate the Fisher means, and $\alpha_{95}$s (see Problem 1).  Check if the data are Fisher distributed (see Problem 1).   Calculate the Bingham ellipse on the whole data set using {\bf ipmag.bingham\_mean( )}.  
+Calculate the Kent ellipses on the normal and reverse data sets using the function {\bf ipmag.kent\_mean( )}.  Now get a set of   bootstrap mean directions using {\bf pmag.di\_boot} and calculate the Kent ellipses for those with {\bf pmag.dokent} being sure to set the $NN$ value to unity.   
 
-c) Now test whether or not  the two modes in the data are antipodal.    Use {\bf watsonsV.py} and {\bf revtest.py} to test whether the data pass a reversals test.    Do the data pass?  
-Watson's $V_w$ test assumes a Fisher distribution, while {\bf revtest.py} uses a bootstrap and does not assume a Fisher distribution.   Which do you think should be used in this case?    Bingham statistics assumes that both polarities are the same, except for polarity, so you can not do a reversals test.   What are the advantages and disadvantages of the different methods for doing a reversals test? 
+ Make plots of all the confidence bounds with  {\bf ipmag.plot\_di\_mean} for the Fisher $\alpha_{95}$ and  {ipmag.plot\_di\_mean\_ellipse}  for the ellipses}.   Which method seems to represent the character of the data the best?   
 
-}
+c) Now test whether or not  the two modes in the data are antipodal.    Use  Watson's $V\_w$ ({\bf ipmag.common\_mean\_watson}) (see problems for Chapter 11) and  {\bf ipmag.reversal\_test\_bootstrap}  to test whether the data pass a reversals test.   Of course you have to flip the reverse mode to their antipodes first (try {\bf pmag.flip} for that).   Do the data pass?  
+Watson's $V_w$ test assumes a Fisher distribution, while  {\bf ipmag.reversal\_test\_bootstrap}  uses a bootstrap and does not assume a Fisher distribution.   Which do you think should be used in this case?    Bingham statistics assumes that both polarities are antipodal with the same distribution, so you cannot do a reversals test.   What are the advantages and disadvantages of the different methods for doing a reversals test?    And if the data fail the reversals test, should you be calculating Bingham statistics on them?  
+%
+%
+%
+%

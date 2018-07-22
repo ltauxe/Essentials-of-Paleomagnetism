@@ -1,3 +1,4 @@
+\customlink{Paleomagnetic_tensors}
 \chapter{Paleomagnetic tensors}
 
 \noindent
@@ -983,19 +984,34 @@ not ordinarily at saturation being  generally (except for very small grains or g
 \vskip 6pt
 \section{Problems}
 
-Make sure you have downloaded and unzipped the Datafiles for this book (see Chapter 5 for instructions.)  The data for these problems are in the Chapter\_13 directory.  
+Make sure you have downloaded and moved the data\_files directory for {\bf PmagPy}  (see Preface for instructions.)  The data for these problems are in the Chapter\_13 directory.  
 
 {\parindent 0pt  \parskip 12pt
 
-{\bf Problem 1}
+{\bf Problem 1 }
+
 
 Someone measured the AMS of a set of specimens using the six position measurement scheme described in the chapter.  These data were converted to the six tensor elements $s_i$ as in Equation~\ref{eq:kj}.  The six tensor elements for each specimen are saved in file {\it prob13-1.dat}.   
 
-a) Convert these to eigenvalues and eigenvectors using program {\bf s\_eigs.py} (see example in \href{http://earthref.org/PmagPy#s_eigs.py}{PmagPy}). Remember also that all {\bf PmagPy} programs have a help menu by typing the program name with -h after it on the command line and that you can call the program from within a Jupyter Notebook by using an initial !, e.g., !s\_eigs.py.)   
+\begin{equation}
+\matrix
+{s_1 = \chi_{11}\cr
+s_2 = \chi_{22}\cr
+s_3 = \chi_{33}\cr
+s_4 = \chi_{12}=\chi_{21}\cr
+s_5 = \chi_{23}=\chi_{32}\cr
+s_6 = \chi_{13}=\chi_{31}.\cr}
+\label{eq:kj}
+\end{equation}
 
-b) Now convert the eigenparameters back to the $s_i$ using {\bf eigs\_s.py}).  Compare the two $s_i$ files.  Are they identical?  How many times can you repeat this before the data are completely unreliable?  
 
-c) Convert the file {\it prob13-1.dat} into the MagIC format using {\bf s\_magic.py} program and make a plot of the data using {\bf aniso\_magic.py}.    Write a figure caption for each plot you see (there should be three!).  Try different ellipse calculation methods.  Which method gives the best idea of the actual uncertainties in the data?  
+a) Convert these to eigenvalues and eigenvectors  using the the function {\bf pmag.doseigs( )} directly from within a Jupyter notebook.    
+
+b) Now convert the eigenparameters back to the $s_i$ using {\bf pmag.doeigs( )}.  Compare the two $s_i$ outputs.  Are they identical?  How many times can you repeat this before the data are completely unreliable?   What if a paper published eigenvectors with only a few siginificant digits?  How unstable would the process be?  
+
+
+
+c) Someone converted the file {\it prob13-1.dat} into the MagIC format (Chapter\_13/Problem\_1/specimens.txt).   Make plots  {\bf ipmag.aniso\_magic\_nb( )} .   Try the Hext and bootstrapped uncertainty ellipses.   Which method gives the best idea of the actual uncertainties in the data?  
 
 
 
@@ -1003,47 +1019,30 @@ c) Convert the file {\it prob13-1.dat} into the MagIC format using {\bf s\_magic
 
 % these data are from tr220
 
-Someone went to an  ophiolite and sampled the eastern and western margins of a dike.  They also measured the dip direction and dip of the dike in several places (saved in the file {\it dike.dd}).    Specimens from the samples were measured using the 15 measurement scheme described in Appendix~\ref{app:K15} and saved as  the {\it east.k15} and {\it west.k15} data files.  The format for these files is:  
-\vskip 6pt
-{\parskip 0pt
-specimen\_name [optional: az,pl,strike,dip]
-
-\begin{tabular}{cccccc}
- & $K_1$&$K_2$&$K_3$&$K_4$&$K_5$\\
-  & $K_6$&$K_7$&$K_8$&$K_9$&$K_{10}$\\
-   & $K_{11}$&$K_{12}$&$K_{13}$&$K_{14}$&$K_{15}$\\
-\end{tabular}}
-
-\noindent where az, pl, strike, dip are the azimuth and plunge of the laboratory arrow and the structural strike and dip (see Chapter 9) and the $K_i$ are the susceptibility measurements.  
-
+Someone went to an  ophiolite and sampled the eastern and western margins of a dike.  They also measured the dip direction and dip of the dike in several places (saved in the file {\it dike.dd}).    
 a) Calculate the average bedding pole direction from the strike and dip measurements.  [Hint:  convert each dip direction and dip to its pole by: pole declination = dip direction; pole inclination = 90 - dip.
-Calculate the average pole to the bedding plane with {\bf gofish.py} (see example in \href{http://earthref.org/PmagPy#gofish.py}{PmagPy} or review Chapter 11 problems).]  
-
-b)  Import the .k15 formatted files into the MagIC format using the {\bf pmag\_gui.py} GUI as follows:  Create an empty folder for this problem.  Then type {\bf pmag\_gui.py} on your \href{http://earthref.org/PmagPy#command_line}{command  line} [note that some PC installations omit the .py at the end of the command].  Select your new folder as the Project Directory.    Under the  Import menu, select `anisotropy files' and choose the   `k15' format.  Click on the 'add' button to import these data files in sequence:  east.k15 and west.k15.  There is a single character that differentiates between specimen and sample.  Samples are distinguished from sites with a '-' delimiter.  For the location, just put 'Dike'.     After importing the files, Click on  `1. convert magnetometer files'  and choose `Next Step'.  Combine  all the files into a single {\it magic\_measurements.txt} file by clicking on `OK'.   In Step 3, just click on `OK' to create a single er\_samples.txt and rmag\_anisotropy file.   When you are finished, exit from {\bf Pmag GUI} and find your command line (or return to the notebook).  Make sure you are your Project Directory is in the notebook's path or that you are `in' it if working from the command line.  
-
-c)   Plot the AMS data by typing ``aniso\_magic.py'' on the command line in your Project Directory. If you are working from within the notebook, you must specify the path of your anisotropy file (for example with -f MyFiles/rmag\_anisotropy.txt) and    use the -sav option to prevent hanging of the program. 
-
-Now you can plot the data ``by site'' which in this case is by margin.  Choose the geographic coordinate system and  suppress the bootstrap.  Plot the Hext ellipses.  Then choose a parametric bootstrap, plotting the bootstrap eigenvectors.     How do the two methods compare?   
+Calculate the average pole to the bedding plane with the function    {\bf ipmag.fisher\_mean} from within a Jupyter notebook.  That is a more efficient option for notebook users.  
 
 
-d) Plot the dike plane by choosing to plot the great circle  (check the help message to see how to do that)  and enter the pole you calculated in a).   
 
-e) Which direction was the magma flowing when the dike was created?  
+
+b)   Plot the MagIC formatted AMS data for the eastern margin using the program {\bf  ipmag.aniso\_magic\_nb( )}. The data are in geographic coordinates.   Plot the data by site using the isite=1 argument and set the site\_file and sample\_file to sites.txt and samples.txt respectively.    First plot the Hext ellipses.  Then suppress the Hext ellipses (ihext=0) and  try a parametric bootstrap, plotting the bootstrap eigenvectors.     How do the two methods compare?   
+
+
+c) Plot the dike plane by choosing to plot the great circle  (check the help message to see how to do that)  and enter the pole you calculated in a).   Use the bootstrap option for the confidence ellipses.  
+   Do this by site, as before.  Realizing that the upper hemisphere dike plane is plotted in cyan and the lower hemisphere is in green and that all the eigenvectors are plotting in the lower hemisphere, which direction was the magma flowing when the dike formed?  
 
 
 {\bf Problem 3}
 
-For this problem, we will download data from the MagIC database that were published by Schwehr and Tauxe (2003) as part of a study to detect slumping in sedimentary environments.   
+For this problem, we will download data from the MagIC database that were published by Schwehr and Tauxe (2003) as part of a study to detect slumping in sedimentary environments.  
 \nocite{schwehr03}
 
-a)  Download the  dataset from  the persistent link to this study at by clicking on the `Data' icon:
+a)  Download the  dataset from  the persistent link to this study at  \href{https://earthref.org/MagIC/12166}{https://earthref.org/MagIC/12166}
+by clicking on the `Download' button.  
+Put the file you downloaded into a  new Project Directory, say Chapter\_13/Problem\_3)  and unpack it with {\bf ipmag.download\_magic} in a Jupyter notebook.   
 
-\url{http://earthref.org/MAGIC/1984/}
+b) Plot the data with the {\bf ipmag.aniso\_magic\_nb} as in Problem 2.  Plot the data by site (you will have to set the site\_file and sample\_file to 'sites.txt' and 'samples.txt' and the isite argument to True.   Use the parametric bootstrap, plotting the boostrapped vectors instead of the ellipses.  
 
-Put the file you downloaded into a  new Project Directory.
-
-b)   After firing up the {\bf pmag\_gui.py} graphical user interface, click on `unpack  txt file downloaded from MagIC' from the front panel and choose the file you downloaded in a). 
-
-c) Plot the data with the {\bf aniso\_magic.py} (from the command line or using the -sav option from within the Python notebook).  Also,  choose the  ``plot by site, parametric bootstrap and bootstrapped eigenvectors'' options.  There were three sites collected:  one from  undisturbed sedimentary layers,  one with clear evidence of slumping in the outcrop and one from the same horizon, but with no obvious slumping at the sampling site (a cryptoslump).  Which site was which?  
-}
+  There were three sites collected:  one from  undisturbed sedimentary layers,  one with clear evidence of slumping (as2) in the outcrop and one from the same horizon, but with no obvious slumping at the sampling site (a cryptoslump).  Which site was undisturbed and which was the cryptoslump?  }
 %

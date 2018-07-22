@@ -1,0 +1,8 @@
+file igrf2005
+norm S
+proj M
+coast
+field D
+color
+execute
+

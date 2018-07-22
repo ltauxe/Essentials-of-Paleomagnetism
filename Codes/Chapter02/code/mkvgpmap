@@ -1,0 +1,2 @@
+pscoast -R0/360/-90/90 -JG-75/41/4.5i -B15g15 -Dc -A5000 -G200/200/0 -P -K>vgp.ps
+psxy random.vgps -R0/360/-90/90 -JG-75/41/4.5i  -G0 -P -O -Sc.2  >>vgp.ps

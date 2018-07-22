@@ -1,0 +1,85 @@
+C3004	Torsvik et al.: PLATE MOTION FRAMES 	RC3004
+
+
+
+
+TABLE 3. Selected Paleomagnetic Poles
+
+
+
+
+Formation and Country	Plat'	p1C	Age (Ma) 	GPDBd
+
+
+North America
+6	4.9	Katherine Creek sediments	-78	304	1.5	3060
+6	7	Banks Island deposits	-86	120	1.5	3206
+3	9.7	Tsehicoma Formation	-76	174	5.5	1275, SV
+3	12.9	Hepburn's Mesa Formation	-81	225	15.5	2288, SV
+4	6.7	Younger plutons	-87	189	22.5	1402,SV
+3	8.4	Lake City caldera	-76	30	23	1300, SV
+4	5.2	Lath volcanics	-81	331	23.5	1299, SV
+4	6.8	Conejos and Hinsdale Formation	-80	343	26	3130, SV
+4	5.4	Lath extrusives, sediments	-80	315	27	1299, SV
+4	4.4	Mongollon-Datil volcanics	-82	323	30	1315, SV
+3	5	Mongollon-Datil volcanics	-83	316	30	2631, SV
+4	4.3	Mariscal Mountain gabbro	-80	5	37	2943, SV
+3	2.4	Mistastin Lake impact	-86	298	40	562, T
+5	7.7	East Fork Washakia Basin	-84	324	44	1632, T
+4	10.1	Virginia intrusions	-86	64	44.5	1865
+5	8	Absaroka flows	-83	334	46	1117, T
+4	9.6	Rattlesnake Hills volcanics	-79	326	46	1712, T
+6	5.6	Bitterroot Dome dike swarm	-72	342	47	2560, T
+4	10.1	Monterey intrusives	-86	64	47	1865, T
+6	4.9	Wasatch and Green River Formation	-78	308	51	3150, T
+5	4	Robinson Anticline intrusives	-77	326	51	1348, T
+6	2.6	Combined Eocene intrusives	-82	350	51	1270, T
+5	14	Rhyolite intrusion and contact	-68	9	57	504, T
+6	3	Nacimiento Formation	-76	328	61	1033, T
+6	3.7	Combined Paleocene intrusives	-82	1	63	1270, T
+4	1.1	Gringo Gulch volcanics	-77	21	63	1710, T
+4	6.6	Edmonton Group, Alberta	-72	3	63	1914, T
+5	3.9	Alkalic intrusives	-81	5.1	64	1711, T
+5	5.8	Tombstone'	-70	37	71	2806, T
+5	6.2	Roskruge volcanicse	-70	357	72	1240, T
+6	4.6	Adel Mountain volcanics	-83	21	76	2370, T
+6	6.2	Maudlow Formation welded tuffs	-70	28	80	2397, T
+7	6.6	Elkhorn Mountains	-80	10	81	2382, T
+5	4.4	Magnet Cove and other intrusives	-74	13	100	1322, T
+5	8.3	Cuttingsville	-72	17	100	3087, T
+5	4	Randall Mountain	-77	320	103	3087, T
+5	4.4	Little Rattlesnake Complex	-72	3	111	3087, T
+5	6.5	Pleasant Mountain	-77	5	112	3087, T
+5	5.6	Burnt Meadow Mountains	-76	29	113	3087, T
+5	3.6	Alfred Complex	-74	30	120	3036, T
+5	5.3	Cape Neddick	-75	355	121	3036, T
+6	2.4	Monteregian Hills intrusives	-72	11	122	1853, T
+5	6.9	White Mountains igneous complex	-71	8	122	2644, T
+5	4.6	Tatnic Complex	-66	28	122	3036, T
+5	7.5	Lebanon diorite	-70	15	125	3036, T
+5	3.6	Notre Dame Bay dikes	-67	32	128	1854, T
+7	2.6	Kimberlite dikes	-58	23	144	2717, T
+5	3.6	Upper Morrison Formation'	-64	346	147	787, T
+6	4.1	Morrison Formation, Brushy Basin Member'	-64	341	148	2870, T
+5	5.3	Lower Morrison Formation'	-57	328	149	787, T
+6	7	Canelo Hills volcanicse	-59	319	151	1256, T
+6	7.4	Sunimerville Formation'	-52	318	159	2419, T
+5	4.3	Sunimerville Sandstone'	-64	301	159	1121, T
+5	7.8	Corral Canyon rocks'	-59	305	172	1294, T
+4	1.4	Newark volcanics II	-65	283	175	1702, T
+3	1	Diabase dikes, Anitcosti, Quebec	-76	265	183	139, T
+5	3.1	Combined dikes	-73	269	190	1932, T
+6	3.3	Kayenta Formation'	-59	258	192	2380, T
+3	7.2	Sil Nakya Formation'	-73	278	193	T
+5	8.9	Piedmont dikes	-66	276	194	1796, T
+4	2.3	Newark volcanics I	-63	263	195	1702, T
+4	11.1	Connecticut Valley volcanics	-65	267	198	477, T
+6	6	Moenave Formation'	-60	242	199	3058, T
+5	7.9	Piedmont dikes	-62	235	199	1809, T
+6	4.7	Passaic Formation, baked sediments	-60	249	200	2791, T
+6	10.7	North Mountain Basalt	-67	249	200	1932, T
+5	4.0	Hartford, Newark basalts and volcanics	-68	269	201	2278, T
+5	6.2	Watchung basalts	-63	270	201	1339, T
+5	6	Hettangian Newark red beds	-55	275	204	2312, T
+5	2.4	Newark Martinsville corer	-59	278	206	2967, T
+5	8	Chinle Group, Redonda Formation	-59	257	209	2979, T

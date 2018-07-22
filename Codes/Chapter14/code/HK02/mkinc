@@ -1,0 +1,9 @@
+file hk02n
+normalize S
+project A
+coast
+plot color
+field I
+continue
+quit
+

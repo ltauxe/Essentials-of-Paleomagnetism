@@ -85,6 +85,7 @@ The appendix contains more detailed information,  included for supplemental back
 \noindent
 {\bf 3 How to use the book}
 
+
  Each chapter builds on
 the principles outlined in the previous chapters, so the reader is encouraged
 to work through the book sequentially.    There are recommended readings before and after every chapter selected to provide backgound information and supplemental reading for the motivated reader respectively.  These are meant to be optional.  
@@ -100,6 +101,26 @@ Vectors  and tensors are in bold face; other parameters, including
 vector components, are in italics.  The most important 
 physical and paleomagnetic parameters, acronyms and statistics are listed in Appendix~\ref{app:definitions}.  
 
+The problems in this book are intended to be solved with Jupyter Notebooks in conjunction with the PmagPy software of \nocite{tauxe16} Tauxe et al., (2016).  To  get ready for this, you must do the following steps:
+
+\begin{enumerate}
+\item Install Anaconda Python 3, following the instructions in the  \href{http://earthref.org/PmagPy} {PmagPy Cookbook} in the Section on  \href{http://earthref.org/PmagPy/cookbook/#getting_python}{ Full PmagPy Install}.  Be sure to include the non-default Python packages. 
+\item Install PmagPy following the instructions for \href{http://earthref.org/PmagPy/cookbook/#pip_install}{pip install} from the command line.   
+\item  Move the data files to a directory convenient to you (e.g., your Desktop) following the instructions in the \href{http://earthref.org/PmagPy/cookbook/#move_data_files}{cookbook}.  
+\item The data files used in the problems are in the PmagPy subdirectory data\_files/notebooks/Essentials/, separated by directory.  
+\item Navigate to the PmagPy subdirectory data\_files/notebooks/Essentials/ and launch the jupyter notebook environment. Make a new notebook for a problem set at the end of each chapter. 
+\item To see the Jupyter notebook solutions, navigate to the PmagPy subdirectory data\_files/notebooks/Essentials/ and launch the jupyter notebook environment.  Open each chapter's solution in turn. 
+\end{enumerate}
+
+
+The problems at the end of each chapter assume proficiency in both Python programming and the use of Jupyter notebooks.   See \href{https://nbviewer.jupyter.org/github/ltauxe/Python-for-Earth-Science-Students/blob/master/Lecture_01_syllabus.ipynb}{Python Programming  for Earth Scientists} for a complete course.   
+
+For examples on how to use PmagPy in a Jupyter notebook, see data\_files/notebooks/\_PmagPy\_nb.ipynb.   
+
+
+
+
+
 \noindent
 {\bf 4 Acknowledgements}
   
@@ -110,7 +131,7 @@ and  the programs each time the course was given.  The course was also occasiona
 
 
 I owe a debt of gratitude to the many sources of public domain software that
-ended up in the package {\bf PmagPy}, including contributions by  Peter Selkin,  Ron Shaar and Ritayan Mitra as well as the many dedicated contributors to the Numpy, Matplotlib, and Basemap Python modules used extensively by {\bf PmagPy.}  Also, many illustrations were prepared with the excellent programs {\bf Magmap, Contour} and {\bf Plotxy} by Robert L. Parker, to whom I remain deeply grateful.  
+ended up in the package {\bf PmagPy}, including contributions by  Cathy Constable, Monika Korte, Jeff Gee, Peter Selkin,  Ron Shaar, Nick Swanson-Hysell,  Ritayan Mitra and especially Lori Jonestrask,  as well as the many dedicated contributors to the Numpy, Matplotlib,  Basemap, and Pandas  Python modules used extensively by {\bf PmagPy.}  Also, many illustrations were prepared with the excellent programs {\bf Magmap, Contour} and {\bf Plotxy} by Robert L. Parker, to whom I remain deeply grateful.  
 I  gratefully acknowledge   the authors of many earlier  books, too many to name but included in the Bibliography,  which both educated and inspired me.
 
 

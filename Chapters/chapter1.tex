@@ -52,7 +52,7 @@ carrying a current $i$.   [From Jiles, 1991.]  b) Relationship of magnetic field
  \nocite{jiles91}
 
 
-%\customlink{filings}
+\customlink{filings}
 
 
 Electric currents make magnetic fields, so we can define what is meant by a
@@ -107,7 +107,7 @@ seem to curl around the wire.
 \section {Magnetic moment}
 \label{sect:moment}
 
-%\customlink{magnetic_moment}
+\customlink{magnetic_moment}
 
 
 
@@ -447,7 +447,7 @@ Given a
 
 \noindent You can verify this by making sure that$\nabla^2 \psi_m =0$.  
 
-The radial and tangential components of $\H$ at P (Figure~\ref{fig:mH}) then would be:
+The radial ($H_r$) and tangential ($H_{\theta}$) components of $\H$ at P (Figure~\ref{fig:mH}) then would be:
 
 $$
 H_r =- {{\partial \psi_m \over {\partial r}}} = {1\over
@@ -568,26 +568,11 @@ Cullity (1972), Chapter 1.  \nocite{cullity72}
 \section{Problems}
 {\parindent 0pt \parskip 12pt 
 
-{\bf Problem 0}  
-
-Before you do any of the problems in this book, you will need to know your way around a computer.  Therefore, you are strongly encouraged to consult the  \href{http://earthref.org/PmagPy/}{PmagPy Cookbook} website. Follow the instructions for installing Python and PmagPy,  read the chapter on survival computer skills,  and look through the introductory chapter on  Python Programming as well as the one on Jupyter notebooks.   After you install PmagPy, be sure to follow the instructions on how to move the data\_files directory to somewhere on your computer, say, the Desktop, or your home directory.     Using your `survival skills', make a new directory called {\it Problems} (or Homework or something similar) on your computer in which you will do all the problems for this book.  Make a subdirectory for Chapter01 to work the problems in this section. 
-
-Find the directory called `Essentials\_Examples'  in the data\_files directory and copy it to your Problems directory.  Find your command line (for help see the  \href{http://earthref.org/PmagPy/cookbook/#command_line}{PmagPy cookbook}) and navigate to the Problems directory.   Now type on the command line:  
-\begin{verbatim}
-$ jupyter notebook   
-\end{verbatim}
-First open the file essentials\_ch\_0.ipynb notebook  in the `Notebooks' directory of the data\_files folder.  which is a version of the Python Programming chapter from the cookbook, written to work with jupyter notebooks.  This will give you many tools useful for solving the problems in this book.  Notebooks are constructed as a series of `cells' which can be text or code among other things.  To view the `source' of a text cell, just click on it.  To render it, click on the `run' button (sideways triangle on the toolbar).  Text can be written in the style of LaTex to make nice looking equations, so you might want to familiarize yourself with that syntax.  To run the code in a code cell, click on the cell and then the `run' button.   Anything after a pound sign (\#) in a code block will be ignored, so this is how we comment code.  Run the code block with the comment `\# My first program.  Then make a new code block and have it print your favorite pithy phrase. 
-
-
-Now open the  file `essentials\_ch\_1\_template.ipynb' Under the 'File' menu, select `Make a Copy' and rename your notebook  with your name and homework number in the title.  Save this file in your Problems/Chapter01 folder.   Modify this template to solve the following problems.  
-
-
-
 {\bf Problem 1}
 
 In axisymmetric spherical coordinates, $\nabla$ (the gradient operator) is given by
 
-$$\nabla = {\partial\over { dr}} +  {\partial\over {\partial \theta}}.
+$$\nabla = {\partial\over { dr}} +  {\partial\over {r\partial \theta}}.
 $$
 
 We also know that
@@ -612,7 +597,7 @@ Write your answers in a markdown cell in a jupyter notebook using latex syntax.
 
 
 
-a) In your jupyter notebook, write python functions to convert induction, moment and magnetic field quantities in cgs units to SI units.   Use the conversion factors in Table~\ref{tab:units}.    Use your function  to convert the following from cgs to SI: 
+a) In your Jupyter notebook, write Python functions to convert induction, moment and magnetic field quantities in cgs units to SI units.   Use the conversion factors in Table~\ref{tab:units}.    Use your function  to convert the following from cgs to SI: 
 
 i) B = 3.5 x10$^{Ð5}$ G
 
@@ -624,13 +609,15 @@ b) In a new code block, modify your function to allow conversion from cgs $=>$ S
 
 HINTS:   Call the functions with the values of B, m and H  and have the function return the converted values.  In the modified functions, you can specify whether the conversion is from cgs or SI. 
 
+
 \begin{figure}[htb]
-%\epsfxsize 6cm
-%\centering \epsffile{EPSfiles/dipole.eps}
- \centering \includegraphics[width=6 cm]{EPSfiles/dipole.eps}
+ \centering \includegraphics[width=8 cm]{EPSfiles/dipole.eps}
 \caption{A magnetic dipole source (${\bf m}$) located 3480 km from the center of the Earth, below the point of observation at 45$^{\circ}$ latitude.  The average radius of the Earth is 6370 km.  The field at the point of observation is directed  downward (toward the center) with a magnitude of 10 $\mu$T.  }
 \label{fig:dipole}
 \end{figure}
+
+
+
 
 
 {\bf Problem 3}
@@ -649,14 +636,26 @@ b)
 Compare this field to the total field produced by  a centered axial magnetic dipole moment ({\it i.e.},  one that is pointing straight up and is in the center of the circles) equivalent to that of  the present geomagnetic
 field ($m$ $\sim$ 80 ZAm$^2$; Z=10$^{21}$).   Assume a latitude for the point of observation of 60$^{\circ}$.  [HINT: the angle $\theta$ in Equation~\ref{eq:Vm} is the co-latitude, not the latitude.]
 
+\beq
+\psi_m = {{\m\cdot \mathbf{r}}\over {4\pi r^3}}= {{m\cos \theta}\over {4\pi r^2}}.
+\label{eq:Vm}
+\eeq
 
+
+\begin{figure}[h!tb]
+ \centering \includegraphics[width=8 cm]{EPSfiles/mH.eps}
+\caption
+{Field $\H$ produced at point P by a magnetic  moment $\m$. $\H_r$
+and $\H_{tan}$ are the radial and tangential fields respectively.}
+\label{fig:mH}
+\end{figure}
 
 
 {\bf Problem 4}
 
-Knowing that $B = \mu_o H$, work out the fundamental units of $\mu_o$ in SI units.   Prepare your answer in a markdown cell in your jupyter notebook.  
+Knowing that $B = \mu_o H$, work out the fundamental units of $\mu_o$ in SI units.   Prepare your answer in a markdown cell in your Jupyter notebook.  
 
-}
+
 
 
 

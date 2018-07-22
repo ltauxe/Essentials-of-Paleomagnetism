@@ -1,3 +1,4 @@
+\customlink{Paleointensity}
 \chapter{Paleointensity}
 
 
@@ -504,105 +505,41 @@ Tauxe and Yamazaki (2007). \nocite{tauxe07}
 
 {\bf Problem 1 }
 
-a)  In this problem, we will use published data to get a feel for ``real'' paleointensity data.  Make sure you have the {\bf PmagPy} programs working (see \href{http://earthref.org/PmagPy}{PmagPy website}).  You can find a data set associated with a particular publication (if someone uploaded the data), by using the digital object identifier (DOI) search.  For example, the data set of Tauxe et al. (2016)  \nocite{tauxe16} could be located using the syntax:   
+a)  In this problem, we will use published data to get a feel for ``real'' paleointensity data.  Make sure you have the {\bf PmagPy} programs working (see Preface}).  You can find a data set associated with a particular publication (if someone uploaded the data), by using the digital object identifier (DOI) search.  For example, the data set of Tauxe et al. (2016)  \nocite{tauxe16} could be located using the syntax:   
 
 \url{http://earthref.org/doi/10.1002/2016GC006307} 	
 	
-When you locate the reference, click on the text file icon under the column labeled ``Data''.     This is a dataset  from a bunch of samples that acquired their TRM in known fields.   
+When you locate the reference, click on the `Download Results' button and select the `1 Contribution File' option and download the file prepared for you.     This is a dataset  from a bunch of samples that acquired their TRM in known fields.   
 
-b) Create a new folder for these data and put the downloaded text file in it.  Make sure it is a directory with no spaces in the path name.
+b) Create a new folder for these data called Myfiles and put the downloaded text file in it.  Unpack the data file with {\bf ipmag.download\_magic} from within a Jupyter notebook.  
 
-c) Open a \href{http://earthref.org/PmagPy/#command_line}{terminal window} (command prompt on Windows machines).    On the command line,  type:  {\bf pmag\_gui.py}. [Remember that some PC installations omit the .py termination.]   Change directories into your ``Project Directory''. 
+c) Fish out all the data from the 1960 Hawaiian lava flow (sites named `Hawaii 1960 Flow' and `hw241' using Pandas filtering techniques. Now we want to save these data in a MagIC formatted file for use with the PmagPy program  {\bf Thellier GUI}.  See the instructions in the notebook \_PmagPy\_nb.ipynb in the PmagPy data\_files/notebooks folder for reading and writing MagIC formatted data files in notebooks and save the data file in a new project directory called 'Myfiles' and a file name called `measurements.txt'.   Open a \href{http://earthref.org/PmagPy/#command_line}{terminal window} (command prompt on Windows machines).    On the command line,  type:  {\bf pmag\_gui.py}. [Remember that some PC installations omit the .py termination and some installations require the pmag\_gui\_anaconda version.]  Choose data\_model 3 (the default) and  then your ``Myfiles'' directory. 
 
-d) Click on the  ``unpack  txt file downloaded from MagIC''  button on the front panel and choose the file you downloaded. 
+d)  Click on the `Thellier GUI' button.  
 
-e) Click on the `Thellier GUI' button.  
+e) Step through the data by clicking on `next'.   
 
-f) Step through the data by clicking on `next'.  You don't have to look at all of them, because there are a LOT.  
+f)  The location of the 1960 lava flow (really close to the 2018 one!) is 19.52 latitude and -154.81 longitude.  Figure out what the field was at the site using the tricks you learned in Chapter 2.  
 
-g)  This paper compared two different selection criteria, those of Cromwell et al. (2015) \nocite{cromwell15} which they called `CCRIT' and a set called TTA from  Leonhardt et al. (2004). \cite{leonhardt04}:  
-
-
-\begin{tabular}{lllllllllllllllll}
-\hline
-& $n$&   $f$&FRAC&$\beta$&$q$&MAD&MAD$_{Anc}$&DANG&$\alpha$& $n_{pTRM}$&SCAT&$\delta$CK&$\delta$pal&$\delta$TR&$\delta$t*&k'\\
-C&4  & &0.78 & 0.1&-&5 & - &  10 & - &2& True & - & -& - &- &0.164\\
-T&5   &0.5 & - & 0.1& 5&- & 10&- &5 & -& -& 5&5 & 10&3 &\\
-\hline
-\end{tabular}
-C: CCRIT, T: TTA.  For definitions of statistics see \cite{paterson14}.  The study also used a minimum of three samples per site with a standard deviation of less than 6 $\mu$T or 15\%.   
-
-
-There are many other commonly used schemes summarized in   {Paterson et al., 2014}  \nocite{paterson14}  who also compiled all the known 
-definitions for paleointensity statistics.  These are  supported by the Thellier GUI  included in Pmag GUI.    The selection criteria can be changed by choosing  Analysis $=> $Acceptance criteria =$>$change acceptance criteria.   If a particular statistic does not show up in the list, you can add any of the Paterson criteria under the Preferences $=>$ Selection criteria....   menu.   After adding and/or  changing your criteria,  you can try to run the `auto interpreter' to see what will `pass'.    
-
-Set the criteria to the CCRIT criteria of Cromwell et al. (2015) and see what passes and what doesn't.   You can do this `by hand' or you can import the ccrit\_criteria.txt file available in the Chapter\_10 folder of the Essentials Examples directory in the data\_files directory of PmagPy (see instructions in Chapter 5).  
-
-After you run the auto interpreter, save the results by selecting `Save MagIC Pmag tables' under the File menu.   Exit the Pmag GUI program and return to your command line or open up a jupyter notebook.  
-Move or copy your brand new  pmag\_sites.txt table to pmag\_sites\_ccrit.txt using the {\bf mv} command in a jupyter notebook or from the command line.  
-  
-h)  Repeat the steps in g) but use the TTA criteria of Leonhardt (2004) (import the file tta\_criteria.txt this time).   See how  interpretations  change.   Exit the Pmag GUI program and move or copy this  new  pmag\_sites.txt table to pmag\_sites\_tta.txt.  
-
-
-
-
-i)  Read in the two files created in steps g) and h) into Pandas Dataframes.  
-Compare the results with the expected fields listed here:  
-
-\nocite{bowles06,donadini07,muxworthy11,pick93,shaar10,shaar11b,tanaka12,yamamoto03,yamamoto08}
-
-\begin{tabular}{llllllll}
-\hline
-Citation & DOI & Site & Type & Lat. ($^{\circ}$)N & Lon. ($^{\circ}$)E & Year & $B_{exp} (\mu$T)\\
-\hline
-Bowles et al. (2006) & 10.1029/2005GC001141 & 1991-1992 Eruption Site & SBG$^a$ & 9.8 & -104.3 & 1991 & 36.2\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw108 & basalt & 19.9 & -155.9 & 1859 & 39.0\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw226 & basalt & 19.64 & -155.51 & 1843 & 40.1\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw123 & basalt & 19.073 & -155.714 & 1907 & 37.7\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw126 & basalt & 19.69 & -155.46 & 1935 & 36.6\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw128 & basalt& 19.26 & -155.87 & 1950 & 36.2\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw241 &basalt & 19.52 & -155.81 & 1960 & 36\\
-Cromwell et al. (2015) & 10.1016/j.pepi.2014.12.007 & hw201 & basalt & 19.36 & -154.97 & 1990 & 35.2\\
-Donadini et al. (2007) & 10.1016/j.pepi.2007.10.002 & BR06 & brick & 60.1 & 24.9 & 1906 & 49.7\\
-Muxworthy et al. (2011) & 10.1029/2010JB007844 & P & basalt& 19.3 & -102.1 & 1943 & 44.6\\
-Muxworthy et al. (2011) & 10.1029/2010JB007844 & VM & basalt & 40.8 & 14.5 & 1944 & 43.8\\
-Pick and Tauxe (1993) & 10.1029/93jb01160  & BBQ & SBG& 9.8 & -104.3 & 1990 & 36.2\\
-Shaar et al. (2010) & 10.1016/j.epsl.2009.12.022 & RS25 & synthetic &  &  &  & 30.0\\
-Shaar et al. (2010) & 10.1016/j.epsl.20s09.12.022 & RS26 & synthetic &  &  &  & 60.0\\
-Shaar et al. (2010) & 10.1016/j.epsl.2009.12.022 & RS27 & synthetic &  &  &  & 90.0\\
-Shaar et al. (2011) & 10.1016/j.epsl.2011.08.024 & RS61 & synthetic &  &  &  & 60.0\\
-Shaar et al. (2011) & 10.1016/j.epsl.2011.08.024 & RS63 & synthetic &  &  &  & 80.0\\
-Tanaka et al. (2012) & 10.1111/j.1365-246X.2012.05412.x & KF &basalt & 65.7 & -16.8 & 1984 & 52.0\\
-Yamamoto et al. (2003) & 10.1046/j.1365-246X.2003.01909.x & Hawaii 1960 Flow&basalt & 19.52& -155.81 & 1960 & 36.0\\
-Yamamoto and Hoshi (2008) & 10.1016/j.pepi.2008.03.006 & SW & andesite & 31.6 & -130.6 & 1946 & 46.4\\
-Yamamoto and Hoshi (2008) & 10.1016/j.pepi.2008.03.006 & TS & andesite & 31.6 & -130.6 & 1914 & 47.8\\
-\hline
-
-$^a$SBG is submarine basaltic glass.  
-\end{tabular}
-
-Which paleointensity statistics are the most useful?  What are the advantages and drawbacks of the two sets of selection criteria used here?   
+g) What would be some reasonable selection criteria that would select for the accurate results and suppress the inaccurate ones?  Is there any objective way to tell ``good'' from ``bad''?   
 
 
 {\bf Problem 2}
 
-a) Now go to permalink: 
+a) Go to link for a study by Tauxe and Hartl (1997) using the search by DOI option:  \nocite{tauxe97} 
 
-\href{http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x} {http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x} 
+\href{http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x} {http://earthref.org/MagIC/doi/10.1111/j.1365-246X.1997.tb04082.x}.
 
-and download the data as in Problem 10.1.  Make a new project directory and copy the downloaded file into it.   Unpack the data file with the command {\bf download\_magic.py -f upload.txt}, or from within a jupyter notebook using the initial '!' as usual.   
+Download the contribution file as in Problem 10.1.  Make a new project directory (e.g., Myfiles2) and copy the downloaded file into it.   Unpack the data file with program {\bf ipmag.download\_magic}  from within a Jupyter notebook.   
 
 
-b) Find your \href{http://earthref.org/PmagPy/#command_line}{command line} and change directories into your new project directory by typing {\it cd MY\_DIRECTORY}, where you type the directory name instead of MY\_DIRECTORY. Then type  {\bf biplot\_magic.py}.    This will give you a list of available options for plotting measurement data.   In this case they are 'LT-AF-Z', 'LT-AF-I', 'LT-IRM', 'LP-X', which are `method codes' in MagIC.   On the \href{http://earthref.org/MAGIC} {http://earthref.org/MAGIC}  website, follow the link to ``Method Codes''.   Examine the available options under  ``Lab Protocol'' and ``Lab Treatment''  and find the option that describes   these.   
+b) Read in the data into a Pandas DataFrame (with the full hierarchy using {\bf pmagpy.new\_builder.add\_sites\_to\_meas\_table} function.  Get  a list of unique   method codes  for plotting the measurement data using the  {\bf df.method\_codes.unique()} method for the DataFrame.   In this case they are 'LT-AF-Z', 'LT-AF-I', 'LT-IRM', 'LP-X'.    On the \href{http://earthref.org/MAGIC} {http://earthref.org/MAGIC}  website, follow the link to ``Method Codes''.   Examine the available options under  ``Lab Protocol'' (LP-)  and ``Lab Treatment''  (LT-) and find the option that describes   these.  In this case, we have alternating field in zero lab field (AF demagnetization), alternating field in a lab field (ARM acquisition), IRM and magnetic susceptibility. 
 
-c) Type:  {\bf biplot\_magic.py}.   Using the help message for this program (remember the -h option), figure out how to plot ARM versus $\chi$ and IRM versus $\chi$ for these data.    
+c) Get a merged DataFrame with ARM and  IRM data for each specimen.  You may have to use the function {\bf df.dropna} to get rid of specimens that do not have both.  Then plot the ARM versus IRM  data for this data set.    Note that the column header for magnetization for this data file is {\it magn\_mass} and when you merge them, there will be a value for {\it magn\_mass\_x} and {\it magn\_mass\_y} for the `left' and `right' dataframes specified in the merge command.  
 
-d) Use the program {\bf strip\_magic.py} to plot relative intensity versus age.     
+d) Now plot relative intensity versus age.     The relative paleointensity is in the {\it int\_rel} column of the {\it specimens.txt}  table and the age information is in the {\it sites.txt}  table.  There are two different versions of this data set, the original one (callled `This study') and one in the compilation of Tauxe \& Yamazaki (2007).  So, you should filter for the latter using the {\bf df.Series.str.contains()} method.  Then  you will have to merge the data in the specimens and sites tables.  If you make a new column in the (filtered) specimens DataFrame called 'site', which is identical to the 'specimen' column, you can merge on site to pair the age information with the relative paleointensity information.  
 
 e)  These data are supposedly relative paleointensity data from the Oligocene in the South Atlantic.  What would convince you that these were ``real''?   
-
-
-
 
 
 

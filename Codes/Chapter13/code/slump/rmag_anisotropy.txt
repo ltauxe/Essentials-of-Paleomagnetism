@@ -1,0 +1,8 @@
+tab 	rmag_anisotropy
+er_citation_names	anisotropy_sigma	magic_experiment_names	anisotropy_s6	anisotropy_type	er_site_name	er_sample_name	er_location_name	anisotropy_s5	anisotropy_s4	anisotropy_s3	anisotropy_s2	anisotropy_s1	er_specimen_name	anisotropy_unit	magic_method_codes
+This study	.00304943	.33462563:AMS	.00070620	AMS	unknown	unknown	Unknown	.00128037	.00084722	.32910544	.33626896	.33462563	unknown	SI	LP-X
+This study	.00603763	.33424032:AMS	.00168860	AMS	unknown	unknown	Unknown	-.00329813	-.00170821	.33398804	.33177164	.33424032	unknown	SI	LP-X
+This study	.00383879	.33248019:AMS	.00201738	AMS	unknown	unknown	Unknown	-.00217765	-.00071800	.33140320	.33611655	.33248019	unknown	SI	LP-X
+This study	.00353045	.33450457:AMS	-.00443050	AMS	unknown	unknown	Unknown	.00368926	-.00208038	.33416668	.33132872	.33450457	unknown	SI	LP-X
+This study	.01125646	.31401819:AMS	-.01784457	AMS	unknown	unknown	Unknown	.00433876	-.00836922	.34389022	.34209165	.31401819	unknown	SI	LP-X
+This study	.00647937	.32948375:AMS	.00314185	AMS	unknown	unknown	Unknown	-.00331950	-.00505255	.33689314	.33362305	.32948375	unknown	SI	LP-X

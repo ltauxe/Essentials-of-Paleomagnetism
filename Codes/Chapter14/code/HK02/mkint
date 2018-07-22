@@ -1,0 +1,10 @@
+file hk02n
+radius 0.57
+normalize S
+project A
+coast
+plot color
+field R
+execute
+quit
+

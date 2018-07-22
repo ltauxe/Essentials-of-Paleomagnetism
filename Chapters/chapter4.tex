@@ -1,4 +1,4 @@
-%\customlink{Magnetic_anisotropy_and_domains}
+\customlink{Magnetic_anisotropy_and_domains}
 \chapter {Magnetic anisotropy and domains}
 \label{sect:anisintro}
 
@@ -272,7 +272,7 @@ Dunlop and \"Ozdemir (1997).
 In the absence of an external field, the magnetization will be parallel to the long axis ($\theta=0$) and the magnetostatic energy density (also known as the `self' energy is given by: 
 
 \beq
-\epsilon_{ms}= -{1\over 2} \mu_o N_c M^2.
+\epsilon_{ms}= -{1\over 2} \mu_o \Delta N M^2=-{1\over 2} \mu_o N_c M^2.
 \label{eq:self}
 \eeq
 
@@ -555,9 +555,15 @@ Butler and Banerjee (1975), (which is slightly different in detail)  continues t
 
 {\bf Problem 1}
 
-Assume that the magnetization of magnetite is about 480 mAm$^{-1}$ and using values for other parameters from the text,  write a Python program to calculate  the following:
+Assume that the magnetization of magnetite is about 4.8 x 10$^5$ Am$^{-1}$.  Using values for other parameters from the text,  write a Python program to calculate  the following:
 
-a) Self energy (or magnetostatic energy) for a sphere 1, 10 and 100 $\mu$m in diameter. [Hint: see Equation~\ref{eq:self}  in the text for the `self' energy density. Also, remember the difference between energy and energy density!] 
+a) Self energy (or magnetostatic energy) for a sphere 1, 10 and 100 $\mu$m in diameter. [Hint: see Equation~\ref{eq:self}  below for the `self' energy density. Also, remember the difference between energy and energy density!] 
+
+\beq
+\epsilon_{ms}= -{1\over 2} \mu_o N_c M^2.
+\label{eq:self}
+\eeq
+
 
 b) Magnetostatic (shape) anisotropy energy for an ellipsoid whose principal semi-axis is 1 $\mu$m and whose major and minor semi-axes are each 0.25 $\mu$m.  You may use the ``nearly spherical'' approximation in the text.   
 
@@ -568,15 +574,13 @@ c) The critical radius of a sphere at which wall energy equals self energy.
 
 Calculate  grain diameter for magnetite spheres with $\tau$s of 10$^{-1}$, 10, 10$^2$, 10$^3$, 10$^5$, 10$^9$, 10$^{15}$ seconds.  Use values for Boltzmann's constant, $C$ (the frequency factor) and $|K_1|$ at room temperature (300K).    
 
-{\bf Problem 3}
+{\bf Problem 3} [From Jeff Gee]
 
-Consider a highly elongate rod (needle-shaped grain) of ferromagnetic material.
+a) Consider a highly elongate rod (needle-shaped grain) of magnetite. Explain why the demagnetizing factor along the long axis of the rod is about zero while that across the long axis is about one half.
 
-a) Explain why the demagnetizing factor along the long axis of the rod is about zero and about one half across the axis.
+b) The  file {\it Chapter\_4/prolate.txt} gives the values of demagnetizing factors for a prolate ellipsoid (with axes a$>$ b$=$c). For an elongate rod of magnetite with  range of aspect ratios (AR = c:b)  provided in the table, plot the magnetostatic self energy density in the absence of an external field. Use this plot to estimate the aspect ratio at which shape anisotropy will be equal that of magnetocrystalline anisotropy (use a value of $K_1$ at room temperature (300K) of -1.43 x 10$^4$ J/m$^3$).
 
-b)  For a needle shaped grain of magnetite ($M_s=4.8\cross 10^5$ Am$^{-1}$), what external magnetic field is required to magnetize the rod to saturation along the diameter (perpendicular to the long axis)?
-
-c) What is the maximum microscopic coercivity of magnetite (assume an infinitely long grain)?  
+c) What is the maximum microscopic coercivity ($H_k$) for such an elongate grain of magnetite (assume an infinitely long grain)? Coercivities are more commonly reported in units of T so provide this corresponding value as well.
 }
 
 

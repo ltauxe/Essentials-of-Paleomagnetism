@@ -1,0 +1,6 @@
+tab	pmag_results	tab 	pmag_results
+average_age	vgp_lon	vgp_lat
+6871	271.3	35.5
+617	264.9	49.2
+427	263.0	58.1
+187	277.8	30.8

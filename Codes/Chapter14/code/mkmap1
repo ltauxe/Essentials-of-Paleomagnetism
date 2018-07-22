@@ -1,0 +1,3 @@
+pscoast -R-90/270/-90/90 -JH180/6i -X0.25i -Y 0.5i  -Bg30  -G244/211/20 -K  >camps99.ps
+psxy camps99.dat -R-90/270/-90/90  -JH180/6i   -G0 -O -K -W0.75p >>camps99.ps
+psxy camps99.dat -R-90/270/-90/90  -JH180/6i -Sc.25 -G0/50/0 -O >>camps99.ps

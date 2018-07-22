@@ -1,0 +1,6 @@
+tab 	pmag_results
+vgp_lon	vgp_lat
+272.4	60.6
+271.6	60.2
+240.6	77.4
+260.8	78.5

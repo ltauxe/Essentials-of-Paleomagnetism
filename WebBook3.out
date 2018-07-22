@@ -201,47 +201,48 @@
 \BOOKMARK [1][-]{section.16.7}{Inclination only data and APWPs}{chapter.16}% 201
 \BOOKMARK [1][-]{section.16.8}{Concluding remarks}{chapter.16}% 202
 \BOOKMARK [1][-]{section.16.9}{Problems}{chapter.16}% 203
-\BOOKMARK [0][-]{section*.12}{Appendices}{}% 204
-\BOOKMARK [0][-]{appendix.A}{Definitions, derivations and tricks}{}% 205
-\BOOKMARK [1][-]{section.A.1}{Definitions}{appendix.A}% 206
-\BOOKMARK [1][-]{section.A.2}{Derivations}{appendix.A}% 207
-\BOOKMARK [2][-]{subsection.A.2.1}{Langevin function for a paramagnetic substance}{section.A.2}% 208
-\BOOKMARK [2][-]{subsection.A.2.2}{Superparamagnetism}{section.A.2}% 209
-\BOOKMARK [1][-]{section.A.3}{Useful tricks}{appendix.A}% 210
-\BOOKMARK [2][-]{subsection.A.3.1}{Spherical trigonometry}{section.A.3}% 211
-\BOOKMARK [2][-]{subsection.A.3.2}{Vector addition}{section.A.3}% 212
-\BOOKMARK [2][-]{subsection.A.3.3}{Vector subtraction}{section.A.3}% 213
-\BOOKMARK [2][-]{subsection.A.3.4}{Vector multiplication}{section.A.3}% 214
-\BOOKMARK [2][-]{subsection.A.3.5}{Tricks with tensors}{section.A.3}% 215
-\BOOKMARK [3][-]{section*.13}{Direction cosines}{subsection.A.3.5}% 216
-\BOOKMARK [3][-]{section*.14}{Changing coordinate systems}{subsection.A.3.5}% 217
-\BOOKMARK [3][-]{section*.15}{Method for rotating points on a globe using finite rotation poles}{subsection.A.3.5}% 218
-\BOOKMARK [3][-]{section*.16}{The orientation tensor and eigenvectors}{subsection.A.3.5}% 219
-\BOOKMARK [2][-]{subsection.A.3.6}{Upside down triangles, }{section.A.3}% 220
-\BOOKMARK [3][-]{section*.17}{Gradient}{subsection.A.3.6}% 221
-\BOOKMARK [3][-]{section*.18}{Divergence}{subsection.A.3.6}% 222
-\BOOKMARK [3][-]{section*.19}{Curl}{subsection.A.3.6}% 223
-\BOOKMARK [2][-]{subsection.A.3.7}{The statistical bootstrap}{section.A.3}% 224
-\BOOKMARK [2][-]{subsection.A.3.8}{Directions using a sun compass}{section.A.3}% 225
-\BOOKMARK [0][-]{appendix.B}{Plots useful in paleomagnetism}{}% 226
-\BOOKMARK [1][-]{section.B.1}{Equal area projections}{appendix.B}% 227
-\BOOKMARK [2][-]{subsection.B.1.1}{Calculation of an equal area projection}{section.B.1}% 228
-\BOOKMARK [2][-]{subsection.B.1.2}{Plotting directions}{section.B.1}% 229
-\BOOKMARK [2][-]{subsection.B.1.3}{Bedding-tilt corrections}{section.B.1}% 230
-\BOOKMARK [2][-]{subsection.B.1.4}{Reading ternary diagrams}{section.B.1}% 231
-\BOOKMARK [2][-]{subsection.B.1.5}{Quantile-Quantile plots}{section.B.1}% 232
-\BOOKMARK [3][-]{section*.20}{Q-Q plots for Fisher distributions}{subsection.B.1.5}% 233
-\BOOKMARK [3][-]{section*.21}{Q-Q plots for normal distributions}{subsection.B.1.5}% 234
-\BOOKMARK [0][-]{appendix.C}{Paleomagnetic statistics and parameter estimation}{}% 235
-\BOOKMARK [1][-]{section.C.1}{Hysteresis Parameters}{appendix.C}% 236
-\BOOKMARK [1][-]{section.C.2}{Directional statistics}{appendix.C}% 237
-\BOOKMARK [2][-]{subsection.C.2.1}{Calculation of Watson's Vw}{section.C.2}% 238
-\BOOKMARK [2][-]{subsection.C.2.2}{Combining lines and planes}{section.C.2}% 239
-\BOOKMARK [2][-]{subsection.C.2.3}{Inclination only calculation}{section.C.2}% 240
-\BOOKMARK [2][-]{subsection.C.2.4}{Kent 95\045 confidence ellipse}{section.C.2}% 241
-\BOOKMARK [2][-]{subsection.C.2.5}{Bingham 95\045 confidence parameters}{section.C.2}% 242
-\BOOKMARK [1][-]{section.C.3}{Paleointensity statistics}{appendix.C}% 243
-\BOOKMARK [0][-]{appendix.D}{Anisotropy in paleomagnetism}{}% 244
-\BOOKMARK [1][-]{section.D.1}{The 15 measurement protocol}{appendix.D}% 245
-\BOOKMARK [1][-]{section.D.2}{The spinning protocol}{appendix.D}% 246
-\BOOKMARK [1][-]{section.D.3}{Correction of inclination error with AARM}{appendix.D}% 247
+\BOOKMARK [0][-]{chapter.17}{References}{}% 204
+\BOOKMARK [0][-]{section*.12}{Appendices}{}% 205
+\BOOKMARK [0][-]{appendix.A}{Definitions, derivations and tricks}{}% 206
+\BOOKMARK [1][-]{section.A.1}{Definitions}{appendix.A}% 207
+\BOOKMARK [1][-]{section.A.2}{Derivations}{appendix.A}% 208
+\BOOKMARK [2][-]{subsection.A.2.1}{Langevin function for a paramagnetic substance}{section.A.2}% 209
+\BOOKMARK [2][-]{subsection.A.2.2}{Superparamagnetism}{section.A.2}% 210
+\BOOKMARK [1][-]{section.A.3}{Useful tricks}{appendix.A}% 211
+\BOOKMARK [2][-]{subsection.A.3.1}{Spherical trigonometry}{section.A.3}% 212
+\BOOKMARK [2][-]{subsection.A.3.2}{Vector addition}{section.A.3}% 213
+\BOOKMARK [2][-]{subsection.A.3.3}{Vector subtraction}{section.A.3}% 214
+\BOOKMARK [2][-]{subsection.A.3.4}{Vector multiplication}{section.A.3}% 215
+\BOOKMARK [2][-]{subsection.A.3.5}{Tricks with tensors}{section.A.3}% 216
+\BOOKMARK [3][-]{section*.13}{Direction cosines}{subsection.A.3.5}% 217
+\BOOKMARK [3][-]{section*.14}{Changing coordinate systems}{subsection.A.3.5}% 218
+\BOOKMARK [3][-]{section*.15}{Method for rotating points on a globe using finite rotation poles}{subsection.A.3.5}% 219
+\BOOKMARK [3][-]{section*.16}{The orientation tensor and eigenvectors}{subsection.A.3.5}% 220
+\BOOKMARK [2][-]{subsection.A.3.6}{Upside down triangles, }{section.A.3}% 221
+\BOOKMARK [3][-]{section*.17}{Gradient}{subsection.A.3.6}% 222
+\BOOKMARK [3][-]{section*.18}{Divergence}{subsection.A.3.6}% 223
+\BOOKMARK [3][-]{section*.19}{Curl}{subsection.A.3.6}% 224
+\BOOKMARK [2][-]{subsection.A.3.7}{The statistical bootstrap}{section.A.3}% 225
+\BOOKMARK [2][-]{subsection.A.3.8}{Directions using a sun compass}{section.A.3}% 226
+\BOOKMARK [0][-]{appendix.B}{Plots useful in paleomagnetism}{}% 227
+\BOOKMARK [1][-]{section.B.1}{Equal area projections}{appendix.B}% 228
+\BOOKMARK [2][-]{subsection.B.1.1}{Calculation of an equal area projection}{section.B.1}% 229
+\BOOKMARK [2][-]{subsection.B.1.2}{Plotting directions}{section.B.1}% 230
+\BOOKMARK [2][-]{subsection.B.1.3}{Bedding-tilt corrections}{section.B.1}% 231
+\BOOKMARK [2][-]{subsection.B.1.4}{Reading ternary diagrams}{section.B.1}% 232
+\BOOKMARK [2][-]{subsection.B.1.5}{Quantile-Quantile plots}{section.B.1}% 233
+\BOOKMARK [3][-]{section*.20}{Q-Q plots for Fisher distributions}{subsection.B.1.5}% 234
+\BOOKMARK [3][-]{section*.21}{Q-Q plots for normal distributions}{subsection.B.1.5}% 235
+\BOOKMARK [0][-]{appendix.C}{Paleomagnetic statistics and parameter estimation}{}% 236
+\BOOKMARK [1][-]{section.C.1}{Hysteresis Parameters}{appendix.C}% 237
+\BOOKMARK [1][-]{section.C.2}{Directional statistics}{appendix.C}% 238
+\BOOKMARK [2][-]{subsection.C.2.1}{Calculation of Watson's Vw}{section.C.2}% 239
+\BOOKMARK [2][-]{subsection.C.2.2}{Combining lines and planes}{section.C.2}% 240
+\BOOKMARK [2][-]{subsection.C.2.3}{Inclination only calculation}{section.C.2}% 241
+\BOOKMARK [2][-]{subsection.C.2.4}{Kent 95\045 confidence ellipse}{section.C.2}% 242
+\BOOKMARK [2][-]{subsection.C.2.5}{Bingham 95\045 confidence parameters}{section.C.2}% 243
+\BOOKMARK [1][-]{section.C.3}{Paleointensity statistics}{appendix.C}% 244
+\BOOKMARK [0][-]{appendix.D}{Anisotropy in paleomagnetism}{}% 245
+\BOOKMARK [1][-]{section.D.1}{The 15 measurement protocol}{appendix.D}% 246
+\BOOKMARK [1][-]{section.D.2}{The spinning protocol}{appendix.D}% 247
+\BOOKMARK [1][-]{section.D.3}{Correction of inclination error with AARM}{appendix.D}% 248

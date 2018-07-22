@@ -1,0 +1,21 @@
+X,Y=[],[]
+f=open('mosk-fig9-2.7-zfc.txt','rU') # data from Moskowitz et al. 2008 Fig9 (2.7m)
+data=f.readlines()
+for line in data:
+    rec=line.split('\t')
+    X.append(rec[0])
+    Y.append(float(rec[1])) #  
+pylab.figure(2,figsize=(4,4))
+pylab.plot(X,Y,'b-')
+pylab.ylabel("sIRM (nAm^2/l)")
+pylab.xlabel("Temperature (K)")
+X,Y=[],[]
+f=open('mosk-fig9-2.7-fc.txt','rU') # data from Moskowitz et al. 2008 Fig9 (2.7m)
+data=f.readlines()
+for line in data:
+    rec=line.split('\t')
+    X.append(rec[0])
+    Y.append(float(rec[1])) #  
+pylab.plot(X,Y,'r--')
+pylab.draw()
+raw_input()
