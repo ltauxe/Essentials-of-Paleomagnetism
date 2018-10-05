@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  22 JUL 2018 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  4 OCT 2018 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,7 +764,7 @@ Package natbib Warning: Citation `opdyke96' undefined on input line 35.
 
 Package natbib Warning: Citation `tauxe16' undefined on input line 104.
 
-[9]) [10] [11] [12
+[9] [10]) [11] [12
 
 ]
 --- file WebBook3li1.html ---
@@ -5914,11 +5914,11 @@ you can ask a wizard to enlarge me.
 
  
 Here is how much of TeX's memory you used:
- 14652 strings out of 493090
- 211072 string characters out of 6134868
- 1699838 words of memory out of 5000000
- 17584 multiletter control sequences out of 15000+600000
+ 14594 strings out of 493090
+ 210700 string characters out of 6134868
+ 1699317 words of memory out of 5000000
+ 17526 multiletter control sequences out of 15000+600000
  17276 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  5000i,13n,4990p,2557b,4885s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on WebBook3.dvi (1127 pages, 2875244 bytes).
+Output written on WebBook3.dvi (1127 pages, 2875368 bytes).

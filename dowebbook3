@@ -1,6 +1,10 @@
 rm Essentials-Web-Pages/*.png
 rm Essentials-Web-Pages/*.html
 htlatex WebBook3 "html, 2, sections+"
+`
+To fix html to handle utf-8, put this at the top:
+<?xml version="1.0" encoding="utf-8" ?>
+
 mv *.png Essentials-Web-Pages
 mv *.html Essentials-Web-Pages
 git add .

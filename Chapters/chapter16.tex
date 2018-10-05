@@ -778,7 +778,7 @@ the Appendix A.3.5 on `Tricks with tensors'.   Or you can use the {\bf frp.get\_
 
 
 
-b) Use the function {\bf pmag.PTrot( )} to  transform the North American pole to South African coordinates using the method outlined in the Appendix.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How do your answers compare? 
+b) Use the function {\bf pmag.pt\_rott( )} to  transform the North American pole to South African coordinates using the method outlined in the Appendix.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How do your answers compare? 
 
 
 
@@ -797,14 +797,14 @@ b) Some of the data come studies that have been superseded by later studies or t
 
 
 
-c) Put the pole latitudes and longitudes into form that you can use with  {\bf pmag.PTrot( )}  to rotate these to North American coordinates for 100 Ma.  Get the poles of rotation from the {\bf frp.get\_pole( )} function (or in Appendix A.3.5).  
+c) Put the pole latitudes and longitudes into form that you can use with  {\bf pmag.pt\_rot( )}  to rotate these to North American coordinates for 100 Ma.  Get the poles of rotation from the {\bf frp.get\_pole( )} function (or in Appendix A.3.5).  
 %Appendix~\ref{app:polerot}.
  You need to   first rotate Europe to fixed African coordinates, then African to North American coordinates (you will have to change the 
  sign of $\Omega$ for the latter).  
  
    Compare your rotated pole with the synthetic pole of Besse and Courtillot (2002).  You can find what this is by using the function  {\bf pmag.apwp( )}.   
  
-  d) Make a plot of the continental configurations at 100 Ma using the function  {\bf continents.get\_continent} in the {\bf pmagpy.continents} module along with the {\bf pmagplotlib.plotMAP( )} function.  You will of course also need {\bf frp.get\_pole( )} and {\bf pmag.pmag.PTrot( )}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
+  d) Make a plot of the continental configurations at 100 Ma using the function  {\bf continents.get\_continent} in the {\bf pmagpy.continents} module along with the {\bf pmagplotlib.plot\_map( )} function.  You will of course also need {\bf frp.get\_pole( )} and {\bf pmag.pmag.pt\_rot( )}.    Select the European, North American, African, South American, Indian, Australian and Antarctic continents.  
 
 
  
