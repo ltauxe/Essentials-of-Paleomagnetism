@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  30 JAN 2019 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  4 FEB 2019 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,8 @@ de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
 {\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
 documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
  tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
-\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode html, 2, sections+.a.b.c.\i
-nput  WebBook3
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode xhtml,1,sections+,charset=u
+tf-8.a.b.c.\input  WebBook3
 (./WebBook3.tex (./mydefs.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -272,9 +272,6 @@ File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 
 (./WebBook3.tmp)
 \tmp:dim=\skip51
---------------------------------------
---- Note --- for XML code, use the command line option `xml' or `xhtml'
---------------------------------------
  (./WebBook3.xref)
 \:refout=\write3
 \openout3 = `WebBook3.xref'.
@@ -318,10 +315,6 @@ version 2015-01-26-15:58
  line option `sec-filename'
 --------------------------------------
 --------------------------------------
---- Note --- for alternative charset, use the command line option `charset=...'
-
---------------------------------------
---------------------------------------
 --- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
 on
 --------------------------------------
@@ -346,7 +339,7 @@ option `frames-fn'
 --------------------------------------
 --- Note --- for file extension name xht, use the command line option `xht'
 --------------------------------------
-TeX4ht package options: html,2,sections+
+TeX4ht package options: xhtml,1,sections+,charset=utf-8,html
 --------------------------------------
 --- Note --- to ignore CSS code, use the command line option `-css
 --------------------------------------
@@ -469,19 +462,16 @@ version 2015-01-26-15:58
 --- Note --- for tocs without * entries, use command line option `notoc*'
 --------------------------------------
 --------------------------------------
---- Note --- for tocs without * entries, use command line option `notoc*'
---------------------------------------
---------------------------------------
---- Note --- to eliminate mini tables of contents, use the command line option 
-`nominitoc'
---------------------------------------
---------------------------------------
 --- Note --- for frames-like object-based table of contents, use the command li
 ne option `obj-toc'
 --------------------------------------
 --------------------------------------
 --- Note --- for files named derived from section titles, use the command line 
 option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
 --------------------------------------
 --------------------------------------
 --- Note --- for i-columns index, use the command line option `index=i' (e.g., 
@@ -730,9 +720,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `preface.aux'.
 
 
-(./preface.tex (./WebBook3.4ct [2
+(./preface.tex (./WebBook3.4ct) [2
 
-] [3] [4]) [5]
+]
 
 Package natbib Warning: Citation `kono07b' undefined on input line 32.
 
@@ -757,17 +747,15 @@ Package natbib Warning: Citation `voo93' undefined on input line 35.
 
 Package natbib Warning: Citation `opdyke96' undefined on input line 35.
 
-[6] [7] [8]
+[3] [4] [5]
 
 Package natbib Warning: Citation `tauxe16' undefined on input line 104.
 
-[9] [10]) [11] [12
+[6] [7]) [8] [9
 
-]
---- file WebBook3li1.html ---
- (./WebBook3.4ct [13
+] [10
 
-] [14] [15] [16] [17]) [18] [19]
+] (./WebBook3.4ct [11] [12] [13] [14] [15]) [16] [17]
 [1
 
 ]
@@ -775,55 +763,52 @@ Package natbib Warning: Citation `tauxe16' undefined on input line 104.
 
  (./Chapters/chapter1.tex [2
 
-] [3
+]
+Chapter 1.
+ --- Customlinks says: Link to chapter 1: WebBook3.html#ch1
+ --- Customlinks says: Link to section 1.1: WebBook3.html#sec1-1
+[3
 
 ] [4
 
 ]
-Chapter 1.
---- file WebBook3ch1.html ---
- --- Customlinks says: Link to chapter 1: WebBook3ch1.html#ch1
- --- Customlinks says: Link to section 1.1: WebBook3ch1.html#sec1-1
-[5] [6
-
-]
 l. 47 Writing WebBook3.idv[1] (WebBook30x.png)
 File: EPSFiles/wire.eps Graphic file (type eps)
- <EPSFiles/wire.eps> [7
+ <EPSFiles/wire.eps> [5
 
 ]
 
 Package natbib Warning: Citation `jiles91' undefined on input line 52.
 
- --- Customlinks says: Custom link named 'filings': WebBook3ch1.html#filings 
+ --- Customlinks says: Custom link named 'filings': WebBook3.html#filings 
 l. 84 Writing WebBook3.idv[2] (WebBook31x.png)
- --- Customlinks says: Link to section 1.2: WebBook3ch1.html#sec1-2
-[8
+[6
 
 ]
- --- Customlinks says: Custom link named 'magnetic_moment': WebBook3ch1.html#ma
-gnetic_moment 
+ --- Customlinks says: Link to section 1.2: WebBook3.html#sec1-2
+ --- Customlinks says: Custom link named 'magnetic_moment': WebBook3.html#magne
+tic_moment 
 l. 121 Writing WebBook3.idv[3] (WebBook32x.png)
-[9] [10
+[7] [8
 
 ]
 l. 129 Writing WebBook3.idv[4] (WebBook33x.png)
 File: EPSfiles/moment.eps Graphic file (type eps)
- <EPSfiles/moment.eps> [11
+ <EPSfiles/moment.eps> [9
 
 ]
 
 Package natbib Warning: Citation `jiles91' undefined on input line 133.
 
- --- Customlinks says: Link to section 1.3: WebBook3ch1.html#sec1-3
-[12
+ --- Customlinks says: Link to section 1.3: WebBook3.html#sec1-3
+[10
 
-] [13
+] [11
 
 ]
 l. 146 Writing WebBook3.idv[5] (WebBook34x.png)
 File: EPSfiles/barmagnetfield.eps Graphic file (type eps)
- <EPSfiles/barmagnetfield.eps> [14
+ <EPSfiles/barmagnetfield.eps> [12
 
 ]
 
@@ -833,34 +818,35 @@ Package natbib Warning: Citation `jiles91' undefined on input line 150.
 Package natbib Warning: Citation `tipler99' undefined on input line 150.
 
 l. 167 Writing WebBook3.idv[6] (WebBook35x.png)
-[15
+[13
 
 ]
- --- Customlinks says: Link to section 1.4: WebBook3ch1.html#sec1-4
-[16] [17
+ --- Customlinks says: Link to section 1.4: WebBook3.html#sec1-4
+[14] [15
 
 ]
 l. 198 Writing WebBook3.idv[7] (WebBook36x.png)
 File: EPSfiles/compass.eps Graphic file (type eps)
- <EPSfiles/compass.eps> [18
+ <EPSfiles/compass.eps> [16
 
 ]
- --- Customlinks says: Link to section 1.5: WebBook3ch1.html#sec1-5
+ --- Customlinks says: Link to section 1.5: WebBook3.html#sec1-5
 l. 217 Writing WebBook3.idv[8] (WebBook37x.png)
-[19
+[17
 
 ]
- --- Customlinks says: Link to section 1.6: WebBook3ch1.html#sec1-6
+ --- Customlinks says: Link to section 1.6: WebBook3.html#sec1-6
 l. 254 Writing WebBook3.idv[9] (WebBook38x.png)
- --- Customlinks says: Link to section 1.7: WebBook3ch1.html#sec1-7
-[20] [21] [22
+[18]
+ --- Customlinks says: Link to section 1.7: WebBook3.html#sec1-7
+[19] [20
 
 ]
 l. 276 Writing WebBook3.idv[10] (WebBook39x.png)
 File: EPSfiles/pp.eps Graphic file (type eps)
- <EPSfiles/pp.eps> [23
+ <EPSfiles/pp.eps> [21
 
-] [24
+] [22
 
 ]
 
@@ -868,55 +854,55 @@ Package natbib Warning: Citation `cullity72' undefined on input line 283.
 
 l. 292 Writing WebBook3.idv[11] (WebBook310x.png)
 l. 302 Writing WebBook3.idv[12] (WebBook311x.png)
-[25]
+[23]
 l. 307 Writing WebBook3.idv[13] (WebBook312x.png)
 l. 320 Writing WebBook3.idv[14] (WebBook313x.png)
- [26]
+ [24]
 l. 334 Writing WebBook3.idv[15] (WebBook314x.png)
- [27] [28] [29
+ [25] [26] [27
+
+] [28
+
+]
+ --- Customlinks says: Link to section 1.8: WebBook3.html#sec1-8
+[29
 
 ] [30
 
 ]
- --- Customlinks says: Link to section 1.8: WebBook3ch1.html#sec1-8
-[31
-
-] [32
-
-]
 l. 405 Writing WebBook3.idv[16] (WebBook315x.png)
 File: EPSfiles/divergence.eps Graphic file (type eps)
- <EPSfiles/divergence.eps> [33
+ <EPSfiles/divergence.eps> [31
 
 ]
 l. 419 Writing WebBook3.idv[17] (WebBook316x.png)
 l. 443 Writing WebBook3.idv[18] (WebBook317x.png)
- [34
+ [32
 
 ]
 l. 452 Writing WebBook3.idv[19] (WebBook318x.png)
 l. 457 Writing WebBook3.idv[20] (WebBook319x.png)
- [35] [36
+ [33] [34] [35
 
 ]
 l. 465 Writing WebBook3.idv[21] (WebBook320x.png)
 File: EPSfiles/mH.eps Graphic file (type eps)
  <EPSfiles/mH.eps>
-[37
+[36
 
 ]
- --- Customlinks says: Link to section 1.9: WebBook3ch1.html#sec1-9
+ --- Customlinks says: Link to section 1.9: WebBook3.html#sec1-9
 
 Package natbib Warning: Citation `glatzmaier95' undefined on input line 480.
 
-[38
+[37
 
-] [39
+] [38
 
 ]
 l. 494 Writing WebBook3.idv[22] (WebBook321x.png)
 File: EPSfiles/discdynamo.eps Graphic file (type eps)
- <EPSfiles/discdynamo.eps> [40
+ <EPSfiles/discdynamo.eps> [39
 
 ]
 
@@ -926,94 +912,90 @@ Package natbib Warning: Citation `elsasser58' undefined on input line 498.
 Package natbib Warning: Citation `butler92' undefined on input line 498.
 
 l. 505 Writing WebBook3.idv[23] (WebBook322x.png)
-[41
+[40
 
-] [42]
+] [41]
 
 Package natbib Warning: Citation `jiles91' undefined on input line 563.
 
 
 Package natbib Warning: Citation `cullity72' undefined on input line 564.
 
- --- Customlinks says: Link to section 1.10: WebBook3ch1.html#sec1-10
+ --- Customlinks says: Link to section 1.10: WebBook3.html#sec1-10
 l. 575 Writing WebBook3.idv[24] (WebBook323x.png)
+[42]
 l. 579 Writing WebBook3.idv[25] (WebBook324x.png)
-[43]
 l. 585 Writing WebBook3.idv[26] (WebBook325x.png)
 Missing character: There is no Ð in font cmr8!
- [44] [45] [46
+ [43] [44] [45
 
 ]
 l. 614 Writing WebBook3.idv[27] (WebBook326x.png)
 File: EPSfiles/dipole.eps Graphic file (type eps)
- <EPSfiles/dipole.eps> [47
+ <EPSfiles/dipole.eps> [46
 
 ]
 l. 639 Writing WebBook3.idv[28] (WebBook327x.png)
- [48
+ [47
 
-]) [49] [50
+]) [48] [49
 
 ]
 \openout2 = `Chapters/chapter2.aux'.
 
 
 (./Chapters/chapter2.tex
- --- Customlinks says: Custom link named 'The_geomagnetic_field': WebBook3ch1.h
-tml#The_geomagnetic_field 
+ --- Customlinks says: Custom link named 'The_geomagnetic_field': WebBook3.html
+#The_geomagnetic_field 
+[50
+
+]
+Chapter 2.
+ --- Customlinks says: Link to chapter 2: WebBook3.html#ch2
+ --- Customlinks says: Link to section 2.1: WebBook3.html#sec2-1
 [51
 
 ] [52
 
 ]
-Chapter 2.
---- file WebBook3ch2.html ---
- --- Customlinks says: Link to chapter 2: WebBook3ch2.html#ch2
- --- Customlinks says: Link to section 2.1: WebBook3ch2.html#sec2-1
-[53
-
-] [54
-
-]
 l. 31 Writing WebBook3.idv[29] (WebBook328x.png)
 File: EPSfiles/components.eps Graphic file (type eps)
- <EPSfiles/components.eps> [55
+ <EPSfiles/components.eps> [53
 
 ]
 
 Package natbib Warning: Citation `benyosef08b' undefined on input line 39.
 
 l. 49 Writing WebBook3.idv[30] (WebBook329x.png)
-[56
+[54
 
 ]
 l. 54 Writing WebBook3.idv[31] (WebBook330x.png)
 l. 63 Writing WebBook3.idv[32] (WebBook331x.png)
- [57]
+ [55]
 l. 87 Writing WebBook3.idv[33] (WebBook332x.png)
-
- --- Customlinks says: Link to section 2.2: WebBook3ch2.html#sec2-2
-[58]
+ [56]
+ --- Customlinks says: Link to section 2.2: WebBook3.html#sec2-2
 l. 119 Writing WebBook3.idv[34] (WebBook333x.png)
- [59]
+[57]
 l. 133 Writing WebBook3.idv[35] (WebBook334x.png)
 l. 153 Writing WebBook3.idv[36] (WebBook335x.png)
- [60] [61] [62
+ [58] [59] [60
 
 ]
 l. 162 Writing WebBook3.idv[37] (WebBook336x.png)
 File: EPSfiles/schmidt.eps Graphic file (type eps)
- <EPSfiles/schmidt.eps> [63
+ <EPSfiles/schmidt.eps> [61
 
-] [64
+] [62
 
-] [65
+] [63
 
 ]
 l. 180 Writing WebBook3.idv[38] (WebBook337x.png)
 File: EPSfiles/harmonics.eps Graphic file (type eps)
 
-<EPSfiles/harmonics.eps> [66
+<EPSfiles/harmonics.eps> [64
 
 ]
 l. 189 Writing WebBook3.idv[39] (WebBook338x.png)
@@ -1022,11 +1004,11 @@ l. 189 Writing WebBook3.idv[39] (WebBook338x.png)
 Package natbib Warning: Citation `langel87' undefined on input line 195.
 
 l. 202 Writing WebBook3.idv[40] (WebBook339x.png)
-[67
+[65
 
-] [68] [69
+] [66] [67
 
-] [70
+] [68
 
 ]
 
@@ -1035,212 +1017,211 @@ Package natbib Warning: Citation `thebault15' undefined on input line 262.
 
 Package natbib Warning: Citation `lowes74' undefined on input line 267.
 
-[71
+[69
 
-] [72
+] [70
 
 ]
 l. 280 Writing WebBook3.idv[41] (WebBook340x.png)
 File: EPSfiles/power.eps Graphic file (type eps)
- <EPSfiles/power.eps> [73
+ <EPSfiles/power.eps> [71
 
-] [74
+] [72
 
-] [75
+] [73
 
 ]
 l. 290 Writing WebBook3.idv[42] (WebBook341x.png)
 File: EPSfiles/B.eps Graphic file (type eps)
- <EPSfiles/B.eps> [76
+ <EPSfiles/B.eps> [74
 
 ]
- --- Customlinks says: Link to section 2.3: WebBook3ch2.html#sec2-3
-[77
+ --- Customlinks says: Link to section 2.3: WebBook3.html#sec2-3
+[75
 
-] [78
+] [76
 
 ]
 l. 330 Writing WebBook3.idv[43] (WebBook342x.png)
 File: EPSfiles/poles.eps Graphic file (type eps)
- <EPSfiles/poles.eps> [79
+ <EPSfiles/poles.eps> [77
 
 ]
 
 Package natbib Warning: Citation `merrill96' undefined on input line 371.
 
 l. 385 Writing WebBook3.idv[44] (WebBook343x.png)
-[80
+[78
 
 ]
 l. 392 Writing WebBook3.idv[45] (WebBook344x.png)
 l. 404 Writing WebBook3.idv[46] (WebBook345x.png)
- [81]
+ [79]
 l. 420 Writing WebBook3.idv[47] (WebBook346x.png)
-
- --- Customlinks says: Link to section 2.4: WebBook3ch2.html#sec2-4
-[82] [83] [84
+ [80]
+ --- Customlinks says: Link to section 2.4: WebBook3.html#sec2-4
+[81] [82
 
 ]
 l. 463 Writing WebBook3.idv[48] (WebBook347x.png)
 File: EPSfiles/igrf.eps Graphic file (type eps)
- <EPSfiles/igrf.eps> [85
+ <EPSfiles/igrf.eps> [83
 
 ]
 
 Package natbib Warning: Citation `tauxe98' undefined on input line 476.
 
 l. 484 Writing WebBook3.idv[49] (WebBook348x.png)
- --- Customlinks says: Link to subsection 2.4.1: WebBook3ch2.html#subsec2-4-1
-[86
+[84
 
 ]
+ --- Customlinks says: Link to subsection 2.4.1: WebBook3.html#subsec2-4-1
 l. 515 Writing WebBook3.idv[50] (WebBook349x.png)
+[85]
 l. 523 Writing WebBook3.idv[51] (WebBook350x.png)
- [87] [88] [89
+ [86] [87
 
 ]
 l. 543 Writing WebBook3.idv[52] (WebBook351x.png)
 File: EPSfiles/igrf_dip.eps Graphic file (type eps)
- <EPSfiles/igrf_dip.eps> [90
+ <EPSfiles/igrf_dip.eps> [88
 
-] [91
+] [89
 
-] [92
+] [90
 
 ]
 l. 552 Writing WebBook3.idv[53] (WebBook352x.png)
 File: EPSfiles/mkvgp.eps Graphic file (type eps)
-
-<EPSfiles/mkvgp.eps> [93
+ <EPSfiles/mkvgp.eps>
+[91
 
 ]
- --- Customlinks says: Custom link named 'Virtual_geomagnetic_poles': WebBook3c
-h2.html#Virtual_geomagnetic_poles 
- --- Customlinks says: Link to subsection 2.4.2: WebBook3ch2.html#subsec2-4-2
-[94
+ --- Customlinks says: Custom link named 'Virtual_geomagnetic_poles': WebBook3.
+html#Virtual_geomagnetic_poles 
+ --- Customlinks says: Link to subsection 2.4.2: WebBook3.html#subsec2-4-2
+[92
 
 ]
 l. 616 Writing WebBook3.idv[54] (WebBook353x.png)
 l. 624 Writing WebBook3.idv[55] (WebBook354x.png)
- [95]
+ [93]
 l. 634 Writing WebBook3.idv[56] (WebBook355x.png)
+ [94]
 l. 659 Writing WebBook3.idv[57] (WebBook356x.png)
- [96]
 l. 668 Writing WebBook3.idv[58] (WebBook357x.png)
 
- --- Customlinks says: Custom link named 'Virtual_dipole_moment': WebBook3ch2.h
-tml#Virtual_dipole_moment 
- --- Customlinks says: Link to subsection 2.4.3: WebBook3ch2.html#subsec2-4-3
-[97]
+ --- Customlinks says: Custom link named 'Virtual_dipole_moment': WebBook3.html
+#Virtual_dipole_moment 
+ --- Customlinks says: Link to subsection 2.4.3: WebBook3.html#subsec2-4-3
+[95]
 l. 692 Writing WebBook3.idv[59] (WebBook358x.png)
-
- --- Customlinks says: Link to section 2.5: WebBook3ch2.html#sec2-5
-[98] [99] [100] [101]) [102] [103
+ [96]
+ --- Customlinks says: Link to section 2.5: WebBook3.html#sec2-5
+[97] [98] [99]) [100] [101
 
 ]
 \openout2 = `Chapters/chapter3.aux'.
 
  (./Chapters/chapter3.tex
  --- Customlinks says: Custom link named 'Induced_and_remanent_magnetism': WebB
-ook3ch2.html#Induced_and_remanent_magnetism 
-[104
-
-] [105
-
-] [106
+ook3.html#Induced_and_remanent_magnetism 
+[102
 
 ]
 Chapter 3.
---- file WebBook3ch3.html ---
- --- Customlinks says: Link to chapter 3: WebBook3ch3.html#ch3
- --- Customlinks says: Link to section 3.1: WebBook3ch3.html#sec3-1
-[107] [108
+ --- Customlinks says: Link to chapter 3: WebBook3.html#ch3
+ --- Customlinks says: Link to section 3.1: WebBook3.html#sec3-1
+[103
+
+] [104
 
 ]
 l. 39 Writing WebBook3.idv[60] (WebBook359x.png)
 File: EPSfiles/1s.eps Graphic file (type eps)
- <EPSfiles/1s.eps> [109
+ <EPSfiles/1s.eps> [105
 
 ]
 l. 56 Writing WebBook3.idv[61] (WebBook360x.png)
-l. 65 Writing WebBook3.idv[62] (WebBook361x.png)
- [110
+ [106
 
 ]
+l. 65 Writing WebBook3.idv[62] (WebBook361x.png)
 l. 68 Writing WebBook3.idv[63] (WebBook362x.png)
+ [107]
 l. 77 Writing WebBook3.idv[64] (WebBook363x.png)
- [111] [112] [113
+ [108] [109
 
 ]
 l. 90 Writing WebBook3.idv[65] (WebBook364x.png)
 File: EPSfiles/shells.eps Graphic file (type eps)
 
-<EPSfiles/shells.eps> [114
+<EPSfiles/shells.eps> [110
 
 ]
 l. 102 Writing WebBook3.idv[66] (WebBook365x.png)
 l. 110 Writing WebBook3.idv[67] (WebBook366x.png)
- [115
+ [111
 
-] [116
+] [112
 
 ]
 l. 128 Writing WebBook3.idv[68] (WebBook367x.png)
 File: EPSfiles/structure.eps Graphic file (type eps)
- <EPSfiles/structure.eps> [117
+ <EPSfiles/structure.eps> [113
 
-] [118
+] [114
 
 ]
- --- Customlinks says: Link to section 3.2: WebBook3ch3.html#sec3-2
-[119] [120
+ --- Customlinks says: Link to section 3.2: WebBook3.html#sec3-2
+[115] [116
 
 ]
 l. 176 Writing WebBook3.idv[69] (WebBook368x.png)
 File: EPSfiles/larmor.eps Graphic file (type eps)
- <EPSfiles/larmor.eps> [121
+ <EPSfiles/larmor.eps> [117
 
 ]
- --- Customlinks says: Link to subsection 3.2.1: WebBook3ch3.html#subsec3-2-1
+ --- Customlinks says: Link to subsection 3.2.1: WebBook3.html#subsec3-2-1
 l. 194 Writing WebBook3.idv[70] (WebBook369x.png)
-[122
+[118
 
-] [123] [124
+] [119] [120
 
 ]
 l. 214 Writing WebBook3.idv[71] (WebBook370x.png)
 File: EPSfiles/para.eps Graphic file (type eps)
- <EPSfiles/para.eps> [125
+ <EPSfiles/para.eps> [121
 
 ]
- --- Customlinks says: Link to subsection 3.2.2: WebBook3ch3.html#subsec3-2-2
-[126
+ --- Customlinks says: Link to subsection 3.2.2: WebBook3.html#subsec3-2-2
+[122
 
 ]
 l. 265 Writing WebBook3.idv[72] (WebBook371x.png)
 l. 303 Writing WebBook3.idv[73] (WebBook372x.png)
- [127]
+ [123]
 l. 312 Writing WebBook3.idv[74] (WebBook373x.png)
- [128]
+ [124]
 l. 336 Writing WebBook3.idv[75] (WebBook374x.png)
 l. 350 Writing WebBook3.idv[76] (WebBook375x.png)
- [129] [130] [131
+ [125] [126] [127
 
 ]
 l. 382 Writing WebBook3.idv[77] (WebBook376x.png)
 File: EPSfiles/exchange.eps Graphic file (type eps)
- <EPSfiles/exchange.eps> [132
+ <EPSfiles/exchange.eps> [128
 
 ]
- --- Customlinks says: Link to section 3.3: WebBook3ch3.html#sec3-3
-[133
+ --- Customlinks says: Link to section 3.3: WebBook3.html#sec3-3
+[129
 
-] [134
+] [130
 
 ]
 l. 429 Writing WebBook3.idv[78] (WebBook377x.png)
 File: EPSfiles/MsT.eps Graphic file (type eps)
- <EPSfiles/MsT.eps> [135
+ <EPSfiles/MsT.eps> [131
 
 ]
 
@@ -1249,16 +1230,16 @@ Package natbib Warning: Citation `tauxe98' undefined on input line 434.
 l. 445 Writing WebBook3.idv[79] (WebBook378x.png)
 l. 453 Writing WebBook3.idv[80] (WebBook379x.png)
 l. 462 Writing WebBook3.idv[81] (WebBook380x.png)
-[136
+[132
 
 ]
 l. 474 Writing WebBook3.idv[82] (WebBook381x.png)
- [137] [138
+ [133] [134
 
 ]
 l. 486 Writing WebBook3.idv[83] (WebBook382x.png)
 File: EPSfiles/curie.eps Graphic file (type eps)
- <EPSfiles/curie.eps> [139
+ <EPSfiles/curie.eps> [135
 
 ]
 
@@ -1273,7 +1254,7 @@ Package natbib Warning: Citation `banerjee91' undefined on input line 490.
 l. 496 Writing WebBook3.idv[84] (WebBook383x.png)
 l. 503 Writing WebBook3.idv[85] (WebBook384x.png)
 l. 511 Writing WebBook3.idv[86] (WebBook385x.png)
-[140
+[136
 
 ]
 
@@ -1283,74 +1264,71 @@ l. 531 Writing WebBook3.idv[87] (WebBook386x.png)
 
 Package natbib Warning: Citation `banerjee91' undefined on input line 538.
 
-[141] [142] [143
+[137] [138] [139
 
 ]
 l. 543 Writing WebBook3.idv[88] (WebBook387x.png)
 File: EPSfiles/spins.eps Graphic file (type eps)
- <EPSfiles/spins.eps> [144
+ <EPSfiles/spins.eps> [140
 
-] [145
+] [141
 
-] [146
+] [142
 
 ]
 l. 576 Writing WebBook3.idv[89] (WebBook388x.png)
 File: EPSfiles/spinwave.eps Graphic file (type eps)
 
-<EPSfiles/spinwave.eps> [147
+<EPSfiles/spinwave.eps> [143
 
 ]
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 623.
 
- --- Customlinks says: Link to section 3.4: WebBook3ch3.html#sec3-4
-[148
+ --- Customlinks says: Link to section 3.4: WebBook3.html#sec3-4
+[144
 
-] [149]) [150] [151
+] [145]) [146] [147
 
 ]
 \openout2 = `Chapters/chapter4.aux'.
 
  (./Chapters/chapter4.tex
  --- Customlinks says: Custom link named 'Magnetic_anisotropy_and_domains': Web
-Book3ch3.html#Magnetic_anisotropy_and_domains 
-[152
-
-] [153
-
-] [154
+Book3.html#Magnetic_anisotropy_and_domains 
+[148
 
 ]
 Chapter 4.
---- file WebBook3ch4.html ---
- --- Customlinks says: Link to chapter 4: WebBook3ch4.html#ch4
-[155] [156] [157
+ --- Customlinks says: Link to chapter 4: WebBook3.html#ch4
+[149
+
+] [150] [151
 
 ]
 l. 29 Writing WebBook3.idv[90] (WebBook389x.png)
 File: EPSfiles/magnetite.eps Graphic file (type eps)
- <EPSfiles/magnetite.eps> [158
+ <EPSfiles/magnetite.eps> [152
 
 ]
 
 Package natbib Warning: Citation `williams95' undefined on input line 33.
 
- --- Customlinks says: Link to section 4.1: WebBook3ch4.html#sec4-1
- --- Customlinks says: Link to subsection 4.1.1: WebBook3ch4.html#subsec4-1-1
+ --- Customlinks says: Link to section 4.1: WebBook3.html#sec4-1
+ --- Customlinks says: Link to subsection 4.1.1: WebBook3.html#subsec4-1-1
 l. 47 Writing WebBook3.idv[91] (WebBook390x.png)
-[159
+[153
 
 ]
- --- Customlinks says: Link to subsection 4.1.2: WebBook3ch4.html#subsec4-1-2
-[160]
+ --- Customlinks says: Link to subsection 4.1.2: WebBook3.html#subsec4-1-2
+[154]
 l. 74 Writing WebBook3.idv[92] (WebBook391x.png)
- [161] [162] [163
+ [155] [156] [157
 
 ]
 l. 94 Writing WebBook3.idv[93] (WebBook392x.png)
 File: EPSfiles/K-T.eps Graphic file (type eps)
- <EPSfiles/K-T.eps> [164
+ <EPSfiles/K-T.eps> [158
 
 ]
 
@@ -1359,55 +1337,55 @@ Package natbib Warning: Citation `syono63' undefined on input line 98.
 
 Package natbib Warning: Citation `fletcher74' undefined on input line 98.
 
- --- Customlinks says: Link to subsection 4.1.3: WebBook3ch4.html#subsec4-1-3
+ --- Customlinks says: Link to subsection 4.1.3: WebBook3.html#subsec4-1-3
 l. 109 Writing WebBook3.idv[94] (WebBook393x.png)
-[165
+[159
 
-] [166] [167
+] [160] [161
 
 ]
 l. 124 Writing WebBook3.idv[95] (WebBook394x.png)
 File: EPSfiles/verwey.eps Graphic file (type eps)
- <EPSfiles/verwey.eps> [168
+ <EPSfiles/verwey.eps> [162
 
-] [169
+] [163
 
 ]
 l. 152 Writing WebBook3.idv[96] (WebBook395x.png)
 
- --- Customlinks says: Link to subsection 4.1.4: WebBook3ch4.html#subsec4-1-4
-[170]
+ --- Customlinks says: Link to subsection 4.1.4: WebBook3.html#subsec4-1-4
+[164]
 l. 173 Writing WebBook3.idv[97] (WebBook396x.png)
 
 
 Package natbib Warning: Citation `moskowitz93b' undefined on input line 176.
 
 l. 178 Writing WebBook3.idv[98] (WebBook397x.png)
-[171] [172
+[165] [166] [167
 
 ]
 l. 186 Writing WebBook3.idv[99] (WebBook398x.png)
 File: EPSfiles/demagfield.eps Graphic file (type eps)
- <EPSfiles/demagfield.eps> [173
+ <EPSfiles/demagfield.eps> [168
 
 ]
- --- Customlinks says: Link to subsection 4.1.5: WebBook3ch4.html#subsec4-1-5
+ --- Customlinks says: Link to subsection 4.1.5: WebBook3.html#subsec4-1-5
 l. 204 Writing WebBook3.idv[100] (WebBook399x.png)
-[174
+[169
 
 ]
 l. 214 Writing WebBook3.idv[101] (WebBook3100x.png)
 l. 219 Writing WebBook3.idv[102] (WebBook3101x.png)
- [175]
+ [170]
 l. 225 Writing WebBook3.idv[103] (WebBook3102x.png)
 l. 229 Writing WebBook3.idv[104] (WebBook3103x.png)
- [176]
+ [171]
 l. 239 Writing WebBook3.idv[105] (WebBook3104x.png)
 l. 243 Writing WebBook3.idv[106] (WebBook3105x.png)
 l. 243 Writing WebBook3.idv[107] (WebBook3106x.png)
 l. 243 Writing WebBook3.idv[108] (WebBook3107x.png)
+ [172]
 l. 249 Writing WebBook3.idv[109] (WebBook3108x.png)
- [177]
 l. 253 Writing WebBook3.idv[110] (WebBook3109x.png)
 
 
@@ -1419,75 +1397,76 @@ Package natbib Warning: Citation `nagata61' undefined on input line 265.
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 270.
 
+[173]
 l. 274 Writing WebBook3.idv[111] (WebBook3110x.png)
-[178] [179] [180
+ [174] [175
 
 ]
 l. 286 Writing WebBook3.idv[112] (WebBook3111x.png)
 File: EPSfiles/micromag.eps Graphic file (type eps)
- <EPSfiles/micromag.eps> [181
+ <EPSfiles/micromag.eps> [176
 
 ]
 
 Package natbib Warning: Citation `tauxe02' undefined on input line 290.
 
- --- Customlinks says: Link to subsection 4.1.6: WebBook3ch4.html#subsec4-1-6
+ --- Customlinks says: Link to subsection 4.1.6: WebBook3.html#subsec4-1-6
 l. 303 Writing WebBook3.idv[113] (WebBook3112x.png)
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 311.
 
-[182
+[177
 
-] [183] [184
+] [178] [179
 
 ]
 l. 321 Writing WebBook3.idv[114] (WebBook3113x.png)
 File: EPSfiles/domains.eps Graphic file (type eps)
- <EPSfiles/domains.eps> [185
+ <EPSfiles/domains.eps> [180
 
 ]
 
 Package natbib Warning: Citation `tipler99' undefined on input line 325.
 
- --- Customlinks says: Link to section 4.2: WebBook3ch4.html#sec4-2
+ --- Customlinks says: Link to section 4.2: WebBook3.html#sec4-2
 
 Package natbib Warning: Citation `schabes88' undefined on input line 338.
 
-[186
+[181
 
-] [187
+] [182
 
 ]
 l. 360 Writing WebBook3.idv[115] (WebBook3114x.png)
 File: EPSfiles/wall.eps Graphic file (type eps)
- <EPSfiles/wall.eps> [188
+ <EPSfiles/wall.eps> [183
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 370.
 
 l. 375 Writing WebBook3.idv[116] (WebBook3115x.png)
-[189
+[184
 
-] [190] [191
+] [185] [186
 
 ]
 l. 393 Writing WebBook3.idv[117] (WebBook3116x.png)
 File: EPSfiles/energies.eps Graphic file (type eps)
- <EPSfiles/energies.eps> [192
+ <EPSfiles/energies.eps> [187
 
 ]
 
 Package natbib Warning: Citation `bitter31' undefined on input line 402.
 
-[193
+[188
 
-] [194
+] [189
 
 ]
 l. 409 Writing WebBook3.idv[118] (WebBook3117x.png)
 File: EPSfiles/domain-images.eps Graphic file (type eps)
- <EPSfiles/domain-images.eps> [195
+ <EPSfiles/domain-images.eps> [190
 
 ]
 
@@ -1501,17 +1480,17 @@ Package natbib Warning: Citation `ozdemir95' undefined on input line 413.
 
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
- --- Customlinks says: Link to section 4.3: WebBook3ch4.html#sec4-3
-[196
+ --- Customlinks says: Link to section 4.3: WebBook3.html#sec4-3
+[191
 
 ]
 l. 433 Writing WebBook3.idv[119] (WebBook3118x.png)
- [197] [198
+ [192] [193
 
 ]
 l. 443 Writing WebBook3.idv[120] (WebBook3119x.png)
 File: EPSfiles/tauvd.eps Graphic file (type eps)
- <EPSfiles/tauvd.eps> [199
+ <EPSfiles/tauvd.eps> [194
 
 ]
 l. 453 Writing WebBook3.idv[121] (WebBook3120x.png)
@@ -1519,19 +1498,19 @@ l. 453 Writing WebBook3.idv[121] (WebBook3120x.png)
 
 Package natbib Warning: Citation `neel55' undefined on input line 462.
 
-[200
+[195
 
 ]
 l. 471 Writing WebBook3.idv[122] (WebBook3121x.png)
- [201] [202] [203
+ [196] [197] [198
 
 ]
 l. 514 Writing WebBook3.idv[123] (WebBook3122x.png)
 File: EPSfiles/butban.eps Graphic file (type eps)
- <EPSfiles/butban.eps> [204
+ <EPSfiles/butban.eps> [199
 
 ]
- --- Customlinks says: Link to section 4.4: WebBook3ch4.html#sec4-4
+ --- Customlinks says: Link to section 4.4: WebBook3.html#sec4-4
 
 Package natbib Warning: Citation `evans69' undefined on input line 526.
 
@@ -1544,50 +1523,48 @@ Package natbib Warning: Citation `fabian96' undefined on input line 539.
 
 Package natbib Warning: Citation `butler75' undefined on input line 542.
 
-[205
+[200
 
 ]
- --- Customlinks says: Link to section 4.5: WebBook3ch4.html#sec4-5
+ --- Customlinks says: Link to section 4.5: WebBook3.html#sec4-5
 l. 562 Writing WebBook3.idv[124] (WebBook3123x.png)
-[206]) [207] [208
+[201]) [202] [203
 
 ]
 \openout2 = `Chapters/chapter5.aux'.
 
  (./Chapters/chapter5.tex
- --- Customlinks says: Custom link named 'Magnetic_hysteresis': WebBook3ch4.htm
-l#Magnetic_hysteresis 
-[209
-
-] [210
+ --- Customlinks says: Custom link named 'Magnetic_hysteresis': WebBook3.html#M
+agnetic_hysteresis 
+[204
 
 ]
 Chapter 5.
---- file WebBook3ch5.html ---
- --- Customlinks says: Link to chapter 5: WebBook3ch5.html#ch5
- --- Customlinks says: Link to section 5.1: WebBook3ch5.html#sec5-1
-l. 20 Writing WebBook3.idv[125] (WebBook3124x.png)
-[211
+ --- Customlinks says: Link to chapter 5: WebBook3.html#ch5
+ --- Customlinks says: Link to section 5.1: WebBook3.html#sec5-1
+[205
 
-] [212] [213
+]
+l. 20 Writing WebBook3.idv[125] (WebBook3124x.png)
+ [206] [207
 
 ]
 l. 30 Writing WebBook3.idv[126] (WebBook3125x.png)
 File: EPSfiles/mB.eps Graphic file (type eps)
- <EPSfiles/mB.eps> [214
+ <EPSfiles/mB.eps> [208
 
 ]
 l. 42 Writing WebBook3.idv[127] (WebBook3126x.png)
 l. 52 Writing WebBook3.idv[128] (WebBook3127x.png)
- [215
+ [209
 
-] [216] [217
+] [210] [211
 
 ]
 l. 68 Writing WebBook3.idv[129] (WebBook3128x.png)
 File: EPSfiles/flip.eps Graphic file (type eps)
 
-<EPSfiles/flip.eps> [218
+<EPSfiles/flip.eps> [212
 
 ]
 
@@ -1595,51 +1572,51 @@ Package natbib Warning: Citation `stoner48' undefined on input line 77.
 
 l. 84 Writing WebBook3.idv[130] (WebBook3129x.png)
 l. 91 Writing WebBook3.idv[131] (WebBook3130x.png)
-[219
+[213
 
 ]
 l. 98 Writing WebBook3.idv[132] (WebBook3131x.png)
- [220] [221] [222
+ [214] [215] [216
 
 ]
 l. 115 Writing WebBook3.idv[133] (WebBook3132x.png)
 File: EPSfiles/bf.eps Graphic file (type eps)
- <EPSfiles/bf.eps> [223
+ <EPSfiles/bf.eps> [217
 
 ]
- --- Customlinks says: Link to section 5.2: WebBook3ch5.html#sec5-2
- --- Customlinks says: Link to subsection 5.2.1: WebBook3ch5.html#subsec5-2-1
-[224
+ --- Customlinks says: Link to section 5.2: WebBook3.html#sec5-2
+ --- Customlinks says: Link to subsection 5.2.1: WebBook3.html#subsec5-2-1
+[218
 
-] [225] [226
+] [219] [220
 
 ]
 l. 151 Writing WebBook3.idv[134] (WebBook3133x.png)
 File: EPSfiles/outerloop.eps Graphic file (type eps)
- <EPSfiles/outerloop.eps> [227
+ <EPSfiles/outerloop.eps> [221
 
-] [228
+] [222
 
-] [229
+] [223
 
 ]
 l. 174 Writing WebBook3.idv[135] (WebBook3134x.png)
 File: EPSfiles/sdloops.eps Graphic file (type eps)
 
-<EPSfiles/sdloops.eps> [230
+<EPSfiles/sdloops.eps> [224
 
-] [231]
+] [225]
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 185.
 
-[232
+[226
 
-] [233
+] [227
 
 ]
 l. 199 Writing WebBook3.idv[136] (WebBook3135x.png)
 File: EPSfiles/Bcr.eps Graphic file (type eps)
- <EPSfiles/Bcr.eps> [234
+ <EPSfiles/Bcr.eps> [228
 
 ]
 
@@ -1648,75 +1625,75 @@ Package natbib Warning: Citation `wohlfarth58' undefined on input line 218.
 
 Package natbib Warning: Citation `jackson90' undefined on input line 232.
 
- --- Customlinks says: Link to subsection 5.2.2: WebBook3ch5.html#subsec5-2-2
-[235
+ --- Customlinks says: Link to subsection 5.2.2: WebBook3.html#subsec5-2-2
+[229
 
 ]
- --- Customlinks says: Link to subsection 5.2.3: WebBook3ch5.html#subsec5-2-3
+ --- Customlinks says: Link to subsection 5.2.3: WebBook3.html#subsec5-2-3
 
 Package natbib Warning: Citation `joffe74' undefined on input line 257.
 
-[236] [237
+[230] [231
 
 ]
 l. 264 Writing WebBook3.idv[137] (WebBook3136x.png)
 File: EPSfiles/cubicloops.eps Graphic file (type eps)
- <EPSfiles/cubicloops.eps> [238
+ <EPSfiles/cubicloops.eps> [232
 
 ]
 
 Package natbib Warning: Citation `tauxe02' undefined on input line 268.
 
-[239
+[233
 
-] [240
+] [234
 
 ]
 l. 274 Writing WebBook3.idv[138] (WebBook3137x.png)
 File: EPSfiles/loops.eps Graphic file (type eps)
- <EPSfiles/loops.eps> [241
+ <EPSfiles/loops.eps> [235
 
 ]
 
 Package natbib Warning: Citation `tauxe96' undefined on input line 278.
 
- --- Customlinks says: Link to subsection 5.2.4: WebBook3ch5.html#subsec5-2-4
+ --- Customlinks says: Link to subsection 5.2.4: WebBook3.html#subsec5-2-4
 l. 288 Writing WebBook3.idv[139] (WebBook3138x.png)
 
 Package natbib Warning: Citation `tauxe96' undefined on input line 317.
 
-[242
+[236
 
-] [243] [244] [245
+] [237] [238] [239
 
 ]
 l. 324 Writing WebBook3.idv[140] (WebBook3139x.png)
 File: EPSfiles/mdloop.eps Graphic file (type eps)
- <EPSfiles/mdloop.eps> [246
+ <EPSfiles/mdloop.eps> [240
 
 ]
 l. 331 Writing WebBook3.idv[141] (WebBook3140x.png)
 l. 335 Writing WebBook3.idv[142] (WebBook3141x.png)
- [247
+ [241
 
 ]
 l. 342 Writing WebBook3.idv[143] (WebBook3142x.png)
 l. 347 Writing WebBook3.idv[144] (WebBook3143x.png)
- [248] [249
+ [242] [243
 
 ]
 l. 359 Writing WebBook3.idv[145] (WebBook3144x.png)
 File: EPSfiles/void.eps Graphic file (type eps)
 
-<EPSfiles/void.eps> [250
+<EPSfiles/void.eps> [244
 
 ]
- --- Customlinks says: Link to subsection 5.2.5: WebBook3ch5.html#subsec5-2-5
+ --- Customlinks says: Link to subsection 5.2.5: WebBook3.html#subsec5-2-5
 
 Package natbib Warning: Citation `dunlop02a' undefined on input line 375.
 
 l. 379 Writing WebBook3.idv[146] (WebBook3145x.png)
-[251
+[245
 
 ]
 l. 388 Writing WebBook3.idv[147] (WebBook3146x.png)
@@ -1728,17 +1705,18 @@ Package natbib Warning: Citation `day77' undefined on input line 402.
 
 Package natbib Warning: Citation `dunlop02a' undefined on input line 402.
 
+[246]
 l. 404 Writing WebBook3.idv[149] (WebBook3148x.png)
-[252]
+
 
 Package natbib Warning: Citation `dunlop02a' undefined on input line 412.
 
-[253] [254] [255
+[247] [248] [249
 
 ]
 l. 426 Writing WebBook3.idv[150] (WebBook3149x.png)
 File: EPSfiles/wallenergy.eps Graphic file (type eps)
- <EPSfiles/wallenergy.eps> [256
+ <EPSfiles/wallenergy.eps> [250
 
 ]
 
@@ -1750,7 +1728,7 @@ Package natbib Warning: Citation `halgedahl83' undefined on input line 430.
 
 Package natbib Warning: Citation `halgedahl83' undefined on input line 436.
 
- --- Customlinks says: Link to section 5.3: WebBook3ch5.html#sec5-3
+ --- Customlinks says: Link to section 5.3: WebBook3.html#sec5-3
 
 Package natbib Warning: Citation `day77' undefined on input line 445.
 
@@ -1760,23 +1738,23 @@ Package natbib Warning: Citation `pick94' undefined on input line 454.
 
 Package natbib Warning: Citation `tauxe96' undefined on input line 456.
 
-[257
+[251
 
 ]
 
 Package natbib Warning: Citation `dunlop02a' undefined on input line 459.
 
-[258] [259
+[252] [253
 
 ]
 l. 466 Writing WebBook3.idv[151] (WebBook3150x.png)
 File: EPSfiles/forcprinc.eps Graphic file (type eps)
- <EPSfiles/forcprinc.eps> [260
+ <EPSfiles/forcprinc.eps> [254
 
 ]
 l. 474 Writing WebBook3.idv[152] (WebBook3151x.png)
 l. 480 Writing WebBook3.idv[153] (WebBook3152x.png)
- [261
+ [255
 
 ]
 l. 486 Writing WebBook3.idv[154] (WebBook3153x.png)
@@ -1785,12 +1763,12 @@ l. 486 Writing WebBook3.idv[154] (WebBook3153x.png)
 Package natbib Warning: Citation `dunlop06' undefined on input line 490.
 
 
-LaTeX Warning: Reference `tab:end members' on page 262 undefined on input line 
+LaTeX Warning: Reference `tab:end members' on page 256 undefined on input line 
 490.
 
-[262] [263
+[256] [257
 
-] [264
+] [258
 
 ]
 
@@ -1802,32 +1780,33 @@ Package natbib Warning: Citation `stacey61' undefined on input line 515.
 
 Package natbib Warning: Citation `tauxe02' undefined on input line 515.
 
- --- Customlinks says: Link to section 5.4: WebBook3ch5.html#sec5-4
+ --- Customlinks says: Link to section 5.4: WebBook3.html#sec5-4
 
 Package natbib Warning: Citation `mayergoyz86' undefined on input line 527.
 
 
 Package natbib Warning: Citation `harrison08' undefined on input line 532.
 
-[265
+[259
 
-] [266
+] [260] [261
 
 ]
 l. 542 Writing WebBook3.idv[155] (WebBook3154x.png)
 File: EPSfiles/m428.eps Graphic file (type eps)
- <EPSfiles/m428.eps> [267
+ <EPSfiles/m428.eps> [262
 
 ]
 l. 550 Writing WebBook3.idv[156] (WebBook3155x.png)
- [268
+ [263
 
-] [269
+] [264
 
 ]
 l. 562 Writing WebBook3.idv[157] (WebBook3156x.png)
 File: EPSfiles/ZFORC.eps Graphic file (type eps)
- <EPSfiles/ZFORC.eps> [270
+ <EPSfiles/ZFORC.eps>
+[265
 
 ]
 
@@ -1842,7 +1821,7 @@ Package natbib Warning: Citation `yu05b' undefined on input line 578.
 
 Package natbib Warning: Citation `fabian03' undefined on input line 583.
 
-[271
+[266
 
 ]
 l. 587 Writing WebBook3.idv[158] (WebBook3157x.png)
@@ -1859,38 +1838,35 @@ Package natbib Warning: Citation `dunlop02b' undefined on input line 599.
 
 Package natbib Warning: Citation `dunlop02a' undefined on input line 599.
 
-[272]
- --- Customlinks says: Link to section 5.5: WebBook3ch5.html#sec5-5
+[267]
+ --- Customlinks says: Link to section 5.5: WebBook3.html#sec5-5
 l. 613 Writing WebBook3.idv[159] (WebBook3158x.png)
 l. 617 Writing WebBook3.idv[160] (WebBook3159x.png)
-[273]) [274] [275
+[268]) [269] [270
 
 ]
 \openout2 = `Chapters/chapter6.aux'.
 
  (./Chapters/chapter6.tex
- --- Customlinks says: Custom link named 'magnetic_mineralogy': WebBook3ch5.htm
-l#magnetic_mineralogy 
-[276
+ --- Customlinks says: Custom link named 'magnetic_mineralogy': WebBook3.html#m
+agnetic_mineralogy 
+[271
 
-] [277
-
-] [278
+] [272
 
 ]
 Chapter 6.
---- file WebBook3ch6.html ---
- --- Customlinks says: Link to chapter 6: WebBook3ch6.html#ch6
+ --- Customlinks says: Link to chapter 6: WebBook3.html#ch6
 
 Package natbib Warning: Citation `evans03' undefined on input line 6.
 
- --- Customlinks says: Link to section 6.1: WebBook3ch6.html#sec6-1
-[279] [280] [281
+ --- Customlinks says: Link to section 6.1: WebBook3.html#sec6-1
+[273] [274] [275
 
 ]
 l. 53 Writing WebBook3.idv[161] (WebBook3160x.png)
 File: EPSfiles/solidsolution.eps Graphic file (type eps)
- <EPSfiles/solidsolution.eps> [282
+ <EPSfiles/solidsolution.eps> [276
 
 ]
 
@@ -1902,14 +1878,14 @@ Package natbib Warning: Citation `nagata61' undefined on input line 58.
 
 Package natbib Warning: Citation `feinberg05' undefined on input line 64.
 
-[283
+[277
 
-] [284
+] [278
 
 ]
 l. 70 Writing WebBook3.idv[162] (WebBook3161x.png)
 File: EPSfiles/exsolution.eps Graphic file (type eps)
- <EPSfiles/exsolution.eps> [285
+ <EPSfiles/exsolution.eps> [279
 
 ]
 
@@ -1921,51 +1897,51 @@ Package natbib Warning: Citation `robinson02' undefined on input line 74.
 
 Package natbib Warning: Citation `butler92' undefined on input line 74.
 
-[286
+[280
 
-] [287
+] [281
 
 ]
 l. 81 Writing WebBook3.idv[163] (WebBook3162x.png)
 File: EPSfiles/tern.eps Graphic file (type eps)
- <EPSfiles/tern.eps> [288
+ <EPSfiles/tern.eps> [282
 
 ]
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 88.
 
- --- Customlinks says: Link to subsection 6.1.1: WebBook3ch6.html#subsec6-1-1
-[289
+ --- Customlinks says: Link to subsection 6.1.1: WebBook3.html#subsec6-1-1
+[283
 
-] [290
+] [284] [285
 
 ]
 l. 137 Writing WebBook3.idv[164] (WebBook3163x.png)
 File: EPSfiles/X.eps Graphic file (type eps)
- <EPSfiles/X.eps> [291
+ <EPSfiles/X.eps> [286
 
 ]
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 140.
 
-[292
+[287
 
-] [293
+] [288
 
 ]
 l. 170 Writing WebBook3.idv[165] (WebBook3164x.png)
 File: EPSfiles/hematite.eps Graphic file (type eps)
- <EPSfiles/hematite.eps> [294
+ <EPSfiles/hematite.eps> [289
 
-] [295
+] [290
 
-] [296
+] [291
 
 ]
 l. 214 Writing WebBook3.idv[166] (WebBook3165x.png)
 File: EPSfiles/hemY.eps Graphic file (type eps)
  <EPSfiles/hemY.eps>
-[297
+[292
 
 ]
 
@@ -1974,56 +1950,56 @@ Package natbib Warning: Citation `nagata61' undefined on input line 218.
 
 Package natbib Warning: Citation `stacey74' undefined on input line 218.
 
- --- Customlinks says: Link to subsection 6.1.2: WebBook3ch6.html#subsec6-1-2
-[298
+ --- Customlinks says: Link to subsection 6.1.2: WebBook3.html#subsec6-1-2
+[293
 
-] [299
+] [294
 
 ]
 l. 256 Writing WebBook3.idv[167] (WebBook3166x.png)
 File: EPSfiles/Z.eps Graphic file (type eps)
- <EPSfiles/Z.eps> [300
+ <EPSfiles/Z.eps> [295
 
 ]
 
 Package natbib Warning: Citation `gapeyev88' undefined on input line 259.
 
-[301
+[296
 
-] [302
+] [297
 
 ]
 l. 281 Writing WebBook3.idv[168] (WebBook3167x.png)
 File: EPSfiles/suppress.eps Graphic file (type eps)
- <EPSfiles/suppress.eps> [303
+ <EPSfiles/suppress.eps> [298
 
 ]
 
 Package natbib Warning: Citation `ozdemir93' undefined on input line 285.
 
- --- Customlinks says: Link to subsection 6.1.3: WebBook3ch6.html#subsec6-1-3
+ --- Customlinks says: Link to subsection 6.1.3: WebBook3.html#subsec6-1-3
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 311.
 
-[304
+[299
 
-] [305] [306
+] [300] [301
 
 ]
 l. 319 Writing WebBook3.idv[169] (WebBook3168x.png)
 File: EPSfiles/minerals.eps Graphic file (type eps)
- <EPSfiles/minerals.eps> [307
+ <EPSfiles/minerals.eps> [302
 
 ]
- --- Customlinks says: Link to section 6.2: WebBook3ch6.html#sec6-2
-[308
+ --- Customlinks says: Link to section 6.2: WebBook3.html#sec6-2
+[303
 
-] [309
+] [304
 
 ]
 l. 385 Writing WebBook3.idv[170] (WebBook3169x.png)
 File: EPSfiles/pyrrhotiteT.eps Graphic file (type eps)
- <EPSfiles/pyrrhotiteT.eps> [310
+ <EPSfiles/pyrrhotiteT.eps> [305
 
 ]
 
@@ -2032,34 +2008,34 @@ Package natbib Warning: Citation `dekkers88' undefined on input line 390.
 
 Package natbib Warning: Citation `snowball99' undefined on input line 393.
 
- --- Customlinks says: Link to section 6.3: WebBook3ch6.html#sec6-3
-[311
+ --- Customlinks says: Link to section 6.3: WebBook3.html#sec6-3
+[306
 
-] [312
+] [307
 
 ]
 l. 410 Writing WebBook3.idv[171] (WebBook3170x.png)
 File: EPSfiles/igneous.eps Graphic file (type eps)
- <EPSfiles/igneous.eps> [313
+ <EPSfiles/igneous.eps> [308
 
 ]
 
 Package natbib Warning: Citation `frost91' undefined on input line 413.
 
-[314
+[309
 
-] [315
+] [310
 
 ]
 l. 429 Writing WebBook3.idv[172] (WebBook3171x.png)
 File: EPSfiles/bacteria.eps Graphic file (type eps)
- <EPSfiles/bacteria.eps> [316
+ <EPSfiles/bacteria.eps> [311
 
 ]
 
 Package natbib Warning: Citation `maher99' undefined on input line 433.
 
- --- Customlinks says: Link to section 6.4: WebBook3ch6.html#sec6-4
+ --- Customlinks says: Link to section 6.4: WebBook3.html#sec6-4
 
 Package natbib Warning: Citation `oreilly84' undefined on input line 454.
 
@@ -2108,38 +2084,38 @@ Package natbib Warning: Citation `dunlop97' undefined on input line 456.
 
 Package natbib Warning: Citation `dekkers89c' undefined on input line 456.
 
-[317
+[312
 
-] [318]
+] [313]
 
 Package natbib Warning: Citation `kopp08' undefined on input line 555.
 
-[319] [320
+[314] [315] [316
 
 ]
 l. 561 Writing WebBook3.idv[173] (WebBook3172x.png)
 File: EPSfiles/problem1.eps Graphic file (type eps)
- <EPSfiles/problem1.eps> [321
+ <EPSfiles/problem1.eps> [317
 
-] [322
+] [318
 
 ]
 
 Package natbib Warning: Citation `butler92' undefined on input line 568.
 
- --- Customlinks says: Link to section 6.5: WebBook3ch6.html#sec6-5
-[323
+ --- Customlinks says: Link to section 6.5: WebBook3.html#sec6-5
+[319
 
-] [324
+] [320
 
 ]
 l. 601 Writing WebBook3.idv[174] (WebBook3173x.png)
 File: EPSfiles/microprobe.eps Graphic file (type eps)
- <EPSfiles/microprobe.eps> [325
+ <EPSfiles/microprobe.eps> [321
 
-]) [326
+]) [322
 
-] [327
+] [323
 
 ]
 \openout2 = `Chapters/chapter7.aux'.
@@ -2147,122 +2123,118 @@ File: EPSfiles/microprobe.eps Graphic file (type eps)
 
 (./Chapters/chapter7.tex
  --- Customlinks says: Custom link named 'How_rocks_get_and_stay_magnetized': W
-ebBook3ch6.html#How_rocks_get_and_stay_magnetized 
-[328
+ebBook3.html#How_rocks_get_and_stay_magnetized 
+[324
+
+]
+Chapter 7.
+ --- Customlinks says: Link to chapter 7: WebBook3.html#ch7
+
+Package natbib Warning: Citation `widom02' undefined on input line 6.
+
+ --- Customlinks says: Link to section 7.1: WebBook3.html#sec7-1
+[325
+
+] [326] [327
+
+]
+l. 35 Writing WebBook3.idv[175] (WebBook3174x.png)
+File: EPSfiles/equilibrium.eps Graphic file (type eps)
+ <EPSfiles/equilibrium.eps> [328
 
 ] [329
 
 ] [330
 
 ]
-Chapter 7.
---- file WebBook3ch7.html ---
- --- Customlinks says: Link to chapter 7: WebBook3ch7.html#ch7
-
-Package natbib Warning: Citation `widom02' undefined on input line 6.
-
- --- Customlinks says: Link to section 7.1: WebBook3ch7.html#sec7-1
-[331] [332] [333
-
-]
-l. 35 Writing WebBook3.idv[175] (WebBook3174x.png)
-File: EPSfiles/equilibrium.eps Graphic file (type eps)
- <EPSfiles/equilibrium.eps> [334
-
-] [335
-
-] [336
-
-]
 l. 62 Writing WebBook3.idv[176] (WebBook3175x.png)
 File: EPSfiles/neel.eps Graphic file (type eps)
 
-<EPSfiles/neel.eps> [337
+<EPSfiles/neel.eps> [331
 
 ]
- --- Customlinks says: Link to section 7.2: WebBook3ch7.html#sec7-2
+ --- Customlinks says: Link to section 7.2: WebBook3.html#sec7-2
 
 Package natbib Warning: Citation `neel49' undefined on input line 75.
 
 
 Package natbib Warning: Citation `neel55' undefined on input line 75.
 
-[338
+[332
 
 ]
 l. 93 Writing WebBook3.idv[177] (WebBook3176x.png)
 l. 107 Writing WebBook3.idv[178] (WebBook3177x.png)
- [339]
+ [333]
 l. 111 Writing WebBook3.idv[179] (WebBook3178x.png)
- [340] [341
+ [334] [335
 
 ]
 l. 123 Writing WebBook3.idv[180] (WebBook3179x.png)
 File: EPSfiles/neel-vrm.eps Graphic file (type eps)
- <EPSfiles/neel-vrm.eps> [342
+ <EPSfiles/neel-vrm.eps> [336
 
 ]
- --- Customlinks says: Link to section 7.3: WebBook3ch7.html#sec7-3
+ --- Customlinks says: Link to section 7.3: WebBook3.html#sec7-3
 l. 153 Writing WebBook3.idv[181] (WebBook3180x.png)
-[343
+[337
 
-] [344] [345
+] [338] [339
 
 ]
 l. 174 Writing WebBook3.idv[182] (WebBook3181x.png)
 File: EPSfiles/vrm1.eps Graphic file (type eps)
- <EPSfiles/vrm1.eps> [346
+ <EPSfiles/vrm1.eps> [340
 
-] [347
+] [341
 
 ]
 l. 185 Writing WebBook3.idv[183] (WebBook3182x.png)
 l. 200 Writing WebBook3.idv[184] (WebBook3183x.png)
- [348] [349] [350
+ [342] [343] [344
 
 ]
 l. 215 Writing WebBook3.idv[185] (WebBook3184x.png)
 File: EPSfiles/neel-trm.eps Graphic file (type eps)
 
-<EPSfiles/neel-trm.eps> [351
+<EPSfiles/neel-trm.eps> [345
 
-] [352
+] [346
 
-] [353
+] [347
 
 ]
 l. 243 Writing WebBook3.idv[186] (WebBook3185x.png)
 File: EPSfiles/tauT.eps Graphic file (type eps)
- <EPSfiles/tauT.eps> [354
+ <EPSfiles/tauT.eps> [348
 
 ]
- --- Customlinks says: Link to section 7.4: WebBook3ch7.html#sec7-4
-[355
+ --- Customlinks says: Link to section 7.4: WebBook3.html#sec7-4
+[349
 
-] [356] [357
+] [350] [351
 
 ]
 l. 285 Writing WebBook3.idv[187] (WebBook3186x.png)
 File: EPSfiles/lava.eps Graphic file (type eps)
- <EPSfiles/lava.eps> [358
+ <EPSfiles/lava.eps> [352
+
+] [353
 
 ]
 l. 336 Writing WebBook3.idv[188] (WebBook3187x.png)
- [359
-
-]
 l. 344 Writing WebBook3.idv[189] (WebBook3188x.png)
 l. 350 Writing WebBook3.idv[190] (WebBook3189x.png)
- [360]
+ [354]
 l. 355 Writing WebBook3.idv[191] (WebBook3190x.png)
 l. 367 Writing WebBook3.idv[192] (WebBook3191x.png)
- [361] [362
+ [355] [356] [357
 
 ]
 l. 380 Writing WebBook3.idv[193] (WebBook3192x.png)
 File: EPSfiles/trm.eps Graphic file (type eps)
 
-<EPSfiles/trm.eps> [363
+<EPSfiles/trm.eps> [358
 
 ]
 
@@ -2271,52 +2243,52 @@ Package natbib Warning: Citation `selkin07' undefined on input line 383.
 
 Package natbib Warning: Citation `selkin07' undefined on input line 388.
 
-[364
+[359
 
-] [365
+] [360
 
 ]
 l. 396 Writing WebBook3.idv[194] (WebBook3193x.png)
 File: EPSfiles/pTRM.eps Graphic file (type eps)
- <EPSfiles/pTRM.eps> [366
+ <EPSfiles/pTRM.eps> [361
 
 ]
 l. 419 Writing WebBook3.idv[195] (WebBook3194x.png)
- [367
+ [362
 
-] [368] [369
+] [363] [364
 
 ]
 l. 451 Writing WebBook3.idv[196] (WebBook3195x.png)
 File: EPSfiles/trm-d.eps Graphic file (type eps)
  <EPSfiles/trm-d.eps>
-[370
+[365
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 457.
 
-[371
+[366
 
-] [372] [373
+] [367] [368
 
 ]
 l. 484 Writing WebBook3.idv[197] (WebBook3196x.png)
 File: EPSfiles/neel-crm.eps Graphic file (type eps)
- <EPSfiles/neel-crm.eps> [374
+ <EPSfiles/neel-crm.eps> [369
 
 ]
- --- Customlinks says: Link to section 7.5: WebBook3ch7.html#sec7-5
-[375
+ --- Customlinks says: Link to section 7.5: WebBook3.html#sec7-5
+[370
 
-] [376
+] [371
 
 ]
 l. 507 Writing WebBook3.idv[198] (WebBook3197x.png)
 File: EPSfiles/crm.eps Graphic file (type eps)
- <EPSfiles/crm.eps> [377
+ <EPSfiles/crm.eps> [372
 
-] [378
+] [373
 
 ]
 l. 543 Writing WebBook3.idv[199] (WebBook3198x.png)
@@ -2327,12 +2299,12 @@ Package natbib Warning: Citation `stokking90' undefined on input line 563.
 
 Package natbib Warning: Citation `stokking90b' undefined on input line 564.
 
-[379] [380
+[374] [375
 
 ]
 l. 572 Writing WebBook3.idv[200] (WebBook3199x.png)
 File: EPSfiles/lit-redep.eps Graphic file (type eps)
- <EPSfiles/lit-redep.eps> [381
+ <EPSfiles/lit-redep.eps> [376
 
 ]
 
@@ -2341,10 +2313,10 @@ Package natbib Warning: Citation `johnson48' undefined on input line 576.
 
 Package natbib Warning: Citation `tauxe93' undefined on input line 576.
 
- --- Customlinks says: Link to section 7.6: WebBook3ch7.html#sec7-6
- --- Customlinks says: Link to subsection 7.6.1: WebBook3ch7.html#subsec7-6-1
+ --- Customlinks says: Link to section 7.6: WebBook3.html#sec7-6
+ --- Customlinks says: Link to subsection 7.6.1: WebBook3.html#subsec7-6-1
 l. 597 Writing WebBook3.idv[201] (WebBook3200x.png)
-[382
+[377
 
 ]
 l. 604 Writing WebBook3.idv[202] (WebBook3201x.png)
@@ -2352,7 +2324,7 @@ l. 604 Writing WebBook3.idv[202] (WebBook3201x.png)
 
 Package natbib Warning: Citation `nagata61' undefined on input line 611.
 
-[383]
+[378]
 l. 614 Writing WebBook3.idv[203] (WebBook3202x.png)
 
 
@@ -2361,12 +2333,12 @@ Package natbib Warning: Citation `nagata61' undefined on input line 625.
 
 Package natbib Warning: Citation `johnson48' undefined on input line 628.
 
-[384] [385
+[379] [380
 
 ]
 l. 635 Writing WebBook3.idv[204] (WebBook3203x.png)
 File: EPSfiles/drmprocesses.eps Graphic file (type eps)
- <EPSfiles/drmprocesses.eps> [386
+ <EPSfiles/drmprocesses.eps> [381
 
 ]
 
@@ -2387,30 +2359,30 @@ Package natbib Warning: Citation `shcherbakov83' undefined on input line 651.
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 652.
 
-[387
+[382
 
-] [388
+] [383
 
 ]
 l. 662 Writing WebBook3.idv[205] (WebBook3204x.png)
 File: EPSfiles/brownian.eps Graphic file (type eps)
- <EPSfiles/brownian.eps> [389
+ <EPSfiles/brownian.eps> [384
 
 ]
- --- Customlinks says: Link to subsubsection 7.6.1.0: WebBook3ch7.html#subsubse
-c7-6-1-0
+ --- Customlinks says: Link to subsubsection 7.6.1.0: WebBook3.html#subsubsec7-
+6-1-0
 
 Package natbib Warning: Citation `collinson65' undefined on input line 681.
 
 l. 685 Writing WebBook3.idv[206] (WebBook3205x.png)
-[390
+[385
 
 ]
 
 Package natbib Warning: Citation `coffey96' undefined on input line 691.
 
 l. 695 Writing WebBook3.idv[207] (WebBook3206x.png)
-[391]
+[386]
 l. 701 Writing WebBook3.idv[208] (WebBook3207x.png)
 
 
@@ -2419,19 +2391,19 @@ Package natbib Warning: Citation `deamer90' undefined on input line 714.
 
 Package natbib Warning: Citation `roberts95' undefined on input line 718.
 
-[392] [393
+[387] [388
 
 ]
 l. 726 Writing WebBook3.idv[209] (WebBook3208x.png)
 File: EPSfiles/flocs.eps Graphic file (type eps)
- <EPSfiles/flocs.eps> [394
+ <EPSfiles/flocs.eps> [389
 
 ]
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 729.
 
- --- Customlinks says: Link to subsubsection 7.6.1.0: WebBook3ch7.html#subsubse
-c7-6-1-0
+ --- Customlinks says: Link to subsubsection 7.6.1.0: WebBook3.html#subsubsec7-
+6-1-0
 
 Package natbib Warning: Citation `gibbs85' undefined on input line 735.
 
@@ -2441,30 +2413,30 @@ Package natbib Warning: Citation `katari01' undefined on input line 737.
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 741.
 
-[395
+[390
 
-] [396
+] [391
 
 ]
 l. 750 Writing WebBook3.idv[210] (WebBook3209x.png)
 File: EPSfiles/drm-exp.eps Graphic file (type eps)
- <EPSfiles/drm-exp.eps> [397
+ <EPSfiles/drm-exp.eps> [392
 
-] [398
+] [393
 
-] [399
+] [394
 
 ]
 l. 765 Writing WebBook3.idv[211] (WebBook3210x.png)
 File: EPSfiles/ifio.eps Graphic file (type eps)
  <EPSfiles/ifio.eps>
-[400
+[395
 
 ]
 
 Package natbib Warning: Citation `tauxe84' undefined on input line 769.
 
- --- Customlinks says: Link to subsection 7.6.2: WebBook3ch7.html#subsec7-6-2
+ --- Customlinks says: Link to subsection 7.6.2: WebBook3.html#subsec7-6-2
 
 Package natbib Warning: Citation `verosub77' undefined on input line 776.
 
@@ -2474,120 +2446,117 @@ Package natbib Warning: Citation `tauxe06' undefined on input line 779.
 
 Package natbib Warning: Citation `anson87' undefined on input line 786.
 
-[401
+[396
 
 ]
- --- Customlinks says: Link to subsection 7.6.3: WebBook3ch7.html#subsec7-6-3
+ --- Customlinks says: Link to subsection 7.6.3: WebBook3.html#subsec7-6-3
 
 Package natbib Warning: Citation `tauxe84' undefined on input line 804.
 
 
 Package natbib Warning: Citation `king55' undefined on input line 807.
 
-[402] [403
+[397] [398
 
 ]
 l. 819 Writing WebBook3.idv[212] (WebBook3211x.png)
 File: EPSfiles/lightning.eps Graphic file (type eps)
- <EPSfiles/lightning.eps> [404
+ <EPSfiles/lightning.eps> [399
 
 ]
 
 Package natbib Warning: Citation `tauxe03b' undefined on input line 824.
 
- --- Customlinks says: Link to section 7.7: WebBook3ch7.html#sec7-7
-[405
+ --- Customlinks says: Link to section 7.7: WebBook3.html#sec7-7
+[400
 
-] [406
+] [401
 
 ]
 l. 843 Writing WebBook3.idv[213] (WebBook3212x.png)
 File: EPSfiles/irm.eps Graphic file (type eps)
- <EPSfiles/irm.eps> [407
+ <EPSfiles/irm.eps> [402
 
 ]
- --- Customlinks says: Link to section 7.8: WebBook3ch7.html#sec7-8
+ --- Customlinks says: Link to section 7.8: WebBook3.html#sec7-8
 
 Package natbib Warning: Citation `pullaiah75' undefined on input line 874.
 
-[408
+[403
 
 ]
 l. 878 Writing WebBook3.idv[214] (WebBook3213x.png)
 l. 883 Writing WebBook3.idv[215] (WebBook3214x.png)
 l. 894 Writing WebBook3.idv[216] (WebBook3215x.png)
- [409]
+ [404]
 
 Package natbib Warning: Citation `pullaiah75' undefined on input line 904.
 
 l. 910 Writing WebBook3.idv[217] (WebBook3216x.png)
-[410] [411] [412
+[405] [406] [407
 
 ]
 l. 922 Writing WebBook3.idv[218] (WebBook3217x.png)
 File: EPSfiles/pullaiah.eps Graphic file (type eps)
- <EPSfiles/pullaiah.eps> [413
+ <EPSfiles/pullaiah.eps> [408
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 933.
 
- --- Customlinks says: Link to section 7.9: WebBook3ch7.html#sec7-9
-[414
+ --- Customlinks says: Link to section 7.9: WebBook3.html#sec7-9
+[409
 
-] [415
+] [410
 
 ]
 l. 957 Writing WebBook3.idv[219] (WebBook3218x.png)
 File: EPSfiles/ARM.eps Graphic file (type eps)
- <EPSfiles/ARM.eps> [416
+ <EPSfiles/ARM.eps> [411
 
 ]
- --- Customlinks says: Link to section 7.10: WebBook3ch7.html#sec7-10
+ --- Customlinks says: Link to section 7.10: WebBook3.html#sec7-10
 
 Package natbib Warning: Citation `stephenson81' undefined on input line 988.
 
 
 Package natbib Warning: Citation `potter05' undefined on input line 991.
 
-[417
+[412
 
 ]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 995.
 
- --- Customlinks says: Link to section 7.11: WebBook3ch7.html#sec7-11
-[418]) [419] [420
+ --- Customlinks says: Link to section 7.11: WebBook3.html#sec7-11
+[413]) [414] [415
 
 ]
 \openout2 = `Chapters/chapter8.aux'.
 
  (./Chapters/chapter8.tex
  --- Customlinks says: Custom link named 'Applied_rock_(environmental)_magnetis
-m': WebBook3ch7.html#Applied_rock_(environmental)_magnetism 
-[421
-
-] [422
+m': WebBook3.html#Applied_rock_(environmental)_magnetism 
+[416
 
 ]
 Chapter 8.
---- file WebBook3ch8.html ---
- --- Customlinks says: Link to chapter 8: WebBook3ch8.html#ch8
+ --- Customlinks says: Link to chapter 8: WebBook3.html#ch8
 
 Package natbib Warning: Citation `maher99' undefined on input line 5.
 
 
 Package natbib Warning: Citation `evans03' undefined on input line 6.
 
- --- Customlinks says: Link to section 8.1: WebBook3ch8.html#sec8-1
-[423
+ --- Customlinks says: Link to section 8.1: WebBook3.html#sec8-1
+[417
 
-] [424] [425
+] [418] [419
 
 ]
 l. 29 Writing WebBook3.idv[220] (WebBook3219x.png)
 File: EPSfiles/images.eps Graphic file (type eps)
- <EPSfiles/images.eps> [426
+ <EPSfiles/images.eps> [420
 
 ]
 
@@ -2596,30 +2565,30 @@ Package natbib Warning: Citation `maher99' undefined on input line 33.
 
 Package natbib Warning: Citation `reynolds85' undefined on input line 34.
 
-[427
+[421
 
-] [428
+] [422
 
 ]
 
-LaTeX Warning: Reference `sect:crossover' on page 429 undefined on input line 8
+LaTeX Warning: Reference `sect:crossover' on page 423 undefined on input line 8
 4.
 
-[429
+[423
 
 ]
 
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 88.
 
- --- Customlinks says: Link to section 8.2: WebBook3ch8.html#sec8-2
-[430
+ --- Customlinks says: Link to section 8.2: WebBook3.html#sec8-2
+[424
 
-] [431
+] [425] [426
 
 ]
 l. 123 Writing WebBook3.idv[221] (WebBook3220x.png)
 File: EPSfiles/curiebalance.eps Graphic file (type eps)
- <EPSfiles/curiebalance.eps> [432
+ <EPSfiles/curiebalance.eps> [427
 
 ]
 
@@ -2628,103 +2597,103 @@ Package natbib Warning: Citation `gromme69' undefined on input line 133.
 
 Package natbib Warning: Citation `moskowitz81' undefined on input line 144.
 
-[433
+[428
 
-] [434
+] [429
 
 ]
 l. 155 Writing WebBook3.idv[222] (WebBook3221x.png)
 File: EPSfiles/curie1.eps Graphic file (type eps)
- <EPSfiles/curie1.eps> [435
+ <EPSfiles/curie1.eps> [430
 
 ]
 
 Package natbib Warning: Citation `tauxe98' undefined on input line 167.
 
- --- Customlinks says: Link to section 8.3: WebBook3ch8.html#sec8-3
-[436
+ --- Customlinks says: Link to section 8.3: WebBook3.html#sec8-3
+[431
 
-] [437] [438
+] [432] [433
 
 ]
 l. 202 Writing WebBook3.idv[223] (WebBook3222x.png)
 File: EPSfiles/kappa.eps Graphic file (type eps)
- <EPSfiles/kappa.eps> [439
+ <EPSfiles/kappa.eps> [434
 
 ]
- --- Customlinks says: Link to subsection 8.3.1: WebBook3ch8.html#subsec8-3-1
-[440
+ --- Customlinks says: Link to subsection 8.3.1: WebBook3.html#subsec8-3-1
+[435
 
-] [441] [442
+] [436] [437
 
 ]
 l. 221 Writing WebBook3.idv[224] (WebBook3223x.png)
 File: EPSfiles/chiT.eps Graphic file (type eps)
- <EPSfiles/chiT.eps> [443
+ <EPSfiles/chiT.eps> [438
 
 ]
- --- Customlinks says: Link to subsection 8.3.2: WebBook3ch8.html#subsec8-3-2
-[444
+ --- Customlinks says: Link to subsection 8.3.2: WebBook3.html#subsec8-3-2
+[439
 
-] [445
+] [440
 
 ]
 l. 239 Writing WebBook3.idv[225] (WebBook3224x.png)
 File: EPSfiles/chifd.eps Graphic file (type eps)
- <EPSfiles/chifd.eps> [446
+ <EPSfiles/chifd.eps> [441
 
 ]
 
 Package natbib Warning: Citation `carterstiglitz06' undefined on input line 243
 .
 
- --- Customlinks says: Link to subsection 8.3.3: WebBook3ch8.html#subsec8-3-3
+ --- Customlinks says: Link to subsection 8.3.3: WebBook3.html#subsec8-3-3
 
 Package natbib Warning: Citation `schlinger91' undefined on input line 253.
 
-[447
+[442
 
-] [448
+] [443
 
 ]
 l. 261 Writing WebBook3.idv[226] (WebBook3225x.png)
 File: EPSfiles/chimap.eps Graphic file (type eps)
- <EPSfiles/chimap.eps> [449
+ <EPSfiles/chimap.eps> [444
 
 ]
 
 Package natbib Warning: Citation `hoffmann99' undefined on input line 264.
 
- --- Customlinks says: Link to subsection 8.3.4: WebBook3ch8.html#subsec8-3-4
+ --- Customlinks says: Link to subsection 8.3.4: WebBook3.html#subsec8-3-4
 
 Package natbib Warning: Citation `petrovsky00' undefined on input line 270.
 
- --- Customlinks says: Link to section 8.4: WebBook3ch8.html#sec8-4
-[450
+ --- Customlinks says: Link to section 8.4: WebBook3.html#sec8-4
+[445
 
-] [451
+] [446
 
 ]
 l. 281 Writing WebBook3.idv[227] (WebBook3226x.png)
 File: EPSfiles/crossover.eps Graphic file (type eps)
- <EPSfiles/crossover.eps> [452
+ <EPSfiles/crossover.eps> [447
 
 ]
- --- Customlinks says: Link to subsection 8.4.1: WebBook3ch8.html#subsec8-4-1
+ --- Customlinks says: Link to subsection 8.4.1: WebBook3.html#subsec8-4-1
 
 Package natbib Warning: Citation `cisowski81' undefined on input line 293.
 
 
 Package natbib Warning: Citation `sugiura79' undefined on input line 295.
 
-[453
+[448
 
-] [454
+] [449] [450
 
 ]
 l. 301 Writing WebBook3.idv[228] (WebBook3227x.png)
 File: EPSfiles/unmixing.eps Graphic file (type eps)
- <EPSfiles/unmixing.eps> [455
+ <EPSfiles/unmixing.eps> [451
 
 ]
 
@@ -2733,7 +2702,7 @@ Package natbib Warning: Citation `robertson94' undefined on input line 306.
 
 Package natbib Warning: Citation `kruiver01' undefined on input line 306.
 
- --- Customlinks says: Link to subsection 8.4.2: WebBook3ch8.html#subsec8-4-2
+ --- Customlinks says: Link to subsection 8.4.2: WebBook3.html#subsec8-4-2
 
 Package natbib Warning: Citation `robertson94' undefined on input line 311.
 
@@ -2743,18 +2712,18 @@ Package natbib Warning: Citation `kruiver01' undefined on input line 313.
 
 Package natbib Warning: Citation `egli03' undefined on input line 322.
 
- --- Customlinks says: Link to subsection 8.4.3: WebBook3ch8.html#subsec8-4-3
+ --- Customlinks says: Link to subsection 8.4.3: WebBook3.html#subsec8-4-3
 
 Package natbib Warning: Citation `lowrie90' undefined on input line 332.
 
-[456
+[452
 
-] [457] [458
+] [453] [454
 
 ]
 l. 353 Writing WebBook3.idv[229] (WebBook3228x.png)
 File: EPSfiles/3dirm.eps Graphic file (type eps)
- <EPSfiles/3dirm.eps> [459
+ <EPSfiles/3dirm.eps> [455
 
 ]
 
@@ -2763,51 +2732,52 @@ Package natbib Warning: Citation `tauxe98' undefined on input line 360.
 
 Package natbib Warning: Citation `lowrie90' undefined on input line 362.
 
- --- Customlinks says: Link to section 8.5: WebBook3ch8.html#sec8-5
-[460
+ --- Customlinks says: Link to section 8.5: WebBook3.html#sec8-5
+[456
 
 ]
- --- Customlinks says: Link to subsection 8.5.1: WebBook3ch8.html#subsec8-5-1
-[461] [462
+ --- Customlinks says: Link to subsection 8.5.1: WebBook3.html#subsec8-5-1
+[457] [458
 
 ]
 l. 422 Writing WebBook3.idv[230] (WebBook3229x.png)
 File: EPSfiles/bblocks.eps Graphic file (type eps)
- <EPSfiles/bblocks.eps> [463
+ <EPSfiles/bblocks.eps> [459
 
 ]
 
 Package natbib Warning: Citation `tauxe96b' undefined on input line 432.
 
-[464
+[460
 
-] [465
+] [461
 
 ]
 l. 465 Writing WebBook3.idv[231] (WebBook3230x.png)
 File: EPSfiles/interp.eps Graphic file (type eps)
- <EPSfiles/interp.eps> [466
+ <EPSfiles/interp.eps> [462
 
 ]
 
 Package natbib Warning: Citation `tauxe98' undefined on input line 472.
 
- --- Customlinks says: Link to subsection 8.5.2: WebBook3ch8.html#subsec8-5-2
+ --- Customlinks says: Link to subsection 8.5.2: WebBook3.html#subsec8-5-2
 
 Package natbib Warning: Citation `jackson90' undefined on input line 495.
 
- --- Customlinks says: Link to section 8.6: WebBook3ch8.html#sec8-6
+ --- Customlinks says: Link to section 8.6: WebBook3.html#sec8-6
+[463
+
+]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 515.
 
-[467
-
-] [468] [469
+[464] [465] [466
 
 ]
 l. 524 Writing WebBook3.idv[232] (WebBook3231x.png)
 File: EPSfiles/trends.eps Graphic file (type eps)
- <EPSfiles/trends.eps> [470
+ <EPSfiles/trends.eps> [467
 
 ]
 
@@ -2816,20 +2786,20 @@ Package natbib Warning: Citation `heider96' undefined on input line 529.
 
 Package natbib Warning: Citation `dunlop97b' undefined on input line 529.
 
-[471
+[468
 
-] [472
+] [469
 
 ]
 l. 535 Writing WebBook3.idv[233] (WebBook3232x.png)
 File: EPSfiles/slag.eps Graphic file (type eps)
- <EPSfiles/slag.eps> [473
+ <EPSfiles/slag.eps> [470
 
 ]
 
 Package natbib Warning: Citation `benyosef08' undefined on input line 538.
 
- --- Customlinks says: Link to section 8.7: WebBook3ch8.html#sec8-7
+ --- Customlinks says: Link to section 8.7: WebBook3.html#sec8-7
 
 Package natbib Warning: Citation `day77' undefined on input line 548.
 
@@ -2839,7 +2809,7 @@ Package natbib Warning: Citation `tauxe02' undefined on input line 551.
 
 Package natbib Warning: Citation `neel55' undefined on input line 555.
 
-[474
+[471
 
 ]
 
@@ -2865,15 +2835,15 @@ Package natbib Warning: Citation `maher99' undefined on input line 587.
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 587.
 
 
-[475]
- --- Customlinks says: Link to section 8.8: WebBook3ch8.html#sec8-8
- --- Customlinks says: Link to subsection 8.8.1: WebBook3ch8.html#subsec8-8-1
-[476] [477
+[472]
+ --- Customlinks says: Link to section 8.8: WebBook3.html#sec8-8
+ --- Customlinks says: Link to subsection 8.8.1: WebBook3.html#subsec8-8-1
+[473] [474
 
 ]
 l. 605 Writing WebBook3.idv[234] (WebBook3233x.png)
 File: EPSfiles/banerjee.eps Graphic file (type eps)
- <EPSfiles/banerjee.eps> [478
+ <EPSfiles/banerjee.eps> [475
 
 ]
 
@@ -2885,30 +2855,30 @@ Package natbib Warning: Citation `banerjee81' undefined on input line 613.
 
 Package natbib Warning: Citation `rosenbaum96' undefined on input line 617.
 
-[479
+[476
 
-] [480
+] [477
 
 ]
 l. 623 Writing WebBook3.idv[235] (WebBook3234x.png)
 File: EPSfiles/rosenbaum-1.eps Graphic file (type eps)
- <EPSfiles/rosenbaum-1.eps> [481
+ <EPSfiles/rosenbaum-1.eps> [478
 
 ]
 
 Package natbib Warning: Citation `rosenbaum96' undefined on input line 627.
 
-[482
+[479
 
-] [483
+] [480
 
 ]
 l. 639 Writing WebBook3.idv[236] (WebBook3235x.png)
 File: EPSfiles/rosenbaum-2.eps Graphic file (type eps)
- <EPSfiles/rosenbaum-2.eps> [484
+ <EPSfiles/rosenbaum-2.eps> [481
 
 ]
- --- Customlinks says: Link to subsection 8.8.2: WebBook3ch8.html#subsec8-8-2
+ --- Customlinks says: Link to subsection 8.8.2: WebBook3.html#subsec8-8-2
 
 Package natbib Warning: Citation `banerjee81' undefined on input line 652.
 
@@ -2918,14 +2888,14 @@ Package natbib Warning: Citation `king82' undefined on input line 654.
 
 Package natbib Warning: Citation `yamazaki97' undefined on input line 657.
 
-[485
+[482
 
-] [486
+] [483
 
 ]
 l. 668 Writing WebBook3.idv[237] (WebBook3236x.png)
 File: EPSfiles/np21.eps Graphic file (type eps)
- <EPSfiles/np21.eps> [487
+ <EPSfiles/np21.eps> [484
 
 ]
 
@@ -2936,20 +2906,20 @@ Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
-[488
+[485
 
-] [489] [490
+] [486] [487
 
 ]
 l. 686 Writing WebBook3.idv[239] (WebBook3238x.png)
 File: EPSfiles/jackson-1.eps Graphic file (type eps)
- <EPSfiles/jackson-1.eps> [491
+ <EPSfiles/jackson-1.eps> [488
 
 ]
 
 Package natbib Warning: Citation `jackson06' undefined on input line 689.
 
- --- Customlinks says: Link to subsection 8.8.3: WebBook3ch8.html#subsec8-8-3
+ --- Customlinks says: Link to subsection 8.8.3: WebBook3.html#subsec8-8-3
 l. 702 Writing WebBook3.idv[240] (WebBook3239x.png)
 
 Package natbib Warning: Citation `jackson06' undefined on input line 709.
@@ -2963,17 +2933,17 @@ Package natbib Warning: Citation `neel49' undefined on input line 719.
 
 Package natbib Warning: Citation `schlinger91' undefined on input line 720.
 
-[492
+[489
 
-] [493] [494
+] [490] [491
 
 ]
 l. 732 Writing WebBook3.idv[241] (WebBook3240x.png)
 File: EPSfiles/jackson-2.eps Graphic file (type eps)
- <EPSfiles/jackson-2.eps> [495
+ <EPSfiles/jackson-2.eps> [492
 
 ]
- --- Customlinks says: Link to subsection 8.8.4: WebBook3ch8.html#subsec8-8-4
+ --- Customlinks says: Link to subsection 8.8.4: WebBook3.html#subsec8-8-4
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
 
@@ -2983,28 +2953,28 @@ l. 752 Writing WebBook3.idv[242] (WebBook3241x.png)
 
 Package natbib Warning: Citation `moskowitz93' undefined on input line 760.
 
-[496
+[493
 
 ]
 
 Package natbib Warning: Citation `moskowitz08' undefined on input line 769.
 
-[497] [498
+[494] [495
 
 ]
 l. 775 Writing WebBook3.idv[243] (WebBook3242x.png)
 File: EPSfiles/moskowitz08-1.eps Graphic file (type eps)
- <EPSfiles/moskowitz08-1.eps> [499
+ <EPSfiles/moskowitz08-1.eps> [496
 
-] [500
+] [497
 
-] [501
+] [498
 
 ]
 l. 787 Writing WebBook3.idv[244] (WebBook3243x.png)
 File: EPSfiles/moskowitz08-2.eps Graphic file (type eps)
 
-<EPSfiles/moskowitz08-2.eps> [502
+<EPSfiles/moskowitz08-2.eps> [499
 
 ]
 
@@ -3012,81 +2982,78 @@ Package natbib Warning: Citation `moskowitz93' undefined on input line 799.
 
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no Õ in font cmr10!
- --- Customlinks says: Link to section 8.9: WebBook3ch8.html#sec8-9
+ --- Customlinks says: Link to section 8.9: WebBook3.html#sec8-9
 
 Package natbib Warning: Citation `verosub95' undefined on input line 809.
 
-[503
+[500
 
 ]
- --- Customlinks says: Link to section 8.10: WebBook3ch8.html#sec8-10
+ --- Customlinks says: Link to section 8.10: WebBook3.html#sec8-10
 
 Package natbib Warning: Citation `hunt95' undefined on input line 843.
 
-[504] [505] [506
+[501] [502] [503
 
-] [507
+] [504
 
-]) [508
+]) [505
 
-] [509
+] [506
 
 ]
 \openout2 = `Chapters/chapter9.aux'.
 
  (./Chapters/chapter9.tex
  --- Customlinks says: Custom link named 'Getting_a_paleomagnetic_direction': W
-ebBook3ch8.html#Getting_a_paleomagnetic_direction 
-[510
+ebBook3.html#Getting_a_paleomagnetic_direction 
+[507
 
-] [511
-
-] [512
+] [508
 
 ]
 Chapter 9.
---- file WebBook3ch9.html ---
- --- Customlinks says: Link to chapter 9: WebBook3ch9.html#ch9
- --- Customlinks says: Link to section 9.1: WebBook3ch9.html#sec9-1
+ --- Customlinks says: Link to chapter 9: WebBook3.html#ch9
+ --- Customlinks says: Link to section 9.1: WebBook3.html#sec9-1
 l. 36 Writing WebBook3.idv[245] (WebBook3244x.png)
-[513] [514] [515
+[509] [510] [511
 
 ]
 l. 63 Writing WebBook3.idv[246] (WebBook3245x.png)
 File: EPSfiles/drill.eps Graphic file (type eps)
- <EPSfiles/drill.eps> [516
+ <EPSfiles/drill.eps> [512
 
-] [517
+] [513
 
-] [518
+] [514
 
 ]
 l. 83 Writing WebBook3.idv[247] (WebBook3246x.png)
 File: EPSfiles/hand.eps Graphic file (type eps)
  <EPSfiles/hand.eps>
-[519
+[515
 
 ]
- --- Customlinks says: Link to subsection 9.1.1: WebBook3ch9.html#subsec9-1-1
+ --- Customlinks says: Link to subsection 9.1.1: WebBook3.html#subsec9-1-1
 
 Package natbib Warning: Citation `schnepp08' undefined on input line 117.
 
-[520
+[516
 
 ]
 l. 128 Writing WebBook3.idv[248] (WebBook3247x.png)
 File: EPSfiles/core.eps Graphic file (type eps)
- <EPSfiles/core.eps> [521] [522] [523
+ <EPSfiles/core.eps> [517] [518] [519
 
 ]
 l. 147 Writing WebBook3.idv[249] (WebBook3248x.png)
 File: EPSfiles/orientation.eps Graphic file (type eps)
- <EPSfiles/orientation.eps> [524
+ <EPSfiles/orientation.eps> [520
 
 ]
-[525
+[521
 
-] [526
+] [522
 
 ]
 l. 177 Writing WebBook3.idv[250] (WebBook3249x.png)
@@ -3094,96 +3061,96 @@ File: EPSfiles/orient.eps Graphic file (type eps)
  <EPSfiles/orient.eps>
 l. 179 Writing WebBook3.idv[251] (WebBook3250x.png)
 File: EPSfiles/suncomp.eps Graphic file (type eps)
- <EPSfiles/suncomp.eps> [527
+ <EPSfiles/suncomp.eps> [523
 
 ]
- --- Customlinks says: Link to subsection 9.1.2: WebBook3ch9.html#subsec9-1-2
-[528
+ --- Customlinks says: Link to subsection 9.1.2: WebBook3.html#subsec9-1-2
+[524
 
-] [529] [530
+] [525] [526
 
 ]
 l. 216 Writing WebBook3.idv[252] (WebBook3251x.png)
 File: EPSfiles/backbite.eps Graphic file (type eps)
- <EPSfiles/backbite.eps> [531
+ <EPSfiles/backbite.eps> [527
 
-] [532
+] [528
 
-] [533
+] [529
 
 ]
 l. 223 Writing WebBook3.idv[253] (WebBook3252x.png)
 File: EPSfiles/gps.eps Graphic file (type eps)
  <EPSfiles/gps.eps>
-[534
+[530
 
 ]
 
 Package natbib Warning: Citation `lawrence08' undefined on input line 235.
 
-[535
+[531
 
-] [536
+] [532
 
 ]
 l. 244 Writing WebBook3.idv[254] (WebBook3253x.png)
 File: EPSfiles/samples.eps Graphic file (type eps)
- <EPSfiles/samples.eps> [537
+ <EPSfiles/samples.eps> [533
 
 ]
- --- Customlinks says: Link to subsection 9.1.3: WebBook3ch9.html#subsec9-1-3
- --- Customlinks says: Link to section 9.2: WebBook3ch9.html#sec9-2
-[538
+ --- Customlinks says: Link to subsection 9.1.3: WebBook3.html#subsec9-1-3
+ --- Customlinks says: Link to section 9.2: WebBook3.html#sec9-2
+[534
 
 ]
- --- Customlinks says: Link to section 9.3: WebBook3ch9.html#sec9-3
-[539] [540] [541
+ --- Customlinks says: Link to section 9.3: WebBook3.html#sec9-3
+[535] [536] [537
 
 ]
 l. 320 Writing WebBook3.idv[255] (WebBook3254x.png)
 File: EPSfiles/digeo.eps Graphic file (type eps)
- <EPSfiles/digeo.eps> [542
+ <EPSfiles/digeo.eps> [538
 
-] [543
+] [539
 
-] [544
+] [540
 
 ]
 l. 328 Writing WebBook3.idv[256] (WebBook3255x.png)
 File: EPSfiles/comps.eps Graphic file (type eps)
  <EPSfiles/comps.eps>
-[545
+[541
 
-] [546] [547
+] [542] [543
 
-] [548
+] [544
 
 ]
 l. 352 Writing WebBook3.idv[257] (WebBook3256x.png)
 File: EPSfiles/zijd.eps Graphic file (type eps)
- <EPSfiles/zijd.eps> [549
+ <EPSfiles/zijd.eps> [545
 
-] [550]
+] [546]
 
 Package natbib Warning: Citation `tauxe03b' undefined on input line 359.
 
 
 Package natbib Warning: Citation `tauxe04b' undefined on input line 359.
 
-[551
+[547
 
 ]
- --- Customlinks says: Link to section 9.4: WebBook3ch9.html#sec9-4
-[552
+ --- Customlinks says: Link to section 9.4: WebBook3.html#sec9-4
+[548
 
-] [553]
- --- Customlinks says: Link to section 9.5: WebBook3ch9.html#sec9-5
+] [549]
+ --- Customlinks says: Link to section 9.5: WebBook3.html#sec9-5
 
 Package natbib Warning: Citation `zijderveld67' undefined on input line 502.
 
-[554]
+[550]
 l. 516 Writing WebBook3.idv[258] (WebBook3257x.png)
- [555]
+ [551]
 
 Package natbib Warning: Citation `tauxe04' undefined on input line 545.
 
@@ -3196,12 +3163,12 @@ Package natbib Warning: Citation `dankers81' undefined on input line 554.
 
 Package natbib Warning: Citation `snowball97' undefined on input line 561.
 
- --- Customlinks says: Link to section 9.6: WebBook3ch9.html#sec9-6
-[556]
+[552]
+ --- Customlinks says: Link to section 9.6: WebBook3.html#sec9-6
 
 Package natbib Warning: Citation `gee93' undefined on input line 590.
 
-[557] [558
+[553] [554
 
 ]
 l. 600 Writing WebBook3.idv[259] (WebBook3258x.png)
@@ -3209,20 +3176,20 @@ File: EPSfiles/foldtesta.eps Graphic file (type eps)
  <EPSfiles/foldtesta.eps>
 l. 603 Writing WebBook3.idv[260] (WebBook3259x.png)
 File: EPSfiles/foldtestb.eps Graphic file (type eps)
- <EPSfiles/foldtestb.eps> [559
+ <EPSfiles/foldtestb.eps> [555
 
 ]
 
 Package natbib Warning: Citation `dupont-nivet02' undefined on input line 610.
 
- --- Customlinks says: Link to section 9.7: WebBook3ch9.html#sec9-7
+ --- Customlinks says: Link to section 9.7: WebBook3.html#sec9-7
 
 Package natbib Warning: Citation `kirschvink80' undefined on input line 624.
 
 l. 634 Writing WebBook3.idv[261] (WebBook3260x.png)
-[560
+[556
 
-] [561
+] [557] [558
 
 ]
 l. 642 Writing WebBook3.idv[262] (WebBook3261x.png)
@@ -3230,37 +3197,37 @@ File: EPSfiles/congloma.eps Graphic file (type eps)
  <EPSfiles/congloma.eps>
 l. 645 Writing WebBook3.idv[263] (WebBook3262x.png)
 File: EPSfiles/conglomb.eps Graphic file (type eps)
- <EPSfiles/conglomb.eps> [562
+ <EPSfiles/conglomb.eps> [559
 
-] [563]
+]
+[560]
 l. 668 Writing WebBook3.idv[264] (WebBook3263x.png)
+ [561
 
-[564
-
-] [565
+] [562
 
 ]
 l. 681 Writing WebBook3.idv[265] (WebBook3264x.png)
 File: EPSfiles/baked.eps Graphic file (type eps)
- <EPSfiles/baked.eps> [566
+ <EPSfiles/baked.eps> [563
 
 ]
- --- Customlinks says: Link to section 9.8: WebBook3ch9.html#sec9-8
-[567
+ --- Customlinks says: Link to section 9.8: WebBook3.html#sec9-8
+[564
 
 ]
 
 Package natbib Warning: Citation `collinson83' undefined on input line 757.
 
- --- Customlinks says: Link to section 9.9: WebBook3ch9.html#sec9-9
-[568] [569] [570] [571]
+ --- Customlinks says: Link to section 9.9: WebBook3.html#sec9-9
+[565] [566] [567] [568]
 l. 838 Writing WebBook3.idv[266] (WebBook3265x.png)
- [572] [573] [574
+ [569] [570] [571
 
 ]
 l. 860 Writing WebBook3.idv[267] (WebBook3266x.png)
 File: EPSfiles/NS034.eps Graphic file (type eps)
- <EPSfiles/NS034.eps> [575
+ <EPSfiles/NS034.eps> [572
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 882.
@@ -3271,60 +3238,56 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 882.
- [576
+ [573
 
-] [577]
-[578] [579]) [580] [581
+] [574]
+[575] [576]) [577] [578
 
 ]
 \openout2 = `Chapters/chapter10.aux'.
 
  (./Chapters/chapter10.tex
- --- Customlinks says: Custom link named 'Paleointensity': WebBook3ch9.html#Pal
-eointensity 
-[582
+ --- Customlinks says: Custom link named 'Paleointensity': WebBook3.html#Paleoi
+ntensity 
+[579
 
-] [583
-
-] [584
+] [580
 
 ]
 Chapter 10.
---- file WebBook3ch10.html ---
- --- Customlinks says: Link to chapter 10: WebBook3ch10.html#ch10
+ --- Customlinks says: Link to chapter 10: WebBook3.html#ch10
 l. 20 Writing WebBook3.idv[268] (WebBook3267x.png)
 l. 24 Writing WebBook3.idv[269] (WebBook3268x.png)
-[585]
+[581]
 l. 30 Writing WebBook3.idv[270] (WebBook3269x.png)
- [586] [587
+ [582] [583
 
 ]
 l. 41 Writing WebBook3.idv[271] (WebBook3270x.png)
 File: EPSfiles/pintprinc.eps Graphic file (type eps)
- <EPSfiles/pintprinc.eps> [588
+ <EPSfiles/pintprinc.eps> [584
 
-] [589
+] [585
 
 ]
- --- Customlinks says: Link to section 10.1: WebBook3ch10.html#sec10-1
+ --- Customlinks says: Link to section 10.1: WebBook3.html#sec10-1
 
 Package natbib Warning: Citation `dunlop97b' undefined on input line 68.
 
 
 Package natbib Warning: Citation `selkin07' undefined on input line 71.
 
-[590]
- --- Customlinks says: Link to subsection 10.1.1: WebBook3ch10.html#subsec10-1-
-1
+[586]
+ --- Customlinks says: Link to subsection 10.1.1: WebBook3.html#subsec10-1-1
 
 Package natbib Warning: Citation `thellier59' undefined on input line 85.
 
-[591] [592
+[587] [588
 
 ]
 l. 99 Writing WebBook3.idv[272] (WebBook3271x.png)
 File: EPSfiles/koenigsberger.eps Graphic file (type eps)
- <EPSfiles/koenigsberger.eps> [593
+ <EPSfiles/koenigsberger.eps> [589
 
 ]
 
@@ -3337,7 +3300,7 @@ l. 111 Writing WebBook3.idv[274] (WebBook3273x.png)
 Package natbib Warning: Citation `koenigsberger38' undefined on input line 116.
 
 
-[594
+[590
 
 ]
 
@@ -3345,18 +3308,19 @@ Package natbib Warning: Citation `coe67' undefined on input line 124.
 
 l. 126 Writing WebBook3.idv[275] (WebBook3274x.png)
 l. 130 Writing WebBook3.idv[276] (WebBook3275x.png)
+[591]
 
 Package natbib Warning: Citation `aitken88' undefined on input line 136.
 
 
 Package natbib Warning: Citation `nagata63' undefined on input line 140.
 
-[595] [596] [597
+[592] [593
 
 ]
 l. 146 Writing WebBook3.idv[277] (WebBook3276x.png)
 File: EPSfiles/TT.eps Graphic file (type eps)
- <EPSfiles/TT.eps> [598
+ <EPSfiles/TT.eps> [594
 
 ]
 
@@ -3368,27 +3332,27 @@ Package natbib Warning: Citation `bolshakov79' undefined on input line 164.
 
 Package natbib Warning: Citation `dunlop94' undefined on input line 167.
 
-[599
+[595
 
-] [600
+] [596
 
 ]
 l. 172 Writing WebBook3.idv[278] (WebBook3277x.png)
 File: EPSfiles/dunlop01.eps Graphic file (type eps)
- <EPSfiles/dunlop01.eps> [601
+ <EPSfiles/dunlop01.eps> [597
 
 ]
 
 Package natbib Warning: Citation `dunlop01' undefined on input line 177.
 
-[602
+[598
 
-] [603] [604
+] [599] [600
 
 ]
 l. 198 Writing WebBook3.idv[279] (WebBook3278x.png)
 File: EPSfiles/method.eps Graphic file (type eps)
- <EPSfiles/method.eps> [605
+ <EPSfiles/method.eps> [601
 
 ]
 
@@ -3409,14 +3373,14 @@ Package natbib Warning: Citation `riisager01' undefined on input line 221.
 
 Package natbib Warning: Citation `yu04' undefined on input line 232.
 
-[606
+[602
 
-] [607
+] [603
 
 ]
 l. 241 Writing WebBook3.idv[280] (WebBook3279x.png)
 File: EPSfiles/zigzag.eps Graphic file (type eps)
- <EPSfiles/zigzag.eps> [608
+ <EPSfiles/zigzag.eps> [604
 
 ]
 
@@ -3425,14 +3389,14 @@ Package natbib Warning: Citation `aitken81' undefined on input line 251.
 
 Package natbib Warning: Citation `selkin00b' undefined on input line 253.
 
-[609
+[605
 
-] [610
+] [606
 
 ]
 l. 258 Writing WebBook3.idv[281] (WebBook3280x.png)
 File: EPSfiles/trm-anis.eps Graphic file (type eps)
- <EPSfiles/trm-anis.eps> [611
+ <EPSfiles/trm-anis.eps> [607
 
 ]
 
@@ -3441,36 +3405,35 @@ Package natbib Warning: Citation `halgedahl80' undefined on input line 270.
 
 Package natbib Warning: Citation `genevey03' undefined on input line 273.
 
-[612
+[608
 
-] [613
+] [609
 
 ]
 l. 279 Writing WebBook3.idv[282] (WebBook3281x.png)
 File: EPSfiles/coolingrate.eps Graphic file (type eps)
- <EPSfiles/coolingrate.eps> [614
+ <EPSfiles/coolingrate.eps> [610
 
 ]
 
 Package natbib Warning: Citation `selkin00b' undefined on input line 282.
 
- --- Customlinks says: Link to subsection 10.1.2: WebBook3ch10.html#subsec10-1-
-2
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
+ --- Customlinks says: Link to subsection 10.1.2: WebBook3.html#subsec10-1-2
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
+[611
+
+]
 
 Package natbib Warning: Citation `kono77' undefined on input line 301.
 
 
 Package natbib Warning: Citation `kono74' undefined on input line 303.
 
-[615
-
-]
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
 
 Package natbib Warning: Citation `hoffman89' undefined on input line 309.
 
@@ -3480,21 +3443,21 @@ Package natbib Warning: Citation `hoffman05' undefined on input line 314.
 
 Package natbib Warning: Citation `dekkers06' undefined on input line 314.
 
-[616]
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
+[612]
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
 
 Package natbib Warning: Citation `shaw74' undefined on input line 326.
 
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 329.
 
-[617] [618
+[613] [614
 
 ]
 l. 338 Writing WebBook3.idv[283] (WebBook3282x.png)
 File: EPSfiles/Shaw-DD.eps Graphic file (type eps)
- <EPSfiles/Shaw-DD.eps> [619
+ <EPSfiles/Shaw-DD.eps> [615
 
 ]
 
@@ -3503,9 +3466,9 @@ Package natbib Warning: Citation `yamamoto03' undefined on input line 341.
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 341.
 
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
-[620
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
+[616
 
 ]
 
@@ -3517,9 +3480,9 @@ Package natbib Warning: Citation `hill05' undefined on input line 376.
 
 Package natbib Warning: Citation `hill05' undefined on input line 380.
 
-[621]
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
+[617]
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
 
 Package natbib Warning: Citation `tarduno06' undefined on input line 395.
 
@@ -3535,22 +3498,21 @@ Package natbib Warning: Citation `selkin00' undefined on input line 397.
 
 Package natbib Warning: Citation `tarduno06' undefined on input line 397.
 
- --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3ch10.html#subsub
-sec10-1-2-0
-[622]
+[618]
+ --- Customlinks says: Link to subsubsection 10.1.2.0: WebBook3.html#subsubsec1
+0-1-2-0
 
 Package natbib Warning: Citation `dunlop97b' undefined on input line 408.
 
- --- Customlinks says: Link to subsection 10.1.3: WebBook3ch10.html#subsec10-1-
-3
-[623]
- --- Customlinks says: Link to section 10.2: WebBook3ch10.html#sec10-2
-[624] [625
+ --- Customlinks says: Link to subsection 10.1.3: WebBook3.html#subsec10-1-3
+[619]
+ --- Customlinks says: Link to section 10.2: WebBook3.html#sec10-2
+[620] [621
 
 ]
 l. 431 Writing WebBook3.idv[284] (WebBook3283x.png)
 File: EPSfiles/drm1.eps Graphic file (type eps)
- <EPSfiles/drm1.eps> [626
+ <EPSfiles/drm1.eps> [622
 
 ]
 
@@ -3559,9 +3521,9 @@ Package natbib Warning: Citation `tauxe93' undefined on input line 438.
 
 Package natbib Warning: Citation `tauxe06' undefined on input line 470.
 
-[627
+[623
 
-] [628]
+] [624]
 
 Package natbib Warning: Citation `dunlop97' undefined on input line 497.
 
@@ -3571,111 +3533,109 @@ Package natbib Warning: Citation `valet98' undefined on input line 498.
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 499.
 
- --- Customlinks says: Link to section 10.3: WebBook3ch10.html#sec10-3
+ --- Customlinks says: Link to section 10.3: WebBook3.html#sec10-3
 
 Package natbib Warning: Citation `tauxe16' undefined on input line 508.
 
-[629]
+[625]
 
 Package natbib Warning: Citation `tauxe97' undefined on input line 529.
 
-[630]) [631] [632
+[626]) [627] [628
 
 ]
 \openout2 = `Chapters/chapter11.aux'.
 
  (./Chapters/chapter11.tex
- --- Customlinks says: Custom link named 'Fisher_statistics': WebBook3ch10.html
-#Fisher_statistics 
-[633
+ --- Customlinks says: Custom link named 'Fisher_statistics': WebBook3.html#Fis
+her_statistics 
+[629
 
-] [634
+] [630
 
 ]
 Chapter 11.
---- file WebBook3ch11.html ---
- --- Customlinks says: Link to chapter 11: WebBook3ch11.html#ch11
+ --- Customlinks says: Link to chapter 11: WebBook3.html#ch11
 
 Package natbib Warning: Citation `taylor82' undefined on input line 5.
 
- --- Customlinks says: Link to section 11.1: WebBook3ch11.html#sec11-1
-[635
-
-] [636] [637
+ --- Customlinks says: Link to section 11.1: WebBook3.html#sec11-1
+[631] [632] [633
 
 ]
 l. 41 Writing WebBook3.idv[285] (WebBook3284x.png)
 File: EPSfiles/gauss.eps Graphic file (type eps)
- <EPSfiles/gauss.eps> [638
+ <EPSfiles/gauss.eps> [634
 
-] [639
+] [635
 
 ]
 l. 57 Writing WebBook3.idv[286] (WebBook3285x.png)
 l. 63 Writing WebBook3.idv[287] (WebBook3286x.png)
- [640
+ [636
 
 ]
 l. 87 Writing WebBook3.idv[288] (WebBook3287x.png)
- [641]
+ [637]
 l. 103 Writing WebBook3.idv[289] (WebBook3288x.png)
+ [638]
 l. 128 Writing WebBook3.idv[290] (WebBook3289x.png)
- [642]
 l. 152 Writing WebBook3.idv[291] (WebBook3290x.png)
+ [639]
 l. 165 Writing WebBook3.idv[292] (WebBook3291x.png)
- [643]
 l. 178 Writing WebBook3.idv[293] (WebBook3292x.png)
+
+[640]
 l. 182 Writing WebBook3.idv[294] (WebBook3293x.png)
 
-[644]
- --- Customlinks says: Link to section 11.2: WebBook3ch11.html#sec11-2
-[645] [646] [647
+ --- Customlinks says: Link to section 11.2: WebBook3.html#sec11-2
+[641] [642] [643
 
 ]
 l. 220 Writing WebBook3.idv[295] (WebBook3294x.png)
 File: EPSfiles/fisher.eps Graphic file (type eps)
- <EPSfiles/fisher.eps> [648
+ <EPSfiles/fisher.eps> [644
 
 ]
 
 Package natbib Warning: Citation `fisher53' undefined on input line 233.
 
- --- Customlinks says: Link to subsection 11.2.1: WebBook3ch11.html#subsec11-2-
-1
-[649
+ --- Customlinks says: Link to subsection 11.2.1: WebBook3.html#subsec11-2-1
+[645
 
 ]
 l. 267 Writing WebBook3.idv[296] (WebBook3295x.png)
- [650] [651
+ [646] [647
 
 ]
 l. 283 Writing WebBook3.idv[297] (WebBook3296x.png)
 File: EPSfiles/P.eps Graphic file (type eps)
- <EPSfiles/P.eps> [652
+ <EPSfiles/P.eps> [648
 
 ]
 l. 291 Writing WebBook3.idv[298] (WebBook3297x.png)
 l. 299 Writing WebBook3.idv[299] (WebBook3298x.png)
- [653
+ [649
 
 ]
 l. 306 Writing WebBook3.idv[300] (WebBook3299x.png)
 l. 310 Writing WebBook3.idv[301] (WebBook3300x.png)
- [654]
+ [650]
 l. 338 Writing WebBook3.idv[302] (WebBook3301x.png)
+ [651]
 l. 348 Writing WebBook3.idv[303] (WebBook3302x.png)
- [655] [656] [657
+ [652] [653
 
 ]
 l. 362 Writing WebBook3.idv[304] (WebBook3303x.png)
 File: EPSfiles/vecsum.eps Graphic file (type eps)
 
-<EPSfiles/vecsum.eps> [658
+<EPSfiles/vecsum.eps> [654
 
 ]
 l. 374 Writing WebBook3.idv[305] (WebBook3304x.png)
 l. 386 Writing WebBook3.idv[306] (WebBook3305x.png)
- [659
+ [655
 
 ]
 l. 394 Writing WebBook3.idv[307] (WebBook3306x.png)
@@ -3684,41 +3644,38 @@ l. 394 Writing WebBook3.idv[307] (WebBook3306x.png)
 Package natbib Warning: Citation `tauxe91' undefined on input line 400.
 
 l. 403 Writing WebBook3.idv[308] (WebBook3307x.png)
-[660]
+[656]
 l. 413 Writing WebBook3.idv[309] (WebBook3308x.png)
 l. 421 Writing WebBook3.idv[310] (WebBook3309x.png)
- [661]
- --- Customlinks says: Link to subsection 11.2.2: WebBook3ch11.html#subsec11-2-
-2
-[662]
+ [657]
+ --- Customlinks says: Link to subsection 11.2.2: WebBook3.html#subsec11-2-2
+[658]
 l. 476 Writing WebBook3.idv[311] (WebBook3310x.png)
- [663]
+ [659]
 l. 493 Writing WebBook3.idv[312] (WebBook3311x.png)
- [664] [665
+ [660] [661
 
 ]
 l. 502 Writing WebBook3.idv[313] (WebBook3312x.png)
 File: EPSfiles/a95-csd.eps Graphic file (type eps)
- <EPSfiles/a95-csd.eps> [666
+ <EPSfiles/a95-csd.eps> [662
 
 ]
 
 Package natbib Warning: Citation `cox60' undefined on input line 524.
 
 l. 527 Writing WebBook3.idv[314] (WebBook3313x.png)
- --- Customlinks says: Link to section 11.3: WebBook3ch11.html#sec11-3
-[667
+ --- Customlinks says: Link to section 11.3: WebBook3.html#sec11-3
+[663
 
-] [668] [669]
- --- Customlinks says: Link to subsection 11.3.1: WebBook3ch11.html#subsec11-3-
-1
+] [664] [665]
+ --- Customlinks says: Link to subsection 11.3.1: WebBook3.html#subsec11-3-1
 
 Package natbib Warning: Citation `watson56' undefined on input line 608.
 
 l. 620 Writing WebBook3.idv[315] (WebBook3314x.png)
-[670]
- --- Customlinks says: Link to subsection 11.3.2: WebBook3ch11.html#subsec11-3-
-2
+[666]
+ --- Customlinks says: Link to subsection 11.3.2: WebBook3.html#subsec11-3-2
 
 Package natbib Warning: Citation `mcelhinny64' undefined on input line 651.
 
@@ -3726,44 +3683,42 @@ Package natbib Warning: Citation `mcelhinny64' undefined on input line 651.
 Package natbib Warning: Citation `mcfadden81' undefined on input line 654.
 
 l. 660 Writing WebBook3.idv[316] (WebBook3315x.png)
-[671] [672] [673
+[667] [668] [669
 
 ]
 l. 693 Writing WebBook3.idv[317] (WebBook3316x.png)
 File: EPSfiles/twosets.eps Graphic file (type eps)
- <EPSfiles/twosets.eps> [674
+ <EPSfiles/twosets.eps> [670
 
 ]
- --- Customlinks says: Link to subsection 11.3.3: WebBook3ch11.html#subsec11-3-
-3
-[675
+ --- Customlinks says: Link to subsection 11.3.3: WebBook3.html#subsec11-3-3
+[671
 
-] [676
+] [672
 
 ]
 l. 714 Writing WebBook3.idv[318] (WebBook3317x.png)
 File: EPSfiles/lnp.eps Graphic file (type eps)
- <EPSfiles/lnp.eps> [677
+ <EPSfiles/lnp.eps> [673
 
 ]
 
 Package natbib Warning: Citation `tauxe03b' undefined on input line 728.
 
- --- Customlinks says: Link to subsection 11.3.4: WebBook3ch11.html#subsec11-3-
-4
+ --- Customlinks says: Link to subsection 11.3.4: WebBook3.html#subsec11-3-4
 
 Package natbib Warning: Citation `watson56b' undefined on input line 762.
 
-[678
+[674
 
 ]
 l. 766 Writing WebBook3.idv[319] (WebBook3318x.png)
- [679] [680
+ [675] [676
 
 ]
 l. 789 Writing WebBook3.idv[320] (WebBook3319x.png)
 File: EPSfiles/incfish.eps Graphic file (type eps)
- <EPSfiles/incfish.eps> [681
+ <EPSfiles/incfish.eps> [677
 
 ]
 
@@ -3772,65 +3727,59 @@ Package natbib Warning: Citation `mcfadden82' undefined on input line 795.
 
 Package natbib Warning: Citation `watson83' undefined on input line 802.
 
-[682
+[678
 
 ]
- --- Customlinks says: Link to subsection 11.3.5: WebBook3ch11.html#subsec11-3-
-5
+ --- Customlinks says: Link to subsection 11.3.5: WebBook3.html#subsec11-3-5
 
 Package natbib Warning: Citation `mcfadden88' undefined on input line 854.
 
- --- Customlinks says: Link to section 11.4: WebBook3ch11.html#sec11-4
-[683] [684] [685
+ --- Customlinks says: Link to section 11.4: WebBook3.html#sec11-4
+[679] [680] [681
 
 ]
 l. 897 Writing WebBook3.idv[321] (WebBook3320x.png)
 File: EPSfiles/fishrot.eps Graphic file (type eps)
- <EPSfiles/fishrot.eps> [686
+ <EPSfiles/fishrot.eps> [682
 
-] [687
+] [683
 
-] [688
+] [684
 
 ]
 l. 910 Writing WebBook3.idv[322] (WebBook3321x.png)
 File: EPSfiles/unexp.eps Graphic file (type eps)
 
-<EPSfiles/unexp.eps> [689
+<EPSfiles/unexp.eps> [685
 
 ]
- --- Customlinks says: Link to section 11.5: WebBook3ch11.html#sec11-5
-[690
+ --- Customlinks says: Link to section 11.5: WebBook3.html#sec11-5
+[686
 
-] [691] [692
+] [687] [688
 
 ]
 l. 984 Writing WebBook3.idv[323] (WebBook3322x.png)
 File: EPSfiles/fishqq.eps Graphic file (type eps)
- <EPSfiles/fishqq.eps> [693
+ <EPSfiles/fishqq.eps> [689
 
 ]
- --- Customlinks says: Link to section 11.6: WebBook3ch11.html#sec11-6
-[694
+ --- Customlinks says: Link to section 11.6: WebBook3.html#sec11-6
+[690
 
-] [695]) [696] [697
+] [691]) [692] [693
 
 ]
 \openout2 = `Chapters/chapter12.aux'.
 
  (./Chapters/chapter12.tex
- --- Customlinks says: Custom link named 'Beyond_Fisher_statistics': WebBook3ch
-11.html#Beyond_Fisher_statistics 
-[698
-
-] [699
-
-] [700
+ --- Customlinks says: Custom link named 'Beyond_Fisher_statistics': WebBook3.h
+tml#Beyond_Fisher_statistics 
+[694
 
 ]
 Chapter 12.
---- file WebBook3ch12.html ---
- --- Customlinks says: Link to chapter 12: WebBook3ch12.html#ch12
+ --- Customlinks says: Link to chapter 12: WebBook3.html#ch12
 
 Package natbib Warning: Citation `tauxe91' undefined on input line 6.
 
@@ -3840,12 +3789,14 @@ Package natbib Warning: Citation `efron93' undefined on input line 6.
 
 Package natbib Warning: Citation `fisher53' undefined on input line 14.
 
-[701] [702
+[695
+
+] [696
 
 ]
 l. 25 Writing WebBook3.idv[324] (WebBook3323x.png)
 File: EPSfiles/vgp-di.eps Graphic file (type eps)
- <EPSfiles/vgp-di.eps> [703
+ <EPSfiles/vgp-di.eps> [697
 
 ]
 
@@ -3854,31 +3805,29 @@ Package natbib Warning: Citation `tauxe04d' undefined on input line 28.
 
 Package natbib Warning: Citation `creer83' undefined on input line 39.
 
- --- Customlinks says: Link to section 12.1: WebBook3ch12.html#sec12-1
-[704
+ --- Customlinks says: Link to section 12.1: WebBook3.html#sec12-1
+[698
 
 ]
- --- Customlinks says: Link to subsection 12.1.1: WebBook3ch12.html#subsec12-1-
-1
+ --- Customlinks says: Link to subsection 12.1.1: WebBook3.html#subsec12-1-1
 
 Package natbib Warning: Citation `kent82' undefined on input line 66.
 
 l. 68 Writing WebBook3.idv[325] (WebBook3324x.png)
-[705] [706] [707
+[699] [700] [701
 
 ]
 l. 85 Writing WebBook3.idv[326] (WebBook3325x.png)
 File: EPSfiles/confidence.eps Graphic file (type eps)
- <EPSfiles/confidence.eps> [708
+ <EPSfiles/confidence.eps> [702
 
 ]
- --- Customlinks says: Link to subsection 12.1.2: WebBook3ch12.html#subsec12-1-
-2
+ --- Customlinks says: Link to subsection 12.1.2: WebBook3.html#subsec12-1-2
 
 Package natbib Warning: Citation `bingham74' undefined on input line 98.
 
 l. 100 Writing WebBook3.idv[327] (WebBook3326x.png)
-[709
+[703
 
 ]
 
@@ -3887,8 +3836,7 @@ Package natbib Warning: Citation `onstott80' undefined on input line 110.
 
 Package natbib Warning: Citation `borradaile03' undefined on input line 110.
 
- --- Customlinks says: Link to subsection 12.1.3: WebBook3ch12.html#subsec12-1-
-3
+ --- Customlinks says: Link to subsection 12.1.3: WebBook3.html#subsec12-1-3
 
 Package natbib Warning: Citation `mardia77' undefined on input line 117.
 
@@ -3898,88 +3846,87 @@ Package natbib Warning: Citation `legoff92' undefined on input line 119.
 
 Package natbib Warning: Citation `kent82' undefined on input line 120.
 
-[710] [711
+[704] [705
 
 ]
 l. 127 Writing WebBook3.idv[328] (WebBook3327x.png)
 File: EPSfiles/love.eps Graphic file (type eps)
- <EPSfiles/love.eps> [712
+ <EPSfiles/love.eps> [706
 
 ]
 
 Package natbib Warning: Citation `love03' undefined on input line 130.
 
- --- Customlinks says: Link to subsection 12.1.4: WebBook3ch12.html#subsec12-1-
-4
+ --- Customlinks says: Link to subsection 12.1.4: WebBook3.html#subsec12-1-4
 
 Package natbib Warning: Citation `love03' undefined on input line 138.
 
-[713
+[707
 
-] [714
+] [708
 
 ]
 l. 145 Writing WebBook3.idv[329] (WebBook3328x.png)
 File: EPSfiles/hypeq.eps Graphic file (type eps)
- <EPSfiles/hypeq.eps> [715
+ <EPSfiles/hypeq.eps> [709
 
 ]
- --- Customlinks says: Link to section 12.2: WebBook3ch12.html#sec12-2
-[716
+ --- Customlinks says: Link to section 12.2: WebBook3.html#sec12-2
+[710
 
 ]
 
 Package natbib Warning: Citation `kent82' undefined on input line 190.
 
-[717] [718] [719
+[711] [712] [713
 
 ]
 l. 204 Writing WebBook3.idv[330] (WebBook3329x.png)
 File: EPSfiles/twofiles.eps Graphic file (type eps)
- <EPSfiles/twofiles.eps> [720
+ <EPSfiles/twofiles.eps> [714
 
 ]
- --- Customlinks says: Link to section 12.3: WebBook3ch12.html#sec12-3
+ --- Customlinks says: Link to section 12.3: WebBook3.html#sec12-3
 
 Package natbib Warning: Citation `tauxe91' undefined on input line 221.
 
-[721
+[715
 
-] [722
+] [716
 
 ]
 l. 245 Writing WebBook3.idv[331] (WebBook3330x.png)
 File: EPSfiles/cdf.eps Graphic file (type eps)
- <EPSfiles/cdf.eps> [723
+ <EPSfiles/cdf.eps> [717
 
 ]
- --- Customlinks says: Link to section 12.4: WebBook3ch12.html#sec12-4
- --- Customlinks says: Link to section 12.5: WebBook3ch12.html#sec12-5
-[724
+ --- Customlinks says: Link to section 12.4: WebBook3.html#sec12-4
+ --- Customlinks says: Link to section 12.5: WebBook3.html#sec12-5
+[718
 
-] [725] [726
+] [719] [720
 
 ]
 l. 296 Writing WebBook3.idv[332] (WebBook3331x.png)
 File: EPSfiles/revtest.eps Graphic file (type eps)
- <EPSfiles/revtest.eps> [727
+ <EPSfiles/revtest.eps> [721
 
 ]
- --- Customlinks says: Link to section 12.6: WebBook3ch12.html#sec12-6
+ --- Customlinks says: Link to section 12.6: WebBook3.html#sec12-6
 
 Package natbib Warning: Citation `graham49' undefined on input line 323.
 
 
 Package natbib Warning: Citation `mcelhinny64' undefined on input line 347.
 
-[728
+[722
 
-] [729
+] [723] [724
 
 ]
 l. 361 Writing WebBook3.idv[333] (WebBook3332x.png)
 File: EPSfiles/unfolding.eps Graphic file (type eps)
- <EPSfiles/unfolding.eps> [730
+ <EPSfiles/unfolding.eps> [725
 
 ]
 
@@ -3988,7 +3935,7 @@ Package natbib Warning: Citation `mccabe83' undefined on input line 382.
 
 Package natbib Warning: Citation `tauxe94' undefined on input line 403.
 
-[731
+[726
 
 ]
 
@@ -4000,26 +3947,23 @@ Package natbib Warning: Citation `mccabe83' undefined on input line 449.
 
 Package natbib Warning: Citation `fisher87' undefined on input line 452.
 
-[732]
- --- Customlinks says: Link to section 12.7: WebBook3ch12.html#sec12-7
-[733]) [734] [735
+[727]
+ --- Customlinks says: Link to section 12.7: WebBook3.html#sec12-7
+[728]) [729] [730
 
 ]
 \openout2 = `Chapters/chapter13.aux'.
 
  (./Chapters/chapter13.tex
- --- Customlinks says: Custom link named 'Paleomagnetic_tensors': WebBook3ch12.
-html#Paleomagnetic_tensors 
-[736
+ --- Customlinks says: Custom link named 'Paleomagnetic_tensors': WebBook3.html
+#Paleomagnetic_tensors 
+[731
 
-] [737
-
-] [738
+] [732
 
 ]
 Chapter 13.
---- file WebBook3ch13.html ---
- --- Customlinks says: Link to chapter 13: WebBook3ch13.html#ch13
+ --- Customlinks says: Link to chapter 13: WebBook3.html#ch13
 
 Package natbib Warning: Citation `means76' undefined on input line 6.
 
@@ -4029,35 +3973,36 @@ Package natbib Warning: Citation `tarling93' undefined on input line 7.
 
 Package natbib Warning: Citation `collinson83' undefined on input line 8.
 
-[739] [740
+[733] [734
 
 ]
 l. 26 Writing WebBook3.idv[334] (WebBook3333x.png)
 File: EPSfiles/measAMS.eps Graphic file (type eps)
- <EPSfiles/measAMS.eps> [741
+ <EPSfiles/measAMS.eps> [735
 
 ]
- --- Customlinks says: Link to section 13.1: WebBook3ch13.html#sec13-1
+ --- Customlinks says: Link to section 13.1: WebBook3.html#sec13-1
 l. 47 Writing WebBook3.idv[335] (WebBook3334x.png)
-[742
+[736
 
 ]
 l. 71 Writing WebBook3.idv[336] (WebBook3335x.png)
 l. 80 Writing WebBook3.idv[337] (WebBook3336x.png)
- [743]
+ [737]
 l. 100 Writing WebBook3.idv[338] (WebBook3337x.png)
- [744]
+ [738]
 l. 107 Writing WebBook3.idv[339] (WebBook3338x.png)
 l. 122 Writing WebBook3.idv[340] (WebBook3339x.png)
- [745]
+ [739]
 l. 129 Writing WebBook3.idv[341] (WebBook3340x.png)
+ [740]
 l. 151 Writing WebBook3.idv[342] (WebBook3341x.png)
- [746] [747] [748
+ [741] [742
 
 ]
 l. 173 Writing WebBook3.idv[343] (WebBook3342x.png)
 File: EPSfiles/magnitude.eps Graphic file (type eps)
- <EPSfiles/magnitude.eps> [749
+ <EPSfiles/magnitude.eps> [743
 
 ]
 l. 184 Writing WebBook3.idv[344] (WebBook3343x.png)
@@ -4065,11 +4010,11 @@ l. 184 Writing WebBook3.idv[344] (WebBook3343x.png)
 
 Package natbib Warning: Citation `nye57' undefined on input line 198.
 
-[750
+[744
 
 ]
 l. 210 Writing WebBook3.idv[345] (WebBook3344x.png)
- [751]
+ [745]
 
 Package natbib Warning: Citation `hext63' undefined on input line 273.
 
@@ -4082,61 +4027,61 @@ Package natbib Warning: Citation `constable90' undefined on input line 277.
 
 Package natbib Warning: Citation `hext63' undefined on input line 280.
 
- --- Customlinks says: Link to section 13.2: WebBook3ch13.html#sec13-2
-[752]
+ --- Customlinks says: Link to section 13.2: WebBook3.html#sec13-2
+[746]
 l. 290 Writing WebBook3.idv[346] (WebBook3345x.png)
 l. 297 Writing WebBook3.idv[347] (WebBook3346x.png)
+ [747]
 l. 303 Writing WebBook3.idv[348] (WebBook3347x.png)
- [753] [754] [755
+ [748] [749
 
 ]
 l. 314 Writing WebBook3.idv[349] (WebBook3348x.png)
 File: EPSfiles/eij.eps Graphic file (type eps)
- <EPSfiles/eij.eps> [756
+ <EPSfiles/eij.eps> [750
 
 ]
 
 Package natbib Warning: Citation `tauxe98' undefined on input line 322.
 
 
-LaTeX Warning: Reference `fig:AMSspin' on page 757 undefined on input line 328.
+LaTeX Warning: Reference `fig:AMSspin' on page 751 undefined on input line 328.
 
 
 
 Package natbib Warning: Citation `gee08' undefined on input line 332.
 
 
-LaTeX Warning: Reference `app:AMSspin' on page 757 undefined on input line 333.
+LaTeX Warning: Reference `app:AMSspin' on page 751 undefined on input line 333.
 
 
 l. 338 Writing WebBook3.idv[350] (WebBook3349x.png)
-l. 345 Writing WebBook3.idv[351] (WebBook3350x.png)
-[757
+[751
 
 ]
+l. 345 Writing WebBook3.idv[351] (WebBook3350x.png)
 l. 350 Writing WebBook3.idv[352] (WebBook3351x.png)
 
- --- Customlinks says: Link to subsection 13.2.1: WebBook3ch13.html#subsec13-2-
-1
-[758]
+ --- Customlinks says: Link to subsection 13.2.1: WebBook3.html#subsec13-2-1
+[752]
 l. 398 Writing WebBook3.idv[353] (WebBook3352x.png)
- [759]
+ [753]
 l. 412 Writing WebBook3.idv[354] (WebBook3353x.png)
 
- --- Customlinks says: Link to subsection 13.2.2: WebBook3ch13.html#subsec13-2-
-2
-[760]
+ --- Customlinks says: Link to subsection 13.2.2: WebBook3.html#subsec13-2-2
+[754]
 l. 430 Writing WebBook3.idv[355] (WebBook3354x.png)
 l. 439 Writing WebBook3.idv[356] (WebBook3355x.png)
- [761]
- --- Customlinks says: Link to section 13.3: WebBook3ch13.html#sec13-3
- --- Customlinks says: Link to section 13.4: WebBook3ch13.html#sec13-4
-[762] [763
+ [755]
+ --- Customlinks says: Link to section 13.3: WebBook3.html#sec13-3
+[756]
+ --- Customlinks says: Link to section 13.4: WebBook3.html#sec13-4
+[757] [758
 
 ]
 l. 487 Writing WebBook3.idv[357] (WebBook3356x.png)
 File: EPSfiles/evec.eps Graphic file (type eps)
- <EPSfiles/evec.eps> [764
+ <EPSfiles/evec.eps> [759
 
 ]
 
@@ -4145,32 +4090,32 @@ Package natbib Warning: Citation `tauxe98b' undefined on input line 498.
 
 Package natbib Warning: Citation `tauxe98b' undefined on input line 503.
 
-[765
+[760
 
 ]
 
 Package natbib Warning: Citation `tauxe98b' undefined on input line 558.
 
-[766] [767
+[761] [762
 
 ]
 l. 564 Writing WebBook3.idv[358] (WebBook3357x.png)
 File: EPSfiles/kmin.eps Graphic file (type eps)
- <EPSfiles/kmin.eps> [768
+ <EPSfiles/kmin.eps> [763
 
 ]
 
 Package natbib Warning: Citation `cronin01' undefined on input line 575.
 
- --- Customlinks says: Link to section 13.5: WebBook3ch13.html#sec13-5
-[769
+ --- Customlinks says: Link to section 13.5: WebBook3.html#sec13-5
+[764
 
-] [770
+] [765
 
 ]
 l. 618 Writing WebBook3.idv[359] (WebBook3358x.png)
 File: EPSfiles/dikeams.eps Graphic file (type eps)
- <EPSfiles/dikeams.eps> [771
+ <EPSfiles/dikeams.eps> [766
 
 ]
 
@@ -4188,28 +4133,28 @@ Package natbib Warning: Citation `hargraves91' undefined on input line 636.
 
 Package natbib Warning: Citation `tarling93' undefined on input line 654.
 
-[772
+[767
 
-] [773
+] [768
 
 ]
 l. 668 Writing WebBook3.idv[360] (WebBook3359x.png)
 File: EPSfiles/sedams.eps Graphic file (type eps)
- <EPSfiles/sedams.eps> [774
+ <EPSfiles/sedams.eps> [769
 
-] [775
+] [770
 
-] [776
+] [771
 
 ]
 l. 683 Writing WebBook3.idv[361] (WebBook3360x.png)
 File: EPSfiles/shape.eps Graphic file (type eps)
  <EPSfiles/shape.eps>
-[777
+[772
 
 ]
- --- Customlinks says: Link to section 13.6: WebBook3ch13.html#sec13-6
-[778
+ --- Customlinks says: Link to section 13.6: WebBook3.html#sec13-6
+[773
 
 ]
 
@@ -4236,57 +4181,55 @@ Package natbib Warning: Citation `jelinek81' undefined on input line 786.
 
 Package natbib Warning: Citation `woodcock77' undefined on input line 790.
 
-[779] [780
+[774] [775] [776
 
 ]
 l. 798 Writing WebBook3.idv[362] (WebBook3361x.png)
 File: EPSfiles/diags.eps Graphic file (type eps)
- <EPSfiles/diags.eps> [781
+ <EPSfiles/diags.eps> [777
 
 ]
 
 Package natbib Warning: Citation `tarling93' undefined on input line 828.
 
-[782
+[778
 
-] [783
+] [779
 
 ]
 l. 847 Writing WebBook3.idv[363] (WebBook3362x.png)
 File: EPSfiles/ternaryams.eps Graphic file (type eps)
- <EPSfiles/ternaryams.eps> [784
+ <EPSfiles/ternaryams.eps> [780
 
-] [785
+] [781
 
-] [786
+] [782
 
 ]
 l. 886 Writing WebBook3.idv[364] (WebBook3363x.png)
- [787
+ [783
 
 ]
- --- Customlinks says: Link to section 13.7: WebBook3ch13.html#sec13-7
+ --- Customlinks says: Link to section 13.7: WebBook3.html#sec13-7
 
 Package natbib Warning: Citation `aitken81' undefined on input line 907.
 
 
 Package natbib Warning: Citation `jackson91' undefined on input line 909.
 
- --- Customlinks says: Link to subsection 13.7.1: WebBook3ch13.html#subsec13-7-
-1
-[788
+ --- Customlinks says: Link to subsection 13.7.1: WebBook3.html#subsec13-7-1
+[784
 
 ]
 
 Package natbib Warning: Citation `selkin00b' undefined on input line 926.
 
-[789]
+[785]
 l. 931 Writing WebBook3.idv[365] (WebBook3364x.png)
 l. 937 Writing WebBook3.idv[366] (WebBook3365x.png)
 
- --- Customlinks says: Link to subsection 13.7.2: WebBook3ch13.html#subsec13-7-
-2
-[790]
+ --- Customlinks says: Link to subsection 13.7.2: WebBook3.html#subsec13-7-2
+[786]
 l. 945 Writing WebBook3.idv[367] (WebBook3366x.png)
 
 
@@ -4296,48 +4239,45 @@ Package natbib Warning: Citation `king55' undefined on input line 953.
 Package natbib Warning: Citation `jackson91' undefined on input line 956.
 
 l. 959 Writing WebBook3.idv[368] (WebBook3367x.png)
-[791]
+[787]
 
 Package natbib Warning: Citation `levi76' undefined on input line 970.
 
-[792]
+[788]
 
 Package natbib Warning: Citation `vaughn05' undefined on input line 981.
 
 
 Package natbib Warning: Citation `lebti08' undefined on input line 982.
 
- --- Customlinks says: Link to section 13.8: WebBook3ch13.html#sec13-8
+ --- Customlinks says: Link to section 13.8: WebBook3.html#sec13-8
 l. 996 Writing WebBook3.idv[369] (WebBook3368x.png)
-[793] [794]
+[789] [790]
 
 Package natbib Warning: Citation `schwehr03' undefined on input line 1039.
 
-) [795] [796
+) [791] [792
 
 ]
 \openout2 = `Chapters/chapter14.aux'.
 
  (./Chapters/chapter14.tex
  --- Customlinks says: Custom link named 'The_ancient_geomagnetic_field': WebBo
-ok3ch13.html#The_ancient_geomagnetic_field 
-[797
+ok3.html#The_ancient_geomagnetic_field 
+[793
 
-] [798
+] [794
 
 ]
 Chapter 14.
---- file WebBook3ch14.html ---
- --- Customlinks says: Link to chapter 14: WebBook3ch14.html#ch14
+ --- Customlinks says: Link to chapter 14: WebBook3.html#ch14
 
 Package natbib Warning: Citation `kono07' undefined on input line 7.
 
 
 Package natbib Warning: Citation `merrill96' undefined on input line 8.
 
-[799
-
-]
+[795]
 l. 30 Writing WebBook3.idv[370] (WebBook3369x.png)
 File: EPSfiles/c14.eps Graphic file (type eps)
  <EPSfiles/c14.eps>
@@ -4353,7 +4293,7 @@ Package natbib Warning: Citation `masarik99' undefined on input line 34.
 
 Package natbib Warning: Citation `glatzmaier99' undefined on input line 40.
 
-[800]
+[796]
 
 Package natbib Warning: Citation `glatzmaier96' undefined on input line 48.
 
@@ -4363,12 +4303,12 @@ Package natbib Warning: Citation `song96' undefined on input line 51.
 
 Package natbib Warning: Citation `hulot02' undefined on input line 63.
 
-[801] [802] [803
+[797] [798] [799
 
 ]
 l. 69 Writing WebBook3.idv[371] (WebBook3370x.png)
 File: EPSfiles/chinesecompass.eps Graphic file (type eps)
- <EPSfiles/chinesecompass.eps> [804
+ <EPSfiles/chinesecompass.eps> [800
 
 ]
 
@@ -4377,16 +4317,16 @@ Package natbib Warning: Citation `wang48' undefined on input line 72.
 
 Package natbib Warning: Citation `smith67' undefined on input line 72.
 
-[805
+[801
 
 ]
- --- Customlinks says: Link to section 14.1: WebBook3ch14.html#sec14-1
-[806] [807
+ --- Customlinks says: Link to section 14.1: WebBook3.html#sec14-1
+[802] [803
 
 ]
 l. 90 Writing WebBook3.idv[372] (WebBook3371x.png)
 File: EPSfiles/halley.eps Graphic file (type eps)
- <EPSfiles/halley.eps> [808
+ <EPSfiles/halley.eps> [804
 
 ]
 
@@ -4396,38 +4336,37 @@ Package natbib Warning: Citation `cook01' undefined on input line 93.
 Package natbib Warning: Citation `needham62' undefined on input line 98.
 
 l. 109 Writing WebBook3.idv[373] (WebBook3372x.png)
-[809
+[805
 
-] [810] [811
+] [806] [807
 
 ]
 l. 121 Writing WebBook3.idv[374] (WebBook3373x.png)
 File: EPSfiles/gufm1.eps Graphic file (type eps)
- <EPSfiles/gufm1.eps> [812
+ <EPSfiles/gufm1.eps> [808
 
 ]
 
 Package natbib Warning: Citation `reeves18' undefined on input line 129.
 
-[813
+[809
 
-] [814
+] [810
 
 ]
 l. 143 Writing WebBook3.idv[375] (WebBook3374x.png)
 File: EPSfiles/psvmod.eps Graphic file (type eps)
- <EPSfiles/psvmod.eps> [815
+ <EPSfiles/psvmod.eps> [811
 
 ]
 
 Package natbib Warning: Citation `jackson00' undefined on input line 155.
 
- --- Customlinks says: Link to section 14.2: WebBook3ch14.html#sec14-2
-[816
+ --- Customlinks says: Link to section 14.2: WebBook3.html#sec14-2
+[812
 
 ]
- --- Customlinks says: Link to subsection 14.2.1: WebBook3ch14.html#subsec14-2-
-1
+ --- Customlinks says: Link to subsection 14.2.1: WebBook3.html#subsec14-2-1
 
 Package natbib Warning: Citation `folgheraiter1899' undefined on input line 174
 .
@@ -4453,19 +4392,18 @@ Package natbib Warning: Citation `mcdougall63' undefined on input line 183.
 
 Package natbib Warning: Citation `johnson48' undefined on input line 191.
 
-[817] [818
+[813] [814
 
 ]
 l. 196 Writing WebBook3.idv[376] (WebBook3375x.png)
 File: EPSfiles/wilsoncreek.eps Graphic file (type eps)
- <EPSfiles/wilsoncreek.eps> [819
+ <EPSfiles/wilsoncreek.eps> [815
 
 ]
 
 Package natbib Warning: Citation `lund88' undefined on input line 204.
 
- --- Customlinks says: Link to subsection 14.2.2: WebBook3ch14.html#subsec14-2-
-2
+ --- Customlinks says: Link to subsection 14.2.2: WebBook3.html#subsec14-2-2
 
 Package natbib Warning: Citation `constable00' undefined on input line 212.
 
@@ -4490,54 +4428,51 @@ Package natbib Warning: Citation `korhonen08' undefined on input line 244.
 
 Package natbib Warning: Citation `genevey08' undefined on input line 244.
 
-[820
+[816
 
 ]
- --- Customlinks says: Link to subsection 14.2.3: WebBook3ch14.html#subsec14-2-
-3
+ --- Customlinks says: Link to subsection 14.2.3: WebBook3.html#subsec14-2-3
 
 Package natbib Warning: Citation `yukutake67' undefined on input line 251.
 
-[821] [822
+[817] [818
 
 ]
 l. 257 Writing WebBook3.idv[377] (WebBook3376x.png)
 File: EPSfiles/sint800.eps Graphic file (type eps)
- <EPSfiles/sint800.eps> [823
+ <EPSfiles/sint800.eps> [819
 
 ]
 
 Package natbib Warning: Citation `guyodo99' undefined on input line 260.
 
- --- Customlinks says: Link to subsection 14.2.4: WebBook3ch14.html#subsec14-2-
-4
-[824
+ --- Customlinks says: Link to subsection 14.2.4: WebBook3.html#subsec14-2-4
+[820
 
-] [825
+] [821
 
 ]
 l. 284 Writing WebBook3.idv[378] (WebBook3377x.png)
 File: EPSfiles/sedpint.eps Graphic file (type eps)
- <EPSfiles/sedpint.eps> [826
+ <EPSfiles/sedpint.eps> [822
 
-] [827]
- --- Customlinks says: Link to section 14.3: WebBook3ch14.html#sec14-3
- --- Customlinks says: Link to subsection 14.3.1: WebBook3ch14.html#subsec14-3-
-1
+] [823]
+ --- Customlinks says: Link to section 14.3: WebBook3.html#sec14-3
+ --- Customlinks says: Link to subsection 14.3.1: WebBook3.html#subsec14-3-1
 
 Package natbib Warning: Citation `laj07' undefined on input line 307.
 
 
 Package natbib Warning: Citation `guyodo99' undefined on input line 317.
 
-[828
+[824
 
-] [829] [830
+] [825] [826
 
 ]
 l. 322 Writing WebBook3.idv[379] (WebBook3378x.png)
 File: EPSfiles/919.eps Graphic file (type eps)
- <EPSfiles/919.eps> [831
+ <EPSfiles/919.eps> [827
 
 ]
 
@@ -4573,7 +4508,7 @@ Package natbib Warning: Citation `wagner00' undefined on input line 360.
 
 Package natbib Warning: Citation `wagner00b' undefined on input line 360.
 
-[832
+[828
 
 ]
 
@@ -4582,22 +4517,22 @@ Package natbib Warning: Citation `tauxe07' undefined on input line 365.
 
 Package natbib Warning: Citation `channell06' undefined on input line 370.
 
-[833] [834
+[829] [830
 
 ]
 l. 375 Writing WebBook3.idv[380] (WebBook3379x.png)
 File: EPSfiles/reversals.eps Graphic file (type eps)
- <EPSfiles/reversals.eps> [835
+ <EPSfiles/reversals.eps> [831
 
-] [836
+] [832
 
-] [837
+] [833
 
 ]
 l. 398 Writing WebBook3.idv[381] (WebBook3380x.png)
 File: EPSfiles/vgpspint.eps Graphic file (type eps)
  <EPSfiles/vgpspint.eps>
-[838
+[834
 
 ]
 
@@ -4609,47 +4544,46 @@ Package natbib Warning: Citation `mcelhinny96' undefined on input line 402.
 
 Package natbib Warning: Citation `masters00' undefined on input line 402.
 
- --- Customlinks says: Link to subsection 14.3.2: WebBook3ch14.html#subsec14-3-
-2
+ --- Customlinks says: Link to subsection 14.3.2: WebBook3.html#subsec14-3-2
 
 Package natbib Warning: Citation `clement84' undefined on input line 417.
 
 
 Package natbib Warning: Citation `clement04' undefined on input line 424.
 
-[839
+[835
 
-] [840
+] [836
 
 ]
 l. 438 Writing WebBook3.idv[382] (WebBook3381x.png)
 File: EPSfiles/gpts.eps Graphic file (type eps)
- <EPSfiles/gpts.eps> [841
+ <EPSfiles/gpts.eps> [837
 
 ]
- --- Customlinks says: Link to section 14.4: WebBook3ch14.html#sec14-4
+ --- Customlinks says: Link to section 14.4: WebBook3.html#sec14-4
 
 Package natbib Warning: Citation `constable03' undefined on input line 476.
 
-[842
+[838
 
-] [843
+] [839
 
 ]
 l. 488 Writing WebBook3.idv[383] (WebBook3382x.png)
 File: EPSfiles/hk02.eps Graphic file (type eps)
- <EPSfiles/hk02.eps> [844
+ <EPSfiles/hk02.eps> [840
 
 ]
- --- Customlinks says: Link to section 14.5: WebBook3ch14.html#sec14-5
-[845
+ --- Customlinks says: Link to section 14.5: WebBook3.html#sec14-5
+[841
 
-] [846] [847
+] [842] [843
 
 ]
 l. 513 Writing WebBook3.idv[384] (WebBook3383x.png)
 File: EPSfiles/tangent.eps Graphic file (type eps)
- <EPSfiles/tangent.eps> [848
+ <EPSfiles/tangent.eps> [844
 
 ]
 
@@ -4658,7 +4592,7 @@ Package natbib Warning: Citation `lawrence08' undefined on input line 526.
 
 Package natbib Warning: Citation `tauxe07' undefined on input line 526.
 
-[849
+[845
 
 ]
 
@@ -4667,14 +4601,14 @@ Package natbib Warning: Citation `tauxe07' undefined on input line 532.
 
 Package natbib Warning: Citation `perrin04' undefined on input line 537.
 
-[850
+[846
 
-] [851
+] [847
 
 ]
 l. 547 Writing WebBook3.idv[385] (WebBook3384x.png)
 File: EPSfiles/sbg-lava.eps Graphic file (type eps)
- <EPSfiles/sbg-lava.eps> [852
+ <EPSfiles/sbg-lava.eps> [848
 
 ]
 
@@ -4686,35 +4620,35 @@ Package natbib Warning: Citation `aurnou03' undefined on input line 568.
 
 Package natbib Warning: Citation `busse83' undefined on input line 573.
 
- --- Customlinks says: Link to section 14.6: WebBook3ch14.html#sec14-6
+ --- Customlinks says: Link to section 14.6: WebBook3.html#sec14-6
 
 Package natbib Warning: Citation `prevot90' undefined on input line 595.
 
-[853
+[849
 
-] [854
+] [850
 
 ]
 l. 610 Writing WebBook3.idv[386] (WebBook3385x.png)
 File: EPSfiles/psvrl.eps Graphic file (type eps)
- <EPSfiles/psvrl.eps> [855
+ <EPSfiles/psvrl.eps> [851
 
 ]
 
 Package natbib Warning: Citation `tauxe04' undefined on input line 616.
 
-[856
+[852
 
-] [857
+] [853
 
 ]
 l. 621 Writing WebBook3.idv[387] (WebBook3386x.png)
 File: EPSfiles/bell.eps Graphic file (type eps)
- <EPSfiles/bell.eps> [858
+ <EPSfiles/bell.eps> [854
 
 ]
- --- Customlinks says: Link to section 14.7: WebBook3ch14.html#sec14-7
-[859
+ --- Customlinks says: Link to section 14.7: WebBook3.html#sec14-7
+[855
 
 ]
 l. 646 Writing WebBook3.idv[388] (WebBook3387x.png)
@@ -4723,7 +4657,7 @@ l. 646 Writing WebBook3.idv[388] (WebBook3387x.png)
 Package natbib Warning: Citation `mcelhinny97' undefined on input line 659.
 
 l. 661 Writing WebBook3.idv[389] (WebBook3388x.png)
-[860]
+[856]
 
 Package natbib Warning: Citation `vandamme94' undefined on input line 669.
 
@@ -4739,18 +4673,18 @@ Package natbib Warning: Citation `irving63' undefined on input line 684.
 
 Package natbib Warning: Citation `fisher53' undefined on input line 684.
 
-[861] [862
+[857] [858
 
 ]
 l. 695 Writing WebBook3.idv[390] (WebBook3389x.png)
 File: EPSfiles/tk03.eps Graphic file (type eps)
- <EPSfiles/tk03.eps> [863
+ <EPSfiles/tk03.eps> [859
 
-] [864] [865
+] [860] [861
 
 ]
 
-Package natbib Warning: Citation `mcfadden88' on page 866 undefined on input li
+Package natbib Warning: Citation `mcfadden88' on page 862 undefined on input li
 ne 704.
 
 
@@ -4766,49 +4700,46 @@ Package natbib Warning: Citation `mcelhinny97' undefined on input line 714.
 
 Package natbib Warning: Citation `constable88' undefined on input line 720.
 
-[866
+[862
 
 ]
 l. 724 Writing WebBook3.idv[392] (WebBook3391x.png)
- [867] [868]
+ [863] [864]
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 753.
 
 
 Package natbib Warning: Citation `johnson08' undefined on input line 753.
 
- --- Customlinks says: Link to section 14.8: WebBook3ch14.html#sec14-8
+ --- Customlinks says: Link to section 14.8: WebBook3.html#sec14-8
 
 Package natbib Warning: Citation `jackson00' undefined on input line 762.
 
-[869]
+[865]
 
 Package natbib Warning: Citation `lawrence08' undefined on input line 789.
 
-[870]
+[866]
 
 Package natbib Warning: Citation `cromwell18' undefined on input line 803.
 
-[871]) [872] [873
+[867]) [868] [869
 
 ]
 \openout2 = `Chapters/chapter15.aux'.
 
  (./Chapters/chapter15.tex
  --- Customlinks says: Custom link named 'The_GPTS_and_magnetostratigraphy': We
-bBook3ch14.html#The_GPTS_and_magnetostratigraphy 
-[874
-
-] [875
-
-] [876
+bBook3.html#The_GPTS_and_magnetostratigraphy 
+[870
 
 ]
 Chapter 15.
---- file WebBook3ch15.html ---
- --- Customlinks says: Link to chapter 15: WebBook3ch15.html#ch15
- --- Customlinks says: Link to section 15.1: WebBook3ch15.html#sec15-1
-[877]
+ --- Customlinks says: Link to chapter 15: WebBook3.html#ch15
+[871
+
+]
+ --- Customlinks says: Link to section 15.1: WebBook3.html#sec15-1
 
 Package natbib Warning: Citation `matuyama29' undefined on input line 26.
 
@@ -4818,35 +4749,35 @@ Package natbib Warning: Citation `cox63' undefined on input line 28.
 
 Package natbib Warning: Citation `cox64' undefined on input line 28.
 
-[878] [879
+[872] [873
 
 ]
 l. 33 Writing WebBook3.idv[393] (WebBook3392x.png)
 File: EPSfiles/cox64.eps Graphic file (type eps)
- <EPSfiles/cox64.eps> [880
+ <EPSfiles/cox64.eps> [874
 
 ]
 
 Package natbib Warning: Citation `cox64' undefined on input line 36.
 
-[881
+[875
 
-] [882
+] [876
 
 ]
 l. 60 Writing WebBook3.idv[394] (WebBook3393x.png)
 File: EPSfiles/mason61.eps Graphic file (type eps)
- <EPSfiles/mason61.eps> [883
+ <EPSfiles/mason61.eps> [877
 
-] [884
+] [878
 
-] [885
+] [879
 
 ]
 l. 78 Writing WebBook3.idv[395] (WebBook3394x.png)
 File: EPSfiles/pitman66.eps Graphic file (type eps)
  <EPSfiles/pitman66.eps>
-[886
+[880
 
 ]
 
@@ -4867,14 +4798,14 @@ Package natbib Warning: Citation `heirtzler68' undefined on input line 100.
 
 Package natbib Warning: Citation `cande95' undefined on input line 103.
 
-[887
+[881
 
-] [888
+] [882
 
 ]
 l. 109 Writing WebBook3.idv[396] (WebBook3395x.png)
 File: EPSfiles/opdyke66.eps Graphic file (type eps)
- <EPSfiles/opdyke66.eps> [889
+ <EPSfiles/opdyke66.eps> [883
 
 ]
 
@@ -4889,14 +4820,14 @@ Package natbib Warning: Citation `harrison66' undefined on input line 122.
 
 Package natbib Warning: Citation `opdyke66' undefined on input line 122.
 
-[890
+[884
 
-] [891
+] [885
 
 ]
 l. 128 Writing WebBook3.idv[397] (WebBook3396x.png)
 File: EPSfiles/opdyke74.eps Graphic file (type eps)
- <EPSfiles/opdyke74.eps> [892
+ <EPSfiles/opdyke74.eps> [886
 
 ]
 
@@ -4917,7 +4848,7 @@ Package natbib Warning: Citation `channell95' undefined on input line 163.
 
 Package natbib Warning: Citation `tivey06' undefined on input line 163.
 
-[893
+[887
 
 ]
 
@@ -4926,16 +4857,15 @@ Package natbib Warning: Citation `shackleton90' undefined on input line 173.
 
 Package natbib Warning: Citation `hilgen91' undefined on input line 173.
 
-[894] [895
+[888] [889
 
 ]
 l. 178 Writing WebBook3.idv[398] (WebBook3397x.png)
 File: EPSfiles/hilgen91.eps Graphic file (type eps)
- <EPSfiles/hilgen91.eps> [896
+ <EPSfiles/hilgen91.eps> [890
 
 ]
- --- Customlinks says: Link to subsection 15.1.1: WebBook3ch15.html#subsec15-1-
-1
+ --- Customlinks says: Link to subsection 15.1.1: WebBook3.html#subsec15-1-1
 
 Package natbib Warning: Citation `labrecque77' undefined on input line 188.
 
@@ -4945,30 +4875,29 @@ Package natbib Warning: Citation `alvarez77' undefined on input line 190.
 
 Package natbib Warning: Citation `vanhinte76' undefined on input line 192.
 
-[897
+[891
 
-] [898
+] [892
 
 ]
 l. 203 Writing WebBook3.idv[399] (WebBook3398x.png)
 File: EPSfiles/newark.eps Graphic file (type eps)
- <EPSfiles/newark.eps> [899
+ <EPSfiles/newark.eps> [893
 
-] [900] [901
+] [894] [895
 
-] [902
+] [896
 
 ]
 l. 213 Writing WebBook3.idv[400] (WebBook3399x.png)
 File: EPSfiles/neogene.eps Graphic file (type eps)
 
-<EPSfiles/neogene.eps> [903
+<EPSfiles/neogene.eps> [897
 
-] [904] [905] [906
+] [898] [899] [900
 
 ]
- --- Customlinks says: Link to subsection 15.1.2: WebBook3ch15.html#subsec15-1-
-2
+ --- Customlinks says: Link to subsection 15.1.2: WebBook3.html#subsec15-1-2
 
 Package natbib Warning: Citation `hays76' undefined on input line 226.
 
@@ -4981,9 +4910,8 @@ Package natbib Warning: Citation `kent95' undefined on input line 235.
 
 Package natbib Warning: Citation `kent99b' undefined on input line 235.
 
- --- Customlinks says: Link to subsection 15.1.3: WebBook3ch15.html#subsec15-1-
-3
-[907
+ --- Customlinks says: Link to subsection 15.1.3: WebBook3.html#subsec15-1-3
+[901
 
 ]
 
@@ -5019,43 +4947,40 @@ Package natbib Warning: Citation `cande95' undefined on input line 282.
 
 Package natbib Warning: Citation `lowrie04' undefined on input line 282.
 
-[908]
- --- Customlinks says: Link to section 15.2: WebBook3ch15.html#sec15-2
-[909] [910
+[902]
+ --- Customlinks says: Link to section 15.2: WebBook3.html#sec15-2
+[903] [904
 
 ]
 l. 294 Writing WebBook3.idv[401] (WebBook3400x.png)
 File: EPSfiles/spreadingrate.eps Graphic file (type eps)
- <EPSfiles/spreadingrate.eps> [911
+ <EPSfiles/spreadingrate.eps> [905
 
 ]
- --- Customlinks says: Link to section 15.3: WebBook3ch15.html#sec15-3
- --- Customlinks says: Link to subsection 15.3.1: WebBook3ch15.html#subsec15-3-
-1
+ --- Customlinks says: Link to section 15.3: WebBook3.html#sec15-3
+ --- Customlinks says: Link to subsection 15.3.1: WebBook3.html#subsec15-3-1
 
 Package natbib Warning: Citation `opdyke96' undefined on input line 334.
 
-[912
+[906
 
-] [913] [914] [915
+] [907] [908] [909
 
 ]
 l. 385 Writing WebBook3.idv[402] (WebBook3401x.png)
 File: EPSfiles/isochron.eps Graphic file (type eps)
- <EPSfiles/isochron.eps> [916
+ <EPSfiles/isochron.eps> [910
 
 ]
- --- Customlinks says: Link to subsection 15.3.2: WebBook3ch15.html#subsec15-3-
-2
+ --- Customlinks says: Link to subsection 15.3.2: WebBook3.html#subsec15-3-2
 
 Package natbib Warning: Citation `cande92' undefined on input line 400.
 
- --- Customlinks says: Link to subsection 15.3.3: WebBook3ch15.html#subsec15-3-
-3
+ --- Customlinks says: Link to subsection 15.3.3: WebBook3.html#subsec15-3-3
 
 Package natbib Warning: Citation `behrensmeyer82' undefined on input line 414.
 
-[917
+[911
 
 ]
 
@@ -5082,29 +5007,24 @@ Package natbib Warning: Citation `cande95' undefined on input line 432.
 
 Package natbib Warning: Citation `channell95' undefined on input line 432.
 
-[918] [919]
- --- Customlinks says: Link to section 15.4: WebBook3ch15.html#sec15-4
+[912] [913]
+ --- Customlinks says: Link to section 15.4: WebBook3.html#sec15-4
 
 Package natbib Warning: Citation `tauxe97' undefined on input line 577.
 
-[920] [921]) [922] [923
+[914] [915]) [916] [917
 
 ]
 \openout2 = `Chapters/chapter16.aux'.
 
  (./Chapters/chapter16.tex
  --- Customlinks says: Custom link named 'Tectonic_applications_of_paleomagneti
-sm': WebBook3ch15.html#Tectonic_applications_of_paleomagnetism 
-[924
-
-] [925
-
-] [926
+sm': WebBook3.html#Tectonic_applications_of_paleomagnetism 
+[918
 
 ]
 Chapter 16.
---- file WebBook3ch16.html ---
- --- Customlinks says: Link to chapter 16: WebBook3ch16.html#ch16
+ --- Customlinks says: Link to chapter 16: WebBook3.html#ch16
 
 Package natbib Warning: Citation `mcelhinny00' undefined on input line 7.
 
@@ -5114,37 +5034,39 @@ Package natbib Warning: Citation `hospers55' undefined on input line 16.
 
 Package natbib Warning: Citation `irving58' undefined on input line 16.
 
-[927] [928
+[919
+
+] [920
 
 ]
 l. 25 Writing WebBook3.idv[403] (WebBook3402x.png)
 File: EPSfiles/wandering.eps Graphic file (type eps)
- <EPSfiles/wandering.eps> [929
+ <EPSfiles/wandering.eps> [921
 
 ]
- --- Customlinks says: Link to section 16.1: WebBook3ch16.html#sec16-1
+ --- Customlinks says: Link to section 16.1: WebBook3.html#sec16-1
 l. 35 Writing WebBook3.idv[404] (WebBook3403x.png)
 
 Package natbib Warning: Citation `demets94' undefined on input line 42.
 
-[930
+[922
 
-] [931] [932
+] [923] [924
 
 ]
 l. 48 Writing WebBook3.idv[405] (WebBook3404x.png)
 File: EPSfiles/plates.eps Graphic file (type eps)
- <EPSfiles/plates.eps> [933
+ <EPSfiles/plates.eps> [925
 
-] [934
+] [926
 
-] [935
+] [927
 
 ]
 l. 57 Writing WebBook3.idv[406] (WebBook3405x.png)
 File: EPSfiles/finrot.eps Graphic file (type eps)
 
-<EPSfiles/finrot.eps> [936
+<EPSfiles/finrot.eps> [928
 
 ]
 
@@ -5153,26 +5075,26 @@ Package natbib Warning: Citation `bullard65' undefined on input line 71.
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 75.
 
-[937
+[929
 
 ]
 l. 81 Writing WebBook3.idv[407] (WebBook3406x.png)
- [938] [939
+ [930] [931
 
 ]
 l. 91 Writing WebBook3.idv[408] (WebBook3407x.png)
 File: EPSfiles/polarity.eps Graphic file (type eps)
- <EPSfiles/polarity.eps> [940
+ <EPSfiles/polarity.eps> [932
 
 ]
- --- Customlinks says: Link to section 16.2: WebBook3ch16.html#sec16-2
+ --- Customlinks says: Link to section 16.2: WebBook3.html#sec16-2
 l. 118 Writing WebBook3.idv[409] (WebBook3408x.png)
 File: EPSfiles/poles-aus.eps Graphic file (type eps)
-<EPSfiles/poles-aus.eps> [941
+<EPSfiles/poles-aus.eps> [933
 
 ]
  --- Customlinks says: Custom link named 'apparent_polar_wander_path': WebBook3
-ch16.html#apparent_polar_wander_path 
+.html#apparent_polar_wander_path 
 
 Package natbib Warning: Citation `voo90' undefined on input line 128.
 
@@ -5182,14 +5104,14 @@ Package natbib Warning: Citation `besse02' undefined on input line 132.
 
 Package natbib Warning: Citation `besse02' undefined on input line 138.
 
-[942]
+[934]
 
 Package natbib Warning: Citation `butler92' undefined on input line 153.
 
 
 Package natbib Warning: Citation `mcelhinny00' undefined on input line 160.
 
-[943]
+[935]
 l. 179 Writing WebBook3.idv[410] (WebBook3409x.png)
 File: EPSfiles/mkapwp.eps Graphic file (type eps)
  <EPSfiles/mkapwp.eps>
@@ -5199,23 +5121,23 @@ Package natbib Warning: Citation `besse02' undefined on input line 182.
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 182.
 
-[944]
+[936]
 
 Package natbib Warning: Citation `jupp87' undefined on input line 218.
 
 l. 225 Writing WebBook3.idv[411] (WebBook3410x.png)
 File: EPSfiles/PEP.eps Graphic file (type eps)
-<EPSfiles/PEP.eps> [945]
+<EPSfiles/PEP.eps> [937]
 
 Package natbib Warning: Citation `gordon84' undefined on input line 236.
 
 
 Package natbib Warning: Citation `may86' undefined on input line 239.
 
-[946]
+[938]
 l. 263 Writing WebBook3.idv[412] (WebBook3411x.png)
 File: EPSfiles/APWP.eps Graphic file (type eps)
- <EPSfiles/APWP.eps> [947]
+ <EPSfiles/APWP.eps> [939]
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 267.
 
@@ -5224,28 +5146,29 @@ Package natbib Warning: Citation `besse02' undefined on input line 267.
 
 l. 273 Writing WebBook3.idv[413] (WebBook3412x.png)
 File: EPSfiles/triangulation.eps Graphic file (type eps)
-<EPSfiles/triangulation.eps> [948]
+<EPSfiles/triangulation.eps> [940]
 l. 309 Writing WebBook3.idv[414] (WebBook3413x.png)
 File: EPSfiles/gondwana-apwp.eps Graphic file (type eps)
  <EPSfiles/gondwana-apwp.eps>
- --- Customlinks says: Link to section 16.3: WebBook3ch16.html#sec16-3
-[949]
+ --- Customlinks says: Link to section 16.3: WebBook3.html#sec16-3
+[941]
 
 Package natbib Warning: Citation `torsvik02' undefined on input line 327.
 
 
 Package natbib Warning: Citation `kirschvink97b' undefined on input line 339.
 
+[942]
 l. 346 Writing WebBook3.idv[415] (WebBook3414x.png)
 File: EPSfiles/squish.eps Graphic file (type eps)
-<EPSfiles/squish.eps> [950]
+ <EPSfiles/squish.eps>
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 349.
 
 
 Package natbib Warning: Citation `tauxe84' undefined on input line 349.
 
- --- Customlinks says: Link to section 16.4: WebBook3ch16.html#sec16-4
+ --- Customlinks says: Link to section 16.4: WebBook3.html#sec16-4
 
 Package natbib Warning: Citation `si01' undefined on input line 360.
 
@@ -5258,7 +5181,7 @@ Package natbib Warning: Citation `voo01' undefined on input line 365.
 
 Package natbib Warning: Citation `voo81' undefined on input line 366.
 
-[951]
+[943]
 
 Package natbib Warning: Citation `gilder01' undefined on input line 368.
 
@@ -5267,15 +5190,14 @@ Package natbib Warning: Citation `tauxe04d' undefined on input line 368.
 
 l. 372 Writing WebBook3.idv[416] (WebBook3415x.png)
 File: EPSfiles/EI.eps Graphic file (type eps)
-<EPSfiles/EI.eps>
- --- Customlinks says: Custom link named 'TK03': WebBook3ch16.html#TK03 
+<EPSfiles/EI.eps> [944]
+ --- Customlinks says: Custom link named 'TK03': WebBook3.html#TK03 
 
 Package natbib Warning: Citation `king55' undefined on input line 381.
 
 
 Package natbib Warning: Citation `tauxe04d' undefined on input line 385.
 
-[952]
 
 Package natbib Warning: Citation `besse02' undefined on input line 389.
 
@@ -5288,7 +5210,7 @@ Package natbib Warning: Citation `tauxe08' undefined on input line 394.
 
 Package natbib Warning: Citation `tauxe08' undefined on input line 396.
 
-[953]
+[945]
 l. 402 Writing WebBook3.idv[417] (WebBook3416x.png)
 File: EPSfiles/pangea.eps Graphic file (type eps)
  <EPSfiles/pangea.eps>
@@ -5304,10 +5226,11 @@ Package natbib Warning: Citation `voo74' undefined on input line 406.
 
 Package natbib Warning: Citation `morel81' undefined on input line 406.
 
+[946]
 
 Package natbib Warning: Citation `tan03' undefined on input line 414.
 
-[954] [955]
+[947] [948]
 
 Package natbib Warning: Citation `gregor74' undefined on input line 511.
 
@@ -5352,7 +5275,7 @@ Package natbib Warning: Citation `rosenbaum02' undefined on input line 513.
 
 l. 520 Writing WebBook3.idv[418] (WebBook3417x.png)
 File: EPSfiles/pangea-poles.eps Graphic file (type eps)
-<EPSfiles/pangea-poles.eps> [956]
+<EPSfiles/pangea-poles.eps>
 
 Package natbib Warning: Citation `smith70' undefined on input line 524.
 
@@ -5368,18 +5291,18 @@ Package natbib Warning: Citation `morel81' undefined on input line 524.
 
 Package natbib Warning: Citation `muttoni03' undefined on input line 524.
 
-[957]
- --- Customlinks says: Link to section 16.5: WebBook3ch16.html#sec16-5
+[949] [950]
+ --- Customlinks says: Link to section 16.5: WebBook3.html#sec16-5
 
 Package natbib Warning: Citation `bullard65' undefined on input line 542.
 
 
 Package natbib Warning: Citation `smith70' undefined on input line 548.
 
-[958
+[951
 
 ]
- --- Customlinks says: Link to section 16.6: WebBook3ch16.html#sec16-6
+ --- Customlinks says: Link to section 16.6: WebBook3.html#sec16-6
 
 Package natbib Warning: Citation `irving79' undefined on input line 581.
 
@@ -5387,8 +5310,8 @@ Package natbib Warning: Citation `irving79' undefined on input line 581.
 Package natbib Warning: Citation `voo81' undefined on input line 590.
 
 Missing character: There is no Õ in font cmr10!
-[959]
- --- Customlinks says: Link to section 16.7: WebBook3ch16.html#sec16-7
+[952]
+ --- Customlinks says: Link to section 16.7: WebBook3.html#sec16-7
 
 Package natbib Warning: Citation `tauxe83b' undefined on input line 608.
 
@@ -5412,20 +5335,19 @@ Package natbib Warning: Citation `vanfossen93' undefined on input line 613.
 
 l. 627 Writing WebBook3.idv[419] (WebBook3418x.png)
 File: EPSfiles/poles_na_dis.eps Graphic file (type eps)
-<EPSfiles/poles_na_dis.eps> [960]
+<EPSfiles/poles_na_dis.eps> [953]
 
 Package natbib Warning: Citation `voo81' undefined on input line 633.
 
 l. 641 Writing WebBook3.idv[420] (WebBook3419x.png)
 File: EPSfiles/inconly.eps Graphic file (type eps)
-<EPSfiles/inconly.eps> [961]
+<EPSfiles/inconly.eps> [954] [955]
 
 Package natbib Warning: Citation `may86' undefined on input line 659.
 
 
 Package natbib Warning: Citation `vanfossen90' undefined on input line 663.
 
-[962]
 
 Package natbib Warning: Citation `irwin87' undefined on input line 680.
 
@@ -5453,45 +5375,44 @@ Package natbib Warning: Citation `gregor74' undefined on input line 683.
 
 Package natbib Warning: Citation `vandongen67' undefined on input line 683.
 
+[956]
 
 Package natbib Warning: Citation `kluth82' undefined on input line 699.
 
 
 Package natbib Warning: Citation `may86' undefined on input line 702.
 
-[963]
 
 Package natbib Warning: Citation `kowallis98' undefined on input line 709.
 
- --- Customlinks says: Link to section 16.8: WebBook3ch16.html#sec16-8
-[964]
+[957]
+ --- Customlinks says: Link to section 16.8: WebBook3.html#sec16-8
 
 Package natbib Warning: Citation `torsvik08' undefined on input line 742.
 
- --- Customlinks says: Link to section 16.9: WebBook3ch16.html#sec16-9
-[965]
+ --- Customlinks says: Link to section 16.9: WebBook3.html#sec16-9
+[958]
 
 Package natbib Warning: Citation `besse02' undefined on input line 769.
 
-[966]) [967] [968
+[959] [960]) [961] [962
 
 ]
 \openout2 = `Chapters/References.aux'.
 
- (./Chapters/References.tex [969
+ (./Chapters/References.tex [963
 
-] [970
+] [964
 
 ]
 Chapter 17.
---- file WebBook3ch17.html ---
- --- Customlinks says: Link to chapter 17: WebBook3ch17.html#ch17
-[971] [972] [973] [974] [975] [976] [977] [978] [979] [980] [981] [982]
-[983] [984] [985] [986] [987] [988] [989] [990] [991] [992] [993] [994]
+ --- Customlinks says: Link to chapter 17: WebBook3.html#ch17
+[965] [966] [967] [968] [969] [970] [971] [972] [973] [974] [975] [976]
+[977] [978] [979] [980] [981] [982] [983] [984] [985] [986] [987] [988]
 l. 1606 Writing WebBook3.idv[421] (WebBook3420x.png)
 
-[995] [996] [997] [998] [999] [1000] [1001] [1002] [1003] [1004] [1005])
-[1006] [1007
+[989] [990] [991] [992] [993] [994] [995] [996] [997] [998]) [999] [1000]
+[1001
 
 ]
 \openout2 = `Chapters/appendix.aux'.
@@ -5499,345 +5420,342 @@ l. 1606 Writing WebBook3.idv[421] (WebBook3420x.png)
  (./Chapters/appendix.tex
  --- Customlinks says: Custom link named 'Definitions_derivations_and_tricks': 
 WebBook3.html#Definitions_derivations_and_tricks 
-[1008
+[1002
 
 ]
 Appendix A.
---- file WebBook3ap1.html ---
- --- Customlinks says: Link to section A.1: WebBook3ap1.html#sec1-1
-[1009
+ --- Customlinks says: Link to section A.1: WebBook3.html#sec1-1
+[1003
 
-] [1010]
+] [1004]
 
-LaTeX Warning: Reference `sect:interactions' on page 1011 undefined on input li
+LaTeX Warning: Reference `sect:interactions' on page 1005 undefined on input li
 ne 158.
 
-[1011] [1012] [1013]
- --- Customlinks says: Link to section A.2: WebBook3ap1.html#sec1-2
- --- Customlinks says: Link to subsection A.2.1: WebBook3ap1.html#subsec1-2-1
+[1005] [1006] [1007]
+ --- Customlinks says: Link to section A.2: WebBook3.html#sec1-2
+ --- Customlinks says: Link to subsection A.2.1: WebBook3.html#subsec1-2-1
 l. 242 Writing WebBook3.idv[422] (WebBook3421x.png)
-[1014]
+[1008]
 l. 254 Writing WebBook3.idv[423] (WebBook3422x.png)
 l. 261 Writing WebBook3.idv[424] (WebBook3423x.png)
- [1015]
+ [1009]
 l. 272 Writing WebBook3.idv[425] (WebBook3424x.png)
 l. 276 Writing WebBook3.idv[426] (WebBook3425x.png)
+ [1010]
 l. 288 Writing WebBook3.idv[427] (WebBook3426x.png)
- [1016]
 l. 311 Writing WebBook3.idv[428] (WebBook3427x.png)
 
- --- Customlinks says: Link to subsection A.2.2: WebBook3ap1.html#subsec1-2-2
-[1017]
+ --- Customlinks says: Link to subsection A.2.2: WebBook3.html#subsec1-2-2
+[1011]
 l. 328 Writing WebBook3.idv[429] (WebBook3428x.png)
 l. 337 Writing WebBook3.idv[430] (WebBook3429x.png)
+ [1012]
 l. 344 Writing WebBook3.idv[431] (WebBook3430x.png)
- [1018]
 l. 349 Writing WebBook3.idv[432] (WebBook3431x.png)
 l. 358 Writing WebBook3.idv[433] (WebBook3432x.png)
- [1019]
+ [1013]
 l. 374 Writing WebBook3.idv[434] (WebBook3433x.png)
 
- --- Customlinks says: Link to section A.3: WebBook3ap1.html#sec1-3
- --- Customlinks says: Custom link named 'Spherical_trigonometry': WebBook3ap1.
-html#Spherical_trigonometry 
- --- Customlinks says: Link to subsection A.3.1: WebBook3ap1.html#subsec1-3-1
-[1020]
+ --- Customlinks says: Link to section A.3: WebBook3.html#sec1-3
+ --- Customlinks says: Custom link named 'Spherical_trigonometry': WebBook3.htm
+l#Spherical_trigonometry 
+[1014]
+ --- Customlinks says: Link to subsection A.3.1: WebBook3.html#subsec1-3-1
 l. 401 Writing WebBook3.idv[435] (WebBook3434x.png)
 File: EPSfiles/strig.eps Graphic file (type eps)
- <EPSfiles/strig.eps>
+<EPSfiles/strig.eps> [1015]
 l. 420 Writing WebBook3.idv[436] (WebBook3435x.png)
- [1021]
 l. 425 Writing WebBook3.idv[437] (WebBook3436x.png)
-
- --- Customlinks says: Link to subsection A.3.2: WebBook3ap1.html#subsec1-3-2
+ [1016]
+ --- Customlinks says: Link to subsection A.3.2: WebBook3.html#subsec1-3-2
 l. 436 Writing WebBook3.idv[438] (WebBook3437x.png)
 File: EPSfiles/vectors.eps Graphic file (type eps)
-<EPSfiles/vectors.eps> [1022]
+<EPSfiles/vectors.eps>
 l. 439 Writing WebBook3.idv[439] (WebBook3438x.png)
+ [1017]
 l. 451 Writing WebBook3.idv[440] (WebBook3439x.png)
- [1023]
- --- Customlinks says: Link to subsection A.3.3: WebBook3ap1.html#subsec1-3-3
- --- Customlinks says: Custom link named 'Vector_multiplication': WebBook3ap1.h
-tml#Vector_multiplication 
- --- Customlinks says: Link to subsection A.3.4: WebBook3ap1.html#subsec1-3-4
+
+ --- Customlinks says: Link to subsection A.3.3: WebBook3.html#subsec1-3-3
+ --- Customlinks says: Custom link named 'Vector_multiplication': WebBook3.html
+#Vector_multiplication 
+ --- Customlinks says: Link to subsection A.3.4: WebBook3.html#subsec1-3-4
 l. 473 Writing WebBook3.idv[441] (WebBook3440x.png)
 File: EPSfiles/cross.eps Graphic file (type eps)
-<EPSfiles/cross.eps> [1024]
+<EPSfiles/cross.eps> [1018]
 l. 483 Writing WebBook3.idv[442] (WebBook3441x.png)
 l. 492 Writing WebBook3.idv[443] (WebBook3442x.png)
+ [1019]
 l. 500 Writing WebBook3.idv[444] (WebBook3443x.png)
- [1025]
- --- Customlinks says: Link to subsection A.3.5: WebBook3ap1.html#subsec1-3-5
- --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3ap1.html#subsubse
-c1-3-5-0
-[1026]
+
+ --- Customlinks says: Link to subsection A.3.5: WebBook3.html#subsec1-3-5
+[1020]
+ --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3.html#subsubsec1-
+3-5-0
 l. 516 Writing WebBook3.idv[445] (WebBook3444x.png)
 l. 528 Writing WebBook3.idv[446] (WebBook3445x.png)
 File: EPSfiles/dircosines.eps Graphic file (type eps)
- <EPSfiles/dircosines.eps>
+<EPSfiles/dircosines.eps> [1021]
  --- Customlinks says: Custom link named 'Changing_coordinate_systems': WebBook
-3ap1.html#Changing_coordinate_systems 
-[1027]
- --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3ap1.html#subsubse
-c1-3-5-0
+3.html#Changing_coordinate_systems 
+ --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3.html#subsubsec1-
+3-5-0
 l. 541 Writing WebBook3.idv[447] (WebBook3446x.png)
+[1022]
 l. 549 Writing WebBook3.idv[448] (WebBook3447x.png)
-[1028]
 l. 558 Writing WebBook3.idv[449] (WebBook3448x.png)
+ [1023]
 l. 575 Writing WebBook3.idv[450] (WebBook3449x.png)
 File: EPSfiles/transform.eps Graphic file (type eps)
- <EPSfiles/transform.eps> [1029]
+ <EPSfiles/transform.eps> [1024]
 l. 607 Writing WebBook3.idv[451] (WebBook3450x.png)
- [1030]
 l. 618 Writing WebBook3.idv[452] (WebBook3451x.png)
+ [1025]
 l. 628 Writing WebBook3.idv[453] (WebBook3452x.png)
 
- --- Customlinks says: Custom link named 'polerot': WebBook3ap1.html#polerot 
-[1031]
- --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3ap1.html#subsubse
-c1-3-5-0
+ --- Customlinks says: Custom link named 'polerot': WebBook3.html#polerot 
+ --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3.html#subsubsec1-
+3-5-0
+[1026]
 l. 649 Writing WebBook3.idv[454] (WebBook3453x.png)
 l. 656 Writing WebBook3.idv[455] (WebBook3454x.png)
-[1032]
+ [1027]
 l. 671 Writing WebBook3.idv[456] (WebBook3455x.png)
- [1033] [1034] [1035] [1036] [1037] [1038]
- --- Customlinks says: Custom link named 'orientation_tensor': WebBook3ap1.html
-#orientation_tensor 
- --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3ap1.html#subsubse
-c1-3-5-0
+ [1028] [1029] [1030] [1031] [1032] [1033]
+ --- Customlinks says: Custom link named 'orientation_tensor': WebBook3.html#or
+ientation_tensor 
+ --- Customlinks says: Link to subsubsection A.3.5.0: WebBook3.html#subsubsec1-
+3-5-0
 l. 927 Writing WebBook3.idv[457] (WebBook3456x.png)
-[1039
+[1034
 
 ]
 l. 937 Writing WebBook3.idv[458] (WebBook3457x.png)
 l. 946 Writing WebBook3.idv[459] (WebBook3458x.png)
- [1040]
+ [1035]
 l. 966 Writing WebBook3.idv[460] (WebBook3459x.png)
 l. 976 Writing WebBook3.idv[461] (WebBook3460x.png)
- [1041]
+ [1036]
 l. 984 Writing WebBook3.idv[462] (WebBook3461x.png)
 l. 986 Writing WebBook3.idv[463] (WebBook3462x.png)
+ [1037]
 l. 1013 Writing WebBook3.idv[464] (WebBook3463x.png)
- [1042]
- --- Customlinks says: Link to subsection A.3.6: WebBook3ap1.html#subsec1-3-6
- --- Customlinks says: Link to subsubsection A.3.6.0: WebBook3ap1.html#subsubse
-c1-3-6-0
+
+ --- Customlinks says: Link to subsection A.3.6: WebBook3.html#subsec1-3-6
+ --- Customlinks says: Link to subsubsection A.3.6.0: WebBook3.html#subsubsec1-
+3-6-0
 l. 1030 Writing WebBook3.idv[465] (WebBook3464x.png)
 File: EPSfiles/ski.eps Graphic file (type eps)
-<EPSfiles/ski.eps> [1043]
+<EPSfiles/ski.eps> [1038]
 l. 1038 Writing WebBook3.idv[466] (WebBook3465x.png)
 l. 1038 Writing WebBook3.idv[467] (WebBook3466x.png)
 l. 1041 Writing WebBook3.idv[468] (WebBook3467x.png)
- [1044]
+ [1039]
 l. 1049 Writing WebBook3.idv[469] (WebBook3468x.png)
 l. 1056 Writing WebBook3.idv[470] (WebBook3469x.png)
 l. 1065 Writing WebBook3.idv[471] (WebBook3470x.png)
 File: EPSfiles/div.eps Graphic file (type eps)
- <EPSfiles/div.eps> [1045]
- --- Customlinks says: Link to subsubsection A.3.6.0: WebBook3ap1.html#subsubse
-c1-3-6-0
+ <EPSfiles/div.eps> [1040]
+ --- Customlinks says: Link to subsubsection A.3.6.0: WebBook3.html#subsubsec1-
+3-6-0
 l. 1076 Writing WebBook3.idv[472] (WebBook3471x.png)
-[1046]
+[1041]
 l. 1083 Writing WebBook3.idv[473] (WebBook3472x.png)
 l. 1093 Writing WebBook3.idv[474] (WebBook3473x.png)
 File: EPSfiles/divzero.eps Graphic file (type eps)
- <EPSfiles/divzero.eps> [1047]
+ <EPSfiles/divzero.eps> [1042]
 l. 1101 Writing WebBook3.idv[475] (WebBook3474x.png)
 File: EPSfiles/curl.eps Graphic file (type eps)
  <EPSfiles/curl.eps>
 l. 1112 Writing WebBook3.idv[476] (WebBook3475x.png)
- [1048]
+ [1043]
 l. 1123 Writing WebBook3.idv[477] (WebBook3476x.png)
 
- --- Customlinks says: Link to subsubsection A.3.6.0: WebBook3ap1.html#subsubse
-c1-3-6-0
+ --- Customlinks says: Link to subsubsection A.3.6.0: WebBook3.html#subsubsec1-
+3-6-0
+[1044]
 l. 1137 Writing WebBook3.idv[478] (WebBook3477x.png)
-[1049]
 l. 1149 Writing WebBook3.idv[479] (WebBook3478x.png)
 l. 1152 Writing WebBook3.idv[480] (WebBook3479x.png)
+ [1045]
 l. 1161 Writing WebBook3.idv[481] (WebBook3480x.png)
- [1050]
 l. 1166 Writing WebBook3.idv[482] (WebBook3481x.png)
 
- --- Customlinks says: Link to subsection A.3.7: WebBook3ap1.html#subsec1-3-7
+ --- Customlinks says: Link to subsection A.3.7: WebBook3.html#subsec1-3-7
 
 Package natbib Warning: Citation `efron93' undefined on input line 1181.
 
-[1051]
+[1046]
 l. 1198 Writing WebBook3.idv[483] (WebBook3482x.png)
 File: EPSfiles/bootstrap.eps Graphic file (type eps)
- <EPSfiles/bootstrap.eps>
+ <EPSfiles/bootstrap.eps> [1047]
 l. 1225 Writing WebBook3.idv[484] (WebBook3483x.png)
- [1052]
 l. 1230 Writing WebBook3.idv[485] (WebBook3484x.png)
 File: EPSfiles/sundefs.eps Graphic file (type eps)
- <EPSfiles/sundefs.eps> [1053]
- --- Customlinks says: Link to subsection A.3.8: WebBook3ap1.html#subsec1-3-8
-[1054]
+ <EPSfiles/sundefs.eps> [1048]
+ --- Customlinks says: Link to subsection A.3.8: WebBook3.html#subsec1-3-8
+[1049]
 l. 1291 Writing WebBook3.idv[486] (WebBook3485x.png)
 l. 1296 Writing WebBook3.idv[487] (WebBook3486x.png)
- [1055]
+ [1050]
 l. 1310 Writing WebBook3.idv[488] (WebBook3487x.png)
 l. 1321 Writing WebBook3.idv[489] (WebBook3488x.png)
- [1056]
+ [1051]
 l. 1341 Writing WebBook3.idv[490] (WebBook3489x.png)
 l. 1348 Writing WebBook3.idv[491] (WebBook3490x.png)
-
+ [1052]
  --- Customlinks says: Custom link named 'Plots_useful_in_paleomagnetism': WebB
-ook3ap1.html#Plots_useful_in_paleomagnetism 
-[1057] [1058
+ook3.html#Plots_useful_in_paleomagnetism 
+[1053] [1054
 
 ]
 Appendix B.
---- file WebBook3ap2.html ---
- --- Customlinks says: Link to section B.1: WebBook3ap2.html#sec2-1
- --- Customlinks says: Link to subsection B.1.1: WebBook3ap2.html#subsec2-1-1
- --- Customlinks says: Custom link named 'equal_area': WebBook3ap2.html#equal_a
-rea 
+ --- Customlinks says: Link to section B.1: WebBook3.html#sec2-1
+ --- Customlinks says: Link to subsection B.1.1: WebBook3.html#subsec2-1-1
+ --- Customlinks says: Custom link named 'equal_area': WebBook3.html#equal_area
+ 
 l. 1372 Writing WebBook3.idv[492] (WebBook3491x.png)
 File: EPSfiles/mkeq.eps Graphic file (type eps)
-<EPSfiles/mkeq.eps> [1059]
+<EPSfiles/mkeq.eps> [1055]
 l. 1385 Writing WebBook3.idv[493] (WebBook3492x.png)
 l. 1388 Writing WebBook3.idv[494] (WebBook3493x.png)
 l. 1394 Writing WebBook3.idv[495] (WebBook3494x.png)
 File: EPSfiles/equal.eps Graphic file (type eps)
- <EPSfiles/equal.eps> [1060] [1061]
+ <EPSfiles/equal.eps> [1056] [1057]
 l. 1405 Writing WebBook3.idv[496] (WebBook3495x.png)
 File: EPSfiles/how2eq.eps Graphic file (type eps)
 
 <EPSfiles/how2eq.eps>
- --- Customlinks says: Link to subsection B.1.2: WebBook3ap2.html#subsec2-1-2
- --- Customlinks says: Link to subsection B.1.3: WebBook3ap2.html#subsec2-1-3
-[1062
+ --- Customlinks says: Link to subsection B.1.2: WebBook3.html#subsec2-1-2
+ --- Customlinks says: Link to subsection B.1.3: WebBook3.html#subsec2-1-3
+[1058
 
 ]
 l. 1446 Writing WebBook3.idv[497] (WebBook3496x.png)
 File: EPSfiles/tilt.eps Graphic file (type eps)
- <EPSfiles/tilt.eps> [1063] [1064]
- --- Customlinks says: Link to subsection B.1.4: WebBook3ap2.html#subsec2-1-4
-[1065
+ <EPSfiles/tilt.eps> [1059] [1060]
+ --- Customlinks says: Link to subsection B.1.4: WebBook3.html#subsec2-1-4
+[1061
 
 ]
 l. 1483 Writing WebBook3.idv[498] (WebBook3497x.png)
 File: EPSfiles/ternary.eps Graphic file (type eps)
  <EPSfiles/ternary.eps>
- --- Customlinks says: Custom link named 'quantile_quantile_plots': WebBook3ap2
-.html#quantile_quantile_plots 
- --- Customlinks says: Link to subsection B.1.5: WebBook3ap2.html#subsec2-1-5
+ --- Customlinks says: Custom link named 'quantile_quantile_plots': WebBook3.ht
+ml#quantile_quantile_plots 
+ --- Customlinks says: Link to subsection B.1.5: WebBook3.html#subsec2-1-5
 l. 1501 Writing WebBook3.idv[499] (WebBook3498x.png)
 File: EPSfiles/Ais.eps Graphic file (type eps)
-<EPSfiles/Ais.eps> [1066]
- --- Customlinks says: Link to subsubsection B.1.5.0: WebBook3ap2.html#subsubse
-c2-1-5-0
-[1067]
+<EPSfiles/Ais.eps> [1062]
+ --- Customlinks says: Link to subsubsection B.1.5.0: WebBook3.html#subsubsec2-
+1-5-0
+[1063]
 l. 1536 Writing WebBook3.idv[500] (WebBook3499x.png)
+ [1064]
 l. 1542 Writing WebBook3.idv[501] (WebBook3500x.png)
- [1068]
 l. 1556 Writing WebBook3.idv[502] (WebBook3501x.png)
+ [1065]
 l. 1561 Writing WebBook3.idv[503] (WebBook3502x.png)
- [1069]
 l. 1570 Writing WebBook3.idv[504] (WebBook3503x.png)
- [1070]
+ [1066]
 l. 1584 Writing WebBook3.idv[505] (WebBook3504x.png)
 
- --- Customlinks says: Link to subsubsection B.1.5.0: WebBook3ap2.html#subsubse
-c2-1-5-0
-[1071]
+ --- Customlinks says: Link to subsubsection B.1.5.0: WebBook3.html#subsubsec2-
+1-5-0
+[1067]
 l. 1607 Writing WebBook3.idv[506] (WebBook3505x.png)
 l. 1611 Writing WebBook3.idv[507] (WebBook3506x.png)
- [1072]
+ [1068]
 l. 1633 Writing WebBook3.idv[508] (WebBook3507x.png)
 l. 1637 Writing WebBook3.idv[509] (WebBook3508x.png)
+ [1069]
 l. 1644 Writing WebBook3.idv[510] (WebBook3509x.png)
- [1073]
 l. 1661 Writing WebBook3.idv[511] (WebBook3510x.png)
 
  --- Customlinks says: Custom link named 'Paleomagnetic_statistics_and_paramete
-r_estimation': WebBook3ap2.html#Paleomagnetic_statistics_and_parameter_estimati
-on 
-[1074]
+r_estimation': WebBook3.html#Paleomagnetic_statistics_and_parameter_estimation 
+
+[1070]
 Appendix C.
---- file WebBook3ap3.html ---
- --- Customlinks says: Custom link named 'hysteresis_parameters': WebBook3ap3.h
-tml#hysteresis_parameters 
- --- Customlinks says: Link to section C.1: WebBook3ap3.html#sec3-1
-[1075
+ --- Customlinks says: Custom link named 'hysteresis_parameters': WebBook3.html
+#hysteresis_parameters 
+ --- Customlinks says: Link to section C.1: WebBook3.html#sec3-1
+[1071
 
 ]
 l. 1715 Writing WebBook3.idv[512] (WebBook3511x.png)
 File: EPSfiles/hparcalc.eps Graphic file (type eps)
- <EPSfiles/hparcalc.eps> [1076] [1077]
- --- Customlinks says: Link to section C.2: WebBook3ap3.html#sec3-2
-[1078
+ <EPSfiles/hparcalc.eps> [1072] [1073]
+ --- Customlinks says: Link to section C.2: WebBook3.html#sec3-2
+[1074
 
 ]
- --- Customlinks says: Link to subsection C.2.1: WebBook3ap3.html#subsec3-2-1
+ --- Customlinks says: Link to subsection C.2.1: WebBook3.html#subsec3-2-1
 l. 1773 Writing WebBook3.idv[513] (WebBook3512x.png)
-[1079]
+[1075]
 l. 1778 Writing WebBook3.idv[514] (WebBook3513x.png)
 l. 1782 Writing WebBook3.idv[515] (WebBook3514x.png)
 l. 1787 Writing WebBook3.idv[516] (WebBook3515x.png)
- [1080]
- --- Customlinks says: Custom link named 'linesNplanes': WebBook3ap3.html#lines
-Nplanes 
- --- Customlinks says: Link to subsection C.2.2: WebBook3ap3.html#subsec3-2-2
+ [1076]
+ --- Customlinks says: Custom link named 'linesNplanes': WebBook3.html#linesNpl
+anes 
+ --- Customlinks says: Link to subsection C.2.2: WebBook3.html#subsec3-2-2
+[1077]
 l. 1816 Writing WebBook3.idv[517] (WebBook3516x.png)
-[1081]
 l. 1821 Writing WebBook3.idv[518] (WebBook3517x.png)
- [1082] [1083]
- --- Customlinks says: Link to subsection C.2.3: WebBook3ap3.html#subsec3-2-3
+ [1078] [1079]
+ --- Customlinks says: Link to subsection C.2.3: WebBook3.html#subsec3-2-3
 l. 1915 Writing WebBook3.idv[519] (WebBook3518x.png)
 l. 1917 Writing WebBook3.idv[520] (WebBook3519x.png)
 l. 1919 Writing WebBook3.idv[521] (WebBook3520x.png)
 l. 1929 Writing WebBook3.idv[522] (WebBook3521x.png)
-[1084
+[1080
 
 ]
 l. 1932 Writing WebBook3.idv[523] (WebBook3522x.png)
 l. 1938 Writing WebBook3.idv[524] (WebBook3523x.png)
 l. 1944 Writing WebBook3.idv[525] (WebBook3524x.png)
- [1085]
+ [1081]
 l. 1950 Writing WebBook3.idv[526] (WebBook3525x.png)
 
- --- Customlinks says: Link to subsection C.2.4: WebBook3ap3.html#subsec3-2-4
+ --- Customlinks says: Link to subsection C.2.4: WebBook3.html#subsec3-2-4
 l. 1967 Writing WebBook3.idv[527] (WebBook3526x.png)
-[1086]
+[1082]
 l. 1988 Writing WebBook3.idv[528] (WebBook3527x.png)
 l. 1997 Writing WebBook3.idv[529] (WebBook3528x.png)
 l. 1999 Writing WebBook3.idv[530] (WebBook3529x.png)
 l. 2000 Writing WebBook3.idv[531] (WebBook3530x.png)
+ [1083]
 l. 2007 Writing WebBook3.idv[532] (WebBook3531x.png)
- [1087]
 l. 2013 Writing WebBook3.idv[533] (WebBook3532x.png)
 l. 2020 Writing WebBook3.idv[534] (WebBook3533x.png)
-
- --- Customlinks says: Link to subsection C.2.5: WebBook3ap3.html#subsec3-2-5
-[1088]
+ [1084]
+ --- Customlinks says: Link to subsection C.2.5: WebBook3.html#subsec3-2-5
 l. 2036 Writing WebBook3.idv[535] (WebBook3534x.png)
+[1085]
 l. 2041 Writing WebBook3.idv[536] (WebBook3535x.png)
- [1089]
 l. 2049 Writing WebBook3.idv[537] (WebBook3536x.png)
 
 
 Package natbib Warning: Citation `mardia77' undefined on input line 2052.
 
+[1086]
 l. 2054 Writing WebBook3.idv[538] (WebBook3537x.png)
 l. 2059 Writing WebBook3.idv[539] (WebBook3538x.png)
-[1090]
 l. 2063 Writing WebBook3.idv[540] (WebBook3539x.png)
+ [1087]
 l. 2067 Writing WebBook3.idv[541] (WebBook3540x.png)
 
 
 Package natbib Warning: Citation `tanaka99' undefined on input line 2072.
 
-[1091]
- --- Customlinks says: Link to section C.3: WebBook3ap3.html#sec3-3
+ --- Customlinks says: Link to section C.3: WebBook3.html#sec3-3
 l. 2083 Writing WebBook3.idv[542] (WebBook3541x.png)
 File: EPSfiles/IZZI.eps Graphic file (type eps)
-<EPSfiles/IZZI.eps> [1092]
+<EPSfiles/IZZI.eps> [1088]
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
- [1093]
+ [1089]
 
 Package natbib Warning: Citation `benyosef08' undefined on input line 2088.
 
@@ -5853,48 +5771,45 @@ Package natbib Warning: Citation `york66' undefined on input line 2097.
 
 Package natbib Warning: Citation `coe78' undefined on input line 2097.
 
-[1094]
+[1090]
 l. 2107 Writing WebBook3.idv[543] (WebBook3542x.png)
 l. 2119 Writing WebBook3.idv[544] (WebBook3543x.png)
- [1095]
+ [1091]
 l. 2135 Writing WebBook3.idv[545] (WebBook3544x.png)
 l. 2143 Writing WebBook3.idv[546] (WebBook3545x.png)
- [1096] [1097]
+ [1092] [1093]
 l. 2168 Writing WebBook3.idv[547] (WebBook3546x.png)
+ [1094]
 l. 2174 Writing WebBook3.idv[548] (WebBook3547x.png)
- [1098]
 l. 2181 Writing WebBook3.idv[549] (WebBook3548x.png)
-
+ [1095]
  --- Customlinks says: Custom link named 'Anisotropy_in_paleomagnetism': WebBoo
-k3ap3.html#Anisotropy_in_paleomagnetism 
-[1099] [1100]
+k3.html#Anisotropy_in_paleomagnetism 
+[1096]
 Appendix D.
---- file WebBook3ap4.html ---
-l.2195 --- TeX4ht warning --- \Link{tailWebBook3ap4.html}? ---
- --- Customlinks says: Link to section D.1: WebBook3ap4.html#sec4-1
+ --- Customlinks says: Link to section D.1: WebBook3.html#sec4-1
 
 Package natbib Warning: Citation `jelinek78' undefined on input line 2201.
 
 
-LaTeX Warning: Reference `fig:meas15' on page 1101 undefined on input line 2201
+LaTeX Warning: Reference `fig:meas15' on page 1097 undefined on input line 2201
 .
 
 
-LaTeX Warning: Reference `fig:meas15' on page 1101 undefined on input line 2205
+LaTeX Warning: Reference `fig:meas15' on page 1097 undefined on input line 2205
 .
 
 l. 2207 Writing WebBook3.idv[550] (WebBook3549x.png)
-[1101
+[1097
 
 ]
 l. 2230 Writing WebBook3.idv[551] (WebBook3550x.png)
- [1102]
 l. 2245 Writing WebBook3.idv[552] (WebBook3551x.png)
 File: EPSfiles/meas15.eps Graphic file (type eps)
- <EPSfiles/meas15.eps>
+ <EPSfiles/meas15.eps> [1098]
 ! TeX capacity exceeded, sorry [input stack size=5000].
-\Protect ->\let \prOteCt \pr:tc 
-                                \ifx \prOteCt \pr:tc \let \prOteCt \relax \e...
+\protect ->\noexpand \protect 
+                              \noexpand 
 l.2251 \label {fig:meas15}
                           
 If you really absolutely need more capacity,
@@ -5902,11 +5817,11 @@ you can ask a wizard to enlarge me.
 
  
 Here is how much of TeX's memory you used:
- 14579 strings out of 493090
- 210593 string characters out of 6134868
- 1699602 words of memory out of 5000000
- 17511 multiletter control sequences out of 15000+600000
+ 14409 strings out of 493090
+ 206339 string characters out of 6134868
+ 1612098 words of memory out of 5000000
+ 17341 multiletter control sequences out of 15000+600000
  17276 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 5000i,13n,4990p,2557b,4883s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on WebBook3.dvi (1125 pages, 2873896 bytes).
+ 5000i,13n,4993p,2567b,4389s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on WebBook3.dvi (1119 pages, 2821364 bytes).
