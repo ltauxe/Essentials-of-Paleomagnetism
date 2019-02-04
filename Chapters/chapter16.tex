@@ -778,7 +778,7 @@ the Appendix A.3.5 on `Tricks with tensors'.   Or you can use the {\bf frp.get\_
 
 
 
-b) Use the function {\bf pmag.pt\_rott( )} to  transform the North American pole to South African coordinates using the method outlined in the Appendix.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How do your answers compare? 
+b) Use the function {\bf pmag.pt\_rot( )} to  transform the North American pole to South African coordinates using the method outlined in the Appendix.  The North American pole for 90 Ma  in BC02 is $\lambda=75.2^{\circ}, \phi=201^{\circ}$.   The African pole is $\lambda=66.8^{\circ}, \phi=244.5^{\circ}$.  How do your answers compare? 
 
 
 
@@ -793,7 +793,7 @@ Read the {\it locations.txt} file  into a Pandas DataFrame (e.g., {\it df}) and 
 
  You will notice that some have method codes of DE-DC2 (a DC code of 2, see Table~\ref{tab:DC}) or even DC1!  Filter for those with DC codes of 4 or 5 for the `best' poles and concatenate them into a new DataFrame.   
 
-b) Some of the data come studies that have been superseded by later studies or the authors thought were `remagnetized' or have been combined into other studies.  You can see this looking at the `description' column in the DataFrame.  Exclude these studies by filtering on this column using the strings  `emagnetiz', `econdary', 'uperseded',`synfolding', `Data incl. in RESULT', `verprint'.   Also, there seem to be a lot of duplicate poles in our filter list.  You can get rid of duplicates using the {\bf df.drop\_duplicates} method of {\bf Pandas}.  
+b) Some of the data come studies that have been superseded by later studies or the authors thought were `remagnetized' or have been combined into other studies.  You can see this looking at the `description' column in the DataFrame.  Exclude these studies by filtering on this column using the strings  `emagnetiz', `econdary', 'uperseded', `synfolding', `Data incl. in RESULT', `verprint'.   Also, there seem to be a lot of duplicate poles in our filter list.  You can get rid of duplicates using the {\bf df.drop\_duplicates} method of {\bf Pandas}.  
 
 
 
