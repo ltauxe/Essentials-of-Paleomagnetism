@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  28 JAN 2020 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  28 JAN 2020 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4050,12 +4050,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
 ### simple group (level 1) entered at line 569 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14837 strings out of 493090
- 213438 string characters out of 6134868
- 666990 words of memory out of 5000000
- 17724 multiletter control sequences out of 15000+600000
+ 14931 strings out of 493090
+ 214062 string characters out of 6134868
+ 667280 words of memory out of 5000000
+ 17818 multiletter control sequences out of 15000+600000
  17276 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,43p,2567b,4760s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on WebBook3.dvi (1180 pages, 3036104 bytes).
+Output written on WebBook3.dvi (1180 pages, 3036136 bytes).
