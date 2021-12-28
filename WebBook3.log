@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  28 JAN 2020 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  28 DEC 2021 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3168,10 +3168,15 @@ File: EPSfiles/c14.eps Graphic file (type eps)
  <EPSfiles/c14.eps> [796] [797] [798] [799
 
 ]
+
+LaTeX Warning: File `EPSfiles/chinesecompass.eps' not found on input line 69.
+
 l. 69 Writing WebBook3.idv[371] (WebBook3370x.png)
+l.69 --- TeX4ht warning --- File `EPSfiles/chinesecompass.eps' not found ---
+l.69 --- TeX4ht warning --- Cannot determine size of graphic in EPSfiles/chines
+ecompass.eps (no BoundingBox) ---
 File: EPSfiles/chinesecompass.eps Graphic file (type eps)
- <EPSfiles/chinesecompass.eps>
-[800
+<EPSfiles/chinesecompass.eps> [800
 
 ] [801
 
@@ -4050,12 +4055,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
 ### simple group (level 1) entered at line 569 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14931 strings out of 493090
- 214062 string characters out of 6134868
- 667280 words of memory out of 5000000
- 17818 multiletter control sequences out of 15000+600000
+ 14945 strings out of 493090
+ 214160 string characters out of 6134868
+ 667308 words of memory out of 5000000
+ 17832 multiletter control sequences out of 15000+600000
  17276 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,43p,2567b,4760s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on WebBook3.dvi (1180 pages, 3036136 bytes).
+Output written on WebBook3.dvi (1180 pages, 3036104 bytes).
